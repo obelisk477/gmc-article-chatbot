@@ -1,0 +1,184 @@
+ Set up regionsRegions are used to create custom areas within the countries. The areas can be used to set shipping costs, transit time, or Regional availability and pricing, depending on the availability for your country.
+
+
+  
+    
+      Country
+      Regional availability and pricing*
+      Shipping cost and transit times based on custom areas
+    
+  
+  
+    
+      Australia
+      Available
+      Available
+    
+    
+      Brazil
+      Available
+      Available
+    
+    
+      Canada
+       
+      Available
+    
+    
+      France
+      Available
+      Available
+    
+    
+      Germany
+       
+      Available
+    
+    
+      India
+       
+      Available
+    
+    
+      New Zealand
+       
+      Available
+    
+    
+      Russia
+      Available
+       
+    
+    
+      United Kingdom
+       
+      Available
+    
+    
+      United States
+      Available
+      Available
+    
+  
+
+
+ 
+
+Creating custom areas is not the only way to set shipping costs for specific areas within the countries. You may also specify states, regions, territory, or prefectures depending on the countries using the advanced shipping cost settings. Learn more about setting up shipping settings.
+
+*The table excludes beta countries.
+
+
+  Example
+
+    If you’re located on the east coast of the United States, you may notice higher costs and extended transit times when shipping orders to the west coast. To account for these higher costs and extended transit times, you could set up a specific region for the west coast, and associate a longer transit time and higher shipping rate on deliveries to that region.
+  
+
+
+Instructions
+
+
+  Create a new region
+
+  
+    
+
+    
+      Click the tools icon  .
+      Select Regions under “Tools”.
+      Click the plus button  to create a new region.
+      Enter values for “Region ID”, “Region name”, and “Country”.
+        
+          This region ID needs to be unique for each region and must be numeric (minimum 6 digits) if you intend to use regional overrides.
+          The region name helps you identify the geographical area you want to include in your region.
+          Use the drop-down menu beside “Country” to select which country this region will apply to.
+        
+      
+      Create your region using postal codes or states (depending on the availability for your country).
+        
+          Use a ZIP or postal code (for example, 94043).
+          Use a range of postal codes (for example, 94002-95460).
+          Use a range of postal codes using a prefix with a wildcard ( * ) (for example, 94*).
+          Use a range of postal codes using 2 prefixes with wildcards ( * ) (for example, 94*-95*).
+            
+              For Brazil
+
+              
+                
+                  Use codes before the hyphen (for example, if the postal code is 30260-070, use 30260).
+                  Use a range of postal codes (for example, 04538-30260).
+                  Use a range of postal codes using a prefix with a wildcard ( * ) (for example, 30*)
+                  Use a range of postal codes using 2 prefixes with wildcards ( * ) (for example, 30*-31*)
+                
+              
+            
+
+            
+              For Canada
+
+              
+                
+                  Use the postal code Forward Sortation Area (FSA) identifier. Don’t include Local Delivery Unit (for example, M5H).
+                  Use a range of FSAs using a prefix with a wildcard ( * ) (for example , K*).
+                
+              
+            
+
+            
+              For the United Kingdom
+
+              
+                
+                  Use the outward code (for example, if the postal code is N1C 4AG, use N1C).
+                  Use a range of outward codes (SW1A-SW1Y).
+                  Use a range of outward codes using an area code with a wildcard ( * ) (for example, N*). Include the full area without partial district code before *. For example, N* covers Northern London (N1 - N22), but not other area codes starting with N. For the North Western postcode area, you need to provide NW*.
+                
+              
+            
+          
+          Otherwise choose the administrative region available for your country.
+          Click Add.
+        
+      
+      Click Save to finish creating the region.
+    
+  
+
+
+
+  Edit a region
+
+  
+    
+
+    
+      Click the tools icon .
+      Select Regions under “Tools”.
+      To add or change the region name, click the text in the “Region name” column and edit the “Region name” field.
+      To edit postal codes:
+        
+          Add new codes just like you did when you created the region, with one range per line. Click Add postal codes.
+          To remove a postal code, click the X next to it or click Clear all to remove all postal codes.
+        
+      
+      Click Save to finish editing the region.
+    
+  
+
+
+
+  Remove a region
+
+  
+    
+
+    Before you can remove a region make sure that it's no longer used with any of the available services.
+
+    
+      Click the tools icon .
+      Select Regions under “Tools”.
+      Click the trash icon  next to the name of the region in the “Region name” column, and then click Confirm.
+    
+  
+
+             Was this helpful?How can we improve it?YesNoSubmit       

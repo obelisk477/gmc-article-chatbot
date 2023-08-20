@@ -1,0 +1,187 @@
+ About landing page requirements
+
+A landing page is where the customer is sent after clicking on your product. When a landing page doesn’t match your ad or free product listing, people are more likely to leave your site without buying anything.
+
+This article explains the definition, requirements, and best practices for landing pages linked from your products. Following these guidelines can help you find more customers and provide a positive experience on your website.
+
+On this page
+
+
+  How to submit your landing page
+  Minimum requirements
+  Best practices
+  Additional guidelines
+
+
+
+  
+    Keep in mind
+
+    The success of Shopping ads and free listings and our retail partners is based on providing a high-quality experience that allows customers to confidently conduct their research. They trust that when they follow a link to a retailer, they'll find a product that matches the ad or listing.
+  
+
+
+
+How to submit your landing page
+
+The landing pages linked from your products are defined by the URLs you submit with these attributes:
+
+
+  Use the link [link] attribute to send users to the default landing page for your product.
+  Use the mobile link [mobile_link] attribute to send users to a mobile-optimized version of your landing page. This version will be shown to users on mobile devices, like phones or tablets.
+  Use the ads redirect [ads_redirect] attribute to include tracking parameters, which can help you better understand traffic to your landing page. This field can be used to specify both mobile and non-mobile landing pages, using the {ifmobile:value} and {ifnotmobile:value} ValueTrack parameters.
+
+
+
+Minimum requirements
+
+To show ads and free listings for your product, all landing pages that you submit need to follow the minimum requirements. Landing pages that don't follow these requirements will cause your products or account to be disapproved. You'll view alerts for any issues in your Merchant Center account.
+
+Show your product clearly
+
+
+  Submit a landing page that shows all key elements of your product, and ensure those details match what you submitted in your product data. These elements include title, description, image, price, currency, availability, and a buy button. Title, description, and images don’t always need to be identical to the content in your product data, but they still should refer to the same product.
+
+
+
+
+  Each product featured in your product data should be the most prominent product on its linked landing page. If your landing page has multiple products on it, such as variants or similar items, the product in your product data must be the most prominent. For example, category pages or search pages aren't allowed.
+
+
+
+
+
+
+
+  Clearly show the product price on the landing page. The price should be easy to view, and should match your product data. If your landing page has multiple prices, such as other variants, original currency, or promotional prices, the additional prices should be clearly differentiable from the advertised base price. Learn more about the Price [price] attribute.
+
+
+
+
+
+  Avoid layouts that hide key elements of the page. For example, a pop-up or download banner shouldn't cover important information for your customers.
+  Use legally-required redirects. For certain products, local laws may require that your customers land on a separate page before your landing page. For example, you may need to verify a user's age before they can access your site. After users get past this page, make sure your landing page meets all the same guidelines described here. If you show a pop-up on your landing pages, such as for newsletter signups or language preferences, make sure the boxes can be closed and aren't blocking product details.
+
+
+
+
+
+  Make sure your landing pages always match your products. Show a product on your landing page that is essentially identical to the product in your product data, regardless of the user’s device, browser, location, cookies, your ad targeting choices, or any other consideration.
+
+
+Provide a consistent user experience
+
+
+  
+    Example 
+
+    Imagine that you’re a furniture retailer based in the United States. You target the US in your ad campaign, and submit prices in US dollars and use English in your product data.
+
+    You’re advertising a couch. If your landing page is visited from Germany, the page must show the same couch, including all key elements of the product.
+
+    Specifically, the landing page must:
+
+    
+      Display a picture of the couch
+      Contain a buy button
+      Use the same availability, and price
+      Use English language
+      Use US Dollars (USD) 
+    
+  
+
+
+
+  Keep content on your landing page consistent for all locations.
+
+    
+      Note: Stable landing page requirements apply only to users coming to your website from Shopping ads, and not from other traffic sources such as organic search results or text ads.
+    
+  
+  Show the same language as your product data. Even if multiple languages are supported in your target country, display the product on your website in the language that matches what you submitted in your product data. For example, if you’re targeting Canada, you can’t submit your product data in English and show your landing page in French. Learn more about Supported languages and currencies.
+  Show the price in the currency of the product data. Always show the currency that matches your product data on your landing page. If you don’t support a specific currency on your landing page but want to advertise in a country that only accepts this currency, you may be able to use currency conversion. This allows Google to do an automatic conversion and show the price in your ads in both the currency from your product data, and the target country currency. Learn more About currency conversion.
+  Show the same price in the entire target country, unless regional availability and pricing are available in that country.
+  Make sure availability matches your product data, and that products can successfully be added to a cart and delivered to a customer. For example, if a product is out of stock on your landing page, then update the availability [availability] attribute in your product data to match. That way, users won't try to purchase a product that you don't have in stock.
+  Make sure that the availability date matches your product data, and that the availability date is shown clearly on the product’s landing page. For example, if the availability date [availability_date] attribute for a product is set to 2023-05-06T13:00-0800, then update the product’s landing page on your website to "May 6, 2023". If an exact availability date can’t be provided, then add an estimated date (for example, “May 2023”).
+  Make sure the product condition matches your product data. For example, if a product is shown as "used" on your landing page, then submit used for the condition [condition] attribute.
+  Comply with local regulations for all pricing and other information you submit and display.
+
+
+Make sure your pages are working correctly
+
+
+  Make sure your landing page is live, and that it isn’t under construction or displaying an error, like a 404 error. If you're planning to work on your landing page while your Shopping ads are running, follow the best practices for landing page maintenance or a planned site outage.
+  Use a landing page, not a file or email. Avoid linking to an image, an audio file, a video, document, or PDF.
+  Use a mobile landing page for mobile devices and tablets. Don’t include design elements that may not work properly for all mobile devices, like Flash, Silverlight, or ActiveX.
+  Let people use the back button to return to your ad. Make sure users can click the browser back button to return to the previous page where they clicked your ad.
+  Only link to the domain from your Merchant Center account. Don’t redirect people to another website outside of the domain you claimed in your Merchant Center account.
+
+
+
+Best practices
+
+
+  Pre-select the correct product variant in your landing page URL. If a product has variants (like color, size, pattern, material, or other customizations), make sure the variant that matches product data is the one that appears on your landing page by default. 
+
+
+
+  Add product information into static HTML (HTTP response). Include product information, particularly price and availability, in the HTTP response whenever possible. This allows us to avoid fetching the information that’s required for rendering the webpage and reduces the load on your server. Using the saved resources on your server, you can make frequent updates to your product data. This will improve the quality of users’ experience and the performance of your products.
+  Use schema.org structured data to indicate price, availability, and unique product identifiers such as GTIN, brand, and MPN. Structured data markup helps our system collect up-to-date information directly from your website. If your website uses structured data, the requirements about price, availability, currency and condition apply to your site as well. Learn more About structured data markup.
+  Set up automatic item updates to help reduce price and availability mismatches. With structured data, automatic item updates help you provide accurate content in your Shopping ads, and can help your products stay approved.
+  Use the mobile link [mobile_link] attribute in addition to the link [link] attribute to use separate landing pages for mobile devices. Learn more about the Mobile link [mobile_link] attribute.
+  Track traffic from your Shopping ads with the ads redirect [ads_redirect] attribute and Google Ads tracking templates. Use the {ifmobile:value} and {ifnotmobile:value} parameters to differentiate between mobile and non-mobile landing pages or to differentiate between mobile and non-mobile ads tracking. Learn more about Setting up tracking with ValueTrack parameters.
+  Use as few redirects as possible. Redirects increase the time between a person clicking your ad and loading your landing page. Long loading times may be inconvenient, and could prevent Google from getting information from your website.
+
+
+
+Additional guidelines
+
+For the product types below, review each section and follow the guidelines to make sure your landing pages can provide the best purchase experience for your customers. You'll view alerts for any issues or disapprovals in your Merchant Center account.
+
+
+  Products sold in bulk
+
+  
+    
+      List either the total price for the minimum number of items sold or the price per unit and the minimum quantity on your landing page. The minimum quantity multiplied by the unit price must match the price you submit in your product data.
+    
+  
+
+
+
+  Software subscriptions
+
+  
+    
+      Show each subscription variant on a separate landing page. For example, if your software has 3 versions (basic, premium, and enterprise), then make sure each version has its own landing page.
+      Highlight and pre-select the price for the full length of the software subscription, with a minimum of 1 year.
+      Clearly explain the following information in your terms of renewal and cancellation:
+        
+          Whether the product is for a fixed term or automatically renewed
+          The cancellation options
+          The conditions for auto-renewal at end of the prepaid period.
+        
+      
+    
+
+    Learn more about requirements and best practices for advertising software subscriptions.
+  
+
+
+
+  Mobile phones or tablets
+
+  
+    
+      Pre-select phone variants using URL parameters. When multiple phone variants can be selected on the same landing page, you can set up your URLs to show the right one to your customers. For example, variants might include color options, storage, pricing models. Note that URL parameters aren't required, but they're helpful in getting users to the right page.
+      Use the correct structured data when showing variants. Structured data for variants can help make sure your landing page is crawled correctly.
+    
+
+    
+      Note: Structured data isn't required, but it makes it easier for you to keep your product data fresh.
+    
+
+    Learn more about requirements and best practices for advertising mobile phones.
+  
+
+             Was this helpful?How can we improve it?YesNoSubmit       

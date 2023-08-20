@@ -1,0 +1,165 @@
+ Use automated feeds to build your product data
+
+
+  
+    If you’re looking for information about adding your products from your online store in Merchant Center Next, click here.
+  
+
+
+
+Automated feeds make it easier to send your product data to Google. This data helps customers find information about your products across various Google touch points, so you can reach new customers on a global scale.
+
+This article explains how to submit and manage your product data using automated feeds in Merchant Center.
+
+On this page
+
+
+  How it works
+  Configure automated feeds (Standard Experience)
+  How to manage added product data (Standard experience)
+  Configure automated feeds (Alternative Experience)
+  How to manage added product data (Alternative experience)
+
+
+
+How it works
+
+Automated feeds rely on a feature called website crawl, which uses structured data and sitemap information to extract the most up-to-date information about relevant products from your website.
+
+In order for those website crawls to work for automated feeds, you'll have to add schema.org structured data markup to all product landing pages on your website. Learn more About structured data markup for Merchant Center.
+
+To use automated feeds, the following attributes are required:
+
+
+  title [title]
+  price [price]
+  availability [availability]
+  image link [image_link]
+
+
+If you’d like to enrich the data Google discovers from your website, you can also upload a supplemental feed or provide additional details via structured data markup, for example:
+
+
+  GTIN [gtin]
+  brand [brand]
+  MPN [mpn]
+  size [size]
+  color [color]
+  description [description]
+  condition [condition]
+
+
+Google also reads your website's sitemaps to comprehensively crawl your site. Learn more about Sitemaps.
+
+
+  Note: We're always working on ways to improve our products, and this includes experimenting with how website crawl feeds are managed in Merchant Center. Therefore, some merchants may find an alternative website crawl feed experience.
+
+
+
+Standard Experience
+
+Configure automated feeds
+
+After you've added structured data markup to your site, the feed input method "website crawl" will become available in your Merchant Center account when you are creating a new primary feed. Learn more about how to Upload a feed.
+
+
+  In your Merchant Center account, click the Products drop down menu from the left side navigation panel.
+  Click Feeds.
+  Click the Product feeds tab at the top of the page.
+  Click to create a new primary feed.
+  Configure your feed and select “website crawl” as the input method.
+
+
+If you don't find "website crawl" as the input method in your Merchant Center account, make sure:
+
+
+  Your structured data markup is correctly implemented for all required attributes.
+  You have removed or don't currently have a feed in your account.
+  Your account is not suspended.
+  You have the correct robots.txt settings, and Googlebot is not blocked. Learn more about How to fix: Desktop page not crawlable due to robots.txt.
+
+
+If you have another feed in your Merchant Center account but you don’t yet have an active campaign (no 30-day impressions), you will also have the option to use automated feeds.
+
+
+  Tip: If you’d like to show your products in Shopping ads, you’ll also need to:
+
+    
+      Link your Merchant Center and Google Ads accounts. Learn more about how to Link a Google Ads account to Merchant Center.
+      Build a campaign in your Google Ads account. Learn more about how to Create a Performance Max campaign in Merchant Center.
+    
+  
+
+
+
+How to manage automatically added product data
+
+After automated feeds are active and using the "website crawl" input method, you can monitor your product data in Merchant Center on the "All products" page. You can also resolve data quality issues on the "Diagnostics" page, or review recommendations for improvements on the "Opportunities" page. Your data will be refreshed regularly, depending on the traffic that your website receives from Google.
+
+You can also update your product data in Merchant Center using supplemental feeds as often as you like. Supplemental feeds provide additional information to your feed, and you can refresh these supplemental feeds more often or send additional details that are not part of your primary feed. Learn more about how to Create a feed.
+
+
+  Note: If your offers require frequent price changes, we recommend using the Content API.
+
+
+To make broad changes across your product data, we recommend using feed rules. Learn more about how to Set up feed rules.
+
+
+To remove a product from an automated feed:
+
+
+  To disable future crawling of the product to remove it completely from Merchant Center, use the structured data markup to tag the product’s availability as “discontinued”.
+  If the product should no longer be indexed by Google, add a "noindex" metatag to the product landing page. This will remove the page from all Google experiences, including web search.
+
+
+You can also control where a product can serve by using excluded destination [excluded_destination] attribute in the supplemental feed.
+
+
+Alternative Experience
+
+The experience below is available to a subset of merchants only.
+
+Configure automated feeds
+
+After you’ve added schema.org structured data markup to all product landing pages on your website and verified and claimed your website URL, your product data will be automatically added to your Merchant Center. You can manage what data is added via the Feeds tab. Learn more About structured data markup for Merchant Center.
+
+
+  In your Merchant Center account, click the Products drop down menu from the left side navigation panel.
+  Click Feeds.
+  Click the Product feeds tab at the top of the page.
+  At the top of the “Product feeds” tab, there will be a “Website” feed.
+  The “Website” feed can be either turned on or off:
+    
+      Turned on: Products found on your website will be added to your Merchant Center account.
+      Turned off: Products found on your website will not be automatically added to your Merchant Center account, or if crawled products have already been added, they will be removed.
+    
+  
+
+
+Adding or removing “Website” feed products from Merchant Center can take up to 4-8 hours to complete.
+
+If you have other data sources (for example, file-based data feeds) in your Merchant Center, then the “Website” feed will not duplicate products and only contain additional products found on your website.
+
+
+  Note: If you have other data sources (for example, file-based data feeds) in your Merchant Center, then the “Website” feed will not duplicate products and only contain additional products found on your website.
+
+
+
+How to manage automatically added product data
+
+After products have been automatically added via the “Website” feed, you can monitor your product data in your Merchant Center account on the "All products" page. You can also resolve data quality issues on the "Diagnostics" page or review recommendations for improvements on the "Opportunities" page. Your data will be refreshed regularly, depending on the traffic that your website receives from Google.
+
+You can also use supplemental feeds to augment the product information added to Merchant Center via the “Website” feed. Supplemental feeds provide additional information to your feed, and you can refresh these supplemental feeds more often or send additional product details that haven’t been added via the “Website” feed. Learn more about how to Create a supplemental feed.
+
+Feed rules aren’t currently available for the “Website” feed in the alternative automated experience.
+
+
+Related links
+
+
+  About automatic item updates
+  About structured data markup for Merchant Center
+  About Shopping ads
+  Show your products for free on Google
+
+             Was this helpful?How can we improve it?YesNoSubmit       

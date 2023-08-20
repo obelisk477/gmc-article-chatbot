@@ -1,0 +1,25 @@
+ About automatic website verification
+
+Merchant Center is able to automatically verify and claim some retailer websites during the account setup process.
+
+How it works
+
+If Google already has the information it needs to verify your site (for example, if you use Google Analytics on your site), you’ll see a notification letting you know that your website has been automatically verified after you enter your site’s address on the “Business information” page.
+
+In some cases, you’ll also receive an email from Search Console, a Google tool, letting you know that Merchant Center has created an account for you. Merchant Center verifies your site through Search Console.
+
+
+  You can log in to Search Console anytime to review your account’s verification settings and users, or to explore its Google Search optimization and performance tools.
+
+
+Troubleshooting
+
+If automatic verification fails at any point, you’ll see a notification in the UI inviting you to verify and claim manually. Learn how to verify and claim your store’s website
+
+Related links
+
+
+  Verify and claim your store’s website
+  Troubleshoot your URL verification and claim
+
+             Was this helpful?How can we improve it?YesNoSubmit       

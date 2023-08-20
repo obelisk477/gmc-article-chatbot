@@ -1,0 +1,282 @@
+ Misrepresentation
+
+
+  This policy applies to free listings. Learn more about Shopping ads policies.
+
+
+
+Our policy
+
+
+  
+    
+      
+        
+        
+          Google doesn't want customers to feel misled by the content in your free listings, and that means being upfront, honest, and providing them with the information that they need to make informed decisions. For this reason we don’t allow the following:
+
+          
+            Listings that prompt customers to initiate a purchase, download, make another commitment without first providing all relevant information and obtaining the customer’s explicit consent
+            Listings that represent you or your products in a way that is not accurate, realistic, and truthful
+          
+
+          Learn more about Building trust with your customers
+        
+        
+      
+    
+  
+
+
+Examples of what's not allowed
+
+
+  
+    
+      
+        
+        Omission of relevant information
+        
+      
+    
+  
+
+
+
+   Failure to clearly and conspicuously disclose the payment model and full expense that a customer will bear before and after purchase
+  
+    Examples: Pricing of products (total price, currency) may depend on additional conditions impacting the total cost for the customer i.e. auction pricing, membership fees, contract, payment schemes, additional purchase requirement, creating additional undisclosed payment obligations during payment processing
+      See the Product data specification attributes on availability, price, tax and shipping for specific guidelines to comply with this policy
+  
+  
+
+
+
+   Failure to clearly and conspicuously disclose all related conditions before and after purchase
+  
+    Examples: Missing merchant terms and conditions or shipping information. Return and refund policy that is unclear, missing, or not easily discoverable.
+  
+  
+
+
+
+   Omitting material information when promoting content as benefiting a charitable or political organization
+  
+    Examples: Failing to display a charity or tax exemption number for charitable donations; failing to disclose whether political donations are tax exempt or not
+  
+  
+
+
+
+  
+    
+      
+        
+        Unavailable listings
+        
+      
+    
+  
+
+
+
+   Promising products or promotional offers that aren’t available for customers
+  
+    Examples: Listing products that are not stocked, promoting a deal that is no longer active, call-to-action in promotion that isn't easily achievable from the landing page
+      See the Product data specification attributes on availability and price for specific guidelines to comply with this policy
+  
+  
+
+
+
+  
+    
+      
+        
+        Misleading or unrealistic listings
+        
+      
+    
+  
+
+
+
+   Making false statements about your identity, qualifications, or the listed product
+  
+    Examples: Claiming to be a certified reseller of goods when not actually certified, using a brand name to drive traffic to a different product on the site
+  
+  
+
+
+
+   Using false claims or claims that entice the customer with an improbable result (even if this result is possible) as the likely outcome that a customer can expect
+  
+    Examples: ‘Miracle cures’ for medical ailments; extreme weight loss products
+  
+  
+
+
+
+   Falsely implying affiliation with, or endorsement by, another individual, organization, product, or service
+  
+    Examples: Misleading use or mimicry of official government sites, stamps, seals, or agency names
+  
+  
+
+
+
+   Listings promoting harmful health claims, or content that relates to a current, major health crisis and contradicts authoritative scientific consensus
+  
+    Examples (non-exhaustive): Anti-vaccine advocacy; denial of the existence of medical conditions such as AIDS or Covid-19; gay conversion therapy
+  
+  
+
+
+
+   Making claims that are demonstrably false and could significantly undermine participation or trust in an electoral or democratic process
+  
+    Examples (non-exhaustive): Information about public voting procedures, political candidate eligibility based on age or birthplace, election results, incorrect claims that a public figure has died, or been involved in an accident
+  
+  
+
+
+
+  
+    
+      
+        
+        Unacceptable business practices
+        
+      
+    
+  
+
+
+
+   Concealing or misstating information about the business or product
+  
+    Note that we may review information from multiple sources, including promotion, website, accounts, and 3rd-party sources, in determining whether a merchant or site is untrustworthy
+    Examples: Enticing customers to part with money or information under false or unclear pretenses; presenting a false identity, business name, or contact information; charging customers for products typically available for free; ‘phishing’ for customers' information
+  
+  
+
+
+
+  
+   Scamming customers by concealing or misstating information about the merchant’s business, or product, or service
+
+  
+    Examples: Impersonating brands or businesses by referencing or modifying the brand content in the listings, URL, destinations or misrepresenting yourself as the brand or business in customer interactions
+    Examples: Enticing customers to part with money or information through a fictitious business that lacks the qualifications or capacity to provide the listed products 
+  
+  
+
+
+
+  
+   Offer destinations that use “phishing” techniques to gather customer information
+
+  
+    Examples: Sites that trick customers into revealing their personal information by mimicking a trusted retailer
+  
+  
+
+
+
+  
+    We may take action on your account based on, for example, adverse regulatory warnings, settlements or rulings about a merchant’s business practices, or direct complaints from businesses and other entities about impersonation.
+
+    We take violations of this policy very seriously and consider them egregious. An egregious violation of our policies is a violation so serious that it is unlawful or poses significant harm to our customers. In determining whether a merchant or destination is violating this policy, we may review information from multiple sources including your product, website, accounts, and third-party sources. If we find violations of this policy, we will suspend your Merchant Center account upon detection and without prior warning, and you will not be allowed to participate in listing content with us again.
+    If you believe there's been an error, and that you haven’t violated our policy, you can submit an appeal and explain why (using the link at the bottom of this page). We only reinstate accounts in compelling circumstances, and when there is good reason, so it's important that you take the time to be thorough, accurate, and honest.
+
+
+
+What you can do
+
+Here's what you can do if your product is disapproved or if your Merchant Center account is impacted:
+
+
+Product disapproval
+
+  Products that don't comply with our policies may be disapproved. When a product is disapproved, it won't be eligible to serve. 
+
+  
+    Read our policies to learn what we don't allow.
+    Update your website. If your ad or listing leads to content that violates a policy, update your website to meet the requirements and be in compliance with our policies.
+    Remove the violating products from your product data. You’ll receive an email with details about the violation. 
+      
+        If you have products in your product data that violate the policy (or policies), you'll need to remove the offers from your feed.
+      
+    
+    Update your product data in Merchant Center. If you created a schedule for automatic uploads, update your product data manually or wait for your product data to be automatically updated before requesting any reviews.
+    Request a review of your products or appeal the decision taken on this issue.
+      
+        If the violating products are removed, you won't need to request a review or take any additional action.
+        If you fix your product-level issues by editing your product data via your chosen upload method (such as a file) or directly in Merchant Center, your products will be re-reviewed.
+        For certain issues, you can disagree with the issue but you may need to complete additional steps such as provide an appeal reason and/or upload required documentation.
+        If you use a third-party platform to list your products, you can refer to your third-party if you want to request a review. You won’t be able to do this in Merchant Center.
+        If a review or appeal is successful, the issue will disappear from Merchant Center.
+      
+    
+  
+
+
+
+Account disapproval
+
+  For most violations, we'll send you a warning email detailing the policy violation and give you 7 or 28 calendar days to fix your issue.
+
+  
+    Read our policies to learn what we don't allow.
+    Update your website. If your ad or listing leads to content that violates a policy, update your website to meet the requirements and be in compliance with our policies.
+    Remove any violating products from your product data. You’ll receive an email with details about the violation. If you have products in your product data that violate the policy (or policies) you'll need to remove the offers from your feed.
+    Update your data in Merchant Center. 
+      
+        Review your account and submit any missing information or complete any unfinished steps. 
+        If you created a schedule for automatic uploads, update your product data manually or wait for your product data to be automatically updated before requesting any reviews.
+      
+    
+    Request a review of your account or appeal the decision taken on this issue.
+      
+        If your account is still within the warning period, it will automatically be reviewed again at the end of the warning period. If the violating products are removed, you won't need to request an account review or take any additional action.
+        If your account is suspended and you've taken actions to resolve the issue, request an account review.
+        For certain issues, you can disagree with the issue but you may need to complete additional steps such as provide an appeal reason and/or upload required documentation.
+        If you use a third-party platform to list your products, you can refer to your third-party if you want to request a review. You won’t be able to do this in Merchant Center.
+      
+    
+  
+
+  Most accounts are reviewed within 3 business days, but it can take longer if a more complex review is needed. If we find that you've removed the violating products from your product data, we’ll remove the warning. If a review or appeal is successful, the issue will disappear from Merchant Center. In the case of account suspension, we'll then also approve your account so your products can start displaying again.
+
+
+
+Account issue that limits product visibility
+
+  Your account has an issue and is operating with reserved functionality, therefore your products have limited visibility. An email was sent with a notice on what to do and the steps needed to resolve your account issue.
+
+  
+    Read our policies to learn more about our requirements.
+    Update your website. If your ad or listing leads to content that violates a policy, update your website to meet the requirements and be in compliance with our policies.
+    Fix any other open policy violation in your account. Review your products and your account details. 
+      
+        If products aren’t supported, remove them from your feed.
+        If account details are missing, complete them in Merchant Center. 
+      
+    
+    Request a review of your account or appeal the decision taken on this issue.
+      
+        If your Merchant Center account is still within the warning period for certain policies, it will automatically be reviewed again at the end of the warning period. 
+        If your account is affected and you've resolved the issue, request a Merchant Center account review.
+        For certain issues, you can disagree with the issue but you may need to complete additional steps such as provide an appeal reason and/or upload required documentation.
+        If you use a third-party platform to list your products, you can refer to your third-party if you want to request a review. You won’t be able to do this in Merchant Center.
+      
+    
+  
+
+  Most accounts are reviewed within 3 business days, but it can take longer if a more complex review is needed. If we find that you've removed the violating products from your product data, we’ll remove the warning. If a review or appeal is successful, the issue will disappear from Merchant Center. In the case of accounts with limited visibility, we'll then also approve your account so your products can start displaying again without any restrictions.
+
+
+ 
+
+To ensure a safe and positive experience for customers, Google requires that retailers comply with all applicable laws and regulations in addition to our policies. It's important that you familiarize yourself with and keep up to date on these requirements for the place where your business operates, as well as for any other places your listings are shown. When we find content that violates these requirements, we may block it from appearing. In cases of repeated or egregious violations, we may ban you from listing content with us.
+             Was this helpful?How can we improve it?YesNoSubmit       

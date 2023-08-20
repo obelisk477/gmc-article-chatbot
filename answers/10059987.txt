@@ -1,0 +1,20 @@
+ Add additional target countries to a feed
+
+You can add additional target countries to your feed to show your products to multiple countries. Use this option if you expect your products to remain the same for multiple countries (and don’t want to create a separate feed).
+
+
+  Sign in to your Merchant Center account.
+  Select Products in the navigation menu.
+  Select Feeds.
+  Select a feed.
+  On the next page, select the Settings tab
+  Expand the Target countries, language, and destinations section.
+  Select the pencil icon next to a target country.
+  In the “Edit countries” box, select additional target countries.
+  Click Save.
+
+
+To remove a country, de-select the country in the “Edit countries” box and click Save. If you need to exclude a country from specific products in your feed, you can use the excluded countries for Shopping ads [shopping_ads_excluded_country] attribute.
+
+You can also remove a feed label from your feed.
+             Was this helpful?How can we improve it?YesNoSubmit       

@@ -1,0 +1,59 @@
+ About performance reporting for marketplaces in Merchant Center
+
+Merchant Center offers different ways to find out how ads and free product listings are performing. This key data can help retailers decide what strategy will work best for getting their products in front of the right audiences. This article explains how marketplaces can access an aggregated view of their merchants’ performance data.
+
+Ensure Merchant Center has access to tracking data
+
+Before it can start creating performance information for marketplaces, Merchant Center needs to be able to see tracking data from ads and free listings.
+
+This can be done by using a Google Ads account, or by adding selected attributes to Merchant Center feeds. Learn more about tracking product performance
+
+Where to view marketplace performance data
+
+
+  To see an aggregated view of data, click Performance and then Dashboard in the left-hand navigation menu. Use the tab above the dashboard to navigate through performance data across programs.
+
+
+Types of performance metrics
+
+
+  
+    This section describes metrics for ads, free listings and free local listings. Learn more about Buy on Google reporting
+  
+
+
+Clicks
+
+We report clicks if they lead to visits to a website (desktop landing pages, mobile landing pages, or apps). For free local listings, we also count the clicks to merchant- or Google-hosted local storefronts. These are clicks on product links in product data feeds.
+
+Impressions
+
+Impressions count how often products are shown. An impression is counted each time a Shopping ad, free listing, or free local listing is shown. We only count impressions where customers had the option to visit a website.
+
+If products show zero impressions, then merchants should verify the products are approved and wait for a few days for impressions to show up. Impressions may also not show if they are below a minimum threshold.
+
+Clickthrough rate (CTR)
+
+Clickthrough rate (CTR) describes how often people who see a Shopping ad, free listing, or free local listing end up clicking on it.
+
+
+  CTR is the number of clicks that a listing receives divided by the number of times it’s shown: clicks ÷ impressions = CTR.
+    
+      For example, if there were 5 clicks and 100 impressions, then the CTR would be 5%.
+    
+  
+
+
+
+  Note: Performance metrics data is available beginning June 1, 2021.
+
+
+Related links
+
+
+  About marketplaces
+  Track your product performance
+  About performance reporting for free product listings
+  About performance reporting in Merchant Center
+
+             Was this helpful?How can we improve it?YesNoSubmit       

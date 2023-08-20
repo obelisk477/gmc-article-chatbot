@@ -1,0 +1,63 @@
+ Provide high-quality data
+
+
+  If you’re looking for information about providing high-quality data in Merchant Center Next, click here. 
+
+
+
+If you want to attract people to your products and help them make well-informed purchases, it’s important that you provide accurate, high-quality product data. You can give your customers a smooth shopping experience by ensuring that your Shopping ads, free product listings, and your website show the same information about your products.
+
+On this page
+
+
+  Provide accurate and comprehensive data
+  Provide up-to-date data
+  Provide verifiable data
+
+
+
+Provide accurate and comprehensive data
+
+People often have a specific goal in mind when they’re looking through products in Shopping ads or listings. In order to show the most relevant products to the right customers, Shopping ads and listings need to have up-to-date and accurate information about your products.
+
+To ensure accurate and comprehensive data, submit all the required attributes listed under product data specification that are applicable to your products. Also include as many recommended attributes as possible. Providing all relevant attributes for a product increases its chances of showing for the most relevant search queries.
+
+
+  All of your products and information must meet the requirements outlined in the Shopping ads policies. We may suspend products that don’t meet these standards and requirements.
+
+
+Google Ads Help: Improve Your Feed
+
+For subtitles in your language, turn on YouTube captions. Select the settings icon  at the bottom of the video player, then select "Subtitles/CC" and choose your language.
+
+
+
+
+Provide up-to-date data
+
+A person who comes to your website from one of your Shopping ads or listings expects that the price and availability information on your website will be the same as the information shown in your ads and listings. For example, if a product is listed as being "in stock" in your Shopping ads or listings, the person expects to be able to buy that product, and may be disappointed if it's not actually available for purchase. For these reasons, we regularly check your website to ensure that the information you provided matches the information on your website. If your website information doesn't match the data that you provide, we may disapprove your products.
+
+Here are some tips for providing up-to-date data:
+
+
+  Create your feed promptly after you've updated your database with the latest information, such as price and availability status.
+  Submit your Merchant Center product data at the same time as you update your website. For example, if you update your website every night at 2:30 AM, submit your feed at 2:30 AM. We usually update your information for existing products within minutes (see your Merchant Center Overview for details). If your website consists of several parts that are updated individually, create a feed for each of them and submit them at the appropriate time.
+  Enable automatic item updates. This feature reduces the risk of account-level suspension for price and availability mismatches and prevents product disapprovals due to crawling mismatch by extracting the latest product data from your website. Keep in mind that it's most appropriate for a small portion of inventory, and is not a replacement for up-to-date, accurate Merchant Center product data.
+  If using a third-party feed provider, pre-process the feed and upload it as soon as possible so the feed reflects changes made to the website.
+  Coordinate scheduled fetches with website updates. If you’ve set up your Merchant Center account for scheduled fetches, match the timing of the fetch to any regular updates on your website.
+  Use the Content API for Shopping (advanced) to send the most current price and availability information to Google. The Content API allows you to provide updates for individual products and update your data for Shopping ads and listings almost immediately. This occurs as soon as the product information changes in your own system. Learn more about Content API for Shopping
+
+
+
+Provide verifiable data
+
+Here are a few best practices that you can follow while structuring your website to allow for quick verification of your product data and to reduce the risk of product disapprovals and account-level suspensions:
+
+
+  Provide important product information directly in the HTTP response: You can submit price and availability information directly in the HTTP response for faster data verification. This also reduces the traffic on your servers during verification.
+  Use structured data markup to list the correct price and availability: Make sure that the structured data markup is displaying the price paid by the consumer, especially if it’s a sale price. Learn more about structured data markup for Merchant Center
+  Display only the final price on the product page: If your prices need to be displayed dynamically, don't display prices on the product page until the final price has been loaded. If other prices are displayed first on your product page, they may be interpreted as the correct price. You may use the URL Inspection tool to confirm that the product page is rendering as intended for the Shopping ads and free listings verification process.
+
+
+
+             Was this helpful?How can we improve it?YesNoSubmit       

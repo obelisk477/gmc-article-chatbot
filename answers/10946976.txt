@@ -1,0 +1,373 @@
+ Store pickup setup errors
+
+This page explains various reasons why Store pickup setups are rejected by Google and what steps can be taken to resolve the issues.
+
+Pickup today rejection reasons
+
+Missing pickup option: Display your omnichannel pickup options on your product landing page or in your checkout flow
+
+Your product landing pages and checkout flow don’t provide an option to place an order for pickup. Add a pickup option to your product landing pages or in your checkout flow. Follow the steps below:
+
+
+  Step 1: Update your product landing pages or checkout flow to display a store pickup option
+
+  
+    
+      If your product landing pages or checkout flow don’t offer an option to place an order for pickup, you will need to add that to your website pages.
+    
+  
+
+
+
+  Step 2: Resubmit your example product landing page
+
+  
+    
+      
+        Sign in to your Merchant Center account.
+        Click the tools icon and then select Local inventory ads setup under “Tools.”
+        Select your country and your merchant hosted local storefront setup.
+        In the “Pickup today” section, check the box labeled “My website allows shoppers to buy online and pick up in store”.
+        Resubmit your example product landing page URL for store pickup in the text box.
+        Click Save.
+        Google will conduct another eligibility review of your website.
+      
+    
+  
+
+
+Missing pickup availability: Display your omnichannel pickup availability on your product landing page or in your checkout flow
+
+Your product landing pages and checkout flow don’t provide store pickup availability. Add a store selector with the ability to show store pickup availability:
+
+
+  Pickup availability can be displayed after clicking on a link (for example: “check local availability”) or after submitting a postal code or address.
+  Store selection for pickup can occur in your checkout flow after a customer has added an item to their cart.
+  After a user clicks or inputs the required information, your site must display an item’s available pickup methods (“reserve online” or “buy online”) and an item’s Pickup SLA (“same day” or “next day pickup”). You must also display the location of the local store.
+
+
+
+  Step 1: Update your product landing pages or checkout flow to display store pickup availability
+
+  
+    
+      If your product landing pages or checkout flow don’t provide store pickup availability, you will need to add that to your website pages.
+    
+  
+
+
+
+  Step 2: Resubmit your example product landing page
+
+  
+    
+      
+        Sign in to your Merchant Center account.
+        Click the tools icon  and then select Local inventory ads setup under “Tools.”
+        Select your country and your merchant hosted local storefront setup.
+        In the “Pickup today” section, check the box labeled “My website allows shoppers to buy online and pick up in store”.
+        Resubmit your example product landing page URL for store pickup in the text box.
+        Click Save.
+        Google will conduct another eligibility review of your website.
+      
+    
+  
+
+
+Missing store selector: Ensure that your product pages allow users to select a store to check price and availability
+
+Your product landing pages don’t provide users the option to check a product’s pickup availability at various store locations. Add a store selector to your product landing pages or checkout flow. Follow the steps below:
+
+
+  Step 1: Add a store selector to your product landing pages or checkout flow
+
+  
+    
+      If your product landing pages or checkout flow don’t provide a store selector, you will need to add that to your website pages.
+    
+  
+
+
+
+  Step 2: Resubmit your example product landing page
+
+  
+    
+      
+        Sign in to your Merchant Center account.
+        Click the tools icon and then select Local inventory ads setup under “Tools.”
+        Select your country and your merchant hosted local storefront setup.
+        In the “Pickup today” section, check the box labeled “My website allows shoppers to buy online and pick up in store”.
+        Resubmit your example product landing page URL for store pickup in the text box.
+        Click Save.
+        Google will conduct another eligibility review of your website.
+      
+    
+  
+
+
+Missing pickup attributes: Submit the required attributes for pickup today
+
+Your primary and product inventory feeds don’t contain required attributes for the pickup today feature. Review the required attributes for pickup today and add these values to your feed. Values for pickup method [pickup_method] and pickup SLA [pickup_SLA] must be submitted in either your primary feed or product inventory feed. Learn more about the required attributes for pickup today with merchant hosted local storefront full or basic
+
+
+  Step 1: Check your primary feed
+
+  
+    
+      
+        Sign in to your Merchant Center account.
+        Select Products on the navigation menu, then click Feeds.
+        Select your primary feed.
+        Click Processing, then Download file.
+        Open your feed file and ensure that you are submitting values for pickup method [pickup_method] and pickup SLA [pickup_SLA]. Make sure that the pickup method and pickup SLA attributes are spelled correctly.
+      
+    
+  
+
+
+
+  Step 2: Check your product inventory feed
+
+  
+    
+      
+        Sign in to your Merchant Center account.
+        Select Products on the navigation menu, then click Feeds.
+        Select your product inventory feed.
+        Click Processing, then Download file.
+        Open your feed file and ensure that you are submitting values for pickup method [pickup_method] and pickup SLA [pickup_SLA]. Make sure that the pickup method and pickup SLA attributes are spelled correctly.
+      
+    
+  
+
+
+
+
+
+
+  Step 3: Add the required attributes to your primary feed or product inventory feed
+
+  
+    
+      
+        Add pickup method [pickup_method] and pickup SLA [pickup_SLA] to your primary feed or product inventory feed.
+        Resubmit your feed.
+      
+    
+  
+
+
+
+
+
+
+  Step 4: Resubmit your example product landing page
+
+  
+    
+      
+        Sign in to your Merchant Center account.
+        Click the tools icon  and then select Local inventory ads setup under “Tools.”
+        Select your country and your merchant hosted local storefront setup.
+        In the “Pickup today” section, check the box labeled “My website allows shoppers to buy online and pick up in store”.
+        Resubmit your example product landing page URL for store pickup in the text box.
+        Click Save.
+        Google will conduct another eligibility review of your website.
+      
+    
+  
+
+
+Pickup later rejection reasons
+
+Missing pickup option: Display your omnichannel pickup options on your product landing page or in your checkout flow
+
+Your product landing pages and checkout flow don’t provide an option to place an order for pickup. Add a pickup option to your product landing pages or in your checkout flow. Follow the steps below:
+
+
+  Step 1: Update your product landing pages or checkout flow to display a store pickup option
+
+  
+    
+      If your product landing pages or checkout flow don’t offer an option to place an order for pickup, you will need to add that to your website pages.
+    
+  
+
+
+
+  Step 2: Resubmit your example product landing page
+
+  
+    
+      
+        Sign in to your Merchant Center account.
+        Click the tools icon and then select Local inventory ads setup under “Tools.”
+        Select your country and your merchant hosted local storefront setup.
+        In the “Pickup later” section, check the box labeled “If a product isn’t in stock, ship to store is available”.
+        Resubmit your example product landing page URL for store pickup in the text box.
+        Click Save.
+        Google will conduct another eligibility review of your website.
+      
+    
+  
+
+
+Missing pickup availability: Display your omnichannel pickup availability on your product landing page or in your checkout flow
+
+Your product landing pages and checkout flow don’t provide store pickup availability. Add a store selector with the ability to show store pickup availability:
+
+
+  Pickup availability can be displayed after clicking on a link (for example: “check local availability”) or after submitting a postal code or address.
+  Store selection for pickup can occur in your checkout flow after a customer has added an item to their cart.
+  After a user clicks or inputs the required information, your site must display an item’s available pickup methods (“reserve online” or “buy online”) and an item’s Pickup SLA (“same day” or “next day pickup”). You must also display the location of the local store.
+
+
+
+  Step 1: Update your product landing pages or checkout flow to display store pickup availability
+
+  
+    
+      If your product landing pages or checkout flow don’t provide store pickup availability, you will need to add that to your website pages.
+    
+  
+
+
+
+  Step 2: Resubmit your example product landing page
+
+  
+    
+      
+        Sign in to your Merchant Center account.
+        Click the tools icon and then select Local inventory ads setup under “Tools.”
+        Select your country and your merchant hosted local storefront setup.
+        In the “Pickup later” section, check the box labeled “If a product isn’t in stock, ship to store is available”.
+        Resubmit your example product landing page URL for store pickup in the text box.
+        Click Save.
+        Google will conduct another eligibility review of your website.
+      
+    
+  
+
+
+
+
+
+Missing store selector: Ensure that your product pages allow users to select a store to check price and availability
+
+Your product landing pages don’t provide users the option to check a product’s pickup availability at various store locations. Add a store selector to your product landing pages or checkout flow. Follow the steps below:
+
+
+  Step 1: Add a store selector to your product landing pages or checkout flow
+
+  
+    
+      If your product landing pages or checkout flow don’t provide a store selector, you will need to add that to your website pages.
+    
+  
+
+
+
+  Step 2: Resubmit your example product landing page
+
+  
+    
+      Sign in to your Merchant Center account.
+      Click the tools icon  and then select Local inventory ads setup under “Tools.”
+      Select your country and your merchant hosted local storefront setup.
+      In the “Pickup later” section, check the box labeled “If a product isn’t in stock, ship to store is available”.
+      Resubmit your example product landing page URL for store pickup in the text box.
+      Click Save.
+      Google will conduct another eligibility review of your website.
+    
+  
+
+
+
+
+
+Missing pickup attributes: submit the required attributes for pickup later
+
+Your primary and product inventory feeds do not contain required attributes for the pickup later feature. Review the required attributes for pickup later and add these values to your feed. Values for pickup method [pickup_method] and pickup SLA[pickup_SLA] must be submitted in either your primary feed or product inventory feed. Learn more about the required attributes for pickup later for Shopping ads or pickup later for local inventory ads.
+
+
+  Step 1: Check your primary feed
+
+  
+    
+      
+        Sign in to your Merchant Center account.
+        Select Products on the navigation menu, then click Feeds.
+        Select your primary feed
+        Click Processing, then Download file.
+        Open your feed file and ensure that you are submitting values for pickup method [pickup_method] and pickup SLA [pickup_SLA]. Make sure that the pickup method and pickup SLA attributes are spelled correctly.
+      
+    
+  
+
+
+
+  Step 2: Check your product inventory feed
+
+  
+    
+      
+        Sign in to your Merchant Center account.
+        Select Products on the navigation menu, then click Feeds.
+        Select your product inventory feed
+        Click Processing, then Download file.
+        
+          Open your feed file and ensure that you are submitting values for pickup method [pickup_method] and pickup SLA [pickup_SLA]. Make sure that the pickup method and pickup SLA attributes are spelled correctly.
+        
+      
+    
+  
+
+
+
+
+
+
+  Step 3: Add the required attributes to your primary feed or product inventory feed
+
+  
+    
+      
+        Add pickup method [pickup_method] and pickup SLA [pickup_SLA] to your primary feed or product inventory feed.
+        Resubmit your feed.
+      
+    
+  
+
+
+
+
+
+
+  Step 4: Resubmit your example product landing page
+
+  
+    
+      
+        Sign in to your Merchant Center account.
+        Click the tools icon  and then select Local inventory ads setup under “Tools.”
+        Select your country and your merchant hosted local storefront setup.
+        In the “Pickup later” section, check the box labeled “If a product isn’t in stock, ship to store is available”.
+        Resubmit your example product landing page URL for store pickup in the text box.
+        Click Save.
+        Google will conduct another eligibility review of your website.
+      
+    
+  
+
+
+Related Links
+
+
+  Local inventory onboarding guide
+  Pickup today with merchant hosted local storefront (full)
+  Pickup today with merchant hosted local storefront (basic)
+  Implement pickup later for local inventory ads
+
+             Was this helpful?How can we improve it?YesNoSubmit       

@@ -1,0 +1,94 @@
+ How to fix: Potential inaccurate value: multipack [multipack]Review this value to confirm that it represents a retailer-defined multipack, not a manufacturer-defined multipack
+
+You’ve provided a potentially inaccurate value for the multipack [multipack] attribute for one or more of your products. This may be due to a misunderstanding regarding the manufacturer-defined multipack value and the retailer-defined multipack value.
+
+Let’s say that you are selling plates that come in a prepackaged set of four. Following Google’s definitions, this is considered a manufacturer-defined multipack rather than a retailer-defined multipack. In this case, you should either omit the multipack [multipack] attribute or set the value to “1”, to reflect the number of sets you are selling, rather than the number of plates. If you were to set the value to “4”, your offer would be disapproved. Disapproved offers will not be eligible for Buy on Google until the error is corrected for all offers that feature multipack annotations.
+
+Instructions
+
+
+  Step 1: See the affected products
+
+  
+    
+  Sign in to your Merchant Center account.
+  Select Products from the navigation panel.
+  On the Diagnostics page, click the Item Issues tab to see the current issues affecting your products.
+  Click the filter icon  to filter by destination and select Buy on Google.
+
+To download a list (.csv) of all affected products for all issues:
+
+
+  Click the download button  to the right of the filter button  , beneath the graph and above the list of issues.
+
+To download a list (.csv) of all affected products for a particular issue:
+
+
+  Find the issue under the “Issue” column, then click the download button  in the right-hand column.
+
+To see a list of up to 50 products with this particular issue:
+
+
+  Find the issue under the “Issue” column, then click View examples in the “Affected items” column.
+
+
+  
+
+
+
+  Step 2: Make sure all multipack values are correct
+
+  
+    
+      Filter the downloaded report so that you only see products with:
+        "Issue title" = Potential inaccurate value: multipack [multipack]
+      Search your product data for those products (using the ID), and make sure each product is using the correct multipack value, and that there is a clear distinction between retailer and manufacturer multipacks.
+    
+  
+
+  
+    Step 3: Resubmit your product data
+
+    
+      
+  After you’ve updated your product data, resubmit it using one of these methods:
+    
+      Upload a feed
+      Submit through the Content API
+      Import content from an ecommerce platform
+    
+  
+  Next, check that you’ve fixed the issue by making sure it’s no longer listed on the Diagnostics page.
+    
+    Keep in mind: It may take some time for your change to be reflected on the Diagnostics page.
+
+
+    
+  
+
+  
+    Step 4 (Optional): Request manual review
+
+    
+      If you believe that some of your products were incorrectly disapproved, you can request a manual review to have those products reviewed and re-approved.
+
+
+  In your Merchant Center account, click Products in the navigation menu.
+  On the Diagnostics page, select Item issues and scroll to a specific policy violation. Under the “Affected items” column, click View samples.
+  If you believe the product warrants a manual review, click into the product under the “Example” column and navigate to the “Item status” section. Under "Actions", click Request review.
+  Review the policies related to your product disapproval, then check the box that acknowledges that you reviewed this information.
+  Click Request manual review.
+
+
+Note: If there are multiple products that you believe were incorrectly disapproved, you’ll need to request a review for each of these products individually.
+
+    
+  
+
+
+Related links
+
+
+  Multipack [multipack]
+
+             Was this helpful?How can we improve it?YesNoSubmit       

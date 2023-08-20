@@ -1,0 +1,106 @@
+ About Buy on Google payments to retailers
+  Buy on Google for Search and Shopping will no longer be available starting September 26, 2023. Eligible merchants will be able to use Buy on Google for YouTube in the US. Learn more about Enabling Buy on Google for YouTube.
+
+
+
+
+
+This article explains how you’ll be billed and paid when you participate in Buy on Google.
+
+How it works
+
+
+  Google will send separate transactions to your selected payment service provider, once certain checks are passed. Once your Merchant Center account is linked to your payment service provider, you’ll be able to check your payment service provider log for bank disbursements.
+
+
+
+  Note: Linking to a payment service provider enables backend payment processing and transaction support, and doesn’t impact customers’ buying options. Payment service providers may charge you a fee for payment processing. These fees will be negotiated between you and the payment service provider.
+
+
+
+  In some states, Google is responsible for collecting and remitting taxes to state tax authorities. In states where marketplace facilitator tax applies, Google collects sales tax.
+
+  Details on form 1099 should be obtained directly from the selected PSP.
+
+
+
+  Note: For the state of Colorado, don’t include any retail delivery fee in your product feed. Therefore, a retail delivery fee shouldn’t be included in shipping [shipping], price [price], tax [tax], or any other attribute. Learn more about Colorado retail delivery fee.
+
+
+Disbursements
+
+There is no need to link your bank account to your Merchant Center account, as all bank disbursements will come directly from the payment service provider into the account you have set up with them. You can continue using Merchant Center for order management, returns, and to access a settlement report for transaction-level details, which will also align with your payment service provider account.
+
+Returns and refund updates are to be coordinated through Google. Once Google transmits this info to your payment service provider, the latter will process the refund and adjust the balance/transaction ledger accordingly to their policy.
+
+Disbursement schedules
+
+You’ll start on a 28-day disbursement schedule. This means you’ll receive payments for the orders you’ve shipped 28 days post order shipment date.
+
+
+  Note: In exceptional situations, such as suspected retailer fraud (for example, a counterfeit product) or violations of Buy on Google policies, your payments might be delayed up to 28 days.
+
+
+If you’re integrated with a payment service provider, you should work directly with them to negotiate how to handle chargeback processes and policies.
+
+All the transaction-level details are available to you in your settlement report.
+
+
+  Situations that may result in non-payment
+
+  
+    There are 3 situations where you won’t be paid for your losses, including:
+
+    
+      Orders fulfilled during the “in progress” state: When an order is created, it is exposed to the retailer with the "in progress" state. During this time, the order may still be canceled, and we do not advise you to physically ship the order. If you ship the order and it gets canceled, then you will be responsible for any related costs. Thus, we recommend you wait until the order advances to the "pending shipment" state. Note: it can take 30 or more minutes for an order to change its state to "pending shipment".
+      Orders shipped before the charge is processed successfully: When your items are ready to ship, you may charge the customer by clicking Mark as shipped in your Merchant Center account or calling the charge method via API, and ship the order as soon as the charge is completed successfully. If the charge fails after you ship the order, you will be responsible for any related costs.
+      Orders that aren’t shipped within 3 days of the shipment date: Orders that haven’t been shipped within 3 days of the “ship-by date” will be automatically canceled, and Google will not be able to facilitate the transaction. You’ll be responsible for return costs for all canceled orders. You must notify Google that the order has been shipped and provide tracking information to prevent such a cancellation.
+    
+  
+
+
+
+
+  Need to appeal?
+
+  
+    If you’re experiencing an issue with the data disclosed in the settlement report, you may appeal the transaction in Merchant Center:
+
+    
+      From the navigation menu, click Settlement report.
+      Select an entry in the list of settlements.
+      When hovering over a transaction, you can click the 3-dot icon  next to the "order total", then select Report a dispute.
+      In the "order details" window, check all the boxes that apply to the dispute (principal, tax, etc.).
+      Select the reason for the dispute from the dropdown:
+        
+          Incorrect commission amount
+          Incorrect issue-related refund amount
+          Incorrect return shipping amount
+          Incorrect tax amount
+          Incorrect transaction amount
+          Other
+        
+      
+      Though not required, filling the next custom field with a description of the problem will help our team work through your problem faster.
+      Click Report dispute.
+    
+
+    You may access the history of disputes by filtering a “Settlement report” by “Disputes”. When clicking on one of the transactions, the resolution status should appear.
+
+    Note: There can only be one dispute per transaction at a time.
+  
+
+
+Related links
+
+
+  About settlement reports
+  About managing orders in Merchant Center
+  Link your Merchant Center account to a third-party platform
+
+
+
+  Need help? Click here to contact Buy on Google support.
+
+
+             Was this helpful?How can we improve it?YesNoSubmit       

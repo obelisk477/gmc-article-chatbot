@@ -1,0 +1,151 @@
+ Image link [image_link] (Collections)
+
+Add the URL for your main collection image using the image link [image_link] attribute. This is the image that will appear to customers who view your collection.
+
+
+  Note: At this time Collections are only used by promotion of local products within Performance Max for store goals. The image provided by image link [image_link] will correspond to the hero image in promotions of local products.
+
+
+Learn more About promotion of local products within Performance Max for store goals.
+
+
+
+
+When to use
+
+
+ Required for promoting local products within Performance Max for store goals.
+
+
+Format
+
+Follow these formatting guidelines to make sure Google understands the data you're submitting.
+
+For details on when and how to submit values in English, learn more about submitting your product data
+
+
+
+  
+    
+      Type
+      URL (including http or https), ASCII characters only, and RFC 3986 compliant.
+    
+    
+      Limits
+      1-250 characters
+    
+    
+      Supported file formats
+      JPEG (.jpg/.jpeg), PNG (.png), BMP (.bmp), and TIFF (.tif/.tiff)
+    
+    
+      Repeated Field
+      No
+    
+  
+
+
+
+
+  
+    
+      File format
+      Example value
+    
+    
+      Text feeds
+      http://www.example.com/image1.jpg
+    
+    
+      XML feeds
+      <g:image_link>http://www.example.com/image1.jpg</g:image_link>
+    
+  
+
+
+
+Guidelines
+
+Follow these guidelines to make sure your image URL is formatted so we can understand it.
+
+
+Minimum requirements
+
+Your image URL will need to meet these requirements to show ads and free listings for your product. If you don't follow these requirements, we'll disapprove your collection and let you know in the Diagnostics page of your Merchant Center account.
+
+
+URL Requirements
+
+
+  Use a URL that points to an image in a supported file format.
+  Start with http or https and comply with RFC 3986. For example: https://www.example.com/image1.jpg.
+  Replace any symbols or spaces with URL encoded entities. For example, if your URL contains an ampersand ( & ), then replace it with %26. If your URL contains a comma ( , ), then replace it with %2C.
+  Make sure your URL can be crawled by Google. For example, ensure your robots.txt file is configured correctly. Learn more about robots.txt files.
+
+
+Image Requirements
+
+
+  Use an accepted format: non-animated GIF (.gif), JPEG (.jpg/.jpeg), PNG (.png), BMP (.bmp), and TIFF (.tif/.tiff).
+  Submit an image no larger than 64 megapixels or a file no larger than 16MB.
+  The preferred ratio is 1.91 for images.
+  Don't include promotional text, watermarks, padding, or borders.
+  Don't submit a placeholder or a generic image.
+
+
+
+Best practices
+
+These best practices can help you go beyond the basic requirements to optimize your product data for performance.
+
+
+
+  Use a stable URL for your image link. The URL that you include shouldn’t change unless your image moves or is replaced. For example, don’t use URLs with timestamps or parts that could change each time you submit your product data. Whenever you change your URL, your image will need to be crawled and evaluated. This process could cause an unnecessary load on your servers.
+  Ensure that the image adheres to Google’s shopping policies and requirements.
+  Let us know when you've added or updated an image, so we can crawl the image and get it appearing in your collection as soon as possible.
+    
+      Add an image for a new collection: Before submitting new collections, use the URL Inspection tool, which is available through Google Search Console, to test some of your image links. If you’re submitting several new collections, use this tool on a few links to help you detect issues before submitting product data. Once you submit your product data, the image will be crawled within 3 days. Learn more about using the URL Inspection tool
+      Change an image for an existing collection: If you need to change an image of an existing collection, submit a new URL for the new image. When you submit a new URL, the image will be crawled within 3 days. Keep in mind that if you change the image, but keep the same URL, it might take up to 6 weeks to detect and then crawl the new image.
+    
+  
+  Enable automatic image improvements. Google offers tools that can automatically improve your images, which may prevent collection disapprovals. Check to see if this tool would be a good fit for your account. Learn more about automatic image improvements
+  Don't scale up an image or submit a thumbnail.
+
+
+
+Examples
+
+
+
+  Collection with image link
+
+  
+    
+      
+        
+          
+            Product data for Winter Shoes (Collection)
+          
+          
+            Attribute
+            Value
+          
+          
+            Image link [image_link]
+            https://www.example.com/image1.jpg
+          
+          
+            Description [description]
+            Winter footwear range 2019/20
+          
+          
+            ID [id]
+            WinterShoes2019
+          
+        
+      
+    
+  
+
+
+             Was this helpful?How can we improve it?YesNoSubmit       

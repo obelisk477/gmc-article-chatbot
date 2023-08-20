@@ -1,0 +1,26 @@
+ Change how you want to add products in Merchant Center
+
+When setting up a Merchant Center account, you can choose how you want to add your products. If you’ve already added products to your account, you can switch to another method whenever you want.
+
+
+  What happens when I switch to another method?
+
+  
+    To ensure that your product data is easy to manage, it’s only possible to use one method for adding products at a time.
+
+    When you switch how you add products, your existing products are deleted. If you want to reuse those products, include them when you use the new method for adding products. Before you choose another method, you’re prompted to download your product information so that you can reuse all your previous details when you add the products again.
+
+    Any products that you added directly in Merchant Center's product editor won't be deleted when switching to another method.
+  
+
+
+Get started
+
+ In your Merchant Center account, click Products  from the left navigation panel.
+
+ Click the All products tab at the top of the page. You’ll see a notification at the top of the page that indicates which method you used previously.
+
+ It is recommended that you click Download products in the notification to download a file containing all your product information.
+
+ Click the Add products drop down menu and select Choose another method. Follow the instructions on-screen.
+             Was this helpful?How can we improve it?YesNoSubmit       

@@ -1,0 +1,20 @@
+ About collections
+
+Collections help you create rich ad and free product listing experiences in a simpler way. They can also enrich your product data, which may increase performance and improve the user experience.
+
+
+Benefits
+
+
+  Collections allow you to associate products and other creative assets with one another. You can combine images, videos, and text to create richer experiences for your customers.
+
+
+
+How it works
+
+A collection represents a group of products. A collection is defined once, but can be used in multiple ways. Each collection can include up to 100 products.
+
+
+  Note: At this time collections are only used by promotion of local products within Performance Max for store goals.
+
+             Was this helpful?How can we improve it?YesNoSubmit       

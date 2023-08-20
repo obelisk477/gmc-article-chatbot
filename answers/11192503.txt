@@ -1,0 +1,78 @@
+ Vehicle ads onboarding guideImplementation guideNext: Set up your accounts
+
+
+
+To show your vehicle ads on Google, provide information about your business, dealerships, and vehicles. If you’re interested in onboarding via API, click here.
+
+
+  
+    
+      
+      Step 1: Set up your accounts
+    
+    
+      
+      Step 2: Enable the vehicle ads program
+    
+    
+      
+      Step 3: Add your business information
+    
+    
+      
+      
+      Step 4: Create, register, and submit your feeds
+
+      
+        Create a primary feed
+        Register and submit your feed
+      
+      
+    
+    
+      
+      
+      Step 5: Link your Google Business Profile and select your location group
+
+      
+        (Optional alternative) Create, register, and submit your Store Feed
+      
+      
+    
+    
+      
+      Step 6: Complete website policy review
+    
+    
+      
+      
+      Step 7: Set up Google Ads for vehicle ads
+
+      
+        Link your Merchant Center and Google Ads accounts
+        Enable vehicle ads in your Smart Shopping campaign
+        Enable vehicle ads in your Performance Max campaign
+      
+      
+    
+  
+
+
+
+  Note: All vehicle ads campaigns will be upgraded to Performance Max by September 2023.
+
+
+
+Related links
+
+
+  Vehicle ads overview
+  Vehicle ads policies
+  Implementation guide
+  Vehicle ads image guidelines
+  Vehicle ads Content API guidelines
+  Vehicle ads troubleshooting form
+  Enable vehicle ads in your Performance Max campaign
+
+
+Next: Set up your accounts             Was this helpful?How can we improve it?YesNoSubmit       

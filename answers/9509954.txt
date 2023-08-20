@@ -1,0 +1,48 @@
+ About shipping promotion requirements
+  Buy on Google for Search and Shopping will no longer be available starting September 26, 2023. Eligible merchants will be able to use Buy on Google for YouTube in the US. Learn more about Enabling Buy on Google for YouTube.
+
+
+
+You can display free shipping promotional language on your Buy on Google pages - including product detail pages and search results. This language is displayed as “Free Shipping Over $x,” where x is the threshold at which shipping becomes free. For example, “Free Shipping Over $25” or “Free Shipping Over $49.99”.
+
+How it works
+
+Promotional language is automatically displayed to users based on your shipping settings in Merchant Center. If you offer multiple shipping services, the language will reflect the best offer for customers, which normally means picking the service with the lowest free shipping threshold. For example, if you have two shipping services, and one is free ground shipping over $35 and the second is free express shipping over $50, the “free over $35” will likely be chosen.
+
+
+  In order to display the promotional language, 100% of your assortment must be configured for free shipping over the threshold. If 98% of items have free shipping over a specific amount, but 2% of products charge a shipping fee no matter what, then no items are eligible for promotional language.
+
+
+Instructions
+
+
+  When configuring your shipping settings, make sure that you have at least one shipping service that has a rate of $0.00 for all items above a threshold.
+  Choosing “no shipping” in your shipping rate table means that you do not allow shipping. It does not mean that there is no shipping fee.
+
+
+
+  Troubleshoot shipping settings when promotional language doesn’t display
+
+  If you don’t see the promotional language on your pages, make sure you’ve met the following requirements:
+
+  
+    100% of items needs to apply to the shipping rate
+    There must be a Free Shipping Threshold (FST) - that is, no matter what rate structure you configure, you must offer free shipping at some point (“Above $35”)
+    Your shipping service cannot have a Minimum Order Value (MOV). MOVs are minimum amounts that customers must spend before being eligible to place an order.
+    You can only use a shipping rate subtable if the primary table is location-based. For example, it’s okay to create a primary table where shipping varies by state, and the actual rate is determined in a subtable. It is not okay to have a primary table based on number of items, with a subtable that has a carrier rate for some of them.
+    Shipping rate tables can only be based on price or on location.
+    We cannot display promotional language if your shipping rates are based on weight, or on number of items.
+  
+
+
+Related link
+
+
+  shipping_label: Definition
+
+
+
+  Need help? Click here to contact Buy on Google support.
+
+
+             Was this helpful?How can we improve it?YesNoSubmit       

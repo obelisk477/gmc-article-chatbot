@@ -1,0 +1,14 @@
+ Local offer does not match online offer
+
+When you receive the “Local offer not matching any catalog or online offer” error message, do one or both of the following, depending on whether you surface local only or online and local inventory:
+
+Check that you’ve provided all essential local attributes
+
+Your local products feed should contain 8 essential attributes. Items missing any of these attributes in your local products feed will not surface on local inventory ads and free local product listings. For apparel items, ensure you’ve added the 5 additional attributes to your feed in order to surface them on your ads and listings.
+
+Check that online and local attributes are matched correctly
+
+If you surface Shopping ads and local inventory ads and free local listings, the information that you use to link items across your online and local feeds must match. Learn how to pull in rich data information about your products
+
+
+             Was this helpful?How can we improve it?YesNoSubmit       

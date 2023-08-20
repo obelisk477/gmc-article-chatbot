@@ -1,0 +1,412 @@
+ Set up feed rules
+
+Feed rules give you the ability to transform your data to match our product data specification requirements. Use feed rules to resolve errors and help us interpret the data in your feed. This article explains how to set up feed rules for your product data.
+
+Before you begin
+
+In order to use the feed rules feature, you'll need to first register and submit a feed in your Merchant Center account so that there is data to create rules with.
+
+
+  Note: To set up feed rules for the ID [id] attribute, use the ID rules section. Learn more about setting up rules for the ID attribute
+
+
+Use feed rules
+
+To create a new feed rule for your feed:
+
+
+  Sign in to your Merchant Center account.
+  From the page menu, click Products and then Feeds.
+  Select the feed you’d like to create rules for.
+  Click the Rules tab at the top of the page.
+    
+      If you have more than one feed label connected to this feed, be sure to select the feed label that you would like to apply the rule to.
+    
+  
+  If you haven't created feed rules for the attribute you want to edit, click Create Rule and select the corresponding attribute from the drop-down list.
+  If you want to edit an existing set of feed rules, you can search for the attribute using the search bar and click the attribute you want to edit.
+  Configure your "Data Sources".
+  Add "Modifications" (optional).
+  Click Save as draft
+  The changes made to your rules are in draft mode. Click Test changes to test your draft rules before they’re applied to your product data.
+  Click Apply to save and apply any new or updated rules. Click Discard to remove the draft rules.
+
+
+The feed rules page contains an Attributes table which provides an overview of target attributes covered by rules.
+
+
+  Note: The feed rules feature works with a cascading function, which means that if you have multiple rules it will first run the first and then the second and so on. Learn more about the different types of rules below.
+
+
+The default rule is the rule Google assigns for each attribute in your feed by taking the value from either your supplemental or primary feed. If you’d like to customize the rule, you may alter how the attribute is defined.
+
+Add data sources
+
+Configure your data sources to identify from where the data for the attribute should come. Use conditions and operations (Set to, Extract, and Take latest) to specify how to retrieve your data. These operations allow you to define a target using an existing data source or extract data from a source.
+
+Use data source operations
+Use "Set to"
+
+The Set to option allows you to populate a target attribute with a combination of inbound columns, from any of your primary or supplemental feeds, and static values. This lets you append your existing product data and augment it with additional values. For example, adding a brand to a title. You can use the "Set to" rule in the following ways:
+
+  
+    Set an inbound column name to a specified Google attribute
+
+      
+        Example: Set Availability to: my_first_feed.stockstatus
+      
+    
+    Populate a target attribute with a single, set static string value
+      
+        Example: Set Condition to: “new"
+      
+    
+    Populate a target attribute with any combination of inbound columns, static values, or processed values. Use the concatenation (or combination) feature to create a string from multiple columns or values.
+      
+        Example: Set title to: my_first_feed.brand + " " +my_first_feed.title
+      
+    
+  
+
+  
+    
+      Keep in mind: Set to concatenation rules fail only if all feed references fail. For example:
+
+      
+        Set title to: my_first_feed.brand + " " +my_first_feed.title fails if both feed references cannot be resolved.
+        Set title to: my_first_feed.brand + " " +my_first_feed.title doesn’t fail if only my_first_feed.brand cannot be resolved. Instead, it will become Set title to my_first_feed.title
+      
+    
+  
+
+Use "Set to multiple"
+
+
+  
+    Note: This operation is only available for the included destination [included_destination], excluded destination [excluded_destination], and excluded countries for Shopping ads [shopping_ads_excluded_country] attributes.
+  
+
+  Use Set to multiple to assign this attribute with a list of values from either your feed, process attributes, or values you create.
+
+  This creates a repeated field, so that you can add a list of values to the attribute, and allows you to assign multiple destinations to the included destination [included_destination] or excluded destination [excluded_destination] attributes, or multiple countries to the excluded countries for Shopping ads [shopping_ads_excluded_country] attribute. In the case of included destination [included_destination] and excluded destination [excluded_destination], this means that you can assign Shopping_ads, Display_ads, and Buy_on_Google.
+
+Use "Extract"
+
+
+  To apply Advanced options, click the arrow.
+
+  
+    Case sensitive: Match words and phrases in the exact case entered here.
+    Keep only the first matching value: If the attribute you’d like to extract returns two or more possible matches, only the first value that you list will be extracted. For example, if you’d like to extract “yellow”, “red”, and “blue” from a title, and the title is “Blue-striped shirt in yellow”, only “yellow” will be extracted.
+    Search as a regular expression: Match all values that follow a search pattern (or “regex”). You’ll need to enter your regular expression into the text field. For example, to remove everything other than the first six digits in an attribute, use: find: '^(.{6}).*$' replace: '\1'.
+    Whole words only: Match only entire words as entered. For example, prevent detecting the word “male” inside the word “female”.
+  
+
+Use "Take latest"
+
+
+  For attributes related to price and availability only, use Take latest to find the most recently updated value from two or more feeds, and use it to populate your attribute.
+
+  Example:
+
+  
+    Take latest of: my_first_feed.availability and my_supplemental_feed.availability
+    Take latest of: my_first_feed.price and my_supplemental_feed.price
+    Take latest of: my_first_feed.sale_price and my_supplemental_feed.sale_price
+    Take latest of: my_first_feed.sale_price_effective_date and my_supplemental_feed.sale_price_effective_date
+  
+
+  Legacy online inventory update feeds 
+If you want to use a separate feed for pricing and availability updates, create a supplemental feed and use the "Take latest" rule to update your primary feed. 
+
+
+Add modifications
+
+Modifications allow you to add additional steps to change your data for a given attribute. Use conditions and modification operations to help you optimize your data. For example, you may alter certain words in your product title or update your data to meet product data specifications.
+
+Use modification operations
+Use "Prepend"
+
+
+  Use Prepend to add words, phrases, or other feed attributes to the beginning of an attribute value. You may choose to do this to improve search terms or to streamline your product data.
+
+  
+    
+      
+        Example:
+
+        
+          You may want to add a brand value to any title that does not contain one.
+        
+      
+    
+  
+
+  
+    
+      Keep in mind: Prepend modifications fail only if all feed references fail. For example:
+
+      
+        Prepend "color: " + f1.color fails if f1.color cannot be resolved.
+        Prepend "color: " + f1.color + " " +"material: " + f1.material doesn't fail if f1.color cannot be resolved. It only fails if f1.color and f1.material both cannot be resolved.
+      
+    
+  
+
+Use "Append"
+
+
+  Use Append to add words, phrases, or other feed attributes to the end of an attribute value. You may choose to do this to improve search terms or to streamline your product data.
+
+  
+    
+      
+        Example:
+
+        
+          You may want to add a color value to any title that does not already contain one.
+        
+      
+    
+
+    
+      
+        Keep in mind: Append modifications fail only if all feed references fail. For example:
+
+        
+          Append "color: " + f1.color fails if f1.color cannot be resolved.
+          Append "color: " + f1.color + " " +"material: " + f1.material doesn't fail if f1.color cannot be resolved. It only fails if f1.color and f1.material both cannot be resolved.
+        
+      
+    
+  
+
+Use "Standardize"
+
+
+  Use Standardize to optimize attributes that accept finite values by finding unsupported values and replacing them with supported values.
+
+  
+    
+      
+        Example:
+
+        
+          For the condition [condition] attribute, only the values “used” “refurbished” and “new” are accepted, so you may change all instances of “vintage” to “used”.
+        
+
+        To apply Advanced options, click the arrow.
+
+        
+          Case sensitive: Match words and phrases in the exact case entered here.
+        
+      
+    
+  
+
+Use "Add repeated field"
+
+
+  
+    Use Add repeated field to add additional data to attributes that accept multiple values (for example, additional image link [additional_image_link], included destination [included_destination], excluded destination [excluded_destination], etc.). In other words, add a second value to a repeated field that is already populated with a first value. It may also be used for custom attributes. (Use Set to multiple to populate attributes without any existing values)
+
+    
+      
+        Example:
+
+        Add the Display_ads destination to a feed that already has Shopping_ads as a destination.
+      
+    
+  
+
+Use "Optimize URL"
+
+
+  
+    Use Optimize URL to edit or remove URL components. This operator is built specifically for URL modification, and has safeguards for handling parameters:
+
+    
+      If you add a new parameter that already exists, it will be automatically replaced.
+      If you add a second parameter, an & instead of a ? will be automatically added.
+    
+
+    
+      
+        Example:
+
+        Add a new custom tracking parameter for ads_redirect.
+
+        Starting ads_redirect value: https://www.myonlinestore.com/products/item1.html
+
+        
+          
+            Set parameter ‘utm_source’ with the value ‘google-products’
+          
+          
+            Set parameter ‘utm_medium’ with the value ‘shopping’
+          
+        
+
+        Final ads_redirect value: https://www.myonlinestore.com/products/item1.html?utm_source=google-products&utm_medium=shopping
+      
+    
+  
+
+Use "Find & replace"
+
+
+  Use Find & replace to search for words or phrases in your feeds and replace them with new values. You may choose to do this to improve search terms or to streamline your product data. For example, you may want to change “pumps” to “pump heels”. Find & replace operations are executed sequentially; not simultaneously.
+
+  
+    
+      
+        To apply Advanced options, click the arrow.
+
+        
+          Case sensitive: Match words and phrases in the exact case entered here.
+          Replace first match only: Match only the first instance of the word in a given attribute. For example, if the description is “silver earrings with silver feathers”, only the first instance of “silver” will be replaced.
+          Search as a regular expression: Match all values that follow a search pattern (or “regex”). You’ll need to enter your regular expression into the text field.For example, to remove everything other than the first six digits in an attribute, use: find: '^(.{6}).*$' replace: '\1'.
+          Whole words only: Match only entire words as entered. For example, prevent detecting the word “male” inside the word “female.”
+        
+      
+    
+  
+
+Use "Calculate"
+
+
+  Use Calculate to add, subtract, multiply, or divide your numeric values.
+
+  
+    
+      
+        Example:
+
+        
+          You may want to populate the sale price [sale_price] attribute based on discount relative to price [price] using multiply.
+          You may want to add various custom cost attributes together to calculate the cost of goods (cogs) [cost_of_goods_sold]. Learn more about the cost of goods sold attribute
+        
+      
+    
+  
+
+Use "Split & choose"
+
+
+  The Split & choose option allows you to select one or more elements in a comma-separated, arrow-separated, or other list and use that text to populate an attribute value. For example, if your products are categorized using product_type value Apparel & Accessories > Clothing > Uniforms > White Coats, you can assign product type [product_type] to a custom attribute, and use Split & choose to keep only "White coats". Then, you can use this value to append or prepend to other attributes in your feed, such as the title [title] attribute.
+
+  Split: Signify at which type of node or symbol you'd like to separate your list. For example, ">" "," or ";".
+
+  Select: Select which of the elements, or nodes, you'd like to use. You can choose values like "first" or "last", or you can select a range of values, such as "1-second last" or "2-5".
+
+  Combine: If you have selected multiple nodes, use Combine to join them together in a single value, using a separator of your choice.
+
+  
+    Note: You may use Split in combination with Select and/or Combine. If you don't Combine the value you split, you may create a repeated attribute. For example: a > b > c is split on ">" then you select 2-3. If you combine on "+" you will get one single value 'b + c'. If you don't combine the values, you'll end up with a repeated attribute - with the two values 'b' and 'c'.
+  
+
+  
+    
+      Example:
+
+      Create a custom attribute by splitting and selecting the last node of the product type [product_type] string Apparel & Accessories > Clothing > Uniforms > White Coats in order to append it to the title [title] attribute.
+
+      
+        Create a custom attribute with the name "last node product type"
+        Set the custom attribute to "my_first_feed.product_type"
+        Split: Split on ">". This divides the string into four nodes: Apparel & Accessories, Clothing, Uniforms, White Coats.
+        Select: Choose "last". This selects the last node in the string, "White coats".
+        Save as draft.
+        Create a new rule for the title attribute, for example to append the new attribute to the title: "my_first_feed.title" + " " + "last node product type"
+      
+
+      Note: In this case, since you are only selecting one node from the string, you won't use Combine. If you want to use two nodes, you will use Combine on "," (for example: Uniforms, White coats).
+    
+  
+
+Use "Clear"
+
+The Clear option allows you to remove the value of any attribute. For example, if you'd like to remove text like "n/a" from a feed file.
+
+
+  
+    Example:
+
+    
+      For the brand [brand] attribute, if current value equals "n/a", select Clear
+
+        Note: Once the Clear operation has been executed for a specific product, no rules will further act on that product. If the attribute is required by the product data specifications, leaving the value blank may lead to your products being disapproved.
+      
+    
+  
+
+
+View a preview of your rule changes
+
+As you adjust your rule using the Data sources and Modifications operations, you’re able to see a preview of your Draft value in the top right corner of the screen.
+
+To see how certain items will be affected by the changes, click the magnifying glass to search for an item ID in the catalog, or click the arrow to cycle through your products at random.
+
+
+  Note: If you're unable to click the magnifying glass or arrow button, try collapsing Data source or Modifications rules.
+
+
+If you create multiple rules on the same attribute, you can see how each rule will affect the final value. When you’re finished editing, the intermediate value will appear next to the rule you’ve edited.
+
+
+  Keep in mind:
+
+  
+    If you make multiple changes using a single rule, the intermediate value will account for the combined changes.
+    If a rule doesn’t apply to the item you’re viewing, the intermediate value won’t appear.
+  
+
+
+To see the Active value and Draft value as it will appear if your rules are applied, hover over the preview box.
+
+Use conditions
+
+Conditions can be added in front of an operation to filter items in your feed that meet certain criteria of your choosing. For example, to apply a title to all items of certain brand, you can set a condition for “brand” “equal to” “Google”. If you select an attribute from your feed, the condition will filter out existing values in the value you’ve chosen. For example, if you choose to append:
+
+
+  From the first drop-down menu, select either a feed attribute or a processed attribute to compare against. Feed attributes are specific attributes from a specific feed. If you select a feed, you’ll be able to specify the attribute name and then select the raw feed value. A processed attribute is the final attribute value which includes any changes from applied feed rules.
+  From the second drop-down menu, select the operator for the condition. For example, “contains” or “does not equal”.
+  Then enter the value you’d like the condition to compare against. This may be a static value or a processed attribute value from your feed.
+
+
+To enter a second condition to be combined with the first, select AND. This can be anything, so long as it doesn’t contradict the first condition. If both of the conditions are valid, the operation will be applied. For example, you may apply the rule to shirts that are red AND size small.
+
+You can also have the rule act on conditions independently. To do this, select OR and enter a second condition, so the rule will act on either the first or second condition. If either of the conditions entered are valid, the operation will be applied. For example, you may apply the rule to red shirts OR blue shirts.
+
+
+  Keep in mind
+
+  
+    When entering a price, use only the number without the currency.
+    When using “equals”, make sure the value you enter exactly matches the value in your feed. For example, 13.00 may not be 13, $13.00, etc.
+    Values are case insensitive.
+  
+
+
+Operations such as “set to” and “take latest” will only be applied if your conditions are met.
+
+Save feed rules
+
+To save your rules and apply them to your feed, click the Apply changes button. After your changes have been applied, you will need to reprocess your feed. The new rules will appear on the newest upload on your product data, and will be applied to each upload until you make changes to the rules again.
+
+To edit an existing rule, click on the grey box containing the rule in the "Rule" column. Apply any changes to the rule, and then click Apply changes to save your changes. Upload your product data to apply the edits.
+
+Related links
+
+
+  About feeds
+  Add your products
+  Create a feed
+  Show products in multiple target countries
+  Set up feed rules
+  Remove a feed or feed label
+  Test and preview your feed rules
+  How to set up data attributes Part 1 - Required attributes 
+
+
+             Was this helpful?How can we improve it?YesNoSubmit       

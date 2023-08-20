@@ -1,0 +1,45 @@
+ Submit feeds via scheduled fetches
+
+Instructions
+
+To create or edit a schedule for a data feed:
+
+
+  Sign in to your Merchant Center account.
+  Select Products from the navigation menu, then click Feeds.
+  Click the name of the feed you'd like to schedule.
+  Click Settings on the subpage menu on the left, and select the type of schedule from the drop-down menu beside Fetch schedule.
+  Schedule the desired frequency, timing, and location of your feed. (Important: The URL of your file location must begin with either http://, https://, ftp://, or sftp://).
+  If your file requires a username and password to access, enter the appropriate login information to allow Google to access your file.
+  Click Update schedule to save your changes or Update and fetch now to trigger an immediate fetch and upload of the file from the URL specified.
+
+
+
+  
+    Note:
+
+    
+      The size of the file you're scheduling must be less than 4 gigabytes (GB), and the user-agents "Googlebot" and "AdsBot-Google" can't be blocked from the directory containing your feed.
+      Make sure that the feed URL points directly to your feed file in one of the supported file formats. Note that pointing to an HTML page of your website will cause the processing of your feed to fail.
+    
+  
+
+
+Eligible file locations
+
+Google Merchant Center supports scheduled fetches uploads using the http, https, ftp or sftp protocols.
+
+
+  If you’re submitting via the ftp, http, or https protocols, keep in mind that username and password are optional fields and should be left empty if no username or password is required.
+  If you’re submitting via the sftp protocol, the username and password fields are required.
+  If you’re setting up a scheduled fetch within Merchant Center, you can't use Google’s SFTP Server (sftp://partnerupload.google.com) as your feed URL.
+
+
+Note: With scheduled fetches, you host your feed files on your servers. If you’re hosting your files on an SFTP or FTP server, the username and password fields under Schedule refer to the credentials for your server. This login information is different from login information in the SFTP /GCS page, which contains the username and password required to access Google's SFTP upload server.
+
+Troubleshooting scheduled fetches
+
+If you’re having problems, review the uploading issues section of our feed troubleshooting guide.
+
+
+             Was this helpful?How can we improve it?YesNoSubmit       

@@ -1,0 +1,190 @@
+ Pickup today with merchant hosted local storefront (basic)
+
+The pickup today feature lets you direct customers to your website when they click on your local inventory ads. By directing customers to your website instead of your Google-hosted local storefront, you can manage and track your customers' entire experience.
+
+This article helps you understand how pickup today with merchant hosted local storefront (basic) works and what’s required for your primary feed, local product inventory feed, and website.
+
+How it works
+
+
+  A customer clicks a local inventory ad with pickup availability text.
+  The customer is directed to the retailer’s omnichannel product detail page.
+  On the retailer’s website, customers can select a store to view the clicked item’s price and availability, buy it online, and pick it up at a store nearby.
+
+
+Step 1: Review website requirements
+
+
+  To be eligible for pickup today with a merchant hosted local storefront (basic), your website must meet these requirements:
+
+  
+    Fulfill the merchant hosted local storefront (basic) landing page and feed requirements.
+    Display the option to pick up a product on your landing page or in your checkout flow. Note that the product’s local store availability must be clearly visible on only your product landing page.
+    Display a store selector with the possibility to show an item's store pickup availability. Note that the item’s local store availability must be clearly visible on only your product landing page.
+    Alternatively, store selection for pickup can occur in your checkout flow after a customer has added an item to their cart.
+      
+        The item's pickup availability can be displayed after clicking on a link (for example, “check local availability”) or after submitting a postal code or address.
+        After a customer clicks or inputs the required information, your site must display an item’s store pickup availability and the location of the local store.
+          
+            An item’s displayed store pickup availability must match the pickup SLA provided in your feed.
+            The pickup availability must be shown before customers are required to enter their payment method.
+              
+                Important: Pickup availability can be different from store local availability. To implement pickup today with a merchant hosted local storefront (basic), you’re required to have a store selector showing your store’s local availability on your product landing page. However, the pickup availability for a selected store can be shown during the checkout flow.
+              
+            
+          
+        
+      
+    
+    Display your store’s local or online product price.
+    Display a pickup fee (if a pickup fee will be charged).
+      
+        This may be displayed in your checkout flow alongside store selection.
+      
+    
+    Provide an option to select other store locations for pickup.
+      
+        This may be displayed in your checkout flow alongside store selection.
+      
+    
+    Allow customers to complete their order (for example, complete the purchase or reserve the item) on your website.
+    Provide a pickup confirmation message when the order is ready (for example, email and SMS).
+  
+
+  Website recommendations
+
+  In addition to the website requirements above, we recommend the following:
+
+  
+    Show pickup cutoff time prior to adding the item to cart or at the checkout page.
+      
+        Customers should understand when the pickup will be based on the time they are placing the order (For example: “Orders must be placed by 4 p.m.”, or “Order today, pick up tonight”, and so on).
+      
+    
+    Allow customers to view your fulfillment options before creating an account (for example, provide a “checkout as guest” option).
+    Allow customers to view your fulfillment options before entering their address information.
+  
+
+
+Step 2: Update feed attributes
+
+
+  In addition to feed requirements for the merchant hosted local storefront (basic) feature (view full list), the following pickup today attributes will need to be added to the relevant feed. For full details, review the local product data specification.
+
+  
+    
+      
+        Attribute
+        Optional or required?
+        Feed
+        Possible values
+      
+      
+        Pickup method [pickup_method]
+        Required
+        Primary feed or local product inventory feed
+        
+        
+          buy
+          reserve
+          not supported
+        
+        
+      
+      
+        Pickup SLA [pickup_sla]
+        Required
+        Primary feed or local product inventory feed
+        
+        
+          same_day
+          next_day
+        
+        
+      
+      
+        Link [link]
+        Required
+        Primary feed
+        URL parameter or URL path
+      
+      
+        Mobile link [mobile_link]
+        Optional
+        Primary feed
+        URL parameter or URL path
+      
+      
+        Ads redirect [ads_redirect]
+        Optional
+        Primary feed
+        URL parameter or URL path
+      
+    
+  
+
+  Add the pickup method and pickup SLA attributes to your feeds
+
+  If pickup today is available for all stores with the same SLA
+
+  When the same pickup today offering is available in all of your stores, add the required attributes to the appropriate items in your primary feed (for example, a customer can buy and pick up the XYZ television on the same day in any of your stores nationally).
+
+  When you submit pickup SLA [pickup_sla] in your primary feed, you must set the maximum SLA for all your stores. This means that if a product has the SLA “same day” for most of your stores but “next day” for a few stores, you need to submit the SLA for this product as “next day”. To set store-specific values for the pickup SLA [pickup_sla] or pickup method [pickup_method] attributes, you'll need to submit them in your local product inventory feed.
+
+  If pickup today is available for specific stores only
+
+  Add the required pickup method [pickup_method] and pickup SLA [pickup_sla] attributes to your local product inventory feed when the pickup today offering is only available at specific stores, or if specific stores offer a different pickup method or pickup SLA.
+
+  If pickup today isn't available for a specific store or a specific product
+
+  If a product in your primary feed isn't eligible for pickup today, set pickup method [pickup_method] to “not supported”. If the product isn't eligible for pickup today in specific stores, set the pickup method [pickup_method] attribute to “not supported” in the local product inventory feed.
+
+  
+    Note: If pickup method [pickup_method] is set to “not supported", you can leave pickup SLA [pickup_sla] blank.
+  
+
+  
+    Important:
+
+    The pickup method [pickup_method] and pickup SLA [pickup_sla] values provided in your local inventory feed will override any pickup method or pickup SLA values in your primary feed.
+  
+
+  Add the link and ads redirect attributes to your feeds
+
+  The link [link] attribute should simply provide a link to a product’s omnichannel landing page.
+
+  
+    Note: If you're already submitting the ads redirect [ads_redirect] attribute, ensure the URL matches with the link [link] attribute domain. If the URLs don't match, the ads redirect [ads_redirect] attribute will be rejected.
+  
+
+  
+    Important:
+
+    Verify and claim your website URL, and make sure the website URL registered in Merchant Center matches the domain in the link [link] attribute. If the website URL doesn’t match the registered domain, learn how to resolve this issue.
+  
+
+
+Step 3: Submit your account for review
+
+
+  Once you've updated your feed attributes and reviewed the landing page requirements, request a review of your account:
+
+  
+    Sign in to your Merchant Center account.
+    Click the tools icon and then select Local inventory ads setup under “Tools".
+    Select the country where you wish to activate the Pickup today feature.
+    In the “Pickup today” section, check the box labeled “My website allows shoppers to buy online and pick up in store”.
+    In the “Example product landing page” section, provide a link to one of your product landing pages in the text box.
+    Click Save.
+    Google will review this link to ensure that your website’s functionality meets the landing page requirements for the pickup today with merchant hosted local storefront (basic) feature.
+    After Google reviews your account, you’ll receive a notification in your Merchant Center account informing you that the feature is active. If your account is found to be non-compliant, you will receive a notification in your Merchant Center account with steps to resolve.
+  
+
+
+Related links
+
+
+  Merchant hosted local storefront (basic)
+  Pickup today
+
+             Was this helpful?How can we improve it?YesNoSubmit       

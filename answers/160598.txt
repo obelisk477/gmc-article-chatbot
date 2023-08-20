@@ -1,0 +1,63 @@
+ Atom 0.3 specification
+
+This document provides guidelines for the creation of an XML product data feed in the Atom 0.3 format. We've linked standard attributes to their respective sections in the official Atom 0.3 specification to assist you in finding additional information about the components from our examples. Although we provide examples of Atom 0.3 files, we provide minimal details about Atom 0.3 itself.
+
+Section 1: Atom 0.3
+
+Based on the Atom 0.3 specification, there are four predefined elements at the entry level - title, link, id, and modified. Although these elements are optional in the Atom 0.3 standard, your data feed requires them.
+
+Your data feed also requires additional elements such as price and condition. To include these elements and more detailed information about a product, we've extended Atom 0.3 by adding the Google Merchant Center namespace. Defining the Google Merchant Center namespace allows you to use additional elements, called "attributes", and increases the amount of information you can provide about each product in a feed.
+
+Below is an example of a basic Atom 0.3 document containing a single product:
+
+
+<?xml version="1.0"?>
+<feed version="0.3" xmlns="http://purl.org/atom/ns#"
+
+
+xmlns:g="http://base.google.com/ns/1.0">
+<title>The name of your data feed</title> <link href="http://www.example.com" rel="alternate" type="text/html" /> <modified>2005-10-11T18:30:02Z</modified> <author> <name>Google</name> </author> <id>tag:google.com,2005-10-15:/support/products</id> <entry> <title>Red wool sweater</title> <link href="http://www.example.com/item1-info-page.html" /> <summary>Comfortable and soft, this sweater will keep you warm on those cold winter nights.</summary> <id>tag:google.com,2005-10-15:/support/products</id> <issued>2005-10-13T18:30:02Z</issued> <modified>2005-10-13T18:30:02Z</modified>
+
+<g:image_link>http://www.example.com/image1.jpg</g:image_link> <g:price>25</g:price> <g:condition>new</g:condition>
+ </entry> </feed>
+
+The two major additions in this example are the addition of the namespace declaration (in the third line) and the inclusion of three attributes (image link [image_link], price [price], and condition [condition]).
+
+Google Merchant Center Namespace Declaration
+
+The following namespace declaration is required in order to use attributes defined only in the Google Merchant Center namespace.
+
+xmlns:g="http://base.google.com/ns/1.0"
+
+In addition to declaring the Google Merchant Center namespace, you must also include a prefix within every attribute tag. We add this prefix to attributes to distinguish attributes defined in our namespace from elements defined in Atom 0.3. The prefix selected for this namespace declaration is "g":
+<g:image_link>http://www.example.com/image1.jpg</g:image_link>
+
+Attributes in the Google Merchant Center namespace must include this prefix or the attributes, and any values they contain, will be ignored.
+
+Attributes
+
+You can use as many relevant attributes as are specific to your products. Supplying additional information about your products by using these attributes will greatly increase your products' chances of showing up in results. In addition, many attributes defined in the Google Merchant Center namespace can be used more than once within a single product. This enables you to add more available information about a product in your feed.
+
+Section 2: Important Checklist
+
+Before you submit your feed, we highly recommend running through the following list to help ensure your file is properly formatted:
+
+
+  Your filename must end with the .xml extension.
+  The feed filename you register in your Google Merchant Center account must match the name you assign to your file.
+  Remember to include namespace declarations. These values should match exactly as shown.
+    
+      Google Merchant Center namespace: xmlns:g="http://base.google.com/ns/1.0".
+      Custom attributes namespace: xmlns:[prefix]="http://base.google.com/cns/1.0", where [prefix] is replaced by the prefix you've included in your file.
+    
+  
+  Verify the prefix included in the Google Merchant Center and Custom Google Merchant Center attribute tags matches the prefix defined in the namespace declaration.
+  Remove attributes that do not contain any values.
+
+
+Section 3: Final Note
+
+The example entry included in this document was simplified to allow for clearer focus on the basics of constructing a Google Merchant Center XML data feed. While we accept feeds containing other elements defined in the Atom 0.3 standard or in your own namespace, any information these elements contain will be ignored during processing and will not appear in your listings. At this time we will only process data contained in the default Atom 0.3 elements and in attributes within the Google Merchant Center and Custom Google Merchant Center namespaces.
+
+
+             Was this helpful?How can we improve it?YesNoSubmit       

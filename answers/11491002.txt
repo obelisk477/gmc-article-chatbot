@@ -1,0 +1,54 @@
+ How to fix: Closed storeRemove closed stores from the offer
+
+One or more store codes in your vehicle inventory ads feed (which are submitted using the vehicle fulfillment store code [vehicle_fulfillment_store_code] or store code [store_code] attributes) references a location that has been marked as closed. As a result, the offers associated with those store codes are not eligible to be shown in ads.
+
+Within your Business Profile account, go to the location group linked to your Merchant Center account and identify the store codes indicated as "Closed store" in the "Processing" tab of your vehicle inventory ads feed.
+
+
+  Tip: In the "Manage locations" section of your Business Profile account, you can easily filter for closed store listings at the top by switching the view from "All locations" to "Closed".
+
+
+Locations can either be temporarily or permanently closed. Please verify if the inventory data for these locations was submitted correctly and that you intend to send inventory data for these dealerships. If you need to reopen a closed listing, first verify if it has been marked as temporarily or permanently closed:
+
+
+  Sign in to Business Profile.
+  Navigate to the relevant listing.
+  In the menu, select Info.
+  If the listing is temporarily closed, a callout will be visible stating "Temporarily closed. This business has been marked as temporarily closed."
+  Alternatively, the listing will be marked as "Permanently closed".
+
+
+Reopen temporarily closed listing
+
+To reopen a temporarily closed business:
+
+
+  Sign in to Business Profile.
+  Navigate to the relevant listing.
+  In the menu, select Info.
+  Navigate to "Reopen this business on Google".
+  Select Mark as open.
+
+
+Additional options on how to reopen closed locations can be found here.
+
+Reopen permanently closed listing
+
+If you’ve received this error and your locations are not already marked as "Temporarily closed”, this means they have been marked as “Permanently closed”. Review your store codes to see if the provided store codes match with any permanently closed store listings.
+
+To reopen a location that has been marked as permanently closed, follow these steps.
+
+
+  
+    Note: If your dealership was marked permanently closed as part of a location or name change, don't reopen the listing. Instead, create a new listing for that dealership.
+  
+
+
+To create a new listing, follow the verification instructions. You may see one or several verification types depending on the kind of business listing you manage.
+
+Related links
+
+
+  Vehicle ads troubleshooting form
+
+             Was this helpful?How can we improve it?YesNoSubmit       

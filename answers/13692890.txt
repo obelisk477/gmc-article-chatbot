@@ -1,0 +1,166 @@
+ Show your products organically on GoogleThis article is intended for users of the Google & Youtube app on Shopify
+
+
+  If you're looking for information about showing your products organically on Google in the classic Merchant Center experience, click here.
+
+
+
+For eligible stores, products synced to Merchant Center using the Google & YouTube app on Shopify can appear across Google for free.
+
+If you already use the Google & YouTube app on Shopify to sync products to Merchant Center, then you can confirm that your product feed is opted in to show organically on Google. You can choose any Comparison Shopping Service via the CSS dashboard available in your Merchant Center.
+
+If you're new to the Google & YouTube app on Shopify, then you need to set up the app to sync your products with Google Merchant Center.
+
+
+On this page
+
+
+  How it works
+  Supported countries and regions
+  Confirm that your product feed is opted in to show organically on Google
+
+
+
+How it works
+
+When you use the Google & Youtube app on Shopify, you’re automatically opted in to show products from your Shopify store organically across Google, such as on the Shopping tab, YouTube, Google Search (.com), Google Images, and Google Lens.
+
+
+  
+    Note: Your products aren't guaranteed to show across Google, as we rely on the data that you provide to us to then match what customers might be searching for. 
+  
+
+
+Use the following guidance to help you optimize your product information:
+
+
+  Make sure that your product and store information is descriptive and up to date.
+  Add high-quality images to your products.
+  Optimize your product titles and descriptions by including keywords that customers use in searches.
+  Add relevant product data, such as size or gender, to improve the chance that customers can find your products.
+  Add a product type to your products up to at least 3 levels. Learn more about Product type.
+
+
+If you're new to online selling, then it might take time before your products appear in relevant search results.
+
+
+Supported countries and regions
+
+You can list your products for free on Google in the following countries and regions.
+
+
+  
+    
+      
+      
+      
+    
+    
+      
+        Argentina
+        India
+        Saudi Arabia
+      
+      
+        Australia
+        Indonesia
+        Singapore
+      
+      
+        Austria
+        Israel
+        Slovakia
+      
+      
+        Belgium
+        Ireland
+        South Africa
+      
+      
+        Brazil
+        Italy
+        South Korea
+      
+      
+        Canada
+        Japan
+        Spain
+      
+      
+        Chile
+        Malaysia
+        Sweden
+      
+      
+        Colombia
+        Mexico
+        Switzerland
+      
+      
+        Czechia
+        Netherlands
+        Taiwan
+      
+      
+        Denmark
+        New Zealand
+        Thailand
+      
+      
+        Finland
+        Norway
+        Turkey
+      
+      
+        France
+        Philippines
+        Ukraine
+      
+      
+        Germany
+        Poland
+        United Arab Emirates
+      
+      
+        Greece
+        Portugal
+        United Kingdom
+      
+      
+        Hong Kong SAR
+        Romania
+        United States
+      
+      
+        Hungary
+        Russia
+        Vietnam
+      
+    
+  
+
+
+
+Confirm that your product feed is opted in to show organically on Google
+
+For your synced products to be eligible to show organically on Google, your store needs to sell in a supported country or region. Additionally, the method that you used to create your Merchant Center account determines whether your product feed is automatically opted in to show organically on Google:
+
+
+  If you created your Merchant Center account by using the Google & YouTube app on Shopify and your store meets eligibility requirements, then your approved products can automatically start appearing on the Shopping tab in relevant search results.
+  If you created your Merchant Center account outside of Shopify, then you need to use Merchant Center to confirm whether your products can appear on the Shopping tab in relevant search results.
+
+
+Opting your product feed out of showing organically on Google
+
+If you'd like to exclude your feed from a particular destination after configuring your account:
+
+
+  In the Google & YouTube app on Shopify, select the "Settings" tab.
+  Select and open your Merchant Center account.
+  In the left navigation menu, click Products then click Feeds.
+  Select the name of the feed you wish to update.
+  On the page that loads, click the "Settings" tab.
+  Deselect any destinations that you'd like to exclude in the "Destinations" section.
+  Click Save.
+
+             Was this helpful?How can we improve it?YesNoSubmit       

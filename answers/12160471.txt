@@ -1,0 +1,20 @@
+ Online store URL domain requirements
+
+
+  If you’re looking for information about online store URL domain requirements in the classic Merchant Center experience, click here. 
+
+
+
+Your website needs to meet certain requirements to help customers find and successfully make purchases on your online store:
+
+
+
+  Make sure your online store website is not a marketplace where other businesses sell their products, such as eBay or Amazon.
+  Offer eligible products which are shippable or downloadable.
+  Offer products for a displayed and fixed price.
+  Have at least one conventional method of payment such as a credit card, debit card, invoicing, or payment on delivery available during a secure checkout process.
+  Make sure customers can buy directly from your website without the need to redirect to another website.
+  Disclose purchase conditions for your business, such as return and refund policies.
+
+
+             Was this helpful?How can we improve it?YesNoSubmit       

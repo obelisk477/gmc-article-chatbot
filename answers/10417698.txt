@@ -1,0 +1,30 @@
+ Manage your notifications
+
+To help you keep things running smoothly and improve your presence on Google, you’ll occasionally find notifications in your Merchant Center account. You can review these at any time by clicking the bell icon from anywhere in Merchant Center.
+
+Generally, notifications fall into these categories:
+
+Alerts: Notifications that require merchants to fix something that’s currently broken (for example, feed issues). Alerts contain two sub-categories:
+
+
+   Alert
+   Warning
+
+
+Suggestions: Optional actions that merchants could complete to improve their performance. Suggestions contain three sub-categories: 
+
+
+   Tip
+   Pending action
+   Opportunities
+
+
+Announcements: Informative messages that merchants need to know about (for example, new product feature, policy update). Announcements contain two sub-categories:
+
+
+   New feature 
+   Update
+
+
+A notification will disappear once you’ve taken its suggested actions. You can also snooze or dismiss notifications without taking action on them by clicking the 3-dot icon in the top right corner of a notification, and then selecting Snooze or Dismiss. A snoozed notification will disappear from your notifications for 24 hours, while a dismissed one will be deleted permanently.
+             Was this helpful?How can we improve it?YesNoSubmit       

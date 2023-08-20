@@ -1,0 +1,20 @@
+ Understanding Merchant Center country restrictions
+
+Google must comply with sanctions and export controls maintained by the United States Treasury Department’s Office of Foreign Assets Control (OFAC), United States Commerce Department’s Bureau of Industry & Security and other applicable sanctions. As a result, Merchant Center isn’t available to retailers in the following countries or territories:
+
+
+  Crimea
+  Cuba
+  So-called Donetsk People's Republic (DNR) and Luhansk People's Republic (LNR)
+  Iran
+  North Korea
+  Sevastopol city
+  Syria
+
+
+
+  Note: Businesses from a restricted country or territory aren’t supported even if they target non-restricted countries.
+
+
+In addition, Merchant Center isn’t available to any entities or individuals that are restricted under applicable trade sanctions and export compliance laws. It’s also not available to entities or individuals owned or controlled by or acting for or on behalf of such restricted entities or individuals.
+             Was this helpful?How can we improve it?YesNoSubmit       

@@ -1,0 +1,20 @@
+ I want to activate add-ons in Merchant Center
+If you want to customize the way Merchant Center works for your business with more advanced functionality, you can activate add-ons, such as adding promotions on your ads and listings.
+
+Get started
+
+
+  From the navigation menu, click Add-ons. You'll see a list of all available options.
+  Click Activate for the add-on you want to activate to get started.
+
+
+Add-ons can be deactivated at any time in your Merchant Center by clicking on the corresponding button. Follow the steps you're prompted with prior to deactivating your add-ons.
+
+Note that only add-ons that are compatible with your Merchant Center account will be available. You may see others marked as "unavailable."
+
+New add-ons will become available periodically. Check back often to find the ones that work best for your business. Available add-ons:
+
+
+  Promotions
+
+             Was this helpful?How can we improve it?YesNoSubmit       

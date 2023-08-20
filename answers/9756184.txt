@@ -1,0 +1,99 @@
+ How to fix: Inconsistent value: price [price] for MHLSF (full)For your merchant-hosted local storefront (full), ensure that the prices in your local inventory data match the availability displayed on your landing pageWhen someone clicks a local inventory ad or local listings on Google, they expect to see the same price on your landing page as they see in the ad or listing. You may be paying for wasted clicks if someone clicks on a product and then returns to Google after seeing a different price on your landing page.
+
+
+  Price mismatches were found between your local inventory data and your landing pages. You should have received an email asking you to update your data by a certain date so the values in your data are consistent with those on your landing page. If mismatching data is detected after this date, your account will be suspended and will no longer be eligible to show your local products in ads and free listings.
+
+
+Instructions
+
+Expand all
+
+The merchant-hosted local storefront (full) implementation displays the price of a product at a specific store. Accordingly, a click from a merchant-hosted local storefront (full) local inventory ad or local listing must direct to a product landing page which displays the price of the item at a specific store. Refer to the table below to determine which feed and attribute is providing the price for your local inventory ads and listings.
+
+
+  
+    
+      Storefront Type
+      Feed Source
+      Pricing Attribute
+      Notes
+    
+    
+      Full
+      Primary Feed or Legacy Local Products Feed
+      Price [price] or sale price [sale_price]
+      Price is provided in your primary feed if you are showing nationwide prices
+    
+    
+      Full
+      Local Inventory Feed
+      Price [price] or sale price [sale_price]
+      Price is provided in your local inventory feed if you are showing store-specific prices
+    
+  
+
+
+ 
+Step 1: Ensure that price in your local inventory ads data matches price on your landing page
+
+
+  
+    Investigate your update process to see what could be causing the problem:
+      
+        Check the warning email for examples of products that were disapproved. Look for a common problem in your product data that could cause these mismatched prices.
+        Make sure you’re updating your landing page and local inventory ads data at the same time. Schedule an upload or use the Content API to immediately update your product data. This scheduling helps make sure Google has the same data that is displayed on your landing page.
+      
+    
+    Once you’ve addressed the problem, update the price [price] attributes in your local inventory ads data to match your landing page.
+  
+
+Step 2: Resubmit your inventory data
+
+
+  
+    Once you’ve updated your local inventory ads and free local listings data, resubmit it using one of the methods below:
+      
+        Upload a feed
+        Submit through the Content API
+      
+    
+  
+
+Step 3: Wait for your data to be re-crawled
+
+
+  
+    Google will crawl the products listed in your Merchant Center account. If we detect that the prices in your data now match your landing page prices, your account suspension will be lifted and you will be able to serve local inventory ads and listings again.
+  
+
+
+Tips
+Compare the store-specific price in your product data to your store-specific landing page
+
+
+  
+    Find the link for merchant-hosted local storefront [link_template] attribute for the example product included in your warning email.
+    Replace the store code [store_code] value in the link for merchant-hosted local storefront [link_template] attribute with the store code value included in your warning email.
+    Paste the link for merchant-hosted local storefront [link_template] value into your browser to trigger your store-specific product landing page. The price listed on this page must match the value submitted for the price [price] attribute in your local products inventory feed. Please note that the resulting value may not be the same as the value that Google previously crawled.
+  
+
+  Example:
+
+  
+    ID [id]: 7
+    Store code [store_code]: 123
+    Price [price]: 12.75
+    Link for merchant-hosted local storefront [link_template]: https://www.example.com/products/7&store={store_code}
+    Link to store-specific landing page: https://www.example.com/products/7&store=123
+  
+
+Ensure that you are submitting data correctly when showing on-sale products
+
+
+  
+    If you are submitting the sale price [sale_price] attribute to show on-sale products, make sure that you also submit the sale price effective date [sale_price_effective_date] attribute to specify when a sale expires.
+      
+      Otherwise, you run the risk of showing a sale price[sale_price] that is no longer active on your product landing page which will result in a mismatched price.
+  
+
+             Was this helpful?How can we improve it?YesNoSubmit       

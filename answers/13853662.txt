@@ -1,0 +1,59 @@
+ About next-day delivery for local product listings
+The next-day delivery feature allows you to indicate which local products are eligible for next-day delivery if the order cut-off time for same-day delivery has passed. This feature is only available for local product listings and local inventory ads.
+
+On this page
+
+
+  Eligibility
+  How to set up next-day delivery
+
+
+
+Eligibility
+
+
+  Make sure that your business provides same-day delivery fulfillment services for eligible products.
+  Set up a Google Business Profile for your store locations and link your profile to your Merchant Center account.
+  Enable free local listings in Merchant Center to list your products for free on Google.
+  Create a local product feed and submit the feed to Merchant Center.
+  Currently available for free local listings in the United States only.
+
+
+
+How to set up next-day delivery
+
+To use the next-day delivery feature, you must set up your same-day delivery first. After setting up your order cut-off time, you can choose to display an annotation that the same-day delivery items are also eligible for next-day delivery when the orders are placed after the specified cut-off time. The next-day delivery annotation will appear from the selected cut-off time until 12 AM.
+
+
+  Note: If the store is closed on the next day, the next-day delivery annotation will not appear.
+
+
+Service coverage
+
+
+  In your Merchant Center account, click Tools and settings icon  .
+  Select Shipping and returns under “Tools”.
+  Select Add shipping service.
+  Select Delivery for local products (US only).
+  In the “Service coverage” page, name your shipping service and select USD as currency for the fees.
+
+
+Delivery settings
+
+
+  In the “Delivery settings” page, select whether all your products or only certain products are available for same-day delivery.
+  Decide whether all stores offer same-day delivery or only certain store locations.
+  Create a same-day delivery label (if applicable). Learn more about creating a same-day delivery label.
+  Select a maximum delivery radius.
+  Select an order cut-off time.
+  Click the pencil icon  next to the text “After order cutoff time, next day delivery messaging will be displayed”.
+  If you want the next day delivery annotation to show up, select the radio button next to option “Yes”.
+  Provide a minimum order value required for orders to be eligible for same-day delivery. If there is no order minimum, leave this value as $0.00.
+
+
+Related links
+
+
+  About same-day delivery
+
+             Was this helpful?How can we improve it?YesNoSubmit       

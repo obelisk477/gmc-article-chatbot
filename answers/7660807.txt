@@ -1,0 +1,188 @@
+ Return settings requirements for Buy on Google
+  Buy on Google for Search and Shopping will no longer be available starting September 26, 2023. Eligible merchants will be able to use Buy on Google for YouTube in the US. Learn more about Enabling Buy on Google for YouTube.
+
+
+
+
+
+
+  This article details settings requirements for returns for Buy on Google. For general information on returns, see the Merchant Center guidelines.
+
+
+How it works
+
+There are three pieces of your returns configuration for Buy on Google:
+
+
+  Return policies (mandatory)
+  Return addresses (mandatory)
+  Return rules (recommended)
+
+
+In addition, you'll need to follow:
+
+
+  Requirements for processing returns
+  Additional returns policies
+
+
+
+  Note: The configurable settings will guide your return settings, but will not ensure that your return settings adhere to the required policies. Products that don't meet the minimum standards may be removed from your available inventory. Changes to return settings can take up to a day to reflect on your products.
+
+
+Return policies
+
+A minimum of one return policy is required for all the products you sell on Buy on Google. Return policies can be added via the "Returns" section in Merchant Center, via feeds, or via the Content API.
+
+The first return policy you create will be your default return policy. Additional return policies can be created by using labels to define groups of products, like electronics or apparel, and then applying specific return policies to those groups. These policies can be specified in the feed with the return policy label [return_policy_label].
+
+If the feed for a product does not include a return policy label [return_policy_label]column, or if the return policy label [return_policy_label] attribute is blank, or if the return policy specified by the feed cannot be found, the default return policy will be used.
+
+Requirements for return policies
+
+The following are requirements your return policies must meet.
+
+
+  Return window
+
+  
+    
+      You choose whether or not products with a specific return policy can be returned, and if so, for how long. Eligibility for return is calculated from the date when the product was delivered (or the latest estimated delivery date if the actual delivery date is not available).
+
+      Your default return policy must allow customers to make returns for up to at least 30 days, from the delivery date. Additional return policies shorter than 30 days may be created, but should only be applied to products in allowable exception categories.
+    
+
+    
+      
+        Exceptions: You may provide a return policy with a minimum of 14 days for electronic products. You may provide a return policy that designates food products, perishables, or living things as ineligible for return.
+      
+    
+  
+
+
+
+  Customer return fee
+
+  
+    By default, all returns on Buy on Google are marked as free returns. However, you may select some or all of the customer remorse reasons ("better price found", "changed mind", "does not fit", "no longer needed", and "ordered wrong product") for a return to indicate when the cost of return shipping is the responsibility of the customer. If you don't select a reason, or if the reason for return is not included among the reasons you're able to select, you'll be responsible for the cost of the return and the customer will be informed that there are “Free returns” for the purchase. You'll also be required to specify the actual cost of return shipping that the customers will be charged. Restocking fees are not allowed and therefore cannot be specified.
+  
+
+
+
+  Seasonal overrides
+
+  
+    
+      In order to accommodate high volumes of both orders and returns during periods such as holidays, you can create seasonal overrides during which there are exceptions to your standard return policy. For example, you might set a seasonal override for products ordered between November 1 and December 25 that allows those products to be returned until January 31 of the following year.
+
+      If you set a specific date until which products may be returned and that date differs from the return window of a non-seasonal policy, the more favorable of the two policies will be applied. Seasonal overrides must still conform to all the requirements for a return policy.
+    
+  
+
+
+Return addresses
+
+A minimum of one return address is required for all the products you sell on Buy on Google. Return addresses can be added in the "Returns" section of your Merchant Center account, via feeds, or via Content API. The first return address you configure will be your default return address.
+
+Additional return addresses can be created by using labels to define groups of products, like electronics or apparel, and then applying specific return policies to those groups. These policies can be specified in the feed with the return policy label [return_policy_label].
+
+If the feed for a product does not include a return policy label [return_policy_label] column, or if the return policy label [return_policy_label] attribute is blank, or if the return policy specified by the feed cannot be found, the default return policy will be used.
+
+Requirements for return addresses
+
+
+  Each product must have an associated valid United States return address (even if you manage returns for the products)
+  For Google-facilitated returns:
+    
+      The return address specified as default in your carrier account will be specified as return to sender (RTS) address
+    
+  
+
+
+Return rules
+
+You can add a return rule to the products you sell on Buy on Google to signify special returns scenarios. You can mark your offers as requiring either "special processing return" or "returnless refund".
+
+The steps to create a return rule depend on which experience you're using: the new or previous way to configure return rules.
+
+If you're using the new way to configure return rules, you'll need to configure return rule settings in your Merchant Center account by specifying price conditions.
+
+If you're using the previous way to configure return rules, you'll need to configure its settings in your Merchant Center account and then add it to a product by using the return rule label [return_rule_label] attribute in your feeds or via Content API. If the feed for a product does not include a return rule label [return_rule_label] column, or if the return rule label [return_rule_label] attribute is blank, or if the return rule specified by the feed cannot be found, no return rule will be used for the product.
+
+Requirements for return rules
+
+
+  For returnless refund:
+
+    
+      Products eligible for returnless refund must also have a return address associated with the product.
+      Google may choose to generate a return label on your behalf for these products for fraud prevention or Google may route these return requests for you to review within the Merchant Center.
+    
+  
+  For special processing return:
+    
+      You must accurately tag why a product requires special processing when configuring the return rule in the Merchant Center.
+      You'll receive an email when a customer requests a return for these products. You may respond directly to the email to coordinate with the customer directly for these returns.
+    
+  
+
+
+Processing returns
+
+When processing returns, you must follow these policies:
+
+
+  When you're notified in Merchant Center of a customers' return request, you must complete one of the following within two business days:
+
+    
+      Provide a return label and provide the carrier name and tracking number in Merchant Center.
+      Provide the customer with a refund without the need to ship the return.
+    
+  
+  Returns are expected to be processed within two business days of receiving a return at your return address. If you fail to process the return in time, the following may occur:
+    
+      Google may refund the customer at your expense.
+      Google may favor the customer in the event of any subsequent Google Guarantee claim.
+      Your Retailer Standards score may be negatively impacted if you repeatedly fail to process returns in a timely manner. For example, your Retailer Standards score may be impacted if more than 10% of your orders experience delay in processing returns.
+    
+  
+  You must provide a reason (mandatory) when you process a return. We recommend that you provide notes to substantiate the reason for any rejections or partial refunds.
+
+
+Additional policies
+
+And finally, there are several other requirements for managing returns:
+
+
+  When you've provided your carrier account details (UPS or FedEx), you agree to allow Google to generate return labels on your behalf. You'll be directly billed by the carrier for the return labels that are used. If Google’s call to your carrier to generate a return label fails, as a fallback, the return will be considered a retailer-managed return. This would generate a return request, which you'll be able to view in the "Returns" section of your Merchant Center account.
+  You're required to respond to customer messages via Google-facilitated messaging within two business days. Examples of mandatory reasons for your response include all special processing required returns.
+  You cannot include pre-paid return labels with your products.
+  You must provide shipping dimensions and weights for all products. Failure to do so will result in Google using a default shipping dimension and weight.
+  Customer email addresses shared with you for the intent of scheduling delivery or pick up can only be used for logistics.
+
+
+
+Related links
+
+
+  
+  Set up your return settings for Buy on Google
+  Set up return policies for Buy on Google
+  Return settings requirements for Buy on Google 
+  Switch how you manage your Buy on Google returns
+
+
+
+
+
+  
+  Need help? Click here to contact Buy on Google support.
+
+
+
+  Try our new chatbot for immediate assistance
+
+
+  
+
+             Was this helpful?How can we improve it?YesNoSubmit       

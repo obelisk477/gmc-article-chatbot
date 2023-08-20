@@ -1,0 +1,214 @@
+ Promotion ID [promotion_id]
+
+For retailers using promotions, the promotion ID [promotion_id] attribute can be used in both your product data and promotions data to match products to promotions.
+
+In this article
+
+
+  When to use
+  Format
+  Minimum requirements
+  Best practices
+  Examples
+
+
+When to use
+
+ Optional for each product
+
+Not available for free listings
+
+If you're using a promotion with the products eligible for promotion [product_applicability] attribute set to specific_products, you can use the promotion ID [promotion_id] attribute in both your product and promotion data to match a product to a promotion. 
+
+Using the promotion ID attribute helps Google to understand which products have promotions so that we can display the promotions appropriately.
+
+Format
+
+Follow these formatting guidelines to make sure Google understands the data you're submitting. Learn when and how to submit your product data in English
+
+
+  
+    
+      
+      
+    
+    
+      
+        
+        Type
+        
+        
+        Unicode characters (Recommended: ASCII only): alphanumeric, underscores, and dashes 
+        
+      
+      
+        
+        Limits
+        
+        
+        1–50 characters
+        
+      
+      
+        
+        Repeated field
+        
+        
+        Up to 10 times
+        
+      
+    
+  
+
+
+ 
+
+
+  
+    
+      
+      
+    
+    
+      
+        
+        File format
+        
+        
+        Example value
+        
+      
+      
+        
+        Text feeds
+        
+        
+        tbby123_us
+        
+      
+      
+        
+        XML feeds
+        
+        
+        <g:promotion_id>tbby123_us</g:promotion_id>
+        
+      
+    
+  
+
+
+ 
+
+To format your data for Content API, see the Content API for Shopping resource.
+
+Minimum requirements
+
+These are the requirements you’ll need to meet to show your product. If you don't follow these requirements, we'll disapprove your product and let you know in your Merchant Center account.
+
+
+  Submit the promotion ID attribute for the specific products in a promotion if the promotion uses the products eligible for promotion [product_applicability] attribute and it’s set to specific_products. If the promotion uses the products eligible for promotion attribute and it’s set to all_products, then the promotion ID code [promotion_id] attribute isn't needed, since the promotion applies to all of your products.
+  Use a unique ID for each different promotion. The ID allows you and Google to distinguish each promotion.
+  Use a stable ID for each promotion. Once you've assigned an ID to a promotion, don't change it. The ID you choose identifies the promotion and is used to track the product's performance history in Merchant Center and Google Ads. If you change the ID, you'll overwrite your promotion and its history.
+  Don’t reuse or recycle the same ID for different promotions. For example:
+    
+      Don’t reuse an ID for different promotions in the same target country or language.
+      Don’t recycle an ID for new promotions. Even if you’re not running a promotion anymore, don't use that promotion's ID for any other promotion. Assign a unique ID for a new promotion.
+    
+  
+  Avoid white space. Consecutive white spaces and white spaces before and after the ID will be automatically removed.
+  Use casing to make IDs unique if needed. For example, we interpret the ID "abc123" and "ABC123" as different promotions.
+  Don't submit symbols. For example, % or !
+  Don't submit invalid unicode characters. These characters are generally added during your file's encoding process. To avoid them, use UTF-8 encoding. To help prevent encoding issues, submit files in a compressed format. Examples of invalid unicode characters include:
+    
+      Control characters (for example, U+200D)
+      Function characters
+      Private area characters
+      Surrogate pairs
+      Unassigned code points
+    
+  
+
+
+Best practices
+
+These best practices can help you go beyond the basic requirements to optimize your product data for performance.
+
+
+  Match a product to more than one promotion by submitting the promotion ID [promotion_id] attribute up to 10 times per product.
+
+
+Examples
+
+
+  Promotion applies to specific products
+
+  
+    Use the same value for the promotion ID [promotion_id] attribute in your product data and promotions data when a promotion applies to a product.
+  
+
+
+
+  Promotion applies to all products
+
+  
+    Don't use the promotion ID [promotion_id] attribute since your promotion applies to all products.
+
+    
+      
+        
+          Feed type
+          Promotions data
+        
+        
+          Promotion
+          Free shipping event
+        
+        
+          Products eligible for promotion [product_applicability]
+          all_products
+        
+        
+          Promotion ID [promotion_id]
+          None
+        
+        
+           
+           
+        
+        
+          Feed type
+          Product data
+        
+        
+          Product
+          Android Squishable - Small
+        
+        
+          Promotion ID [promotion_id]
+          None, since the promotion applies to all products
+        
+        
+           
+           
+        
+        
+          Feed type
+          Product data
+        
+        
+          Product
+          Android Squishable - Large
+        
+        
+          Promotion ID [promotion_id]
+          None
+        
+      
+    
+  
+
+
+
+  
+             Was this helpful?How can we improve it?YesNoSubmit       

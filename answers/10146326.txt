@@ -1,0 +1,159 @@
+ Local promotions basics
+
+This article explains what local promotions are, how they work, and how you can benefit from them.
+
+The local promotions feature uses the information you’re already using for your local inventory ads to show store-specific offers on these same ads—promoting your local products. All merchants who are currently participating in local inventory ads and promotions are able to create local promotions. It’s currently available in the following countries: Australia, Brazil, Canada, France, Germany, India, Italy, Japan, Netherlands, Spain, the UK, and the US.
+
+If you’re interested in participating, contact us.
+
+
+  Note: Cost per click (CPC) rates still apply. Local promotions must comply with all promotion program policies and are currently not available to display on free local listings. Promotions do not affect search rankings.
+
+
+Benefits of local promotions
+
+
+  Boost clickthrough rate: Use local promotions to draw attention to your local inventory ads.
+  Capture multi-screen traffic: Local promotions display as "special offer" links on your local inventory ads for both desktop and mobile devices.
+  Promote your in-store discounts: Let local customers know that your store has a promotion on the items they’re searching for. Local promotions can be used to help highlight thematic and category-based offers—like holiday sales or discounts on post-seasonal merchandise.
+
+
+How local promotions work
+
+Local promotions function similarly to standard promotions. To create a local promotion, you can:
+
+
+  Use the promotion builder in the "Promotions" dashboard in Merchant Center.
+  Add new attributes to your existing promotions feed.
+  Create a separate local promotions feed and apply it to your locally-available products.
+  Use the Content API for promotions
+
+
+Local promotion requirements
+
+Supported local promotion types
+
+Local promotions need to be in one of the following structured promotion types. (Structured promotions are standardized promotion formats into which you can enter your own values, such as "get x% off" or "buy x units get $x USD off".) Keep in mind that shipping-related offers (example: "Free shipping") aren’t available for local promotions.
+
+
+  
+    
+      Promotion
+      Type
+      Examples
+    
+  
+  
+    
+      Discounts
+      % and $ USD off discounts
+      % off on entire order
+      $x USD off entire order
+      $x USD off order of $y USD or more
+    
+    
+      Cash back
+      $x USD cash back
+    
+    
+      Buy one, get second % off
+      Buy one, get one discounted
+      Buy one, get one free
+    
+    
+      Free gifts
+      Free item or free gift card for specified value
+      $x USD free gift on purchase
+    
+  
+
+
+
+  Note: If free gifts don’t have guaranteed availability in all stores, add a disclaimer to your website indicating that the offer is only available "while supply lasts".
+
+
+Restrictions
+
+
+  After you submit a local promotion, Google reviews it to ensure it complies with our policies. Google rejects local promotions that are specific to, or exclude any audience (example: "for military members only").
+  Promotions offered only to first-time customers are allowed, as long as you state the targeting condition in the title (example: "10% off for new customers" or "10% off on first purchase").
+
+
+FAQs
+
+
+  Can I submit local promotions through my online promotion feed?
+
+  
+    Yes. You can submit combined or separate feeds for your standard online and local promotions.
+  
+
+
+
+  Can I duplicate my standard promotions feed and use it as a local promotions feed?
+
+  
+    
+      Yes. If you have an active online promotions feed, it’s simple to convert it for your local and omni-channel promotions. To convert existing promotion data:
+
+      
+        Duplicate your online promotions feed (or the applicable promotions within the feed).
+        Replace the existing promotion ID [promotion_id] values with unique promotion ID [promotion_id] values.
+        Add them to the eligible items in your products feed (if it’s a promotion for specific products).
+        Add the redemption channel [redemption_channel] attribute and set it to online, in_store (if omnichannel) or in_store (local only).
+        Add the [promotion_destination] attribute and set it to local_inventory_ads. To submit your promotion to one or more destination, submit each destination value as a separate column:
+          
+            promotion_destination: local_inventory_ads
+            promotion_destination: Shopping_ads
+            promotion_destination: Buy_on_Google_listings
+            promotion_destination: Free_listings
+          
+        
+        Add the store applicability [store_applicability] attribute and set it to all_stores or specific_stores.
+          
+            If set to SPECIFIC_STORES, the store codes inclusion [store_codes_inclusion] or store codes exclusion [store_codes_exclusion] attribute will have to be specified.
+          
+        
+        Add the promotion URL [promotion_url] attribute and provide the link to your promotion details page.
+      
+    
+  
+
+
+
+  Why am I getting an error when I try to submit my store codes or an omnichannel promotion?
+
+  
+    
+      This typically indicates that there are quotation marks around a repeated field, which renders it unreadable in our system. This is a common issue that we see when feeds with repeated fields are converted from Excel to text files.
+
+      You can correct it directly in the feed by replacing all instances of the values in "quotes" with the standard values (without the quotation marks). Alternatively, you can follow the recommendations in the "Text feed: Tab-delimited" section of our About attributes with repeated fields article.
+    
+  
+
+
+
+  Can I require a customer to present a coupon code and/or a bar code in-store in order to redeem a local promotion?
+
+  
+    Yes, but the code or a link to it must be readily available (for example, from the landing page, or an email). The landing page should have clear redemption instructions on how to access the bar code.
+  
+
+
+
+  How can I confirm my promotion is active?
+
+  
+    We recommend that you search for your "product name in location name" on Google.com (for example: "acme anvil in mountain view, ca"). This method is most likely to surface your local product. After you locate it, if your local promotion is active, it will display.
+
+    
+      
+        Note: There are several factors that may cause an active local promotion not to show, including whether or not our algorithm determines your promotion is the best one to surface, as well as how many local promotions may be applicable.
+      
+    
+  
+
+
+RETURN TO PROMOTIONS HOME
+
+             Was this helpful?How can we improve it?YesNoSubmit       

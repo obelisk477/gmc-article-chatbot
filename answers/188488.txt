@@ -1,0 +1,182 @@
+ View your published products
+
+
+  If you’re looking for information about how to view your products in Merchant Center Next, click here
+
+
+The "Products" list page in Google Merchant Center contains detailed information about your submitted products, including tools to help you understand approval status, tax rates, and shipping calculations. Use the filter options available to filter for product information or view details for individual products.
+
+Get a quick overview of all products
+
+Cards at the top of the "Products" list page show the status of all products in your Merchant Center account. You can view:
+
+
+  The total number of products uploaded to your account
+  The number of products recently added or updated
+  The number of products that have fix suggestions
+  The number of products with eligible promotion, sale, or price drop badges
+
+
+You can select a number in a card to filter the "Products" list page (for example, select the number of products that have fix suggestions to view all products that match the filter).
+
+View a list of all products
+
+On the "Products" list page, you can view product data details such as:
+
+
+  Clicks your products have received
+  Price
+  Condition
+  Availability
+  Status (see a definition of each product status)
+  Click potential
+
+
+
+  Click potential
+
+  Note: Currently this feature is only available for certain users of Merchant Center.
+
+  A product's click potential estimates its performance potential compared to your highest performing products. Click potential of a product helps you to prioritize which products to fix, and helps you understand how products are performing against their potential. Potential is calculated based on past traffic, product data, and demand. There are several possible values for click potential:
+
+  
+     High: Potential to receive a similar number of clicks as your highest performing products
+     Medium: Potential to receive a moderate number of clicks compared to your highest performing products
+     Low: Potential to receive a low number of clicks compared to your highest performing products
+  
+
+   If no click potential is shown that means Google is still estimating the click potential. Check back later to find the click potential for this product.
+
+
+Here are the actions you can take on the "Products" list page:
+
+
+  Filter: To view data for specific filters in your table, use the filter icon  to select a category from the dropdown menu. Select an accuracy setting and enter any terms you’d like to include. You can filter based on the following terms:
+
+    
+      Product status
+      Availability
+      Country
+      Various product data attributes. Learn more about product data specification
+    
+  
+  Customize: To modify the columns in your table, use the columns icon  to choose which columns you want to display, along with the ordering of each column. You can also save your column set by choosing the option “Save your column set” using a name of your choice. Any saved column sets will appear by clicking the columns icon .
+  Remove: Delete products individually from your product list.
+  Sort: Click the headers to sort products by category.
+
+
+View details for a specific product
+
+By clicking on the title of a product, you'll see these details and tools:
+
+
+  Product overview: View an overview of the product (title, link, and product image) and approval status across programs. If there is a problem with your product image, this may be shown here. If your product is disapproved you can view more information on the disapproval reasons in the Item status section of the page. Learn more about item disapprovals
+  Technical details: View the expiration date, creation date, and primary feed source for your product as well as mapped online offers for local products.
+  Performance: View recent clicks for this product on Shopping ads and free listings.
+  Item status: View a list of current issues with this product and affected programs. If your product is disapproved for certain policy violations, you may also see an option to request a review of your item by clicking Request review. Learn more about item disapprovals for policy violations
+  Inventory details: View store-level inventory details for your local products.
+
+
+
+  Note: For products you sell through Buy on Google, if you include the quantity for Buy on Google [sell_on_google_quantity] attribute in your feed, you’ll see the submitted value for quantity for Buy on Google [sell_on_google_quantity] as well as the actual quantity available for sale.
+
+
+
+  Calculations for tax and shipping: Use this tool to see what tax and shipping rates are displayed to end users for this product. In countries where you can specify shipping rates based on shipping destination (for example, the United States or Japan), you need to enter a shipping destination in order to calculate a result. For all other locales, the shipping rate is calculated at the country-wide rate.
+  Raw feed attributes: View the values you submitted for each attribute in your product data for this item.
+  Final attributes: View the processed values for each attribute in your product data for this item, with attribute modifications made by supplemental feeds, automatic item updates, with feed rules applied, and after attribute rejection. These are the values Google uses to display your products.
+  Rejected attributes: View values that have been removed because they are invalid or because you have provided more than the maximum number of values supported for that attribute.
+  Information found on your site: View the product information (such as price [price] and availability [availability]) we found on your site for this product. This data may be used to update your product listing. Learn more about automatic item updates
+  Eligible badges: If you have a promotion, sale, or price drop on a product, a badge may appear next to the product on Google. For example, “Buy 3, get 20% off”.
+
+
+Download product information
+
+You can download your product data in a tab-delimited, TSV format from the "Products" list page.
+
+
+  [Optional] Apply filters to the products list in order to filter by status, availability, feed source, country, product type, or other product data attributes of your choosing.
+  Click the download button .
+    
+      The message “Generating your file...” will appear at the bottom of the screen.
+    
+  
+  When the “Ready to download” message appears, click Download.
+
+
+Downloaded product data will reflect raw data submitted to Google via your primary feed, in addition to any modifications from supplemental feeds, feed rules, and automatic item updates. This allows you to see your product data as Google uses it, and identify changes you can make to improve your data’s performance.
+
+
+  Note: Although the latest product information will usually be shown in your downloaded data, there may be a delay in processing if you’ve recently submitted a feed or created a manual offer, which will result in some information being out of date.
+
+
+
+  
+    Account users can perform downloads simultaneously. There are limits to the number of downloads per account per day and the number of products that can be included in each download.
+
+    
+      If you receive an error message that you have exceeded the limit for a download, use additional filters to reduce the number of products and try again
+      If you receive an error message that you have reached the daily download limit, try again later
+    
+  
+
+
+Common reasons why your products aren't displaying
+
+If your items aren't being shown, look for errors in your Google Merchant Center account using the "Products", "Diagnostics", and "Overview" pages in your account. For example, errors can result when your product data doesn't process properly into Merchant Center, a required attribute isn't provided, or an item violates a policy. It may take up to 2 hours for your product data to appear in the Products List.
+
+If there aren't any errors in your account, here are a few common reasons why your products may not be shown:
+
+
+  Your products are pending
+
+  
+    You'll see the status "Pending" assigned to your products in the "Products", "Diagnostics", and "Overview" pages in your account.
+    A product that's pending won't show in ads or free listings because it's being processed by Google. Your product might be pending for any of these reasons:
+
+
+  You're new to Merchant Center and/or your products are pending initial review. When you add a new feed or upload product data to your account for the first time, our specialists review your account to ensure it meets our Shopping policies and requirements, and that the information provided aligns with product data specifications. This processing can take up to 3 business days for Shopping ads and a few weeks for other features, such as free listings.
+  Your products require shipping information. Shipping costs are required if you're targeting a country that requires shipping costs. You can set up shipping costs for all products using Merchant Center shipping settings or for specific products using the shipping [shipping] attribute.
+  Your product has a pending image crawl. You don't need to do anything right now. Your image will automatically appear once we've fetched it. If we encounter any problems, we'll let you know. This processing is based on program requirements and can take from 3 business days up to a few weeks for Shopping ads and other features (like free product listings).
+
+
+
+  Note: Only upload a feed once unless you are changing product data. Re-uploading a feed that has already been uploaded can cause the process to start over again.
+
+
+
+    Learn more about product status definitions
+  
+
+
+
+  SafeSearch is on
+
+  
+    This feature is turned on by default and may prevent some of your products from showing. Learn how to turn off SafeSearch
+
+    If you feel your product has been incorrectly categorized as adult, we recommend removing any mature language or content from your product.
+
+    You can also mark your entire site as unsuitable for minors.
+
+    
+      Sign in to your Merchant Center account.
+      Click Shopping ads from the navigation panel, and then click Configuration.
+      Click the Adult content section.
+      Check the box for My site contains adult products as defined by Google's policy.
+    
+
+    Learn more about our adult-oriented content policy
+  
+
+
+
+  Your products have expired
+
+  To keep the content displayed on Shopping ads and free listings up-to-date, all products expire after 30 days. To prevent your products from expiring, you can submit your product data as often as your item information changes - up to once per day and at least once per month.
+
+
+You should also check your Google Ads account to make sure there are no issues with your Shopping campaign.
+
+
+             Was this helpful?How can we improve it?YesNoSubmit       

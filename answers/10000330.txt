@@ -1,0 +1,49 @@
+ Set up your returns settings for Buy on Google
+  Buy on Google for Search and Shopping will no longer be available starting September 26, 2023. Eligible merchants will be able to use Buy on Google for YouTube in the US. Learn more about Enabling Buy on Google for YouTube.
+
+
+
+
+Return policy is a key factor for a customer's purchasing decision. Favorable return policies (like a long return window and free returns) may increase sales of your products.
+
+Each product sold on Google must have an associated return policy and return address. The return policies and return address that you add to Merchant Center must at least match the return policy requirements.
+
+
+  Note: The configurable settings will guide your policy creation, but will not ensure that your return policies adhere to the required return policy standards. Products that don't meet the minimum standards will be removed from your available inventory. Return policy settings can take up to 24 hours to go into effect.
+
+
+How it works
+
+In order to complete setting up returns for Buy on Google, you’ll need to add at least one return policy and one return address - which will be considered as the default for all your orders.
+
+Instructions
+
+Step 1: Add a return policy
+
+Return policy communicates the following key information to shoppers:
+
+
+  Return window: This field communicates the number of days post a product’s delivery that a customer can return the product to you.
+  Customer shipment fee: This field communicates the customer specified return reasons where you’d like the customer to bear the return shipment fee. A return shipment fee can only be charged for remorse returns. You will also be required to specify the amount that the customer will be charged for these return reasons. The cost of return shipping cannot exceed the returned product’s value. Google may present the return shipping fee to customers before they complete a purchase. A high return shipping fee may deter customers from making a purchase.
+
+
+You can choose to set up specific return policies for each product, a return policy for a group of products, or one return policy for all of your products. Learn more about setting up your default return policy
+
+
+  Remember to come back to this article to complete Step 2 after you’ve set up your return policy.
+
+
+Step 2: Add a return address
+
+Return address communicates to Google where you would like the product to be sent if a customer decides to return a product.
+
+You can choose to set up specific return addresses for each product, a return address for a group of products or a return policy for all of your products. Learn more about setting up your default return address
+
+Related links
+
+
+  Set up return policies for Buy on Google
+  Set up a return address for Buy on Google
+  Return settings requirements for selling on Google
+
+             Was this helpful?How can we improve it?YesNoSubmit       

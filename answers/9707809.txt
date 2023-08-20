@@ -1,0 +1,94 @@
+ About defect alerts
+  Buy on Google for Search and Shopping will no longer be available starting September 26, 2023. Eligible merchants will be able to use Buy on Google for YouTube in the US. Learn more about Enabling Buy on Google for YouTube.
+
+
+
+
+
+Defect alerts help identify certain issues with your orders in real-time, allowing you to take action on alerts before they impact your customer experience. In this article, you’ll learn how to use this feature to resolve alerts and improve your Retailer Standards rating.
+
+Benefits
+
+
+  View and fix issues before orders reach your customers
+  Take action on specific types of defects in bulk
+  Improve your Retailer Standards rating
+
+
+Instructions
+
+To view your defect alerts:
+
+
+  Sign in to your Merchant Center account.
+  From the navigation menu, click Buy on Google.
+  In the “Standards” page, click Defect alerts.
+
+
+
+  Tip: You can also view your defect alerts by clicking on the banner at the top of the “Buy on Google” page.
+
+
+The “Defect alerts” page is divided into 2 sections:
+
+
+  Action items: This section summarizes the defects by type and can be used to filter the order list shown directly below.
+  Orders with possible defects: This table displays pending alerts and their statuses.You can also filter the list view by defect type, defect status, and number of defects added per order.
+
+
+
+  Keep in mind: Tracking defect alerts can only be surfaced for orders moving via major carriers with whom we have integration. This tool is intended to help flag pending issues, but does not alleviate merchant ownership of preventing defects of all kinds.
+
+
+How to resolve alerts
+
+Use the “Defect alerts” table at the bottom of the page to view and take action on alerts before they’re added as defects. You can act on a group of items in an order with the same alert type:
+
+
+  
+    
+      Alert type
+      Description
+      Actions
+    
+    
+      Pending Shipment
+      Item is not “Marked as shipped” within 8 hours of the “ship by” time.
+      Click Mark as shipped to update the status of the item to “Marked as shipped”.
+    
+    
+      Missing Tracking
+      Item is “Marked as shipped” but doesn’t have an uploaded tracking number within 8 hours of the “ship by” time.
+      Click Upload tracking to update the tracking number for the item.
+    
+    
+      Invalid Tracking
+      Item is “Marked as shipped” but has invalid tracking number (such as invalid carrier name) within 8 hours of the original “arrives by” time.
+      Click Fix tracking to change the tracking number for the item.
+    
+    
+      Multiple
+      If different items in order have different defects
+      Click Expand to show which items are flagged and what actions to take per item.
+    
+  
+
+
+Resolve alerts before the original “delivery by” time to avoid negatively affecting your Retailer Standards rating.
+
+
+  Note: Items can only have 1 active defect alert at a time.
+
+
+
+  Need help? Click here to contact Buy on Google support.
+
+
+
+Related links
+
+
+  About Retailer Standards and policies
+  How to improve your retailer standards rating
+
+             Was this helpful?How can we improve it?YesNoSubmit       

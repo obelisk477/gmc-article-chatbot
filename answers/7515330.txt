@@ -1,0 +1,114 @@
+ Test and preview your feed rules
+
+Use the rules testing feature in Merchant Center to preview the impact of your feed rules. The rule testing feature allows you to see how drafted rules would impact and change your product data, prior to applying the drafted rules.
+
+Before you begin
+
+Before you’re able to run a test of your rules, you must create a draft of your rules. To create a draft:
+
+
+  Sign in to your Merchant Center account
+  Under “Products,” click Feeds.
+  Select a primary feed to which you would like to apply rules.
+  Click the Feed rules tab for the feed.
+  Click the plus  icon to create new rules for your feed, then type or select the attribute you'd like to make a rule for.
+  Create your rule.
+    
+      After creating a rule, you can instantly preview the attribute value changes by reviewing the instant preview pane on the right.
+      If you have multiple rules for the same attribute, the instant preview will show the change made by each rule in the list. You can cycle through offers in your feed, or search for a product ID to preview the attribute change for that product.
+      If your rules will result in an item issue, it will be seen at the bottom. If we don't expect your rules to cause any item issues for this attribute, you will see "Everything looks good."
+    
+  
+  Click Save draft.
+  Navigate back to the main Rules tab. You will now see a box stating that you have a draft.
+
+
+Test your rules
+
+After you’ve created a rules draft, you can begin to test the draft and preview how it would impact your product data. To test your rules:
+
+
+  Go to the Feed rules tab
+  Click Test changes.
+  Wait for the report to generate. This test may take between 10 and 20 minutes.
+  Review the results of the test and confirm that the new rules are doing what you intended.
+  If the rules aren't working the way you intended, update any rules that may need adjusting.
+  To run another test with your new updates, click Test changes.
+    
+      If you want to run a new test using the same drafted rules and updated product data, click Retest.
+    
+  
+  Once you're satisfied with your rules, click Apply. Your drafted rules will go live and be applied to your product data.
+
+
+Review your results
+
+The test results are displayed after a test is completed.
+
+Status summary
+
+This section shows how your new or updated rules would impact the status of your products.
+
+The table includes the total number of "Approved," "Disapproved," and "Excluded" products for your destination, based on the effects of your currently applied rules. It also shows how those numbers would change if you applied your drafted rules. If you submit product data for multiple destinations, such as Shopping ads and local inventory ads, you can choose which destination you would like to see product data for.
+
+
+  
+    
+      Status
+      Meaning
+    
+  
+  
+    
+      Approved
+      This status includes items that would appear in the Diagnostics tab as "Active," "Pending," or "Expiring."
+    
+    
+      Disapproved
+      
+      If an item is "Disapproved", that means it can't show in your chosen destination.
+
+      This includes any and all of the disapproval reasons you'd see in the Diagnostics section of your Merchant Center account.
+      
+    
+    
+      Excluded
+      These are items that you chose to exclude from your destination. To manage whether your items are excluded or included, you can use the excluded destination [excluded_destination] and included destination [included_destination] attributes, as well as your feed settings. "Excluded" isn't the same as "Disapproved." Excluded items may be approved, but they won't appear in your destination.
+    
+  
+
+
+Below the status summary table, you'll also see:
+
+
+  Groups of products whose status would change as a result of new or updated rules.
+  For each group, the way in which the status of the products would change, such as approved to disapproved.
+  For each group, the number of products whose status would change.
+  For each group, up to 5 examples of which products would change and how after the new rules are applied.
+
+
+
+  Note: Review all status change messages before applying your draft rules to avoid unintentionally taking a portion of your inventory offline.
+
+
+Attribute change summary
+
+In this section you'll see:
+
+
+  The attributes that would be impacted by new or updated rules.
+  For each attribute, the number of products that would see a change in that attribute.
+  For each attribute, up to 5 examples of how the attribute would change after the rules are applied.
+
+
+Issue summary
+
+In this section, you’ll see which existing item issues would be resolved, which new item issues would be introduced, and which existing item issues would remain unchanged as a result of your rules. For each issue, you’ll also see:
+
+
+  The number of products affected by the issue.
+  Up to 5 examples of products affected by the issue, and the current and new values for the attribute related to the issue if applicable.
+
+
+In some cases, you may see the same issue appear in various sections of the issue summary. This can happen when you resolve an issue for one set of products in your feed, but don’t resolve that same issue for another set of products.
+             Was this helpful?How can we improve it?YesNoSubmit       

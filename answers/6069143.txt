@@ -1,0 +1,65 @@
+ About structured data markup for Merchant Center
+
+Structured data markup is a machine-readable representation of your product data directly on your site which can be used to share your product data with Google Merchant Center. The markup that's added to your HTML helps Google and other search engines understand and process your content reliably. Learn how to Set up structured data for Merchant Center.
+
+In this article
+
+
+  Getting started
+  How it works
+  Automatic item updates with structured data markup
+  Build feeds with structured data markup
+  Requirements for structured data markup
+
+
+
+Getting started
+
+You can use schema.org structured annotations to allow Google to reliably retrieve up-to-date information directly from your website. In Merchant Center, the structured annotations can be used to update your product data and simplify the creation and maintenance of your product feed.
+
+Valid structured markup allows us to read your product data and enable 2 features:
+
+
+  Automatic item updates: Automatic item updates reduce the risk of account suspension and item disapproval due to price and availability mismatches.
+  Automated feeds: Available via the “website crawl” input method to create a primary feed in your Merchant Center account.
+
+
+
+How it works
+
+Google Ads Help: Simplify product feed management
+
+
+  For subtitles in your language, turn on YouTube captions. Select the settings icon  at the bottom of the video player, then select "Subtitles/CC" and choose your language.
+
+
+Structured data markup is an annotation system that you can add to your website. Structured data lets Google and other web platforms automatically read your site and directly pull product data from your HTML. Schema.org is a collection of structured data markup and annotations that are supported and used by major search engines and web platforms, including Google.
+
+To troubleshoot structured data related issues, we recommend using Search Console or the Rich Results Tool.
+
+
+Automatic item updates with structured data markup
+
+Prevent item disapprovals due to mismatched price and availability information with automatic item updates. This feature allows Merchant Center to update your items based on the structured data on your website in case the product data provided is out-of-date.
+
+
+  Note: Automatic item updates are not a replacement for providing regular updates to the Merchant Center product data.
+
+
+
+Build feeds with structured data markup
+
+If you’ve annotated your website with structured data, you can use “website crawl” when selecting a feed input method to have Google create a product data feed based on the structured data you’ve provided on your website.
+
+
+Requirements for structured data markup
+
+
+  Structured data markup must be present in the HTML returned from the web server. Structured data markup can’t be generated with Javascript after the page is loaded.
+  Your landing page cannot change based on information about the customer, such as if you adapt prices based on a customer’s IP address or browser type.
+  Structured data must match the values that are shown to the customer. Providing incorrect data on your product landing pages is a violation of our web developer guidelines.
+
+
+
+
+             Was this helpful?How can we improve it?YesNoSubmit       

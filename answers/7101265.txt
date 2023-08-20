@@ -1,0 +1,143 @@
+ About beta countries for Shopping Ads and free listings
+
+
+  All existing vehicle ads Smart Shopping campaigns will be upgraded to Performance Max by September 2023, bringing you additional inventory and formats to reach new customers. Accounts in which all campaigns have been upgraded are no longer able to create new Smart Shopping campaigns. Learn how to create a Performance Max campaign.
+
+
+
+Shopping ads and free product listings are expanding into new countries. You can include any of these beta countries as a target country for Shopping ads and free listings. You can show products in beta countries using any language that is supported for Merchant Center. Learn more about language and currency
+
+Benefits
+
+
+  
+    Expand your reach by creating Shopping ads and free listings, and showing your products in new countries.
+  
+  Be one of the first retailers to show your products in beta countries.
+
+
+Limitations
+
+
+  Participation in beta countries may initially only be available to certain retailers.
+  Performance in beta countries may differ from that of non-beta countries. Some products that are shown in beta countries may not be eligible to show everywhere.
+  It’s recommended that retailers who use Performance Max in beta countries set a target ROAS value to ensure consistent performance while traffic is being ramped up. If you're using Performance Max in a beta target country and have an existing Display remarketing campaign, we recommend keeping that campaign active. Your Display remarketing and Performance Max will run in parallel as traffic in beta countries ramps up.
+
+
+Target countries
+
+You can show products in the following beta countries:
+
+
+  
+    
+      Target country
+    
+    
+      Algeria
+    
+    
+      Angola
+    
+    
+      Bangladesh
+    
+    
+      Cambodia
+    
+    
+      Cameroon
+    
+    
+      Costa Rica
+    
+    
+      Côte d'Ivoire
+    
+    
+      Dominican Republic
+    
+    
+      El Salvador
+    
+    
+      Ethiopia
+    
+    
+      Ghana
+    
+    
+      Guatemala
+    
+    
+      Kenya
+    
+    
+      Madagascar
+    
+    
+      Mauritius
+    
+    
+      Morocco
+    
+    
+      Mozambique
+    
+    
+      Myanmar (Burma)
+    
+    
+      Nepal
+    
+    
+      Nicaragua
+    
+    
+      Nigeria
+    
+    
+      Pakistan
+    
+    
+      Panama
+    
+    
+      Puerto Rico
+    
+    
+      Saudi Arabia
+    
+    
+      Senegal
+    
+    
+      Sri Lanka
+    
+    
+      Tanzania
+    
+    
+      Tunisia
+    
+    
+      Uganda
+    
+    
+      Ukraine
+    
+    
+      Venezuela
+    
+    
+      Zambia
+    
+    
+      Zimbabwe
+    
+  
+
+
+
+
+             Was this helpful?How can we improve it?YesNoSubmit       

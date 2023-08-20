@@ -1,0 +1,106 @@
+ Implementation guideStep 2: Create a promotionNext: Step 3: Choose products for your promotions
+
+
+
+  If you’re looking for information about creating a promotion in Merchant Center Next, click here. 
+
+
+
+ 
+
+This article provides details about the two ways you can create a promotion.
+
+You must create promotions in order to provide details about offers you want to share with customers on Google. When you add promotions to products that you sell on Google, customers see a “special offer” link (for example, 15% off, free shipping, etc.).
+
+Learn more about Best Practices: Setting up promotions
+
+Option 1: Use the promotion builder
+
+The promotion builder is located in the "Promotions" dashboard of your Merchant Center account. It allows you to manually enter individual promotions. Use the promotion builder if you have a small number of promotions to submit.
+
+To add promotions manually, follow the steps below:
+
+
+  Sign in to your Merchant Center account.
+  Click Marketing in the navigation menu, then click Promotions.
+  Click the plus button .
+  Select the country and language for the promotion. The country you select determines the currency for the prices shown in the promotion.
+  Select the destination where you want to show the promotion: Shopping ads, Free listings, Buy on Google listings, or Local inventory ads. You can select more than one destination.
+  Select the promotion categories that best fit your promotion.
+  Follow the prompts, then click Save.
+
+
+The promotion builder supports the following promotions categories:
+
+
+  Amount off: Offer a monetary discount for your items
+  Percent off: Offer a percentage discount for your items
+  Free gift: Offer a free gift based on an item purchase or amount spent
+  Free shipping: Offer free shipping based on an item purchase or amount spent (not available for local inventory ads).
+
+
+The promotion builder allows you to specify spend thresholds, discount amounts, gift descriptions, and more. After you select your promotion category, the tool will display all of the applicable options for your promotion. Follow the prompts and guides to create your promotion.
+
+If you choose to apply your promotions to specific products in your products feed, choose Create custom filters based on product attributes in the promotion builder. This option allows you to select specific collections of offers from your product feed to either exclude or include in your promotions. You can specify the items that should have a promotion applied through any of the following attributes:
+
+
+  ID [id] or item ID [item_id]
+  Product type [product_type]
+  Brand [brand]
+  Item group ID [item_group_id]
+
+
+If local inventory ads are the destination for your promotion:
+
+
+  Provide a link to your promotion detail page during setup. The promotion link is used to verify the redeemability and validity of the local promotion.
+  Select your Google Business Profiles during setup to determine which Business Profiles are eligible for the promotion. You can choose all Business Profiles, or limit it to specific store codes.
+
+
+Follow the steps above for the promotions you want to create in the promotion builder. If you create promotions using the promotion builder, you can still upload promotions using a promotions feed (see Option 2 below).
+
+All promotions will appear in your dashboard.
+
+Option 2: Create a promotions feed
+
+A promotions feed is a spreadsheet that contains all promotions you use online. Use a promotions feed if you have a high volume of promotions to submit.
+
+To get started, you’ll need to create a spreadsheet (e.g., txt file, .xml file, or Google Sheets). To learn more, click Promotion feeds in the upper right hand corner of your "Promotions" dashboard. For complete details, refer to Promotions feed specification. To make changes to an existing promotion, refer to Edit a promotion or change promotion status.
+
+To express interest in the promotions program, fill out the Merchant Center Promotions form. If you already have promotion feeds for other providers, you can set up rules to transform existing data to match our products feed specification requirements. Learn more about how to set up feed rules
+
+
+  Review feed processing results
+
+  
+    
+      You’re able to review the results of all feed processing for file-based or Google Sheet-based feeds. To find the results:
+
+      
+        Sign in to your Merchant Center account.
+        Click Marketing in the navigation menu, and then click Promotions.
+        Click on Promotions feeds in the upper right hand corner of your “Promotions” dashboard.
+        Click the promotions feed name you’d like to review.
+        Review the results:
+          
+            Properties: This includes key feed properties, which vary depending on the input method of the feed. Here, you can find attributes such as input method, time zone, file size, detected delimiter (if applicable), and more.
+            Attributes: Depending on which Merchant Center program your feed is opted into, we require attributes to adhere to the product data specification. In this section, you can review all of the attributes we found in your feed, including those attributes which are recognized and map to the feed specification, and also unrecognized attributes which don’t match any of those listed in the product data specification. You may review the list and use tools, such as Feed Rules, to tell Merchant Center which unrecognized attribute you’d like to use to populate a Google attribute. For example, you may want to use the value you submitted for the product name [product_name] in the title [title] attribute.
+            Processing Data: In this section, you can review the amount of items found in your feed as well as those with any detected item issues. Review the list of item issues to understand how many items in your feed are impacted, including examples and links to documentation to address the issue.
+          
+        
+      
+    
+  
+
+  Option 3: Use the Content API for promotions
+
+  You can share and manage your promotions data with Google using the Content API. The Content API is available to merchants in Australia, Canada, France, Germany, India, the United Kingdom, and the United States. Languages supported by this feature are English, French, and German. Learn more about getting started with Content API for Shopping
+
+  Option 4: Use promotions from third-party partners (US only)
+
+  If you have a Shopify or WooCommerce account, you can connect your product discounts from these platforms with your Merchant Center account to show your promotions for your products on Google. You don’t have to create your promotions through your Merchant Center account if you use this feature. Learn more about managing your promotions through third-party partners
+
+
+RETURN TO PROMOTIONS HOME
+
+Next: Step 3: Choose products for your promotions             Was this helpful?How can we improve it?YesNoSubmit       

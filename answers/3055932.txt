@@ -1,0 +1,71 @@
+ About data mapping across feeds and accounts
+
+In order to show customers which local products can be found in nearby stores, Google matches data across different sources: Business Profiles, the primary feed, and the local product inventory feed in Merchant Center.
+
+
+
+About matching
+
+The key links between all of your data submissions are your product identifiers and your store codes. These attributes must be consistent across all of your data sources.
+
+As a starting point, we grab the unique ID for a product that matches a customer’s search query.
+
+Using the product ID, we match product information from the primary feed with the inventory information from the local product inventory feed. Then, we use your store code [store code] attribute from the local product inventory feed and match it against the Business Profiles from the linked business group to gather information about the store where that product is sold.
+
+
+  
+    
+    
+    
+    
+  
+  
+    
+      
+      Data source 1...
+      
+      
+      ...connects to data source 2...
+      
+      
+      ...via...
+      
+      
+      ...in order to...
+      
+    
+  
+  
+    
+      
+      Primary feed
+      
+      
+      Local product inventory feed
+      
+      
+      ID [id], a unique identifier for each of your products that you use across your feeds to identify the same item
+      
+      
+      Identify which products are available in each of your stores
+      
+    
+    
+      
+      Local product inventory feed
+      
+      
+      Business Profiles within the linked business group
+      
+      
+      Store code [store_code], a unique identifier for each Business Profile that you provide in your business group
+      
+      
+      Capture information about the store where a product is available, like hours and location
+      
+    
+  
+
+
+
+             Was this helpful?How can we improve it?YesNoSubmit       

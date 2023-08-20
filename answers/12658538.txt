@@ -1,0 +1,47 @@
+ About Comparison Shopping Services activity dashboard
+
+
+  If you’re looking for information about the Comparison Shopping Services activity dashboard in the classic Merchant Center experience, click here. 
+
+
+
+Use the activity dashboard to view activity for your domain across different Comparison Shopping Services (CSSs) that advertise for you.
+
+On this page
+
+
+  Get started
+  Next steps
+
+
+
+Get started
+
+To access the dashboard:
+
+
+  In your Merchant Center account, click Your business  from the left navigation panel.
+  Click the Comparison Shopping Services tab at the top of the page.
+  Click to expand the CSS section. You will find a list of all CSSs that have uploaded products from your website. You can also find contact information for each of them.
+  The activity dashboard shows aggregated clicks broken down by CSS over time.
+
+
+
+  Note: You will only see metrics for CSS’ who have opted into sharing data with you.
+
+
+
+Next steps
+
+What is shown?
+
+The dashboard shows the number of aggregated clicks broken down by CSS for all of the CSSs that advertise or list products for you. Data reflects clicks for all of your Shopping campaigns (excluding static remarketing ads) and is shown for all offers for which the target country is a CSS program country.
+
+A maximum of 5 CSSs can be displayed at a time on the dashboard. You can view your top 5 CSSs (based on performance) or pick up to 5 CSSs of your choice. The data shown in the dashboard covers a maximum time frame of 30 days.
+
+Learn more About the Comparison Shopping Services dashboard.
+
+
+  Note: In order for a CSS to show up in your dashboard, the CSS needs to opt in to data sharing. If you don't see data for a CSS that you believe is advertising on your behalf, it’s likely that the CSS hasn't opted in to data sharing. Once a CSS opts in to data sharing, you'll be able to view data going back to the date that the CSS started advertising for your domain.
+
+             Was this helpful?How can we improve it?YesNoSubmit       

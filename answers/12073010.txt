@@ -1,0 +1,289 @@
+ Free listings policies
+
+Welcome to the free listings Policy Center
+
+Overview of our free listings policies and how we enforce them
+
+We strive to support a healthy digital shopping ecosystem that’s trustworthy and transparent, and works for customers, retailers, and publishers. Information within this Help Center will help you create product offers that align with our free listings policies listed below.
+
+These policies are designed to ensure a safe and positive experience for our customers and to follow the relevant laws. This means that our policies prohibit content that is harmful to customers and the overall ecosystem.
+
+Our free listings policies cover four broad areas:
+
+
+   Prohibited content: Content you're not allowed to list on the Google Network
+   Prohibited practices: Things you can't do if you want to list products with us
+   Restricted content: Content you can list, but with limitations
+   Site requirements: Standards for your website
+
+
+We use a combination of automated and human evaluation to ensure that free listings comply with these policies. Our enforcement technologies use algorithms and machine learning, modeled on human reviewers’ decisions, to help protect our customers and keep our platforms safe. More complex, nuanced or severe cases are often reviewed and evaluated by our specially-trained experts.
+
+We take action on content that violates our policies. This may include restricting or disapproving free listings, that show policy violations, so they don’t serve. It may also include limiting offer visibility for some accounts, and suspending accounts for repeat or egregious violations.
+
+We will provide you with information on why your free listings violate our policies and the reason for disapproval. If one of your free listings is disapproved or has limited visibility, you can fix that listing or appeal the decision.
+
+
+
+  
+    
+      
+      Prohibited content
+      
+    
+  
+
+
+Counterfeit products
+
+
+
+  Google prohibits the sale or listing of counterfeit products. Counterfeit goods contain a trademark or logo that is identical to or substantially indistinguishable from the trademark or logo of another. They mimic the brand features of the product in an attempt to pass themselves off as a genuine product of the brand owner.
+
+  This policy applies to the content of your free listings and your website.
+
+
+
+Dangerous products
+
+
+
+  Google wants to help keep people safe both online and offline, so we don’t allow the listing of some products that cause damage, harm, or injury.
+
+  Examples of dangerous content: Recreational drugs (chemical or herbal); psychoactive substances; equipment to facilitate drug use; weapons, ammunition, explosive materials and fireworks; instructions for making explosives or other harmful products; tobacco products.
+
+
+
+Products that enable dishonest behavior
+
+
+
+  Google values honesty and fairness, so we don’t allow the listing of products that are designed to enable dishonest behavior.
+
+
+Examples of products that enable dishonest behavior: Hacking software or instructions; fake documents; academic cheating products.
+
+
+Inappropriate content
+
+
+
+  Google values diversity and respect for others, and we strive to avoid offending customers, so we don’t allow free listings or destinations that display shocking content or promote hatred, intolerance, discrimination, or violence.
+
+
+Examples of inappropriate or offensive content: Bullying or intimidation of an individual or group; racial discrimination; hate group paraphernalia; graphic crime scene or accident images; cruelty to animals; murder; self-harm; extortion or blackmail; sale or trade of endangered species.
+
+
+Unsupported free listings content
+
+
+Google aims to enable businesses to list a wide variety of products, but some Google products and platforms may not be optimized to appropriately support all content types.
+
+For this reason, we don't allow the listing of certain content where we don't offer an optimal customer experience.
+
+
+
+
+  
+    
+      
+      Prohibited practices
+      
+    
+  
+
+
+Abuse of the free listings network
+
+
+
+  Google wants listings to be useful, varied, relevant and safe for customers, and so we’ve made some decisions about how we serve content on our network. As a result we don’t allow any of the following:
+
+  
+    Malicious content
+    Sites that offer little unique value to customers and are focused primarily on traffic generation
+    Retailers who attempt to gain an unfair advantage in ranking
+    Retailers who attempt to bypass our review processes
+  
+
+
+
+Misrepresentation
+
+
+
+  Google doesn't want customers to feel misled by the content in your free listings, and that means being upfront, honest, and providing them with the information that they need to make informed decisions. For this reason we don’t allow the following:
+
+  
+    Listings that prompt customers to initiate a purchase, download, or other commitment without first providing all relevant information and obtaining the customer’s explicit consent
+    Listings that represent you or your products in a way that is not accurate, realistic, and truthful
+  
+
+
+
+
+
+  
+    
+      
+      Restricted content
+      
+    
+  
+
+
+The policies below cover content that is sometimes legally or culturally sensitive. Online listings can be used as a powerful way to reach new customers, but in sensitive areas, we also work hard to avoid showing these listings when and where they might be inappropriate.
+
+For that reason, we allow listings of the content below, but on a limited basis. These listings may not show to every customer in every location, and retailers may need to meet additional requirements before their listings are eligible to be shown to customers. Note that not all products, features, or networks are able to support this restricted content.
+
+Adult-oriented content
+
+
+
+  Google restricts free listings of the following types of adult-oriented content:
+
+  
+    Adult merchandise
+    Sexually suggestive content
+    Images containing exposed skin and nudity
+  
+
+  When listing adult content you may not do any of the following:
+
+  
+    Violate applicable laws or regulations for any location that you target
+    Target minors
+    List sexually explicit content
+    List content with underage or non-consensual sexual themes, including child sexual abuse content
+    List content that may be interpreted as providing sexual acts in exchange for compensation
+  
+
+
+Examples of restricted adult content: sex toys; adult magazines; sexual enhancement products; sexually suggestive lingerie promotions.
+
+
+Alcoholic beverages
+
+
+
+  Google restricts the listing of alcoholic beverages and drinks that resemble alcoholic beverages.
+
+  When listing alcoholic beverages, you may not do any of the following:
+
+  
+    Violate applicable laws and industry standards for any location that you target
+    Target individuals below the legal drinking age
+    Imply that drinking alcohol can improve social, sexual, professional, intellectual, or athletic standing
+    Imply that drinking alcohol provides health or therapeutic benefits
+    Portray excessive drinking in a positive light or feature binge or competition drinking
+    Show alcohol being consumed in conjunction with the operation of a vehicle of any kind, the operation of machinery, or the performance of any task requiring alertness or dexterity
+  
+
+
+Examples of restricted alcoholic beverages: beer; wine; sake; spirits or hard alcohol; Champagne; fortified wine; non-alcoholic beer; non-alcoholic wine; and non-alcoholic distilled spirits.
+
+
+Copyrighted content
+
+
+
+  Google restricts the listing of copyrighted content. If you would like to list copyrighted content and believe you are legally authorized to do so, you can contact us. To learn more about how we handle copyright-related issues or to submit a copyright-related complaint, use this form.
+
+
+
+Gambling-related content
+
+
+
+  Google restricts the listing of gambling-related content.
+
+
+Examples of restricted gambling-related content: national or private lotteries; physical lottery scratch cards; sites offering bonus codes or promotional offers for gambling sites
+
+
+Healthcare-related content
+
+
+Google restricts the listing of healthcare-related content such as the following:
+
+
+  Over-the-counter medication
+  Prescription drugs
+  Unapproved pharmaceuticals and supplements
+  Pregnancy and fertility-related products
+
+
+The restrictions that apply to this content may vary depending on the product you're listing and the countries that you're targeting. Some content, such as unapproved pharmaceutical supplements, may not be listed anywhere.
+
+Depending on the content you’re listing and the countries where your listings appear, you may need to apply for preauthorization with Google before advertising healthcare-related content.
+
+
+Trademarks
+
+
+Google doesn’t restrict use of trademarks by retailers in the title or description of a free listing when it’s for a trademarked product or a product compatible with the trademarked product. Retailers need to reference trademarks to be able to communicate to customers what they're offering, and customers need that information as it's relevant to their searches. We’ll review claims by trademark owners that use of their trademark is likely to cause consumer confusion about the origin of a product. To submit a trademark-related complaint if you’re an owner of the trademark, use this form.
+
+
+
+
+  
+    
+      
+      Site requirements
+      
+    
+  
+
+
+Editorial & technical requirements
+
+
+
+  In order to provide a quality customer experience, Google requires that all free listings meet high professional and editorial standards. We only allow listings that are clear and professional in appearance. These listings should lead customers to products and landing pages that are relevant, useful, and easy to interact with.
+
+
+Examples of listings that don't meet these editorial and professional requirements:
+
+
+  A display URL that does not accurately reflect the URL of the landing page, such as "google.com" taking users to "gmail.com"
+  Gimmicky use of words, numbers, letters, punctuation, or symbols such as FREE, f-r-e-e, and F₹€€!!
+  Sites that are under construction, parked domains, or are just not working
+  Sites that have disabled the browser's back button
+  Sites that are not viewable in commonly used browsers
+
+
+
+Irresponsible data collection & use
+
+Google wants customers to trust that information about them will be respected and handled with appropriate care. As such, merchants and retailers should not misuse this information, nor collect it for unclear purposes or without appropriate security measures.
+Examples of user information that must be handled with care: full name; email address; mailing address; phone number; national identity, pension, social security, tax ID, health care, or driver's license number; birth date or mother's maiden name in addition to any of the above information; financial status; political affiliation; sexual orientation; race or ethnicity; religion.
+
+Examples of irresponsible data collection and use: Obtaining the following data over non-secure SSL (https://) server connections:
+
+
+  Username or email in combination with passwords
+  Credit and debit card numbers
+  Bank and investment account numbers
+  Checking account numbers
+  Wire transfer numbers
+  National identity, pension, social security, tax ID, health care, or driver's license number
+
+
+
+About our policies
+
+
+Free listings enable businesses of all sizes, from around the world, to promote a wide variety of products and websites on Google and across our network. We want to help you reach existing and potential customers and audiences. However, to help create a safe and positive experience for users, we listen to their feedback and concerns about the types of free listings they see. We also regularly review changes in online trends and practices, industry norms, and regulations. And finally, in crafting our policies, we also think about our values and culture as a company, as well as operational, technical, and business considerations. As a result, we have created a set of policies that apply to all promotions on the Google Network.
+
+Google requires that advertisers comply with all applicable laws and regulations and the Google policies described above. It's important that you familiarize yourself with and keep up to date on these requirements for the places where your business operates, as well as any other places your listings are showing. When we find content that violates these requirements, we may block it from appearing, and in cases of repeated or egregious violations, we may stop you from listing with us.
+
+Note that because these limitations are specific to free listings, they do not impact policies on other Google products or platforms, where functionality differs or additional support mechanisms are in place.
+
+
+  This policy applies to free listings. Learn more about Shopping ads policies.
+
+
+
+
+ 
+             Was this helpful?How can we improve it?YesNoSubmit       

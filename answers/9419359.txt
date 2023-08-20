@@ -1,0 +1,83 @@
+ How to fix:  Inconsistent value: multipack [multipack]Submit this product with consistent values for these attributes: multipack [multipack], title [title], description [description], image link [image_link]
+
+For one or more of your products, an inconsistency has been detected in the values submitted for one of the following attributes: multipack [multipack], title [title], description [description], or image link [image_link]. Submitting the correct values for these attributes is important in distinguishing your product from similar products.
+
+For example, submitting the correct multipack quantity helps to distinguish your product from manufacturer-created multipacks and single-pack products. It also helps customers understand the value of your product.
+
+Instructions
+
+
+  Step 1: See the affected products
+
+  
+    
+  Sign in to your Merchant Center account.
+  Select Products on the navigation menu, then click Diagnostics.
+  Click the Item issues tab to see current issues affecting your products.
+
+
+To download a list (.csv) of all affected products for all issues:
+
+
+  Click the download button  next to the filter button , beneath the graph and above the list of issues.
+
+
+To download a list (.csv) of all affected products for a particular issue:
+
+
+  Find the issue under the “Issue” column, then click the download button  at the end of the row.
+
+
+To see a list of up to 50 products with this particular issue:
+
+
+  Find the issue under the “Issue” column, then click View examples in the “Affected items” column.
+
+
+  
+
+
+
+  Step 2: Verify attribute value
+
+  
+    
+      
+        Filter the downloaded report so that you only see products with:
+          “Issue title” = Inconsistent value
+        Adjust the value(s) for the attribute(s). For example, if you are selling a retailer-defined multipack and did not submit the multipack quantity, submit the correct value using the multipack [multipack] attribute.
+        If you already submitted a value for the attribute, please review the value you submitted, and correct it as needed.
+      
+    
+  
+
+
+
+  Step 3: Resubmit your product data
+
+  
+    
+      
+  After you’ve updated your product data, resubmit it using one of these methods:
+    
+      Upload a feed
+      Submit through the Content API
+      Import content from an ecommerce platform
+    
+  
+  Next, check that you’ve fixed the issue by making sure it’s no longer listed on the Diagnostics page.
+    
+    Keep in mind: It may take some time for your change to be reflected on the Diagnostics page.
+
+
+    
+
+    If you feel your item was incorrectly flagged, please reach out to our support team or your Google contact. You can get help with reapproving your item in the following cases:
+
+    
+      Your item is a manufacturer-defined multipack and not a retailer-defined multipack. In this case, you are not required to provide a value for the multipack [multipack] attribute.
+      Your item is a retailer-defined multipack and the value you submitted for the multipack [multipack] attribute matches the multipack quantity of your item.
+    
+  
+
+             Was this helpful?How can we improve it?YesNoSubmit       

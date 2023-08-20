@@ -1,0 +1,20 @@
+ Google Customer Reviews account suspension
+
+You may be suspended from Google Customer Reviews if you violate the Google Customer Reviews participation agreement, feature and privacy policies, or in any other way manipulate the product offering. If your account is suspended, you will receive an email and an alert will appear in your Merchant Center account.
+
+Note: Suspensions only affect your participation in Google Customer Reviews. Your Merchant Center account and participation in other features will not be suspended as a result of your Google Customer Reviews suspension.
+
+How it works
+
+Here’s what to expect during suspension:
+
+
+
+  The survey opt-in will disappear from your site within approximately 24 hours. If you’ve integrated the badge, it will disappear as well.
+  No additional survey emails will be sent to users (including those on orders placed prior to suspension that have not yet been triggered)
+  Previous reviews will continue to be used to calculate your individual rating, and will remain available on the seller ratings landing page. If you want to remove your reviews and rating, opt out of seller ratings.
+
+
+
+To appeal your suspension, contact us. If your account suspension is removed, your badge, opt-in, and emails will be re-enabled.
+             Was this helpful?How can we improve it?YesNoSubmit       

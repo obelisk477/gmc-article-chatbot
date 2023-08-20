@@ -1,0 +1,503 @@
+ Set up shipping settings
+
+
+  
+    If you’re looking for information about setting up your shipping settings in Merchant Center Next, click here.
+  
+
+
+
+Set up your shipping costs based on how you charge shipping. The costs you submit to Merchant Center must match the costs you charge on your website. If you can’t match the cost exactly, overestimate the figures you submit to Merchant Center. Keep in mind that customers will consider these costs and delivery speed when deciding whether to click on your product or not.
+
+
+  Recent updates to shipping settings allow you to charge shipping costs based on the toal value of the order. However, subtables and multiple shipping costs per shipping service will be moved to the API path.
+
+
+Learn more about how shipping settings work and when to use them
+
+How to configure your shipping options
+
+For subtitles in your language, turn on YouTube captions. Select the settings icon  at the bottom of the video player, then select "Subtitles/CC" and choose your language.
+
+
+
+
+
+When to use
+
+Use the shipping settings in Merchant Center to manually configure account-level shipping services. If you prefer to set your shipping cost and time for each product, use the shipping [shipping] attribute instead.
+
+
+  Note:
+
+  
+    The prices and delivery times configured using the shipping [shipping] attribute will override account-level settings (including shipping service delivery times and minimum order value) for the matching location for that product.
+    The shipping [shipping] attribute isn't available for Buy on Google. Shipping price must be set up at the account-level in Merchant Center. Learn more about setting up shipping for Buy on Google
+  
+
+
+
+How it works
+
+To set up account-level shipping settings, you’ll need to configure a shipping service in Merchant Center or via the Shipping Settings API. Shipping services can be associated with either all products or with groups of products, the latter of which can be specified using the shipping label [shipping_label] attribute. For each shipping service, you can configure a number of settings, such as shipping cost and delivery time.
+
+If you provide multiple shipping services for a product in the same country, we’ll calculate the lowest shipping rate for the product for a given situation and display that rate to customers.
+
+For example, if you have one service that specifies free shipping for products over $150 USD and another service that specifies a carrier-calculated rate for all products, then free shipping would be shown for all products over $150 USD.
+
+
+  Note: Before proceeding with changes to your shipping settings, confirm whether you're using the API, manual setup, or a third-party platform. Based on your selection, your shipping settings could be overwritten. For example, updates to your shipping settings made using the automated API or a third-party platform take precedence over settings created with manual setup. Item-level shipping settings take precedence over account-level settings. We recommend that you choose account-level settings to enjoy a comprehensive experience.
+
+
+
+Instructions
+
+Create a new shipping service
+
+The first step to setting up shipping is to create a new shipping service. When creating your shipping service, you’ll need to describe it, define which products it affects, and specify the shipping speed and cost.
+
+
+  
+    Note: You may configure up to 20 shipping services per country. If you add a shipping information to a Multi-Client account (MCA), then its sub-accounts would inherit the MCA shipping.
+  
+
+
+To create a new shipping service:
+
+
+  In your Merchant Center, click the tools and settings icon .
+  Select Shipping and returns under “Tools”. This will take you to the “Shipping services” tab.
+  Click the plus button  to create a shipping service.
+
+
+Step 1: Service settings
+
+
+  Name your service. Add a descriptive name to distinguish your new shipping service from others. Each service name must be unique within the service area and won’t be shared with customers.
+  Choose a service area where the products are purchased and delivered. This may not necessarily be where the order is shipped from or where your business is based. The service area should include at least one country, and you can specify multiple countries for your service area. Learn more about multi-country shipping
+  Select the currency used in the service area and make sure it matches the currency listed in your feed. If the currency is different, your items may be disapproved.
+  If you participate in Buy on Google, select scenarios covered by this shipping service. A shipping service can be associated with Buy on Google items only, all free listings except for Buy on Google, or all product listings.
+
+
+Step 2: Delivery time
+
+
+  Decide if you want to (a) show custom delivery times based on an existing carrier or partner you work with, or (b) set a range of delivery times. If you choose to show custom delivery times, Google estimates delivery times on your behalf. Learn more About letting Google calculate your shipping speed
+  For "Order cutoff time", choose the time of day by which orders must be placed to process them on the same day. Also, select the time zone in which this time is calculated. For example, a cutoff time of 3:00 p.m. EST means that orders placed after that time won't be processed until the next business day.
+  For "Order handling time", enter the minimum number of days required for processing an order, followed by the maximum number of days that processing could take.
+    
+      Note: If you process items the same day they're ordered, your minimum order handling time is considered “0”. To choose which days of the week you're processing orders, use the drop-down menu and select a day range (for example: Monday through Friday, Monday through Saturday). Select Custom days to create a custom day range for processing.
+    
+  
+  For "Transit time", add the possible range of business days this service could take (for example, 1-5 business days). While the exact time may vary based on the product or the customer’s location, the range will give customers an idea of what to expect. To choose which days of the week are eligible for this shipping service, use the drop-down menu to select a day range (for example: Monday through Friday, Monday through Saturday). Select Custom days to manually choose the transit days used for this shipping service. Learn more about Google calculating transit times
+  (Optional) In Australia, Brazil, Canada, France, Germany, India, New Zealand, the United Kingdom, and the United States you may set the transit time based on delivery destinations (regions). Click More transit times, select or create a destination, and then enter the transit speed to that destination. Learn more about regions
+  (Optional) You can group products that share a transit time by applying the transit time label [transit_time_label] attribute to specific product groups. This helps provide a more accurate delivery time for your customers. Learn more about setting up transit time labels
+
+
+Step 3: Holiday shipping cutoff (available for US and France, US holidays only)
+
+Set a holiday shipping cutoff if you require that orders be placed by a certain date for them to be delivered by a certain holiday. Learn more about holiday shipping cutoffs
+
+
+  Note: For France, the holiday shipping cutoff will only be available for Valentine’s Day and Christmas.
+
+
+Step 4: Shipping cost
+
+When setting up your shipping cost, you can choose from several options such as free shipping, fixed rate, or free shipping over a certain amount. You can also switch to advanced settings to see more options.
+
+Basic cost settings
+Free shipping over a certain amount
+
+
+  
+
+  
+    Use this option to offer free shipping for orders that are above a certain amount. To use this option:
+
+    
+      Enter an order value for “For order price below”.
+      Enter the shipping charge for this order value in “I charge”.
+    
+  
+
+Free shipping
+
+
+  
+
+  
+    Select this option to offer free shipping for all orders.
+  
+
+Range based
+
+
+  Use this setting to add shipping charges for a specified range of order value. For example, set a shipping cost of $5 USD for all orders below $60 USD and $10 USD for orders above $60 USD.
+
+  
+    Enter an amount in “For order priced below”.
+    Enter a shipping cost in “I charge”.
+    Enter a shipping cost for “For orders above - I charge”.
+    Click on the plus button  ADD ANOTHER RANGE to add a shipping cost for a different price range.
+  
+
+Flat rate
+
+
+  Use this option if you charge a fixed shipping price for all orders. To use this option, enter an amount in “All orders are shipped for”.
+
+Carrier rate (AU, DE, UK, and US only)
+
+
+  Use this option if you charge common carrier-calculated rates. Customers will receive a rate based on dimensions, weight, customer location, and origin postal code. So make sure to submit shipping weight [shipping_weight], and dimensions (shipping length [shipping_length], shipping width [shipping_width], shipping height [shipping_height]) in your product data.
+
+  Keep in mind that carrier rates are based on standard commercial rates, so if you charge less (for example, because of a contract you have with the carrier), add a negative amount or percent (for example, -10%). If you use a non-commercial rate (often called "retail"), you’ll likely need to adjust the rates up by 50–60%.
+
+  When choosing a carrier rate, make sure the products that will be covered by that option can actually be shipped by that carrier and service (for example, the products aren't oversize or overweight). Otherwise, the rates that customers view won’t be accurate, and your products could be disapproved. Check with your carrier for information about size and weight limits.
+
+  To use this option:
+
+  
+    For "Carrier service", select one of the supported carriers along with the service (for example, UPS Ground). The carriers are different for each service area.
+    Enter the "Origin postal code" where the package will ship from (for example, "94043").
+    Next, if necessary, adjust the order by a percent or a flat amount: (for example, “$10” or “-5%”).
+  
+
+  
+    Note: If you select FedEx as your carrier, Google will use the delivery date’s lowest cost FedEx service. For example: FedEx Standard Overnight® (not FedEx First Overnight® or FedEx Priority Overnight®) or FedEx 2Day® (not FedEx 2Day® AM).
+  
+
+
+Advanced settings
+
+Switch to advanced settings if you need more options.
+Minimum order value
+
+
+  If you require a minimum order value for the service (for example, if you require that customers spend $30 USD to use that shipping service), enter that amount. Products with a price below the minimum order will still be shown, together with your minimum order value. If you do not have a minimum order value, leave this field blank. Learn more about minimum order value.
+
+Shipping rate table and shipping label
+
+
+  
+    Create a shipping rate table to define a single rate for all orders or create rules based on one or 2 dimensions. You can also assign shipping label [shipping_label] attributes to the shipping rates depending on what kind of product you’re shipping (oversized, perishable, fragile) and then set up different shipping costs for those groups.
+
+    
+      On the “Shipping cost” page, click Switch to advanced settings.
+      To add a new shipping rate table, click the plus button .
+      Under "Affected products," select whether you’d like to apply this rate to all products or only certain products.
+        
+          Select All products if you want the shipping rate to apply to every product. Note: If you have already created a rate table that uses a shipping label, you may find "All other products" in place of "All products". This is because some products have already been filtered.
+          Or, if you want your rate to apply to only specific groups of products:
+            
+              Select Filter products by shipping label.
+              In the input field, type the values that you’ve submitted for the shipping label [shipping_label] attribute, and click Enter. You can also add labels that aren’t yet in your feed.
+            
+          
+        
+      
+      Under "Shipping rate name", give your table a unique name.
+      Create your table. Use the table to define a single rate for all orders or create rules based on one or 2 dimensions: price, destination (Australia, Brazil, Canada, France, Germany, India, Japan, New Zealand, the United Kingdom, and the United States), weight, or number of items. For example, if your products target Australia, you might set up the shipping cost by state and by weight. So you charge a different rate for a 10 kg product shipped to Tasmania than you do if it’s shipped to Western Australia. However, if you’re mostly targeting other countries, you won’t be able to specify shipping rates by location.
+        
+          First, click a dimension, such as Order weight > Weight in kilograms. You’ll find a row where you can enter ranges.
+          Enter a range, such as 0.0001 kg to 2 kg.
+          For each row, select a shipping option, such as "Flat rate". Learn more about shipping options
+          Depending on the shipping option, enter a price, percentage, etc.
+          To add more ranges, click + Row.
+          To add a second dimension, click Add dimension, then on an option such as "Order price".
+          Next, set the value for each new column by choosing a shipping option, like you did before.
+          To add more ranges, click + Column.
+          Click Continue to return to the service level to add a new shipping rate or to save your shipping service.
+        
+      
+    
+  
+
+
+
+  Shipping options for shipping rate tables
+
+  When setting up your shipping rate table, you can choose from several options.
+
+
+
+  Fixed rate
+
+  
+    
+      Use this option if you charge a fixed shipping price, including free shipping, for all orders in a range. Customers will notice the same cost for all products in this range.
+
+      To use this option:
+
+      
+        When choosing a shipping option, select Fixed rate.
+        Then enter an amount. If shipping is free, enter "0".
+      
+    
+  
+
+  
+    Percentage of order total
+
+    
+      Use this option if you charge shipping based on a percentage of the order cost. Customers will see the shipping cost as a percentage of the total order value. For Shopping ads and free listings, we use the product price as order value.
+
+      To use this option:
+
+      
+        When choosing a shipping option, select Percentage of order total.
+        Enter a percentage.
+      
+    
+  
+
+  
+    Carrier rate (AU, DE, UK, and US only)
+
+    
+      
+        Use this option if you charge common carrier-calculated rates. Customers will receive a rate based on dimensions, weight, customer location, and origin postal code. So make sure to submit shipping weight [shipping_weight], and dimensions (shipping length [shipping_length], shipping width [shipping_width], shipping height [shipping_height]) in your product data.
+
+        Keep in mind that carrier rates are based on standard commercial rates, so if you charge less (for example, because of a contract you have with the carrier), add a negative amount or percent (for example, -10). If you use a non-commercial rate (often called "retail"), you’ll likely need to adjust the rates up by 50–60%.
+
+        When choosing a carrier rate, make sure the products that will be covered by that option can actually be shipped by that carrier and service (for example, the products aren't oversize or overweight). Otherwise, the rates that customers view won’t be accurate, and your products could be disapproved. Check with your carrier for information about size and weight limits.
+
+        To use this option:
+
+        
+          When choosing a shipping option, select Carrier rate.
+          Next select a carrier rate table that you’ve created before, or select New carrier rate. When you create a new rate table, you’ll notice a creation dialog.
+          For "Carrier service", select one of the supported carriers along with the service (for example, UPS Ground). The carriers are different for each service area.
+          Enter the "Origin postal code" where the package will ship from (for example, "94043").
+          Next, if necessary, adjust the order by a percent or a flat amount: up (with a positive number, like "10") or down (with a negative number, like "-10").
+          The carrier rate name will be inferred by the carrier service, but you can provide a custom name if necessary (for example, "UPS Regular - Mountain View").
+          Your new carrier rate will be available to select and will show in the "Carrier rates" table at the bottom of the page.
+        
+
+        
+          Note: If you select FedEx as your carrier, Google will use the delivery date’s lowest cost FedEx service. For example: FedEx Standard Overnight® (not FedEx First Overnight® or FedEx Priority Overnight®) or FedEx 2Day® (not FedEx 2Day® AM).
+        
+      
+    
+  
+
+Link subtable (add 3 or more dimensions)
+
+
+  If you charge based on 3 or more dimensions, you can add a subtable for each cell. You’ll choose from different options depending on your service.
+
+  For example, if your products target Australia and you charge various rates based on the price for products that are 1–5 kg and shipped to Queensland, add those rates with a subtable.
+
+  To use this option:
+
+  
+    When choosing a shipping option, use the "Subtable" shipping option.
+    Select a table you’ve already created, or select New subtable. When you create a new table, you’ll notice that table listed below in "Linked subtables".
+    For "Table name", give your new table a unique name so that you can pick it out from a list.
+    Click one of the available dimensions, and then add shipping options and ranges like you did when you set up your shipping cost.
+    Click Continue to return to the service level to add a new shipping rate or to save your shipping service.
+  
+
+  
+    Note: This feature will be removed from the advanced shipping costs and become API-only. When notified, you’ll be required to remove the subtables assigned to your shipping services. Learn more about Shipping settings through Content API.
+  
+
+Products that can't be shipped
+
+
+  The “Affected products” filter allows you to exclude products from a shipping configuration completely, but you may want to be more specific. The “No shipping” option allows you to declare that certain products can’t be shipped in a specific situation or to a particular location.
+
+  To use this option:
+
+  
+    When choosing a shipping option, select No shipping.
+  
+
+  Exclude products by order weight or order value
+
+  You can add the "No shipping" option to exclude shipping based on order weight and order value. For example, if your express service is limited to orders up to a specific weight, you can use the weight dimension to set all orders above the limit to "No shipping". If you require a minimum order value for a shipping service, add it in the service description.
+
+  If a product is excluded from this shipping service by order weight or order value, here’s what will happen:
+
+  
+    If the product isn't associated with any other shipping service, the product will be disapproved. For example, if your product weighs 100 lbs and you’ve set "No shipping" for orders over 70 lbs.
+    If the product is associated with another shipping service that you’ve created, then the cheapest available shipping cost will be shown to customers. For example, if you’ve excluded the product from your Express service, but it’s still covered by your Ground service.
+  
+
+  To exclude products by order weight:
+
+  
+    When setting up your shipping cost, click a weight dimension such as Order weight > Weight in kilograms.
+    Enter a range, such as 0.0001-10 kg.
+    Then select No Shipping as the shipping option.
+    To add more weights, click + Row.
+  
+
+  Exclude products by destination (Australia, Brazil, Canada, France, Germany, India, Japan, New Zealand, the United Kingdom, and the United States)
+
+  To exclude regions, set up your shipping table using the 'Destination' as a dimension you need.
+
+  You can also use "No shipping" to indicate that you don’t ship to a particular combination of a region and another dimension, for example if you don’t ship heavy products to Hawaii.
+
+  If a shipping service is the sole source of shipping speed and cost and you exclude products for certain locations, shipping speed and cost won't be shown to customers in that region.
+
+  To exclude products by destination:
+
+  
+    When setting up your shipping rate table, click Destination.
+    Choose a region that you ship to, or create a new one.
+    To add more regions, click + row.
+  
+
+  To exclude products by destination and dimension:
+
+  
+    When setting up your shipping rate table, click Destination.
+    Click Add dimension to add either order price, weight, or number of items to the table.
+    Select No shipping as the shipping option as needed.
+  
+
+
+Other options for shipping
+
+
+  Regions
+
+  
+    Set up different shipping rates and speed for specific areas within countries based on postal code or administrative region:
+
+    
+      
+        
+          Country
+          Delivery time
+          Shipping cost
+        
+      
+      
+        
+          Australia
+          Postal code
+          Postal code and state
+        
+        
+          Brazil
+          Postal code
+          Postal code and state
+        
+        
+          Canada
+          Postal code
+          Postal code
+        
+        
+          France
+          Postal code
+          Postal code and region
+        
+        
+          Germany
+          Postal code
+          Postal code and state
+        
+        
+          India
+          Postal code
+          Postal code, state and territory
+        
+        
+          Japan
+           
+          Prefecture
+        
+        
+          New Zealand
+          Postal code
+          Postal code and region
+        
+        
+          United Kingdom
+          Postal code
+          Postal code
+        
+        
+          United States
+          Postal code
+          Postal code and state
+        
+      
+    
+
+    Custom region
+
+    You can create custom regions and reuse these regions to set up shipping. This shipping option is currently available for Australia, Brazil, Canada, France, Germany, India, New Zealand, the United Kingdom, and the United States. Learn more about setting up regions
+
+    Set transit times for regions
+
+    
+      Under the shipping service “Delivery time” table, click More transit times.
+      Click Add destination.
+      Select the region and assign a minimum and maximum transit time.
+        
+          If a region hasn’t been created yet, you can create one from the shipping rate table.
+        
+      
+    
+
+    Set shipping cost for regions
+
+    
+      Under the “Shipping rate" table, click Add dimension.
+      Select Destination by postal code.
+      Select the region and assign a shipping cost to that zone.
+        
+          If a region hasn’t been created yet, you can create one from the "Shipping rate" table.
+        
+      
+    
+  
+
+Shipping to multiple countries
+
+
+  Shipping services can cover multiple countries. For multi-country shipping, the shipping cost will be in the same currency for all countries added to the service. If you select a destination with a currency different from the shipping service’s specified currency, shipping cost will be automatically converted into the destination currency.
+
+  Multi-country shipping doesn't support the following features:
+
+  
+    Advanced transit times
+    Destination-based shipping rates
+    Holiday shipping cutoff
+    Delivery to collection points
+  
+
+  If you convert a shipping service with any of these features into a multi-country setup, these features will be removed. Learn more about showing products in multiple countries of sale
+
+
+Check your shipping cost
+
+Once you enter your shipping information, you can check the shipping cost (and tax rate) that will be displayed in your ads and free listings. Along with the shipping cost, you can view the source of that cost (for example, settings in Merchant Center or the shipping [shipping] attribute in your product data).
+
+To view this information:
+
+
+  Click Products in the navigation menu, then click All products.
+  To view various details about the product, click the title of the product.
+  Scroll down to review information about shipping (and tax).
+
+
+For countries where you can specify shipping rates based on the shipping destination (for example, the United States, Canada, Australia, or Japan), you’ll need to enter a shipping destination to calculate a result. For all other countries, you’ll view the country-wide rate.
+
+Need More Help?
+
+Check out this guided help article: I need help fixing my shipping information in Merchant Center.
+
+
+
+Related links
+
+
+   Buy on Google Best Practices Episode 1: Calculating the estimated delivery date 
+
+             Was this helpful?How can we improve it?YesNoSubmit       

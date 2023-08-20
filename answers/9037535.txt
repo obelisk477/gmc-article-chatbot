@@ -1,0 +1,51 @@
+ Set up custom attributes to use in feed rules
+
+Use custom attributes to make changes and store your data before assigning the values to a product data specification attribute. This article explains how to set up custom attributes to use in your feed rules.
+
+Before you begin
+
+
+  Learn more about setting up feed rules
+
+
+How it works
+
+Custom attributes allow you to store a value that you may use later to populate a different attribute value. This allows you to create a secondary version of the value without changing the existing attribute.
+
+Examples
+
+
+  You'd like to add the color "red" to a title [title] attribute, but you'd also like to keep "burgundy" in the color [color] attribute.
+  You'd like to separate one section of the product type [product_type] attribute to use in your description, but you need to retain the entire product type in the attribute.
+
+
+Instructions
+Step 1: Create your custom attribute
+
+
+  
+    Sign into your Merchant Center account.
+    Click Products in the navigation menu, then click Feeds.
+    Select the feed on which you’d like to implement feed rules.
+    Click the Rules tab at the top of the page.
+    If you have more than one feed label connected to this feed, be sure to select the feed label that you would like to apply the rule to.
+    Click Create Rule.
+    At the bottom of the menu, click Create custom attribute.
+    Enter a name for your attribute, and click OK.
+    Use feed rules to populate and modify your custom attribute.
+  
+
+Step 2: Use your custom attribute
+
+
+  
+    Once you've created and saved your custom attribute, you can now use it to populate or modify other attributes. To do this, set up a new feed rule on the product data specification attribute of your choice. You can reference custom attributes in any rule condition or within any feed rule operation.
+    Note: You'll find the new custom attribute in the Processed attributes section. All custom attributes are marked with a "*".
+
+
+Related link
+
+
+  How to set up data attributes Part 1 - Required attributes
+
+             Was this helpful?How can we improve it?YesNoSubmit       

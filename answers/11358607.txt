@@ -1,0 +1,43 @@
+ Use the shipping overview page to optimize your shipping settings
+
+In numerous studies, shoppers consistently rank shipping as one of the top considerations when making online purchase decisions. It’s important to provide quality shipping information to customers to help them make informed shopping choices.
+
+The shipping overview page helps you be more successful by alerting you to and helping you resolve shipping-related issues. The page is customized for you, providing critical guidance, shipping-related KPIs, and recommendations.
+
+How it works
+
+To get to the shipping overview page, sign in to your Merchant Center account, then select “Shipping and returns” from the tools and settings menu .
+
+Your setup
+
+From here, you’ll be able to see several different dimensions of the shipping information you have provided Google to share with shoppers.
+
+ Overview of your shipping services, with an option to add more or edit existing ones.
+
+ See your shipping locations, linked partners, and data verification at a glance.
+
+ Toggle on automatic shipping improvements (currently only for shipments made within the US).
+
+Your metrics
+
+In the cards below, you’ll be able to see the following metrics for the country selected in the dropdown filter menu on the right.
+
+
+  Your shipping at a glance: Your average shipping cost and average delivery time over the last 30 days, including change over the previous 30 days.
+  Your delivery times: Your fastest and slowest delivery times, including change over the previous month.
+  Products with and without shipping cost: The number of products in your account with and without shipping costs.
+    
+      We encourage you to add shipping costs for products that currently are missing this information.  In some countries, shipping cost is required for an offer to be valid. Keep in mind it may take a few days before new offers contribute to this metric.
+    
+  
+  Products with delivery times: Number of products in your account with and without delivery times.
+    
+      We encourage you to add shipping speeds for products that are currently missing this information.
+    
+  
+
+
+Recommendations
+
+At the bottom of the page, you’ll see recommendations based on your country filter selection (currently, US only, but soon to include other countries). These may include optimizations for your account, seasonal suggestions, or ways to correct errors.
+             Was this helpful?How can we improve it?YesNoSubmit       

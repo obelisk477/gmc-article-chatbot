@@ -1,0 +1,22 @@
+ How to fix: Pending initial policy review for vehicle adsWait for Google to review your account for vehicles
+
+Google hasn’t yet reviewed your account regarding your participation in vehicle ads for your landing page. Complete the following requirements to ensure that your account is ready for review:
+
+
+  Fill in your business address and phone number in the "Business Information" section of your Merchant Center account.
+  Verify your phone number. Learn how to verify your phone number
+  Verify your vehicle ads’ feeds. Learn more about how to create a primary feed
+  Ensure your products don’t have the “missing inventory data” disapproval and that aren't missing a valid store code. Learn more about missing valid store code disapprovals
+
+
+Wait for Google to review your account.
+
+Related links
+
+
+  Vehicle ads overview
+  Vehicle ads onboarding guide
+  Vehicle ads image guidelines
+  Vehicle ads troubleshooting form
+
+             Was this helpful?How can we improve it?YesNoSubmit       

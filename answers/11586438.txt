@@ -1,0 +1,220 @@
+ How to upload your products to Merchant Center
+
+
+  If you’re looking for information about how to add products to Merchant Center in the classic Merchant Center experience, click here. 
+
+
+
+
+
+There are multiple ways to add your products to Merchant Center. Choose a method, or use a combination of methods depending on your needs as a retailer, and where you keep your product information today.
+
+
+  
+    Important
+
+    If you’re a new merchant, when you first set up your Merchant Center account, you can choose any one product upload method to start. After that initial upload, you can use the same or additional methods to upload more products.
+
+    You can use the “Sources” tab in the top right under the account “Settings” icon to manage your product data uploads.
+  
+
+
+This guide may help you decide which upload method will work best for you.
+
+On this page
+
+
+  Add products from your online store
+  Connect your ecommerce platform to Google
+  Add products from a file
+  Use a Google Sheets template
+  Add products one-by-one
+
+
+
+ Add products from your online store
+
+
+  
+    How it works
+
+    When you choose this method, Google looks at your online store and pulls the most relevant information about your products into Merchant Center.
+
+    What makes this method great
+
+    
+      It's very simple to set up. All we need is the website address for your online store that you provided in Merchant Center.
+      Your product information is updated automatically. Google looks at your online store for any changes (such as price changes or product removals), and then updates the information in Merchant Center.
+    
+
+    Things to note
+
+    
+      You can edit product information manually in Merchant Center after it’s been added to Google.
+      After items have been added to Merchant Center, you control where they’re visible on Google.
+      In some circumstances, Google may not be able to add your complete product catalog from your online store. However, you can manually add additional products directly in Merchant Center.
+      The country and language of your products is determined by the country and language your ecommerce website uses.
+    
+
+    Instructions
+
+    
+      Follow the instructions in Merchant Center when you select this method for adding your products.
+      You'll find some items in your Merchant Center within minutes (keep in mind that it may take up to 3 days for all your products to be added in the Merchant Center).
+    
+
+    Learn more
+  
+
+
+
+ Connect your ecommerce platform to Google
+
+
+  
+    How it works
+
+    If you have a store that runs on a third-party platform (for example, Shopify), you can connect it to Google. All of your product information from your store (such as images, prices, and descriptions) will be automatically updated in Merchant Center.
+
+    What makes this method great
+
+    
+      It's simple to set up. Select your ecommerce platform and follow the on-screen instructions to connect the platform with Merchant Center.
+    
+
+    Things to note
+
+    
+      After connecting your ecommerce platform to Merchant Center, it’s recommended to manage your product data using that platform. Product data is updated automatically (so there’s no need to maintain a separate data set for use on Google).
+    
+
+    Instructions
+
+    
+      In your Merchant Center account, select your ecommerce platform from the ones listed in Merchant Center. You will then be presented with instructions specific to that platform type.
+
+        
+          Your products will be added to Merchant Center a few minutes after completing the instructions.
+        
+      
+    
+
+    Learn more
+  
+
+
+
+ Add products from a file
+
+
+  
+    How it works
+
+    In Merchant Center, you add a file that contains all your product details such as images, prices, descriptions, and more. Each product detail in your file should map to our list of attributes.
+
+    What makes this method great
+
+    
+      It allows you to use a file you already have and offers the same convenience of automatic update methods, but with more versatility.
+      Produces a rich set of product data. For example, your file can be a combination of data from different sources. See our guide for creating a product file for Merchant Center.
+    
+
+    Things to note
+
+    
+      The formatting of your file is very important. Incorrectly formatted or missing data can cause errors in your account. If you need help setting up your product file, review our setup guide.
+      You can choose to do a one-time upload of a file from your computer or host your file from a URL that is synced with Merchant Center every 24 hours. Any updates that you make to the file are reflected in Merchant Center.
+    
+
+    Instructions
+
+    
+      Create your file by following the Merchant Center requirements and specifications.
+      Choose whether you want to upload the file or host the file from a URL. Follow the on-screen instructions for the method you choose.
+        
+          If you choose to host the file at a URL, Google will retrieve the file from your URL every 24 hours (you will still also be able to upload a new file at any time).
+        
+      
+    
+
+    Learn more
+  
+
+
+
+ Use a Google Sheets template
+
+
+  
+    How it works
+
+    If you're looking for a template to help you share product details, use this option. With this method, you'll maintain a spreadsheet with all your product data. Any changes you make to the information in the spreadsheet will automatically be reflected in Merchant Center.
+
+    What makes this method great
+
+    
+      Provides you with a template for your data.
+      Updates automatically.
+    
+
+    Things to note
+
+    
+      The spreadsheet must follow the template to work correctly.
+    
+
+    Instructions
+
+    
+      Select the “Use a Google Sheets template” option and open the spreadsheet template.
+      Fill in the spreadsheet with your product details following the instructions included in the template.
+      After you fill in the template, select “Add products from spreadsheet” in Merchant Center. The data in the spreadsheet is used to add products in Merchant Center.
+      Your spreadsheet is synced with Merchant Center every 24 hours.
+    
+
+    Learn more
+  
+
+
+
+ Add products one-by-one
+
+
+  
+    How it works
+
+    You will create your product data by manually entering the information for each of your products in Merchant Center.
+
+    What makes this method great
+
+    
+      It's easy to create and edit products, and you can get products live very quickly.
+      You can add one or just a few products.
+    
+
+    Things to note
+
+    
+      Offers don't expire.
+      You can use this method in conjunction with other methods (for example, adding additional products to those that Google was able to extract from your website).
+    
+
+    Instructions
+
+    
+      After you select this method, you'll fill out all of the details about each product directly in Merchant Center.
+      After you add your products, you can edit, delete or add more at any time.
+      If you want to add multiple similar products this way, use the "Save & add another" option when saving, and the product data will be copied into a new form where you can make edits and save a new, similar product.
+    
+
+    Learn more
+  
+
+
+
+Next steps
+
+
+  After you've uploaded your products to Merchant Center, you can update details about the product, including specifying its availability at your online and physical stores using the “Sales channels” tab. Learn more about showing your products across Google.
+
+             Was this helpful?How can we improve it?YesNoSubmit       

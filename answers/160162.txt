@@ -1,0 +1,77 @@
+ Set up tax settings (US only)
+
+So that users understand the exact price that they’ll have to pay for a product, you must submit the taxes that you collect. This article helps you understand how to correctly set up your tax settings. Learn more about how tax settings work and when to use them
+
+Before you begin (US only)
+
+Keep in mind that you’ll set up tax rates for each state in the U.S. that you charge taxes for. Typically, these are the states that your business has a physical presence in. If your products target the United States, but you don’t charge taxes in the United States, you must indicate that in your tax settings.
+
+
+  
+    For Buy on Google merchants: In states where marketplace facilitator tax applies, Google is responsible for collecting and remitting sales tax.
+  
+
+
+You can choose from the following options to determine tax in each state. Consult your tax advisor to understand which options would work best for you.
+
+
+  Use the custom option to enter a flat rate if you charge all customers the same amount of tax regardless of where they're located.
+  Allow Google to determine the tax if you charge taxes based on the location of your customers.
+  Use the tax category [tax_category] attribute if you sell products in a state with a tax rate that differs from standard sales tax rates. For example, food or apparel may not be taxed in some states or may be taxed at a lower rate than other products. Learn more about tax categories
+  Use the tax category [tax_category] attribute if you collect a non-standard tax rate for a product or a product is exempt from taxes.
+
+
+Instructions (US only)
+
+Use account settings for standard tax rates
+
+To set up taxes, you’ll set taxes for each state where you charge them:
+
+
+  Sign in to your Merchant Center account.
+  Click the Tools and settings menu  , then select Sales tax.
+  Click the Tax Settings tab.
+  When you click Advanced settings, the list of all states will appear.
+    For each state where you’d like to charge sales tax:
+
+    
+      Click the toggle to select the state.
+      For “Tax rate,” choose either:
+        
+          “Google-determined sales tax” (Automatic setup) to let Google estimate the rate based on the location of the customer.
+          “Custom sales tax” (Manual setup) to enter a specific rate to charge for the entire state.
+        
+      
+      If you charge tax on shipping, select Tax on shipping.
+    
+  
+  Click Save at the bottom of the page, once you've configured taxes for each of the selected states.
+
+
+Set up tax categories
+
+
+  Sign in to your Merchant Center account.
+  Click the Tools and settings menu  , then select Sales tax.
+  Click the Tax categories tab.
+  To add a new tax category, click the plus button .
+  Enter the name of the tax category. Or, if you’ve already entered values into the tax category [tax_category] attribute in your feed, the values will be pre-populated. Note: You may add up to 100 categories.
+  For each state in your tax settings, enter the appropriate tax rate under the category column. If no custom rate is needed, leave this field blank.
+
+
+Use an attribute for non-standard tax rates
+
+If you have one product that has a different tax rate or that’s tax exempt, and you are unable to configure tax rates using custom or Google determined tax rates, tax categories, or home rule (individual city/county) settings, submit the tax [tax] attribute for that product. The value that you submit for the tax [tax] attribute will override any account tax settings for that product.
+
+
+  Note: Be sure to understand if another system you use may be syncing with your Merchant Center account before updating settings. If you use API or a 3rd party sync (for example: account links with partners), your settings may be overwritten.
+
+
+Related links
+
+
+  About tax settings
+  Tax [tax]
+  Tax category [tax_category]
+
+             Was this helpful?How can we improve it?YesNoSubmit       

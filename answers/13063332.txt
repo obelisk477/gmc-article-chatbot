@@ -1,0 +1,106 @@
+ Show your products across Google surfaces
+
+If you have both online and physical stores, you can assign products to the stores where they are sold. Add this product availability information to Merchant Center to display your products alongside your Google Business Profile across Google, like on Google Search, Google Maps, the Shopping tab, and more. Potential customers can then check what’s available in store and what’s available to order online.
+
+
+
+Before you can specify local product availability, you must first add your products and add your stores to your Merchant Center account.
+
+On this page
+
+
+  Get started
+  Next steps
+
+
+
+Get started
+
+There are 2 methods to assign products to your stores. They are very similar and you can use whichever method you prefer. Below, we’ll take you through the recommended method first.
+
+Method 1: Add products to your stores from your product list
+
+ In Merchant Center, go to the left navigation menu, and click Products .
+
+ Click the All Products tab. The products shown here are all assigned to your online store because you haven’t yet specified other stores.
+
+ Select the products that you’d like to update as available at each store. You can either select one product or multiple products if you plan to mark them as available at the same store.
+
+ Click Add to store(s) on the blue bar that appears after selecting the products.
+
+
+
+ In the pop-up window, “Add to stores”, choose the stores that you want to add the selected products to. Then, click Add.
+
+
+
+
+  
+    Note: Your product availability data will now be shown along with your Google Business Profile across Google sites.
+  
+
+
+Method 2: Add products to stores using the Sales channels tab
+
+ In Merchant Center, go to Products  then go to the Sales channels tab. It will be blank as you have not added any products yet.
+
+ Click on Add products to sales channels.
+
+ In the pop-up window, select the products that you’d like to mark as available for your store locations. You can select one product or you can select multiple products if you plan to mark them as available at the same store location.
+
+ Click Continue.
+
+
+
+ In the pop-up window that appears, select the store(s) that you’d like to add the selected product(s) to. Then, click Add.
+
+
+
+
+Next steps
+
+The products that you added will appear in the “Sales channels” tab shortly. Each product available at each location will appear as its own line item.
+
+
+  
+    Example
+      You marked a couch as available at your online store and at your 3 physical stores. On the “Sales channels” tab, you’ll find that the couch is listed 4 times, once for each store.
+  
+
+
+Update product availability
+
+You can edit a product’s availability in the product editor by following the steps below:
+
+ In Merchant Center, go to the left navigation menu, and click Products .
+
+ Click the All Products tab.
+
+ Select a product to open the product editor.
+   Click the drop-down arrow of the “Availability” box and select In stock or Out of stock.
+
+ Click the drop-down arrow of the “Channels” box to select the relevant stores.
+
+
+
+Remove products from your stores
+
+To remove a product from a store's list of products, follow the steps below:
+
+ In Merchant Center, go to the left navigation menu, and click Products .
+
+ Click the All Products tab.
+
+ Select the products that you’d like to remove from one or more stores.
+ Click Remove from store(s) on the blue bar that appears after selecting the products.
+
+ In the pop-up window, “Remove products from stores”, choose the store(s) that you want to remove the selected products from. Then, click Remove.
+
+
+Related links
+
+
+  I need help adding stores to Merchant Center
+  Choose how to add your products to Merchant Center
+
+             Was this helpful?How can we improve it?YesNoSubmit       

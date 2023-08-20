@@ -1,0 +1,58 @@
+ About Competitive visibility in Performance
+
+The “Competitive visibility” tab offers cards that help you understand the competitive landscape at a product category level. The cards allow you to deep-dive to compare your visibility across Shopping ads and organic traffic with that of your competitors so you can make informed decisions about your business.
+
+On this page
+
+
+  Benefits
+  How it works
+  What's available
+
+
+
+Benefits
+
+Knowing who your competitors are helps you to better understand your competitive landscape across Shopping ads and organic traffic. The competitive visibility tab can help you better understand things like:
+
+
+  Merchants who are similar to you
+  Your consumer reach across Shopping ads and free listings
+  How you compare to merchants with highest visibility in a specific category
+  How your visibility compares to the category benchmark over time
+  How you rank against competitors and top market performers over time
+
+
+You can use the information from these cards to determine the best ways to promote your products and further grow your business.
+
+
+How it works
+
+To evaluate your Competitive visibility, you can navigate to the Performance page by selecting “Performance” in the left navigation pane. Then, visit the Competitive visibility tab at the top to view insights relevant for your business.
+
+The cards on the page show merchants similar to you and merchants with the highest visibility on Google, respectively. Click into each card to learn more about competitive metrics and how the visibility of the products you sell has changed over time and how it compares to your competitors. Filters such as country, category, traffic, and time period allow you to narrow your results even further.
+
+Competitive visibility is assessed using 4 metrics:
+
+
+  Relative visibility: Details the number of times another merchant’s products were shown compared to the number of times your products were shown.
+  Page overlap rate: Shows how often you and another merchant received impressions on the same page.
+  Higher position rate: Displays how often a merchant’s products appeared in a higher position on the same page as yours.
+  Ads/Organic ratio: Compares how often a merchant’s products received impressions from Shopping ads compared to organic results.
+
+
+
+What's available
+
+Businesses with similar visibility on Google
+
+Discover other sellers with similar consumer visibility who show their products alongside yours on Google. Use filters at the top of the report to deep dive and view metrics on visibility, page overlap rate, position, and Ads/Organic ratio for your products.
+
+The line chart at the top of the page displays your “Relative visibility trend”, or the difference in visibility of other sellers based on displayed product impressions in the selected category compared to you. Check and uncheck other merchants on the right of the chart to customize your comparisons.
+
+Businesses with highest visibility on Google
+
+Explore the merchants with the highest consumer visibility on Google and learn how your visibility compares to the category benchmark over time. Like the similar visibility card, you can apply filters to sort and customize your report.
+
+The line chart offers a “Visibility trend comparison”, which is the trend of your products on Google compared to the overall trend in the category based on displayed impressions from you and other sellers. You can use this chart to determine your visibility performance against the category benchmark.
+             Was this helpful?How can we improve it?YesNoSubmit       

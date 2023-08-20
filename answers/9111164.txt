@@ -1,0 +1,61 @@
+ Set up your business information for Buy on Google
+  Buy on Google for Search and Shopping will no longer be available starting September 26, 2023. Eligible merchants will be able to use Buy on Google for YouTube in the US. Learn more about Enabling Buy on Google for YouTube.
+
+
+
+
+
+Add your business address
+
+Google uses the business information you submit to display to users who view your products online.
+
+
+  Sign in to your Merchant Center account.
+  Click the tools icon , then under "Tools", select Business information.
+  Click About your business.
+  Go to the “Business address” section and enter the address of your headquarters or where your business is registered.
+
+
+Add your customer service contact
+
+Add your customer service contact so that customers can contact you to request support for order status, updates, and other issues.
+
+
+  Sign in to your Merchant Center account.
+  Click the tools icon , then under “Tools”, select Buy on Google setup.
+  Under "Basic information", enter your customer service contact email.
+
+
+
+  Keep in mind: You’ll need to separately opt in to this feature for free listings.
+
+
+Google will attempt to resolve the issue with automated solutions and offer the ability for customers to contact you, the seller, directly to receive additional support.
+
+
+  Make sure your customer service team is properly trained to identify Buy on Google orders. Additionally, we ask that retailers respond to customer inquiries in 2 business days or less. Learn more about merchant-managed customer support
+
+
+Add marketing settings
+
+Marketing settings allow you to specify if you want Buy on Google customers to be able to opt-in to your marketing emails at checkout.
+
+Alternatively, you can choose to not show marketing options when a customer is checking out.
+
+To enter these settings:
+
+
+  Sign in to your Merchant Center account.
+  Click the tools icon , then under “Tools”, select Buy on Google setup.
+  Click Settings, then click Marketing settings.
+  Under "Marketing settings", select your marketing email preference.
+  Click Save.
+
+
+Note: Customers’ marketing opt-in information will be available using Google’s Orders API or by downloading your order feed from Merchant Center.
+
+
+  Need help? Click here to contact Buy on Google support.
+
+
+             Was this helpful?How can we improve it?YesNoSubmit       

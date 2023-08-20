@@ -1,0 +1,97 @@
+ Vehicle ads onboarding guideRegister and submit your feedNext: Link your Business Profile and select your location group
+
+
+   This is step 4b of the vehicle ads onboarding guide.
+
+
+This article describes how you submit your vehicle information to Google through your Merchant Center account.
+
+
+  To submit vehicle data through API, click here.
+
+
+
+  Note: All vehicle ads campaigns will be upgraded to Performance Max by September 2023.
+
+
+
+Step 1: Register your feed
+
+You must register a feed the first time you submit it to Merchant Center. You only need to complete this registration process once per feed. Learn more about registering your feed
+
+There are 2 types of vehicle feeds:
+
+
+  
+    
+      Feed
+      Type
+      Function
+    
+    
+      Vehicle ads
+      Primary
+      Provides us a list of vehicles that you sell at your dealerships with attributes to describe them.
+    
+    
+      Store feed
+      Other feed
+      
+      Provides Google addresses of the dealership locations included in the primary feed.
+
+      Note: This feed is only required when a merchant can not (or does not) have Business Profiles for their dealership locations.
+      
+    
+  
+
+
+
+  Your vehicle ads feed needs to be registered as a primary feed.
+
+
+Step 2: Upload your feed
+
+After you’ve registered your feed, you can upload your data to Merchant Center. We recommend creating a schedule for your upload so your data is sent automatically. Learn more about available upload methods
+
+Submission frequency
+
+Each of your data feeds for your vehicle ads should be uploaded as frequently as possible to ensure your information is fresh and accurate. We recommend the following minimum upload frequency for each feed:
+
+
+  
+    
+      Feed
+      Recommended minimum upload frequency
+    
+    
+      Vehicle ads
+      At least once a day, but can be submitted multiple times per day to update segments of your inventory. To be able to submit your vehicle ads feed multiple times per day, contact our support team using this form. Note that this data will expire after 14 days.
+    
+    
+      Store feed
+      At least once every 30 days
+    
+  
+
+
+
+  Tip: You should also update your dealership information in your Business Profile whenever a new dealership opens, an existing dealership closes, a dealership changes hours, or anything else needs to be edited about a particular location.
+
+
+Implementation guide
+
+
+  Set up your accounts
+  Enable the vehicle ads program
+  Add your business information
+  Create a primary feed
+  Register and submit your feed
+  Link your Business Profile and select your location group
+  Create, register, and submit your store feed (Optional)
+  Complete website policy review
+  Link your Merchant Center and Google Ads accounts
+  Enable vehicle ads in your Smart Shopping campaigns
+  Enable vehicle ads in your Performance Max campaigns
+
+
+Next: Link your Business Profile and select your location group             Was this helpful?How can we improve it?YesNoSubmit       

@@ -1,0 +1,30 @@
+ Improve eligible inventory
+
+Eligible inventory is inventory that’s eligible to show in local inventory ads and free local product listings.
+
+How it works
+
+Google shows local inventory ads and listings for items that meet the requirements below:
+
+
+  The store code corresponds with a published Business Profile in your linked business group.
+  The ID [id] corresponds with a product in your primary feed that meets the feed attribute requirements and Shopping ads policies.
+  The inventory item is in stock, or if your account is enabled for this feature, on display to order. Learn more about on display to order
+
+
+Benefits
+
+When you have more eligible inventory, you can serve local inventory ads and free local listings--giving you more opportunities to drive traffic to your store. A higher number of approved products can positively influence your performance.
+
+How to improve your eligible inventory
+
+Use these guidelines to improve your eligible inventory:
+
+
+  Ensure that all store codes you provide in your local products inventory feed correspond with published Business Profiles in your business group linked to your Merchant Center account. Learn more about matched stores for inventory.
+  Ensure that each unique ID [id] provided in local products inventory feed also exists in your local products feed. Make sure the product meets feed attribute and policy requirements. Learn more about approved local products.
+  Ensure that the distribution of your inventory availability corresponds with business reality. Learn more about availability for inventory.
+
+
+
+             Was this helpful?How can we improve it?YesNoSubmit       

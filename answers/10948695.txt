@@ -1,0 +1,259 @@
+ Merchant hosted local storefront (full) setup errors
+
+This page explains various reasons why merchant hosted local storefront (full) setups are rejected by Google and what steps can be taken to resolve the issues.
+
+Ensure that your product pages can display price and availability based on a Business Profile store code
+
+The merchant hosted local storefront full feature requires that local inventory ad clicks redirect to a landing page which displays a product’s store-specific price and store-specific availability based on a Business Profile store code. This is done by replacing the store code [store_code] ValueTrack parameter from the link for your merchant hosted local storefront (full) [link_template] with a Business Profile store code when an ad is clicked. Follow the steps below:
+
+Example: store_code as URL parameter
+
+
+  
+    
+      
+      itemid
+      
+      
+      title
+      
+      Ads redirect [ads_redirect]
+      [link_template]
+    
+    
+      123
+      2-Person Camping Tent - Adventure Series
+      
+      http://mikemart.com/123?store=
+
+      {store_code}&trackingParameter=value
+      
+      
+      http://mikemart.com/123?store={store_code}
+      
+    
+  
+
+
+ 
+
+
+  
+    
+      itemid
+      price
+      quantity
+      [store_code]
+    
+    
+      123
+      249.99 USD
+      5
+      101
+    
+  
+
+
+ 
+
+The resulting landing page for item 123 at store code 101 is http://mikemart.com/123?store=101
+
+
+  Step 1: Ensure that your example product landing page URL included a store-specific landing page
+
+  
+    
+      
+        Sign in to your Merchant Center account.
+        Click the tools and settings icon and then select Local inventory ads setup under “Tools.”
+        Select your country and the merchant hosted local storefront (full) setup.
+        Make sure that you have substituted the store code [store_code] ValueTrack parameter for a Business Profile store code in your example product landing page.
+      
+    
+  
+
+
+
+  Step 2: Confirm that your example product landing page URL directs you to a store-specific landing page
+
+  
+    
+      Your landing page shouldn’t return a 404 error. If you receive a 404 error, you’ll need to work with your website teams to determine if your website can support store-specific information based on a Business Profile store code.
+    
+  
+
+
+
+  Step 3: Resubmit your example product landing page
+
+  
+    
+      
+        Sign in to your Merchant Center account.
+        Click the tools and settings icon and then select Local inventory ads setup under “Tools.”
+        Select your country and the merchant hosted local storefront (full) setup.
+        Submit a new URL for your example product landing page in the text box.
+        Click Save.
+        Google will conduct another eligibility review of your website.
+      
+    
+  
+
+
+Missing attribute [link_template]: Add the link for your merchant hosted local storefront (full) to your primary feed
+
+You haven’t submitted the required link for your merchant hosted local storefront (full) [link_template] in your primary feed. A value for the link to your merchant hosted local storefront (full) must be submitted. Follow the steps below:
+
+
+  Step 1: Check your primary feed
+
+  
+    
+      
+        Sign in to your Merchant Center account.
+        Select Products on the navigation menu, then click Feeds.
+        Select your primary feed.
+        Click Processing, then Download file.
+        Open your feed file and ensure that you are submitting a value for the link to your merchant hosted local storefront (full) [link_template]. Make sure that the [link_template] attribute is spelled correctly.
+      
+    
+  
+
+
+
+  Step 2: Add the link for your merchant hosted local storefront (full) [link_template] to your primary feed
+
+  
+    
+      
+        Add the link for your merchant hosted local storefront (full) [link_template] to your primary feed.
+        Resubmit your primary feed.
+      
+    
+  
+
+
+
+  Step 3: Resubmit your example product landing page
+
+  
+    
+      
+        Sign in to your Merchant Center account.
+        Click the tools icon and then select Local inventory ads setup under “Tools.”
+        Select your country and the merchant hosted local storefront (full) setup.
+        Resubmit your example product landing page URL in the text box.
+        Click Save.
+        Google will conduct another eligibility review of your website.
+      
+    
+  
+
+
+Missing store selector: Your product pages must allow users to select a store to check price and availability
+
+Your product landing pages don’t provide users the option to check a product’s price and availability at various store locations. Follow the steps below:
+
+
+  Step 1: Add a store selector to your product landing pages
+
+  
+    
+      
+        If your product landing pages don’t provide a store selector, you will need to add that to your website pages.
+      
+    
+  
+
+
+
+  Step 2: Resubmit your example product landing page
+
+  
+    
+      
+        Sign in to your Merchant Center account.
+        Click the tools and settings icon and then select Local inventory ads setup.
+        Select your country and the merchant hosted local storefront (full) setup.
+        Resubmit your example product landing page URL in the text box.
+        Click Save.
+        Google will conduct another eligibility review of your website.
+      
+    
+  
+
+
+Missing price on landing page: Add your product’s store-specific price to your product landing page
+
+Your example product landing page doesn’t contain store-specific availability for your product. Add store-specific availability to your product pages. Follow the steps below:
+
+
+  Step 1: Add the product’s store-specific availability to your product landing pages
+
+  
+    
+      If your product landing pages don’t provide store-specific availability, you will need to add that to your website pages.
+    
+  
+
+
+
+  Step 2: Resubmit your example product landing page
+
+  
+    
+      
+        Sign in to your Merchant Center account.
+        Click the tools and settings icon and then select Local inventory ads setup under “Tools.”
+        Select your country and the merchant hosted local storefront (full) setup.
+        Resubmit your example product landing page URL in the text box.
+        Click Save.
+        Google will conduct another eligibility review of your website.
+      
+    
+  
+
+
+Missing availability on landing page: Add your product’s store-specific availability to your product landing page
+
+Your example product landing page doesn’t contain store-specific availability for your product. Add store-specific availability to your product pages. Follow the steps below:
+
+
+  Note: Online purchase availability is not equivalent to store level availability. You must display your store’s local availability as prominently as the option to Buy online.
+
+
+
+  Step 1: Add the product’s store-specific availability to your product landing pages
+
+  
+    
+      If your product landing pages don’t provide store-specific availability, you will need to add that to your website pages.
+    
+  
+
+
+
+  Step 2: Resubmit your example product landing page
+
+  
+    
+      
+        Sign in to your Merchant Center account.
+        Click the tools and settings icon and then select Local inventory ads setup under “Tools.”
+        Select your country and the merchant hosted local storefront (full) setup.
+        Resubmit your example product landing page URL in the text box.
+        Click Save.
+        Google will conduct another eligibility review of your website.
+      
+    
+  
+
+
+Related Links
+
+
+  Local inventory onboarding guide
+  Merchant hosted local storefront (full)
+  Local inventory ads overview
+
+             Was this helpful?How can we improve it?YesNoSubmit       

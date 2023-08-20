@@ -1,0 +1,34 @@
+ Setup issues
+
+
+  If you’re looking for information about troubleshooting your account in the classic Merchant Center experience, click here. 
+
+
+
+ 
+
+Before your products can be shown in ads and free listings, you need to complete the necessary steps to set up your Merchant Center, such as claiming your website and verifying your phone number. If you have not completed these steps, you’ll see a banner at the top of Merchant Center. 
+
+Common issues
+
+When you begin setting up your Merchant Center, you’re guided through the steps that are required for setup. You may complete some of these steps immediately and others later on. Here are a few common set up requirements:
+
+
+  Add a valid phone number
+  Add a business name that complies with Google’s policies
+  Claim and verify your website
+  Add product data to your account
+  A landing page that matches your ad or free product listing
+  Show a clear return and refund policy on your website
+
+
+If you don’t complete these steps your ads and free listings may not show.
+
+Where to find issues
+
+Setup issues will show in the same places as other issues. You’ll see them in banners at the top of Merchant Center. You can also reference the summary cards on the “Needs attention” page.
+
+ 
+
+ 
+             Was this helpful?How can we improve it?YesNoSubmit       

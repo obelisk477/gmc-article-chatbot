@@ -1,0 +1,40 @@
+ How to fix: Invalid return policy labelCreate a new return policy for this product, or update the return policy label for this product to match an existing label 
+
+
+  Buy on Google for Search and Shopping will no longer be available starting September 26, 2023. Eligible merchants will be able to use Buy on Google for YouTube in the US. Learn more about Enabling Buy on Google for YouTube.
+
+
+
+
+
+A return policy label could not be found in your product feed in Merchant Center.
+
+If you want to apply a return policy to a specific product or type of product, you need to create a return policy label in your Merchant Center account. If you attempt to apply a return policy and a corresponding return policy label [return_policy_label] attribute is not found in your Merchant Center account, your default return policy will be applied, which could affect the shipping costs as well as the performance of your product.
+
+
+  Note: Your return policies should be in line with the return policy standards for Buy on Google.
+
+
+To resolve this issue, create a new return policy label in Merchant Center, or if you wish to apply the default return policy, remove the current return policy label from the product in your feed.
+
+Instructions
+
+To create a new return policy and label:
+
+
+  Sign in to your Merchant Center account.
+  Click the tools icon  to open the "Tools and settings" menu, then select Shipping and returns under “Tools.”
+  On the Return policies tab, click the blue plus button  under “Additional policies”.
+  Specify the return policy name and label, as well as the return window.
+  Select applicable Customer return fees (for example, “Does not fit” or “Ordered wrong item”), which indicate when the return cost is the responsibility of the customer.
+    
+      Note: If you do not specify any reasons, or if the reason for the return is not included among the reasons specified, you will be responsible for the cost of the return.
+    
+  
+  Set a seasonal override for products that are ordered within a specific time range and for which there is an exception to the standard return policy.
+
+
+
+  Note: Make sure you enable this new return policy by using the return policy label [return_policy_label] attribute and applying it to your products.
+
+             Was this helpful?How can we improve it?YesNoSubmit       

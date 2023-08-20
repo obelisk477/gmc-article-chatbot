@@ -1,0 +1,110 @@
+ How to fix: Duplicate productSubmit more unique values for this product
+
+You’ve submitted multiple product offers with the exact same set of attributes and values. As a result, your product data contains duplicate offers. In order to remove any duplicate offers, or distinguish similar offers, you will need to change or remove some attributes or attribute values.
+
+Attributes you may need to change or remove include:
+
+
+  Description [description]
+  Title [title]
+  Age group [age_group]
+  Capacity [capacity]
+  Color [color]
+  Condition [condition]
+  Count [count]
+  Flavor [flavor]
+  Format [format]
+  Gender [gender]
+  Image link [image_link]
+  Material [material]
+  Multipack [multipack]
+  Pattern [pattern]
+  Product details [product_details]
+  Scent [scent]
+  Size [size]
+  Size type [size_type]
+  Theme [theme]
+  Unit pricing measure [unit_pricing_measure]
+
+
+Instructions
+
+
+  Step 1: See the affected products
+
+  
+    
+      
+        
+  Sign in to your Merchant Center account.
+  Select Products on the navigation menu, then click Diagnostics.
+  Click the Item issues tab to see current issues affecting your products.
+
+
+To download a list (.csv) of all affected products for all issues:
+
+
+  Click the download button  next to the filter button , beneath the graph and above the list of issues.
+
+
+To download a list (.csv) of all affected products for a particular issue:
+
+
+  Find the issue under the “Issue” column, then click the download button  at the end of the row.
+
+
+To see a list of up to 50 products with this particular issue:
+
+
+  Find the issue under the “Issue” column, then click View examples in the “Affected items” column.
+
+
+      
+    
+  
+
+
+
+  Step 2: Add variant attributes
+
+  
+    
+      Filter the downloaded report so that you only see products with:
+        "Issue title" = Duplicate product
+      Search your product data for those products (using the ID). Make sure each of your offers has a unique set of attributes or attribute values.
+      Remove any duplicate offers.
+    
+  
+
+
+
+  Step 3: Resubmit your product data
+
+  
+    
+      
+        
+  After you’ve updated your product data, resubmit it using one of these methods:
+    
+      Upload a feed
+      Submit through the Content API
+      Import content from an ecommerce platform
+    
+  
+  Next, check that you’ve fixed the issue by making sure it’s no longer listed on the Diagnostics page.
+    
+    Keep in mind: It may take some time for your change to be reflected on the Diagnostics page.
+
+
+      
+    
+  
+
+
+Related links
+
+
+  Product data specification
+  Build your product data
+
+             Was this helpful?How can we improve it?YesNoSubmit       

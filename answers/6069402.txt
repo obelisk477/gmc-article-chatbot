@@ -1,0 +1,44 @@
+ Common issues with feeds for dynamic remarketing
+
+If your dynamic remarketing ads are not showing, start by checking for the following issues with your data feed:
+
+
+  Your data feed has not been fully processed and is still under review
+
+    
+      On the first upload a data feed can take up to 3 business days to process.
+    
+  
+  Your Merchant Center and Google Ads accounts are not linked
+    
+      In order to run dynamic remarketing, a given campaign has to be linked to a Merchant Center account.
+        
+          Check the Settings of the Google Ads campaign.
+          If you see an active Merchant Center account ID then there is a linked account. Otherwise, there is no linked account.
+          To link an account, please review the following article.
+        
+      
+    
+  
+  Merchant Center has been declared as containing adult-oriented products in the Merchant Center Settings
+    
+      If any of your products or your website as a whole is considered adult it cannot be used in dynamic remarketing campaigns. You are responsible for indicating that your website is considered adult or contains adult content. To indicate that your website is considered adult or contains adult content, complete the following steps:
+        
+          Sign in to your Merchant Center account on the account level.
+          Click the tools icon, then select Shopping ads setup under “Tools.”
+          Click the Adult content bar.
+          Check the box for “my site contains adult products as defined by Google’s policy.” Learn more about Google’s adult-oriented content policy.
+        
+      
+      If you have adult items that you need to exclude from your dynamic remarketing campaign, use the excluded destination [excluded_destination] attribute to remove an item from the Display Ads destination. Learn more about using the excluded destination [excluded_destination] attribute for dynamic remarketing
+    
+  
+  Your data feed is blank
+    
+      If you'd like to review the content of your uploaded feed, you can do so by clicking Products in the left navigation menu and navigating to the Feeds tab and clicking on the name of the feed. In the resulting Feed status summary page, select a feed. The feed will open in the Processing tab.
+    
+  
+
+
+Still experiencing issues with your feeds? Visit the data feeds troubleshooting article for more steps.
+             Was this helpful?How can we improve it?YesNoSubmit       

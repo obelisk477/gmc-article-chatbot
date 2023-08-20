@@ -1,0 +1,241 @@
+ Integration guideOptional: Integrate the badge code
+
+The Google Customer Reviews (GCR) badge code is the first of two code snippets that you implement for Google Customer Reviews integration. The badge is optional. If you are having issues integrating the badge code, try troubleshooting.
+
+This section describes the following topics:
+
+
+  Integration instructions
+  Example badge code
+
+
+Integration instructions
+
+To integrate the GCR badge on a page, you must:
+
+
+  Update the DOCTYPE
+  Add the GCR badge
+
+
+These tasks are described in the sections that follow.
+
+When you implement the badge code on your pages, the following image is displayed (rating values will vary):
+
+
+
+In most cases, you must have at least 100 reviews in a particular country during the past year for your seller rating to appear on your badge.
+
+Do not obscure the badge with any other content on your pages.
+
+Update the DOCTYPE
+
+Be sure that web pages on which you implement the badge use the HTML5 DOCTYPE:
+
+
+<!DOCTYPE html>
+
+This doctype must be the first line item in the HTML code on your page. Using the HTML5 DOCTYPE ensures that web browsers will render your pages in standard mode instead of quirks mode. Quirks mode refers to a technique used by some web browsers to maintain backward compatibility with web pages designed for older browsers, instead of strictly complying with W3C and IETF standards in standards mode.
+
+NOTE: Do not include comments or whitespace before the DOCTYPE.
+
+Add the GCR badge
+
+To show your customers that you use Google Customer Reviews, add the GCR badge to any pages of the website on which you want it to appear.
+
+If you want the badge to appear inline, use the method described below. Otherwise, use the following method to place the GCR badge on the bottom right or bottom left of the page.
+
+To add the GCR badge to your site:
+
+
+  
+    Paste the following code snippet into your web page:
+
+    <!-- BEGIN GCR Badge Code -->
+  <script src="https://apis.google.com/js/platform.js?onload=renderBadge"
+    async defer>
+  </script>
+
+<script>
+    window.renderBadge = function() {
+      var ratingBadgeContainer = document.createElement("div");
+        document.body.appendChild(ratingBadgeContainer);
+        window.gapi.load('ratingbadge', function() {
+          window.gapi.ratingbadge.render(
+            ratingBadgeContainer, {
+              // REQUIRED
+              "merchant_id": MERCHANT_ID,
+              // OPTIONAL
+              "position": "POSITION"
+            });           
+       });
+    }
+  </script>
+  <!-- END GCR Badge Code -->
+
+
+    Place the code just before the closing </BODY> tag on the page. When placed with the survey opt-in code, the order does not matter.
+  
+  Replace the variables with your site-specific, dynamic values. The following table describes the available settings:
+     
+    
+      
+        
+          Variable
+          Required?
+          Description
+        
+        
+          MERCHANT_ID
+          Required
+          Your Merchant Center ID. You can get this value from the Google Merchant Center.
+        
+        
+          POSITION
+          Optional
+          Renders the badge in one of the following locations:
+          
+            "BOTTOM_RIGHT": Causes the badge to float in the bottom right of the page.
+            "BOTTOM_LEFT": Causes the badge to float in the bottom left of the page.
+            "INLINE": Renders the badge in the place in which the code appears. When using this option, be sure that other elements on the page do not block or obscure the badge. For a simpler method, see add the GCR badge inline.
+          
+
+          The default position of the badge is "BOTTOM_RIGHT".
+          
+        
+        
+      
+    
+
+     
+  
+  Specify the language that the badge uses by pasting the following code snippet into your web page:
+     
+    
+      
+
+<!-- BEGIN GCR Language Code -->
+<script>
+  window.___gcfg = {
+    lang: 'LANGUAGE'
+  };
+</script>
+<!-- END GCR Language Code -->
+
+    
+
+    Place the code just before the closing </BODY> tag on the page. When placed with the badge code, the order does not matter.
+
+    Set the value of the lang parameter by replacing LANGUAGE with one of the following supported languages:
+
+    
+      af
+      ar
+      cs
+      da
+      de
+      en
+      en-AU
+      en-GB
+      en-US
+      es
+      es-419
+      fil
+      fr
+      ga
+      id
+      it
+      ja
+      ms
+      nl
+      no
+      pl
+      pt-BR
+      pt-PT
+      ru
+      sv
+      tr
+      zh-CN
+      zh-TW
+    
+
+    If you do not specify a value for the lang parameter, the badge uses the user's browser setting to automatically choose the language.
+  
+  Repeat steps 1 through 3 for all pages in your website on which you want the badge to appear.
+  To complete GCR integration, you must add the survey opt-in module to your order confirmation page. The survey opt-in module is required.
+
+
+To add the GCR badge inline:
+
+
+  
+    Paste the following line before the closing body tag in your HTML page, to load the JavaScript for the badge:
+
+    
+      
+
+<script src="https://apis.google.com/js/platform.js" async defer></script>​
+
+
+    
+  
+  Paste this line in your HTML at the location on the page where you would like the badge to appear:
+    
+      
+
+<g:ratingbadge merchant_id=MERCHANT_ID></g:ratingbadge>​
+
+
+    
+
+    Replace MERCHANT_ID with your own Merchant Center ID.
+  
+  
+    Specify the language that the badge uses as described here.
+  
+  
+    Add the survey opt-in module to your order confirmation page. The survey opt-in module is required.
+  
+
+
+Example badge code
+
+The following example shows the code to place the badge at the bottom left of the page, for merchant ID 42:
+
+
+
+  
+
+<!-- BEGIN GCR Badge Code -->
+<script src="https://apis.google.com/js/platform.js?onload=renderBadge"
+  async defer>
+</script>
+
+<script>
+  window.renderBadge = function() {
+    var ratingBadgeContainer = document.createElement("div");
+    document.body.appendChild(ratingBadgeContainer);
+    window.gapi.load('ratingbadge', function() {
+      window.gapi.ratingbadge.render(
+        ratingBadgeContainer, {
+          "merchant_id": 42,
+          "position": "BOTTOM_LEFT"
+        });
+    });
+  }
+</script>
+<!-- END GCR Badge Code -->
+
+<!-- BEGIN GCR Language Code -->
+<script>
+  window.___gcfg = {
+    lang: 'en_US'
+  };
+</script>
+<!-- END GCR Language Code -->
+
+
+
+
+If the badge does not appear on your page, or you get errors when loading the page, try troubleshooting.
+             Was this helpful?How can we improve it?YesNoSubmit       

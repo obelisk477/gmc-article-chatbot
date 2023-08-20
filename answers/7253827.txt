@@ -1,0 +1,268 @@
+ About branding assets for Buy on Google
+  Buy on Google for Search and Shopping will no longer be available starting September 26, 2023. Eligible merchants will be able to use Buy on Google for YouTube in the US. Learn more about Enabling Buy on Google for YouTube.
+
+
+
+
+
+By adding branding assets, you can help customers remember your brand and build trust in your business.
+
+This article gives you an overview of the branding assets that can be added to Buy on Google to promote your business’ brand. Learn how to create branding assets for Buy on Google 
+
+How it works
+
+You may have up to 3 branding assets on your store page:
+
+
+  Round logo for Buy on Google: This is the full size logo artwork, which represents the brand on larger featured areas like the merchant page and appears as small as 40 px.
+  Favicon for Buy on Google: This is an abbreviated version of the logo, containing 1-2 letters or an icon and appears on small UI layouts as small as 16 px.
+  Banners for Buy on Google: This is a photographic representation of the merchant inventory or brand, displayed on the merchant page or feature modules.
+
+
+Add all 3 branding assets to customize your page and help users identify your brand from other retailers.
+
+
+  Note: You'll have a default logo assigned to when you set up your Buy on Google store, but you can add your own logo if you prefer.
+
+
+Round logo for Buy on Google requirements
+
+To be eligible to appear on Buy on Google, your round logo must meet the following requirements:
+
+Image requirements
+
+
+  Solid circular logo and favicon with no additional text
+  Transparent background outside of the circle
+  High resolution
+  No background photo
+  No outline or edge detail on circle
+
+
+Square logos within the circle background are acceptable as long as the square fits the specified safe areas defined in the logo and favicon guidelines.
+
+Format requirements (logo only)
+
+
+  Logo size: 5 MB (maximum)
+  File types: PNG, SVG
+  Dimensions: 768 x 768 pixels
+  Make sure to follow the requirements if you want to have your branding assets approved by Google. To make sure that you submit your assets in the correct format, you may refer to the below examples of acceptable and unacceptable logos.
+
+
+
+  Examples
+
+  
+    
+      
+        
+          
+          Acceptable logos
+          
+        
+        
+          
+          
+
+          Circular logo
+          
+          
+          
+
+          Colored background
+          
+          
+          
+
+          Clear text
+          
+          
+          
+
+          No outline
+          
+          
+          
+
+          No background photo, only graphic elements
+          
+        
+        
+          
+          Unacceptable logos
+          
+        
+        
+          
+          
+
+          Non-circular logo
+          
+          
+          
+
+          Transparent background
+          
+          
+          
+
+          Fine details, illegible text
+          
+          
+          
+
+          Fine outline
+          
+          
+          
+
+          Background photo
+          
+        
+      
+    
+
+    Scaling
+
+    Your logo should fill the available space.
+
+    
+      
+        
+          Acceptable logos
+        
+        
+          
+          
+
+          Good size
+          
+        
+        
+          Unacceptable logos
+        
+        
+          
+          
+
+          Logo is too small, not filling the space
+          
+        
+      
+    
+
+    Logos safe area (recommended)
+
+    Keep your logo within the recommended "safe area".
+
+    
+      
+        
+          
+          Safe area
+          
+          
+          Recommended
+          
+          
+          Not recommended
+          
+        
+        
+          
+          
+          
+          
+          
+        
+      
+    
+
+    Exception
+
+    Your logo can include the specified safe area as part of the design.
+
+    
+      
+        
+          Circular brand mark logo
+        
+        
+          
+        
+      
+    
+
+    
+      
+        
+          Acceptable Banners
+        
+        
+          
+          
+
+          Background is darker than #ccccc
+          
+          
+          
+
+          Logo is not dominant
+          
+          
+          
+
+          No promotion, slogan only
+          
+          
+          
+
+          Photographic representation
+          
+        
+        
+          Unacceptable Banners
+        
+        
+          
+          
+
+          Background is lighter than #ccccc
+          
+          
+          
+
+          Logo only
+          
+          
+          
+
+          Promotion, watermark
+          
+          
+          
+
+          Blank
+          
+        
+      
+    
+
+    Once you create your branding assets, you’ll need to upload them to your Merchant Center account. Go to the “Business information” section of your account, select "Branding", then click the Color and logos for Buy on Google drop down menu.
+
+    
+      Note: Your branding assets must be approved by Google before they can appear on Buy on Google. Because of this review period, there may be a short delay between when you upload and when you’ll see them live. When they’re approved, you’ll see a “live” symbol next to the asset in your account. You’re responsible for making sure that your branding assets do not infringe on the IP of others.
+    
+  
+
+
+
+
+
+  
+  Need help? Click here to contact Buy on Google support.
+
+
+
+             Was this helpful?How can we improve it?YesNoSubmit       

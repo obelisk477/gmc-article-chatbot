@@ -1,0 +1,44 @@
+ Policies and requirements FAQs
+
+This article provides answers to common questions about promotion eligibility.
+
+Your promotions must comply with Google’s promotions policies and editorial requirements.
+For how long can a promotion run?
+
+
+  Per Google's promotions policies, the maximum duration is 6 months (183 days) per promotion.
+
+What types of promotions do you support?
+
+
+  As long as an online promotion follows promotions policies, it can be one of many different types, such as free gifts, certain dollar amounts or percentages off, or gift cards for future purchases at your store. Promotion types are listed in our participation criteria and policies.
+
+Can one Promotions feed target multiple countries?
+
+
+  A promotions feed can only correspond to a product data source mapped to one Target Country, which you select when you first register your product data source. For your promotions to display for other countries, submit a new promotions feed that targets those countries.
+
+Why do free and discounted shipping promotions require a coupon code?
+
+
+  A code is needed to promote free or discounted shipping in order to make sure that shoppers receive added value in the form of a discount on your normal shipping price.
+
+  For example, if you submit an item in Merchant Center that had a shipping cost of $0.00, this product will already display as having “Free Shipping.” As a result, a free shipping promotion wouldn’t provide additional value since that product already has free shipping.
+
+  Learn more about how to set up shipping settings
+
+
+Why is my promotion rejected when the discount is shown on the product landing page?
+
+
+  
+    
+      The price listed in the ad or free product listing must match the price listed on the product landing page. Discounts and promotions can only be applied at checkout or point of sale. You can refer to our promotions policies for more information.
+    
+  
+
+
+
+  Contact us if you have any further questions.
+
+             Was this helpful?How can we improve it?YesNoSubmit       

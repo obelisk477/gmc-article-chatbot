@@ -1,0 +1,142 @@
+ I need help with user access levels
+
+
+  If you’re looking for information about user access in the classic Merchant Center experience, click here.
+
+
+On this page:
+
+
+  Quick answers
+  Access types
+  Manage users on your account
+
+
+
+Quick answers
+
+Can multiple Google accounts be linked to a single Merchant Center account?
+
+Yes! Users are added and managed via individual Google accounts and associated email addresses.
+
+I received an error message: “We were unable to add this email address because it is not associated with a Google account. Choose a different email address or create a new Google account.”
+
+If you receive this error message, the email address that you're trying to grant access to Merchant Center isn't linked to a Google account. Email addresses must be linked to a Google account to be added to the Merchant Center. To link your email to a Google account:
+
+
+  Go to Google Accounts sign up.
+  Click Use my current email address instead.
+
+
+What access does a user need to show the “verified website owner” status?
+
+Every type of user is eligible for the user attribute “Verified website owner”. If this label appears next to a user’s name in the “Users” list, it means this user has verified the website associated with their Merchant Center account and claimed it.
+
+Who can invite new users and change access levels?
+
+Admin users can invite others to access the Google Merchant Center account. To do so, click “Your business” in the page menu, and then click the “People & access” tab.
+
+Can other users on my account view my login information? 
+
+No, all users sign in to your account with their own logins, so you can safeguard your own login information.
+
+
+Access types
+
+Account admins can specify different access levels per user, and each user may receive different types of emails.
+
+
+  
+    
+    Standard
+
+    Users with standard access can sign in to Merchant Center and access everything but they won’t be able to manage users or add and remove apps and stores.
+
+    Admin
+
+    Admins are users with beyond standard access. Admins may add, remove, or edit users. Only admins can add and remove apps and stores to Merchant Center.
+
+    Email contacts
+
+    No account access, but will receive emails based on preferences.
+    
+  
+
+
+
+Manage users on your account
+
+
+  Invite a new user
+
+  
+    
+      In your Merchant Center account, click Your business from the page menu, then click People & access tab.
+      Click the plus button.
+      Enter the email address of the person you want to invite.
+      Click Add user.
+      On the next page, select the level of user access you'd like to grant, and email preferences for that user.
+      Click Save.
+    
+
+    After you've done this, the invited user will receive an email prompting them to accept, and their access will be marked as "pending" until they accept the invitation.
+  
+
+
+
+  Revoke user roles
+
+  
+    Before removing a user, make sure that your website URL verification status isn't associated with that user. If it is and you remove that user from your account, you’ll also lose your verification status (and subsequently your claim status) and will need to complete website verification and claiming with another user.
+
+    
+      In your Merchant Center account, click Your business from the page menu, then click People & access tab.
+      Under “Users”, click the email address of the user you would like to remove.
+      Under “User status”, click Remove user.
+    
+  
+
+
+
+  Edit user roles
+
+  
+    Admin users may edit a user’s role. To do this:
+
+    
+      In your Merchant Center account, click Your business from the page menu, then click People & access tab.
+      Under “Users”, click the email address of the user whose access you wish to edit.
+      Select the new access to assign to this user, and then click Save.
+    
+  
+
+
+
+  Unlink an account
+
+  
+    If you no longer wish to have your Google account linked to a Merchant Center account, you can remove your own access in the "Preferences" section.
+
+    
+      Note: If you're a Merchant Center admin, you won't be able to remove your Google account unless there's another admin user already associated with the account.
+    
+
+    In Merchant Center:
+
+    
+      In your Merchant Center account, click the business icon, then click the Integrations tab.
+      In the Google applications section, you’ll find the linked Google Ads accounts.
+      For the account you'd like to unlink, click Manage and then Unlink.
+    
+
+    In Google Ads:
+
+    
+      Click the tools icon in the upper right corner of your account.
+      Under “Setup,” click Linked accounts.
+      Under “Your linked accounts and products", find "Google Merchant Center”, then click Manage and link.
+      Find the account you want to unlink and click Unlink.
+    
+  
+
+             Was this helpful?How can we improve it?YesNoSubmit       

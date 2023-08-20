@@ -1,0 +1,84 @@
+ How to fix: Missing value for price
+
+Add price using the all in price [vehicle_all_in_price] attribute
+
+For one or more of your product offers, you’ve submitted the condition [condition] attribute with the value “new”, indicating that the vehicle is new.
+
+When you create a new vehicle offer in Quebec, CA, you must include the product’s all-in price via the all-in price [vehicle_all_in_price] attribute. The value for this attribute should be the all-in price of the vehicle, including tax, title, and any other vehicle fees. New vehicle offers won’t work properly in the Quebec region until the all-in price [vehicle_all_in_price] attribute is uploaded. Learn more about the vehicle ads feed specifications
+
+Instructions
+
+
+  Step 1: See the affected products
+
+  
+    
+  Sign in to your Merchant Center account.
+  Select Products on the navigation menu, then click Diagnostics.
+  Click the Item issues tab to see current issues affecting your products.
+  Click the filter icon  to filter by destination and select Vehicle ads.
+
+
+To download a list (.csv) of all affected products for all issues:
+
+
+  Click the download button  next to the filter button , beneath the graph and above the list of issues.
+
+
+To download a list (.csv) of all affected products for a particular issue:
+
+
+  Find the issue under the “Issue” column, then click the download button  at the end of the row.
+
+
+To see a list of up to 50 products with this particular issue:
+
+
+  Find the issue under the “Issue” column, then click View examples in the “Affected items” column.
+
+
+  
+
+
+
+  Step 2: Add the vehicle all in price attribute
+
+  
+    
+      
+        Filter the downloaded report so that you only see products with:
+          "Issue title" = Missing value for price
+        Search your product data for those products, and add the all in price [vehicle_all_in_price] attribute to those products to meet this requirement.
+      
+    
+  
+
+
+
+  Step 3: Resubmit your product data
+
+  
+    
+  After you’ve updated your product data, resubmit it using one of these methods:
+    
+      Upload a feed
+      Submit through the Content API
+      Import content from an ecommerce platform
+    
+  
+  Next, check that you’ve fixed the issue by making sure it’s no longer listed on the Diagnostics page.
+    
+    Keep in mind: It may take some time for your change to be reflected on the Diagnostics page.
+
+
+  
+
+
+
+  Step 4: Get approved as a local vehicle seller
+
+  
+    Vehicle ads are currently in a limited beta, and you must be approved separately for in-store and/or online fulfillment. If you are interested in participating, please contact your Google representative.
+  
+
+             Was this helpful?How can we improve it?YesNoSubmit       

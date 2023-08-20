@@ -1,0 +1,42 @@
+ Add your business registration number
+
+
+  
+    If you’re looking for information about adding your business registration number in the classic Merchant Center experience, click here. 
+  
+
+
+
+To show Shopping ads in South Korea, you’ll need to have a valid Business Registration Number (BRN), and the prices on your website landing pages will need to appear in South Korean Won.
+
+
+  Note: Currency conversion is not available in South Korea.
+
+
+You can manage your BRN in Your Business area in Merchant Center going to the Business details section and editing them. Learn more about providing an accurate Business Registration Number
+
+
+  
+    
+      
+      In your Merchant Center account, click on Your business  in the left navigation menu.
+    
+    
+      
+      
+      On the “Business details” card, click Edit business details.
+      
+    
+    
+      
+      
+      Scroll down until you find “Korean business registration number”. Enter your 10-digit registration number.
+      
+    
+    
+      
+      Click Save.
+    
+  
+
+             Was this helpful?How can we improve it?YesNoSubmit       

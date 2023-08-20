@@ -1,0 +1,197 @@
+ Get started with Promotions
+
+
+  If you’re looking for information about promotion basics in the classic Merchant Center experience, click here. 
+
+
+
+Promotions is an add-on feature available in Merchant Center Next for Shopping ads and free listings. This article explains the benefits of using promotions and how it works.
+
+On this page
+
+
+  Benefits
+  Eligibility requirements
+  How to create a promotion
+  Promotion criteria
+
+
+
+Benefits
+
+Promotions allow you to distribute online offers across different Google properties like Google Search, the Shopping tab, Google Chrome, and more. When you add promotions to products that you sell on Google, shoppers will see a “special offer” link (for example, 15% off or free shipping) that can increase the appeal of the products you show and encourage more shoppers to buy.
+
+
+Eligibility requirements
+
+To be eligible for the Promotions add-on, you must meet the below criteria:
+
+
+  You advertise in Australia, Brazil, Canada, France, Germany, India, Italy, Japan, Korea, Netherlands, Spain, the UK, or the US. 
+  You aren’t connected to a marketplace (an online platform that provides a place for multiple individual merchants to sell their products).
+  You have active and approved accounts in Google Ads and Merchant Center, with at least one active product and one claimed URL.
+
+
+If you are currently ineligible for promotions, you may still need to meet one or more of the eligibility requirements. Contact us for help enrolling in promotions.
+
+Activate the Promotions add-on
+
+The Promotions add-on may be automatically activated to eligible accounts. If you are eligible but the add-on was not activated automatically, follow these steps to activate Promotions manually:
+
+
+  In your Merchant Center account, navigate to the Add-ons store.
+  Locate the “Promotions” add-on card.
+  Click Activate.
+
+
+The Promotions add-on will now be activated for your account. You may skip these steps if the add-on was automatically enabled.
+
+
+How to create a promotion
+
+If the add-on is enabled, “Promotions” will appear in the navigation bar of your Merchant Center Next account. To create a new promotion:
+
+
+  Select Promotions from the navigation bar.
+  Under “All Promotions” click Add promotion.
+  From here, you can add promotions in 3 ways:
+    
+      Add each promotion individually with the promotion builder tool.
+      Submit a promotions feed.
+      Upload promotions via the Content API.
+    
+  
+
+
+
+Promotion criteria
+
+To use promotions, they must meet the following criteria:
+
+
+  Be redeemable at checkout or by the time of purchase
+  Expire within 6 months (183 days) of the date the promotion starts
+  Comply with promotions policies and editorial requirements
+
+
+You also need to create promotion types that are usable for anyone who shops on Google.
+
+Promotion types allowed
+
+You can use the following promotion types:
+
+
+  
+    
+      Promotion
+      Type
+      Additional Information
+    
+  
+  
+    
+      Discounts
+      $ off or % off
+      Discounts must be at least $5 or 5% off
+    
+    
+      x% off, maximum discount $y
+      n/a
+    
+    
+      $x off $50+, $y off $100, or $z off $150
+      Tiered discounts allowed
+    
+    
+      x% to y% off
+      Floor discounts (like minimum amount or percent saved) must be stated
+    
+    
+      Buy one get one free or buy one get 2nd x% off
+      n/a
+    
+    
+      $x cash back or $x cash rebates
+      Must be reflected at cart or checkout
+    
+    
+      Free gifts
+      Free item
+      Must clearly describe the free gift and any associated restrictions or conditions (like if a purchase is required), and the item can't be samples or trials
+    
+    
+      $x gift card on purchase
+      Title must clearly state the gift card value and gift card must be from your own store
+    
+    
+      Shipping
+      Free shipping
+      
+      Must have valid redemption code
+
+      Exception: No redemption code necessary when combined with another permissible promotion (for example: free shipping + 10% off)
+      
+    
+  
+
+
+Promotion types not allowed
+
+You can't use the following promotion types:
+
+
+  
+    
+      Promotion
+      Type
+      Additional information
+    
+  
+  
+    
+      
+      Vague discounts
+      
+      Up to y% off or “as much as x saved”
+      Floor discount must be stated
+    
+    
+      x% Cash Back or Reward Points Back
+      
+      Cash back in percent and reward points aren't allowed.
+
+      Exception: If combined with a permissible promotion
+      
+    
+    
+      Overly restrictive
+      All promotions restricted to a subset of shoppers (for example: military discounts, birthdays, PayPal users, and others)
+      n/a
+    
+    
+      Other
+      Discounts must not already be reflected on the product landing page
+      n/a
+    
+    
+      Shipping discounts without a redemption code and not combined with a permissible promotion
+      n/a
+    
+    
+      Promotions exceeding a duration of 6 months
+      n/a
+    
+  
+
+
+Policies
+
+Google’s policies provide important guidance for retailers participating in promotions. To make sure you understand the expectations, review the editorial requirements and policies. Google disapproves promotions that do not comply with these requirements and policies.
+
+
+Related link
+
+
+  Promotions Implementation guide
+
+             Was this helpful?How can we improve it?YesNoSubmit       

@@ -1,0 +1,174 @@
+ Create a tab-delimited data feed
+
+This article explains how to create a tab-delimited data feed with a spreadsheet program. If you prefer to work with a text editing program, you can skip these steps, however, be sure to follow the format requirements below.
+
+If you’re using Google Sheets, see Set up your product data in Google Sheets for specific instructions on creating a feed with Google Sheets. For instructions on creating an XML data feed instead, see RSS 2.0 specification and Atom 1.0 specification.
+
+
+  
+    Example data feed files
+
+    You can reference our Tab delimited (.txt) example file as you're creating your feed.
+  
+
+
+How to create your data feed
+
+Step 1: Open your spreadsheet program
+
+Using a spreadsheet program such as Microsoft Excel makes it easy to create a feed and convert it to the proper format.
+
+Step 2: Create a header row
+
+On the first row of the spreadsheet, enter the names of the attributes that describe your products, each in its own column. You can list your products to Shopping ads or free listings using highly structured information with the help of two types of attributes:
+
+
+  Required attributes
+  Recommended attributes
+
+
+Any products that are missing required attributes will not process successfully. Products missing recommended attributes will still process successfully. It's strongly suggested that you include information about those attributes as well to increase the chances that your products will be included in relevant results. Refer to the table below for an example header row, and refer to the  product data specification for all the required attributes for your target country:
+
+
+  
+    
+       
+      A
+      B
+      C
+      D
+      E
+      F
+      G
+      H
+    
+    
+      1
+      ID [id]
+      Title [title]
+      Description [description]
+      Price [price]
+      Condition [condition]
+      Link [link]
+      Availability [availability]
+      Image link [image_link]
+    
+    
+      2
+       
+       
+       
+       
+       
+       
+       
+       
+    
+    
+      3
+       
+       
+       
+       
+       
+       
+       
+       
+    
+  
+
+
+Step 3: Enter your item information
+
+In the rows below the header row, enter information about your products for the attributes you've chosen. Each product should be listed in a separate row, and its information divided into the appropriate columns. (For example, a product's description should be in the same column as the "description" header). You may leave a cell empty if there is no value for an attribute.
+
+
+  
+    
+       
+      A
+      B
+      C
+      D
+      E
+      F
+      G
+      H
+    
+    
+      1
+      ID [id]
+      Title [title]
+      Description [description]
+      Price [price]
+      Condition [condition]
+      Link [link]
+      Availability [availability]
+      Image link [image_link]
+    
+    
+      2
+      123-uk
+      Toy Bear
+      A yellow teddy bear
+      12
+      new
+      http://www.example1.com
+      in_stock
+      http://www.example.com/image1.jpg
+    
+    
+      3
+      1246
+      Blender
+      12-speed, black blender
+      24.99
+      used
+      http://www.example2.com
+      in_stock
+      http://www.example.com/image2.jpg
+    
+  
+
+
+
+Step 4: Convert your spreadsheet
+
+Most spreadsheet programs allow you to export data into a tab-delimited file. Either of the options below will create a file with a name ending in the ".txt" extension. This is the file you should submit to Google Merchant Center.
+
+
+  For Microsoft Excel: Save the spreadsheet as tab-delimited text (.txt) by using the Save File as command in the File menu and specifying the format type. In the Save as type drop-down box, select the Text (tab delimited)(*.txt) option.
+  For Google Sheets: You can easily upload your Google spreadsheet, and set an ongoing scheduled upload, directly in Merchant Center. Alternatively, you can download your file using the following steps: open the File menu, click Download as and then select Tab-separated values (.tsv, current sheet). Select the Save as command from your browser's File menu to save as a .txt text file.
+
+
+If you've already registered a feed in your Merchant Center account, use the same file name that you specified during the set-up process.
+
+Step 5: Submit your data feed
+
+Check that your file meets our format requirements below and submit it to us.
+
+
+  Format requirements
+
+  
+    
+      The file must be tab-delimited plain text.
+      The first line of the file is the header. It must contain attribute names, separated by tabs.
+      One product per line. Separate each attribute in that line by a tab.
+      Do not include trailing tabs at the end of lines.
+      Do not include tabs or line breaks in the attributes themselves.
+      For group attributes such as tax [tax] and shipping [shipping] use colon-separated sub-attributes. Learn more about setting up tax settings
+        
+          Note that when a colon (:) doesn't indicate a separate sub-attribute value, the value should be surrounded by quotes ("). Learn more about quoted attributes
+        
+      
+      For repeated attributes such as product highlight [product_highlight] and product type [product_type] provide each value separated by a comma.
+        
+          Note that when a comma (,) doesn't indicate a separate value, the value should be surrounded by quotes ("). Learn more about quoted attributes
+        
+      
+      Note that not all attributes support multiple values; for example, you may only provide one ID [id] or description [description] value. Learn more about product data specification
+    
+  
+
+             Was this helpful?How can we improve it?YesNoSubmit       

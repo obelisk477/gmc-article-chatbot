@@ -1,0 +1,414 @@
+ Local product inventory feed specification
+
+The local products inventory feed is a list of the products you sell in each store. Some attributes are required for all items, some are required for certain types of items, and others are recommended.
+
+
+  Note: Not providing a required attribute may prevent that particular product from showing up in results.
+
+
+
+Inventory price and availability can change frequently and on a store-by-store basis. You can increase the feed frequency to carry out more frequent updates of your inventory data. Contact our support team using the contact form if you encounter issues with your feed frequency. Also be aware that it can take up to 24 hours to sync your business locations into your Merchant Center account, so we recommend that you upload your inventory feed 24 hours after linking accounts, or after a store code is changed or updated in your Business Profiles.
+
+To submit product data through API, learn more about the Google Content API.
+
+
+Submit local product inventory feeds
+
+File type: The local product inventory feed is available as a tab delimited text file, XML file or via API.
+
+Create a new local product inventory feed: To create and register a new local product inventory feed, follow these instructions.
+
+Important: Some attributes in this local product inventory feed spec contain spaces and underscores. To make sure you submit attributes with correct characters and spacing, follow the guidelines below for your file type:
+
+
+  Tab-delimited feeds: Spaces are required. If the attribute has underscores, use a space instead of the "_".
+  XML API or JSON API: Underscores are required, and are converted into whitespace when received.
+
+
+Summary of attribute requirements
+
+
+  
+    
+       
+      Attribute
+      Submission requirements
+    
+  
+  
+    
+      Required inventory details
+      
+      Store code [store_code]
+
+      ID [id]
+
+      Availability [availability]
+
+      Price [price]
+      
+      
+      Required for all products.
+
+      Note: The store code [store_code] attribute is case-sensitive and must match the store codes submitted in your Business Profiles.
+
+      If you’re implementing the merchant-hosted local storefront (full) feature, then you must submit the price [price] attribute in the local products inventory feed. The price must match the price displayed on your landing page.
+      
+    
+    
+      Optional inventory details
+      
+      Sale price [sale_price]
+
+      Sale price effective date [sale_price effective_date]
+
+      Quantity [quantity]
+      
+      
+      Recommended as applicable to each item in your feed to give more details about price, quantity, and same-day delivery.
+      
+    
+    
+      Optional store pickup details
+      
+      Pickup method [pickup_method]
+
+      Pickup SLA [pickup_sla]
+      
+      Recommended as applicable to all of the items in your feed that can be picked up in-store.
+    
+    
+      Optional local delivery details
+      Local shipping label [local shipping label]
+      Required in your feed if you want to enable same-day delivery where only certain products at an individual store are eligible for same-day delivery.
+    
+  
+
+
+Required inventory details
+
+These attributes describe basic inventory information per item per store.
+
+Store code [store_code] - The store identifier from Business Profiles
+
+  A unique alphanumeric identifier for each local business. This attribute is case-sensitive and must match the store codes that you submitted in your Business Profiles.
+
+  When to include: Required for all of the items in your feed.
+
+  
+    
+      
+        Type
+        Text (string)
+      
+      
+        Text/tab delimited example
+        Store123
+      
+      
+        XML example
+        <g:store_code>Store123</g:store_code>
+      
+    
+  
+
+
+
+ID [id] - An identifier of the item
+
+  A unique alphanumeric product identifier for an item across all of your stores.
+
+  If you sell the same item in multiple stores, the same ID appears for multiple store codes. You should include one ID [id] attribute per store and use the availability [availability] attribute to indicate if an item is in stock in that store.
+
+  If you have multiple feeds of the same type for one country, IDs of items within different feeds must still be unique. If your SKUs are unique across your inventory and meet the requirements below, we suggest you use your SKUs for this attribute.
+
+  When to include: Required for all of the items in your feed.
+
+  
+    
+      
+        Type
+        Text (string)
+      
+      
+        Text/tab delimited example
+        421486
+      
+      
+        XML example
+        <g:id>421486</g:id>
+      
+    
+  
+
+   
+
+  Important:
+
+  
+    Use the same ID values in both your primary and local product inventory feeds.
+    Starting and trailing whitespaces and carriage returns (0x0D) are removed.
+    Each sequence of carriage return (0x0D) and whitespace characters (unicode characters with the whitespace property) is replaced by a single whitespace (0x20).
+    Only valid unicode characters are accepted, excluding the following characters:
+      
+        Control characters (except carriage return 0x0D)
+        Function characters
+        Private area characters
+        Surrogate pairs
+        Non assigned code points (in particular any code point larger than 0x10FFFF)
+      
+    
+    When an item is submitted, the ID [id] attribute can't change when you update your data feed or be used for a different product at a later point in time.
+    Only include the products that are available for purchase in stores.
+  
+
+
+
+Availability [availability] - Availability status of the item
+
+  
+    'in stock': Indicates that the item is in stock at your local store.
+    'out of stock': Indicates that the item is out of stock at your local store.
+    'limited availability': Indicates that only a few items are left in stock at your local store.
+    'on display to order': Indicates that the item is on display to order at your local store (for example: a refrigerator that needs to be shipped from a warehouse). For items on display to order, submit the value 'on display to order' along with the value "1" for the quantity [quantity] attribute.
+  
+
+  
+    
+      
+        Type
+        Text (string). Must be one of the 4 accepted values: 'in stock', 'out of stock', 'limited availability', or 'on display to order'.
+      
+      
+        Text/tab delimited example
+        in stock
+      
+      
+        XML example
+        <g:availability>in stock</g:availability>
+      
+    
+  
+
+
+
+Price [price] - Price of the item
+
+  The regular price of your item. If you submit a price value here and in the local products feed, this price will override the price in the local products feed for the associated store.
+
+  When to include: Required for all of the items in your feed.
+
+  
+    
+      
+        Type
+        Number (Currency is automatically assigned based on the country where the store is located.)
+      
+      
+        Text/tab delimited example
+        299.99
+      
+      
+        XML example
+        <g:price>299.99</g:price>
+      
+    
+  
+
+  
+    
+      Important: This attribute is required in either the local products feed for national default pricing or in this feed for any store-specific overrides.
+    
+  
+
+
+
+Optional inventory details
+
+You can use these attributes to give additional information about the price, quantity, and availability of your items.
+
+Sale price [sale_price] - Advertised sale price of the item
+
+  The advertised temporary sale price that denotes a store-specific override of the price [price] attribute in this feed and the local products feed.
+
+  We recommend submitting the sale price effective date [sale_price_effective_date] attribute for any items with sale prices, as this will determine when your sale price should be live. If the sale price effective date isn't submitted, the sale price will be in effect for that item for as long as it is submitted in your feed.
+
+  
+    
+      
+        Type
+        Number
+      
+      
+        Text/tab delimited example
+        279.99
+      
+      
+        XML example
+        <g:sale_price>279.99</g:sale_price>
+      
+    
+  
+
+  
+    Note: Any price value submitted in an incremental feed won't automatically remove a sale price value from a previous feed. To remove a sale price using the incremental feed, include an expired value for the sale price effective date [sale_price_effective_date] attribute.
+  
+
+
+
+Sale price effective date [sale_price_effective_date] - Date range during which an item is on sale
+
+  The dates during which the advertised sale price is effective.
+
+  Learn more about sales price definitions
+
+  
+    
+      
+        Type
+        Text (string), ISO8601, with start and end dates separated by a forward slash (/)
+      
+      
+        Text/tab delimited example
+        
+        UTC example: 2021-07-19T17:00:00/2021-07-27T05:00:00
+          PST example: 2021-07-19T09:00:00-08:00/2021-07-26T21:00:00-08:00
+
+        All time values use the 24 hour format.
+        
+      
+      
+        XML example
+        <g:sale_price_effective_date>2021-07-19T09:00-0800/2021-07-26T21:00-0800</g:sale_price_effective_date>
+      
+    
+  
+
+  
+    Note: Time and time zone are optional. To add a time zone, include + or - the number of hours and minutes ahead or behind UTC time (for example: -08:00 for PST). If there is no time zone included, Google assumes the UTC time zone for each store.
+  
+
+
+
+Quantity [quantity] - The number of items in stock
+
+  The number of items in stock for the store. If you submit items that are temporarily out of stock, include a value of "0" for this attribute.
+
+  Quantity is no longer a required attribute. Instead, ensure that you submit availability for all of your inventory.
+
+  
+    
+      
+        Type
+        Integer
+      
+      
+        Text/tab delimited example
+        4
+      
+      
+        XML example
+        <g:quantity>4</g:quantity>
+      
+    
+  
+
+   
+
+  Important:
+
+  
+    Google considers "in stock" items to be those with 3+ availability, "limited availability" to be 1-2, and "out of stock" to be 0.
+    If you choose to submit quantity and availability, inventory is classified based on the lower value between your availability and quantity. 
+  
+
+
+
+Optional store pickup details
+
+Add these attributes to your local product inventory feed for store-specific pickup information.
+Pickup method [pickup_method] - Store pickup option for the item
+
+
+  Specify the pickup option for this item.
+
+  
+    'buy': The entire transaction occurs online.
+    'reserve': The item is reserved online and the transaction occurs in-store.
+    'ship to store’: The item is purchased online and shipped to a local store for the customer to pick up.
+    'not supported': The item is not available for store pickup.
+  
+
+  
+    
+      
+        Type
+        Text (string). Must be one of the 4 accepted values:
+        'buy', 'reserve', ‘ship to store’ or 'not supported'
+        
+      
+      
+        Text/tab delimited example
+        buy
+      
+      
+        XML example
+        <g:pickup_method>buy</g:pickup_method>
+      
+    
+  
+
+Pickup SLA [pickup_sla] - Item store pickup timeline
+
+
+  Specify the expected date that an order will be ready for pickup, relative to when the order is placed.
+
+  
+    'same day': Indicates that the item is available for pickup the same day that the order is placed, subject to cutoff times.
+    'next day': Indicates that the item is available for pickup the following day that the order is placed.
+    '2-day': Indicates that the item will be shipped to a store for a customer to pick up in 2 days.
+    '3-day': Indicates that the item will be shipped to a store for a customer to pick up in 3 days.
+    '4-day': Indicates that the item will be shipped to a store for a customer to pick up in 4 days.
+    '5-day': Indicates that the item will be shipped to a store for a customer to pick up in 5 days.
+    '6-day': Indicates that the item will be shipped to a store for a customer to pick up in 6 days.
+    ‘multi-week': Indicates that the item will be shipped to a store for a customer to pick up in one week or more.
+  
+
+  
+    
+      
+        Type
+        Text (string). Must be one of the 8 accepted values:
+        'same day', 'next day', '2-day', '3-day', '4-day', '5-day', '6-day', or 'multi-week'
+        
+      
+      
+        Text/tab delimited example
+        same day
+      
+      
+        XML example
+        <g:pickup_sla>same day</g:pickup_sla>
+      
+    
+  
+
+
+Optional local delivery details
+
+Add this attribute to your local product inventory feed for local delivery information.
+
+Local shipping label [local_shipping_label]
+
+
+  If you want to enable same-day delivery where only some of your local inventory in a particular store is available for same-day delivery, the local shipping label [local_shipping_label] attribute must be added to your local product inventory feeds.
+
+  The value submitted for this attribute should be the name of the same-day delivery label or labels that you've created in your account-level same-day delivery shipping settings. Each same-day delivery label represents one unique group of same-day delivery settings and will be added to the selected eligible products in your local product inventory feed.
+
+  To further configure your same-day delivery items, you can set your maximum delivery radius in either miles or kilometers. Cut-off times can also be set by the number of hours before closing time when orders are accepted to be delivered within the day, or by a specific time. You can indicate if your items available for same-day delivery, when ordered after the cut-off time, are eligible for next-day delivery.
+
+  This attribute is optional if either all of your stores and all of your products offer same-day delivery, or if all of your products in a list of eligible stores offer same-day delivery. Learn more About same-day delivery.
+
+
+
+             Was this helpful?How can we improve it?YesNoSubmit       

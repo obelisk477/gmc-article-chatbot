@@ -1,0 +1,135 @@
+ Fixing Merchant Center warnings and account suspensions for policy violationsThis article is intended for users of the Google & Youtube app on Shopify
+
+
+  
+  If you're looking for information on fixing warnings and account suspensions for policy violations in the classic Merchant Center experience, click here. 
+
+
+
+
+You are expected to carefully follow Google's policies for Shopping ads and for showing products organically. They outline what is and isn’t permitted on Google, including any products crawled from the web and shown in shopping results. Your offers can be disapproved if they are not in compliance with Google's policies. Continuous or egregious breaking of the rules may lead to an account suspension. If you receive a notification of an account warning or suspension, there are actions you can take to resolve the issue.
+
+
+On this page
+
+
+  Warnings
+  Account suspension caused by policy violations
+  Instructions for requesting review after a suspension notification
+  Common reasons for warnings and account suspensions
+
+
+
+Warnings
+
+Merchant Center accounts are reviewed regularly. If it’s found that your products are not in compliance with Google’s Shopping policies and requirements, you’ll receive a warning email with more details about the issue, how to fix it, and a timeframe in which to do so. The warning will also be displayed on the “Overview” page within your Google & YouTube app on Shopify and in your Merchant Center account under “Account issues” on the “Diagnostics” tab.
+
+If your account is in a warning period, your products may continue to appear in a limited visibility state, or until the warning period is over. To address the issue on your account, review the policy and take the necessary steps to meet the requirements before the warning period ends.
+
+
+  If the violating products are removed from your account during the warning period, you won't need to request an account review or take any additional action. Your account will be automatically reviewed at the end of the period.
+  If the warning period has ended, your account may be suspended. If you've taken actions to resolve the issue, request a review.
+
+
+
+  Note: In some cases when an egregious policy issue is detected, no warning is given and the account is suspended immediately.
+
+
+
+Account suspension caused by policy violations
+
+If your Merchant Center account is suspended, you’ll receive a series of emails containing all of the relevant information related to the policy violation detected and account suspension. The warning will also be displayed on the “Overview” page within your Google & YouTube app on Shopify and on the “Home” and the “Diagnostics” pages of your Merchant Center account.
+
+You should review your account or website before requesting a review by Google. If any of the account issues are not resolved, your account will remain suspended and your products disabled from Shopping surfaces. To address the issue on your account, review the policy and take the necessary steps to meet the requirements before requesting a review of your account.
+
+If you've taken actions to resolve the issue, request a re-review. You’ll receive an email notification when your account review is completed.
+
+If you need help, you can get support in your Google & YouTube app on Shopify. Go to the top right corner of your account, and select Get support.
+
+
+  Note: Messages regarding Shopping policies and account suspensions are temporarily stored in the account message archive of the impacted account.
+
+
+
+
+
+
+  
+  Instructions for requesting a re-review after a suspension notification
+
+  From the Google & YouTube app on Shopify
+
+
+  In your Shopify admin page, navigate to Sales Channels and click Google.
+  Click the Settings tab.
+  Under Your Google Merchant Center account, click Request re-review.
+  On the Google Merchant Help page that loads, complete the form and write that you are requesting a re-review of your store.
+  Click Submit.
+
+
+From Merchant Center account
+
+In your Merchant Center account, account-level issues show in a banner at the top of the page. Account-level issues are also found in the summary cards at the top of the "Needs attention" page.
+
+You can follow one of the in-product flows below to resolve your account-level issue:
+
+
+  Click on Review and fix on the Home page
+  Click on Fix on the banner at top of your account, or
+  Click on Fix on a card on the "Needs attention tab"
+
+
+If you’ve already fixed issues with disapproved account or product offers, or if you disagree with the issue, then you may request a review.
+
+Your issue will disappear after the review. If the disapproval remains and you’re uncertain with how to proceed, contact us for support.
+
+
+  Note: Review requests can take up to 7 days to complete. You’ll receive an email notification when the review has been completed.
+
+
+
+  
+    Cool down period
+
+    If your account is already suspended, you’ll have 2 opportunities to request an account review before a cool down period is initiated for further reviews.
+
+    The process will then continue as follows:
+
+    
+      If your issues aren’t resolved by the second review attempt, a one-week cool down period will begin. During this time, the review button will be disabled.
+      With each unsuccessful review afterwards, a progressive one-week cool down period may be applied.
+      During this cool down period, your account will remain suspended. You won’t be able to request another review during this time.
+      Use the cool down period to review and fix your account, data and website issue(s) as support may be limited until your issues are addressed.
+      After the cool down period passes, the "Request review" button will be available again.
+      You can see the end date for any cool down period by navigating to the "Diagnostics" page in Merchant Center and clicking the “Account issues” tab.
+    
+  
+
+
+
+  
+  Common reasons for warnings and account suspensions
+
+  Missing return and refund policy
+
+  Make sure you have a return and refund policy on your Shopify store which clearly states how you handle these actions, including all requirements and any timelines. If returns and refunds are not accepted, you’ll need to clearly state this on your site. You can add a refund policy within your Shopify admin.
+
+  Learn more about How to fix: Missing return and refund policy.
+
+  Insufficient contact information
+
+  Customers need to be able to find out how to contact you on your website in at least one way. Examples include, but are not limited to, a contact us form, a link to your business profile on social media, an email address or phone number. You can add your contact information within your Shopify admin.
+
+  Misrepresentation of self or products
+
+  Google doesn't want users to feel misled by the content promoted in Shopping ads, and that means being upfront, honest, and providing them with the information that they need to make informed decisions. Learn more about our Misrepresentation policy and the Editorial & professional requirements.
+
+  
+  Related links
+
+  
+    Shopping ads policies
+    Account-level enforcement for policy violations
+  
+
+             Was this helpful?How can we improve it?YesNoSubmit       

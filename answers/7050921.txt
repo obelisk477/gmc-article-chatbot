@@ -1,0 +1,430 @@
+ About shipping settings
+
+
+  If you’re looking for information about shipping info needed in Merchant Center Next, click here.
+
+
+
+
+   
+
+  When submitting your products to Merchant Center, you’ll also provide information about how much you charge for shipping and how long it’ll take for customers to receive their orders. Your shipping settings are used across Google features, including Shopping ads, free product listings, and Buy on Google.
+
+  
+
+  Shipping speed and cost are two of the most common reasons why customers abandon their shopping choices, so you’ll want to be sure your shipping settings are accurate and up-to-date.
+
+  This article explains how the various shipping settings work and when to use them. Learn more about setting up shipping settings
+
+  
+    Note: The shipping [shipping] attribute is unavailable for the Buy on Google destination. For Buy on Google, the shipping price must be set up at the account level in Merchant Center. Learn more about setting up shipping for Buy on Google
+  
+
+
+How it works
+
+To show your products in a particular country or region, you must offer shipping and correctly set up shipping speed and costs for that area. Shipping speed and cost can be configured within each shipping service in your Merchant Center account or via the Shipping Settings API. You can also override the account level shipping settings with the shipping [shipping] attribute on an individual product level.
+
+Shipping settings can also take into account product data that you submit using shipping attributes:
+
+
+  Optional shipping attributes include shipping label [shipping_label], shipping weight [shipping_weight], dimensions (shipping length [shipping_length], shipping width [shipping_width], shipping height [shipping_height]).
+  To further specify delivery times for certain products, you can use the transit time label [transit_time_label] attribute.
+  To enable same-day delivery, the local shipping label [local_shipping_label] attribute can be added to your local product inventory feeds.
+
+
+
+  Note: Try to exactly match the shipping costs you submit to Google and the shipping costs displayed on your website. To make sure customers don’t find a higher shipping cost on your website after clicking your Google listing, a listing might be rejected if our reviewers find a lower shipping cost on your listing than on your website.
+
+
+When to provide shipping settings
+
+You need to provide shipping settings in the following situations:
+
+
+  If you want to show your products in any of the following countries: Australia, Austria, Belgium, Brazil, Canada, Czechia, Denmark, Finland, France, Germany, Greece, Hungary, India, Ireland, Israel, Italy, Japan, New Zealand, Norway, Poland, Portugal, Romania, Slovakia, South Korea, Spain, Sweden, Switzerland, the Netherlands, United Kingdom, United States.
+  If you want to show your products in an additional country that is not a product’s primary country of sale. Learn more about submitting feeds to multiple countries
+
+
+What should be included in shipping
+
+Cost
+
+
+  Note: Shipping costs are required for Shopping ads and for free listings in certain countries. Learn more about the countries where shipping costs are required
+
+
+Shipping rate covers the shipping carrier cost as well as other costs directly related to shipping. Costs related to shipping might include handling, delivery, shipping, logistics, or carrier fees.
+
+
+  Submit the shipping cost for a customer's location, not for a business or separate collection point.
+    
+      For Canada only, submit shipping costs exclusive of taxes.
+      For Finland, Norway, and Sweden, you may alternatively submit the shipping cost to a collection point for specific carriers based on country.
+        
+          For Norway and Sweden: PostNord, DHL, Bring, Schenker
+          For Finland: Posti.fi, DHL, Bring, Schenker, Matkahuolto
+        
+      
+      For Argentina and Chile, you may alternatively submit the shipping cost to a collection point or a store for pickup.
+    
+  
+
+
+
+  Note: For the state of Colorado, don’t include any retail delivery fee in your product feed. Therefore, a retail delivery fee shouldn’t be included in shipping [shipping], price [price], tax [tax], or any other attribute. Learn more about Colorado retail delivery fee.
+
+
+Shipping can include cross-border charges if the cost is included under a shipping term on your website. Shipping should also include insurance costs related to any of the terms above.
+
+If you provide shipping settings for products you sell in Australia, Brazil, Canada, France, Germany, India, Japan, New Zealand, the United Kingdom, and the United States.
+
+
+  Match availability on your landing page with the shipping information you submit to Merchant Center. If you don’t deliver your products across the entire target country, then use “No shipping” to exclude certain areas.
+
+
+Speed
+
+Shipping speed is an important piece of information for people evaluating a possible purchase. If you want to show this information, specify both order handling time and transit time for your products in each of your shipping services. Learn more about setting up shipping speed
+
+
+  Note: The estimated delivery time is determined by adding the transit time to the order handling time.
+
+
+
+  Order handling time is the number of business days needed to process an order before it ships. It normally begins when an order is placed by a customer and ends when a carrier picks up the package for shipment.
+  Transit time is the number of business days it takes for a carrier to deliver a package once it's picked up from your facility.
+
+
+If you ship to US customers: (a) from warehouses based in the US, and use one of our select carriers to deliver your packages or (b) using one of our select partners, you can choose to let Google calculate a unique shipping speed for each customer based on their delivery location. Learn more about letting Google calculate shipping speed
+
+Ways to set up shipping cost
+
+As shipping costs vary by a variety of factors, the shipping settings in Merchant Center allow you to set up shipping tables based on factors like weight, price, destination, and more. Choose the shipping options that mirror how you charge for shipping on your site. If you charge your customers exactly what you pay for shipping with common carriers, you can also select carrier rates in some countries and Google will automatically calculate the shipping cost for you.
+
+To get started with shipping, figure out what types of shipping cost models you need to add based on how you charge shipping. Make sure to match or overestimate the shipping costs you submit to Merchant Center in comparison to the costs you charge on your website.
+
+
+  
+    
+      How you charge
+      Shipping option
+      Example
+    
+  
+  
+    
+      Free shipping for certain price ranges
+      Free shipping over a certain amount” (basic cost settings)
+      
+      Free shipping for orders over $20 USD
+      
+    
+    
+      Free shipping
+      
+      Free shipping (basic cost settings)
+      
+       
+    
+    
+      A flat rate for orders falling between a certain range
+      
+      Range based (basic cost settings)
+      
+      $5 USD for orders below $20 USD
+    
+    
+      A flat shipping rate for all orders
+      Flat rate (basic cost settings)
+      $5 USD for all orders
+    
+    
+      Your shipping is based on rates from supported carriers
+      Carrier rate along with the shipping weight and dimension attributes (available for AU, DE, and US)
+      
+      FedEX Ground, UPS Ground, USPS Media Mail
+
+      Rates are automatically calculated based on common carrier rates for all customers, and the rates update if the carrier rates change
+      
+    
+    
+      Based on one or more of the following dimensions (order price, weight, number of items, or destination)
+      Shipping rate table (advanced settings)
+      $5 USD for orders up to 5 kg
+    
+    
+      Based on a percentage of the order cost
+      Percentage of order total (shipping rate table in advanced settings)
+      5% of order total
+    
+    
+      Based on more than 2 dimensions
+      Subtable (shipping rate table in advanced settings)
+      Based on order price, weight, and destination
+    
+    
+      Exclude a group of orders from delivery in a shipping service
+      
+      Minimum order value (advanced settings) if the orders to be excluded are defined only by order price
+
+      Shipping rate table (advanced settings) if it’s defined by one or more of the following dimensions: order price, weight, number of items, or destination
+      
+      
+      No shipping for orders under $5 USD
+
+      No shipping for Hawaii
+      
+    
+    
+      Unique shipping costs for one particular product
+      The shipping [shipping] attribute
+      Not available for Buy on Google
+      Allows you to manually override account settings for a product with unique shipping rates
+    
+  
+
+
+Shipping-related product data
+
+Shipping cost is often dependent on product details such as price, weight, or size. If you charge shipping based on these attributes or if you want to use carrier rates (which are calculated based on weight and size), you should add the relevant information to your product data.
+
+
+  
+    
+      Product details
+      Attribute
+      What to add
+    
+    
+      Product weight
+      shipping weight [shipping_weight]
+      Include a shipping weight for each product so you can vary the shipping cost based on the weight
+    
+    
+      Product dimensions
+      
+      shipping length [shipping_length], shipping width [shipping_width], and shipping height [shipping_height]
+      
+      Include dimensions of a product to use for carrier rates
+    
+    
+      Different shipping costs for a group of products
+      shipping label [shipping_label]
+      Define groups of products (for example, perishable or oversized) and then apply special shipping rates to those groups
+    
+    
+      Different transit times for a group of products
+      transit time label [transit_time_label]
+      Specify transit times for product groups to provide greater accuracy in estimated delivery dates
+    
+  
+
+
+How more advanced shipping settings work
+
+Depending on your shipping model, you might want to learn about some more advanced settings described here.
+
+
+  Minimum order value
+
+  
+    If you require that customers purchase a minimum amount before you’ll provide shipping, then you can enter that information when setting up your shipping settings. Learn more about minimum order value
+  
+
+
+
+  Carrier rates (AU, DE, UK, and US only)
+
+  
+    Use this setting if you charge shipping based on a carrier-calculated rate. You can choose from supported carriers (for example, UPS, TNT, Hermes) and services (for example, Ground, Next Day Air, 3 Day Select) available.
+
+    
+      
+        
+          
+            Region
+            Supported shipping carrier
+          
+        
+        
+          
+            Australia
+            AusPost, TNT, TOLL
+          
+          
+            France
+            Geodis
+          
+          
+            Germany
+            DHL, DPD, Hermes, UPS
+          
+          
+            United Kingdom
+            DHL, DPD, Royal Mail, TNT, UPS, Yodel
+          
+          
+            United States
+            FedEx, UPS, USPS
+          
+        
+      
+    
+
+    To use carrier rates, you’ll also need to submit shipping-related attributes (review the table above):
+
+    
+      Shipping weight [shipping_weight]
+      Shipping length [shipping_length]
+      Shipping width [shipping_width]
+      Shipping height [shipping_height]
+    
+
+    Learn more about setting up carrier rates
+
+    Rate modifications
+
+    Carrier rates use the standard commercial rates for each carrier, but you can adjust the rates (up or down) by a percentage or flat amount.
+
+    Some carriers have multiple rates for commercial and personal purposes. Google uses commercial rates (for example, “Standard” for FedEx and “Daily” for UPS). If you use non-commercial shipping rates (often called retail), you’ll likely need to adjust the rates up by 50–60%.
+
+    If you have a contract with the carrier, then you might need to adjust your rates up or down (using a negative number like -10) by a percentage or flat amount.
+  
+
+
+
+  Subtables and complex shipping models
+
+  
+    Use a subtable if your shipping is based on 3 or more dimensions. For example, use a subtable if your shipping is based on price, weight, and destination. Learn more about setting up subtables
+  
+
+
+
+  Shipping from outside the target country
+
+  
+    
+      
+        If you ship across borders, you normally incur additional costs such as customs, duties or import tax. Don't include such costs in the shipping attribute unless the shipping provider is fully responsible for the handling of goods through customs and the cost is included under a shipping term on your website. Learn more about export requirements
+      
+
+      
+        Note: Shipping to South Korea from outside South Korea isn't permitted.
+      
+    
+  
+
+
+
+  No shipping
+
+  
+    Use the "No shipping" option to indicate that you don’t offer shipping for particular products through a shipping service. For example, if you don’t ship products over 50 lbs using your express service, use "No shipping" to indicate that.
+
+    For products that target Australia, Brazil, Canada, France, Germany, India, Japan, New Zealand, the United Kingdom, and the United States, you can use "No shipping" to exclude shipping to certain areas. For example, you can specify that you don’t ship outside of Tokyo prefecture or to a range of postal codes that represent the East Coast of the United States. Learn more about setting up shipping settings
+  
+
+
+
+  Delivery zones
+
+  
+    Delivery zones are used to create custom regions so accurate shipping costs and transit times can be set for shipments to customers in Australia, Brazil, Canada, France, Germany, India, New Zealand, the United Kingdom, and the United States.
+
+    For example, if you’re located on the East Coast of the United States, you may notice higher costs and extended transit times when shipping orders to the West Coast. Learn more about setting up delivery zones
+  
+
+
+
+  Transit time labels
+
+  
+    If you ship differently grouped products, you can create a transit time label for each group of products and apply the transit time label [transit_time_label] attribute to the corresponding products in your feed. Transit time labels help give your customers a more accurate estimated delivery date, which can help influence their purchase decision. For example, you could add the transit time label "heavy" to items with higher shipping costs due to their weight. Learn more about transit time labels
+  
+
+
+
+  Oversize and freight shipping (LTL)
+
+  
+    Carriers have limits on how large or how heavy a package can be. Larger products are normally shipped using freight shipping. Freight carriers aren't supported by the carrier rate feature, so if your product is too big to ship through common shipping carriers, you’ll need to manually set up a rate table.
+
+    
+      
+        Note: This only applies to Shopping ads and free listings. LTL (less than truckload) and freight shipping aren't currently allowed for Buy on Google.
+      
+    
+
+    Here are some tips for setting up freight shipping:
+
+    
+      Tag oversized or heavy products with the shipping label attribute. With the shipping label [shipping_label] attribute, you can give oversized products a label (for example, oversized) and specify special shipping for those products. For example, you could add a shipping label for common freight classes.
+      Add rates based on weight and destination using tables and shipping groups. It’s easiest to split up complicated shipping settings, either by using subtables or shipping groups.
+        
+          Base rates on shipping labels. Using shipping labels, you can create different rate tables for different product groups by creating shipping groups. For example, you could use the shipping label [shipping_label] attribute to indicate a freight class for each product. Then create a group for each label such as one group for Class 70 and another for Class 100.
+          Base rates on weight and location. If you don’t want to use shipping labels, you can link subtables for different weight classes with different rates for each state or group of postal codes.
+        
+      
+      Overestimate the cost. If you can’t provide an accurate cost, then overestimate. Your products won’t be disapproved for providing a higher shipping cost than what your website states. If you provide a lower cost than the one listed on your website, your products will be disapproved.
+    
+
+    Learn more about setting up shipping settings
+  
+
+
+Holiday shipping cut-off (available for US and France, for US holidays only)
+
+  
+    The holiday shipping cut-off setting allows you to submit temporary deadlines if you have special delivery settings for a particular holiday, like Christmas or Mother’s Day. Your items will clearly state if a purchase will be delivered in time for a holiday, based on a date and time you enter into the “Show from” field.
+
+    
+      
+        Example: You have a requirement that your customers place their orders by December 15 at 2:00 p.m. PST to guarantee arrival by Christmas Eve (December 24). When you set this deadline in Merchant Center, text will be displayed that tells customers their order will arrive by December 24. That text will stop showing shortly after your cut-off (in this example, the text would stop displaying on December 15 after 2:00 PST).
+      
+    
+
+    Holiday shipping cutoff will override all other estimated delivery date logic, so it's important to select a deadline that provides you enough time to guarantee delivery on all orders placed before the cutoff. If, for example, the Christmas order deadline is set for December 24, items ordered up to that day will be guaranteed to arrive by Christmas. This may require you to ship orders on weekends or upgrade the shipping speed to meet the delivery promise. If you participate in Buy on Google and fail to meet the “ship by” or “delivery by” dates in these circumstances, your Retailer Standards score may be negatively impacted.
+
+    Merchant Center is programmed to offer holiday shipping cut-offs for the following US holidays:
+
+    
+      Valentine’s Day
+      Easter
+      Mother’s Day
+      Father’s Day
+      Independence Day
+      Halloween
+      Thanksgiving
+      Christmas
+    
+
+    
+      Note: For France, holiday shipping cutoff will only be available for Valentine’s Day and Christmas.
+    
+  
+
+
+
+  Same-day delivery
+
+  
+    The same-day delivery option allows retailers to indicate which products are eligible for same-day delivery. Eligible products will then display to customers, showcasing their availability for same-day delivery across Google. Learn more about same-day delivery
+
+    
+      
+        Note: This option will only be available if you’ve enabled free local listings or local inventory ads.
+      
+    
+  
+
+
+
+  Related link
+
+  
+    Set up shipping settings
+  
+
+             Was this helpful?How can we improve it?YesNoSubmit       

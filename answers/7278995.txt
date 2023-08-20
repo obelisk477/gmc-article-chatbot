@@ -1,0 +1,420 @@
+ About attributes with repeated fields
+
+When submitting your product data, you can submit multiple values for some attributes. For example, you can submit multiple values for the additional image link [additional_image_link] attribute in order to submit multiple images of your product.
+
+This article explains how this process works for each supported format.
+
+Before you begin
+
+Make sure you know the requirements for each attribute and whether or not the attribute accepts repeated fields. Learn more about the product data specification
+
+You can submit product data in many different ways. Before reading this article, make sure you understand how you submit your data. Learn more about data feeds
+
+How it works
+
+Sometimes you may want to submit multiple values for an attribute. For example, to submit shipping costs for multiple areas using the shipping [shipping] attribute, you need to submit a different value for each area.
+
+Exactly how this process works is different depending on the format of your product data.
+Text feed: Google Sheets
+
+
+  If you submit your product data through Google Sheets, you have 2 options: separate each value with a comma or create multiple columns (one for each value). Here's what those options look like.
+
+  Option 1: Separate each value with a comma in Google Sheets
+
+  Add each value to the same cell, but separate them with a comma ( , ) and do not add a space. For example, this is how to submit 3 values for the product type [product_type] attribute:
+
+  
+    
+      
+         
+        N
+        O
+        P
+      
+      
+        1
+        ...
+        product_type
+        ...
+      
+      
+        2
+        ...
+        Home,Garden & Kitchen,Dishware
+        ...
+      
+      
+        3
+        ...
+        ...
+        ...
+      
+    
+  
+
+   
+
+  For an attribute with sub-attributes, separate each sub-attribute with a colon, but still separate each overall value with a comma (and do not add a space). For example, this is how to submit 3 values for the shipping [shipping] attribute:
+
+  
+    
+      
+         
+        N
+        O
+        P
+      
+      
+        1
+        ...
+        shipping
+        ...
+      
+      
+        2
+        ...
+        US:80302:Same Day:30.00 USD,US:94002-95460:Overnight:16.00 USD,US:900*-901*:Ground:2.30 USD
+        ...
+      
+      
+        3
+        ...
+        ...
+        ...
+      
+    
+  
+
+   
+
+  If you submit a URL that contains a comma, make sure that comma is encoded (as %2C). For example, this is how to submit 2 image URLs (that contain commas) for the additional image link [additional_image_link]:
+
+  
+    
+      
+         
+        I
+        J
+        K
+      
+      
+        1
+        ...
+        additional_image_link
+        ...
+      
+      
+        2
+        ...
+        http://example.com/image2%2C3.jpg,http://example.com/image2%2C4.jpg
+        ...
+      
+      
+        3
+        ...
+        ...
+        ...
+      
+    
+  
+
+  Option 2: Create multiple columns in Google Sheets
+
+  Create multiple columns for the attribute and add 1 value to each column. For example, this is how to submit 3 values for the product type [product_type] attribute:
+
+  
+    
+      
+         
+        N
+        O
+        P
+        Q
+        R
+      
+      
+        1
+        ...
+        product_type
+        product_type
+        product_type
+        ...
+      
+      
+        2
+        ...
+        Home
+        Garden & Kitchen
+        Dishware
+        ...
+      
+      
+        3
+        ...
+        ...
+        ...
+        ...
+        ...
+      
+    
+  
+
+   
+
+  For an attribute with sub-attributes, separate each sub-attribute with a colon and add each overall value to its own column. For example, this is how to submit 3 values for the shipping [shipping] attribute:
+
+  
+    
+      
+         
+        N
+        O
+        P
+        Q
+        R
+      
+      
+        1
+        ...
+        shipping
+        shipping
+        shipping
+        ...
+      
+      
+        2
+        ...
+        US:80302:Same Day:30.00 USD
+        US:94002-95460:Overnight:16.00 USD
+        US:900*-901*:Ground:2.30 USD
+        ...
+      
+      
+        3
+        ...
+        ...
+        ...
+        ...
+        ...
+      
+    
+  
+
+Text feed: Tab-delimited
+
+
+  If you submit your product data through a tab-delimited feed, you have 2 options: separate each value with a comma or create multiple columns (one for each value). Here's what those options look like.
+
+  Option 1: Separate each value with a comma with a tab-delimited feed
+
+  This option does not work with Excel and some other spreadsheet programs, as they automatically add additional quotation marks. If you're using Excel (or another spreadsheet program that is not Google Sheets), we recommend that you use the other option (create multiple columns with a tab-delimited feed) described below.
+
+  Add each value to the same cell, but separate them with a comma ( , ) and do not add a space. For example, this is how to submit 3 values for the product type [product_type] attribute:
+
+  
+    
+      
+         
+        N
+        O
+        P
+      
+      
+        1
+        ...
+        product_type
+        ...
+      
+      
+        2
+        ...
+        Home,Garden & Kitchen,Dishware
+        ...
+      
+      
+        3
+        ...
+        ...
+        ...
+      
+    
+  
+
+   
+
+  For an attribute with sub-attributes, separate each sub-attribute with a colon, but still separate each overall value with a comma. For example, this is how to submit 3 values for the shipping [shipping] attribute:
+
+  
+    
+      
+         
+        N
+        O
+        P
+      
+      
+        1
+        ...
+        shipping
+        ...
+      
+      
+        2
+        ...
+        US:80302:Same Day:30.00 USD,US:94002-95460:Overnight:16.00 USD,US:900*-901*:Ground:2.30 USD
+        ...
+      
+      
+        3
+        ...
+        ...
+        ...
+      
+    
+  
+
+   
+
+  If you're submitting a URL that contains a comma, make sure that comma is encoded (as %2C). For example, this is how to submit 2 image URLs (that contain commas) for the additional image link [additional_image_link attribute:
+
+  
+    
+      
+         
+        I
+        J
+        K
+      
+      
+        1
+        ...
+        additional_image_link
+        ...
+      
+      
+        2
+        ...
+        http://example.com/image2%2C3.jpg,http://example.com/image2%2C4.jpg
+        ...
+      
+      
+        3
+        ...
+        ...
+        ...
+      
+    
+  
+
+  Option 2: Create multiple columns with a tab-delimited feed
+
+  Create multiple columns for the attribute and add 1 value to each column. For example, this is how to submit 3 values for the product type [product_type] attribute:
+
+  
+    
+      
+         
+        N
+        O
+        P
+        Q
+        R
+      
+      
+        1
+        ...
+        product_type
+        product_type
+        product_type
+        ...
+      
+      
+        2
+        ...
+        Home
+        Garden & Kitchen
+        Dishware
+        ...
+      
+      
+        3
+        ...
+        ...
+        ...
+        ...
+        ...
+      
+    
+  
+
+   
+
+  For an attribute with sub-attributes, separate each sub-attribute with a colon and add each overall value to its own column. For example, this is how to submit 3 values for the shipping [shipping] attribute:
+
+  
+    
+      
+         
+        N
+        O
+        P
+        Q
+        R
+      
+      
+        1
+        ...
+        shipping
+        shipping
+        shipping
+        ...
+      
+      
+        2
+        ...
+        US:80302:Same Day:30.00 USD
+        US:94002-95460:Overnight:16.00 USD
+        US:900*-901*:Ground:2.30 USD
+        ...
+      
+      
+        3
+        ...
+        ...
+        ...
+        ...
+        ...
+      
+    
+  
+
+XML feed
+
+
+  If you submit your product data through an XML feed, specify multiple values by submitting the attribute multiple times.
+
+  For example, this is how to submit 3 values for the shipping [shipping] attribute:
+
+  
+<g:shipping>
+  <g:country>US</g:country>
+  <g:region>MA</g:region>
+  <g:service>Same Day</g:service>
+  <g:price>30.00 USD</g:price>
+</g:shipping>
+<g:shipping>
+  <g:country>US</g:country>
+  <g:region>900*-901*</g:region>
+  <g:service>Overnight</g:service>
+  <g:price>16.00 USD</g:price>
+</g:shipping>
+<g:shipping>
+  <g:country>US</g:country>
+  <g:region>CA</g:region>
+  <g:service>Ground</g:service>
+  <g:price>2.30 USD</g:price>
+</g:shipping>
+
+
+             Was this helpful?How can we improve it?YesNoSubmit       

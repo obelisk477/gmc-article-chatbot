@@ -1,0 +1,101 @@
+ About Market demand within Performance
+
+If you’re looking for information about market insights in the classic Merchant Center experience, click here. 
+
+
+The Market demand tab shows you cards with the most popular products and brands on Google and the current availability for your products. This article explains how you can use those insights to help you understand, optimize, and grow your business with Google.
+
+On this page
+
+
+  Benefits
+  How it works
+  What’s available?
+  Compliance to Merchant Center terms and services
+
+
+
+Benefits
+
+When you know what your potential customers are likely to buy, you can make better decisions on which products and brands to stock and advertise. Follow-up actions include:
+
+
+  Compare popular products on Google with your products’ performance: Learn if products that are frequently purchased on Google are also in-stock and selling well for you. Consider updating your product inventory and pricing to improve that performance.
+  Consider allocating your marketing budget to promote popular products: Use the information in the report as a guide on how to adjust your campaign strategy and budget for popular products and brands that you sell across Google.
+  Consider adding products that are popular on Google but you don't sell yet: Discover which products are popular on Google and consider adding them to your inventory.
+  Plan ahead to make the most of seasonal opportunities: Analyze past product popularity and seasonality effects to identify peak sales periods, create dedicated marketing campaigns, and track product performance over time.
+
+
+
+How it works
+
+You can expect updated market demand data every week, though the new data included in your metrics may take as many as 4 days to become available.
+
+To get started, navigate to the "Performance" page in Merchant Center. The “Market demand” tab offers a selection of personalized “cards” based on the products you sell and in which countries. You can find answers to key questions such as "Which are the most popular products and brands?", "Which brands are gaining popularity in the market?", and "Which products that you sell are most popular on Google?".
+
+To find out more information and dive deeper into a specific product category or time range, click on the card to open up a more advanced experience that provides in-depth information.
+
+
+What’s available?
+
+How many of your products are popular on Google
+
+You can find out which of your products are popular on Google and how the popularity has changed since the previous period. Click on the specific category to get a list of all products or assess which ones are most popular in your most relevant categories.
+
+Your popular brands on Google
+
+Assess how the brands in your most relevant product categories are ranking based on their popularity on Google. Google ranks products based on how often customers are buying products from these brands. The smaller the popularity rank number, the higher your brand ranks in popularity. You can click “View brand details” to receive a list of all popular brands, learn which of their products you currently sell, and get recommendations on other products to consider selling.
+
+Your products that are out-of-stock
+
+Identify which of your products are not showing on Google because they are marked as “out-of-stock” in your inventory. You can click “View product details” to explore a list of suggested products to consider restocking in your most relevant categories.
+
+Consider stocking more products from brands you sell
+
+Explore new products to stock from the brands you already sell. Click on a brand to explore stocking suggestions of products that customers are buying most on Google. You can click ”View brand details” to see the full list of popular brands.
+
+Top-selling products on Google
+
+Discover popular products in the categories you sell. Explore which products consumers are buying in the most relevant categories based on your inventory. You can click on “View product details” to view the full list of product suggestions in a selected category or any other category that you are interested in.
+
+Brands that are gaining popularity on Google
+
+Learn which brands have experienced the biggest jumps in popularity. You can click on “View brand details” to get the full list of brand details and categories.
+
+Note: For your convenience, if Google has identified that you are selling only your own products, we may hide cards with product suggestions. For example, if you’re a business that sells only shoes manufactured by you, we won’t suggest stocking products from other shoe manufacturers.
+
+Explore insights beyond cards
+
+Click the "View" buttons on each card to explore more detailed information on each topic. Filter or sort your results based on the following dimensions:
+
+
+  Popularity rank: Google ranks products and brands based on how often customers are searching for them. The smaller the number, the higher your product or brand ranks in popularity.
+
+    
+      Rank change: How much a brand has increased in popularity compared to a previous period because of customers buying products from this brand more often.
+    
+  
+  Availability: Details whether you have the product marked in Merchant Center as “in stock” or “out-of-stock”. If you don’t sell the product or brand yet, you'll have a suggestion to consider stocking the product or brand.
+    
+      In stock: Because you set the availability of this product as “In stock”
+      Out of stock: Because you set the availability of this product as “Out-of-stock”
+      Product suggestion: Because this product is popular across Google and you already sell this brand, you might want to consider adding this new product to your inventory.
+      Brand suggestion: Because this brand is popular across Google, and you currently don't sell it, you might want to consider adding this brand to your inventory.
+    
+  
+  Price range: What prices are currently like for this product across Google.
+  Products to consider stocking: Products you don’t sell that customers are buying from other sellers on Google.
+  Country: One of the countries you sell in is selected by default, but you can explore popular products and brands in other countries you do not sell in yet by changing the filter values.
+  Category: The most relevant category you sell products in is selected by default, but you can change it to explore other levels of granularity you’re interested in.
+  Time period: Select a monthly or weekly time period going back to 2 years to understand product and trends over time.
+
+
+The report information is available for download. Click the Download button  in the top right corner of the report table to automatically generate a report (.csv).
+
+
+Compliance to Merchant Center terms and conditions
+
+The Market demand reports are only available for the internal use of the retailer or those acting on the retailer's behalf. Market demand data cannot be resold, publicly displayed, advertised, or aggregated across businesses. For purposes of Market demand, “retailer” means the business entity owning the domain of the products being sold or selling products on a marketplace.
+
+You must ensure that your use, or any third party's use, of Market demand data exported from your Merchant Center account complies with the Merchant Center terms and conditions.
+             Was this helpful?How can we improve it?YesNoSubmit       

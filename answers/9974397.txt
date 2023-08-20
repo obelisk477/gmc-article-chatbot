@@ -1,0 +1,68 @@
+ How to fix: Unrecognized valueChange this value in Merchant Center to one of the supported values for this attribute in the Google product data specificationYour Amazon feed will have many values Merchant Center will recognize, but in some cases, the attribute values won’t be compatible. For example, if your Amazon feed had the value junior_girls, we may have been able to extract that you were referencing the gender [gender] attribute, but may not detect that the age group [age_group] attribute should be indicated, or if the value for it should be kids or adults.
+
+Note that not all Amazon attribute values will exactly align with the values you might submit for attributes from the product data specification.
+
+To resolve this issue, update the values in your product data.
+
+Instructions
+
+
+  Step 1: See the affected products
+
+  
+    
+  Sign in to your Merchant Center account.
+  Select Products on the navigation menu, then click Diagnostics.
+  Click the Item issues tab to see current issues affecting your products.
+
+
+To download a list (.csv) of all affected products for all issues:
+
+
+  Click the download button  next to the filter button , beneath the graph and above the list of issues.
+
+
+To download a list (.csv) of all affected products for a particular issue:
+
+
+  Find the issue under the “Issue” column, then click the download button  at the end of the row.
+
+
+To see a list of up to 50 products with this particular issue:
+
+
+  Find the issue under the “Issue” column, then click View examples in the “Affected items” column.
+
+
+  
+
+
+
+  Step 2: Update the attribute value data
+
+  
+    
+      If the problem is a general product data error, check the values of your attributes and correct them in the feed.
+      If the problem is that you’ve provided an Amazon attribute Merchant Center doesn’t recognize, you should update the value directly in the PDP. Learn more about manually updating PDPs
+      If the problem is with paired attributes, both must be provided at the same time in the same feed. For example, let’s say that shipping weight [shipping_weight] = "3" and shipping weight unit of measure [shipping_weight_unit_of_measure] = "kg." You could not submit only shipping weight [shipping_weight] with a new value of “4” without also re-submitting shipping weight unit of measure [shipping_weight_unit_of_measure].
+    
+  
+
+
+
+  Step 3: Resubmit your product data
+
+  
+    
+      After you’ve updated your product data, resubmit it using the following method:
+        
+          Upload a feed
+        
+      
+      Next, check that you’ve fixed the issue by making sure it’s no longer listed on the Diagnostics page.
+    
+
+    Keep in mind: It may take some time for your change to be reflected on the Diagnostics page.
+  
+
+             Was this helpful?How can we improve it?YesNoSubmit       

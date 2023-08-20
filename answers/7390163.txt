@@ -1,0 +1,1496 @@
+ Best practices for listing wireless products and services
+
+Wireless products and services often have more complex pricing and contract models than other products you may list in your Shopping ads and free product listings. This article explains how to submit your product data and landing pages for wireless devices such as mobile phones or tablets (with or without a contract), or prepaid SIM cards.
+
+
+  Note: Products with the installment [installment] or subscription cost [subscription_cost] attribute are not eligible for cross-border trade and can only have one targeted country.
+
+
+
+
+In this article
+
+
+  Benefits
+  Submit accurate product data for your wireless products and services
+  Optimize your landing pages for wireless products and services
+  Pre-select and mark up wireless product variants on your landing page
+
+
+
+Benefits
+
+
+  Reach the right customers. Details in your product data and landing pages allow Google to understand what you're selling, and then to show your ads and free listings to customers based on the type of products they're looking for.
+  Keep products approved. Submitting incorrect or inconsistent product data may lead to product disapprovals or account enforcement, so be sure your product data is always up-to-date.
+
+
+
+Submit accurate product data for your wireless products and services
+
+Follow the standard requirements
+
+People are looking for specific product information when they’re searching for wireless products and services. Ensure that they get the information they need by submitting all required product attributes. Note that your price [price] attribute must include all activation charges as well as other fees that will be applied during checkout. Each product variant (for example, color [color] or size [size]) must also be submitted as a separate product within your product data. Learn more about Product data specification.
+
+Mobile phones, tablets, or prepaid SIM cards for a fixed price
+
+Mobile phones, tablets, or prepaid SIM cards can be shown in any country when paid in full up-front and not combined with additional monthly device installment payments or a wireless subscription plan. You can use the price [price] attribute (not "0") to provide the full price.
+
+Mobile phones or tablets with subscription plan and/or installments
+
+Eligibility to list certain types of products varies from country to country. Check the installment [installment] and subscription cost [subscription_cost] attributes to see if your products and services can be advertised with installment payments or with a subscription plan in your desired target country.
+
+
+  The United States
+
+  
+    You can provide the option to purchase your mobile phone or tablet with an up-front payment and additional monthly installment payments.
+
+    
+      Price is required and represents the full up-front payment for your product, including device down payment.
+      Installments are optional and provide an alternative way of paying for your product in monthly payments, or an additional payment along with the price.
+      The price for your product can be "0" when you provide installment payment options.
+    
+
+    
+      Note: The subscription cost [subscription_cost] attribute is not available in this country.
+    
+
+    Price
+
+    Use the price [price] attribute to submit the single down payment required to purchase the device.
+
+    
+      
+        Note: For the US only, activation fees should not be included in the price [price] attribute.
+      
+    
+
+    Installment
+
+    
+      
+        Use the installment [installment] attribute to submit a series of payments over time to pay back the cost of the product. Wireless products typically follow an installment payment model in order to make it easier for customers to buy an expensive device.
+
+        The currency amount you submit in the installment [installment] attribute is the amount of a single monthly repayment, not the total of all the monthly repayments. This figure specifically does not include any money used to pay for the telecom services.
+
+        
+          Note: The installment [installment] attribute can only be used for mobile devices such as phones or tablets.
+        
+
+        Title
+
+        Use the  title [title] attribute to specify that the product you are selling is sold with installment payments. For example, a Google Pixel 5, 32GB very silver (with 12 monthly installment payments).
+      
+
+      Examples
+
+      
+        Mobile phones without a subscription plan, sold at a fixed price
+      
+
+      Follow the same standard as other product types when submitting mobile phones without a subscription plan, sold at a fixed price. As expected, the price submitted should be the fixed price (greater than "0") of the mobile device alone.
+
+      
+        
+          
+            Product data for a new, very silver, 32GB Google Pixel 5”, priced at 649 USD
+          
+          
+            Attribute
+            Value
+          
+          
+            ID [id]
+            _pixel_phone_silver_32gb
+          
+          
+            Title [title]
+            Google Pixel 5” 32GB Very Silver
+          
+          
+            Link [link]
+            https://store.google.com/product/pixel_phone?sku=_pixel_phone_silver_32gb
+          
+          
+            Image link [image_link]
+            https://store.google.com/product/pixel_phone/silver.png
+          
+          
+            Availability [availability]
+            in_stock
+          
+          
+            Price [price]
+            649.00 USD
+          
+          
+            Installment [installment]
+            (Leave blank)
+          
+          
+            Subscription cost [subscription_cost]
+            (Leave blank)
+          
+          
+            Google product category [google_product_category]
+            Electronics > Communications > Telephony > Mobile Phones
+          
+          
+            Brand [brand]
+            Google
+          
+          
+            GTIN [gtin]
+            00821793049157
+          
+          
+            MPN [mpn]
+            G-2PW4100-021-B
+          
+          
+            Condition [condition]
+            new
+          
+          
+            Color [color]
+            Very Silver
+          
+          
+            Shipping [shipping]
+            0.00 USD
+          
+        
+      
+      
+
+       
+      
+
+      
+        Mobile phones without a service contract, sold in installments
+      
+
+      You may show mobile devices with monthly installments. Specify in your title that your wireless product comes with an installment plan of a certain duration.
+
+      You must submit the price of the down payment (as low as "0" USD) for the mobile device in the price [price] attribute.
+
+      Keep in mind that the installment [installment] attribute is only available for wireless devices such as mobile phones, smart watches, or tablets.
+
+      
+        
+          
+            Product data for a new, very silver, 32GB Google Pixel 5”, sold in 12 monthly payments of 60 USD each with zero down payment
+          
+          
+            Attribute
+            Value
+          
+          
+            ID [id]
+            _pixel_phone_silver_32gb_12month_installments
+          
+          
+            Title [title]
+            Google Pixel 5” 32GB Very Silver (with 12 monthly payments)
+          
+          
+            Link [link]
+            https://store.google.com/product/pixel_phone?sku=_pixel_phone_silver_32gb
+          
+          
+            Image link [image_link]
+            https://store.google.com/product/pixel_phone/silver.png
+          
+          
+            Availability [availability]
+            in_stock
+          
+          
+            Price [price]
+            0.00 USD
+          
+          
+            Installment [installment]
+            12:60.00 USD
+          
+          
+            Subscription cost [subscription_cost]
+            (Leave blank)
+          
+          
+            Google product category [google_product_category]
+            Electronics > Communications > Telephony > Mobile Phones
+          
+          
+            Brand [brand]
+            Google
+          
+          
+            GTIN [gtin]
+            00821793049157
+          
+          
+            MPN [mpn]
+            G-2PW4100-021-B
+          
+          
+            Condition [condition]
+            new
+          
+          
+            Color [color]
+            Very Silver
+          
+          
+            Shipping [shipping]
+            0.00 USD
+          
+        
+      
+      
+
+       
+      
+
+      
+        Prepaid SIM cards
+      
+
+      Similar to submitting mobile phones without a service contract, sold at a fixed price, your product data for prepaid SIM cards should follow the standard requirements of the product data specification.
+
+      
+        
+          
+            Product data for a new, XYZ carrier prepaid 3-in-1 SIM kit, no service contract included
+          
+          
+            Attribute
+            Value
+          
+          
+            ID [id]
+            prepaid_3in1_sim_kit
+          
+          
+            Title [title]
+            XYZ Carrier Prepaid 3-in-1 SIM Kit
+          
+          
+            Link [link]
+            https://www.xyzcarrier.com/product/prepaid_3in1_sim_kit.html
+          
+          
+            Image link [image_link]
+            http://www.xyzcarrier.com/simcard.jpg
+          
+          
+            Availability [availability]
+            in_stock
+          
+          
+            Price [price]
+            20.00 USD
+          
+          
+            Installment [installment]
+            (Leave blank)
+          
+          
+            Subscription cost [subscription_cost]
+            (Leave blank)
+          
+          
+            Google product category [google_product_category]
+            Electronics > Communications > Telephony > Mobile Phone Accessories > Mobile Phone Pre-Paid Cards & SIM Cards
+          
+          
+            Brand [brand]
+            XYZ Carrier
+          
+          
+            GTIN [gtin]
+            XYZ-12345
+          
+          
+            MPN [mpn]
+            123456789012
+          
+          
+            Condition [condition]
+            new
+          
+          
+            Color [color]
+            Very Silver
+          
+          
+            Shipping [shipping]
+            0.00 USD
+          
+        
+      
+    
+  
+
+
+
+  Argentina, Brazil, Colombia, Chile, Mexico, Peru
+
+  
+    You can provide the option to purchase your wireless device with the full price paid up-front or in monthly installment payments.
+
+    
+      Price is required and represents the full price (never "0") when your product is paid in-full up front.
+      Installments are optional and provide an alternative way of paying for your product in monthly payments.
+    
+
+    
+      Note: The subscription cost [subscription_cost] attribute is not available in these countries.
+    
+
+    Price
+    Use the price [price] attribute to submit the full up-front cost of the device.
+
+    Installments
+
+    Use the installment [installment]  attribute to show the alternative device cost, broken up in monthly installments.
+
+    Examples
+
+    
+      Mobile phones without a subscription plan, sold at a fixed price
+    
+
+    Follow the same standard as other product types when submitting mobile phones without a subscription plan, sold at a fixed price. The price submitted should be the fixed price (greater than "0") of the mobile device alone.
+
+    
+      
+        
+          Product data for a new, very silver, 32GB Google Pixel 5”, priced at 649 BRL
+        
+        
+          Attribute
+          Value
+        
+        
+          ID [id]
+          _pixel_phone_silver_32gb
+        
+        
+          Title [title]
+          Google Pixel 5” 32GB Very Silver
+        
+        
+          Link [link]
+          https://store.google.com/product/pixel_phone?sku=_pixel_phone_silver_32gb
+        
+        
+          Image link [image_link]
+          https://store.google.com/product/pixel_phone/silver.png
+        
+        
+          Availability [availability]
+          in_stock
+        
+        
+          Price [price]
+          649.00 BRL
+        
+        
+          Installment [installment]
+          (Leave blank)
+        
+        
+          Subscription cost [subscription_cost]
+          (Leave blank)
+        
+        
+          Google product category [google_product_category]
+          Electronics > Communications > Telephony > Mobile Phones
+        
+        
+          Brand [brand]
+          Google
+        
+        
+          GTIN [gtin]
+          00821793049157
+        
+        
+          MPN [mpn]
+          G-2PW4100-021-B
+        
+        
+          Condition [condition]
+          new
+        
+        
+          Color [color]
+          Very Silver
+        
+        
+          Shipping [shipping]
+          0.00 BRL
+        
+      
+    
+    
+
+     
+    
+
+    
+      Mobile phones without a subscription plan, sold in installments
+    
+
+    You may advertise mobile devices with monthly installments, but you may not bundle them with a service contract.
+
+    In Brazil, Mexico, and other Latin American countries you must submit the total price (greater than "0" BRL/MXN) of the mobile device in the price [price] attribute. You may also include the number of monthly installment payments and the amount per monthly installment in the installment [installment]  attribute.
+
+    Keep in mind that the installment [installment] attribute is available for all products (Latin America only), and not only for wireless devices.
+
+    
+      
+        
+          Product data for a new, very silver, 32GB Google Pixel 5” sold in 12 monthly payments of R$ 60 BRL each with zero down payment
+        
+        
+          Attribute
+          Value
+        
+        
+          ID [id]
+          _pixel_phone_silver_32gb_12month_installments
+        
+        
+          Title [title]
+          Google Pixel 5” 32GB Very Silver
+        
+        
+          Link [link]
+          https://store.google.com/product/pixel_phone?sku=_pixel_phone_silver_32gb
+        
+        
+          Image link [image_link]
+          https://store.google.com/product/pixel_phone/silver.png
+        
+        
+          Availability [availability]
+          in_stock
+        
+        
+          Price [price]
+          700.00 BRL
+        
+        
+          Installment [installment]
+          12:60.00 BRL
+        
+        
+          Subscription cost [subscription_cost]
+          (Leave blank)
+        
+        
+          Google product category [google_product_category]
+          Electronics > Communications > Telephony > Mobile Phones
+        
+        
+          Brand [brand]
+          Google
+        
+        
+          GTIN [gtin]
+          00821793049157
+        
+        
+          MPN [mpn]
+          G-2PW4100-021-B
+        
+        
+          Condition [condition]
+          new
+        
+        
+          Color [color]
+          Very Silver
+        
+        
+          Shipping [shipping]
+          0.00 BRL
+        
+      
+    
+    
+
+     
+    
+
+    
+      Prepaid SIM cards
+    
+
+    Similar to submitting mobile phones without a service contract, sold at a fixed price, your product data for prepaid SIM cards should follow the standard requirements of the product data specification.
+
+    
+      
+        
+          Product data for a new, XYZ carrier prepaid 3-in-1 SIM kit, no service contract included
+        
+        
+          Attribute
+          Value
+        
+        
+          ID [id]
+          prepaid_3in1_sim_kit
+        
+        
+          Title [title]
+          XYZ Carrier Prepaid 3-in-1 SIM Kit
+        
+        
+          Link [link]
+          https://www.xyzcarrier.com/product/prepaid_3in1_sim_kit.html
+        
+        
+          Image link [image_link]
+          http://www.xyzcarrier.com/simcard.jpg
+        
+        
+          Availability [availability]
+          in_stock
+        
+        
+          Price [price]
+          20.00 BRL
+        
+        
+          Installment [installment]
+          (Leave blank)
+        
+        
+          Subscription cost [subscription_cost]
+          (Leave blank)
+        
+        
+          Google product category [google_product_category]
+          Electronics > Communications > Telephony > Mobile Phone Accessories > Mobile Phone Pre-Paid Cards & SIM Cards
+        
+        
+          Brand [brand]
+          XYZ Carrier
+        
+        
+          GTIN [gtin]
+          XYZ-12345
+        
+        
+          MPN [mpn]
+          123456789012
+        
+        
+          Condition [condition]
+          new
+        
+        
+          Color [color]
+          Very Silver
+        
+        
+          Shipping [shipping]
+          0.00 BRL
+        
+      
+    
+  
+
+
+
+
+  Australia
+
+  
+    You can provide the option to purchase your mobile phone or tablet with a one-time payment to purchase the device, or with an up-front down payment and additional monthly installment and/or wireless service contract payments:
+
+    
+      Price is required and represents the minimum total price ("Minimum Quantifiable Price") that the customer will pay, including the total cost of the device, including any activation fees, installment payments and wireless service plan payments.
+      Price must match the price information displayed on the product landing page.
+      If you use schema.org structured data on your landing page, the total minimum cost to the customer must also be provided using the price and priceCurrency properties.
+    
+
+    Price
+
+    Use the price [price] attribute to specify the total minimum cost to the customer for the device that you are offering, including any additional activation fees, installment, or wireless service plan payments.
+
+    Installment and Subscription cost
+
+    Do not add the installment [installment] or subscription cost [subscription_cost] attributes to submit details of installment or wireless service plan payments.
+
+    Title
+
+    Use the title [title] attribute to specify if the product you are offering is paid in full up-front or if it is sold in installments and/or bundled with a subscription plan. For example, a Google Pixel 5, 32GB very silver (with contract, and 12 monthly installment payments).
+
+    Examples
+
+    
+      Mobile phones with a subscription plan, sold at a fixed price
+    
+
+    Follow the same standard as other product types when submitting mobile phones with a subscription plan, sold at a fixed price. Do not use the installment [installment] or subscription cost [subscription_cost] attribute fields, leave them both blank. Include details of the installments and wireless service plan in the title [title] attribute.
+
+    
+      
+        
+          Product data for a new, 32GB Google Pixel 5” with a 12 month contract and 12 monthly installment
+        
+      
+      
+        
+          Attribute
+          Value
+        
+        
+          ID [id]
+          pixel_phone_silver_32gb_contract_and_installments
+        
+        
+          Title [title]
+          Google Pixel 5” 32GB Very Silver (with 12 month contract and 12 installment payments)
+        
+        
+          Link [link]
+          https://placeholder_website.au/product/pixel_phone?sku=_pixel_phone_silver_32gb_12month_contract_newsim&contract=yes
+        
+        
+          Image link [image_link]
+          https://placeholder_website.au/product/pixel_phone/silver.png
+        
+        
+          Availability [availability]
+          in_stock
+        
+        
+          Price [price]
+          1250 AUD (installment cost for 12 months + cost of subscription for 12 months)
+        
+        
+          Installment [installment]
+          (Leave blank)
+        
+        
+          Subscription cost [subscription_cost]
+          (Leave blank)
+        
+        
+          Google product category [google_product_category]
+          Electronics > Communications > Telephony > Mobile Phones
+        
+        
+          Brand [brand]
+          Google
+        
+        
+          GTIN [gtin]
+          00821793049157
+        
+        
+          MPN [mpn]
+          G-2PW4100-021-B
+        
+      
+    
+    
+
+     
+
+    
+      Mobile phones without a subscription plan, sold at a fixed price
+    
+
+    Follow the same standard as other product types when submitting mobile phones without a subscription plan, sold at a fixed price. Do not use the installment [installment] or subscription cost [subscription_cost] attribute fields, leave them both blank.
+
+    
+      
+        
+          Product data for a new, black, 32GB Google Pixel 5”, priced at 799 AUD
+        
+        
+          Attribute
+          Value
+        
+        
+          ID [id]
+          pixel_phone_silver_32gb
+        
+        
+          Title [title]
+          Google Pixel 5” 32GB Black
+        
+        
+          Link [link]
+          https://store.google.com/product/pixel_phone?sku=_pixel_phone_blackr_32gb
+        
+        
+          Image link [image_link]
+          https://store.google.com/product/pixel_phone/black.png
+        
+        
+          Availability [availability]
+          in_stock
+        
+        
+          Price [price]
+          799 AUD
+        
+        
+          Installment [installment]
+          (Leave blank)
+        
+        
+          Subscription cost [subscription_cost]
+          (Leave blank)
+        
+        
+          Google product category [google_product_category]
+          Electronics > Communications > Telephony > Mobile Phones
+        
+        
+          Brand [brand]
+          Google
+        
+        
+          GTIN [gtin]
+          00821793049158
+        
+        
+          MPN [mpn]
+          G-2PW4100-021-B
+        
+        
+          Condition [condition]
+          new
+        
+        
+          Color [color]
+          Black
+        
+      
+    
+    
+
+     
+
+    
+      Prepaid SIM cards
+    
+
+    Similar to submitting mobile phones without a service contract, sold at a fixed price, your product data for prepaid SIM cards should follow the standard requirements of the product data specification.
+
+    
+      
+      
+      
+        
+          Product data for a new, XYZ carrier prepaid 3-in-1 SIM kit, no service contract included
+        
+        
+          Attribute
+          Value
+        
+        
+          ID [id]
+          prepaid_3in1_sim_kit
+        
+        
+          Title [title]
+          XYZ Carrier Prepaid 3-in-1 SIM Kit
+        
+        
+          Link [link]
+          https://www.xyzcarrier.com/product/prepaid_3in1_sim_kit.html
+        
+        
+          Image link [image_link]
+          http://www.xyzcarrier.com/simcard.jpg
+        
+        
+          Availability [availability]
+          in_stock
+        
+        
+          Price [price]
+          20.00 AUD
+        
+        
+          Installment [installment]
+          (Leave blank)
+        
+        
+          Subscription cost [subscription_cost]
+          (Leave blank)
+        
+        
+          Google product category [google_product_category]
+          Electronics > Communications > Telephony > Mobile Phone Accessories > Mobile Phone Prepaid Cards & SIM Cards
+        
+        
+          Brand [brand]
+          XYZ Carrier
+        
+        
+          GTIN [gtin]
+          XYZ-123456
+        
+        
+          MPN [mpn]
+          123456789017
+        
+        
+          Condition [condition]
+          new
+        
+      
+    
+  
+
+
+
+Austria, Belgium, Canada, Czechia, Denmark, Finland, France, Germany, Greece, Hong Kong, Hungary, India, Ireland, Israel, Italy, Japan, Malaysia, New Zealand, Norway, Poland, Portugal, Romania, Saudi Arabia, Singapore, Slovakia, South Africa, South Korea, Spain, Sweden, Switzerland, Taiwan, Thailand, Turkey, United Arab Emirates, the United Kingdom
+
+
+  You can provide the option to purchase a wireless device with an up-front payment and an additional monthly device installment payment and/or a wireless subscription plan.
+
+  
+    Price is required and represents the full up-front payment for your product, including any activation fees and device down payment
+
+      
+        Activation fees occur for wireless service subscription plans or offers with wireless subscription plans. Fees can include the cost of mandatory, prepaid SIM cards and service down payment.
+      
+    
+    Installments are optional and provide a way to show additional monthly installment payments for your device.
+    Subscription cost is optional and provides the additional monthly cost for a wireless subscription plan.
+    You can provide installments, subscription cost, or both.
+    Your price can be "0" when you provide installments, subscription cost, or both.
+  
+
+  Subscription cost
+
+  
+    Use the subscription cost [subscription_cost] attribute to submit a series of payments made over a period of time for the telecom services that are bundled with a wireless product offer. Payments are usually made for 6, 12, or 24 months. The currency amount submitted in the feed is a single monthly charge, rather than the total of all the monthly service charges. The subscription plan cost does not include any money used to repay the initial cost of the phone.
+  
+
+  
+    Note: When displaying the subscription plan cost, Google may round up to the nearest whole unit of local currency to save space. If the installment [installment] attribute is also provided, the value of monthly installment payment will be added to the value of the monthly subscription plan cost before rounding up. The provided value must still exactly match the amount as shown on your site.
+  
+
+  
+    You should not submit the subscription cost [subscription_cost] attribute for prepaid SIM cards since the full price is paid in advance.
+  
+
+  Price
+
+  Use the price [price] attribute to submit a single down payment required to purchase the product. Merchants and service providers will often require a substantial deposit for high-cost products. This may just be the cost of a new SIM card that the customer is required to accept with a new phone. Submit the price [price] attribute as the sum of the activation fee and the down payment.
+
+  When there is no down payment required for an offer, then the customer may still be required to make the first of the installment payments when they purchase the product, but this is not considered as a down payment in the feed. Submit the correct values for the installment [installment] attribute, and submit "0" for the price [price] attribute.
+
+  If a product offer has no subscription cost or installment, then the down payment is the normal purchase price, and value for a down payment is submitted in the same attribute as a normal price.
+
+  All costs associated with a wireless product or service must be submitted in a single currency.
+
+  Installments
+
+  Use the installment [installment] attribute to submit a series of payments over time to pay back the cost of the product. Wireless products typically follow an installment payment model in order to make it easier for customers to buy an expensive device.
+
+  The currency amount you submit in the installment [installment] attribute is the amount of a single monthly repayment, not the total of all the monthly repayments. This figure does not include any money used to pay for the telecom services. To simplify the customer experience, it’s recommended that you use the same number of months for both your installment payments and subscription plan. If you use a different number of months for these two agreements, for example, 12 months for the subscription plan and 6 months for the installment payments, then the highest number of months will be shown.
+
+  Title
+
+  Use the title [title] attribute to specify that the product you are selling is sold in installments and/or bundled with a subscription plan. For example, a Google Pixel 5” 32GB Very Silver (with contract, 12 monthly installment payments).
+
+  Examples
+
+  
+    Mobile phones without a subscription plan, sold at a fixed price
+  
+
+  Follow the same standard as other product types when submitting wireless devices without a subscription plan, sold at a fixed price. As expected, the price submitted should be the fixed price (greater than "0") of the mobile device alone.
+
+  
+    
+      
+        Product data for a new, very silver, 32GB Google Pixel 5”, priced at 649 EUR
+      
+      
+        Attribute
+        Value
+      
+      
+        ID [id]
+        _pixel_phone_silver_32gb
+      
+      
+        Title [title]
+        Google Pixel 5” 32GB Very Silver
+      
+      
+        Link [link]
+        https://store.google.com/product/pixel_phone?sku=_pixel_phone_silver_32gb
+      
+      
+        Image link [image_link]
+        https://store.google.com/product/pixel_phone/silver.png
+      
+      
+        Availability [availability]
+        in_stock
+      
+      
+        Price [price]
+        649.00 EUR
+      
+      
+        Installment [installment]
+        (Leave blank)
+      
+      
+        Subscription cost [subscription_cost]
+        (Leave blank)
+      
+      
+        Google product category [google_product_category]
+        Electronics > Communications > Telephony > Mobile Phones
+      
+      
+        Brand [brand]
+        Google
+      
+      
+        GTIN [gtin]
+        00821793049157
+      
+      
+        MPN [mpn]
+        G-2PW4100-021-B
+      
+      
+        Condition [condition]
+        new
+      
+      
+        Color [color]
+        Very Silver
+      
+      
+        Shipping [shipping]
+        0.00 EUR
+      
+    
+  
+  
+
+   
+
+  
+    Mobile phones without a subscription plan, sold in installments
+  
+
+  You may include text in your product title that says, "This wireless product is sold with installment payments of a certain duration".
+
+  
+    
+      
+        Product data for a new, very silver, 32GB Google Pixel 5”, with 12 monthly installment payments of 60 EUR each
+      
+      
+        Attribute
+        Value
+      
+      
+        ID [id]
+        _pixel_phone_silver_32gb_12month_installments
+      
+      
+        Title [title]
+        Google Pixel 5” 32GB Very Silver (with contract and 12 installment payments)
+      
+      
+        Link [link]
+        https://store.google.com/product/pixel_phone?sku=_pixel_phone_silver_32gb
+      
+      
+        Image link [image_link]
+        https://store.google.com/product/pixel_phone/silver.png
+      
+      
+        Availability [availability]
+        in_stock
+      
+      
+        Price [price]
+        0.00 EUR
+      
+      
+        Installment [installment]
+        12:60.00 EUR
+      
+      
+        Subscription cost [subscription_cost]
+        (Leave blank)
+      
+      
+        Google product category [google_product_category]
+        Electronics > Communications > Telephony > Mobile Phones
+      
+      
+        Brand [brand]
+        Google
+      
+      
+        GTIN [gtin]
+        00821793049157
+      
+      
+        MPN [mpn]
+        G-2PW4100-021-B
+      
+      
+        Condition [condition]
+        new
+      
+      
+        Color [color]
+        Very Silver
+      
+      
+        Shipping [shipping]
+        0.00 EUR
+      
+    
+  
+  
+
+   
+
+  
+    Mobile phones bundled with a subscription plan, sold in installments
+  
+
+  Submit a value (as low as "0") for the down payment in the  price [price] attribute, and include any activation fees or one-time charges (for example, a new SIM card) that are required for the subscription plan. You may include text in your product title that says, "This wireless product is sold with a subscription plan of a certain duration".
+
+  
+    
+      
+        Product data for a new, very silver, 32GB Google Pixel 5”, with a subscription plan paid in 12 installments
+      
+      
+        Attribute
+        Value
+      
+      
+        ID [id]
+        _pixel_phone_silver_32gb_12month_contract
+      
+      
+        Title [title]
+        Google Pixel 5” 32GB Very Silver (with contract, 12 monthly payments)
+      
+      
+        Link [link]
+        https://store.google.co.uk/product/pixel_phone?sku=_pixel_phone_silver_32gb_12month_contract&contract=yes
+      
+      
+        Image link [image_link]
+        https://store.google.com/product/pixel_phone/silver.png
+      
+      
+        Availability [availability]
+        in_stock
+      
+      
+        Price [price]
+        0.00 EUR
+      
+      
+        Installment [installment]
+        12:30.00 EUR
+      
+      
+        Subscription cost [subscription_cost]
+        month:12:35.00 EUR
+      
+      
+        Google product category [google_product_category]
+        Electronics > Communications > Telephony > Mobile Phones
+      
+      
+        Brand [brand]
+        Google
+      
+      
+        GTIN [gtin]
+        00821793049157
+      
+      
+        MPN [mpn]
+        G-2PW4100-021-B
+      
+      
+        Condition [condition]
+        new
+      
+      
+        Color [color]
+        Very Silver
+      
+      
+        Shipping [shipping]
+        0.00 EUR
+      
+    
+  
+  
+
+   
+
+  
+    Mobile phones bundled with a subscription plan, sold in installments, with a down payment
+  
+
+  Submit the total of the down payment and activation fees in the price attribute. You may include text in your product title that says, "This wireless product is sold with a subscription plan of a certain duration and it is bundled with a new SIM card".
+
+  
+    
+      
+        Product data for a new, very silver, 32GB Google Pixel 5”, with a 12 month subscription plan paid in 12 installments, and a down payment of 100 EUR
+      
+      
+        Attribute
+        Value
+      
+      
+        ID [id]
+        _pixel_phone_silver_32gb_12month_contract
+      
+      
+        Title [title]
+        Google Pixel 5” 32GB Very Silver (with contract and 12 installment payments)
+      
+      
+        Link [link]
+        https://store.google.co.uk/product/pixel_phone?sku=_pixel_phone_silver_32gb_12month_contract&contract=yes
+      
+      
+        Image link [image_link]
+        https://store.google.com/product/pixel_phone/silver.png
+      
+      
+        Availability [availability]
+        in_stock
+      
+      
+        Price [price]
+        220.00 EUR (120 EUR activation fees + 100 EUR down payment)
+      
+      
+        Installment [installment]
+        12:20.00 EUR (less because of the down payment)
+      
+      
+        Subscription cost [subscription_cost]
+        month:12:25.00 EUR (less because of the activation fees)
+      
+      
+        Google product category [google_product_category]
+        Electronics > Communications > Telephony > Mobile Phones
+      
+      
+        Brand [brand]
+        Google
+      
+      
+        GTIN [gtin]
+        00821793049157
+      
+      
+        MPN [mpn]
+        G-2PW4100-021-B
+      
+      
+        Condition [condition]
+        new
+      
+      
+        Color [color]
+        Very Silver
+      
+      
+        Shipping [shipping]
+        0.00 EUR
+      
+    
+  
+  
+
+   
+
+  
+    Prepaid SIM cards
+  
+
+  Similar to submitting mobile phones without a service contract, sold at a fixed price, your product data for prepaid SIM cards should follow the standard requirements of the product data specification.
+
+  
+    
+      
+        Product data for a new, XYZ carrier prepaid 3-in-1 SIM kit, no service contract included
+      
+      
+        Attribute
+        Value
+      
+      
+        ID [id]
+        prepaid_3in1_sim_kit
+      
+      
+        Title [title]
+        XYZ Carrier Prepaid 3-in-1 SIM Kit
+      
+      
+        Link [link]
+        https://www.xyzcarrier.com/product/prepaid_3in1_sim_kit.html
+      
+      
+        Image link [image_link]
+        http://www.xyzcarrier.com/simcard.jpg
+      
+      
+        Availability [availability]
+        in_stock
+      
+      
+        Price [price]
+        20.00 EUR
+      
+      
+        Installment [installment]
+        (Leave blank)
+      
+      
+        Subscription cost [subscription_cost]
+        (Leave blank)
+      
+      
+        Google product category [google_product_category]
+        Electronics > Communications > Telephony > Mobile Phone Accessories > Mobile Phone Pre-Paid Cards & SIM Cards
+      
+      
+        Brand [brand]
+        XYZ Carrier
+      
+      
+        GTIN [gtin]
+        XYZ-12345
+      
+      
+        MPN [mpn]
+        123456789012
+      
+      
+        Condition [condition]
+        new
+      
+      
+        Color [color]
+        Very Silver
+      
+      
+        Shipping [shipping]
+        0.00 EUR
+      
+    
+  
+
+
+
+
+  All other countries
+
+  
+    You can only provide the option to purchase your wireless device (such as a mobile phone or tablet) or prepaid SIM card at a fixed price, paid in full up front.
+
+    
+      The price [price] attribute is required and represents the full price (never “0”) and must be paid in-full up front.
+      Your product data for prepaid devices or SIM cards should follow the standard requirements of the product data specification.
+    
+
+    
+      Note: The subscription cost [subscription_cost] or installment [installment] attributes are not available in other countries.
+    
+
+    Example
+
+    
+      
+        
+          Product data for a new, very silver, 32GB Google Pixel 5”, priced at 50,000 RUB
+        
+        
+          Attribute
+          Value
+        
+        
+          ID [id]
+          _pixel_phone_silver_32gb
+        
+        
+          Title [title]
+          Google Pixel 5” 32GB Very Silver
+        
+        
+          Link [link]
+          https://store.google.com/product/pixel_phone?sku=_pixel_phone_silver_32gb
+        
+        
+          Image link [image_link]
+          https://store.google.com/product/pixel_phone/silver.png
+        
+        
+          Availability [availability]
+          in_stock
+        
+        
+          Price [price]
+          50,000 RUB
+        
+        
+          Installment [installment]
+          (Leave blank)
+        
+        
+          Subscription cost [subscription_cost]
+          (Leave blank)
+        
+        
+          Google product category [google_product_category]
+          Electronics > Communications > Telephony > Mobile Phones
+        
+        
+          Brand [brand]
+          Google
+        
+        
+          GTIN [gtin]
+          00821793049157
+        
+        
+          MPN [mpn]
+          G-2PW4100-021-B
+        
+        
+          Condition [condition]
+          new
+        
+        
+          Color [color]
+          Silver
+        
+        
+          Shipping [shipping]
+          0.00 RUB
+        
+      
+    
+  
+
+
+
+Get your product data in Merchant Center early for new product launches
+
+If you have a specific launch date for a new wireless product, submit your product data early to allow time for Google to crawl and validate your product data. Taking this extra step will ensure that your product can be listed on the actual launch date. You can add your new product data:
+
+
+  Before the launch date (recommended) so your product data and campaign setup can ramp up leading to the actual launch announcement. Set the value for the availability [availability] attribute to preorder, and set the value for the availability date [availability_date] attribute to the official release date of the product. This will also allow you to take orders for the product even before the product is released for sale.
+  On or after the launch date, but be aware that it can take up to 72 hours for feed processing to complete. Submit your product data as soon as possible to avoid errors and set the value for the availability [availability] attribute to display as in stock.
+
+
+Especially for new product launches, make sure to submit accurate and optimized product information to set up your ads and free listings for success. Obtain the correct GTINs, optimize your product title [title] to display the important product information, and build your values for the product type [product_type] attribute to at least three levels to capture the most relevant search traffic.
+
+
+  Note: Use text ads with price extensions to support SIM-only service contracts. Selling SIM-only service contracts without a mobile phone is currently not supported in Shopping ads. Instead, try using Google Ads text ads with price extensions to get your service plans in front of potential customers.
+
+
+
+Optimize your landing pages for wireless products and services
+
+When customers click through to your landing page from your Shopping ad, your product information must match on the landing page to create the most seamless experience. If activation charges or other fees will be applied at checkout, make sure this information is clearly displayed on your landing page before your customer enters your checkout flow. Excluding or showing different product information can mislead and frustrate your customers. Learn more About landing page requirements.
+
+
+
+
+Pre-select and mark up wireless product variants on your landing page
+
+To ensure the most consistent customer experience, make sure to lead customers to a landing page with the preselected mobile phone variant that corresponds to your Shopping ad. This way, when someone clicks through from your ad, they will see the same product variant they were searching for.
+
+One way of preselecting product variants is by appending unique URL parameters to your link [link] attribute. Always test to make sure your landing page passes the URL parameter back properly and behaves as expected. For example, your landing page should load a preselected radio button or drop-down selection of the respective phone variant.
+
+Additionally, you can allow Google to pull in product information for multiple variants on the same landing page by adding structured data markup to your landing page’s source code. Structured data markup lets Google read your site and pull product data directly from your HTML source code. Learn more About structured data markup
+
+By implementing structured data markup and enabling automatic product updates, you can maintain accurate product information automatically, like price and availability.
+
+Example: Use URL parameters for phone color variants
+
+  
+
+    URL parameters for color options: You can pre-select variants to distinguish different color options on the same landing page by adding URL parameters like the following:
+
+    
+      Silver phone variant: https://store.google.com/product/pixel_phone?sku=_pixel_phone_silver_32gb
+      Black phone variant: https://store.google.com/product/pixel_phone?sku=_pixel_phone_black_32gb
+    
+  
+
+
+Example: Use URL parameters for installment options
+
+  
+    Landing page example:
+
+    
+
+    URL parameters for installment durations:
+
+    You can pre-select variants to distinguish different installment durations on the same landing page by adding URL parameters like the following:
+
+    
+      Phone variant with 6-month installments: https://store.google.com/product/pixel_phone?sku=_pixel_phone_silver_32gbinstallments=6
+      Phone variant with 24-month installments: https://store.google.com/product/pixel_phone?sku=_pixel_phone_silver_32gbinstallments=24
+    
+  
+
+
+Example: Use URL parameters for service contract options
+
+  
+    Landing page example:
+
+    
+
+    URL parameters for service contract options:
+
+    You can pre-select variants to distinguish fixed price versus service contract pricing options on the same landing page by adding URL parameters like the following:
+
+    
+      Phone variant without a service contract: https://store.google.com/product/pixel_phone?sku=_pixel_phone_silver_32gbcontract=no
+      Phone variant with a service contract: https://store.google.com/product/pixel_phone?sku=_pixel_phone_silver_32gbcontract=yes
+    
+  
+
+
+Simplify the purchase flow to a single landing page
+
+Make it easier for your customers to choose and purchase their desired wireless product and service bundle on the same landing page. Separating the purchase flow across multiple pages can cause your customers to bounce from your site before completing the purchase.
+
+Submitting high-quality product information and landing pages is the backbone to running successful campaigns. Take steps today to incorporate these best practices for improving and optimizing your product data. The more relevant and clear information you can provide, the more sales you’ll likely drive for your wireless products and services.
+             Was this helpful?How can we improve it?YesNoSubmit       

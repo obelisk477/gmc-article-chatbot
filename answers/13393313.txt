@@ -1,0 +1,197 @@
+ Updated performance dashboard experience
+
+In this article
+
+
+  New performance dashboard
+  Features that have changed in the new experience
+  Switch to classic dashboard
+  How to view your product performance in Merchant Center?
+  Which product performance metrics are available?
+  How to understand your performance metrics?
+
+
+
+New performance dashboard
+
+The new performance dashboard is available for all the new and existing merchants and aims to offer an improved and holistic report experience.
+
+
+Features that have changed in the new experience
+
+Shopping ads, Free listings and Free local listings
+
+Shopping ads, Free listings and Free local listings are all reported into one dashboard that segments free from paid traffic using the traffic dimension.
+
+
+  If your account is enrolled only in either free listings, free local listings or shopping ads, only traffic without ads or respectively from ads is shown.
+  If your account is enrolled in both free listings and shopping ads, but the user has access to only one of the programs, the admin has to provide access to the user to view the data. Learn more About user access for Merchant Center.
+
+
+User access control list
+
+The user access control list remains unchanged for all the reports from the classic experience. Learn more About user access for Merchant Center.
+
+
+  
+    Note: Follow the steps below to modify permissions for reports from the classic experience:
+
+    
+      In your Merchant Center account, go to the left hand navigation menu and click the Performance drop down.
+      Click Your reports.
+      Click Your dashboards tab at the top of the page.
+      Click the Type filter menu and select Google created dashboards.
+      Click Apply.
+      Click the Share dashboard icon .
+    
+  
+
+
+Buy on Google
+
+The new experience doesn’t support Buy on Google yet. Follow the steps below to retrieve the Buy on Google dashboard:
+
+
+  In your Merchant Center account, go to the left hand navigation menu and click the Performance drop down.
+  Click Your reports.
+  Click Your dashboards tab at the top of the page.
+  Click the Type filter menu and select Google created dashboards.
+  Click Apply.
+
+
+Organic conversions and conversion rate
+
+Organic conversions and conversion rate is displayed as additional metrics in the scorecard. By clicking on View all, an immersive view opens up that shows all the relevant metrics and dimensions.
+
+
+  Note: Conversion value is shown as an additional card when selecting the Organic conversions and/or conversion rate metric(s).
+
+
+Promotions
+
+Information about your promotions is available in the "Promotions" tab, where you can filter by promotion type, and title. By clicking on View all, an immersive view with all the relevant metrics and dimensions is displayed.
+
+Popular products and brands
+
+The “Market demand” tab shows you cards with the most popular products and brands on Google and the current availability for your products. You can find answers to key questions such as "Which are the most popular products and brands?", "Which brands are gaining popularity in the market?", and "Which products that you sell are most popular on Google?". Learn more About Market demand within Performance.
+
+Custom report editor
+
+Custom report editor remains unchanged in the new dashboard. Learn how to Create custom reports in Merchant Center.
+
+Report scheduling
+
+Report scheduling continues to work for classic dashboards and any existing, or newly created, custom reports. Learn how to Schedule and share Merchant Center reports.
+
+
+  
+    Note: Follow the steps below to modify or stop a schedule:
+
+    
+      In your Merchant Center account, go to the left hand navigation menu and click the Performance drop down.
+      Click Your reports.
+      Click Your dashboards tab at the top of the page.
+      Click the Type filter menu and select Google created dashboards.
+      Click Apply.
+      Hover over the "Schedule column" of a dashboard that you want to modify or stop and click the pencil icon .
+    
+  
+
+
+
+Switch to the classic dashboard
+
+To switch from the new experience to the previous version, you can either click on View classic dashboard in the welcome banner or follow the steps below:
+
+
+  In your Merchant Center account, go to the left hand navigation menu and click the Performance drop down.
+  Click Your reports.
+  Click Your dashboards tab at the top of the page.
+  Click the Type filter menu and select Google created dashboards.
+  Click Apply.
+  Click the filter icon  and click Dashboard category.
+  Check the box beside “Classic”.
+  Click Apply.
+
+
+
+To view your product performance in Merchant Center
+
+
+  Your online store must be confirmed
+  You must have at least one approved product to start gathering traffic
+
+
+
+Which product performance metrics are available?
+
+With Merchant Center performance reporting, you can find key metrics on how your products, brands, and more are trending over time. Understanding this information can help you make decisions and set the strategy for your business.
+
+
+  Impressions
+
+  Total count of how many times your products were shown on Google.
+    
+      If your products show zero impressions, you should verify that the products are approved and wait a few days for impressions to show up.
+    
+  
+
+
+
+  Clicks
+
+  Total count of clicks on your products on Google that led to visits to your online store.
+    
+      A “visit” is reported if the click on your product listing leads to a desktop landing page, mobile landing page, or an app.
+    
+  
+
+
+
+  Click-through rate (CTR)
+
+  The number of clicks that your product receives, divided by the number of times it’s shown: clicks ÷ impressions = CTR. This illustrates how often clicks on your products led to visits to your online store. For example, if you had 5 clicks and 100 impressions, then your CTR would be 5%.
+
+
+
+  Organic conversions
+
+  An action that's counted when someone clicks on your product listing and then takes an action that is valuable to your business, such as an online purchase.
+
+
+
+  
+    Keep in mind
+
+    
+      Merchant Center only reports on free conversions. Paid conversions aren't included.
+      The other metrics (impressions, clicks, and CTR) provide information for products shown with and without ads.
+      Sudden increases or decreases in performance metrics can be the result of multiple reasons, such as seasonality or a new ads campaign. Analyzing your data can help you understand your audience's behavior.
+    
+  
+
+
+
+How to understand your performance metrics?
+
+Performance graph
+
+This allows you to view the evolution of your performance metrics over time.
+
+
+  Use the date selector to view the data for longer or shorter periods of time.
+  A shorter time period can be used to focus on performance at a specific time. For example, if you run a promotion during a holiday season.
+  A longer time period can give you indication of cyclical trends among your potential customers.
+
+
+Product, brand, and category performance cards
+
+These cards show your popular-now, trending up, and trending down products, brands, and categories. By default, the top 7 are displayed.
+
+
+  When a product is popular-now or trending up and needs attention, make any required fixes to get better chances of continuous performance.
+  When a product is one of your popular-now products, you could choose to ensure you always have it in stock.
+  Use View all to expand the ranking to all of the items in product, brand or category. This opens a report containing clicks, impressions, and CTR. To analyze the data at your own pace, you can download the report by clicking on the dedicated download icon.
+  Via the product card, when you click on the product title to find additional details, you can also view what needs attention, if applicable, and should be fixed.
+
+             Was this helpful?How can we improve it?YesNoSubmit       

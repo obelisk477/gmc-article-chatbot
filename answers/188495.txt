@@ -1,0 +1,46 @@
+ Onboarding GuideNavigate Google Merchant CenterNext: Set up free product listings
+
+
+  
+    If you’re looking for information about how to navigate in Google Merchant Center Next, click here.
+  
+
+
+
+
+
+  Use Google Merchant Center as a resource to manage feeds, view data, and explore different ways to show your products on Google.
+
+  You’ll be able to find all of the pages listed below by clicking the left-hand navigation menu from anywhere in Merchant Center.
+
+
+Overview
+
+The "Overview" page is home to cards for each Merchant Center feature, plus tasks, feed information, and performance reports. You can also directly access information on your product data by clicking the links to your data diagnostics and product feeds.
+
+Pending tasks
+
+At the top of the "Pending tasks" page, you might find suggestions for next steps. This may include opting into additional features, or connecting your Merchant Center account to Google Ads. Follow the prompts to grow your account.
+
+Products
+
+The "Products" page allows you to manage your feeds, review their quality, and view a detailed list of all of your products in one place.
+
+Diagnostics: Review and troubleshoot past and present issues with your product data. Use the context filter for more information on product eligibility across different features.
+
+All products: View and manage individual products. You can also add products.
+
+ 
+
+Feeds: Create and upload feeds. The "Feeds" page provides access to various feed and inventory management tools, including feed rules and downloadable error reports.
+
+Performance
+
+Visit the "Dashboard" page to get a snapshot of your performance. Use the Report Editor to create customized reports for different aspects of your account’s performance.
+
+Growth
+
+The Growth page allows you to explore opportunities for getting more out of your Merchant Center. Click Opportunities to see personalized recommendations to improve your business. Explore the full range of features by clicking Manage programs.
+
+
+Next: Set up free product listings             Was this helpful?How can we improve it?YesNoSubmit       

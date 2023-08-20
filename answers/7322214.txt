@@ -1,0 +1,40 @@
+ Implementation guideStep 1: Configure your accountsNext: Step 2: Create a promotion
+
+
+  If you’re looking for information about configuring your accounts in Merchant Center Next, click here. 
+
+
+
+ 
+
+This article provides details about how to set up the accounts you need to run promotions.
+
+Google needs you to provide specific information about your business and products before your promotions will display. Set up your accounts so you can begin.
+
+
+  If you already have an active products feed in your Merchant Center account, a Google Ads account for your Shopping campaigns, and promotions are enabled in your account, skip to step 2 of this guide.
+
+
+Set up Merchant Center
+
+Your product information lives in Merchant Center. To set up your account, follow the steps below:
+
+
+  To house your products feed, create a Merchant Center account 
+  To provide details about your business, set up your Merchant Center account
+  To make sure your website meets all requirements, verify and claim your website URL
+  To tell Google what products you sell online, create a products feed
+
+
+Set up Google Ads
+
+Use your product information to run ads on Google. To set up your Google Ads account, follow the steps below:
+
+
+  To manage ads, set up a Google Ads account
+  To run Shopping campaigns, link your Google Ads account to Merchant Center
+
+
+RETURN TO PROMOTIONS HOME
+
+Next: Step 2: Create a promotion             Was this helpful?How can we improve it?YesNoSubmit       

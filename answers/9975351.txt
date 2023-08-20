@@ -1,0 +1,69 @@
+ How to fix: Unsupported destination for Google catalog product
+  Buy on Google for Search and Shopping will no longer be available starting September 26, 2023. Eligible merchants will be able to use Buy on Google for YouTube in the US. Learn more about Enabling Buy on Google for YouTube.
+
+
+
+
+
+One or more of your Google catalog products contains an unsupported value for the included destination [included_destination] attribute.
+
+Google catalog products can be created either via the “Add a product” button on the “All Products" tab or via an Amazon-formatted inventory loader feed file, so products uploaded using the inventory loader feed file will behave in the same way as catalog offers added in Merchant Center. In both cases, these catalog-based offers are only available on Buy on Google, and will be blocked from any additional destinations.
+
+Instructions
+
+Step 1: See the affected products
+
+
+  
+    Sign in to your Merchant Center account.
+    Select Products on the navigation menu, then click Diagnostics.
+    Click the Item issues tab to see current issues affecting your products.
+  
+
+  To download a list (.csv) of all affected items for all issues:
+
+  
+    Click the download button next to the filter button, beneath the graph and above the list of issues.
+  
+
+  To download a list (.csv) of all affected items for a particular issue:
+
+  
+    Find the issue under the “Issue” column, then click the download button at the end of the row.
+  
+
+  To see a list of up to 50 products with this particular issue:
+
+  
+    Find the issue under the “Issue” column, then click View samples in the “Affected items” column.
+  
+
+
+Step 2: Adjust destinations
+
+
+  For each affected product, remove all destinations except for Buy_on_Google listings.
+
+
+Step 3: Re-submit your product data
+
+
+  
+    If you’ve updated your product data in your feed file, resubmit it by re-uploading the updated feed file. Learn more
+    Next, check that you’ve fixed the issue by making sure it’s no longer listed on the Diagnostics page.
+      
+      Keep in mind: It may take some time for your change to be reflected on the Diagnostics page.
+  
+
+
+Related links
+
+
+  About using formats for Amazon feeds in your Merchant Center account (beta)
+  How to fix: Unable to extract value from attribute
+  How to fix: Unsupported destination for Google catalog product
+  How to fix: Unable to map provided attribute
+  How to fix: Missing parent product attributes
+
+
+             Was this helpful?How can we improve it?YesNoSubmit       

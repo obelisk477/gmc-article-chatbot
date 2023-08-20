@@ -1,0 +1,477 @@
+ About using Amazon feed formats in your Merchant Center account (beta)US only
+
+Using your existing Amazon-formatted feeds may make it easier to get started with Buy on Google. If you’re brand new to selling on Google through Buy on Google, you’ll now be able to upload Amazon-formatted product feeds to your Merchant Center account (if this isn’t available to you right away, it will roll out for you soon).
+
+To do this, you’ll choose the Amazon feed format when creating a primary feed. Uploaded Amazon feed files will be automatically mapped to work in Merchant Center.
+
+
+  
+    Merchant Center supports the following Amazon-formatted file types:
+
+    
+      Category-specific template file: You have full product data and want to create products or you want to update your existing products.
+
+        
+          During the beta period, attributes from top categories will be supported and mapped to Merchant Center. However, while we’re working on adding support for attributes from all categories, you may notice not all attributes are able to be mapped to a Google equivalent. Please inspect your products in the product list to ensure the correct attributes have been populated and make any necessary edits. Learn more about troubleshooting your feed
+        
+      
+      Inventory loader file: You don't have full product information and want to match your products to our catalog or update your inventory. Product matching works by providing an ASIN (experimental) or GTIN.
+      Price and quantity file: You have data for price and quantity updates for products which have already been uploaded.
+    
+  
+
+
+Before you begin
+
+
+  If you’re not familiar with feeds in Merchant Center, we recommend that you review the guide for building your product data.
+  Before you can use an Amazon-formatted feed in Merchant Center, you may need to convert it into one of the supported formats. Learn more about how to convert the Amazon feed file into a .csv or a tab-separated file
+
+
+
+  Differences between Amazon and Merchant Center feeds
+
+  
+    
+      Product addition and deletion: Unlike products within Google feed files, products uploaded from an Amazon-formatted feed will remain active until explicitly deleted or updated by a subsequent feed file upload. For each Amazon-formatted feed containing new products, those products will get incrementally added to the pool of existing products. Omitting products from a new file upload does not delete them. Instead, addition and deletion of products from Amazon-formatted feed files is controlled via Amazon feed attributes.
+
+      
+        Category-specific template files: Use the update delete [update_delete] attribute to add or delete products
+        Inventory loader files: Use the add delete [add_delete] attribute to add or delete products
+      
+    
+    Multiple file types per feed: Unlike Google feed files, Amazon-formatted feeds (for example, the category-specific template file, inventory loader file, and price and quantity file) are uploaded to the same, single feed.
+    Product data specification: Amazon feed specification is different from Merchant Center product data specification, and there are different attribute names and values. For example, Amazon product category-specific inventory templates differ from one product category to another. When uploading an Amazon category-specific template file, Merchant Center will automatically map the Amazon attributes to a Google equivalent, where possible.
+  
+
+  Because there are differences between the Google feed attributes and Amazon feed attributes, Google is unable to accurately map all Amazon feed attributes to Google attributes. This means you should carefully review the information on the “All products” page to make sure that all of the data is accurate. Keep in mind that attributes you submit with an Amazon name may be named differently in Merchant Center, but the data will still be correct.
+
+  
+    Examples of attributes that Google currently supports (not a complete list):
+
+    
+      
+        
+          
+            Amazon attribute names
+            Mapped Google attributes
+          
+          
+            item sku
+            ID [id]
+          
+          
+            quantity
+            Quantity for Buy on Google [sell_on_google_quantity]
+            Availability [availability]
+          
+          
+            standard price
+            Price [price]
+          
+          
+            sale price
+            Sale price [sale_price]
+          
+          
+            sale from date
+            sale end date
+            Sale price effective date [sale_price_effective_date]
+          
+          
+            external product id
+            external product id type
+            
+            GTIN [gtin]
+            
+          
+          
+            part number
+            MPN [mpn]
+          
+          
+            brand name
+            manufacturer
+            Brand [brand]
+          
+          
+            item name
+            Title [title]
+          
+          
+            product description
+            bullet point 1-10
+            Description [description]
+          
+          
+            main image url
+            Image link [image_link]
+          
+          
+            Other image url 1-10
+            Additional image link [additional_image_link]
+          
+          
+            link
+            Link [link]
+          
+          
+            mobile link
+            Mobile link [mobile_link]
+          
+          
+            condition type
+            Condition [condition]
+          
+          
+            material type
+            material composition
+            outer material type
+            outer material 1-5
+            inner material type
+            inner material 1-5
+            sole material
+            Material [material]
+          
+          
+            size map
+            Size [size]
+          
+          
+            color name
+            color map
+            Color [color]
+          
+          
+            target gender
+            Gender [gender]
+          
+          
+            department name
+            Gender [gender]
+            Age group [age_group]
+          
+          
+            Is adult product
+            Adult [adult]
+          
+          
+            parent sku
+            Item group ID [item_group_id]
+          
+          
+            package weight
+            package weight unit of measure
+            item weight
+            item weight unit of measure
+            Shipping weight [shipping_weight]
+          
+          
+            package height
+            package height unit of measure
+            package dimensions unit of measure
+            Shipping height [shipping_height]
+          
+          
+            package width
+            package width unit of measure
+            package dimensions unit of measure
+            Shipping width [shipping_width]
+          
+          
+            package length
+            package length unit of measure
+            package dimensions unit of measure
+            Shipping length [shipping_length]
+          
+          
+            fulfillment latency
+            Maximum handling time [max_handling_time]
+          
+          
+            pattern type
+            Pattern [pattern]
+          
+          
+            special size type
+            Size type [size_type]
+          
+          
+            country as labeled
+            Size system [size_system]
+          
+          
+            california proposition 65 compliance type
+            california proposition 65 chemical names 1-5
+            Consumer notice [consumer_notice]
+          
+          
+            safety warning
+            Consumer notice [consumer_notice]
+          
+          
+            legal disclaimer description
+            Consumer notice [consumer_notice]
+          
+          
+            included_destination*
+            Included destination [included_destination]
+          
+          
+            excluded_destination*
+            Excluded destination [excluded_destination]
+          
+        
+      
+
+      Examples of attributes that may not be mapped accurately (not a complete list):
+
+      
+        Product variants for apparel (for example, gender, color, and size system)
+        Product identifiers Google doesn’t support, like GCID
+        Material
+      
+
+      
+        Consumer notice Prop 65: Google will show a general Prop 65 warning message for the following types, but cannot map the detailed hazardous ingredients even if you have provided them in the feed:
+          
+            Alcoholic Beverage
+            Diesel Engines
+            Food
+            Furniture
+            On Product Cancer
+            On Product Combined Cancer Reproductive
+            On Product Reproductive
+            Passenger or Off Road Vehicle
+            Raw Wood
+            Recreational Vessel
+            Chemical
+          
+        
+      
+
+      
+        Note: Not all Amazon feed attributes are currently supported. Carefully review your Merchant Center feed to make sure that attributes have been mapped correctly.
+      
+    
+
+    
+      File format: Merchant Center accepts delimited text files and XML. Before you can use an Amazon-formatted feed in Merchant Center, you may need to convert it into one of the supported formats. Learn more about how to convert an Amazon feed file into a .csv or a tab-separated file
+
+        
+          Parent and variant records: Google feeds dictate products’ parent-child relationships by populating a common item group ID [item_group_id] value amongst all related, variant products. However, Amazon-formatted feeds use multiple attributes to dictate variant products.
+          During the Amazon feeds beta, Amazon variants aren’t yet fully supported. As a result, you might see issues related to this on your account’s product diagnostics page. Learn more about how to fix the missing parent product attributes
+        
+      
+    
+
+    
+      Catalog matching: Merchant Center allows you to add individual catalog products in the "All Products" tab.
+    
+  
+
+  
+    Product expiration: Offers created using Google feed files have a default expiration of 30 days. However, like offers created from the Merchant Center products list, offers uploaded via Amazon-formatted feeds never expire. They will remain unless explicitly deleted using the update delete [update_delete] and add delete [add_delete] attributes in the catalog-specific template and inventory loader file, respectively.
+    URLs: We recommend only using Amazon-formatted feed files in Buy on Google, which does not require URL values.
+      
+        You can enable products submitted via the Amazon category-specific template outside of Buy on Google by adding the link [link] attribute to the file or by manually adding it in the product list.
+        Products submitted via the inventory loader file can only be enabled for Buy on Google. Learn more about how to fix the unsupported destination for Google catalog product
+      
+    
+    *Program targeting: Google attributes included destination [included_destination] and excluded destination [excluded_destination] are not part of the Amazon feed specification. However, we support their presence in the feed. Additionally, you can add them manually by editing your products in the “Products” tab. This will allow you to control which Google destinations each product is enabled for. Learn more about multiple destinations for your products
+  
+
+
+Instructions
+
+
+  Create your feed
+
+  
+    When you have an Amazon-formatted file ready in a supported format, follow these steps:
+
+    
+      Sign in to your Merchant Center account.
+      From the navigation menu, click Products and then Feeds.
+      In the primary feeds table, click the plus button .
+    
+
+    
+      Note: This step only applies to your first Amazon-formatted feed upload. Once your first upload is complete, you can upload more files by navigating to your Amazon feed in the primary feeds table and clicking Upload input file.
+    
+
+    
+      Follow the prompts and provide the following pieces of information about your data:
+        
+          Target country: This describes where products from this feed are sold. The product data uploaded to a selected country must meet the requirements for that country, including feed specifications and policies. After creating your feed, you can add additional target countries under the “Feed settings” tab.
+
+            
+              During the Amazon feeds beta, the United States is the only supported target country.
+            
+          
+          Language: The language in which your product data is written. If you select a country with multiple supported languages (such as Belgium, Canada, or Switzerland), you’ll be presented with a list of that country’s supported languages.
+            
+              During the Amazon feeds beta, English is the only supported language.
+            
+          
+          Destination: Choose one or many feed destinations in Merchant Center. These will determine which Google programs can use the items in your data feed.
+            
+              For category-specific inventory files: All destinations except Local Inventory Ads may be selected. However, as Amazon-formatted feeds don't include a link [link] attribute, the error “missing attribute: link” will be shown for any destination for which it is required (for example: Shopping ads). In order to enable products for destinations requiring the link attribute, you will need to add the link [link] attribute in your feed file or using the manual edit functionality. Learn more about how to troubleshoot your feed
+              For inventory loader files: Only the Buy on Google destination is supported. If other destinations are enabled and an inventory loader file is uploaded, you may notice errors for unsupported destinations. Learn more about how to fix the unsupported destination for Google catalog product
+            
+          
+          Primary feed name: Enter a descriptive name that helps you identify the primary feed. The feed name doesn’t need to match the name of the file you’re submitting.
+          Amazon file type: Choose an Amazon file type.
+            
+              Category-specific inventory file: Use this if you have full product data and want to create products or update your existing products.
+              Inventory loader file: Use this if you don't have full product information and want to match your products or update your inventory.
+              Price and quantity file: Use this if you have data for price and quantity updates for products that have already been uploaded.
+            
+          
+        
+      
+    
+
+    
+      Note: If this is the first time you are uploading an Amazon-formatted feed, the “Price and quantity file” option will not be available. You must have products uploaded via an Amazon feed before you can update them via an Amazon-formatted price and quantity file.
+    
+
+    
+      Once you’ve added this information, upload your feed file.
+      Click Create feed.
+    
+  
+
+
+Troubleshoot your feed
+
+
+  Check the feed processing report or Diagnostics section for attribute mismatches
+
+  
+    
+      After you upload an Amazon-formatted file, the file will be processed and your products will be created or updated. During the beta phase, attributes from select top categories will be supported and mapped to their Merchant Center equivalents.
+
+      However, while we’re working on adding support for attributes from all categories, you may notice not all attributes can be mapped to a Google equivalent. Learn more about how to fix the unrecognized attribute
+
+      The feed processing report shows basic file and data summary and the “Diagnostics” section can help you understand where Google attributes are needed and which Amazon attributes could not be mapped.
+
+      
+        Note: If you make any account level or feed level changes after you upload your Amazon-formatted feed (for example, return policy changes), the changes will be processed and applied to your products the next time you upload your Amazon feed or within a few days.
+      
+    
+  
+
+  
+    Review feed processing summary
+
+    
+      Step 1: Review the processing summary to find out how many items were added, updated, or removed
+
+      
+        Sign in to your Merchant Center account.
+        From the navigation menu, click Products and then Feeds.
+        Within the "Primary Feeds" table, choose your Amazon feed name.
+        Review the “Processing Tab” to review a report which summarizes the amount of new products, updated products, ignored products, deleted products, and unknown products, not deleted.
+      
+
+      
+        Note: “Ignored products” refers to the parent products which are being ignored. Learn more about how to fix the missing parent product attributes
+      
+    
+
+    
+      Troubleshoot product issues related to an uploaded category-specific template file
+
+      
+        
+          Step 1: Review the affected products
+
+          
+            Sign in to your Merchant Center account.
+            From the navigation menu, click Products and then Product list.
+            Filter by source. Choose your Amazon feed name to show all products with an issue. Add more filters to narrow your search.
+          
+
+          Step 2: Update affected products
+
+          
+            Click on any product with issues.
+            Look at the “Item status” section to review a product’s issue status.
+            Click Edit.
+            Edit or add the attributes causing the issues and click Save.
+            Review the main attributes of your product with the overview page.
+            Click Go to all products to save your changes.
+          
+
+          Step 3: Make sure errors are solved
+
+          
+            Check that the errors no longer exist in the “Diagnostics” section of your account.
+          
+
+          
+            Note: Changes may take up to 30 minutes to take effect.
+          
+        
+      
+
+      
+        Troubleshoot product issues related to an uploaded inventory loader file
+
+        
+          When using the inventory loader file to upload products, some items may not be found in the Google product catalog with the supplied identifier. Learn more about how to fix no matching product in Google catalog
+
+          
+            To resolve this issue, you can use a different identifier (for example, use UPC instead of ASIN) and resubmit the inventory loader file. Alternatively, you can edit products to add the product data manually.
+
+            Step 1: Review the affected products
+
+            
+              Sign in to your Merchant Center account.
+              From the navigation menu, click Products and then Product list.
+              In the “Products from Google catalog” card at the top, click the number under “Disapproved”.
+              Click on any product to review its item issues.
+            
+
+            Step 2: Update affected products
+
+            
+              Click on any product with issues.
+              Look at the “Item status” section to review a product’s issue status.
+              Click Edit.
+              Edit or add the attributes causing the issues and click Save.
+              Review the main attributes of your product with the overview page.
+              Click Go to all products to save your changes.
+            
+
+            
+              Note: You can send feedback from within Merchant Center to highlight any issues with the product information matched in the Google product catalog. In case of a serious issue with a matched catalog offer, such as a wrong color, we recommend that you send feedback, remove the offer, and create a new one manually. Learn more about how to add catalog products to Buy on Google using a GTIN (beta)
+            
+
+            To remove products which you no longer want to list:
+
+            
+              From the navigation menu, click Products and then Product list.
+              Select the product you wish to delete.
+                
+                  Click the delete icon .
+                  Alternatively, open the “Product details” page and click the Delete product button.
+                
+              
+            
+          
+        
+      
+
+      Related links
+
+      
+        Convert your Amazon feed file into a .csv or a tab delimited file
+        Add catalog products to Buy on Google using a GTIN (beta)
+        Add products directly in Merchant Center
+      
+    
+  
+
+             Was this helpful?How can we improve it?YesNoSubmit       

@@ -1,0 +1,98 @@
+ How to fix: Missing value: maximum handling time [max_handling_time], minimum handling time [min_handling_time]Add the missing value in either your shipping service or your feed
+
+Some of the values submitted for the handling time attributes are missing, either for the item-level attributes or the account-level settings for the shipping service.
+
+For the handling time counted in business days, enter the minimum number of days required for processing an order, followed by the maximum number of days that processing could take. If you process items the same day they are ordered, your minimum handling time is considered “0”. For the maximum handling time, count only normal business days and do not include potential weekends or non-working public holidays.
+
+These attributes let you provide handling details for an individual product. You should only use these attributes when you have a particular need to override the corresponding settings at the account level that we recommend you set up in Merchant Center. If all of your items require the same amount of time to process, it is better to configure the handling times in Merchant Center within each shipping service.
+
+However, if the processing time varies by product, then handling time should be added to the product feed to each item. When the handling time values exist in both Merchant Center and in the product feed, the item-level value will override the Merchant Center value for that specific item only.
+
+Instructions
+
+
+  Step 1: Check and correct the handling times for the shipping services and destinations
+
+  
+    
+      Sign in to your Merchant Center account.
+      Click the tools icon , then click Shipping and returns under “Tools”.
+      Under the "Shipping services" tab, click on the "Service Name" that has the invalid handling times to view and edit the details of that service.
+      In the "Edit shipping service" form, scroll to the "Delivery time" panel and enter your default minimum and maximum "Handling time in business days".
+    
+  
+
+
+
+  Step 2a: If you are using item-level settings to set the handling time, view the affected products
+
+  
+    
+  Sign in to your Merchant Center account.
+  Select Products on the navigation menu, then click Diagnostics.
+  Click the Item issues tab to see current issues affecting your products.
+
+
+To download a list (.csv) of all affected products for all issues:
+
+
+  Click the download button  next to the filter button , beneath the graph and above the list of issues.
+
+
+To download a list (.csv) of all affected products for a particular issue:
+
+
+  Find the issue under the “Issue” column, then click the download button  at the end of the row.
+
+
+To see a list of up to 50 products with this particular issue:
+
+
+  Find the issue under the “Issue” column, then click View examples in the “Affected items” column.
+
+
+  
+
+
+
+  Step 2b: Specify valid handling times for each item
+
+  
+    
+      Filter the downloaded report so that you only see products with:
+        “Issue title” = Missing value: maximum handling time [max_handling_time], minimum handling time [min_handling_time]
+      Check your product data for those products (using the ID), and make sure each product has handling times within the permitted range.
+    
+  
+
+
+
+  Step 3: Resubmit your product data
+
+  
+    
+  After you’ve updated your product data, resubmit it using one of these methods:
+    
+      Upload a feed
+      Submit through the Content API
+      Import content from an ecommerce platform
+    
+  
+  Next, check that you’ve fixed the issue by making sure it’s no longer listed on the Diagnostics page.
+    
+    Keep in mind: It may take some time for your change to be reflected on the Diagnostics page.
+
+
+  
+
+  Related links
+
+  
+    Minimum handling time [min_handling_time]
+    Maximum handling time [max_handling_time]
+    Shipping [shipping]
+    About shipping policies for Buy on Google
+    Set up shipping settings at the account level
+  
+
+             Was this helpful?How can we improve it?YesNoSubmit       

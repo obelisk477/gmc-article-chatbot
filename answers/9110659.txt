@@ -1,0 +1,157 @@
+ Create branding assets for Buy on Google
+  Buy on Google for Search and Shopping will no longer be available starting September 26, 2023. Eligible merchants will be able to use Buy on Google for YouTube in the US. Learn more about Enabling Buy on Google for YouTube.
+
+
+
+
+
+This article includes step-by-step instructions for creating branding assets for Buy on Google.
+
+Requirements
+
+You need to have a graphic editing software to create your branding assets. If you're using Adobe Illustrator or Adobe Photoshop, you can use the instructions provided in this article to help you get started. Your branding assets will appear on the Buy on Google page.
+
+
+  
+    Note: For merchants in the US, you'll also need to download the required retailer asset pack for templates and files and folder.
+  
+
+
+
+  Note: The programs described in this article are popular suggestions, but you may use other graphic design software to create your branding assets.
+
+
+
+
+  How to create your logo
+
+  
+    Adobe tutorials: How to create your logo
+
+For subtitles in your language, turn on YouTube captions. Select the settings icon  at the bottom of the video player, then select "Subtitles/CC" and choose your language.
+
+
+
+
+    
+      Open Adobe Illustrator.
+      Place your logo in the "Assets" folder.
+      Open the AI file titled "storelogo_name.ai".
+      Double-click the largest circle in the "Logo" column to enter the symbol.
+      Paste your logo inside the circular symbol. Make sure your logo image is 100% vector and in RGB color mode.
+        
+          Note: Refer to our examples of acceptable and unacceptable logos to make sure you submit your logo in the right format.
+        
+      
+      Export your logo.
+        
+          Click File > Export > Export for screens.
+          In the "Artboards" tab, make sure all 4 artboards are selected.
+          In the “Export to:” field, choose the desired folder.
+          In the “Formats:” field, set the scale to 1x, and format to PNG.
+          In the “Prefix:” field, enter the filename as storelogo_[YourCompanyName]. For example, storelogo_Acme.
+          Click Export artboard.
+        
+      
+    
+  
+
+  
+    How to create your favicon
+
+    
+      Adobe tutorials: How to create your favicon
+
+For subtitles in your language, turn on YouTube captions. Select the settings icon  at the bottom of the video player, then select "Subtitles/CC" and choose your language.
+
+
+
+
+      To create your favicon asset, follow these instructions:
+
+      
+        Open Adobe Illustrator.
+        Place your vector artwork in the "Assets" folder.
+        Open the AI file titled "storelogo_merchant_favicon.ai" and double-click the circle to enter the symbol. You must use only .eps or .ai file formats for your logo. Do not use PNG or JPG files.
+        Paste your vector artwork. Your artwork can be 1-2 letters or an icon derived from your logo. Make sure your artwork follows the logo format requirements.
+        Export your logo.
+          
+            Click File > Export > Export for screens.
+            In the "Artboards" tab, select the Favicon artboard.
+            In the “Export to:” field, choose the desired folder.
+            In the “Formats:” field, set the scale to 1x, and format to PNG.
+            In the “Prefix:” field, enter the filename as storelogo_[YourCompanyName]. For example, storelogo_Acme.
+            Click Export artboard.
+          
+        
+      
+    
+
+    
+      Pick your background color
+
+      
+        
+          Adobe tutorials: How to pick your background color
+
+For subtitles in your language, turn on YouTube captions. Select the settings icon  at the bottom of the video player, then select "Subtitles/CC" and choose your language.
+
+
+
+
+          Choose a background color that will appear next to your banner logo on your Buy on Google page. Make sure that you use a color from the RGB color space, and also use hexadecimal values when entering them in Merchant Center.
+
+          You can see examples of RGB colors and hexadecimal values at websites like this color encyclopedia.
+        
+      
+
+      
+        How to create your photo banners (optional)
+
+        
+          Adobe tutorials: How to create your photo banner
+
+For subtitles in your language, turn on YouTube captions. Select the settings icon  at the bottom of the video player, then select "Subtitles/CC" and choose your language.
+
+
+
+
+          To create your photo banner asset, follow these instructions:
+
+          
+            Open Adobe Photoshop.
+            Choose your merchant photo and place it in the "Assets" folder.
+              
+                Your photo must be horizontal and in high resolution (wider than 2000px) and ideally horizontal.
+              
+            
+            Open the 5 PSD files and place your image inside each file.
+              
+                These 5 PSD assets are the standard sizes used across the Google web and app ecosystem.
+              
+            
+            For each PSD file, resize the photo so that it covers the full available area within the asset. If you need to crop your image, focus on the most important part of the image.
+            In the “Layers” panel, make sure the photo blend mode is set to “Screen.” This is to ensure that the text is readable on your page.
+            Export your 5 assets.
+              
+                Click File > Export > Export as.
+                Choose .jpg as the format format and set the quality to 60%.
+                Click Export all.
+              
+            
+          
+        
+      
+    
+  
+
+
+Once you’ve created your branding assets, you can upload them in Merchant Center for Buy on Google.
+
+
+
+
+  Need help? Click here to contact Buy on Google support.
+
+
+             Was this helpful?How can we improve it?YesNoSubmit       

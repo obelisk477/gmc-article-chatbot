@@ -1,0 +1,98 @@
+ About marketplacesA marketplace is an online platform that provides a place for multiple individual merchants to sell their products. This article explains how to submit your data if you're a marketplace.
+
+
+  
+    This article doesn't apply to you if:
+
+    
+      You manage your own website. If you manage your own website and store and it's not part of a marketplace.
+      You're managing sellers as an agency. Agencies are third parties that submit items to Google on behalf of individual retailers. Each individual retailer is a separate entity and has a unique domain for its website such as example.com.
+      You're an individual seller on a marketplace. Individual sellers should submit their product data directly to the marketplace and make sure all of their products comply with Shopping policies. If a marketplace doesn't submit feeds on behalf of sellers, sellers can refer the marketplace to this article.
+    
+  
+
+
+
+  
+    Note: If you plan to upload a large number of feeds or make frequent changes to your product data, it is strongly recommended that you upload this directly using the Content API.
+  
+
+
+
+
+Managing sellers on a marketplace
+
+Manage your marketplace in Merchant Center by converting your account to a Marketplace Multi-Client account (MCA). This account structure allows you to create sub-accounts for each of your sellers, preventing a seller violating the Shopping policy from impacting other sellers. Creating sub-accounts for each of your sellers also helps you easily segment by seller on the campaign side.
+
+A Marketplace MCA provides 3 different types of sub-accounts:
+
+
+  1P: for the marketplace’s own offers (1st party offers)
+  Single seller: contains 3P offers for a particular seller
+  Multi-seller: contains 3P offers for multiple sellers in the same subaccount
+
+
+There are unique considerations for marketplaces in account structure, setup and ongoing maintenance.
+
+Account structure guidance
+
+
+  Create a Marketplace MCA per region and be sure to claim and verify your domain. This can be done at the MCA-level or per sub-account. Phone verification is required for the Marketplace MCA and strongly recommended for the sub-accounts.
+  Separate each seller into its own sub-account to be able to do the following:
+    
+      Specify seller specific attributes, such as shipping and return information
+      Display the seller name with their products
+      Isolate seller violations to avoid impacting other sellers
+    
+  
+  Separate your own offers (1P) into their own sub-account so offers can leverage the brand recognition of your marketplace including “trusted store” badge and seller ratings.
+  Leverage multi-seller account(s) to simplify account management for smaller, lower visibility sellers. Learn more about Multi-seller accounts.
+  Keep all of a seller’s offers in the same sub-account to ensure accurate offer and seller signals. Don’t create category based sub-accounts.
+
+
+
+  
+    Note: Although a Marketplace MCA provides benefits to managing your sellers in Merchant Center, some features will be lost when converting to this account type such as promotions.
+  
+
+
+Setup
+
+
+  Sign up with an email address you check regularly and adjust your preferences to ensure you receive the latest account updates and quality suggestions. Opt in to receive “opportunities” and “tips and best practices”. Learn more about Merchant Center email preferences.
+  Request a conversion of your account to an advanced account setup. Choose “Marketplaces” as the type of retail business.
+  Separate products and sellers into sub-accounts based on the type of product and seller. Remember that sub-accounts created in Merchant Center should only hold offers for the same seller.
+  Submit product data on behalf of your sellers in their respective sub-accounts. Don't ask sellers to submit their own data, as such submissions won't be accepted. It is strongly recommended that you use the Content API to directly upload product data.
+
+
+
+  Note: If you have a multi-seller account, the external seller ID [external_seller_id] attribute is required and must meet validation criteria, otherwise your products will be disapproved. Learn more about the external seller ID [external_seller_id] attribute.
+
+
+Ongoing maintenance
+
+Follow these guidelines for marketplaces.
+
+
+  Help your sellers. Because you'll be using one Marketplace MCA to manage your seller sub-accounts, you'll need to handle any questions that your individual sellers have.
+  Comply with Shopping ads policies. All products in each of your sub-accounts must comply with Shopping policies. Otherwise, sub-accounts or your entire Marketplace MCA could be suspended or deactivated.
+  Avoid duplicate products. Make sure you don't submit multiple instances of the same products for the same seller. You're allowed to submit the same products only if those products are from different sellers. You can show your product across multiple countries and languages using your feed settings.
+
+
+
+  Keep in mind
+  Google reserves the right to deactivate sub-accounts of individual marketplace sellers or the entire Marketplace MCA. Learn more about Item disapprovals for policy violations.
+
+
+Related links
+
+
+  About performance reporting for marketplaces in Merchant Center
+  Convert to an advanced account setup
+  Shopping policies
+  Follow the Merchant Center guidelines
+  Content API in Merchant Center
+
+
+
+             Was this helpful?How can we improve it?YesNoSubmit       

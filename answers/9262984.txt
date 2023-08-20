@@ -1,0 +1,43 @@
+ About product data alerts
+
+Product data alerts are email notifications you'll receive when something unexpected happens with your product data, such as when the number of active items drops significantly for a certain set of products.
+
+This article explains how product data alerts work and how they're triggered.
+
+Benefits
+
+You can review any issues with your product data in your Merchant Center, but there might be a considerable lag between the time an error occurs and the time you check back. Product data alerts allow Google to notify you by email as soon as a problem with your eligible products is detected.
+
+How it works
+
+By default, an alert will be triggered if a significant drop in active products is detected for any combination of target country and Google surface (for example, US + Shopping ads). The email will explain what happened and provide you with links to the relevant section of Merchant Center so that you can instantly check on your product data.
+
+
+  Note: Any significant drops will cause an alert, even if they might've been intentional. A change in item status from "active" to "expiring" may also cause an alert. This status change occurs 3 days before an item expires.
+
+
+Other types of product data alerts, such as product protection, are opt-in only and must be turned on before you can begin receiving notifications.
+
+You can opt in or out of these alerts by changing your email preferences. Learn how to Change your Merchant Center email preferences.
+
+Availability
+
+Product data alerts are available for the following destinations, regardless of feed type:
+
+
+  Shopping ads
+  Local inventory ads
+  Buy on Google
+  Display ads
+
+
+
+  Note: Multi-client accounts may opt in to product data alerts at the top-level account. Sub-accounts don't have the option for product data alerts at this time.
+
+
+Related links
+
+
+  About user access for Merchant Center
+
+             Was this helpful?How can we improve it?YesNoSubmit       

@@ -1,0 +1,29 @@
+ Local inventory ads optimization features
+
+Once you’ve completed basic setup, we recommend you investigate local inventory ads’ many additional features. These options can help you get the most out of your advertising campaigns.
+
+Enhance customers’ experience
+
+Local inventory ads helps you connect online customers to your physical locations. Learn more about the options below that help you enhance your customers’ experience with your business:
+
+
+  Merchant hosted local storefront: Direct shoppers to your website when they click on ads and free listings that show your local products
+  On display to order: Advertise products on display in your stores for customers to order
+  Pickup today: Highlight options to purchase products online and pick them up in store
+
+
+If you’d like to implement merchant hosted local storefront or pickup today, change your landing page experience.
+
+Improve campaign performance
+
+There are many ways to optimize your Shopping campaign based on your advertising goals. For best results, learn how to:
+
+
+  Subdivide your inventory into product groups
+  Monitor your local channel performance
+  Setup Google Analytics to measure your local storefront traffic
+  Track online conversions
+
+
+
+             Was this helpful?How can we improve it?YesNoSubmit       

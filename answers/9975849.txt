@@ -1,0 +1,50 @@
+ Convert an Amazon feed file into a .csv or a tab-separated fileMost spreadsheet programs allow you to export data into a tab-separated file. The options below describe how to create the 2 supported file formats for Amazon-formatted feeds in Merchant center.
+
+Convert to a .csv file
+
+If you're using Microsoft Excel:
+
+
+  Open your file with Excel and navigate to the worksheet where the data to upload is.
+  Open the “File” menu and select Save as.
+  In the “Save as type” drop-down box, select the Text (comma delimited) (*.csv) option.
+  Click Save. If you see warning messages pop up, click OK or Yes.
+
+
+If you're using Google Sheets:
+
+
+  Open your file in Google Sheets and navigate to the sheet where the data to upload is.
+  From the “File” menu, select Download, then click Comma-separated values (.csv, current sheet). This will download the currently selected sheet as a comma-separated .CSV file, inheriting the name of your spreadsheet. Click Save as or Save File As from the “File” menu.
+  Name your file, and be sure to specify the file type as a CSV File (*.csv) if it gives you the option. Click Save.
+
+
+Convert to a tab-separated file (*.txt or *.tsv)
+
+If you're using Microsoft Excel:
+
+
+  Open your file with Excel and navigate to the worksheet where the data to upload is.
+  Open the “File” menu and select the Save as.
+  In the “Save as type” drop-down box, select the Text (tab delimited) (*.txt) option.
+  Click Save. If you see warning messages pop up, click OK or Yes.
+
+
+If you're using Google Sheets:
+
+
+  Open your file in Google Sheets and navigate to the sheet where the data to upload is.
+  From the “File” menu, select Download, then click Tab-separated values (.tsv, current sheet). This will download the currently selected sheet.
+  Name your file, and be sure to specify the file type as a *.tsv (or *.txt) if it gives you the option.
+  Click Save.
+
+
+
+  About using formats for Amazon feeds in your Merchant Center account (beta)
+  How to fix: Unable to extract value from attribute
+  How to fix: Unsupported destination for Google catalog product
+  How to fix: Unable to map provided attribute
+  How to fix: Missing parent product attributes
+
+
+             Was this helpful?How can we improve it?YesNoSubmit       

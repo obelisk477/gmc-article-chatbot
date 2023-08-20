@@ -1,0 +1,91 @@
+ I want to add products from a file to Merchant Center
+
+
+  If you’re looking for information about adding products from a file to Merchant Center in the classic Merchant Center experience, click here. 
+
+
+
+Share a file with Merchant Center that contains all your product data. Depending on the setup you choose, your product data in Merchant Center can be kept in sync with your product data file automatically.
+
+On this page
+
+
+  Quick answers
+  Get started
+  Next steps
+  Fix an issue
+
+
+
+
+  Quick answers
+
+  How do I create a file containing my product data?
+
+  The content and format of your product data file are very important and must adhere to our Product data specification. Learn more about Creating a product file for Merchant Center.
+
+  What file formats are accepted?
+
+  You can use .txt, .xml, or a .tsv. Files can be up to 4 GB in size.
+
+  Can I upload a file directly?
+
+  Yes, you can upload the file directly to Merchant Center. You should use a compatible file format and make sure that the file size is at or under 4 GB. Keep in mind that your product data won’t sync automatically when you choose this option, and you’ll need to re-submit your product file every time you change it.
+
+
+
+Get started
+
+ Create your product data and make sure that the content and format adhere to Google’s Product data specification.
+
+ In your Merchant center account, go to Products . 
+
+ Under “All products” click Add Products (if there is a drop down list of options select Add another product source).
+
+ Select the option Add products from a file and choose how to share your file with Merchant Center:
+
+
+  Enter a link to your file
+
+    
+      Merchant Center will fetch the file from the URL provided. The link that you provide to the file should start with http://, https://, or sftp://.
+      By default the file will be fetched every 24 hours however the schedule can be adjusted.
+    
+  
+
+
+
+  Add a file using SFTP
+
+    
+      Enter the filename of your product data file, this links the Data Source to the file.
+      Transfer the file to Merchant Center using the SFTP details provided. The first time you use SFTP you will need create a password. Learn more about transferring files using SFTP.
+      Each time a file with the appropriate filename is received via SFTP, your Merchant Center product data will be synced with the contents of the file.
+    
+  
+  Upload a file from your computer
+    
+      Drag and drop the file or use the browse function to upload your file to Merchant Center.
+    
+  
+
+
+ Click Continue.
+
+
+Next steps
+
+
+  We review your products for completeness and compliance with our policies, and inform you of any issues with products that sync to your account.
+  You can check the publishing status of each product from the “Products” page (under the “Status” column). If you don’t want to show some products, you can also change the visibility of the products. Learn more about checking product visibility and status in Merchant Center.
+
+
+
+
+Fix an issue
+
+Issues with your products need to be fixed before customers can view them on Google. All issues with your product data can be found in the "Needs attention" tab of the “Products” section in Merchant Center.
+
+Each product-level issue also contains a “Learn more” link that directs you to specific instructions for fixing the issue. Learn more about Issues in Merchant Center.
+
+             Was this helpful?How can we improve it?YesNoSubmit       

@@ -1,0 +1,47 @@
+ Remove a feed or feed label
+
+To remove a feed, click Products in the navigation panel in your Merchant Center account. Then, click Feeds. Product data that has been removed or deleted from your Merchant Center account may take up to one hour to reflect in your ads and free listings. If you have enabled a scheduled fetch for the deleted feed, the fetch will not take place until the feed is recreated.
+
+Instructions
+
+Remove a feed
+
+
+  Hover over the feed you'd like to delete.
+  Click the delete icon that appears in the row for your feed.
+
+
+The feed will be removed from your list in the Feeds section. Deleting a feed will remove all of the products that are submitted as product data in the feed. If you’re replacing an old feed with a new feed that contains similar product data, the new feed should be uploaded before you remove the old feed. This allows the item IDs and associated history to transfer to the new feed.
+
+If you'd like to remove a specific product from your product data, go to the List section.
+
+Remove a feed label
+
+To remove a feed label from a feed:
+
+
+  Sign in to your Merchant Center account.
+  Under Products in the navigation menu, click Feeds.
+  Select the feed you'd like to update.
+  Go to the Settings tab of the feed.
+  Hover over the row with the feed label, country and language that you'd like to remove, and click the delete icon  that appears.
+
+
+
+  Note: The removal of a feed label is also applicable to Content API feeds. However, the delete icon  only appears when there are 2 or more countries present.
+
+
+Related links
+
+
+  About feeds
+  Add your products
+  Create a feed
+  Show products in multiple target countries
+  Set up feed rules
+  Remove a feed or feed label
+  Test and preview your feed rules
+  How to set up data attributes Part 1 - Required attributes 
+
+
+             Was this helpful?How can we improve it?YesNoSubmit       

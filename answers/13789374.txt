@@ -1,0 +1,74 @@
+ How to fix: Missing link template [link_template]Add the link template [link_template] attribute to your local products
+One or more of your products is missing the link template [link_template] attribute. When using the merchant hosted local storefront (full), you must provide a link template [link_template] with the store code [store_code] ValueTrack attribute to all your local products. You can also add the optional mobile link for merchant hosted local storefront [mobile_link_template] attribute to deliver a merchant hosted local storefront that is optimized for mobile devices and to track mobile clicks.
+
+Your link template must follow the landing page requirements for merchant hosted local storefront (full).
+
+
+  Note: If you're already submitting the ads redirect [ads_redirect] attribute in your local products feed, you must include the store code [store_code] ValueTrack parameter for both the ads redirect [ads_redirect] attribute and the link for merchant hosted local storefront [link_template] attribute.
+
+
+Instructions
+
+
+  Step 1: See the affected products
+
+  
+    
+      Sign in to your Merchant Center account.
+      Select Products on the navigation menu, then click Diagnostics.
+      Click Item issues.
+      Filter the data by selecting Destination: Local inventory ads.
+    
+
+    To download a list (.csv) of all affected products for all issues:
+
+    
+      Click the download icon  next to the filter icon , beneath the graph and above the list of issues.
+    
+
+    To download a list (.csv) of all affected products for a particular issue:
+
+    
+      Find the issue under the “Issue” column, then click the download icon  at the end of the row.
+    
+
+    To see a list of up to 50 products with this particular issue:
+
+    
+      Find the issue under the “Issue” column, then click View examples in the “Affected items” column.
+    
+  
+
+
+
+  Step 2: Update your feed to include the [link_template] attribute with the [store_code] Valuetrack parameter
+
+  
+    
+      Filter the downloaded report so that you only see products with:
+        “Issue title” = Missing value [link_template]
+      Update those products data to ensure link template [link_template] and ads redirect [ads_redirect] have a store code [store_code] ValueTrack parameter.
+    
+  
+
+
+
+  Step 3: Resubmit your product data
+
+  
+    
+  After you’ve updated your product data, resubmit it using one of these methods:
+    
+      Upload a feed
+      Submit through the Content API
+      Import content from an ecommerce platform
+    
+  
+  Next, check that you’ve fixed the issue by making sure it’s no longer listed on the Diagnostics page.
+    
+    Keep in mind: It may take some time for your change to be reflected on the Diagnostics page.
+
+
+  
+
+             Was this helpful?How can we improve it?YesNoSubmit       

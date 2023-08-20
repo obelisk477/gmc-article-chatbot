@@ -1,0 +1,127 @@
+ Link Business Profiles and Merchant Center
+  Buy on Google for Search and Shopping will no longer be available starting September 26, 2023. Eligible merchants will be able to use Buy on Google for YouTube in the US. Learn more about Enabling Buy on Google for YouTube.
+
+
+
+
+
+This article gives you the steps on how to link the information in your Business Profiles with your Merchant Center account for your local products and products that you sell through Buy on Google.
+
+To show your local products in ads or free listings, your Business Profiles must be linked to the Merchant Center account which hosts your local feeds. If your local feeds are hosted in a sub-account in Merchant Center, you must link directly to this sub-account. Linking Business Profiles to your parent Merchant Center account will not automatically link to your sub-accounts.
+
+
+  Note: Only link Business Profiles from countries that you intend to target through ads or free listings.
+
+
+Automatic linking
+
+Automatic linking is approved by default. In order for the automatic linking to work, the Business Profile owner or manager has to be an administrator on the Merchant Center account and logged into the Merchant Center. If there aren't Business Profiles linked already in Merchant Center:
+
+
+  Sign in to your Merchant Center account.
+   Click the tools and settings icon .
+  Select "Linked accounts" under "Settings".
+  Click the Business Profiles tab.
+  If your email address is listed under "Business Profile owner & manager", click Link and you are finished.
+  If your email address isn't listed, click the plus button  under "Business Profile owner & manager".
+  Enter the email address you are logged into the Merchant Center with and that's associated with your Business Profiles.
+  Merchant Center will automatically request and approve the linking if you are both an administrator in your Merchant Center account as well as a manager or owner of your Business Profiles.
+  To verify that the linking was approved automatically, you might have to refresh your page.
+
+
+Manually linking
+
+If the owner or manager of the Business Profiles you want to link to your Merchant Center account isn't an administrator on your Merchant Center account, follow the steps outlined below to have a Business Profile owner or manager approve the linking.
+
+Step 1: Send a linking request
+
+Anyone who has administrator access to your Merchant Center account can request to link Business Profiles to the Merchant Center account. Learn how to add users as administrators to your Merchant Center account
+
+To send a linking request, follow the steps below:
+
+
+  Sign in to your Merchant Center account.
+  Click the tools and settings icon .
+  Select "Linked accounts" under "Settings".
+  Click the Business Profiles tab.
+  Click the plus button  under "Business Profile owner & manager".
+  Enter the email address of a Business Profile owner or manager.
+  Click Send request. 
+
+
+Step 2: Approve the linking request
+
+After you send a request, the Business Profile owner or manager needs to sign in to the Business Profile Manager to accept the request.
+
+You can view the status of the linking request in the Business Profiles tab of your Merchant Center account. Review the different status types below:
+
+
+  Linked: The request is approved. You can now add a business group.
+  Pending: The request is still pending. Access your Business Profile Manager or contact the Business Profile owner or manager to approve the request.
+  Rejected: The request hasn’t been approved. Before you can add Business Profiles, a Business Profile owner or manager needs to be linked.
+  Not linked: If your email address is already displayed, click Link.
+
+
+Add Business groups
+
+If there is only one business group available across all linked Business Profiles, it will be automatically selected.
+
+To manually select a business group for your Merchant Center account, follow the steps below:
+
+
+  Sign in to your Merchant Center account.
+  Click the tools and settings icon .
+   Select "Linked accounts" under "Settings".
+  Click the Business Profiles tab.
+  Click Add business group under "Business groups".
+  Choose a business group.
+  Click Add group.
+
+
+You can cancel your business group at any time. Under "Business groups", click Remove under "Action". This action removes the business group that had been selected. If you have live local products showing in ads or free listings, this will cause them to stop serving until there is a business group added to your Merchant Center account.
+
+
+  The store codes in your Business Profiles must exactly match the store codes in your local product inventory feed including capitalization and spaces. Separately, your stores must operate with a storefront that is physically accessible to customers so your Business Profiles need to reference an address. Learn how to add an address to your Business Profiles
+
+
+FAQs
+
+Expand all Collapse all
+
+Can multiple Business Profile owners or managers be linked to one Merchant Center account?
+
+  
+    Yes. You can link multiple Business Profile owners or managers to one Merchant Center account. However, you can only add one business group from any one of the Business Profile owners or managers that you’ve linked.
+  
+
+
+Can one Business Profile owner or manager be linked and used for multiple Merchant Center accounts?
+
+  
+    Yes. One Business Profile owner or manager can be linked across multiple Merchant Center accounts.
+  
+
+
+Can I add multiple business groups? There are multiple Business Profiles across multiple accounts that I wish to link.
+
+  
+    No. You can only add one business group that is associated with a Business Profile owner or manager. If you want to add a specific set of Business Profiles, include them all in a single business group.
+  
+
+
+How do I add a set of Business Profiles?
+
+  
+    Before you can add a business group, a Business Profile owner or manager needs to be linked to your Merchant Center account. After the linking of the Business Profile owner or manager has been approved, you can select the business group that contains the relevant Business Profiles that you want to associate with your Merchant Center account. In case not all Business Profiles are in the business group you’ve selected, transfer the Business Profiles to the relevant business group.
+  
+
+
+If there isn’t a Business Profile owner or manager linked to my Merchant Center account but there is a business group added, will I lose my currently added Business Profiles if I request linking to a Business Profile owner or manager?
+
+  
+    If you set up a business group before 2018, you may not see your Business Profile owner or manager explicitly linked. It’s recommended to send a linking request to your Business group's owner or manager. This action will not require you to re-add the business group.
+
+    By linking the Business Profile owner or manager to your Merchant Center account, other administrators in your Merchant Center account can view and manage the Business Profile information.
+  
+
+             Was this helpful?How can we improve it?YesNoSubmit       

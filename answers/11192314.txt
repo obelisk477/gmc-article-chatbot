@@ -1,0 +1,56 @@
+ Vehicle ads onboarding guideEnable vehicle ads in your Smart Shopping campaignsNext: Enable vehicle ads in your Performance Max campaigns
+
+
+  This is step 7b of the vehicle ads onboarding guide.
+
+
+
+  Note: All vehicle ads campaigns will be upgraded to Performance Max by September 2023.
+
+
+
+All existing vehicle ads Smart Shopping campaigns will be upgraded to Performance Max by September 2023, bringing you additional inventory and formats to reach new customers. This page details how to set up and optimize a Smart Shopping Campaigns to run your vehicle ads.
+
+You need to have an active Shopping campaign in your Google Ads account. If you don’t have one, create a Google Ads account.
+
+There are a number of ways to customize your vehicle ads setup and improve your performance.
+
+Instructions
+
+
+  
+    Note: To complete these actions, your Google Ads and Merchant Center accounts must be linked. Learn more about linking your Merchant Center and Google Ads accounts
+  
+
+
+
+  Log in to your Google Ads account.
+  Follow the steps to create a Smart Shopping campaign.
+  When prompted, check the box for “Show vehicle ads” and click Save.
+    
+      This option can only be enabled during campaign creation. If the box is not checked before saving, you’ll need to create a new campaign.
+    
+  
+
+
+
+  It may take up to 48 hours before your vehicle ads begin to serve.
+
+
+Implementation guide
+
+
+  Set up your accounts
+  Enable the vehicle ads program
+  Add your business information
+  Create a primary feed
+  Register and submit your feed
+  Link your Business Profile and select your location group
+  Create, register, and submit your store feed (Optional)
+  Complete website policy review
+  Link your Merchant Center and Google Ads accounts
+  Enable vehicle ads in your Smart Shopping campaigns
+  Enable vehicle ads in your Performance Max campaigns
+
+
+Next: Enable vehicle ads in your Performance Max campaigns             Was this helpful?How can we improve it?YesNoSubmit       

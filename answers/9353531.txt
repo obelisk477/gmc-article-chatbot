@@ -1,0 +1,97 @@
+ GCR badge code troubleshooting
+
+The article describes some common errors that you might encounter when implementing the GCR badge code.
+
+The badge is not visible and other display issues
+
+The badge can take one of the following forms
+
+
+  Floating: The badge appears in either the bottom left or bottom right of the page.
+  Inline: The badge appears where you inserted the snippet.
+  With seller rating: The badge includes the star rating, if applicable.
+  Without seller rating: The badge does not include the star rating.
+
+
+If the badge is not visible on the page, look for the following possible sources of problems:
+
+
+  
+    
+      Problem
+      Diagnosis
+    
+    
+      Accessing the page on the mobile device
+      The Google Customer Reviews badge is not displayed on phones or tablets
+    
+    
+      The HTML source does not contain the badge and language code
+      View the HTML source in the browser and check that exactly one instance of the badge code blocks appear on the page.
+    
+    
+      The badge is off-screen or blocked by other elements
+      The badge must be rendered beyond the boundaries of the viewable area. Try scrolling vertically and horizontally around the page to see the badge.
+    
+    
+      The badge text is always in English, regardless of the language setting, and the star ratings are grayed out
+      This is expected behavior if you have not reached the threshold to display your ratings. Your business must have enough unique reviews for a country within the last 12 months across Google Customer Reviews or our third party review partners to meet the threshold. The number of reviews needed can vary by merchant, but most merchants are able to obtain a rating after collecting 100 or more eligible reviews.
+    
+    
+      A seller rating is shown in some columns, but not others
+      The badge will show seller ratings in a country
+    
+  
+
+
+The page encounters JavaScript errors
+
+The following table lists common sources of issues with JavaScript:
+
+
+  
+    
+      Problem
+      Diagnosis
+    
+    
+      Merchant ID is missing or invalid
+      
+      While implementing the badge code, the merchant ID (merchant_id) is required. You must set its value in the call to the render () function within the badge's JavaScript block. You can get the merchant ID from the Google Merchant Center.
+      
+    
+    
+      DOCTYPE must be HTML 5
+      
+      Be sure that all pages that use the snippet are using the HTML5 DOCTYPE:
+
+      <!DOCTYPE html>
+      
+    
+    
+      
+      position is invalid
+      
+      
+      The value of the optional position parameter can be one of the following strings:
+
+      
+        "BOTTOM_LEFT"
+        "BOTTOM_RIGHT"
+        "INLINE"
+      
+      
+    
+    
+      
+      lang is invalid
+      
+      The value of the lang parameter in the language block must be one of the values listed. It must be a string, surrounded with quotes. If you do not specify the language, then the language setting in the user's browser is used.
+    
+    
+      Your browser is unsupported
+      Your browser must support HTML 5. Update your browser to the latest version.
+    
+  
+
+             Was this helpful?How can we improve it?YesNoSubmit       

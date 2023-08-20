@@ -1,0 +1,39 @@
+ Linking Merchant Center and Display & Video 360
+
+The steps described here are for advertisers with an existing Display & Video 360 account only.
+
+Display & Video 360, Google Marketing Platform's demand-side platform, works with ad exchanges, third-party data providers, and other products in the Google Marketing Platform suite (such as Campaign Manager 360 and Search Ads 360) to provide a single place to manage media buys and buy ad inventory in real-time.
+
+Before you can create dynamic creatives powered by Google Merchant Center, you must first link your Merchant Center account to your advertiser in Display & Video 360. Once you've linked your Merchant Center account, all of the information in your product data feed will be accessible in Display & Video 360 for creating product-level dynamic remarketing creatives.
+
+
+Your product data will be read-only in Display & Video 360, so you’ll continue to make updates to this data directly in Merchant Center.
+
+Linking to Display & Video 360 from Merchant Center
+
+You can link your Display & Video 360 account to Merchant Center in a few steps:
+
+
+  In your Merchant Center account, go to the 3-dot icon dropdown and and then click Account linking.
+  Select Display & Video 360.  
+  Click the plus button.
+  Enter the ID of your advertiser in Display & Video 360, then click Save.
+
+
+
+  If you use a multi-client account in Merchant Center, you can link either the parent account or individual sub-accounts to Display & Video 360. If you link the parent account, you’ll be able to use product data from every sub-account in your creatives in Display & Video 360.
+
+
+
+Manage your linked accounts
+
+Once you’ve linked your Merchant Center and Display & Video 360 accounts, you can manage your linked accounts from Merchant Center or unlink any account at any time.
+
+If you need to unlink your accounts, go to the Google Marketing Platform section and select Unlink next to the advertiser ID.
+
+Learn more about dynamic creatives in Display & Video 360
+
+If you already have a Display & Video 360 account, you can learn more about setting up dynamic creatives with product data from Merchant Center by signing into the Display & Video 360 help center.
+
+If you don’t have a Display & Video 360 account, learn more about buying display ads with Display & Video 360.
+             Was this helpful?How can we improve it?YesNoSubmit       

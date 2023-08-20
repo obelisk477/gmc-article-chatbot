@@ -1,0 +1,187 @@
+ Use Google’s AI to display your sneaker products in 360-spin
+
+Products with 3D imagery have 50 percent more user engagement when compared to products with 2D images. If you are a merchant who owns 3D content, you can display your products in 3D and augmented reality on Google Search.
+
+While many merchants already have 3D models available, we know creating these assets can be expensive and time consuming, often requiring hundreds of product photos and costly technology. With Google’s AI technology, you can now create 360-degree spins of sneaker products using just a handful of still photos.
+
+
+On this page
+
+
+  Requirements
+  How it works
+  Frequently asked questions
+
+
+
+Requirements
+
+
+  You can create a 360-spin of a sneaker product by uploading high-resolution images from at least 5 angles to Google Merchant Center, including the following:
+    
+      Front
+      Back
+      Left
+      Right
+      Top
+      Bottom and Perspective are optional
+        
+  
+    
+      Inputs
+      AI Generated 3D Spin
+    
+    
+      
+      
+  
+    
+      Right / Left
+      
+      
+    
+    
+      Front / Back
+      
+      
+    
+    
+      Top / Bottom
+      
+      
+    
+    
+      Perspective
+      
+    
+  
+
+
+      
+      
+    
+  
+
+
+      
+    
+  
+  There should be a single sneaker per image of the same color, foot, and size. For example, a red left foot sneaker of size 9M.
+  It is best if all images are from the same photo shoot.
+  Images can be either portrait (4:3) or landscape (16:9):
+
+
+
+  
+    
+      
+      Resolution
+      
+      
+      Portrait (4:3)
+      
+      
+      Landscape (9:16)
+      
+    
+    
+      Minimum
+      693x520
+      450x800
+    
+    
+      Suggested
+      1182x888
+      768x1366
+    
+  
+
+
+Once these images are uploaded to Google Merchant Center or the Google Manufacturer Center, Google AI will automatically generate a 360 spin of your product and display it on Google Search. This process may take up to 2 weeks.
+
+
+  
+    Note: The 360-degree spin feature is currently available only for sneakers and for merchants in the US.
+  
+
+
+
+How it works
+
+Simply upload your high-resolution images to your web server.
+
+If you have a Google Merchant Center account:
+
+To upload the images, use the image link [image_link] or additional image link [additional_image_link] attributes in your feed or via the Content API. Make sure your high-resolution images use the exact same file name and have a URL link to successfully create a 360-spin of your sneaker product. Google will automatically pick up the improved images next time we process your feed.
+
+If your high-resolution images have new or different file names, follow the steps below:
+
+
+  
+    Sign in to your Merchant Center account.
+  
+  Update the image link [image_link] or additional image link [additional_image_link] attributes in your feed.
+
+
+
+  
+    Note: You can upload a feed or submit the feed via Content API or by importing content from an ecommerce platform to Merchant Center.
+  
+
+
+If you don't have a Google Merchant Center account:
+
+
+  Use robots meta tags, and set the maximum image preview size to “large”: <meta name="robots" content="max-image-preview:LARGE">
+  To add high-resolution product images directly in your Google Business Profile:
+    
+      Locate your Business Profile on Search or Maps.
+      Click Edit Products, then Add Product.
+      Click Select Photo, to upload your photo.
+      Now Sign up for Merchant Center and link your Business Profile account to Merchant Center to easily share and edit more robust image details.
+    
+  
+
+
+If you manage your Google Merchant Center account through Shopify:
+
+
+  From your Shopify admin, upload high-resolution images in the Media section of your Products page.
+  Save changes.
+
+
+
+  Note: Make sure you have the Google & YouTube App installed on Shopify and your Google Merchant Center account linked to your Shopify store so that your changes can be automatically updated on all Google surfaces.
+
+
+
+Frequently asked questions
+
+
+  What should I do if I don’t see my 360-spin asset with products within 2 weeks?
+
+  
+    
+      If you don't see your 360-spin asset with your products within 2 weeks, this could be due to the images not meeting our requirements. Confirm the size, angle, and resolution of your image, then ensure that the image name and URL match the images on your web server. If all are correct, reach out to the Google Customer Support using the contact form or directly from your Merchant Center account: Help  > Help center and support > Contact us.
+    
+  
+
+
+
+  Can Google create glTF (3D) models from images?
+
+  
+    
+      No, we can't create a 3D asset (gITF) from images. We can only create a 360-spin asset from your images of your sneaker products. You can create a 3D glTF model of your products with the help of one of our partners, including CGTrader, Epigraph, Ocavu, and VNTANA.
+    
+  
+
+
+
+Related links
+
+
+  Image link [image_link]
+  Additional image link [additional_image_link]
+
+             Was this helpful?How can we improve it?YesNoSubmit       

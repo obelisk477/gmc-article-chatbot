@@ -1,0 +1,47 @@
+ Product Ratings basics
+
+The Product Ratings program allows you to display aggregated reviews for your products to customers shopping on Google. Product ratings are shown in ads and free product listings, appearing as 1 to 5-star ratings that also display the total number of reviews for the product.
+
+
+
+These ratings and reviews help with product research and purchase decisions, driving more qualified customers to your product pages.
+
+Star ratings represent the aggregated rating for the product, compiled from multiple sources including merchants, review aggregators, review sites, and Google users.
+
+How to participate
+
+Product Ratings requires that you have a minimum of 50 reviews across all of your products.
+
+If you work with a supported reviews aggregator, you can ask them to submit your product reviews to Google for you. See the list of supported reviews aggregators
+
+If you don’t work with a supported reviews aggregator, or would prefer to submit your reviews yourself, you can sign up for Product Ratings and subsequently submit your product reviews periodically through Merchant Center. For this option, you should have a Merchant Center account associated with your business website.
+
+
+  Note: You need to upload a product review feed once a month.
+
+
+If you don’t currently collect reviews for the products you sell, you can begin doing so for free by signing up for Google Customer Reviews.
+
+Learn more about submitting product reviews data
+
+
+
+Keep in mind
+
+Ratings and reviews are matched to products based on a number of factors, the strongest being globally unique product identifiers such as GTINs (Global Trade Item Numbers). Without GTIN data, Google will attempt to match a review through other information such as SKU (Stock Keeping Unit), Brand + MPN (Manufacturer Part Number) pairs, and product URLs. However, these identifiers generally don't offer as good a match as GTINs. Without GTINs, Google may not be able to match all of your reviews to products. Learn more about unique product identifiers
+
+Reviews and star ratings may not always show. Google will display star ratings when the system determines that the information is accurate and relevant for customers’ needs.
+
+
+  Note: Reviews aren't verified by Google.
+
+
+
+Availability
+
+Product Ratings can be used in countries where Shopping ads and free product listings are available. To be eligible for displaying star ratings on ads and listings, you must adhere to these Product Ratings policies.
+
+
+  Note: Product Ratings aggregates customer reviews of the products you sell. If you’re interested in displaying customer reviews of your overall business, learn more about Seller Ratings.
+
+             Was this helpful?How can we improve it?YesNoSubmit       

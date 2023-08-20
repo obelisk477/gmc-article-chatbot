@@ -1,0 +1,100 @@
+ How to fix: Automatic item updates active: price [price]Your product's price value was automatically updated to match the data on your landing page
+
+For one or more of your products, you submitted a value for the price [price] attribute in your product data that differs from the price listed on your website. Google updated the price of these products because you enabled automatic item updates for incorrect prices.
+
+Note that the price of these products may currently match the price on the landing page, because these products might have been updated. However, when we compared your product data to your website (see timestamp), we found a mismatch.
+
+Although we updated some of these products with the price information from your website, we continue to treat products with mismatches as critical errors that can lead to account suspension.
+
+To improve the quality of your data and provide a good user experience, try the following:
+
+
+  Schedule feed uploads or updates via the Content API immediately after the products have been updated on your website. This will help you avoid errors due to the time difference between updates on your website and updates of your Merchant Center product data.
+  If you use the sale price [sale_price] attribute, make sure that the time period in which the sale is active is specified correctly with the sale price effective date [sale_price_effective_date] attribute and that the timezone is correct. When a sale is active, the sale price is shown as the current price in Shopping search results.
+  If you have local products, you may need to check the local product inventory feed as well as the standard product feed to identify and rectify the incorrect price.
+  For products sold in bulk quantities, you should submit the total price for the minimum number of items sold. Landing pages must list prices in the appropriate currency of the target country, and in the same currency as submitted in your product data.
+  To manage your settings for automatic item updates, visit the automatic item updates settings page, located in the Tools and settings menu, which you can access by clicking the tools icon .
+  In order to detect and update mismatches, Google crawls the landing pages listed in your Merchant Center product data. You can increase Google's crawl rate to allow us to cover more products on your website. You can revert a specific automatic update by uploading updated product data via the feed or the Content API.
+
+
+Instructions
+
+
+  Step 1: See the affected products
+
+  
+    
+  Sign in to your Merchant Center account.
+  Select Products on the navigation menu, then click Diagnostics.
+  Click the Item issues tab to see current issues affecting your products.
+
+
+To download a list (.csv) of all affected products for all issues:
+
+
+  Click the download button  next to the filter button , beneath the graph and above the list of issues.
+
+
+To download a list (.csv) of all affected products for a particular issue:
+
+
+  Find the issue under the “Issue” column, then click the download button  at the end of the row.
+
+
+To see a list of up to 50 products with this particular issue:
+
+
+  Find the issue under the “Issue” column, then click View examples in the “Affected items” column.
+
+
+  
+
+
+
+  Step 2: Submit the same values for the price, sale_price and sale_price_effective_date attributes from your landing page for microdata price, priceCurrency, validFrom and validThrough
+
+  
+    
+      
+        Filter the downloaded report so that you only see products with:
+          “Issue title” = Automatic item updates active: price [price]
+        Check your product data for those products (using the ID), and make sure that each product has the same value for price [price] (or sale price [sale_price] and sale price effective date [sale_price_effective_date]) as is represented on your own site and in its structured data.
+      
+    
+  
+
+  
+    Step 3: Resubmit your product data
+
+    
+      
+  After you’ve updated your product data, resubmit it using one of these methods:
+    
+      Upload a feed
+      Submit through the Content API
+      Import content from an ecommerce platform
+    
+  
+  Next, check that you’ve fixed the issue by making sure it’s no longer listed on the Diagnostics page.
+    
+    Keep in mind: It may take some time for your change to be reflected on the Diagnostics page.
+
+
+    
+  
+
+  Related links
+
+  
+    About item disapprovals for policy violations
+    Price [price]
+    Sale price [sale_price]
+    Sale price effective date [sale_price_effective_date]
+    About automatic item updates
+    schema.org: price property
+    schema.org: priceCurrency property
+    schema.org: validFrom property
+    schema.org: validThrough property
+  
+
+             Was this helpful?How can we improve it?YesNoSubmit       

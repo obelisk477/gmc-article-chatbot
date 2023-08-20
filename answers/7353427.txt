@@ -1,0 +1,215 @@
+ Structured data markup
+
+Structured data markup helps define the properties of the products in your merchant hosted local storefront and store pickup data. Adding required structured data markup helps to ensure that Google can review the accuracy of the local product data.
+
+Merchant hosted local storefront structured data
+
+Add required structured data markup from the table below to your product landing pages:
+
+Note: Schema.org markup can be used on web pages written in any language. The markup, like HTML, is in English. Schema.org values are case-sensitive.
+
+
+  
+    
+      Schema.org value
+      Product or inventory feed specification value
+      Value type
+    
+  
+  
+    
+      Product > sku
+      itemid
+      SKU string
+    
+    
+      Product > offers > price
+      price
+      This field should only contain the price value. The price should be a number without separators between thousands or spaces (e.g. '8.99').
+    
+    
+      Product > offers > priceCurrency
+      price (currency)
+      Price currency always has to be specified in the in 3-letter ISO 4217 format (e.g. 'USD', 'GBP', 'EUR'), and the currency should meet the language and currency requirements for your target country.
+    
+    
+      Product > offers > availability
+      availability
+      Valid ItemAvailability value. The most common schema.org values are InStock and OutofStock.
+    
+    
+      Product > offers > itemCondition
+      condition
+      Valid OfferItemCondition. The most common schema.org values are NewCondition and UsedCondition.
+    
+    
+      Product > offers > availableAtOrFrom > branchCode
+      store code
+      A unique alphanumeric identifier for each local store. You must use the same store codes that you provided in your Business Profiles.
+    
+  
+
+
+Store pickup structured data
+
+To show store pickup annotations on Google.com for offers going to your store pickup landing page, add the following values:
+
+Note: Schema.org markup can be used on web pages written in any language. The markup, like HTML, is in English. Schema.org values are case-sensitive.
+
+
+  
+    
+      Schema.org property
+      
+      Product or inventory feed specification value
+      
+      Value type
+    
+    
+      Product > sku
+      itemid
+      SKU string
+    
+    
+      Product > offers > price
+      price
+      
+      This field should only contain the price value. The price should be a number without separators between thousands or spaces (e.g. '8.99').
+      
+    
+    
+      Product > offers > priceCurrency
+      price (currency)
+      
+      Price currency always has to be specified in the 3-letter ISO 4217 format (e.g. 'USD', 'GBP', 'EUR'), and the currency should meet the language and currency requirements for your target country.
+      
+    
+    
+      Product > offers > availability
+      availability
+      
+      Valid ItemAvailability value. The most common schema.org values are InStock and OutofStock.
+      
+    
+    
+      Product > offers > itemCondition
+      condition
+      
+      Valid OfferItemCondition. The most common schema.org values are NewCondition and UsedCondition.
+      
+    
+    
+      Product > offers > availableAtOrFrom > branchCode
+      store code
+      A unique alphanumeric identifier for each local store. You must match the Store code to the code you provided in your Business Profiles.
+    
+    
+      Product > offers > availableDeliveryMethod
+      
+      --
+      
+      The OnSitePickup schema.org value indicates product is available for in-store pickup.
+    
+    
+      Product > offers > potentialAction
+      pickup method
+      The BuyAction schema.org value indicates product can be purchased online for in-store pickup. The ReserveAction schema.org value indicates product can be reserved online for in-store pickup.
+    
+    
+      Product > offers > deliveryLeadTime
+      pickup sla
+      The delivery lead time should only be a 1 or a 0. This is used to indicate the estimated number of days until the item is available for pickup, as follows:
+      0 = Same-day
+      1 = Next-day
+    
+  
+
+
+Learn more about structured data for Merchant Center
+
+Test your markup
+Test your Schema.org implementation with the Rich Results Tool. Visit the Rich Results Test to learn more about using the tool, debugging any issues, and interpreting your results in the tool.
+
+Requirements for structured data markup
+
+
+  Structured data markup must be present in the HTML returned from the web server. The structured data markup can’t be generated with Javascript after the page has loaded.
+  Your landing page cannot change based on information about the user, such as if you adapt prices based on a user’s IP address or browser type.
+  Structured data must match the values that are shown to the user. Providing incorrect data on your product landing pages is a violation of our web developer guidelines.
+
+
+Examples
+
+
+  Microdata example
+
+  
+    <div itemscope itemtype="http://schema.org/Product">
+        <meta itemprop="sku" content="123456"/>
+        <meta itemprop="name" content="Acme White 17-inch Microwave"/>
+        <div itemprop="offers" itemscope itemtype="http://schema.org/Offer"> <!-- Online offer -->
+          <span itemprop="price" content="55.00"/>
+          <meta itemprop="priceCurrency" content="USD"/>
+          <link itemprop="availability" href="http://schema.org/InStock"/>
+          <link itemprop="itemCondition" href="http://schema.org/NewCondition"/>
+        </div>
+        <div itemprop="offers" itemscope itemtype="http://schema.org/Offer"> <!-- Local offer -->
+          <span itemprop="price" content="55.00"/>
+          <meta itemprop="priceCurrency" content="USD"/>
+          <link itemprop="availability" href="http://schema.org/InStock"/>
+          <link itemprop="itemCondition" href="http://schema.org/NewCondition"/>
+          <div itemprop="availableAtOrFrom" itemscope itemtype="http://schema.org/Place">
+            <span itemprop="name" content="Acme Store Name"/>
+            <span itemprop="branchCode" content="12345"/>
+          </div>
+          <link itemprop="availableDeliveryMethod" href="http://schema.org/OnSitePickup"/>
+          <link itemprop="potentialAction" itemscope itemtype="http://schema.org/BuyAction"/>
+          <div itemprop="deliveryLeadTime" itemscope itemtype="http://schema.org/QuantitativeValue">
+            <span itemprop="value" content="0"/>
+          </div>
+        </div>
+      </div>
+  
+
+
+
+  JSON-LD example
+
+  
+    {
+        "@context": "http://schema.org/",
+        "@type": "Product",
+        "sku": "123456",
+        "name": "Acme White 17-inch Microwave",
+        "offers": [{
+          "@type": "Offer",
+          "price": "55.00",
+          "priceCurrency": "USD",
+          "availability": "http://schema.org/InStock",
+          "itemCondition": "http://schema.org/NewCondition"
+        }, {
+          "@type": "Offer",
+          "price": "55.00",
+          "priceCurrency": "USD",
+          "availability": "http://schema.org/InStock",
+          "itemCondition": "http://schema.org/NewCondition",
+          "availableAtOrFrom": {
+            "@type": "Place",
+            "name": "Acme Store Name",
+            "branchCode": "12345"
+          },
+          "availableDeliveryMethod": "http://schema.org/OnSitePickup",
+          "potentialAction": {
+            "@type": "http://schema.org/BuyAction"
+          },
+          "deliveryLeadTime": {
+            "@type": "http://schema.org/QuantitativeValue",
+            "value": 0
+          }
+        }]
+      }
+  
+
+
+
+             Was this helpful?How can we improve it?YesNoSubmit       

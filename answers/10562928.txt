@@ -1,0 +1,236 @@
+ Sync your product data from Merchant Center to Manufacturer Center
+
+Link your Merchant Center account to your Manufacturer Center account to sync your product data. Linking to a Merchant Center account has several benefits, including streamlined feed creation and analytics.
+
+Before you begin
+
+After you link the accounts, products for verified brands in Manufacturer Center are synced with Merchant Center. To avoid syncing issues, make sure that your Manufacturer Center account is verified and approved and that your brands are approved in Manufacturer Center linking your accounts. Learn more about brand verification and approval
+
+
+  
+    Note: You can’t link a Merchant Center account with a data partner account. Learn more about Manufacturer Center data partner accounts
+  
+
+
+How it works
+
+
+  After your account linking request is confirmed, your products will be synced daily. You’ll need to wait up to a day after your accounts have been linked and before products are synchronized. It may take an additional 3-4 days after the first sync before analytics for your products are available.
+
+    
+      
+        Your data is synced from Merchant Center to Manufacturer Center only. Changes that you make in Manufacturer Center don’t sync with your Merchant Center account. Only existing products in Manufacturer Center that are also in Merchant Center are updated during synchronization.
+      
+    
+  
+  As long as at least one product is synced, you’ll see a new feed created in the “Feeds” page in Manufacturer Center. This feed represents the data coming from your Merchant Center account. The name of the feed is the same as the linked Merchant Center account. Although you can’t delete or add new countries or languages in feed settings, you can still change the set of destinations for existing countries and languages.
+    
+      
+        If you have multiple feeds in Merchant Center, they’re synced together as a unique feed in Manufacturer Center. Supplemental feeds and feed rules present in Merchant Center are also applied to synced products in Manufacturer Center.
+      
+    
+  
+  New products or changes to existing products in the linked Merchant Center account are automatically synced with Manufacturer Center. However, attribute values edited directly in your Manufacturer Center account take priority over any attribute values synced from Merchant Center.
+    
+      
+        Deleting a synced feed or product data in Manufacturer Center doesn’t stop the feed or product data from being synced from Merchant Center. If your Merchant Center and Manufacturer Center accounts are linked, any products that you delete are re-added to Manufacturer Center on the next scheduled sync. To prevent the syncing of products from Merchant Center to Manufacturer Center, unlink the accounts.
+      
+    
+  
+
+
+Implementation instructions
+
+Step 1: Send the account linking request
+
+
+  From Manufacturer Center
+
+  
+    
+      
+        Sign in to your Manufacturer Center account.
+        Click the tools icon , and then click Account linking.
+        Click the Merchant Center tab.
+        Click the plus  button.
+          
+            If you have access to the Merchant Center account to be linked, you’ll see a drop-down where you can select one of the accounts. Or, you may enter the Merchant Center account ID.
+            If you don’t have access to that Merchant Center account, you’ll need to enter the Merchant Center account ID.
+          
+        
+        If you have access to the Merchant Center account, click Link.
+        If you don’t have access to the Merchant Center account, click Send request.
+      
+    
+  
+
+
+
+  From Merchant Center
+
+  
+    
+      
+        Sign in to your Merchant Center account.
+        Click the tools icon , and then click Linked accounts.
+        Click the Manufacturer Center tab.
+        Click the plus  button.
+          
+            If you have access to the Manufacturer Center account to be linked, you’ll see a drop-down where you can select one of the accounts. Or, you may enter the Manufacturer Center account ID.
+            If you don’t have access to that Manufacturer Center account, you’ll need to enter the Manufacturer Center account ID.
+          
+        
+        If you have access to the Manufacturer Center account, click Link.
+        If you don’t have access to the Manufacturer Center account, click Send request.
+      
+    
+  
+
+
+Step 2: Approve the account linking request
+
+
+  From Merchant Center
+
+  
+    
+      
+        Sign in to your Merchant Center account.
+        Click the tools icon , and then click Linked accounts.
+        Click the Manufacturer Center tab.
+        Find the correct request in the table, and then click View request.
+        Click Approve.
+      
+    
+  
+
+
+
+  From Manufacturer Center
+
+  
+    
+      
+        Sign in to your Manufacturer Center account.
+        Click the tools icon , and then click Account linking.
+        Click the Merchant Center tab.
+        Find the correct request in the table, and then click View request.
+        Click Approve.
+      
+    
+  
+
+
+Best practices for keeping your synced product data up to date
+
+Keeping your Manufacturer Center and Merchant Center accounts linked ensures that your product data in Manufacturer Center is up to date.
+
+If you don’t see your products synced, but you’ve linked both accounts, learn more about fixing syncing issues.
+
+Contact support (Merchant Center | Manufacturer Center) if you think that a product is clearly marked as belonging to a verified brand and was still not synchronized.
+
+Updating or deleting products in Merchant Center
+
+
+  Updated or deleted product attributes in Merchant Center are reflected in Manufacturer Center automatically. When a synced product is updated or deleted in Merchant Center, the corresponding product is also updated or deleted in Manufacturer Center.
+  Deleting a feed in Merchant Center permanently deletes all synchronized products in Manufacturer Center.
+
+
+Updating or deleting products in Manufacturer Center
+
+
+  Updated or deleted product attributes in Manufacturer Center aren’t reflected in Merchant Center. These changes only occur in Manufacturer Center. If the same product attributes haven’t been updated or deleted in Merchant Center, they’ll be re-synced with Manufacturer Center.
+  Deleting Merchant Center feeds in Manufacturer Center will temporarily delete all synchronized products, but these products will automatically be re-added when your product data syncs again.
+
+
+Stopping products from syncing between accounts
+
+
+  To stop product data from syncing, unlink your Merchant Center and Manufacturer Center accounts.
+  Previously synced product data remains in the Manufacturer Center account.
+
+
+Fix syncing issues
+
+
+  Your brand isn’t recognized by Manufacturer Center
+
+  
+    Issue reason: 
+
+    
+      The brand name provided in Manufacturer Center doesn't match the brand name in Merchant Center.
+    
+
+    How to fix: 
+
+    
+      Make sure your brand name is identical in Merchant Center and Manufacturer Center.
+    
+  
+
+
+
+  No product was synced for one or more of your brands
+
+  
+    Issue reason:
+
+    
+      Your Manufacturer Center account is in review or has been disapproved.
+      One or more of your brands in Manufacturer Center are pending review or have been disapproved.
+      Your brand name in Merchant Center doesn't match the brand name in Manufacturer Center.
+      Your products are missing the brand [brand] attribute in Merchant Center.
+    
+
+    How to fix: 
+
+    
+      Complete the email verification process for your Manufacturer Center account. Visit the “Account settings” page to check if your email address is pending verification and that the email owner approved the account. If your account is disapproved, review the Manufacturer Center requirements and contact support if needed.
+      Make sure your brands are approved in Manufacturer Center.
+      Make sure that the brand names are the same in both accounts.
+      Make sure that the correct value is set for the brand [brand] attribute for products in your linked Merchant Center account.
+    
+  
+
+
+
+  Synced products are disapproved in Manufacturer Center
+
+  
+    
+      Issue reason:
+
+      
+        Disapproved products are most likely due to missing or wrong product attributes. Visit the “Diagnostics” page in Manufacturer Center for a complete overview of product data issues.
+      
+
+      How to fix: 
+
+      
+        Submit the required attributes or edit incorrect information. Learn more about product data issues
+      
+    
+  
+
+
+
+  Your accounts are linked, but your products haven’t synced yet or a feed hasn’t been created in Manufacturer Center
+
+  
+    
+      Issue reason:
+
+      
+        If you haven’t seen any activity after 3-4 days from linking your Merchant Center and Manufacturer Center account, it’s likely due to a missing brand [brand] attribute in Merchant Center.
+      
+
+      How to fix:
+
+      
+        Add the brand [brand] attribute in Merchant Center for your brands. It should match the exact brand name registered in Manufacturer Center.
+      
+    
+  
+
+             Was this helpful?How can we improve it?YesNoSubmit       

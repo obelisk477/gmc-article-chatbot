@@ -1,0 +1,58 @@
+ Add a minimum order value
+
+If you require that customers purchase at least a minimum amount (for example, 30 USD) before you’ll provide shipping (either at an additional cost or for free), then you can enter that amount when setting up your shipping settings. If some of your products are below this minimum order value, a customer cannot buy the products on their own. In these situations, it’s especially important that you set your minimum order value.
+
+If you offer free shipping beginning at a certain order amount and charge a shipping cost for any lower amount, do not add a minimum order value in your shipping settings. Only set the minimum order value if you do not ship orders below that amount at all.
+
+
+  Note: For Buy on Google, any item listed below the minimum order price will be disapproved in Merchant Center. Contact Google before configuring a minimum order value. Learn more about setting up shipping and taxes for Buy on Google
+
+
+This article explains how to add a minimum order value to your shipping settings.
+
+How it works
+
+Depending on your shipping service, you might require that customers spend a minimum amount on your site before you’re able to ship their products. If the minimum order value is higher than what you charge for any of the products you submit to Merchant Center, then you’ll also need to submit that minimum order value through your shipping settings.
+
+If you require that a customer purchase a minimum quantity of a specific product in order for that product to be shipped, you must specify the value that corresponds to this minimum quantity as the minimum order value. The value you submit for the minimum order value should be the total price for all products included in the minimum order quantity. Learn more on how to submit price for products sold in bulk and minimum order value
+
+Customers will see this value on your ad so they know about shipping restrictions before going to your website. Being up front with this information prevents you from paying for clicks from people who aren’t intending to buy additional products.
+
+Even for countries where you’re not required to provide shipping cost, you’ll need to provide any minimum order value that you require.
+
+
+  Note: Minimum order value must be set in the account-level shipping settings. If you use the shipping attribute to specify your shipping cost, this will override your account-level settings and will cancel out the minimum order value that you set. Make sure to set account-level shipping costs if you need to specify a minimum order value.
+
+
+When it shows
+
+Customers won’t necessarily see the minimum order value on every one of your ads or free product listings. To understand when customers will see your minimum order value, keep in mind the following:
+
+
+  The cheapest shipping cost from the available shipping services for a product will determine whether or not a minimum order value is shown.
+  Customers will only see the minimum order value when the product’s price is lower than the minimum order value.
+  Customers won’t see the minimum order value when the product’s price is equal to or greater than the minimum order value.
+
+
+Instructions
+
+For each shipping service that requires a minimum order value, add this value (for example, 30 USD) in the Advanced settings field during setup.
+
+If only certain products are affected, you can apply a minimum order value to only those products with a shipping label:
+
+
+  First for each product that’s affected, use the shipping label [shipping_label] attribute.
+  Then when setting up your shipping settings, filter products by that shipping label.
+
+
+If the minimum order value can vary by customer (depending on their membership in a program, the time of their last order, etc.), provide the minimum order value that would allow customers to get their order shipped.
+
+Learn more on how to submit the price attribute with minimum order value
+
+Related links
+
+
+  Set up shipping settings
+  About shipping settings
+
+             Was this helpful?How can we improve it?YesNoSubmit       

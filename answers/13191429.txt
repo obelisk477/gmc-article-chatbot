@@ -1,0 +1,60 @@
+ How to Fix: Missing New Vehicle’s Price (OEMs only)
+
+You’ve uploaded an automobile offer for which the condition [condition] attribute is set to “new”, but you have not included a valid value for either the required all-in price [vehicle_all_in_price] attribute or the MSRP [vehicle_msrp] attribute.
+
+As a result, your offer will not function properly.
+
+This issue can be fixed by re-uploading your offer with the missing information.
+
+Instructions
+
+Step 1: See the affected products
+
+
+  Sign in to your Merchant Center account.
+  Select Products on the navigation menu, then click Diagnostics.
+  Click the Item issues tab to see current issues affecting your products.
+  Click the filter icon to filter by destination and select Vehicle ads.
+
+
+To download a list (.csv) of all affected products for all issues:
+
+
+  Click the download button next to the filter button, beneath the graph and above the list of issues.
+
+
+To download a list (.csv) of all affected products for a particular issue:
+
+
+  Find the issue under the “Issue” column, then click the download button at the end of the row.
+
+
+To see a list of up to 50 products with this particular issue:
+
+
+  Find the issue under the “Issue” column, then click View examples in the “Affected items” column.
+
+
+Step 2: Add the missing price information
+
+Upload an offer with at least one of the following two attributes:
+
+
+  All-in price [vehicle_all_in_price]
+  MSRP [vehicle_msrp]
+
+
+Step 3: Resubmit your product data
+
+
+  After you’ve updated your product data, resubmit it using one of these methods:
+    
+      Upload a feed
+      Submit through the Content API
+      Import content from an ecommerce platform
+    
+  
+
+Next, check that you’ve fixed the issue by making sure it’s no longer listed on the Diagnostics page.
+
+Keep in mind: It may take some time for your change to be reflected on the Diagnostics page.             Was this helpful?How can we improve it?YesNoSubmit       

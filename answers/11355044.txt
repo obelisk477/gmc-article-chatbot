@@ -1,0 +1,12 @@
+ How to fix: Missing valid ship-to-store store codeAdd a valid store code for the ship-to-store fulfillment of the local vehicle offer in your product feed
+
+No valid store code has been provided in your product feed for your ship-to-store vehicle ad. As a result, the ship-to-store fulfillment option won't be considered for this offer when ads are shown.
+
+In addition to providing the vehicle fulfillment [vehicle_fulfillment] attribute with the option [option] sub-attribute set to ship_to_store, local vehicle offers require that you provide a store code using the store code [store_code] sub-attribute. The store code you submit must match one of the dealership’s existing codes you have provided in your Business Profile.
+
+Related links
+
+
+  Vehicle ads troubleshooting form
+
+             Was this helpful?How can we improve it?YesNoSubmit       

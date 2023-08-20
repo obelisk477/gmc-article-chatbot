@@ -1,0 +1,76 @@
+ How to fix: Inconsistent value: availability [availability] for MHSLF (basic)For your merchant-hosted local storefront (basic), ensure that the availability in your local inventory data matches the availability displayed on your landing page
+
+When someone clicks a local inventory ad or free local product listing on Google, they expect to see the same availability on your landing page as they see in the ad or listing. You may be paying for wasted clicks if someone clicks on a product and then returns to Google because the product is not available for purchase.
+
+
+  Availability mismatches were found between your local inventory ads data and your landing pages. You should have received an email asking you to update your local inventory ads data by a certain date so that the values in your data are consistent with those on your landing page. If mismatching data is detected after this date, your account will be suspended and will no longer be eligible to serve local inventory ads and free local listings.
+
+
+Instructions
+
+Expand all
+
+The merchant-hosted local storefront (basic) implementation shows the availability of a product at a specific store. Accordingly, a click from a merchant-hosted local storefront (basic) local inventory ad must direct to a product landing page where a user can check the availability of a product at a store. Your product landing page must display the same product availability value after searching for a store.
+
+
+  
+    
+      Storefront Type
+      Feed Source
+      Availability Attribute
+    
+    
+      Basic
+      Local Products Inventory Feed
+      Availability [availability]
+    
+  
+
+Step 1: Ensure that availability in your inventory data matches availability on your landing page
+
+
+  
+    Investigate your update process to see what could be causing the problem:
+      
+        Check the warning email for examples of products that were disapproved. Look for a common problem in your product data that could cause availability mismatches.
+        Make sure you’re updating your landing page and inventory data at the same time. Schedule an upload or use the Content API to immediately update your inventory data. This scheduling helps make sure Google has the same data that is displayed on your landing page.
+        Make sure your landing page explicitly indicates in-store availability of the product. You can use terms like “available in store” or “in-stock at store” to show the product availability. If you don’t want to explicitly indicate in-store availability, make sure you indicate when a product is “out of stock” in the store.
+      
+    
+    After you’ve addressed the problem, update the availability [availability] attribute in your inventory data to match your landing page.
+  
+
+Step 2: Resubmit your inventory data
+
+After you’ve updated your inventory data, resubmit it using one of the methods below:
+  
+    Upload a feed
+    Submit through the Content API
+  
+
+Step 3: Wait for your data to be re-crawled
+
+
+  Google will crawl the products listed in your merchant center account. If Google detects that your inventory data availability now matches your landing page availability, your account suspension will be lifted and you will be able to serve local inventory ads again.
+
+
+Tips
+Compare inventory data to your product landing page
+
+
+  
+    Find the link [link] attribute for the example product included in your warning email.
+    Open the link and search for the store listed in your warning email.
+    The availability displayed on this page must match the value submitted for the availability [availability] attribute in your local products inventory feed.
+  
+
+  Example:
+
+  
+    ID [id]: 7
+    Store code [store_code]: 123
+    Availability [availability]: in_stock
+    link: https://www.example.com/products/7
+  
+
+             Was this helpful?How can we improve it?YesNoSubmit       

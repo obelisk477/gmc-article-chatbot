@@ -1,0 +1,31 @@
+ Managing orders and refunds with promotions
+
+This article explains how to calculate and complete refunds for items where promotions were applied. Learn more about promotions
+
+ 
+
+Mapping items in the order to the discounts
+
+Currently, we do not match order line items to the item level discount applied as a result of a promotion. To calculate the correct refund amount, manually map the item to the discount and deduct the promotion value from item net amount. Each line item also has promotion information for each individual product. If you need to calculate the refund, you can do so by deducting the discount for the individual product from the original product price. The necessary information is also available through the Orders API by searching for “promotions.”
+
+
+  Note on invoices: If you are generating invoices for customers, the discounted item prices paid by the customer can be calculated using the same methods for calculating refund amounts as outlined in this article.
+
+
+Example:
+
+A customer purchases three condiments in bulk for $4.99 each with a promotion of 10% off the gross total, but the customer wants to return one of the items. The merchant will need to calculate the refund amount and include the deduction in the return price. If 10% was deducted from $4.99, then the merchant will need to deduct 49 cents from the return price resulting in a refunded price of $4.50. Learn more about supported promotion types
+
+How to process an item level refund for a Quantity Discount
+
+If the total discount depends on the quantity of products sold in one purchase, and a customer initiates a return for a few items in the order, to initiate a refund accordingly, you should distribute the discount equally on all the items within the order.
+
+Example:
+
+If a customer purchases three tee shirts for $30 each and gets $10 off your order, you would divide $80 (the total paid by the customer for the 3 tee shirts) by 3 and refund $26.66 for a single tee shirt.
+
+
+  Need help? Click here to contact Buy on Google support.
+
+
+             Was this helpful?How can we improve it?YesNoSubmit       

@@ -1,0 +1,61 @@
+ Pickup today
+
+Eligibility
+
+The pickup today feature allows you to highlight your omnichannel purchase options directly on your local inventory ads. To use the pickup today feature, you must implement local inventory ads. In addition, for each product that you opt-in to pickup today, you must offer same day or next day pickup from the time the order is placed.
+
+
+  
+    Note: We are offering some retailers, who have enabled pickup today, the opportunity to enhance their local inventory ads by adding a “curbside pickup” badge. This beta feature places an indicator at the top of your ads, letting shoppers know they can take advantage of curbside or contactless pickup.
+
+    To be eligible for the curbside pickup feature you must:
+
+    
+      Enable pickup today
+      Provide a curbside or contactless pickup option to shoppers who purchase products on your website and prefer to pick up at your store
+      Allow curbside or contactless pickup without requiring shoppers to use an app
+    
+
+    Contact your Google representative to learn more.
+  
+
+
+Implementation options
+
+The pickup today feature is compatible with retailers running on merchant hosted local storefront (MHLSF) full or basic.
+
+Here’s how the process works:
+
+
+  
+    
+      Feature Type
+      User experience
+      Shopping annotation displayed
+    
+    
+      MHLSF Full
+      Clicking on a local inventory ad redirects to a product landing page that displays an item’s availability at a specific store and offers the option to buy it online and pick it up at a store nearby.
+      Users will be shown pickup availability text which communicates that the item is available to buy online and pick up at a store nearby.
+    
+    
+      MHLSF Basic
+      Clicking on a local inventory ad will redirect to a product landing page where shoppers can select a store to view the clicked item’s price/availability, with the option to buy it online and pick it up at a store nearby.
+      Users will be shown an annotation which communicates that the item is available to buy online and pick up at a store nearby.
+    
+  
+
+
+Related links
+
+
+  Pickup today with merchant hosted local storefront (full)
+  Pickup today with merchant hosted local storefront (basic)
+
+
+
+
+
+  If you're having issues with your local inventory ads, go to our Contact Us form.
+
+             Was this helpful?How can we improve it?YesNoSubmit       

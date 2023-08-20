@@ -1,0 +1,331 @@
+ Set up automated discounts
+
+We’re launching a new beta feature called automated discounts to help retailers effectively price their products with the goal of driving incremental profit.
+
+Retailers in the feature’s beta release allow Google to help them discount their product prices based on multiple real-time signals. Merchants then apply this price on their website for Shopping ads traffic.
+
+
+On this page
+
+
+  Benefits
+  Eligibility and requirements
+  Instructions
+  Google review
+  Launch schedule
+  Reporting
+
+
+
+Benefits
+
+Automated discounts allow you to effectively price products in Shopping ads and in the Shopping tab. Their goal is to help you drive more conversions.
+
+
+  Customize pricing: Find the optimum product discount or promotion across Shopping ads and your site’s product landing pages with the help of Google’s high-scale models.
+  Save time: Automated, real-time price optimization saves time, effort, and cost.
+
+
+
+Eligibility and requirements
+
+Not all retailers are a good fit for the automated discounts beta. Before you can participate, make sure you meet these requirements: Aggregated minimum of 1,000 product clicks a week at merchant-level (your account can have multiple participating Merchant Center IDs, but each must separately fulfill this requirement).
+
+
+  Conversion tracking and feed configuration set up (detailed below).
+  Merchant systems must be able to accept and honor Google-provided product prices from the URL.
+  Commitment to allow Google to show opted-in products with a ramp up volume of 1%, 20%, 50%, and >50% over the course of the beta pilot. Learn more about launch and ramp-up.
+
+
+Once you’ve confirmed that your account meets the requirements, please complete the opt-in form to move forward.
+
+
+  Note: Please ignore this if you participated in the pilot prior to December 2020.
+
+
+
+Instructions
+
+
+  Step 1 of 4: Fill the opt-in form
+
+  
+    
+      After filling the opt-in form, our team will enable Automated Discounts tab in Merchant Center "Growth" tab, which will guide you through the integration process.
+    
+  
+
+
+
+  Step 2 of 4: Set up conversion reporting with cart data
+
+  
+    Conversions reporting with cart data allows Google to monitor, evaluate, and optimize performance in a comprehensive way.
+
+    Follow the integration guidelines to set up this feature. Keep these key points in mind (they allow Google to accurately compute profit.)
+
+    
+      Product price: This should include the discounted price before tax.
+      Cost of goods sold: All products that might be included in the cart data should have been uploaded to Merchant Center with their cost of goods sold (cogs). This ensures all products in the basket can be taken into account in the profit calculation.
+      Discount: During the pilot, this field is used to collect all additional variable costs, like shipping and transaction costs not reflected in the checkout.
+    
+  
+
+
+
+  Step 3 of 4: Opt-in products via feeds
+
+  
+    The system delivers the best performance when all products are opted in. If you want to exclude some products from the pilot, you can decide to not opt them in. These changes to the feed can be made at any point during the implementation process, including after you’ve launched Automated Discounts.
+    Opt-in products
+
+    To complete this step, provide the minimum price and product-level cost of goods (cogs) [cost_of_goods_sold] attribute in your feed for the products that you want to include in the beta pilot. Remember that the maximum price must be the regular price attribute already provided in your product feeds. Google won’t go higher than this price.
+    To opt-in products, add these 2 additional attributes to the feed:
+
+    
+      
+        
+          
+          Required attributes
+          
+          Value type
+          Description
+        
+      
+      
+        
+          Auto pricing minimum price [auto_pricing_min_price]
+          String
+          
+          This is the minimum price. Indicate the minimum below which you don’t want the discount to be applied. Follow the same formatting rules as for the price [price] attribute.
+
+          Note: This can generally equal the costs of goods (cogs) [cost_of_goods_sold] attribute unless there are special requirements (such as MAP restrictions).
+          
+        
+        
+          Cost of goods (cogs) [cost_of_goods_sold]
+          String
+          
+          This is the cost of goods sold (cogs) and should have already been added in Step 1. If accurate information is not available, provide the best estimation.
+          
+        
+      
+    
+
+    Opt-out products [optional]
+
+    If you want to opt out individual products from Automated discounts, remove the auto pricing minimum price [auto_pricing_min_price] attribute for each product.
+
+    
+      Note: Don’t remove the cost of goods (cogs) [cost_of_goods_sold] attribute for opted-out products. It’s still used to compute the total profit from reported baskets.
+    
+
+    We recommend opting in as many products as possible in order to reach the highest gains.
+  
+
+  
+    Step 4 of 4: Complete URL integration
+
+    
+      
+        This step requires you to accept and apply the Google-recommended price for opted-in products as a new sale price on your website.
+
+        You can find example URLs for testing in Merchant Center in "Growth", in "Automated Discounts" tab under "Update your store's website". Contact automated-discounts-support@google.com if you need different URLs for testing.
+      
+
+      Follow these instructions for consuming the price token.
+
+      
+        
+          Note:
+
+          
+            These instructions describe Google-generated JSON web tokens, and the process of consuming the product price they contain.
+            This information is technical, and is most useful to people who have a strong background in web development.
+            The format described here is only valid for the pilot, and might change later.
+          
+        
+
+        Token structure
+
+        JWT tokens contain two JSON objects: header and payload.
+
+        Header
+
+        
+          
+            {
+
+            "alg": "ES256",
+
+            "typ": "JWT"
+
+            }
+          
+        
+
+        Google-generated token headers have two fields:
+
+        
+          alg - used algorithm, value is always "ES256"
+          typ - media type, value is always "JWT"
+        
+
+        If the token header contains any other fields, or field values are different than described above, the merchant must reject the token.
+
+        Payload
+
+        
+          
+            {
+
+            "exp": 1571673600,
+
+            "o": "tddy123uk",
+
+            "m": "140301646",
+
+            "p": 21.99,
+
+            "c": "USD"
+
+            }
+          
+        
+
+        Payload has the following fields:
+
+        
+          exp - expiration time as Unix time. If the token is expired it must be rejected.
+          o - offer ID, which can be used to check that the landing page matches the product. If there's a mismatch, the token must be rejected.
+          m - merchant ID. If the merchant ID doesn't match, the token must be rejected.
+          p - discounted price
+          c - currency, upper case
+        
+
+        Consuming token
+
+        The exact details around consuming the token depend on the used library , but at a high level, there are 3 steps: decoding and signature validation, field validation, and consuming price.
+
+        Decoding and signature validation
+        The Base64URL encoded token is passed in pv2 URL request parameter:
+
+        
+          http://my.site.com/blacktee?pv2=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJjIjoiVVNEIiwiZXhwIjoxNTcxNjczNjAwLCJtIjoiMTQwMzAxNjQ2IiwibyI6InRkZHkxMjN1ayIsInAiOjIxLjk5fQ.Qlyr1dQ0vLUJx-iQKwkYE2uLHfYCLVEVGZkAq4fwGTSpMDQCbtzDJr5uGHG8dNKaKV5OlYDxLpW40tQVVe2gkQ
+        
+
+        Most of the libraries combine decoding and signature validation to a single function where 'token", "ES256" (algorithm), and "public key" are inputs, and "token_body" is the output:
+
+        
+          token_body = decode(token, 'ES256', public_key)
+        
+
+        Public key for validation:
+
+        
+          
+            ----->BEGIN PUBLIC KEY<-----
+
+            MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAERUlUpxshr67EO66ZTX0Fpog0LEHc nUnlSsIrOfroxTLu2XnigBK/lfYRxzQWq9K6nqsSjjYeea0T12r+y3nvqg==
+
+            ----->END PUBLIC KEY<-----
+          
+        
+
+        Field validation
+
+        In case the selected library accepts key and algorithm in the previous step and forces their use despite header options, there's no need for additional header checks. Otherwise, the header fields need to be checked according to the guidelines above. For more information, review the JSON Web Token Best Current Practices.
+
+        No matter what library is used, the o, m, and p fields must be validated against merchant-side data. If they don't match, then the token must be rejected so that customers can't copy tokens across products and/or merchants. The merchant may check the exp field and reject the token if it's expired, but this isn't mandatory.
+
+        Consuming price
+
+        If all the fields are valid and the token is not expired, the merchant must use the price provided in the p field. The price must be used for the remainder of the customer session (at least 30 minutes), including checkout. For items added to the cart, the price needs to be persistent for at least 48 hours.
+
+        Merchants can use their existing coupon functionality to discount the price if it fulfills the requirements listed on this page. In particular, the price on the landing page must match the price in the token. Just adding the discount on the checkout page is not enough.
+
+        Testing
+        After the integration is completed, it will be tested in three steps:
+
+        
+          Functional testing (done by merchant)
+          Key validation (done by merchant with Google-provided token)
+          Full end-to-end test (done by Google)
+        
+
+        Functional testing
+
+        The easiest way to test during and after development is to generate a temporary key pair. This gives the merchant full control over the tokens, so they don't need any help from Google. A valid key pair can be generated with this command:
+
+        
+          
+            openssl ecparam -genkey -name prime256v1 -noout -out privkey.pem
+              openssl ec -in privkey.pem -pubout -out pubkey.pem
+          
+        
+
+        Tokens can be generated with jwt.io or similar tools using ES256 as an algorithm.
+
+        Key validation
+        In order to validate that production keys are correctly configured, a token signed with a production key is required. Google can provide such tokens on request. Since creating them requires manual work, tokens should only be requested once the functional testing is complete.
+    
+
+    
+    Google review
+  
+
+
+A full review, starting with displaying ads and ending at checkout, can only be carried out within the Google network. Once the merchant has completed functional testing and validated the key configuration, Google will run a set of tests covering multiple scenarios and report the findings back to the merchant. When all the tests pass, the pilot can be launched to end customers according to a mutually agreed timeline.
+
+Final step: Google review
+
+Once the implementation steps have been completed, submit a Google review request by contacting automated-discounts-support@google.com.
+
+The review will go through end-to-end testing that covers multiple scenarios. It’ll be completed within the Google network to ensure the integration is functioning correctly. Google will let you know if it finds any issues.
+
+If you have issues, submit a follow-up review request once they’ve been solved. You’ll have to resubmit review requests until all issues have been resolved.
+
+
+  The best way to avoid multiple rounds of review is to make sure every implementation step is completed correctly.
+
+
+
+Launch schedule
+
+Ramp-up
+
+After your review is complete, we’ll contact you and request authorization to start the ramp-up process according to the schedule below. The time between each ramp-up stage will generally be less than 7 days.
+
+Ramp-up schedule:
+
+
+  First stage: Discounts shown to 1% of customers
+  Second stage: Discounts shown to 20% of customers
+  Third stage: Discounts shown to 50% of customers
+  Final stages: Discounts shown to more than 50% of customers
+
+
+Google will let you know when each new stage begins. You can check your ramp-up percentage in Merchant Center at any time by navigating to the “Performance” tab and clicking Automated discounts.
+
+Ramp-down
+
+Google regularly runs quality checks to ensure that the integration continues to work properly. If we detect substantial issues with your integration at any point after launch (for example, if price passing is not being followed through to the landing page), we will:
+
+
+  Ramp down the % of customers exposed to the discounts until it’s at 0%
+  Communicate with you immediately
+  Provide specific suggestions on how to fix the issue
+
+
+In order to ramp back up to the previous launch stage, submit a request for a Google review. Once the review is complete and no issues are found, Automated discounts will be reactivated.
+
+
+Reporting
+
+You can check your Automated discounts performance at any time by navigating to the “Performance” tab and clicking Automated discounts. Your performance metrics, including incremental impressions, conversions, and other metrics, will appear on your scorecards. These are updated daily.
+
+
+Need help?
+
+If you have a question that this page can’t answer, email automated-discounts-support@google.com.
+             Was this helpful?How can we improve it?YesNoSubmit       

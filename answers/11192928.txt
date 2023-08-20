@@ -1,0 +1,48 @@
+ Vehicle ads onboarding guideEnable the vehicle ads programNext: Add your business information
+
+
+   This is step 2 of the vehicle ads onboarding guide.
+
+
+To show your vehicle ads on Google, you must request to enable the program:
+
+
+  Fill out the form to enable the vehicle ads program.
+  Wait for a confirmation email.
+  Sign in to your Merchant Center account.
+  Click Growth in the navigation menu.
+  Click Manage programs.
+    
+      Merchant Center programs are only visible to Merchant Center account admin users.
+    
+  
+  Click Get started on the vehicle ads program card.
+  Choose the country where your physical dealerships are located.
+
+
+
+  Tip: If you’re an auto advertiser outside of the US and Canada and interested in participating in the Vehicle ads program or beta, contact your Google representative.
+
+
+
+  Note: All vehicle ads campaigns will be upgraded to Performance Max by September 2023.
+
+
+
+Implementation guide
+
+
+  Set up your accounts
+  Enable the vehicle ads program
+  Add your business information
+  Create a primary feed
+  Register and submit your feed
+  Link your Business Profile and select your location group
+  Create, register, and submit your store feed (Optional)
+  Complete website policy review
+  Link your Merchant Center and Google Ads accounts
+  Enable vehicle ads in your Smart Shopping campaigns
+  Enable vehicle ads in your Performance Max campaigns
+
+
+Next: Add your business information             Was this helpful?How can we improve it?YesNoSubmit       

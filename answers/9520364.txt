@@ -1,0 +1,68 @@
+ Buy on Google promotions reporting
+  Buy on Google for Search and Shopping will no longer be available starting September 26, 2023. Eligible merchants will be able to use Buy on Google for YouTube in the US. Learn more about Enabling Buy on Google for YouTube.
+
+
+
+
+
+Buy on Google promotions reporting provides information about promotions you run. This article explains the types of metrics available.
+
+How it works
+
+To access the Buy on Google promotions reporting:
+
+
+  Sign in to your Merchant Center account.
+  Select Performance from the page menu, then select Buy on Google promotions.
+
+
+The Overview dashboard contains the main Buy on Google metrics that are grouped in three cards:
+
+
+  Promotions snapshot: Overall summary of the promotional performance for the last 7 days
+  Promotions summary: Aggregated summary of the promotions performance for the last 7 days broken down by the promotion ID
+  Returns: Returns, returned items, and return rate
+
+
+Promotions report metrics
+
+
+  
+    
+      Metric
+      Definition
+    
+    
+      Fulfilled orders
+      Total fulfilled orders, including returned orders
+    
+    
+      GMV
+      Gross merchandise value (GMV)—the total sales excluding shipping and taxes
+    
+    
+      GMV net of promo cost
+      Gross merchandise value (GMV) excluding the cost of promotions
+    
+    
+      AOV
+      Average order value, or the average spent per customer (for fulfilled orders)
+    
+    
+      Promotion cost
+      Promotional budget spend
+    
+    
+      Return on spend
+      The return on investment for the promotion— the sales (excluding shipping, taxes, and the promotion cost) divided by the promotion cost
+    
+  
+
+
+Learn more about promotions on Buy on Google
+
+
+  Need help? Click here to contact Buy on Google support.
+
+
+             Was this helpful?How can we improve it?YesNoSubmit       

@@ -1,0 +1,45 @@
+ Check your Google Customer Reviews dashboard
+
+Your Merchant Center account contains a dashboard where you can view information collected and processed by Google Customer Reviews. For initial insight on your seller rating and the data collected, use the Google Customer Reviews dashboard.
+
+Before you begin
+
+To view information collected and processed by Google Customer Reviews, sign in to your Merchant Center account. Click the tools icon , then select Customer Reviews setup under “Tools.” 
+
+Overview
+
+There are 5 key metrics that show up in your Google Customer Reviews dashboard. Metrics can also be viewed in a specific country by selecting one in the dropdown.
+
+Opt-ins received
+
+This metric shows the number of customers in a given day that have opted-in to the Google Customer Reviews survey.
+
+Surveys offered
+
+This metric shows the number of surveys emailed to your customers in a given day. Some customers who opt-in may not be emailed a survey. Also note that there is a delay between when a customer opts-in and when a survey is sent.
+
+Survey responses received
+
+This metric shows the number of survey responses customers have submitted in a given day.
+
+Seller rating
+
+This metric provides the seller rating displayed within your badge, search, and Shopping ads during the time period shown.
+
+Product Reviews
+
+The Product Reviews section of your Google Customer Reviews dashboard contains information about the status of your eligibility for Product Ratings.
+
+Product Ratings status
+
+This card shows if your account is eligible for Product Ratings. Star ratings won’t appear on product listings when an account is ineligible.
+
+Product survey responses graph
+
+This graph in your Merchant Center account displays the number of product reviews that have been successfully collected per day through the Google Customer Reviews program.
+
+GTIN graph
+
+This graph shows the number of valid GTINs that have been received through the Google Customer Reviews opt-in.
+  Google Customer Reviews considers a GTIN to be valid if it is properly formatted in accordance with international standards and corresponds to an existing product listing in the Shopping ads catalog.
+             Was this helpful?How can we improve it?YesNoSubmit       

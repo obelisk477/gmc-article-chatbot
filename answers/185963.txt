@@ -1,0 +1,64 @@
+ Submit feeds via Google Cloud Storage
+
+You can submit your shopping data securely to Google via Google Cloud Storage. Google Cloud Storage is a new cloud-based storage service that allows you to store and access your data on Google's infrastructure. Google Cloud Storage is compatible with a number of cloud storage tools and libraries that work with services such as Amazon Simple Storage Service (Amazon S3) and Eucalyptus Systems, Inc.
+
+How it works
+
+Interacting with Google Cloud Storage is similar to interacting with an SFTP server: you can submit and access files with a file transfer client. Instead of folders Google Cloud Storage uses "buckets." When you set up your Merchant Center account with Google Cloud Storage, Google automatically assigns you a private bucket for your shopping data. There are a number of benefits for retailers using Google Cloud Storage: enhanced security, up to 10 gigabytes in size, and flexible infrastructure that can be used for other applications as well.
+
+Google Cloud Storage can be used by developers who would like to submit products to Merchant Center. Due to the nature of Google Cloud Storage, developers should have some technical know-how and experience in programming applications. Learn more about Google Cloud Storage.
+
+Instructions
+
+To submit your data feeds via Google Cloud Storage, you don’t need to activate Google Cloud Storage service, as you’ll be writing to an existing bucket. For more details about when you do or don't need to activate Google Cloud Storage service, review here.
+
+Step 1: Link your Google Cloud Storage and Merchant Center accounts:
+
+
+  Sign in to your Merchant Center account.
+  Click the tools icon , then select SFTP / GCS under “Settings.”
+  Click the Google Cloud Storage tab.
+  Select either Current user (if you use the same login email address for both your Google Cloud Storage and Merchant Center accounts), or Different user with your Google Cloud Storage login email address.
+  After you click on Link Google Cloud Storage, you will automatically be assigned a bucket for your product data listed under Google Cloud Storage bucket name.
+
+
+Step 2: Preparing your data feeds
+
+
+  Create your data feeds.
+  Register your data feeds in Merchant Center before submitting your feeds. Important: Your registered feed file name must match the actual file name that you specified during feed registration and include the same file extension, because we associate your submitted files via the file name.
+
+
+Step 3: Submit your data via Google Cloud Storage
+
+For details on how to upload data via Google Cloud Storage to your Merchant Center bucket, review the following information:
+
+
+  Google Cloud Storage Getting Started Guide
+  Developer's Guide
+
+
+We recommend using either gsutil or the gs python library to schedule uploads, but you can also use most S3-compatible clients.
+
+
+  Example: gsutil -d cp <filename> gs://merchantcenter123456 </filename>
+
+
+Step 4: Verify your submission
+
+Within 15 minutes of completing your submission, the Feeds page should report that Google is processing your data in the Status column.
+
+Frequently asked questions
+
+Can I use my Google Cloud Storage account for other applications?
+
+Yes. Any bucket that you create in Google Cloud Storage is owned and managed by you, and are separate from Merchant Center.
+
+However, if you didn’t create your own Google Cloud Storage account, you only have access to the one Google Cloud Storage bucket created for you, and this bucket is intended solely for data going into Google Merchant Center.
+
+Can I use the Merchant Center bucket for storing other data?
+
+No. This bucket is intended solely for use with data intended for submission to Merchant Center. Google removes objects in this bucket shortly after submission.
+
+
+             Was this helpful?How can we improve it?YesNoSubmit       

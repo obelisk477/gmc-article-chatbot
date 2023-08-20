@@ -1,0 +1,295 @@
+ Create rich product description pages
+
+A product description page (PDP) teaches shoppers about your product's features and benefits before they complete their purchase. A rich PDP provides accurate and comprehensive product information.
+
+This article explains how to create rich PDPs.
+
+
+
+On this page
+
+
+  Benefits
+  Instructions
+  Related links
+
+
+
+Benefits
+
+Comprehensive and accurate product listing information:
+
+
+  Helps customers identify the product that best fits their needs
+  Provides customers with the information they need to feel confident in their purchase
+  Improves customer trust
+
+
+
+Instructions
+
+Step 1: Add product data to your Merchant or Manufacturer Center feeds
+
+
+  Google uses information from a variety of sources to display the best descriptions, imagery, and product details, and provide a unified and optimized product offering experience to the customer. This means we may not use the data you provide for some product listings.
+
+
+
+  Manufacturers and brand owners
+
+  
+    If you’re a manufacturer or brand owner, you can sign up for Google Manufacturer Center. Manufacturer Center account allows manufacturers and brands to submit authoritative product data and can be used to power commercial results across Google.
+
+    As a manufacturer or brand, Google trusts the data you share via Google Manufacturer Center to be the most accurate representation of a product. Google uses this information to help shoppers find and understand your products and to enrich the PDPs for your products.
+
+    You can share the following product data attributes in your Manufacturer Center feeds:
+
+    
+      
+        
+          Product data
+          Manufacturer Center feed attribute
+          Tips for a rich Product Description Page (PDP)
+        
+      
+      
+        
+          ID
+          ID [id]
+          Required for all products
+        
+        
+          Global trade item number
+          GTIN [gtin]
+          Required for all products
+        
+        
+          Product title
+          Title [title]
+          Required for all products
+          
+          1–150 characters
+        
+        
+          Product brand name
+          Brand [brand]
+          Required for all products
+        
+        
+          Product description
+          Description [description]
+          Required for all products
+          
+          >200 characters recommended
+          
+          Structured and well-formatted descriptions with bullets and paragraphs are recommended
+        
+        
+          Product images
+          Image link [image_link]
+          Required for all products
+          
+          High image resolution recommended (>1,500 pixel on longest side)
+        
+        
+          Additional image link [additional_image_link]
+          >5 additional images recommended
+          
+          High image resolution recommended (>1,500 pixel on longest side)
+        
+        
+          Lifestyle image link [lifestyle_image_link]
+          Recommended when you want to separate lifestyle images from your additional product images. Otherwise, use the additional_image_link.
+        
+        
+          Product variants
+          Item group ID [item_group_id]
+          Recommended for products with multiple variants
+        
+        
+          Product details
+          Product detail [product_detail]
+          Recommended for each product
+          
+          >5 details recommended. We recommend that you include as many as appropriate
+        
+        
+          Rich product content
+          Rich product content [rich_product_content]
+          Preferable to the feature description [feature_description] attribute, and overrides it
+          
+          Recommended for highlighting product features to appear in the From the Manufacturer section
+        
+        
+          Product features
+          Feature description [feature_description]
+          Recommended for each product
+          
+          Features with images (800x800 pixel minimum) recommended
+        
+        
+          Product video
+          Video link [video_link]
+          Recommended for each product
+        
+      
+    
+  
+
+
+
+  Retailers other than manufacturers or brand owners
+
+  
+    Submitting the following product data attributes in your Merchant Center feeds may help you create rich PDPs:
+
+    
+      
+        
+          Product data
+          Merchant Center feed attribute
+          Tips for a rich Product Description Page (PDP)
+        
+      
+      
+        
+          ID
+          ID [id]
+          Required for all products
+        
+        
+          Product title
+          Title [title]
+          Required for all products
+          
+          1–150 characters
+          
+          Use the title [title] attribute to clearly identify the product you’re selling. The title is one of the most prominent parts of your ad. A specific and accurate title will help us list your product to the right users.
+        
+        
+          Product description
+          Description [description]
+          Required for all products
+          
+          >200 characters recommended
+          
+          Structured and well-formatted descriptions with bullets and paragraphs are recommended
+        
+        
+          Product images
+          Image link [image_link]
+          Required for all products
+          
+          High image resolution recommended (>1,000 pixel on longest side)
+        
+        
+          Additional image link [additional_image_link]
+          >5 additional images recommended
+          
+          High image resolution recommended (>1,000 pixel on longest side)
+        
+        
+          Lifestyle image link [lifestyle_image_link]
+          Recommended when you want to separate lifestyle images from your additional product images. Otherwise, use the additional_image_link.
+        
+        
+          Product variants
+          Item group ID [item_group_id]
+          Recommended for products with multiple variants
+        
+        
+          Product highlights
+          Product highlight [product_highlight]
+          Recommended for each product
+          
+          >4 highlights recommended
+        
+        
+          Product details
+          Product detail [product_detail]
+          Recommended for each product
+          
+          >5 details required. We recommend that you include as many as appropriate
+        
+      
+    
+  
+
+
+Step 2: Share your Product Ratings
+
+
+  This feature is only available in the classic Merchant Center experience.
+
+
+Google Product Ratings gives retailers the ability to share and surface product ratings and product reviews.
+
+If you participate in the Product Ratings program, you can share review data using a Google Product Ratings feed. Learn more about Product rating basics. The attributes listed below may help you to create a rich product ratings feed, and will help us match your reviews to your PDPs:
+
+
+  
+    
+      Product data
+      Product Ratings feed attribute
+      Note
+    
+  
+  
+    
+      Product rating
+      <ratings>
+      Required for all reviews
+    
+    
+      Review content
+      <content>
+      Required for all reviews
+    
+    
+      Review URL
+      <review_url>
+      Required for all reviews
+    
+    
+      Product URL
+      <product_url>
+      Required for all reviews
+    
+    
+      
+      Product IDs
+      
+      <gtins>
+      The reviews data from a Product Ratings feed is matched to products based on a number of factors, the strongest being globally unique product identifiers such as GTINs. (Without GTIN [gtin] data, Google will attempt to match a review through other information such as SKU or brand [brand] + MPN [mpn] pairs.)
+    
+    
+      <mpns>
+    
+    
+      <skus>
+    
+    
+      <brands>
+    
+    
+      Reviewer images
+      <reviewer_images>
+      We recommend that you include reviewer images when available.
+    
+    
+      Verified purchases
+      <collection_method>
+      We recommend that you indicate whether a review was post purchase (verified) or unsolicited.
+    
+  
+
+
+
+Related links
+
+
+  Tips to help your products stay approved
+  Provide high-quality data
+  Tips to optimize your product data
+
+             Was this helpful?How can we improve it?YesNoSubmit       

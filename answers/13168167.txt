@@ -1,0 +1,151 @@
+ About same-day delivery for local product listings
+
+This feature allows you to showcase the same-day delivery on your local products by adding badges and annotations to your products in free local listings and local inventory ads.
+
+
+On this page
+
+
+  Before you begin
+  Eligibility
+  Instructions
+  Frequently Asked Questions
+
+
+
+Before you begin
+
+
+  Identify which products and stores in your local inventory feed support same-day delivery.
+  Identify the cut-off times for the participating stores. You might need to set up a few same-day delivery services to accommodate for multiple time-zones. Time-zones are based on the Merchant Center settings you provide, not the user location.
+  Determine your fees structure, including the delivery fee. We currently don't support additional fees, hence the best practice is to sum up all the fees and pass it to Google as one delivery fee (Range based shipping fee is supported).
+  Define delivery distance per store. If the delivery radius varies, you may either set up a separate same-day shipping service or opt for a conservative radius.
+
+
+
+Eligibility
+
+You can enable same-day delivery annotations and badging for your free local listings and local inventory ads in the United States if you meet the following criteria:
+
+
+  Your business should provide same-day delivery fulfillment services for eligible products and the same-day delivery settings you submit to Merchant Center should match what is on your website.
+  The shipping cost for the same-day delivery should match the cost mentioned on your website.
+  Your Merchant Center account should be linked to the Google Business Profile used for your store locations.
+  You should have free local product listings or local inventory ads enabled in Merchant Center. Learn how to enable local inventory ads and free local product listings.
+  You should have a local product feed added in Merchant Center.
+
+
+
+Instructions
+
+Set up same day delivery for local product listings
+
+Service coverage
+
+
+  In your Merchant Center account, click tools and settings icon .
+  Select Shipping and returns under “Tools”.
+  Select Add shipping service.
+  Select Delivery for local products (US only).
+  In the “Service coverage” page, name your shipping service and select United States as country and USD as currency.
+  Click Next.
+
+
+
+  Note: Same-day delivery is available for free local listings, local inventory ads, and online offers. It's mandatory for you to have a landing page. Learn more about free local listings and local inventory ads.
+
+
+Delivery times
+
+
+  In the “Delivery times” page, select whether all your products or only certain products are available for same-day delivery.
+    
+      If only certain products are available for same-day delivery, then you must create a same-day delivery label by using the local shipping label [local_shipping_label] attribute to add to these products.
+      Note: The attribute should be passed in the local inventory feed. It isn’t supported in the primary local feed. Refer to the API guide for more information.
+    
+  
+  Decide whether all stores offer same-day delivery or only certain store locations.
+    
+      You can select participating stores by either using the store selector directly in Merchant Center or by adding the same-day delivery label to eligible products in your local product inventory feed via the local shipping label [local_shipping_label] attribute.
+    
+  
+  Create a same-day delivery label (if applicable).
+    
+      Create a same-day delivery label name. No spaces are allowed in the label name. For example, “same_day_label_1” would be allowed as a label name.
+      If only some of your products at an individual store are available for same-day delivery, then you must use the same-day delivery label name you created and add the label to your local product inventory by using the local shipping label [local_shipping_label] attribute. Once the same-day delivery label is applied, for each eligible product the same-day delivery label will be visible under the “Shipping label” column in Merchant Center.
+    
+  
+  Select a maximum delivery radius.
+    
+      This is based on each store’s location. You can set your store’s maximum delivery radius in miles or kilometers. A minimum of 2 miles or 3 km is required.
+      If some stores offer same-day delivery with a 5-mile radius and other stores offer same-day delivery with a 10-mile radius, you can create 2 separate same-day delivery shipping services or use the shorter distance to cover all stores.
+    
+  
+  Select an order cut-off time.
+    
+      This is the specific time or the number of hours before a store closes in which a customer can place an order that will be eligible for same-day delivery. For example, if your stores close at 9 PM and customers must place an order before 5 PM to be eligible for same-day delivery, then the order cut-off time would be 5 PM or 4 hours.
+      The closing time for each store is based on data provided in your Google Business Profile. The cut-off time, if set with the number of hours, is based on each individual store’s closing time, so each store with a different closing time would have a different order cutoff time. Otherwise, the cut-off time is based on the specific time you manually set.
+      You can also indicate if your same-day delivery items are available for next-day delivery when orders for these items are placed after the cut-off time.
+    
+  
+  Provide a minimum order value required for orders to be eligible for same-day delivery. If there is no order minimum, leave this value as $0.00.
+
+
+Shipping cost
+
+
+  In the “Shipping cost” page, select the shipping cost you charge your customers for same-day delivery services. Options include:
+    
+      Free shipping over a certain amount
+      Free shipping on all orders
+      Range based pricing based on the total value of the order
+      Flat fee for all orders
+    
+  
+  Click Save.
+
+
+Verification
+
+It is important to validate your shipping settings to ensure a positive customer experience. Google verifies same-day delivery services added by retailers, so make sure the details match what's mentioned on your site. Same-day delivery must be advertised and mentioned on both your website and in the checkout flow.
+
+It might take up to 72 hours for Google to review the settings. If there is an issue with the same-day delivery settings, the administrator of your Merchant Center account will receive an email with instructions on how to resolve the issue.
+
+
+  Note: There are various factors that affect how and when the annotation is displayed irrespective of the verification status.
+
+
+
+Frequently asked questions
+
+
+  Can I set up same-day delivery via Content API?
+
+  You may use Content API for Shopping to configure products for same-day delivery if you have local inventory. Learn about shipping settings in Content API for Shopping.
+
+
+
+  What should I do if my product didn’t pass verification for same-day delivery services?
+
+  Follow the instructions that will be sent to the administrator of the account.
+
+
+
+  How does same-day delivery badging or annotation work with curbside or in-store pickup?
+
+  Google will algorithmically decide the best badge or annotation to show the consumer with the goal of providing the best shopping experience.
+
+
+
+  How is same-day delivery different from same day shipping?
+
+  Same-day delivery refers to the service of a customer ordering and receiving a product on the same day while same-day shipping refers to shipping a product the day a customer places the order, but delivering the order 1 or more days after the order was placed.
+
+
+Related links
+
+
+  About same-day delivery for online product listings
+  About shipping settings
+
+             Was this helpful?How can we improve it?YesNoSubmit       

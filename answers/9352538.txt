@@ -1,0 +1,138 @@
+ Survey opt-in module troubleshooting
+
+This article describes some common errors that you might encounter when implementing the survey opt-in module.
+
+The opt-in module is not visible
+
+If the opt-in module is not visible on your order confirmation page, look for the following possible sources of problems:
+
+
+  
+    
+      Problem
+      Diagnosis
+    
+    
+      The HTML code source does not contain the opt-in module code
+      View the HTML source in your browser and check that exactly one instance of the opt-in module code block appears on the page
+    
+    
+      The opt-in module is off-screen or blocked by other elements
+      The module might be rendered beyond the boundaries of the viewable area. Try scrolling 
+    
+    
+      Your browser is unsupported
+      Your browser must support HTML 5. Update it to the latest version.
+    
+    
+      E-commerce platform integration
+      Some e-commerce platforms may have compatibility issues. Reach out to your e-commerce provider to understand implementation options.
+    
+    
+      Confirmation page on a different domain
+      If your check-out process uses a third-party processor, it must redirect back to a confirmation page on your domain.
+    
+    
+      Opt-in module code added to Google Tag Manager
+      Google Tag Manager currently cannot be used for the opt-in code integration.
+    
+  
+
+
+The page encounters JavaScript errors
+
+The following table lists common sources of issues with the opt-in module's JavaScript:
+
+
+  
+    
+      Problem
+      Diagnosis
+    
+    
+      Placeholder values
+      Replace the placeholder above with your site-specific, dynamic values
+    
+    
+      A required parameter is missing
+      
+      When implementing the opt-in module code, the following modules are required:
+
+      
+        merchant_id
+        order_id
+        email
+        delivery_country
+        estimated_delivery_date
+      
+      
+    
+    
+      DOCTYPE must be HTML 5
+      
+      Be sure that your order confirmation page uses the HTML 5 DOCTYPE:
+
+      <!DOCTYPE html>
+      
+    
+    
+      estimated_delivery_date is invalid
+      The date must be in the format YYYY-MM-DD, where YYYY is the four-digit year, MM is the two-digit month, and DD is the two-digit day. The value is a string and must be surrounded by quotation marks. For example, "2016-09-13".
+    
+    
+      opt_in_style is invalid
+      
+      The value of the opt_in_style parameter can be one of the following strings
+
+      
+        "CENTER_DIALOG"
+        "BOTTOM_RIGHT_DIALOG"
+        "BOTTOM_LEFT_DIALOG"
+        "TOP_RIGHT_DIALOG"
+        "TOP_LEFT_DIALOG"
+        "BOTTOM_TRAY"
+      
+      
+    
+    
+      Website not using HTTPS
+      All confirmation pages must used HTTPS
+    
+    
+      Mismatched website URL
+      The opt-in module code must be implemented on the same website URL as the one verified and claimed in Merchant Center. This issue typically generates a 404 javascript error
+    
+  
+
+
+ 
+
+Survey not received
+
+
+  
+    
+      Problem
+      Diagnosis
+    
+    
+      Incorrect email address
+      Ensure that you're passing correctly formatted email addresses into the module, otherwise, the survey emails will not be delivered correctly
+    
+    
+      Incorrect country codes
+      Ensure that you're passing correct country codes into the opt-in module. This value must be in ISO 3166-1 alpha-2 format. If incorrect country codes are passed, no error will be generated, but the survey will not be sent.
+    
+    
+      Not enough time has passed
+      
+      Ensure that the ESTIMATED_DELIVERY_DATE for the order has passed. Customers who opt-in to the survey receive an email that asks them to rate their experience in a few days after the estimated delivery date that you included for the order in the survey opt-in module.
+
+      Additionally, the information shown in Merchant Center graphs can be delayed up to 1 week.
+      
+    
+  
+
+
+ 
+             Was this helpful?How can we improve it?YesNoSubmit       

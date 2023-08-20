@@ -1,0 +1,276 @@
+ Create a product file for Merchant Center
+
+
+  If you’re looking for information about how to create a product file in the classic Merchant Center experience, click here. 
+
+
+A product file contains a list of products that you want to show on Google. When you add your products to the file, you’ll assign pieces of data–called “attributes”–that provide details about your products (such as prices, availability, and other important details). When your product file is ready, you can add it to Merchant Center.
+
+On this page
+
+
+  Quick answers
+  What to expect when creating your product file
+  Get started
+  Next steps
+
+
+
+
+  Quick answers
+
+  What are attributes?
+
+  Attributes are the data points that describe a product. Some, such as condition [condition] and availability [availability], have standardized or accepted values. Others, including ID [id] or title [title], are left open for you to fill out for each of your products. When you use the required and suggested attributes to accurately describe your items, it helps people more easily search for and find your items.
+
+  What file formats are accepted?
+
+  You can use .txt, .xml, or a .tsv. Files can be up to 4 GB in size.
+
+  How do I add my file to Merchant Center?
+
+  When your product file is ready, you can add the file with a one-time upload or by providing a link to the file from another website. If you host the file on a website or a server, make sure the link that you provide starts with http://, https:// or sftp://.
+
+
+
+What to expect when creating your product file
+
+The file format
+
+You can use two types of product files for Merchant Center: a tab-delimited spreadsheet or XML. Each file format has their advantages and their disadvantages.
+
+Expand all
+
+
+
+Spreadsheet example
+
+  
+    
+      
+        
+          
+            ID [id]
+            Title [title]
+            Description [description]
+            Price [price]
+            Condition [condition]
+            Link [link]
+          
+          
+            GooglePixel6a-US
+            Pixel 6a
+            It’s the more affordable, super fast and secure Google phone.
+            449.00
+            new
+            https://store.google.com/product/pixel_6a
+          
+        
+      
+    
+  
+
+
+
+
+XML example
+
+  
+    
+      <?xml version="1.0"?>
+        <rss xmlns:g="http://base.google.com/ns/1.0" version="2.0">
+        <channel>
+        <title>Example - Google Store</title>
+        <link>https://store.google.com</link>
+        <description>This is an example of a basic RSS 2.0 document containing a single item</description>
+        <item>
+
+      
+      
+      <g:id>TV_123456</g:id>
+        <g:title>Google Chromecast with Google TV</g:title>
+        <g:description>Chromecast with Google TV brings you the entertainment you love, in up to 4K HDR</g:description>
+        <g:link>https://store.google.com/product/chromecast_google_tv</g:link> <g:image_link>https://images.example.com/TV_123456.png</g:image_link> <g:condition>new</g:condition>
+        <g:availability>in stock</g:availability>
+        <g:price>49.99 USD</g:price>
+        <g:shipping>
+
+      
+      
+      <g:country>US</g:country>
+        <g:service>Standard</g:service>
+        <g:price>7.99 USD</g:price>
+      
+      
+
+      </g:shipping>
+        <g:gtin>123456789123</g:gtin>
+        <g:brand>Google</g:brand>
+      
+      
+
+      </item>
+        </channel>
+        </rss>
+    
+  
+
+
+The attributes
+
+Attributes need to be set up properly in the product file that you provide. Some attributes are required, while others are optional. It’s important to follow our product data specification when setting up the file, as incorrect formatting may result in Google being unable to add your products to Merchant Center.
+
+Open the list of attributes
+
+The file extension
+
+When creating your product file, remember to save your file in one of the supported file types with the appropriate filename extension.
+
+
+
+
+Get started
+
+
+  For the rest of the guide, we’ll be walking you through how to create a product file using a tab-delimited spreadsheet.
+
+
+Step 1 of 4
+
+Open your preferred spreadsheet program on your computer. Using a spreadsheet program such as Google Sheets or Microsoft Excel makes it easy to create a product file and convert it to the proper format.
+
+Step 2 of 4
+
+On the first row of the spreadsheet, enter the names of the attributes that describe your products, each in its own column.
+
+
+  
+    
+       
+      A
+      B
+      C
+      D
+      E
+      F
+      G
+      H
+    
+    
+      1
+      ID [id]
+      Title [title]
+      Description [description]
+      Price [price]
+      Condition [condition]
+      Link [link]
+      Availability [availability]
+      Image link [image_link]
+    
+    
+      2
+       
+       
+       
+       
+       
+       
+       
+       
+    
+    
+      3
+       
+       
+       
+       
+       
+       
+       
+       
+    
+  
+
+
+Step 3 of 4
+
+In the rows below the top row, enter information about your products for the attributes you've chosen. Each product should be listed in a separate row, and its information divided into the appropriate columns. (For example, a product's description should be in the same column as the "description" header). You may leave a cell empty if there is no value for an attribute.
+
+
+  
+    
+       
+      A
+      B
+      C
+      D
+      E
+      F
+      G
+      H
+    
+    
+      1
+      ID [id]
+      Title [title]
+      Description [description]
+      Price [price]
+      Condition [condition]
+      Link [link]
+      Availability [availability]
+      Image link [image_link]
+    
+    
+      2
+      GooglePixel6a-US
+      Pixel 6a
+      It’s the more affordable, super fast and secure Google phone.
+      449.00
+      new
+      https://store.google.com/product/pixel_6a
+      in_stock
+      http://www.example.com/image1.jpg
+    
+    
+      3
+      GooglePixelBudsPro-US
+      Pixel Buds Pro
+      Premium, immersive sound that adapts to you.
+      199.99
+      new
+      https://store.google.com/product/pixel_buds_pro
+      in_stock
+      http://www.example.com/image2.jpg
+    
+  
+
+
+Step 4 of 4
+
+Most spreadsheet programs allow you to export data into a tab-delimited file. Either of the options below will create a file with the right extension type. This is the file you should submit to Merchant Center.
+
+Google Sheets
+
+ Open the File menu.
+
+ Select Download > Tab-Separated Values (.tsv).
+
+Microsoft Excel
+
+ Select File > Save as.
+
+ Choose where you want to save the file.
+
+ In the “Save as” box, pick where you want to save the file, then choose Text (tab delimited)(*.txt).
+
+
+Next steps
+
+
+  Sync your product file with Merchant Center.
+  After you sync the product file, Google reviews the product information that you submitted for any errors.
+  You’ll be able to track the status of the sync from the “All products” page in Merchant Center.
+
+
+Learn how to sync your file with Merchant Center
+             Was this helpful?How can we improve it?YesNoSubmit       

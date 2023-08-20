@@ -1,0 +1,47 @@
+ I want to add products to Merchant Center using Google Sheets
+
+If you’re looking for information about registering a Google Sheet in the classic Merchant Center experience, click here. 
+
+
+With this method, you'll maintain a spreadsheet with all your product data. Any changes you make to the information in the spreadsheet will automatically be reflected in Merchant Center.
+
+On this page
+
+
+  Get started
+  Next steps
+  Fix an issue
+
+
+
+Get started
+
+ In your Merchant center account, go to Products .
+
+ Under “All products” click Add Products (if there is a drop down list of options select Add another product source).
+
+ Select the option Use a Google Sheets Template and click the Use template button.
+
+ Add your product details to the template, be sure to delete rows 2 to 5 as they contain instructions and examples. Learn more about the product details that need to be added.
+
+ Return to the Merchant Center set the schedule for syncing your Merchant Center product data with your spreadsheet. The default syncing schedule is every 24 hours.
+
+ Click Continue.
+
+
+Next steps
+
+
+  We review your products for completeness and compliance with our policies, and inform you of any issues with products that sync to your account.
+  You can check the publishing status of each product from the “Products” page (under the “Status” column). If you don’t want to show some products, you can also change the visibility of the products. Learn more about checking product visibility and status in Merchant Center.
+
+
+
+
+Fix an issue
+
+Issues with your products need to be fixed before customers can view them on Google. All issues with your product data can be found in the "Needs attention" tab of the “Products” section in Merchant Center.
+
+Each product-level issue also contains a “Learn more” link that directs you to specific instructions for fixing the issue. Learn more about Issues in Merchant Center.
+
+             Was this helpful?How can we improve it?YesNoSubmit       

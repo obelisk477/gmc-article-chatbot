@@ -1,0 +1,64 @@
+ RSS 1.0 specification
+
+This document provides guidelines for the creation of an XML product data feed in the RSS 1.0 format. We've linked standard attributes to their respective sections in the official RSS 1.0 specification to assist you in finding additional information about the components from our examples. Although we provide examples of RSS 1.0 files, we provide minimal details about RSS 1.0 itself. If you are interested in learning more about this standard, we suggest looking over this specification at http://web.resource.org/rss/1.0/spec.
+
+Section 1: RSS 1.0
+
+Based on the RSS 1.0 specification, there are three pre-defined elements at the product level - title, link, and description. Although these elements are optional in the RSS 1.0 standard, product data feeds require them.
+
+Product data feeds also require additional elements such as price, id, and condition. To include these elements and more detailed information about a product, we've extended RSS 1.0 by adding the Google Merchant Center namespace. Defining the Google Merchant Center namespace allows you to use additional elements, called "attributes", and increases the amount of information you can provide about each product in a feed.
+
+Below is an example of a basic RSS 1.0 document containing a single product:
+
+
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns="http://purl.org/rss/1.0/"
+
+
+xmlns:g="http://base.google.com/ns/1.0">
+<channelrdf:about="http://www.example.com/RSS1.xml"> <title>The name of your data feed</title> <link>http://www.example.com</link> <description>A description of your content</description> <products> <rdf:Seq> <rdf:li rdf:resource="http://www.example.com/product1-info-page.html"/> </rdf:Seq> </products> </channel> <product rdf:about="http://www.example.com/product1-info-page.html"> <title>Red wool sweater</title> <link>http://www.example.com/product1-info-page.html</link> <description>Comfortable and soft, this sweater will keep you warm on those cold winter nights.</description>
+
+<g:image_link>http://www.example.com/image1.jpg</g:image_link> <g:price>25</g:price> <g:condition>new</g:condition> <g:id>1a </g:id>
+</product> </rdf:RDF>
+
+The two major additions in this example are the addition of the namespace declaration (in the fourth line) and the inclusion of four attributes (image link [image_link], price [price], condition [condition], and ID [id]).
+
+Google Merchant Center namespace declaration
+
+The following namespace declaration is required in order to use attributes defined only in the Google Merchant Center namespace.
+xmlns:g="http://base.google.com/ns/1.0"
+
+In addition to declaring the Google Merchant Center namespace, you must also include a prefix within every attribute tag. We add this prefix to attributes to distinguish attributes defined in our namespace from elements defined in RSS 1.0. The prefix selected for this namespace declaration is "g":
+
+<g:image_link>http://www.google.com/images/google_sm.gif</g:image_link>
+
+Attributes in the Google Merchant Center namespace must include this prefix or the attributes, and any values they contain, will be ignored.
+
+Attributes
+
+You can use as many relevant attributes as are specific to your products. Supplying additional information about your products by using these attributes will greatly increase your products' chances of showing up in Google results. In addition, many attributes defined in the Google Merchant Center namespace can be used more than once within a single product. This enables you to add more available information about a product in your feed.
+
+Section 2: Important Checklist
+
+Before you submit your feed, we highly recommend running through the following list to help ensure your file is properly formatted:
+
+
+  Your filename must end with the .xml extension.
+  The feed filename you register in your Google Merchant Center account must match the name you assign to your file.
+  Remember to include namespace declarations. These values should match exactly as shown.
+    
+      Google Merchant Center namespace: xmlns:g="http://base.google.com/ns/1.0".
+      Custom attributes namespace: xmlns:[prefix]="http://base.google.com/cns/1.0", where [prefix] is replaced by the prefix you've included in your file.
+    
+  
+  Verify the prefix included in the Google Merchant Center and custom Google Merchant Center attribute tags matches the prefix defined in the namespace declaration.
+  Remove attributes that do not contain any values.
+
+
+Section 3: Final Note
+
+The example entry included in this document was simplified to allow for clearer focus on the basics of constructing an XML product data feed. While we accept feeds containing other elements defined in the RSS 1.0 standard or in your own namespace, any information these elements contain will be ignored during processing and will not appear in your Shopping ads and free product listings. At this time we will only process data contained in the default RSS 1.0 elements and in attributes within the Google Merchant Center and custom Google Merchant Center namespaces.
+
+
+             Was this helpful?How can we improve it?YesNoSubmit       

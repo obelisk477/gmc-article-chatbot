@@ -1,0 +1,43 @@
+ About multi-client account reporting
+
+In Merchant Center, use the multi-client account (MCA) home page to see a snapshot of aggregated multi-client account-level metrics, and a sub-account list with approval and disapproval metrics.
+
+This article explains the benefits of the MCA home page, and how you may use the data provided.
+
+Benefits
+
+
+  See a graphical overview of all sub-account metrics for the last 30 days.
+  Use a paginated list of sub-accounts to view key metrics for specific sub-accounts.
+  Download reports to analyze data in depth.
+
+
+How to use
+
+The MCA home page works similarly to the Diagnostics page of your Merchant Center account. On the bottom half of the page, you can view a paginated list of all sub-accounts, along with several key metrics. Sub-accounts are sorted by Merchant Center ID. Click on the sub-account name to navigate to that account. Note that this page shows sub-accounts metrics at a selected time-point.
+
+
+  Item issues
+    You can view Active, Expiring, Pending, and Disapproved item data. Like the Diagnostics page, the MCA home page also allows you to filter by country and program. This section contains issues that impact individual items, from feed processing to data quality and policy violations. If items are affected by multiple issues, they’ll be included in all of them. To see the list of affected sub-accounts, click View list in the "Affected accounts" column. Or, to see an example of up to 50 items across all accounts impacted by that issue, click View examples in the "Affected items" column. Learn more about product status
+
+
+
+  
+    Account issues
+      You can download a report with relevant metrics for all sub-accounts. This section contains issues that affect an entire sub-account or an entire target country for a sub-account. This includes issues such as "no linked Google Ads account" and "no verified/claimed homepage." It also includes policy and data quality account-level warnings and disapprovals.
+  
+
+
+
+  Tip
+
+  You may use the MCA home page to explore historical data. Within the chart, click the date you’re interested in. After you click, the hover line will be locked and the table (including a downloaded version) will reflect metrics at that time.
+
+
+Related link
+
+
+  Set up a multi-client account
+  The Diagnostics section
+
+             Was this helpful?How can we improve it?YesNoSubmit       

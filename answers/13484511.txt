@@ -1,0 +1,40 @@
+ How to fix: Google StoreBot crawler can’t access your Merchant hosted local store frontThis article explains how to fix the warning or suspension that occurs when the Google StoreBot crawler isn’t able to access your Merchant hosted local store front.
+
+The Google StoreBot can check price, availability, and pick up options for your local inventory ads. If there is inconsistency between what is being provided in Merchant Center and your landing page, customers can have a poor experience.
+
+Before you begin
+
+Ensure that you’re not blocking the Google StoreBot crawler from accessing your Merchant hosted local store front and purchase check out flow.
+
+
+Instructions
+
+Step 1 of 3
+
+Check if the landing pages are accessible. Some common ways that merchants use to block the Google StoreBot are:
+
+
+  Via user-agent: Merchants can have bot detection framework software in their system that maintains a blocklist for crawler user agents. Sometimes, when using out-of-the-box bot detection software, it could be blocking the Google StoreBot. Ensure that your product landing pages are accessible by the Google StoreBot by switching the user agent.
+  By blocking IP Address: A few merchants only allowlist Google search crawler IP addresses. The Google StoreBot can have different IP addresses than the Google search crawler. We don’t recommend the static allowlisting of IP addresses. We recommend a reverse DNS lookup to verify that the IP belongs to Google. To learn more about how to implement reverse DNS lookup, go through this article.
+  Via Fingerprinting: A few merchants use a bot detection framework to identify HTTP requests initiated by bots. The framework creates a fingerprint from the HTTP request using a user agent, IP address, some browser JS environment variables, and so on, and then matches the fingerprint to a database of crawls. The framework takes into consideration the rate at which a certain IP address is crawling a website. This is possible because the framework is deployed on many websites and can find that the IP address is browsing the web at a non-human rate.
+
+
+Step 2 of 3
+
+Allow the Google StoreBot crawler to access your website
+
+We recommend you reach out to your system administrator to understand which method is being used to block the Google StoreBot and to allow the Google StoreBot to access your website.
+
+Step 3 of 3
+
+Landing pages review
+
+Google is constantly trying to crawl your landing pages. When we’re able to crawl your landing pages, the errors that you receive should disappear within a couple of days. This time allows us to verify that we can crawl the landing pages that are provided, after which the products will start showing up in your local inventory ads again.
+
+
+Related link
+
+
+  About the Google StoreBot crawler
+
+             Was this helpful?How can we improve it?YesNoSubmit       

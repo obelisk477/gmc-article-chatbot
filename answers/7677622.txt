@@ -1,0 +1,109 @@
+ About the store feed specification
+
+
+  This feed is only used to implement the optional local feeds partnership program.
+
+
+
+The store feed maps your store codes to store addresses. If you don't provide this feed, you must match the store codes in your sales and inventory feeds to the store codes in the retailer's Google Business Profiles. This feed must be uploaded when you add new retailers or stores to the program.
+
+
+  
+    
+      Required field
+      Description
+      Type
+      Example
+    
+  
+  
+    
+      Target customer ID
+      [target_customer_id]
+      The Merchant ID of the retailer
+      Integer
+      "112339909"
+    
+    
+      Store code
+      [store_code]
+      
+      The unique store identifier from point of sale (POS)/inventory data provider
+
+      Note: The store code attribute is case sensitive.
+      
+      String
+      "465278"
+    
+    
+      Store address [store_address]
+      The postal address of the store corresponding to the store code
+      String
+      "1600 Amphitheatre Pkwy, Mountain View, CA 94043"
+    
+  
+
+ 
+
+
+  
+    
+      Optional field
+      Description
+      Type
+      Example
+    
+  
+  
+    
+      Store name
+      [store_name]
+      
+      The merchant or store name
+
+      This field is recommended.
+      
+      String
+      "Store Mountain View"
+    
+    
+      Phone number
+      [phone_number]
+      The store phone number
+      String
+      Multiple formats are accepted, including international phone numbers.
+    
+    
+      Website URL
+      [website_url]
+      The website URL for the store or merchant
+      String
+      “http://acmestores.com/456/”
+    
+    
+      
+      Google product category
+        [google_product_category]
+      
+      
+      The business type of the store
+
+      Choose the category that best represents your business using the list of common categories.
+      
+      String
+      “Bicycle Store”
+    
+    
+      Place ID
+      [place_id]
+      
+      The Google Place ID of the store location
+
+      Use this field to provide a unique identifier to a store. It doesn’t need to match with a store address.
+      
+      String
+      “ChIJgUbEo8cfqokR5lP9_Wh_DaM”
+    
+  
+
+             Was this helpful?How can we improve it?YesNoSubmit       

@@ -1,0 +1,103 @@
+ How to fix: Potential inaccurate value: price [price]Review this value to confirm that it is correct for Buy on Google
+
+One or more of your products may be showing an inaccurate price, based on the pricing of similar products. This may be because you submitted an inaccurate value for the price [price] attribute or it may be due to a mistake in the feed. To ensure that you intended to sell these products at this price, your offer has been paused until you confirm the listing. Please review the price to confirm that the value you’ve submitted for these products is the value you intended.
+
+Instructions
+
+
+  Step 1: See the affected products
+
+  
+    
+  Sign in to your Merchant Center account.
+  Select Products on the navigation menu, then click Diagnostics.
+  Click the Item issues tab to see current issues affecting your products.
+
+
+To download a list (.csv) of all affected products for all issues:
+
+
+  Click the download button  next to the filter button , beneath the graph and above the list of issues.
+
+
+To download a list (.csv) of all affected products for a particular issue:
+
+
+  Find the issue under the “Issue” column, then click the download button  at the end of the row.
+
+
+To see a list of up to 50 products with this particular issue:
+
+
+  Find the issue under the “Issue” column, then click View examples in the “Affected items” column.
+
+
+  
+
+
+
+  Step 2: Submit valid unique product identifiers or declare that there aren't any
+
+  
+    
+      
+        Filter the downloaded report so that you only see products with:
+          “Issue title” = Potential inaccurate value: price [price]
+      
+      Check the value submitted for the price [price] attribute.
+        
+          If the value shown is incorrect, enter the correct value.
+          If the price you submitted is correct, and the product is a merchant-defined multipack, add the multipack [multipack] attribute and indicate the multipack quantity.
+        
+      
+      Review the GTIN [gtin] attribute to make sure it is correct. If not, we could be misidentifying your product.
+      If the item is currently unavailable, set the availability [availability] attribute to out_of_stock.
+    
+  
+
+
+
+  Step 3: Resubmit your product data
+
+  
+    
+  After you’ve updated your product data, resubmit it using one of these methods:
+    
+      Upload a feed
+      Submit through the Content API
+      Import content from an ecommerce platform
+    
+  
+  Next, check that you’ve fixed the issue by making sure it’s no longer listed on the Diagnostics page.
+    
+    Keep in mind: It may take some time for your change to be reflected on the Diagnostics page.
+
+
+  
+
+
+If you follow these steps and are unable to resolve pricing issues, contact our support team to have the item reinstated.
+
+
+  Request manual review of your offers
+
+  
+    If you believe that some of your products were incorrectly disapproved, you can request a manual review to have those products reviewed and re-approved.
+
+
+  In your Merchant Center account, click Products in the navigation menu.
+  On the Diagnostics page, select Item issues and scroll to a specific policy violation. Under the “Affected items” column, click View samples.
+  If you believe the product warrants a manual review, click into the product under the “Example” column and navigate to the “Item status” section. Under "Actions", click Request review.
+  Review the policies related to your product disapproval, then check the box that acknowledges that you reviewed this information.
+  Click Request manual review.
+
+
+Note: If there are multiple products that you believe were incorrectly disapproved, you’ll need to request a review for each of these products individually.
+
+  
+
+
+
+  Note: When you request a review for inaccurate price, this action automatically triggers a reinstatement of the offer at the price you submitted in your product data.
+
+             Was this helpful?How can we improve it?YesNoSubmit       

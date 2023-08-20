@@ -1,0 +1,93 @@
+ RSS 2.0 specification
+
+This document provides guidelines for the creation of an XML product data feed in the RSS 2.0 format. We've linked standard attributes to their respective sections in the official RSS 2.0 specification to assist you in finding additional information about the components from our examples. Although we provide examples of RSS 2.0 files, we provide minimal details about RSS 2.0 itself. If you are interested in learning more about this standard, we suggest looking over this specification.
+
+
+  Note: Include all of the products you wish to include in Google Merchant Center in your RSS feed, and not only recent changes to your products. If you remove a product from your RSS feed it will be removed from Google Merchant Center.
+
+
+Section 1: RSS 2.0
+
+Based on the RSS 2.0 specification, there are 3 predefined elements at the item level: title, link, and description. Although these elements are optional in the RSS 2.0 standard, product data feeds require them.
+
+Product data feeds also require additional elements such as price, ID, and condition. To include these elements and more detailed information about an item, we've extended RSS 2.0 by adding the Google Merchant Center feed namespace. Defining the Google Merchant Center namespace allows you to use additional elements, called "attributes", and increases the amount of information you can provide about each item in a feed.
+
+Below is an example of a basic RSS 2.0 document containing a single item. The 2 major additions in this example are the addition of the namespace declaration (xmlns:g="http://base.google.com/ns/1.0") and the inclusion of 4 attributes (image link [image_link], price [price], condition [condition], and ID [id]).
+
+<?xml version="1.0"?>
+  <rss xmlns:g="http://base.google.com/ns/1.0" version="2.0">
+  <channel>
+  <title>Example - Google Store</title>
+  <link>https://store.google.com</link>
+  <description>This is an example of a basic RSS 2.0 document containing a single item</description>
+  <item>
+  
+  
+  <g:id>TV_123456</g:id>
+    <g:title>Google Chromecast with Google TV</g:title>
+    <g:description>Chromecast with Google TV brings you the entertainment you love, in up to 4K HDR</g:description>
+    <g:link>https://store.google.com/product/chromecast_google_tv</g:link> <g:image_link>https://images.example.com/TV_123456.png</g:image_link> <g:condition>new</g:condition>
+    <g:availability>in stock</g:availability>
+    <g:price>49.99 USD</g:price>
+    <g:shipping>
+
+  
+  
+  <g:country>US</g:country>
+    <g:service>Standard</g:service>
+    <g:price>7.99 USD</g:price>
+  
+  
+
+  </g:shipping>
+    <g:gtin>123456789123</g:gtin>
+    <g:brand>Google</g:brand>
+  
+  
+  </item>
+  </channel>
+  </rss>
+
+For a more detailed overview of an XML product data feed in RSS 2.0, download the example file.
+
+Download RSS 2.0 example
+
+Google Merchant Center namespace declaration
+
+The following namespace declaration is required to use attributes defined only in the Google Merchant Center namespace.
+
+xmlns:g="http://base.google.com/ns/1.0"
+
+In addition to declaring the Google Merchant Center namespace, you must also include a prefix within every attribute tag. We add this prefix to distinguish attributes defined in our namespace from elements defined in RSS 2.0. The prefix selected for this namespace declaration is "g":
+  
+  <g:image_link>http://www.google.com/images/google_sm.gif</g:image_link>
+
+Attributes in the Google Merchant Center namespace must include this prefix or the attributes and any values they contain will be ignored.
+
+Attributes
+
+You can use as many relevant attributes as are specific to your products. Supplying additional information about your products by using these attributes will greatly increase your products' chances of showing up in Shopping ads and free listings when a customer searches on Google. In addition, many attributes defined in the Google Merchant Center namespace can be used more than once within a single product. This enables you to add more available information about a product in your feed.
+
+Section 2: Important checklist
+
+Before you submit your feed, we highly recommend running through the following list to help ensure your file is properly formatted:
+
+
+  Your filename must end with the .xml extension.
+  The feed filename you register in your Google Merchant Center account must match the name you assign to your file.
+  Remember to include namespace declarations. These values should match exactly as shown.
+    
+      Google Merchant Center namespace: xmlns:g="http://base.google.com/ns/1.0".
+      Custom attributes namespace: xmlns:[prefix]="http://base.google.com/cns/1.0", where [prefix] is replaced by the prefix you've included in your file.
+    
+  
+  Verify the prefix included in the Google Merchant Center and Custom Google Merchant Center attribute tags matches the prefix defined in the namespace declaration.
+  Remove attributes that do not contain any values.
+
+
+Section 3: Final note
+
+The example entry included in this document was simplified to allow for clearer focus on the basics of constructing an XML product data feed. While we accept feeds containing other elements defined in the RSS 2.0 standard or in your own namespace, any information these elements contain will be ignored during processing and won't appear in your ads or listings. At this time we'll only process data contained in the default RSS 2.0 elements and in attributes within the Google Merchant Center and Custom Google Merchant Center namespaces.
+
+
+             Was this helpful?How can we improve it?YesNoSubmit       

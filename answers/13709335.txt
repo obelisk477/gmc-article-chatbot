@@ -1,0 +1,75 @@
+ Set up Google local inventory within the Google & Youtube appThis article is intended for users of the Google & Youtube app on ShopifyIf you manage inventory in different locations, you can promote your products and reach nearby customers who are searching on Google. Local inventory for local discovery lets Google show your customers where your products are, so they can buy in a location that's convenient for them.
+
+After you set up local inventory within the Google & Youtube app on Shopify, you can list your products as local inventory ads, and free local listings.
+
+
+On this page
+
+
+  Requirements
+  How to set up local inventory
+
+
+
+Requirements
+
+Make sure that your online store meets the following requirements:
+
+Shopify requirements
+
+
+  You need to use Shopify Point of sale.
+  You need to have a physical retail location that you sell from.
+  You need to have Shopify point of sale inventory. You can add the quantity of products at each retail location.
+  You need to have at least 10 products.
+
+
+Google requirements
+
+
+  Make sure you have completed onboarding for the Google & Youtube app and successfully linked your Google Merchant Center account.
+  Your products need to meet Google's policies and requirements and have an approved status in the Product listings section of the “Overview” page in Google & Youtube app on Shopify.
+
+
+
+How to set up Google local inventory
+
+Follow the steps below to set up Google local inventory and promote your products locally:
+
+Launch the setup guide for Google local inventory
+
+
+  In the Google & Youtube app on Shopify, select the Overview tab.
+  Scroll to the “Local inventory” section.
+  Click Get started to go to the setup guide.
+
+
+Create a Google Business Profile
+
+
+  In the setup guide, click Create profile to sign up for a free Google Business Profile. 
+  If you already have one, then click I already have a profile.
+
+
+Google Business Profiles allow you to add your retail stores to Google so that your locations appear in Google Maps and Search. When adding locations, make sure that you use the exact same address as your retail locations in Shopify so that inventory information can sync seamlessly.
+
+Prepare your products for syncing
+
+To sync your products between your Shopify store and your Google Merchant Center, you must have at least 10 products that have an approved status in the Product listings section of the “Overview” page in your Google & Youtube app on Shopify.
+
+Click I understand to acknowledge that your products meet these requirements.
+
+Link your Google accounts
+
+After you’ve acknowledged the requirements to prepare products for syncing, you must link your Google Business Profile to your Google Merchant Center account.
+
+In the “Link accounts” step, enter the email address you used to create your Google Business Profile and click Link.
+
+
+Related links
+
+
+  Syncing your products
+  Advertise your products using Shopping ads (for Shopify users)
+
+             Was this helpful?How can we improve it?YesNoSubmit       

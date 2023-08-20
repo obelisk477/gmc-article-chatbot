@@ -1,0 +1,65 @@
+ Set up an ID rule
+
+For the ID [id] attribute, you're required to submit a unique identifier value for each of your products. If the data provided does not match the product data specification requirements, you can use an ID rule to identify where the unique identifier exists in the primary feed.
+
+The ID rule is a powerful feature that allows you to bulk update your feed to make sure that each of your products has a unique value for the ID [id] attribute. For example, if the column in your spreadsheet with your ID values is labeled "SKU", you may want to map the SKU column to the ID [id] attribute. Or, you may want to concatenate different columns to combine different attribute values into a single, unique ID.
+
+
+  
+    Note: After updating your ID rule, you may not be able to show ads or listings from that feed for several hours.
+  
+
+
+This article will tell you how to set up rules for the ID [id] attribute.
+
+Before you begin
+
+
+  Familiarize yourself with feed rules. The ID rules feature uses the same interface used for other feed rules, but is processed and applied separately.
+  Learn more about the product data specifications for the ID [id] attribute
+  Note: ID rules are only supported for non-API feeds.
+
+
+How to set up ID rules
+
+To create a new rule for the ID attribute:
+
+
+  Sign in to your Merchant Center account.
+  Select Products from the navigation menu, then click Feeds.
+  Select the feed for which you'd like to refine the ID [id] attribute.
+  Click the Settings tab at the top of the page.
+  Click ID rule.
+  Click Create rule.
+  Configure your Data Sources. In most cases, you'll use the "Set to" operator, and enter the attribute name. Example: Set id to: my_first_feed.sku
+  Add Modifications (optional).
+  Click OK.
+
+
+When you've finished setting up your rule, you'll need to re-process your feed.
+
+
+  Go to the Processing tab.
+  In the top right corner, click Re-process feed.
+
+
+Note: The first re-processing of your feed may result in an error message. In this case, wait one hour, and then re-process the feed.
+
+You may set up ID rules on both your primary and supplemental feeds. If you need to change the ID [id] attribute values in both your primary and supplemental feeds, be sure to make the changes to your primary feed first.
+
+If you re-upload the feed file, the ID rules that you set up will still apply. After you set up ID rules, they will always be applied before all other feed rules are executed.
+
+Related links
+
+
+  About feeds
+  Add your products
+  Create a feed
+  Show products in multiple target countries
+  Set up feed rules
+  Remove a feed or feed label
+  Test and preview your feed rules
+  How to set up data attributes Part 1 - Required attributes 
+
+
+             Was this helpful?How can we improve it?YesNoSubmit       

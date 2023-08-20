@@ -1,0 +1,74 @@
+ Vehicle ads policies (Beta)
+
+Vehicle ads are a performance focused, omnichannel, ad format which allows vehicle advertisers to promote their entire inventory of new and used vehicles to interested customers shopping for vehicles online. This format is relevant for any vehicle advertiser that wants to promote vehicle inventory for sale. Vehicle advertisers can participate by uploading their vehicle feeds to Merchant Center and running smart shopping campaigns in Google Ads to serve vehicle ads. Learn more about how to set up vehicle ads.
+
+
+  
+    Note: All existing vehicle ads smart shopping campaigns will be upgraded to Performance Max campaigns by September 2023.
+  
+
+
+To participate in our vehicle ads program, you must adhere to Shopping ads policies with the following requirements and exceptions.
+
+Requirements to participate in vehicle ads
+
+
+  Note: Exceptions to the requirements below may apply based on participation in beta features.
+
+
+
+  Allowed vehicle types: Non-commercial and passenger vehicles only
+
+    
+      Any vehicle that requires a special license to operate, permission to be bought, or aren’t equipped and licensed for use on public roads are excluded.
+      Examples of excluded vehicle types: RV, ATV, motorcycles, motor bikes, boats, planes, farm vehicles, go-karts, race cars, and any vehicle requiring a commercial license.
+    
+  
+  For sale only: Vehicles available for lease or subscription aren't supported
+  Vehicle auctions: Vehicle auctions and auction pricing aren't supported
+  Vehicle parts: Vehicle parts, accessories, tires, and services aren't supported
+  Vehicle title: All vehicles listed for sale must have a clean title. Vehicles with any title defect are ineligible for vehicle ads
+    
+      Examples of unacceptable title types: Salvage, lien, etc.
+    
+  
+  Dealership license: You must have a valid dealership license in the states, territories, or provinces in which vehicles are located and/or offered for sale. To apply for verification of your dealership license, fill out this form.
+    
+      Examples are state vehicle dealer license, sales license, permit information, or business registration.
+      A driver's license or sales receipts aren’t valid documentation to meet this requirement.
+    
+  
+  Direct sellers only: Brokers aren't allowed to participate
+  Aggregators: Currently aren't supported
+  Online delivery of vehicles: Currently isn't supported
+  Location: You must have a brick and mortar business location for customers to physically visit, review, and/or purchase the vehicle in the state you are listing the vehicle for purchase
+  One account per state: You may only list vehicles for sale in a single state within a single Merchant Center account
+  Image feed: Vehicle ads have additional image feed specification and image requirements. Learn more about vehicle ads policies and guidelines
+
+
+Exceptions to Shopping ads policies
+
+The following Shopping ads policies don’t apply to vehicle ads:
+
+
+  Unsupported shopping content [vehicles]: Light passenger cars and trucks may be advertised using vehicle ads.
+  Promote only products available for direct purchase: Vehicle ads may lead a customer to complete a vehicle purchase in person and thus the policy for “Links promoted in Shopping ads and free listings need to lead users directly to a page that allows them to buy the advertised product” isn’t required for vehicle ads.
+  Website requirements regarding online checkout: The requirement for online payment and transaction requirements don’t apply to vehicle ads.
+  Shipping: Given that vehicle ads require an in-store purchase and pickup, no shipping information is required.
+
+
+Vehicle ads beta features
+
+Vehicle ads from the following advertisers are available as beta features:
+
+
+  Vehicle aggregators
+  Advertisers offering online delivery of vehicles
+  Multi-state sellers in a single account
+  Original equipment manufacturers (OEM)
+
+
+
+  Note: Beta features for vehicle ads are being tested and expanded. Participation in beta features may initially only be available to certain vehicle advertisers. Performance in beta countries may differ from that of non-beta countries. Beta features may not be eligible to show everywhere, can change at any time, and may never be fully launched. If you wish to participate in these beta features, fill out this form to submit your interest.
+
+             Was this helpful?How can we improve it?YesNoSubmit       

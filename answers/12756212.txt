@@ -1,0 +1,339 @@
+ About setting up date and time settings
+
+
+  If you’re looking for information about setting up date and time settings in the classic Merchant Center experience, click here. 
+
+
+
+This article explains how to format dates and times when submitting your product data. You’ll submit dates and times for attributes such as availability date [availability_date], sale price effective date [sale_price_effective_date], and expiration date [expiration_date].
+
+On this page
+
+
+  How it works
+  Format a date
+  Include a time
+  Examples
+
+
+
+How it works
+
+Use the ISO 8601 standard, which this article explains in more detail. Depending on the attribute, you’ll submit a date or date range, and you can include a specific time.
+
+
+Format a date
+
+Include the date in the following format:
+
+
+  YYYY-MM-DD
+
+
+For example, to submit May 11, 2017, use:
+
+
+  2017-05-11
+
+
+
+Include a time
+
+To add a specific time to your date:
+
+
+  Follow the date with the letter T
+  Add the time of day in 24-hour format: hh:mm:ss. For example: 13:00:14
+  After the time, add the time zone. For example, for UTC-8, use: -0800
+
+
+For example, to submit May 11, 2017 at 12:01:59 AM for the UTC-8 time zone, use:
+
+
+  2017-05-11T00:01:59-0800
+
+
+If you don’t include a time, we’ll use the end of the day: 23:59:59
+
+If you don’t include a time zone, we’ll use a default time zone:
+
+
+  Text and XML feeds will use the default time zone for your target country.
+  The API will use UTC.
+
+
+
+  
+    
+      Country
+      Default time zone for Text and XML feeds
+    
+  
+  
+    
+      Australia
+      +1000
+    
+    
+      Brazil
+      -0300
+    
+    
+      Canada
+      -0500
+    
+    
+      Central European countries
+      +0100
+    
+    
+      Japan
+      +0900
+    
+    
+      Mexico
+      -0600
+    
+    
+      New Zealand
+      +1200
+    
+    
+      Russia
+      +0400
+    
+    
+      Singapore
+      +0800
+    
+    
+      United Kingdom
+      Z or +00:00
+    
+    
+      United States
+      -0800
+    
+  
+
+
+Format date ranges
+
+Some attributes accept date ranges that include a start and end date. A date range is a start date and end date separated with a slash ( / ): start/end
+
+For example:
+
+
+  2017-05-11T00:01:59-0800/2017-06-21T22:13:59-0800 for PST
+  2017-02-24T11:07:31+0100 for Central European Time
+
+
+If you don’t include a time, the start date will use 00:00:00, and the end date will use 23:59:59.
+
+
+Examples
+
+
+  Variants
+
+  
+    
+
+    
+      
+        
+          
+            Product data for Android T-shirt - Green - Small
+          
+          
+            Attribute
+            Product Data
+          
+          
+            Title [title]
+            Android T-Shirt - Green - Small
+          
+          
+            Price [price]
+            $10.99 USD
+          
+          
+            Sale price [sale_price]
+            $9.99 USD
+          
+          
+            Sale price effective date [sale_price_effective_date]
+            2016-02-24T13:00-0800/2016-02-29T15:30-0800
+          
+          
+            Color [color]
+            green
+          
+          
+            Size [size]
+            s
+          
+          
+            ID [id]
+            9876-S-GRN
+          
+          
+            Item group ID [item_group_id]
+            9876
+          
+        
+      
+
+       
+
+      
+        
+          
+            Product data for Android T-shirt - Blue - Small
+          
+          
+            Attribute
+            Product Data
+          
+          
+            Title [title]
+            Android T-Shirt - Blue - Small
+          
+          
+            Price [price]
+            $8.99 USD
+          
+          
+            Sale price [sale_price]
+            $5.99 USD
+          
+          
+            Sale price effective date [sale_price_effective_date]
+            2016-06-23T13:00-0800/2016-02-29T15:30-0800
+          
+          
+            Color [color]
+            blue
+          
+          
+            Size [size]
+            s
+          
+          
+            ID [id]
+            9876-S-BLU
+          
+          
+            Item group ID [item_group_id]
+            9876
+          
+        
+      
+
+       
+
+      
+        
+          
+            Product data for Android T-shirt - Yellow - Small
+          
+          
+            Attribute
+            Product Data
+          
+          
+            Title [title]
+            Android T-Shirt - Yellow - Small
+          
+          
+            Price [price]
+            $10.50 USD
+          
+          
+            Sale price [sale_price]
+            $8.99 USD
+          
+          
+            Sale price effective date [sale_price_effective_date]
+            2016-05-11T13:00-0800/2016-02-29T15:30-0800
+          
+          
+            Color [color]
+            red
+          
+          
+            Size [size]
+            s
+          
+          
+            ID [id]
+            9876-S-YEL
+          
+          
+            Item group ID [item_group_id]
+            9876
+          
+        
+      
+    
+  
+
+
+
+  Product is available for preorders with a specific release date
+
+  
+    
+      
+        
+          
+            Product data for Android Squishable
+          
+          
+            Attribute
+            Product Data
+          
+          
+            Availability [availability]
+            preorder
+          
+          
+            Availability date [availability_date]
+            2016-12-25T13:00-0800
+          
+        
+      
+    
+  
+
+
+
+  Expiration date
+
+  
+     
+
+    
+      
+        
+          
+            Product data for Milk
+          
+          
+            Attribute
+            Product Data
+          
+          
+            Title [title]
+            Low fat cow milk - 500 ml
+          
+          
+            Expiration date [expiration_date]
+            2016-12-25
+          
+        
+      
+    
+  
+
+             Was this helpful?How can we improve it?YesNoSubmit       

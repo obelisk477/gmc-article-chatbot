@@ -1,0 +1,114 @@
+ About the price competitiveness report
+
+The price competitiveness report shows how other retailers are pricing the same products that you sell. You’ll see an average price for each product, which can help you understand the price at which other retailers are successfully attracting clicks, as well as aggregate metrics on benchmark prices over time.
+
+The report offers 2 ways to segment and view data:
+
+
+  When you’re viewing data by category, brand, or product type, you can track how competitive you are in Shopping ads and free listings over time.
+  When you’re viewing data by product, you’ll see information on individual products for which a benchmark metric is available.
+
+
+This article explains how the price competitiveness report in Merchant Center works.
+
+Benefits
+
+Use pricing insights to help provide guidance when you’re bidding on ads and pricing your products.
+
+
+  Bid competitively. Leverage price benchmarking reporting to raise your bids on products that are price-competitive.
+  Price competitively. Use price benchmark reporting as an input when making pricing decisions and setting merchandising strategy. This could include identifying products, product types, brands, or categories that are priced too high, or setting strategy for promotions or special offers.
+  View insights at scale with Google BigQuery (requires a Google Cloud account). View price competitiveness data through Google Cloud’s BigQuery. By enabling this you can develop custom workflows using your own data and gain business insights to inform margin management and more. Learn more about Google BigQuery Data Transfer Service for Merchant Center
+
+
+Before you begin
+
+You’ll need to enable Market Insights before you can use this feature.
+
+Also, mentions of "free listings" in this article only refer to free listings in the Shopping tab.
+
+
+
+
+How it works
+
+The price competitiveness report can be grouped according to product, product type, category or brand. Grouping by product, or clicking on View products, will open a detailed table of each product’s data.
+
+You can filter report results across a period of time that you specify.
+
+
+  Please note that products sold by too few retailers, or products that don’t get a lot of clicks in Shopping ads or free listings, won’t appear in this report. Additionally, this report is for Shopping ads and free listings only, so it doesn’t include data from other features like local inventory ads or Buy on Google.
+
+
+The product view of the report only provides data for products currently submitted in your Merchant Center account and for which benchmark metrics are available. The category, brand, and product type views will take the full history of your products into consideration.
+
+When viewing data by category, brand, or product type, you’ll see these two metrics:
+
+
+  
+    
+      Metric
+      What it shows
+    
+    
+      Above, at, or below benchmark
+      The percentage of instances that your products were ranked against other products, in which yours were more than 1% above, within +/- 1% of, or 1% below the benchmark price.
+    
+    
+      No benchmark
+      The percentage of instances in which your products were ranked against other products in which there was not enough data to calculate the benchmark price for this product.
+    
+  
+
+
+ 
+
+When viewing data by product, you’ll see these metrics:
+
+
+  
+    
+      Metric
+      What it shows
+    
+    
+      Your Price
+      Your current price for an item, as defined by the price [price] attribute or, if it’s available and active, the sale price [sale_price] attribute.
+    
+    
+      Current benchmark price
+      The average click-weighted price for a given product across all retailers who list that same product on Shopping ads and free listings. Products are matched based on their GTIN.
+      
+      The benchmark price is calculated using data pulled from 1 to 7 days prior to the report being created. Products with a higher click volume in Shopping ads or free listings will get a fresher benchmark, putting them closer to 1 day.
+      
+      As the benchmark is weighted by clicks, offers that are more popular will get more weight in the benchmark price.
+    
+    
+      Current benchmark price difference
+      The percentage difference between your current price and the current click-weighted average benchmark price for the product.
+    
+    
+      Historical benchmark price difference
+      The average percentage difference between your price and the benchmark price during the selected date range.
+    
+  
+
+
+How to find the report
+
+To see your price competitiveness report, follow these steps:
+
+
+  Sign in to your Merchant Center account.
+  Navigate to the “Growth” tab.
+  Click on Price competitiveness.
+
+
+Related links
+
+
+  About Market Insights
+  About the best sellers report
+  Accessing the data via Google Cloud
+
+             Was this helpful?How can we improve it?YesNoSubmit       

@@ -1,0 +1,116 @@
+ Upload a feed
+
+After you've created and registered your feed, use it to upload your data.
+
+Before you begin
+
+To minimize delays, ensure that your product data conforms to the products feed specifications and the feature. policies, including Shopping ads policies and policies for listing your products for free on Google.
+
+If you're not sure about the status of your products after an upload, review your product status definitions.
+
+
+  
+    
+      A full feed should be submitted at least every 30 days. If your product data changes regularly, you may upload your full feed up to 4 times per day.
+      If you submit multiple feeds, keep each item in the same feed with each submission. Avoid moving your items to different feeds.
+      If you submit your products for the first time to a particular target country, it may take up to 3 business days for your products to be reviewed. If you submit a feed for a beta target country, it may take significantly longer for your products to be reviewed. Learn more About beta countries for Shopping Ads and free listings.
+    
+  
+
+
+
+Upload options
+
+When uploading your data feed to Merchant Center, you have 4 upload options. When you have uploaded a data feed, you may also create a schedule to update your feed automatically.
+
+
+
+
+
+  
+
+    Note: If you're submitting a compressed file, it must be under 4 GB. If your file is larger than 4 GB, split it into multiple smaller files before uploading.
+  
+
+Direct upload
+
+
+  
+    In the navigation menu of your Merchant Center account, go to Products.
+    Click Feeds.
+    Locate your feed from the list of registered files. In the "Feed name" column, click the feed name associated with the file you'd like to submit.
+    On the upper right corner of the the page that loads, you’ll see one of the following options, depending on the input method you originally chose:
+      
+        Upload file
+        Access Google Sheets
+      
+    
+    Select one of the options, then pick the feed file you want to upload.
+    (Optional) If you’d like to test your feed before incorporating the data, select "Upload as test". Learn how to Test your direct upload feed.
+    Click Upload.
+  
+
+  
+    The upload may take several minutes. The status of any feed can be found in the "Processing" section of the feed. Around 30 minutes after a feed has finished processing, you can see its status included with your whole catalog under "Products” on the “Diagnostics” page.
+
+    
+  
+
+SFTP upload
+
+
+  SFTP (SSH File Transfer Protocol) is a secure means of submitting a large amount of product data. Learn how to  Submit feeds via SFTP.
+
+Scheduled fetches
+
+
+  The Scheduled Fetches input method allows you to create an uploading schedule for your data feed hosted on your website. Based on the schedule you create, we will take best efforts to download the file from your website and upload it to your account for you in accordance with your schedule. Learn how to Submit feeds via scheduled fetches.
+
+Upload via Google Cloud Storage
+
+
+  Google Cloud Storage (GCS) is a cloud-based storage service that allows you to store and access your data on Google's infrastructure. Learn how to Submit feeds via Google Cloud Storage.
+
+
+Content API (Advanced)
+
+ 
+  
+    The Content API for Shopping allows apps to interact directly with the Merchant Center platform, vastly increasing the efficiency of managing large or complex Merchant Center accounts. The Content API for Shopping can be used as an input source for product data in Merchant Center, directly delivering your data as it is updated on your site.
+
+    Learn more about getting started with Content API for Shopping
+  
+
+
+
+
+Product limits
+
+We strive to allow retailers to submit their full inventory of products. However, all accounts have a default limit of items that can be submitted.
+
+If you’re submitting a large number of products, you will receive a notification in your account when you’re approaching or have reached your current limit.
+
+
+Review feed processing results
+
+You’re able to review the results of all feed processing for file-based or Google Sheet-based feeds. To find the results:
+
+
+  In the navigation menu of your Merchant Center Account, go to Products.
+  Click Feeds.
+  Click the Primary or Supplemental Feed Name in which you want to review.
+  Review the results.
+    
+      Properties: Includes key feed properties, which vary depending on the input method of the feed. Here, you can find attributes such input method, timezone, filesize, detected delimiter (if applicable), and more.
+      Attributes: Depending on which Merchant Center program your feed is opted into, we require attributes to adhere to the product data specification. In this section, you can review all of the attributes we found in your feed, including those attributes which are recognized and map to the feed specification, and also Unrecognized attributes which don't match one listed in the product data specification. You may review the list and use tools such as Feed Rules to tell Merchant Center which unrecognized attribute you would like to use to populate a Google attribute. For example, you may want to use "product name" in the "title" attribute
+      Processing Data: In this section, you can review the amount of items found in your feed, as well as those with any detected item issues. Review the list of item issues to understand how many items in your feed are impacted, including examples and links to documentation to address the issue.
+    
+  
+
+
+
+  Note: Processing only checks for basic file and data issues. To see all issues, go to Diagnostics.
+
+
+
+             Was this helpful?How can we improve it?YesNoSubmit       

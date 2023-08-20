@@ -1,0 +1,90 @@
+ About on display to order
+
+With the on display to order (ODO) feature, you can show products that are displayed in your store but are not available for immediate purchase, for example, large furniture.
+
+
+  Customers who are looking for similar products on Google, will see these ads with the “in-store” annotation in their search results.
+  Customers that are browsing on your Google-hosted local storefront (GHSLF) will see these products marked as “Available to order”.
+
+
+They can click on your local inventory ad or free local product listing to view the item. To buy the item, they can visit your store webpage, view the item, and then order it to be shipped to them or shipped to your store for pick up.
+
+By default, your ODO local inventory ads and free local product listings will direct people who are shopping online to your Google-hosted local storefront. To direct people to your website instead of your Google-hosted local storefront, you’ll need to implement the merchant-hosted local storefront.
+
+
+
+
+
+Before using ODO, make sure you meet the requirements listed below. Reach out to our support team to verify your eligibility and compliance via our Contact Us form.
+
+Eligibility
+
+For items to be eligible for on display to order (ODO), they must meet the following requirements:
+
+
+  Must provide approximate delivery times for the items on ODO: The landing page must have an approximate delivery time after the order is placed for an item in the store.
+  Contains shipping cost and policy information: The URL you provide for your local storefront must provide full shipping details for the on display to order product, such as cost and policy.
+
+
+Merchant hosted local storefront landing page requirements
+
+If you decide to direct customers to your website through a merchant hosted local storefront, you’ll need to meet the existing merchant hosted local storefront requirements (basic or full) in addition to the landing page requirements below:
+
+
+  Merchant hosted local storefront (basic): The local availability displayed after interaction with the store selector must show the item is "on display to order" at that store without further customer interaction. If a different variant of the item is on display to order, it must state “Variant on display to order”.
+  Merchant hosted local storefront (full): The "on display to order" availability must be displayed on the landing page. If a different variant of the item is on display to order, it must state “Variant on display to order”.
+
+
+Implementation
+
+To implement the on display to order feature, you must update your local product inventory feed and submit the URL for a webpage that contains details about your on display to order policies in your Merchant Center account.
+
+Update your local product inventory feed
+
+Add the availability [availability] attribute to your local product inventory feed and use "on_display_to_order" as the value.  If you’re also providing the attribute quantity [quantity], use “1” for on display to order items.
+
+You may add other attributes such as available color, size, and fabric variants for the items on display in your primary feed. If displaying variants of an item, ensure that all of the specified variants are available for the customer to view in your shop (for example, size, color, and fabric).
+
+Submit your on display to order webpage URL
+
+Follow the steps below to submit the URL of the webpage that contains your on display to order policies and procedures information for customers:
+
+
+  Sign in to your Merchant Center account.
+  Click the tools icon  , then select Local inventory ads setup or Free local listings setup under “Tools”.
+  Select the country where you want to enable the on display to order feature.
+  For “On display to order (Optional)”, add the URL for the webpage that details your shipping cost and policy.
+  Click Request verification.
+
+
+
+  Review your on display to order shipping and policy URL status
+
+  
+    
+      Your on display to order status indicates whether your web page and business are eligible to use the on display to order feature. Follow the steps below to see your status:
+
+      
+        Sign in to your Merchant Center account.
+        Click the tools icon , then select Local inventory ads setup or Free local listings setup under “Tools”.
+        Select the tab for your country.
+        See the status next to the on display to order field. If the on display to order feature has been approved, it will show as “Active”.
+      
+
+      Your on display to order shipping and policy URL may be:
+
+      
+        Verified: No further action needed.
+        Pending Google review: Check back soon. The URL for your on display to order web page is under review. This process can take up to a week.
+        Rejected: The Google review rejected your URL. Ensure your URL and business meets the on display to order eligibility requirements and make any necessary updates. Then, submit your on display to order URL.
+      
+    
+  
+
+  
+    If you have on display to order products in your local product inventory feed, you can't request inventory verification until your on display to order URL is Verified.
+  
+
+
+
+             Was this helpful?How can we improve it?YesNoSubmit       

@@ -1,0 +1,87 @@
+ How to fix: Too many local inventoriesRemove local inventories in your local product inventory feed for this listing so there are 10000 or fewer; or request to raise your limitWhen you upload too many local inventories for the offer, the offer will not be served. To fix this issue, delete some existing local inventories from your offer or request a quota increase to increase your limit.
+
+
+  
+    Note: Google may show a limit specific to each merchant instead of the fixed limit of 10000.
+  
+
+
+
+Instructions
+
+
+  Step 1 of 3: See the affected products
+
+  
+    
+      Sign in to your Merchant Center account.
+      Select Products on the navigation menu, then click Diagnostics.
+      Under the Item issues tab, filter the data by selecting Destination: Local inventory ads.
+    
+
+    To download a list (.csv) of all affected products for all issues:
+
+    
+      Click the download icon  next to the filter icon , beneath the graph and above the list of issues.
+    
+
+    To download a list (.csv) of all affected products for a particular issue:
+
+    
+      Find the issue under the “Issue” column, then click the download icon at the end of the row.
+    
+
+    To see a list of up to 50 products with this particular issue:
+
+    
+      Find the issue under the “Issue” column, then click View examples in the “Affected items” column.
+    
+  
+
+
+
+  Step 2 of 3: Remove some products from your account or request to raise your product limit
+
+  
+    
+      
+        Filter the downloaded report so that you only see products with:
+          "Issue title" = Not submitted due to product limit.
+        Search your local inventory data for those products (using the ID) and make sure you delete some of their existing inventory data so that the total amount of inventory is below the maximum limit.
+          You can also request an inventory quota increase.
+      
+    
+  
+
+
+
+  Step 3 of 3: Resubmit your product data
+
+  
+    
+      
+        After you’ve updated your local inventory data, resubmit it using one of these methods:
+          
+            Upload a feed
+            Submit through the Content API
+            Import content from an ecommerce platform
+          
+        
+        Check that you’ve fixed the issue by making sure it’s no longer listed under the Processing tab.
+      
+    
+  
+
+  
+    Note: It may take some time for your changes to be reflected under the “Diagnostics” tab.
+  
+
+  
+  Related links
+
+  
+    About Feeds
+    Upload a feed
+  
+
+             Was this helpful?How can we improve it?YesNoSubmit       

@@ -1,0 +1,114 @@
+ Implement with Google's Orders API
+
+ 
+
+This article provides an overview of the Google Orders API and how it works.
+
+With Buy on Google, you can showcase your products across different Google platforms. This will give customers an easy way to shop your products with a universal shopping cart, whether they’re on desktop, mobile, or a Google Home device.
+
+Before you can use the Orders API, you need to implement OAuth login.
+
+
+  Note: If you don’t have the technical resources for API or feed integration, you can manually manage your orders using the orders page in Merchant Center, or you can use order feeds to more efficiently make bulk changes. You will need to be listed as an order manager in order to do so. Users with standard user-level permission will have a read-only access to the orders page in Merchant Center. Learn more about setting up user access
+
+
+How it works
+
+Google's Orders API helps you automatically ingest orders, mark orders as shipped, charge customers, and process returns and refunds.
+
+Order ingestion
+
+Order ingestion is the process of getting information about a customer’s order into your Orders API.
+
+For about 30 minutes after an order is placed, the order is in the inProgress state. In this state, the customer can cancel the entire order or individual line items from the Google order confirmation page.
+
+You can reserve inventory for an inProgress order, but do not ship any line items or mark items as shipped until the order status changes to pendingShipment.
+
+The steps for order ingestion are below:
+
+
+  Retrieve order information to ingest into your Orders API via the list method.
+
+    
+      Note: Orders may not populate the customer’s house number or street address for billing information to your Orders API and the paymentMethod, billingAddress, and streetAddress fields may appear blank. You may need to modify your Orders API to handle this use case.
+    
+  
+  Once orders have been ingested into your Orders API, acknowledge them via the acknowledge method.
+
+
+Shipping and billing
+
+
+  We highly recommend that you add your order ID to Buy on Google orders via the updatemerchantorderid method to make it easier to distinguish those orders.
+
+
+To manage item shipment and customer charging information, use the methods below:
+
+
+  Manage line item cancellation via the cancellineitem method.
+
+    
+      If you mark items as canceled after calling the charge method, we will automatically process a refund for the canceled items.
+    
+  
+  Manage order cancellation via the cancel method.
+  Manage line item ship by and delivery dates via the updatelineitemshippingdetails method.
+    
+      Use orders.get to retrieve the order details, including the items and line item identifiers.
+      Use orders.updatelineitemshippingdetails to update the shipment details for the affected items.
+        
+          Note: Only one identifier (product ID or lineitem ID) should be used in the update call.
+        
+      
+    
+  
+  When the items are ready to ship, charge the customer using the charge method (optional).
+    
+      Note: This charges the customer for the entire order. It does not need to be called again when shipping additional items from the same order.
+      If the charge fails you can either retry charging the customer later or cancel the entire order. Use the reason code “FAILED_TO_CAPTURE_FUNDS” for failed charges when cancelling the order for this reason.
+      If you mark all items in the order as shipped or cancel them without first using the charge method, Google will charge the customer. Please note that the charge might not succeed.
+    
+  
+  Mark line items as shipped via the shiplineitems method.
+    
+      You can assign a carrier tracking ID to a line item when the line item is shipped using shiplineitems or any time after shipment using updateshipment.
+    
+  
+  Mark shipments as delivered via the updateshipment method (optional).
+
+
+Returns and refunds
+
+Use the method below to perform returns and refunds through the Orders API:
+
+
+  Declare items as returned, and refund customers via the returnrefundlineitem method. Courtesy refunds can be given using the “refund” method without returning any items. The value of all refunds can’t exceed the total order value.
+
+
+
+  Note: Make sure to process returns and refunds quickly and professionally. Returns and refunds are tracked as part of Google’s Trust Metric analysis. This analysis is designed to ensure retailers meet our quality standards in order to remain eligible to participation in Buy on Google.
+
+
+Marketing opt-in information (optional)
+
+If you use Google’s Content API to gather marketing opt-in information, use customer.marketingRightsInfo. That will contain:
+
+
+  explicitMarketingPreference: If this is "granted", then retailers can subscribe the user to marketing emails (if not already done so). Otherwise, they should unsubscribe the user.
+  marketingEmailAddress: When "granted", this is the customer email address that retailers should send marketing emails to.
+  lastUpdatedTimestamp: The time at which the customer changed their marketing opt-in preference.
+
+
+
+  
+    Marketing opt-in information is also available by downloading your order feed from Merchant Center. Learn more about managing orders in bulk
+  
+
+
+
+  Need help? Click here to contact Buy on Google support.
+
+
+
+
+             Was this helpful?How can we improve it?YesNoSubmit       

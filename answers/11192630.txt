@@ -1,0 +1,174 @@
+ About the Shopping experience scorecard program
+
+The Shopping experience scorecard program can help you deliver a great shopping experience for your customers.
+
+
+  Note: This program is only available if you're participating in Buy on Google or free listings in the US, AU, NZ, and CA.
+
+
+By meeting certain criteria, you may receive:
+
+
+
+
+  The "Top Quality Store" badge which displays on your listings and improves user confidence in buying from you
+  Prominence in placements on the Shopping tab
+  Early access to Google's new features
+
+
+How it works
+
+This program will monitor the experience you provide in several areas (see table below) and you'll be given a rating of "Excellent", "Comparable", or "Opportunity" on each metric. There’s nothing you need to do to sign up. Your progress will be monitored automatically, and benefits will be applied to your offers once you meet a certain performance threshold.
+
+
+  
+    The program is meant to incentivize providing an excellent customer experience—and you can benefit, regardless of the size or industry of your business. You won't be penalized if you don’t offer a certain level of customer experience or if you don’t provide some or all of the requested information. You just won't receive the benefits listed above.
+  
+
+
+Google may make your offers more prominent on the Shopping tab or in promotional modules if you provide information for some customer experience areas below. However, you must submit information for all areas to receive badging on your listings. The program metric values don’t display directly to customers on an individual offer level. Instead, the program metrics are impression weighted averages, and are only displayed in your Merchant Center account.
+
+Google will evaluate the information that you provide each day. Even though all metrics are calculated based on an impression weighted average, there's a fixed lookback period. So, if your rating has been in “Opportunity or “Comparable” for a while, it may take a few weeks for your improvements to be reflected in Google's evaluation. All merchants on the platform are eligible to receive benefits from the program and your performance is evaluated against all other merchants.
+
+Keep in mind: If you don’t have any ratings or if you’re missing specific ratings, this could either be because you’re not currently providing the required information, or because your offers haven’t received sufficient impressions in the lookback period.
+
+Also, if you’re providing offer-level shipping data, make sure to include both shipping cost and transit time for each offer. Your offer-level data will override your account-level data, so the Shopping experience scorecard will use these values when determining your performance level.
+
+Check out the Shopping experience scorecard tab to view the areas where you’re providing information and to learn how you can update missing information.
+
+
+  Example
+
+  Barbara’s Buckles has a blank rating for shipping speed. After a quick check, they realize that they’re providing shipping cost without providing shipping speed. So, they create a shipping service for their products that includes both shipping cost and shipping speed. After the lookback window passes, their rating updates with a new value to reflect their shipping speed, which may boost their visibility and performance on the Shopping tab.
+
+
+Instructions
+
+How to view your performance
+
+To see your performance for each metric and your overall score:
+
+
+  Sign in to your Merchant Center account.
+  From the navigation menu, click Growth.
+  Click Shopping experience scorecard.
+
+
+By default, your Shopping experience scorecard will show how you compare to other merchants that sell within your category. If you sell across multiple categories, it will default to show how you compare against all stores. You can switch to view how you compare to direct competitors by clicking the drop-down and selecting "Direct Competitors".
+
+To earn a badge, you must perform well relative to other merchants in all the required metrics. All metrics are calculated daily and have a lookback period to ensure continuous performance.
+
+How to improve your performance
+
+
+  
+    
+      
+      Metric
+      
+      
+      Description
+      
+      
+      Set up links
+        (Listings)
+      
+      
+      Set up links
+        (Buy on Google)
+      
+    
+    
+      Average delivery time
+      Information you've shared about how many days it should take customers to receive their orders
+      
+      API
+
+      Merchant Center
+      
+      
+      API
+
+      Merchant Center
+      
+    
+    
+      Average shipping cost
+      Information you’ve shared about the cost for customers to receive orders (excluding item cost)
+      
+      API
+
+      Merchant Center
+      
+      
+      API
+
+      Merchant Center
+      
+    
+    
+      Average return window
+      Information you’ve shared about the number of days customers have to return an item
+      
+      API
+
+      Merchant Center
+      
+      
+      API
+
+      Merchant Center
+      
+    
+    
+      Average return cost
+      Information you’ve shared about costs for customers to return and restock an item
+      
+      API
+
+      Merchant Center
+      
+      
+      API
+
+      Merchant Center
+      
+    
+    
+      Seller rating (optional)
+      
+      A rating calibrated by Google based on multiple sources including Google Customer Reviews, reviews from various independent rating websites, and performance metrics from Google-led shopping research
+
+      Note: You don’t need a seller rating to earn a badge. However, having a strong seller rating increases your chances of earning one.
+      
+      
+      Work with a supported partner to submit your Seller ratings and/or set up Google Customer Reviews
+      
+    
+  
+
+
+
+  Note: The scorecard will also highlight if one of your return policies has been rejected or if a new return policy has been collected from your website. Make sure to fix rejected policies and accept, partially accept, or disregard any suggested return policies to help your return scores.
+
+
+In addition to the metrics above, Google measures your performance in other areas relevant to determining the level of customer experience you provide, for example, website quality.
+
+
+  
+    How is the Shopping experience scorecard program different from Retailer Standards?
+
+    Retailer Standards applies only to Buy on Google merchants, while the Shopping experience scorecard program applies to all merchants. The goal of Retailer Standards is to ensure that Buy on Google merchants are adhering to certain service standards, while the Shopping experience scorecard program is focused on rewarding any merchant who provides a great customer experience. Not meeting Retailer Standards criteria may cause penalties up to and including account suspension, while the Shopping experience scorecard program has no such penalties.
+  
+
+
+To opt-out of the Shopping experience scorecard program, contact support via the contact us button below. Keep in mind that there are no program penalties for not meeting a certain performance standard. This program is only meant to reward retailers who provide an excellent customer experience.
+
+Related links
+
+
+  About Buy on Google Retailer Standards and policies
+  How to improve your Retailer Standards rating
+  Get more clicks with Opportunities
+
+             Was this helpful?How can we improve it?YesNoSubmit       

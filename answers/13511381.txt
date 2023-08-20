@@ -1,0 +1,320 @@
+ Fix issues with disapproved promotions
+
+This article describes common policy and validation review disapprovals, troubleshooting steps, and tips to avoid future disapprovals.
+
+To understand how Google reviews and validates your promotions, view the promotion approval process.
+
+
+  Note: After editing your promotion to resolve the reason for disapproval, there is no need to use a new promotion ID [promotion_id] when you resubmit. Once you resubmit, the review process will begin again.
+
+
+Common policy review disapprovals
+
+Shipping code required
+
+
+  What this disapproval means:
+
+  Your shipping promotion wasn’t associated with a redemption code.
+
+  Possible causes:
+
+  There's no redemption code associated with the specific promotion.
+
+  How to troubleshoot:
+
+  
+    Add a valid coupon code in your promotion’s details.
+    Test the code to make sure free or discounted shipping is only available after the code is applied.
+    Resubmit your promotion.
+  
+
+  If you do not associate a redemption code with your shipping promotion, you can set a combined promotion. Learn more about combined promotions
+
+  Tips to avoid future disapprovals:
+
+  
+    Ensure that the free or discounted shipping promotion is only available after applying the code on your website
+    Include the redemption code in your promotion’s details when you submit your promotion
+    Refer to the shipping promotions requirements or participation criteria and policies for further details.
+  
+
+
+Conditions overly restrictive
+
+
+  What this disapproval means:
+
+  Your promotion is only available to specific customers.
+
+  Possible causes:
+
+  
+    Your promotion is only available for first-time customers and not available to customers who have already ordered on your website
+    Your promotion is only available to customers in certain locations with specific zip codes
+    Your promotion’s title states that the promotion is only available to a subset of customers (for example: 10% off for teachers)
+  
+
+  How to troubleshoot:
+
+  
+    Revise the title so it applies to anyone shopping on Google.
+    Resubmit your promotion.
+  
+
+  Tip to avoid future disapprovals:
+
+  
+    Make sure your promotion is available to all customers shopping on Google before uploading it
+  
+
+
+Editorial issues
+
+
+  What this disapproval means:
+
+  Your promotion’s long title doesn’t adhere to our editorial requirements.
+
+  Possible causes:
+
+  Your title contains any of the following:
+
+  
+    Incorrect spelling, grammar, or punctuation
+    Excessive capitalization
+    Abbreviations or acronyms (for example: BOGO)
+    Redundant or unnecessary text (for example: online)
+    The word “today,” when your promotion duration is longer than one day
+    Errors in your coupon code
+  
+
+  How to troubleshoot:
+
+  
+    Review your promotion's long title and correct any editorial issues.
+    Resubmit your promotion.
+  
+
+  Tips to avoid future disapprovals:
+
+  
+    Make sure your title adheres to our editorial requirements
+    Review your promotion's long title to catch issues before you submit it
+  
+
+
+Inconsistent applicability
+
+
+  What this disapproval means:
+
+  The product applicability is inconsistent with the promotion’s title.
+
+  Possible causes:
+
+  
+    Your promotion’s long title describes a promotion that's applicable to all products (for example: promotion’s long title is “10% off storewide”); however, the products eligible for promotion [product applicability] attribute is set to specific_products
+    Your promotion’s long title describes a promotion that's only applicable to a subset of products on your website (for example: promotion’s long title is “10% off women’s shoes”); however, the product applicability is set to all_products.
+  
+
+  How to troubleshoot:
+
+  
+    Edit your applicability to match the promotion’s title.
+    Resubmit your promotion.
+  
+
+  Tip to avoid future disapprovals:
+
+  
+    Ensure the product applicability matches the promotion applicability as described in the long title
+  
+
+
+Minimum discount not stated
+
+
+  What this disapproval means:
+
+  Your promotion's long title doesn’t describe a minimum discount or benefit.
+
+  Possible causes:
+
+  
+    Your promotion's long title only describes the maximum discount the customer can receive
+      
+        Not allowed: Get Up To 50% Off
+        Allowed: Get 20–50% Off
+      
+    
+    Your promotion's long title doesn’t describe any discount or benefit in the title
+  
+
+  How to troubleshoot:
+
+  
+    Revise your promotion's long title to describe the minimum discount the promotion offers.
+    Resubmit your promotion.
+  
+
+  Tip to avoid future disapprovals:
+
+  
+    Before you submit a promotion, ensure that the title is clear, accurate, and states a minimum discount. For more information, refer to our participation criteria and policies.
+  
+
+
+Unclear free gift
+
+What this disapproval means:
+
+  Your title doesn’t clearly describe the free gift.
+
+  Possible causes:
+
+  Your promotion’s long title states “free gift” and doesn’t clearly describe the free gift being offered.
+
+  
+    Allowed:
+
+      
+        Free silk scarf with any purchase
+        Free 7-piece tool kit (worth $300 USD) with any $500 USD purchase
+        Free $75 USD necklace when you spend $200+ USD
+      
+    
+    Not allowed:
+      
+        Free gift with $100+ USD purchase
+        Surprise gift with any purchase
+        Free item, redeem at checkout
+      
+    
+  
+
+  How to troubleshoot:
+
+  
+    Include a description of the free gift in the title.
+    Resubmit your promotion.
+  
+
+  Note: Free gifts, gift cards, or e-cards must be reflected at the cart or checkout page. Feel free to view our Promotions policy page for more information.
+
+  Tip to avoid future disapprovals:
+
+  
+    Ensure that the free gift is fully described in your long title before you submit a promotion
+  
+
+
+
+
+
+Common product validation review disapprovals
+
+Unmapped
+
+
+  What this disapproval means:
+
+  Your promotion could not be tested for any products.
+
+  Possible causes:
+
+  
+    The submitted promotion does not map to any products in the products feed
+    The promotion ID [promotion_id] attribute is space and case sensitive and may not have been entered exactly as created in the promotions feed, or with promotion builder
+    Feed rules are set up incorrectly for the promotion ID [promotion_id] attribute for your products feed
+    Eligible items are disapproved per Shopping ads policies
+    Your promotion is set to a locale that has no products
+  
+
+  Note: If you’re using Shopify or Bigcommerce to upload products, these platforms cannot add attributes to the products feed.
+
+  How to troubleshoot:
+
+  
+    Change the existing rules for applicable promotion products in promotion builder, or update your product filter in your promotions feed.
+    Resubmit your promotion.
+  
+
+
+Free shipping available without code
+
+
+  What this disapproval means:
+
+  The free or discounted shipping that you’re offering is already available without applying the redemption code.
+
+  Possible causes:
+
+  
+    Free shipping was automatically applied at checkout on your website
+    Free/discounted shipping is regularly offered on your website
+  
+
+  How to troubleshoot:
+
+  
+    Make the necessary changes to your website so free or discounted shipping is available only after customers manually enter in a redemption code.
+    Request a retest by finding the promotion in your Promotions dashboard and clicking the speech bubble icon  in the "Status" column then selecting Request a retest.
+  
+
+
+Invalid coupon code
+
+
+  What this disapproval means:
+
+  When testing the promotion, the redemption code returned an error or didn't provide the described discount.
+
+  Possible causes:
+
+  
+    The code is incorrect
+    Your website isn’t correctly set up to apply the code
+    The code did not provide the described discount at the cart or checkout page
+    The products should not be tied to the promotion
+  
+
+  How to troubleshoot:
+
+  
+    Check to see that the redemption code is correct.
+    If correct, ensure that it works on the website.
+    If incorrect, create a new promotion ID [promotion_id] with the correct details.
+    Ensure the promotion is associated with eligible items and remap the promotion ID [promotion_id] if necessary.
+    Request a retest by finding the promotion in your Promotions dashboard and clicking the speech bubble icon  in the “Status” column, then selecting Request a retest. If this option does not appear, update and resubmit your promotion.
+  
+
+  Tip to avoid future disapprovals:
+
+  
+    Verify that the redemption code you submit is spelled exactly as it will be used on your website
+  
+
+
+No or lower discount
+
+
+  What this disapproval means:
+
+  At the cart/checkout page, there was no discount or a lower discount than the promotion’s title states.
+
+  Possible causes:
+
+  
+    The sale price is already displayed on the product landing page and your Shopping ad or free product listing, which doesn’t benefit customers (they’re already getting the discounted price)
+    The discount at the cart/checkout page is lower than the discount reflected in the title
+  
+
+  How to troubleshoot:
+
+  
+    Make the necessary changes to your website so that the discounted price stated in the title is only reflected at the cart or checkout page.
+    Update and resubmit your promotion.
+  
+
+             Was this helpful?How can we improve it?YesNoSubmit       

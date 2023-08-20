@@ -1,0 +1,91 @@
+ Advanced account setup
+
+A Merchant Center advanced account setup allows a single person or company to manage data for more than one account by submitting data feeds for multiple website domains. (Each sub-account can have a distinct store name and a unique website URL.)
+
+Advanced account setup is recommended for businesses that manage multiple sellers and domains at scale, such as marketplaces and multi-country retailers. Most customers don’t need an advanced account to get the most out of Merchant Center.
+
+
+  Note: Avoid having multiple websites that contain similar content, as this could lead to account disapproval. Learn more about policies on duplicate content
+
+
+Convert to an advanced account setup
+
+Requirements
+
+
+  You must be an account admin.
+  Your account cannot be a multi-client account (MCA), or a sub-account in an existing MCA.
+  You cannot have an existing account-level policy violation.
+
+
+Instructions
+
+
+  Log in to your Merchant Center account.
+  Click the tools icon  and then Account settings.
+  On the “Account settings” page, click Advanced account setup.
+  Click Request conversion.
+  Select the options that best describe your business. For business definitions go to "Why convert to an advanced account setup" below.
+  Click Request conversion.
+
+
+What to expect
+
+
+  You can check the status of your request by visiting the “Account settings” page.
+  Requests may take several days to process. You will receive an email once this process is complete.
+  If you successfully convert to an advanced account setup, you will receive a new MCA, and your current Merchant Center account will become a sub-account of this new MCA. You can verify and claim websites under your multi-client account by following the steps below.
+
+
+
+  
+    Note: If you plan to upload a large number of feeds or make frequent changes to your product data, it is strongly recommended that you upload this directly using the Content API.
+  
+
+
+
+Who should convert to an advanced account setup
+
+
+  Merchants with multiple brands: These merchants own multiple brands and sell products in physical stores or online on multiple domains.
+  International retailers: These retailers sell products from one brand internationally, on one or multiple domains, online or in physical stores.
+  Marketplaces: An online platform that provides a place for multiple individual merchants to sell their products. Learn more about marketplaces
+  Advertising agencies: These agencies provide SEO consulting services to merchants and sometimes set up advertising campaigns on their behalf.
+  Channel partners: These partners allow merchants to list their product offers on different channels (like marketplaces and comparison shopping services), and typically also provide related services.
+  Store builders: These platforms allow merchants to set up an online store to list and sell products.
+
+
+
+  Note: If you want to connect your Google account to multiple Merchant Center accounts, for example, in order to manage their feeds, you can request to be added as a user by the respective account admin.
+
+
+Verifying and claiming your websites under a multi-client account
+
+We recommend MCA owners verify and claim a website URL with the parent account login email of the advanced account setup. Typically, the parent MCA will need to verify and claim the top-level domain, for example: https://example.com.
+
+
+  If the sub-account website URLs are sub-hosts or paths under the MCA claimed URL tree:
+
+  
+    After the parent MCA setup has verified and claimed a URL, each sub-account can automatically inherit the claim and can set its website URL to any sub-host or path under the claimed URL tree.
+  
+
+  
+    If the sub-accounts span multiple websites:
+
+    
+      These are the ways that you can verify and claim website URLs depending on how you’re managing your MCA and domains:
+
+      
+        If the parent MCA user manages the website URLs for each sub-account, the MCA user can verify and claim each URL in the sub-account settings (for example: multi-brand merchants).
+        If the parent MCA user does not manage the website URLs for each sub-account, each sub-account can verify and claim their website within their respective Google Search Console accounts and share the verification status with the parent MCA user in Search Console (for example: agencies that are not web developers for their customers' websites). Learn more about this process
+        If a sub-account does not wish to share verification status with the parent MCA, you can add a website owner as a user of the sub-account. The website owner will then be able to verify and claim the URL for that sub-account in the sub-account settings (for example, agencies that manage their customers’ feeds).
+      
+    
+  
+
+  
+
+  
+
+             Was this helpful?How can we improve it?YesNoSubmit       

@@ -1,0 +1,118 @@
+ Where Google shows your free listings
+
+Free listings allow customers to see products from your store across Google. If your products are eligible for free listings, they may appear in different places across Google.
+
+
+  
+    The Shopping tab (shopping.google.com)
+
+    
+      
+        Your free listings can appear on the Shopping tab, offering visual experiences for customers who are searching for products like yours. Customers are directed to your online site to complete the purchase flow.
+
+        
+          Note: The Shopping tab is located at google.com/shopping. Shopping ads will continue to appear in ad slots on the Shopping tab.
+        
+
+        
+          This is available on mobile and desktop in all countries where free listings are live on the Shopping tab.
+          Your in-store products may appear in free local listings on the Shopping tab if you’ve opted in. These free local listings let customers know that the product they’re searching for is available at your nearby retail store. Your free local listing could include store hours, directions, phone number, product price, product availability, and approximate distance from the customer. This is available in most countries where the Shopping tab is live.
+          Your Buy on Google products can also appear on the Shopping tab if you’ve opted in. This is available in the US.
+        
+
+        
+      
+    
+
+    
+      Google Search (google.com)
+
+      
+        
+          
+            Rich results
+
+            Rich results can show alongside a search result when customers come to Google Search to find information about products, retailers, and brands. It appears as a few lines of text with product information (price, availability, product reviews) to provide customers with more useful information.
+
+            
+              Available on mobile and desktop globally
+            
+
+            
+
+            Popular Products (apparel and accessories)
+
+            When customers use Google Search to shop for apparel and accessories, they often want to see more visual results. Your popular products in the Apparel & Accessories category can be eligible to show in more visual listings, such as a product list carousel that matches the category and is relevant to the user’s query. Customers can explore products offered by many brands and retailers, with links to retailer and brand sites to learn more.
+
+            
+              Available on mobile in the US only
+            
+
+            
+
+            Shopping Knowledge Panel
+
+            The Shopping Knowledge Panel is a search box that organizes information for a specific product. This includes product details, offers from retailers who sell the product, and product reviews. If your product data feed includes the product being searched, your product may be eligible to appear in this experience.
+
+            
+              Available on mobile and desktop in the US, Brazil, Japan, Mexico, Canada, Colombia, Argentina, India, Chile, Australia and South Africa
+            
+
+            
+              Note: Provide strong product identifiers (GTIN, MPN+Brand) for your products to be added correctly into the knowledge panel.
+            
+
+            
+          
+        
+      
+
+      
+        Google Images (images.google.com)
+
+        
+          
+            When customers look for products and brands on Google Images, they may see images with a “Product” label. This signals that the product in the image can be purchased. Customers will see rich product snippets (including price, availability, ratings, and brand) under the image after they interact with it.
+
+            
+              Available on mobile and desktop globally
+            
+
+            
+
+            
+              Google Lens feature: Customers can also tap on the lens icon within an image to see a list of similar products. These product results can also contain a “Product” label, to signify the product can be purchased, and rich product snippets (i.e. availability). This feature is available on mobile and desktop globally.
+            
+
+            
+          
+        
+
+        
+          YouTube (youtube.com)
+
+          
+            
+              When customers are watching a video on YouTube, they may see a list of products that can be purchased directly next to the video. Additionally, if a customer searches for a specific retail product in YouTube they may see matching products in their YouTube search results. If your product data includes the product being viewed or searched, your products may be eligible to appear in these formats. Learn more about Shopping on YouTube
+
+              
+                Available on mobile and desktop in limited countries as a free listing with strong trust signals
+              
+
+              
+            
+          
+        
+      
+    
+  
+
+
+Related links
+
+
+  Show your products for free on Google
+  List your local products for free on Google
+  About YouTube Shopping Feeds
+
+             Was this helpful?How can we improve it?YesNoSubmit       

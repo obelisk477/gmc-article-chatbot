@@ -1,0 +1,19 @@
+ Inventory per Business Profile
+
+Your number of inventory per Business Profile represents the average number of products in each of the stores in your local products inventory feed.
+
+Benefits
+
+Accurate inventory data allows more of your ads and free product listings to display when users are shopping for your products nearby. To help drive traffic to your retail location, make sure your inventory numbers are the same as your business reality.
+
+How to display accurate inventory
+
+Use these guidelines to make sure your inventory is accurate:
+
+
+  Make sure that you provide inventory data for all your published Business Profiles.
+  Make sure that you provide inventory for each unique id in your primary feed.
+
+
+
+             Was this helpful?How can we improve it?YesNoSubmit       

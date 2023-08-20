@@ -1,0 +1,109 @@
+ Edit a promotion or change promotion status
+
+This article describes different ways you can edit or end a promotion.
+
+You can update the status of your promotions in the Promotions dashboard of your Merchant Center account. It’s important to understand how to update promotions to ensure the information that appears is accurate.
+
+On this page
+
+
+  Edit an “Approved” promotion
+  Edit an “Under review” or "Disapproved" promotion
+  End a promotion
+
+
+Instructions
+
+Edit an "Approved" promotion
+
+Once a promotion has been approved, it's still possible to edit most of that promotion's information using the promotion builder. Depending on the information you edit, re-approval may be required.
+
+To edit an approved promotion, from the Promotions dashboard in your Merchant Center account:
+
+
+  Select the promotion you’d like to edit.
+  Update the promotion as needed.
+  Save the promotion.
+
+
+Not all promotion attributes are editable after a promotion has been approved. These are the 4 categories into which they’re classified:
+
+
+  Editable with additional reviews: Changes to these attributes will trigger a new review process.
+  Editable without additional reviews, but with restrictions: Changing these attributes won’t reset the review status, but some restrictions apply.
+  Editable without additional reviews: Changes to these attributes won’t be reviewed by Google.
+  Non-editable: You aren’t able to change these attributes once a promotion has been approved.
+
+
+Expand the categories below to understand how each attribute is classified when editing an approved promotion:
+
+
+  Editable with additional reviews
+
+  
+    This is the default category and contains any attribute not listed in one of the other categories below.
+  
+
+
+
+  Editable without additional reviews but with restrictions
+
+  
+    End time: Any adjustment must keep the total promotion duration less than 180 days.
+  
+
+
+
+  Editable without additional reviews
+
+  
+    Destination: Can be removed
+  
+
+
+
+  Non-editable
+
+  
+    
+      Country
+      Currency
+      Destination: Can't be added
+      Language
+      Merchant ID
+      Promotion ID
+      Start time
+    
+  
+
+
+
+  Note: Approved promotions can't be edited using a promotions feed. To edit an approved promotion using a promotions feed, create a new promotion with a new promotion ID [promotion_id] and resubmit your feed. Next, end the previous promotion you wanted to edit. If your promotion is SKU specific you'll need to re-map the new promotion ID [promotion_id] to the appropriate products.
+
+
+Edit an “Under review” or "Disapproved" promotion
+
+Promotions either under review or rejected for policy review can still be edited. Any promotion that isn't currently editable will have a lock icon that appears when you hover your cursor over the title. To change or update an editable promotion:
+
+
+  Select the promotion you’d like to edit.
+  Update the promotion with the required information or applicable updates.
+  After updating, re-submit the promotion through the promotion builder with the same promotion ID [promotion_id] and the corrected information. The review process for the promotion will begin again.
+
+
+You can also edit the promotion by uploading an updated promotions feed with the required changes. This will also restart the review process.
+
+If your promotion is disapproved during the policy review, the disapproval details will be included in a daily summary email.
+
+End a promotion
+
+You can end a promotion any time, but you should only do this if you would like to terminate a live promotion. Once you've ended a promotion, it can't be restarted.
+
+
+  In your Merchant Center account, select “Promotions” from the left navigation bar.
+  Click Add-ons in the left navigation menu.
+  On the “Promotions” card, click Deactivate.
+
+
+Note: It may take a few hours after you end a promotion before it's removed.
+             Was this helpful?How can we improve it?YesNoSubmit       

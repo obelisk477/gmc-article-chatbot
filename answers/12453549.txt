@@ -1,0 +1,102 @@
+ Use feed labels to advertise products from specific feeds
+
+Feed labels let you advertise all products with the same feed label in a Shopping or Performance Max campaign. You can select only one feed label per campaign. Feed labels allow more flexibility in campaign targeting. For example, feeds using the same language could be given the same feed label, making it easier to target those feeds in one campaign.
+
+In the past, products were selected for campaigns based on the “country of sale”. If you’ve used “country of sale” to select products for your ad campaigns, feed labels can be used as a replacement to continue to classify your various feeds by country, allowing you to maintain your current campaign structure. For campaigns created before the introduction of feed labels, the feed label will automatically be set to the 2 letter country-code of the original “primary country of sale” field, ensuring that any existing targeting continues uninterrupted. Learn more about the changes to the country of sale setting
+
+If you add a feed label, all of the products in this feed will be duplicated and the copies will have no performance history.
+
+The feed label you select will determine which feeds from the selected Merchant Center account can be advertised in this campaign. You can manage your feed labels in Merchant Center.
+
+
+  Note: Buy on Google merchants need to choose “US” as their feed label if they want to use it. For existing feeds, “US” will be selected automatically. For new feeds, “US” will be suggested.
+
+
+
+Instructions
+
+Add a label to your feed in Merchant Center
+
+
+  Sign in to your Merchant Center account.
+  From the navigation menu, click Products.
+  Choose which feed you’d like to add a label to.
+  Click the Settings tab.
+  Click the three-dot menu, then select Add a feed label (advanced).
+  Under “Target countries,” click Add countries to select your target countries, and click Save.
+  In the empty field, add any name you like to identify your feed (up to 20 characters). The supported characters are A-Z (in upper case only), 0-9 and "-", and can contain no spaces.
+  Select the destinations for this feed.
+  Click Add.
+
+
+
+  
+    Keep in mind
+
+    
+      Language is a feed-level setting, so you won’t have the option to select a language when adding a feed label to an existing feed.
+      "Feed label" is a mandatory field when creating a feed (if you use more than one feed label in your account).
+    
+  
+
+
+Select a feed label for your campaign in Google Ads
+
+If creating a new campaign:
+
+
+  Sign in to your Google Ads account.
+  In the page menu along the left, click Campaigns.
+  Click the plus button , then click New campaign.
+  Select an objective for your campaign.
+  Select Shopping or Performance Max as your campaign type.
+  Select the Merchant Center account that has the products you want to advertise. If you don't view any accounts here, you'll need to link your Merchant Center and Google Ads account first. You can't change the merchant after you've created the campaign.
+  Select feeds that contain the products you want to advertise in this campaign, by selecting either a specific feed label or country of sale.
+
+
+If adding to an existing campaign:
+
+
+  Sign in to your Google Ads account.
+  In the page menu along the left, click Campaigns.
+  Navigate to the Settings section in the left navigation menu.
+  Select feeds that contain the products you want to advertise in this campaign by selecting either a specific feed label or country of sale.
+
+
+
+  
+    Keep in mind
+
+    
+      The feed label you select for this campaign determines which feeds from the selected Merchant Center account can be advertised in this campaign. You can edit your feed labels in Merchant Center.
+      Feed labels are currently only available for Standard Shopping, Smart Shopping, and Performance Max campaigns. Other campaign types continue to use country of sale.
+    
+  
+
+
+Select a feed label for your campaign in Merchant Center
+
+If creating a new campaign or editing an existing campaign in Merchant Center:
+
+
+  In Merchant Center, go to Marketing > Ad campaigns in the navigation menu.
+  If you’re creating a campaign, click New campaign. If you’re updating an existing campaign, click Edit campaign.
+  Click Select specific feeds. You’ll see an option to select different feeds for the campaign.
+  Choose a feed label to apply it to the campaign.
+  Finish creating or editing the campaign. After you confirm your changes, your campaign will start using the feed.
+
+
+
+  
+    Keep in mind
+
+    
+      If you have only one feed label, the option to choose a feed label when creating a campaign in Merchant Center may not be available.
+      For merchants previously targeting their campaigns using the "primary country of sale" field, feed labels allow you to specify a 2-letter country-code (so that you can still target your campaigns by country).
+    
+  
+
+
+ 
+
+             Was this helpful?How can we improve it?YesNoSubmit       

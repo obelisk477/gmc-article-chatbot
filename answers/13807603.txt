@@ -1,0 +1,27 @@
+ How to fix: Landing page error
+
+Your landing page is not working. Make sure that none of your landing pages fail to load or are under construction.
+
+A landing page is where the customer is sent after clicking on your vehicle ad. When a landing page doesn’t match your ad or free product listing, customers can have a poor experience. Google doesn’t allow the promotion of content that is unnecessarily difficult or frustrating to navigate.
+
+Instructions
+
+Ensure your link_template, link and/or ads_redirect attributes have the correct and expected URL values for your vehicle landing pages.
+
+
+  Your item shouldn’t lead to a website that's under construction, or a site that links to an error page that displays a status code beginning with a 4 or a 5 (such as a 405 error). If your landing page is not working, pause your item until your site is fully functioning. Or, link your item to a different part of your site that works.
+  Check that your landing pages work properly for all locations, regardless of where you're targeting your item. Even if your landing page loads successfully for you, it might not be loading properly in other circumstances, such as other web browsers and apps, or by our systems. 
+  Check your landing page on various browsers and devices to make sure that it always links to a working website.
+
+
+
+  Note: An automatic re-review will occur once you fix the issue. This process might take up to 72 hours.
+
+
+Related links
+
+
+  Landing page requirements
+  Learn more about the Editorial and Professional Standards policy
+
+             Was this helpful?How can we improve it?YesNoSubmit       

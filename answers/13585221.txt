@@ -1,0 +1,152 @@
+ Request a review of your issues
+
+If your website or the product data you share with Merchant Center doesn't meet the Shopping policy requirements and product data specifications, your products or your entire Merchant Center account may be subject to warnings, disapprovals, or suspension, any of which may prevent your products from showing on Google.
+
+In some instances, you may need to request a review of the disapproved account or product in order to resolve the issue. If available, the option to request a review will show on the product detail page or within the list of account issues.
+
+
+  If you’ve identified and resolved the issue, select Request review and I fixed the issue. 
+  If you believe our findings are an error, select Request review and I disagree with the issue.
+  Contact us for support if you’re uncertain about the issue or about how to proceed.
+
+
+Google wants you and your business to be successful. The following are some things to keep in mind when requesting a review.
+
+Notifications 
+
+The review may take up to 7 business days to complete. The status of your review will be reflected in Merchant Center or in your third-party application. 
+
+There are several notification and status types:
+
+
+  Review requested
+  Under review
+  Review not approved
+
+
+Details of when you requested the review will also appear in Merchant Center.
+
+Email notifications regarding account-level policy issue details will be sent when the review is requested and when the review is completed. 
+
+I fixed the issue
+
+If you’re able to resolve the issue, you can indicate this by clicking Request review and I fixed the issue in Merchant Center or in your third-party application. 
+
+To better understand the issue and how to resolve it, review our Shopping policy requirements. If you continue having trouble resolving the issue, contact us for support. If your issues aren’t resolved by the second review attempt, a one-week cool down period may begin. 
+
+I disagree with the issue
+
+Google has the responsibility to protect customers and we take violations of our policies seriously. If you believe the issue applied to your account or product is a mistake, you can appeal the violation by clicking Request review and I disagree with the issue.
+
+Before you disagree with the issue, make sure you understand the policy and can support the request. We want to provide a safe and trustworthy ecosystem for customers, and we may need more information. 
+
+You may receive a prompt to submit additional information regarding your website, products, or business. You may have the ability to explain why the policy was not violated, or why the disapproval was not justified. The ability to appeal and provide verification can provide a safe ecosystem, is a simple process, and can build trust. 
+
+You may only have one chance to disagree with the issue. Once you’ve requested the review and appealed the issue, you may be required to fix the issue based on our policies and requirements.
+
+Cool down period
+
+The cool down period will go into effect when you’ve exhausted the option to disagree with the decision and you’ve attempted to fix the issue a few times. If your account is already suspended or in a preemptive item disapproval (PID) state, you can request an account review twice. After the second request, a cool down period begins.
+
+
+  If your issues aren’t resolved by the second review attempt, a one-week cool down period will begin. During this time, the review button will be disabled and your account will remain suspended or in a preemptive item disapproval state. 
+  You won’t be able to request another review during the cool down period.
+  With each unsuccessful review afterwards, a progressive one-week cool down period will be applied.
+  Use the cool down period to review and fix your account, data, or website issues as support may be limited until your issues are addressed.
+  No action can be taken regarding your account, until the cool down period has ended, even if you contact us for support. 
+  After the cool down period passes, the review button will be available again.
+
+
+
+  Note: It may take up to 7 business days to complete the review. Products that are approved will be eligible to show across Google within 24 hours.
+
+
+If you’re using the classic Merchant Center experience
+
+
+  Account-level issues
+
+  
+    
+      
+        Sign in to your Merchant Center account.
+        Click Products on the navigation menu, then click Diagnostics.
+        Go to the “Account issues” tab.
+        Locate the account-level issue that you would like to have reviewed.
+        If applicable, click Request review then click either I fixed the issue or I disagree with the issue.
+          
+            If you disagree with the issue, you may need to complete additional steps, such as an appeal reason and/or upload required documentation.
+            If you’ve fixed the issue, read and check the pop-up window to ensure that you understand the review process, and its requirements and limitations.
+          
+        
+        In the case of a successful review the issue will disappear from Merchant Center.
+      
+    
+  
+
+
+
+  Product-level issues
+
+  
+    
+      
+        In your Merchant Center account, go to Products.
+        Then click All products and locate a specific product with an issue.
+        Click on the title of the product from the list of products to get to the product details page.  Find all issues currently affecting the product under ‘"Item issues".
+        If applicable, click Request review for the issue you want reviewed.
+        Select I fixed the issue or I disagree with the issue.
+          
+            If you’ve fixed the issue, review the policies related to your product disapproval and then check the box that acknowledges that you reviewed the information.
+            If you disagree with the issue, provide an appeal reason and/or upload required documentation. 
+          
+        
+        In the case of a successful review the issue will disappear from Merchant Center.
+      
+    
+  
+
+
+If you’re using Merchant Center Next
+
+
+  Account-level issues
+
+  
+    
+      Account-level issues show in a banner at the top of your Merchant Center account. You may also see account-level issues listed in the summary cards at the top of the "Needs attention" tab on the “Products” page.
+
+      For applicable issues, click Request review then click either I fixed the issue or I disagree with the issue.
+
+      
+        If you disagree with the issue, you may need to complete additional steps, such as an appeal reason and/or upload required documentation.
+        If you’ve fixed the issue, read and check the pop-up window to ensure that you understand the review process, and its requirements and limitations.
+      
+
+      Wait up to 7 business days. You’ll receive an email when you request the review and once the review is done. Keep in mind that the review will apply to all issues for the country and the status of the associated issues will change to “Under review”.
+
+      Warning period: During the warning period of 7 or 28 days, you can request one courtesy review of your account at any time. If all of your issues are resolved, the warning will be lifted and your products will show as normal. If any of the issues aren’t resolved, the account will remain warned and your products will continue to show throughout the warning period. Your account will be reviewed again at the end of the warning period.
+    
+  
+
+
+
+  Product-level issues
+
+  
+    All product-level issues can be found by selecting the “Needs attention” tab of the “Products” page in your Merchant Center account. To review all issues associated with a particular product, follow these steps:
+
+    
+      Navigate to the “Needs attention” tab of the product details page for the product you want reviewed. 
+      Under “What needs attention”, click Request review if applicable for the issue you want reviewed.
+      Select I fixed the issue or I disagree with the issue.
+        
+          If you’ve fixed the issue, review the policies related to your product disapproval and then check the box that acknowledges that you reviewed the information.
+          If you disagree with the issue, provide an appeal reason and/or upload required documentation. 
+        
+      
+      If the review is successful, the issue will disappear from Merchant Center.
+    
+  
+
+             Was this helpful?How can we improve it?YesNoSubmit       

@@ -1,0 +1,101 @@
+ Vehicle ads onboarding guideCreate, register, and submit your store feed (Optional)Store Feed SpecificationsNext: Complete website policy review
+
+
+   This is step 5a of the vehicle ads onboarding guide.
+
+
+This feed is required if you don’t own or manage the Business Profiles for your dealer locations. Such advertisers must submit an additional store feed with the below specifications. Reach out to your Google representative to request access to the store feed.
+
+Important notes:
+
+
+  Attribute headers: You must use the exact attribute headers listed below for your feed to be processed correctly.
+  Optional fields: It's recommended to provide the optional fields to match the data provided with locations on Google Maps and validate the locations. The address and other attributes provided (for example, phone number) should match the address of the dealer or location used in Google Maps.
+  Data freshness: Information from the store feed will expire after 90 days. If the data from this feed expires, you'll receive a "Missing inventory data" disapproval for your products. Ensure that you re-upload your store feed at least once every 30 days.
+
+
+
+  
+    
+      Attribute
+      Description
+      Content
+    
+    
+      store_code
+      
+      Required
+
+      A short identifier to identify a dealership. No need to be the same as the store code in your Business Profile. Should match with the store code in the primary product feed.
+      
+      String
+    
+    
+      store_address
+      
+      Required
+
+      Postal address of the dealership.
+
+      Note: Submit the full street address, including the country.
+      
+      String
+    
+    
+      store_name
+      
+      Optional
+
+      Business or dealership name
+      
+      String
+    
+    
+      phone_number
+      
+      Optional
+
+      Dealership phone number in international format
+      
+      String
+    
+    
+      website_url
+      
+      Optional
+
+      Business or dealership website URL
+      
+      String
+    
+  
+
+
+Similar to your primary feed as per Step 5b, register and submit your store feed under “Other feeds”. When registering your store feed, select “POS store” as the feed type.
+
+
+
+Once the store feed is submitted, it goes through a set of manual and AI-powered checks to ensure that the store codes match the store codes submitted in your vehicle feed and the dealership addresses and other details match with locations on Google Maps to ensure that the locations are validated.
+
+
+  Note: All vehicle ads campaigns will be upgraded to Performance Max by September 2023.
+
+
+
+Implementation guide
+
+
+  Set up your accounts
+  Enable the vehicle ads program
+  Add your business information
+  Create a primary feed
+  Register and submit your feed
+  Link your Business Profile and select your location group
+  Create, register, and submit your store feed (Optional)
+  Complete website policy review
+  Link your Merchant Center and Google Ads accounts
+  Enable vehicle ads in your Smart Shopping campaigns
+  Enable vehicle ads in your Performance Max campaigns
+
+
+Next: Complete website policy review             Was this helpful?How can we improve it?YesNoSubmit       

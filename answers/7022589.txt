@@ -1,0 +1,27 @@
+ Use reports in Merchant CenterYour Merchant Center account contains a Diagnostics tab to help you identify and resolve any issues with your local product and inventory data. Use Diagnostics reports to maintain data quality. You can also troubleshoot your data feed using the information provided in the Processing tab.
+
+View issues in Diagnostics
+
+You can view a comprehensive list of issues in Diagnostics in your Merchant Center account. Diagnostics features three tabs: Item issues, Feed Issues, and Account issues. Under the item issues tab, you can view the stacked graph of items and their status. All three tabs include a list of issues:
+
+To view Diagnostics:
+
+
+  Sign in to your Merchant Center account.
+  Click Products from the navigational menu, then click Diagnostics.
+
+
+Review issues
+
+The Items issue tab contains issues that impact individual items, from feed processing to data quality and policy violations. If items are affected by multiple issues, they’ll be included in all of them. Click on the number of affected items to view a sample of up to 50 items impacted by that issue.
+
+Every item issue will also contain the number of affected inventory offers. You can use affected inventory to help you prioritize which item issue to address first to ensure that you are able to show as many local products on Google as possible.
+
+In order to help you prioritize and resolve your highest-impact issues immediately, the Account issues and Feed issues tabs are organized by severity. Each tab displays issues with icons indicating severity, such as a red icon for “error/disapproved” or a yellow icon for “warning”.
+
+Inventory data overview
+
+Make sure to review the Processing tab of your local product inventory feed regularly and address the indicated issues to ensure that your submitted inventory is able to show as local products on Google. If you require help in resolving these issues, contact our support team through our Contact Us form.
+
+
+             Was this helpful?How can we improve it?YesNoSubmit       

@@ -1,0 +1,147 @@
+ Best practices for advertising customized products
+
+Customized products are unique and built-to-order. Typically these products have a large number of variants, such as furniture with different materials and colors, and jewelry with different settings and stones. Or they may be personalized, like t-shirts with printed logos and picture frames with a name engraved.
+
+This article explains how to structure your product data when submitting custom products.
+
+
+On this page
+
+
+  Why you should follow these best practices
+  Submit your best selling variants
+  Common problems when submitting custom product variants
+  Include customizations in titles, descriptions, and images
+  Show the completely customized product on your landing page
+  Provide accurate pricing
+  Follow the requirements for product identifiers
+
+
+
+Why you should follow these best practices
+
+
+  Reach the right customers. Details in your product data allow us to understand what you're selling, and to help show your ads and free product listings to people based on the custom products they're looking for.
+  Keep products approved. Submitting incorrect or inconsistent product data may cause product or account disapprovals.
+
+
+
+Submit your best selling variants
+
+People shopping online for custom products are often looking for certain variant characteristics such as "red promotional pens" or "personalized photo canvas 8x10". To appeal to these potential customers, submit details like size, color, and other relevant attributes.
+
+Depending on your product, you might have too many possible customizations to submit all of them. If so, consider which variants are readily available and best sellers.
+
+
+  
+    Tip
+
+    
+      
+        Submit details in your product data to show the difference between each variant. You can submit variants that have different values for any of the following attributes: color [color], size [size], pattern [pattern], material [material], age group [age_group], gender [gender], size type [size_type], and size system [size_system]. Providing these details helps us show your ads when people search for these types of characteristics. In your product data, you can use the parent SKU as the item group ID [item_group_id] for all variants of the same product. Learn more about item group IDs [item_group_id].
+      
+      Add customizations that don't fit within attributes into the title. For example, "monogrammed bath towel" or "engraved dog food bowl". Learn more about Best practices for submitting unsupported variants.
+      Submit variants that are typically in stock. When submitting your best selling variants, make sure that you submit the correct value for the availability [availability] attribute. If certain customizations have a limited quantity and sell out often, you may want to avoid promoting those variants.
+      Submit the correct image and price for the variant you're advertising.  For example, imagine you're promoting a personalized phone case with a blue polka dot pattern. Patterned cases cost more than plain cases. Submit an image which shows the blue polka dots, and a price that covers the full cost of this specific product variation.
+    
+  
+
+
+
+
+
+
+Common problems when submitting custom product variants
+
+Submitting too many variants may cause issues with your product data. For example:
+
+
+  Performance history for your products might not be as strong if it's spread across too many products
+  Data processing can be slower with a high number of products
+  Product limits restrict the total number of products you can submit
+
+
+Here are some tips to reduce these types of problems:
+
+
+  Submit variants that customers buy regularly. From your reporting, identify the variants that you sell at least one item of per month, and submit those in your product data. You can also download a report with impression and click information in your Google Ads account. Learn more about how to Monitor and optimize your Shopping campaigns.
+  Submit different types of variants, so customers can discover each customization option. This way, even if you don't submit all configurations, you'll show different possibilities that might appeal to different people searching online. For example, imagine you sell custom-built shades that come in 8 sizes, 10 materials, 10 patterns, and 15 colors. Submit variants so that each size, material, pattern, and color are mentioned at some point, but do not submit all 12,000 combinations.
+
+
+
+Include customizations in titles, descriptions, and images
+
+
+  Include "custom" or "personalized" near the beginning of the title. This extra text can help match your ads and free listings to more relevant searches. Otherwise, you might see wasted clicks from people expecting to find simple, standard products. Add this text toward the beginning of your title so that it doesn't get cut off.
+  Reflect what you're selling with the image, title, and description. If you're selling a part of a built-to-order product instead of the complete product, explain this clearly in the title and description. Also, submit an image of the part, or highlight areas of the image to make it clear that you're selling only one part.
+  Reflect the price for customized products in images. If you submit an image or title that represents a customized product, be sure that the price submitted in your feed reflects the price of the customized product.
+
+
+
+  Example 1
+
+  Imagine you sell custom engagement rings. You allow customers to purchase either the full ring or just the stone without the setting. If you want to advertise the stone only, you need to specify this in the title [title], image [image], and description [description] attributes. That way, people understand what you're selling before they click your ad. For example, submit an image of the stone alone, the price of the stone itself, and a title beginning with "stone only" or something similar.
+
+
+
+  Example 2
+
+  Imagine you sell T-shirts, which can be customized with an image, logo, or text of choice. If you want to show your customized product, the image you submit must show the customized product, and also reflect information for the customized product in the price [price] and title [title] attributes. The title you submit must begin with "custom" or something similar. If you submit a price for a non-customized product, the image and title must not feature any kind of customization.
+
+
+
+Show the completely customized product on your landing page
+
+
+  Link to a landing page that features a specific product, instead of a generic gateway page where customers can begin the customization process. Learn more About landing page requirements.
+  Pre-select the right combination of customization options. Customers expect to easily find the product on your website that they saw in your ad or free listing. Submit a link with URL parameters, so the correct option is already selected by default. If you don't already have URLs with product configurations that you can link to, you may be able to configure a product link according to the preset parameters. For example: http://example.com/landing_page.php?parameterA=123&meterB=456. Learn more about Product data specifications.
+  Match customization options in your product data. Potential customers could be discouraged from buying your product, if the product on the landing page doesn't match the details in the ad or free listing, or if configuring the variant shown in the ad is difficult.
+
+
+
+  Example
+
+  Imagine you sell custom blinds made of wood or vinyl. If you submitted wood in the title [title] and material [material] attributes, people who click on your ads and free listings should be able to easily see and select "wood" on your landing page.
+
+
+
+Provide accurate pricing
+
+People shopping online expect to purchase your product for the same amount they see in your ad or listing. Inaccurate prices lead to a poor experience, and could cause potential customers to leave your website. Also, mismatching prices can cause your products or account to be disapproved.
+
+
+  Submit the price a customer will pay for a full product. If your product is made up of multiple components that aren't sold separately, don't submit the cost for one component. For example, if you're promoting a custom built couch, don't submit the price of the couch frame without the legs. If you're promoting a customized mug with logo, don't submit the price of a blank mug without the logo.
+  Submit the total price for all products sold together in bulk, bundles, or multipacks. For example, if you sell promotional pens and you require customers to buy at least 20, submit the cost for 20 pens instead of 1 pen (using the price [price] attribute). Optionally, you can use the unit pricing measure [unit_pricing_measure] attribute to submit individual unit prices for bulk orders. Learn more about unit pricing.
+  Make the total price clear on the landing page. Customized products may require customers to pay a setup fee, or to order a certain minimum quantity of products. To provide a transparent experience for customers, show the total price, including setup and quantity requirements, on the landing page.
+  Use correct pricing for samples. If you are advertising a sample, the image, title, and description must represent the sample. Learn more about Bundle [is_bundle] attribute.
+  Ensure your product data is up-to-date as your customizable inventory changes. If you have frequent price changes (for example, because the cost of certain components changes often), we recommend that you use the Shopping Content API. Learn more about the Content API for Shopping.
+
+
+
+  Tip
+
+  Sometimes the price of a single product can change based on the customization options that customers choose. If certain options are more expensive than others, use the title [title] and other attributes to specify which option you're promoting. Also, submit a link that shows that option pre-selected.
+
+  For example, imagine you sell custom phone cases. A white phone case costs "$15.00 USD" and all colored phone cases cost "$18.00 USD". If you submit "$15.00 USD" for the price [price] attribute, then include "white" in the color [color] and title [title] attributes, show a white case on the image, and link to the white option on your landing page.
+
+
+
+Follow the requirements for product identifiers
+
+Brand names together with the global product codes Global Trade Item Number (GTIN) and Manufacturer Part Number (MPN) allow us to correctly identify an individual product or product variant. You can submit these through the brand [brand], GTIN [gtin], and MPN [mpn] attributes. Although these codes are required for most products, custom goods or one-of-a-kind products usually won't have unique product identifiers. Learn more About unique product identifiers.
+
+
+  If you offer customization, engraving, or other personalization of a product:
+    
+      Submit the bundle [is_bundle] attribute to let Google know that you'll customize the product
+      Submit the GTIN [gtin] attribute with the value assigned by the manufacturer
+      Submit the brand [brand] and MPN [mpn] attributes of the product before customization
+      Explain that the product is customized in the title [title] and description [description] attributes
+      Submit the price [price] and image [image] of the final customized product
+    
+  
+  If your product doesn't have a GTIN [gtin] and brand [brand], or an MPN [mpn] and brand [brand], then submit the identifier exists [identifier_exists] attribute with a value of no.
+
+
+
+             Was this helpful?How can we improve it?YesNoSubmit       

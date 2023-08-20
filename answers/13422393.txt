@@ -1,0 +1,123 @@
+ Implementation guideStep 2: Create a promotionNext: Step 3: Choose products for your promotions
+
+
+  If you’re looking for information about creating a promotion in the classic Merchant Center experience, click here.
+
+
+
+This article offers information on the 4 different ways you can create promotions for your products after you activate the Promotions add-on in your Merchant Center Next account.
+
+On this page
+
+
+  Use the promotion builder tool
+  Create a promotions feed
+  Use the Content API for promotions
+  Use promotions from third party partners
+
+
+
+Use the promotion builder tool
+
+The promotion builder tool allows you to manually input your promotions individually and specify things like spend thresholds, discount amounts, gift descriptions, and more. We recommend using the promotion builder if you only have a small number of promotions to submit.
+
+The promotion builder supports 4 promotions categories:
+
+
+  Amount off: Offer a monetary discount for your items.
+  Percent off: Offer a percentage discount for your items.
+  Free gift: Offer a free gift based on an item purchase or amount spent.
+  Free shipping: Offer free shipping based on an item purchase or amount spent (not available for local inventory ads).
+
+
+If you create promotions using the promotion builder, you can still upload promotions in a promotions feed.
+
+Instructions
+
+Follow the steps below to create a promotional offer using the promotion builder tool:
+
+
+  In your Merchant Center account, click Promotions in the left navigation menu.
+  Click the Add promotion dropdown.
+  Select the option to Add one by one.
+  On the “Promotion type” page, follow the instructions to provide country and language, how you want to show the promotion on Google, Promotion category, Promotion type, and Promotion details.
+  Click Continue.
+  On the “Promotion setup” page, follow the instructions to add Promotion title and ID, Products, Promo code (optional), and start and end dates.
+  Click Save.
+
+
+
+
+
+Create a promotions feed
+
+If you don’t want to use the promotion builder tool to add promotions one by one, you may upload a promotion feed according to the Promotions feed specifications. This option is best if you have a high volume of promotions to submit.
+
+Instructions
+
+To create a new promotions feed:
+
+
+  In your Merchant Center account, click Promotions in the left navigation menu.
+  Select the Promotions feed tab.
+  Click Add feeds.
+  Provide your target country and language, name and input method, and setup details.
+  Click Create feed.
+
+
+To make changes to an existing promotion or its status, refer to Edit a promotion or change promotion status for more information and steps.
+
+Feed attributes
+
+The attributes you include in your feed will define how your promotions will be displayed on Google. The following attributes are required for promotions feeds:
+
+
+  Promotion ID [promotion_id]
+  Products eligible for promotion [product_applicability]
+  Coupon code required [offer_type]
+    
+      Generic redemption code [generic_redemption_code]
+    
+  
+  Promotion title [long_title]
+  Promotion start date [promotion_effective_dates]
+  
+    Eligible channel for promotion [redemption_channel]
+  
+
+
+Visit Promotions feed specifications for a more detailed list of required and optional promotions attributes.
+
+
+Use the Content API for promotions
+
+The Content API for Shopping allows you to automatically share and manage your promotions data with Google. After integrating with your account, the Content API permits apps to interact directly with Merchant Center Next to increase efficiency by directly importing your data as it's updated.
+
+With the Content API you can:
+
+
+  Quickly scale the number of products to which you can add promotions.
+  Streamline manual operations to save time and limit errors.
+  Experience reduced lag as your data syncs with your account.
+
+
+Visit the developers guide to learn more about the Content API for Shopping.
+
+
+  Note: The Content API is only available to merchants in Australia, Brazil, Canada, France, Germany, India, Italy, Japan, Netherlands, South Korea, Spain, the United Kingdom, and the United States.
+
+
+
+Use promotions from third-party partners
+
+You can use your Shopify or WooCommerce account to connect product discounts to your Merchant Center account to easily show your product promotions on Google. When you link your third-party account to your Merchant Center account, you are no longer required to create your promotions through Merchant Center. Learn more about how to Create and manage promotions with third-party partners.
+
+Key benefits include:
+
+
+  Simple integration: Your existing and new discounts (promotions) from supported third-party partners will seamlessly integrate with your Merchant Center account to show your promotions.
+  Improved Performance: Products with promotion annotations often have an increase in clicks and conversions.
+
+
+RETURN TO PROMOTIONS HOME
+Next: Step 3: Choose products for your promotions             Was this helpful?How can we improve it?YesNoSubmit       

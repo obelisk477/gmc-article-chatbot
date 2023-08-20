@@ -1,0 +1,60 @@
+ How to fix: Value too high: transit time [transit_time]Enter a lower value 
+
+
+  Buy on Google for Search and Shopping will no longer be available starting September 26, 2023. Eligible merchants will be able to use Buy on Google for YouTube in the US. Learn more about Enabling Buy on Google for YouTube.
+
+
+
+
+
+One or more of the values you've entered in Merchant Center for the estimated transit time of a shipping service is too high. The recommended transit time for all products submitted for Buy on Google is 10 days or less.
+
+Transit time is set in your Merchant Center account by selecting the Shipping and returns option on the Tools menu. Once you select the shipping service that you’d like to edit, you’ll be able to adjust the transit time [transit_time] attribute. For "Transit time in business days", enter the minimum number of days required for a carrier to deliver a package once it is picked up from your facility, followed by the maximum number of days that delivery could take. When calculating the maximum transit time, count only normal business days and do not include potential weekends or non-working public holidays. While the exact time might vary based on the product or on the customer's location, the range will give customers an idea of what to expect.
+
+When selecting the “Transit time in days, shipped” in the Delivery time section, you may not see your preferred range of days in the drop-down menu. To customize your range of days for delivery:
+
+
+  From the drop-down menu, click Custom days.
+  Check each box next to the days of the week you’d like to include.
+  Click Save.
+
+
+Transit times are configured in Merchant Center, either with a single range (for example, “3-5 days”), or with multiple ranges based on ZIP code regions (for example, “3-5 days to Seattle, 1-2 days to Texas”). Configuring multiple delivery ranges requires setting up delivery zones in Merchant Center.
+
+Learn more about setting up a transit time label
+
+Instructions
+
+Step 1: Check and correct values for shipping services
+
+
+  
+    Sign in to your Merchant Center account.
+    Click the tools icon , then select Shipping and returns under “Tools.”
+    On the "Shipping services" tab, find the "Service name" column. Click on the name of a service. This will open the “Edit shipping service” form, which will allow you to view and edit the details of the service, including the transit time.
+    Scroll to the "Delivery time" section and enter your default minimum and maximum transit times in business days.
+  
+
+
+Step 2: Resubmit your product data
+
+
+  Check that you’ve fixed the issue by making sure it’s no longer listed on the Diagnostics page.
+
+  Keep in mind: It may take some time for your change to be reflected on the Diagnostics page.
+
+
+Related links
+
+
+  About item disapprovals for policy violations
+  Minimum handling time [min_handling_time], maximum handling time [max_handling_time]
+  Shipping [shipping]
+  Set up estimated delivery time
+  Set up delivery zones (AU, FR, and US only)
+  About shipping policies for Buy on Google
+  Set up shipping settings at the account level
+  Quickstart guide for shipping and taxes
+  Shopping Data Quality violations: Shipping [shipping]
+
+             Was this helpful?How can we improve it?YesNoSubmit       

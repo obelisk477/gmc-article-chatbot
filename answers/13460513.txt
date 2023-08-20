@@ -1,0 +1,133 @@
+ About annotations and badges in Shopping ads and free listingsAnnotations and badges are additional information that may be displayed on the Shopping ads or free listings product cards. They help your product stand out and can help increase the performance of your offers.
+
+Google dynamically decides which annotations and badges to display to optimize relevance to users and improve performance for merchants. Providing all the information doesn’t guarantee that the annotation will be displayed for your products. Some annotations are only displayed in specific devices such as mobile and desktop, or surfaces like Google Search and the Shopping tab, or countries. Annotations may be adjusted at any time.
+
+This article covers annotations and badges displayed on Shopping ads and free listings. Additional information may be available in the product viewer, when users click on your product.
+
+Key annotations and badges
+
+
+  
+    
+      Category
+      Title
+      Short description
+      Free Listings
+      Shopping ads
+    
+    
+      Product-specific annotations
+      Sale price
+      Allows you to set a sale price for potential customers to view how much they’ll save
+      
+      
+    
+    
+      Promotion
+      Allows you to set special offers for your product (for example: free shipping, 20% off)
+      
+      
+    
+    
+      Product ratings
+      Shows aggregated reviews for your products in the form of a 1 to 5 star rating
+      
+      
+    
+    
+      Other product attributes
+      Describes the main characteristics of your product (for example: material, size)
+      
+      
+    
+    
+      Merchant badges
+      Trusted store badge
+      Displays a “Trusted store” badge to improve user confidence in buying from you
+      
+      
+    
+    
+      Business identity attributes
+      Tells customers about the identity of your business
+      
+      
+    
+    
+      Shipping and fulfillment annotations
+      Shipping speed
+      Calculates the delivery time based on the customer’s location on eligible ads and free listings
+      
+      
+    
+    
+      Return policy
+      Helps customers review the return time frames and other return related annotations on your listings (for example: 30 day return policy, free returns)
+      
+      
+    
+    
+      Minimum order value
+      Allows you to indicate a minimum purchase amount before you’ll provide shipping (either at an additional cost or for free)
+      
+      
+    
+    
+      Free and fast shipping
+      Allows you to showcase products that can be shipped fast/for free
+      
+      
+    
+    
+      Estimated delivery date
+      Calculates the overall delivery time which includes cut-off time, handling time and transit time
+      
+      
+    
+    
+      Automatic annotations (no additional data required)
+      Currency conversion
+      Automatically converts the price of the product based on the user’s country
+      
+      
+    
+    
+      Price drop
+      Displays a new price alongside the original price of the product for customers to view the price difference
+      
+      
+    
+    
+      Local products annotations
+      Local promotions
+      Shows store-specific promotions using the information already updated for your local inventory ads
+      
+      
+    
+    
+      Regional availability and pricing
+      Provides product availability and variable pricing based on the location of the user
+      
+      
+    
+    
+      Pickup today and curbside pickup
+      Indicates that an option to pick up the product at a local store nearby exists
+      
+      
+    
+    
+      Pickup later
+      Indicates that an option to pick up a product at a local store nearby within a specific SLA (service-level agreement) exists
+      
+      
+    
+    
+      On display to order
+      Indicates that an option to back-order a product that is not available for immediate purchase exists
+      
+      
+    
+  
+
+             Was this helpful?How can we improve it?YesNoSubmit       

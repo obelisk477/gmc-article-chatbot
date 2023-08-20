@@ -1,0 +1,147 @@
+ Participation criteria and policies
+
+This article provides details about where the promotions feature is available, participation criteria, and program policies.
+
+Use promotions to highlight the benefit of purchasing from your store when shoppers decide where to buy. Shoppers can view your online promotions across different Google properties for shopping ads and free product listings, including Google Search, the Shopping tab, Chrome, and more. Promotions can also be applied to global offers and offers with regional availability and pricing (only available in the US).
+
+Availability
+
+Promotions are available for Shopping ads and free listings in the following countries: Australia, Brazil, Canada, France, Germany, India, Italy, Japan, Korea, Netherlands, Spain, the UK, and the US. Promotions are automatically enabled for all eligible accounts. If the "Promotions" card (located on the "Manage programs" page) in Merchant Center hasn't been enabled, fill out the interest form to request enrollment.
+
+
+  Note: To complete the form, you must have a Google Merchant Center account with an active products feed. Learn how to configure your accounts
+
+
+Participation criteria
+
+To use promotions, they must meet the following criteria:
+
+
+  Be redeemable at checkout or by the time of purchase
+  Expire within 6 months (183 days) of the date the promotion starts
+  Comply with promotions policies and editorial requirements
+
+
+You also need to create promotion types that are usable for anyone who shops on Google.
+
+Promotion types allowed
+
+You can use the following promotion types:
+
+
+  
+    
+      Promotion
+      Type
+      Additional information
+    
+  
+  
+    
+      
+      Discounts
+      
+      $ off or % off
+      Discounts must be at least $5 or 5% off
+    
+    
+      x% off, maximum discount $y
+      n/a
+    
+    
+      $x off $50+, $y off $100, or $z off $150
+      Tiered discounts allowed
+    
+    
+      x% to y% off
+      Floor discounts (like minimum amount or percent saved) must be stated
+    
+    
+      Buy one get one free or buy one get 2nd x% off
+      n/a
+    
+    
+      $x cash back or $x cash rebates
+      Must be reflected at cart or checkout
+    
+    
+      Free gifts
+      Free item
+      Must clearly describe the free gift and item can't be samples or trials
+    
+    
+      $x gift card on purchase
+      Title must clearly state the gift card value and gift card must be from your own store
+    
+    
+      Shipping
+      Free shipping
+      
+      Must have valid redemption code
+
+      Exception: No redemption code necessary when combined with another permissible promotion (for example: free shipping + 10% off)
+      
+    
+  
+
+
+Promotion types not allowed
+
+You can't use the following promotion types:
+
+
+  
+    
+      Promotion
+      Type
+      Additional information
+    
+  
+  
+    
+      
+      Vague discounts
+      
+      Up to y% off or “as much as x saved”
+      Floor discount must be stated
+    
+    
+      x% Cash Back or Reward Points Back
+      
+      Cash back in percent and reward points aren't allowed.
+
+      Exception: If combined with a permissible promotion
+      
+    
+    
+      Overly restrictive
+      All promotions restricted to a subset of shoppers (for example: military discounts, birthdays, PayPal users, and others)
+      n/a
+    
+    
+      Other
+      Discounts must not already be reflected on the product landing page
+      n/a
+    
+    
+      Shipping discounts without a redemption code and not combined with a permissible promotion
+      n/a
+    
+    
+      Promotions exceeding a duration of 6 months
+      n/a
+    
+  
+
+
+
+  Note: There's no longer a limit on the number of open promotions. The previous limit of 500 has been removed.
+
+
+Policies
+
+Google’s policies provide important guidance for retailers participating in promotions. To make sure you understand the expectations, review the editorial requirements and policies. Google disapproves promotions that do not comply with these requirements and policies.
+
+RETURN TO PROMOTIONS HOME
+
+             Was this helpful?How can we improve it?YesNoSubmit       

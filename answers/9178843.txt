@@ -1,0 +1,46 @@
+ How to fix: Missing value: cutoff time
+
+Some of the values entered in Merchant Center for the estimated cutoff time of a shipping service are missing.
+
+Cut-off times specify the time up until which orders will be accepted and still be guaranteed to be processed on the current working day.
+
+For example, a cut-off time of 3:00 pm EST means that orders placed after that time will not start being processed until the next business day, regardless of the time zone of the customer making the order.
+
+Instructions
+
+
+  Step 1: Check and correct values for shipping services
+
+  
+    
+      Sign in to your Merchant Center account.
+      Click the tools icon , then select Shipping and returns under “Tools”.
+      To view and edit the details of the service, including cut-off time, find the “Service name” column under the Shipping services tab, then click the service name you want to edit. This will open the “Edit shipping service” form.
+      To update the cut-off time, scroll to the “Delivery time” section and enter your default order cutoff time and timezone for this service.
+    
+  
+
+
+
+  Step 2: Verify your changes
+
+  
+    Check that you’ve fixed the issue by making sure it’s no longer listed on the Diagnostics page.
+
+    Keep in mind: It may take some time for your change to be reflected on the Diagnostics page.
+  
+
+
+Related links
+
+
+  About item disapprovals for policy violations
+  Shipping [shipping]
+  Set up delivery zones (AU, FR, and US only)
+  About shipping policies for Buy on Google
+  Set up shipping settings at the account level
+  Quickstart guide for shipping
+  Shopping Data Quality violations: Shipping
+  Set up estimated delivery time
+
+             Was this helpful?How can we improve it?YesNoSubmit       

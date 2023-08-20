@@ -1,0 +1,151 @@
+ Seller ratings overview
+
+
+  Note: This article is meant for merchants interested in learning about how seller ratings work. If you’re interested in adding a shopping review on Google, go to Add or delete shopping reviews.
+
+
+Google doesn't modify existing seller ratings. To provide consistent ratings, we calibrate ratings and filter out what we consider to be untrustworthy (for example, spam and abuse) or otherwise questionable (for example, reviews that don’t indicate that a transaction took place). Google bases seller ratings on a number of sources, including:
+
+
+  Google Customer Reviews: A free program that collects post-fulfillment reviews on behalf of merchants.
+  Aggregated performance metrics from Google led shopping research.
+  Shopping reviews for your store domain, which include post-fulfillment comments from the various independent review websites listed below, in addition to users of Google Search.
+    
+  Note: Reviews aren't verified by Google.
+
+
+  
+
+
+
+  We also source feedback from the following independent review websites:
+
+
+
+  Ausgezeichnet.org
+  Bazaarvoice
+  Birdeye
+  Bizrate Insights
+  eKomi
+  Feedaty
+  Feedback Company
+  Feefo
+  Hardware.info
+  Heureka.cz
+  KiyOh
+  Klantenvertellen
+  Okendo
+  Poulpeo
+  PowerReviews
+  ProductReview.com.au
+  RA Trustvox
+  Reco.se
+  Reputation.com
+  ResellerRatings
+  Reviews.io
+  Reevoo
+  Shopper Approved
+  ShopVote.de
+  ShopAuskunft
+  Sitejabber
+  Stamped.io
+  Trusted Shops
+  TrustPilot
+  TurnTo
+  Verified Reviews
+  Yotpo
+
+
+
+
+  Do you collect seller ratings on behalf of merchants?
+    
+      If you already partner with Google on seller ratings and require support, contact us.
+      If you’re a reviews aggregator and would like to partner with Google on seller ratings, read our requirements and fill out our interest form to have your eligibility reviewed.
+        
+          Note: Typically, only 1 or 2 new partners are added globally per year.
+        
+      
+    
+  
+
+
+
+Ratings for your store may automatically appear without any action required by you. As we develop this program, we'll continue to enhance and refine our ratings. We expect the number of stores rated on Google to grow as we update this feature.
+
+If you don’t yet have reviews for your store, you can contact any of the following services:
+
+
+  
+    
+      Service
+      Available countries
+      Description
+    
+  
+  
+    
+      Google Customer Reviews
+      
+      Algeria, Argentina, Australia, Austria, Bahamas, Bahrain, Belgium, Belize, Bhutan, Brazil, Burkina Faso, Cameroon, Canada, Chad, Chile, China, Colombia, Costa Rica, Cote d'Ivoire, Czechia, Denmark, Dominican Republic, Ecuador, Egypt, El Salvador, Fiji, France, Gabon, Germany, Guatemala, Guyana, Honduras, Hong Kong, India, Indonesia, Ireland, Israel, Italy, Jamaica, Japan, Jordan, Kuwait, Libya, Liechtenstein, Luxembourg, Malaysia, Maldives, Mali, Mexico, Morocco, Namibia, the Netherlands, New Zealand, Nicaragua, Norway, Oman, Panama, Papua New Guinea, Paraguay, the Philippines, Poland, Portugal, Puerto Rico, Qatar, Russia, Saudi Arabia, Singapore, South Africa, South Korea, Spain, State of Palestine, Sweden, Switzerland, Taiwan, Thailand, Timor-Leste, Tunisia, Turkey, Ukraine, the United Arab Emirates, the United Kingdom, the United States, Uruguay, Venezuela, Vietnam
+      
+      
+      A free program that collects post-fulfillment reviews on behalf of merchants.
+
+      Learn how to sign up for Google Customer Reviews program using the onboarding guide.
+      
+    
+    
+      Evaluation by Google
+      and / or other evaluation partners
+      Germany, France, the United Kingdom, and the United States.
+      
+      These programs measure and analyze the quality of the shopping experience provided by online retailers.
+
+      Google collects data about selected merchants and the shopping experience they provide.
+      
+    
+    
+      Review partners
+      See each partner website
+      Google works with all the review partners shown above in this article. Reach out to any partner you’d like to work with directly.
+    
+  
+
+
+The seller ratings calculation
+
+We want our seller ratings to accurately represent the quality of a seller in a given country. As stated above, we may use a variety of sources to achieve this goal.
+
+Troubleshooting store ratings
+
+Below are some common issues that you might encounter with seller ratings.
+
+Incorrect ratings
+
+If you've found ratings you believe to be incorrect, you'll need to contact the site which hosts the ratings to resolve the matter. You can't respond to individual seller reviews through Merchant Center. To respond to a seller review, go to the seller rating website and respond to the seller review. Currently, we don't display merchant responses to seller reviews.
+
+If you believe seller ratings from a different store are appearing with your products, make sure that your store name and registered domain in your Merchant Center account are different from the other store on the third party seller rating websites. If this information matches and you're unable to make changes, please contact us to investigate this further.
+
+My seller ratings aren't appearing
+
+Reviews aren't added in real-time, so you may notice a delay between receiving a new review and its addition to your rating. The same is true when a review is removed from a seller rating website. If you notice your reviews have stopped appearing, make sure that the store name and registered domain match in your Google Merchant Center account and third party seller rating websites. You can update your store name and website URL in the Merchant Center. Learn more about how to set up your account
+
+For ratings to appear in a particular country, your business needs enough unique reviews for the country within the last 12 months to allow us to confidently calculate a seller rating score. The number of reviews needed can vary by merchant, but most merchants are able to obtain a rating after collecting 100 or more eligible reviews (for example, post-fulfillment reviews, sometimes denoted by websites of review partners as “verified” or “post purchase”).
+
+How to check if you have a seller rating
+
+To find out if you have a seller rating for a specific country, edit the following URL to replace "www.example.com" with your homepage URL:
+
+
+  
+    Example URL: https://www.google.com/shopping/ratings/account/lookup?q=www.example.com
+  
+
+
+Once that page loads, you'll be able to view information about your store and its seller rating. A country selector will allow you to view this information per country. If your website domain varies by country, repeat the above step for each variation.
+
+
+  Note: If Google doesn't have information for your store or if your store doesn't meet the minimum seller rating thresholds, a seller ratings page may not load for your homepage. Additionally, an invalid URL value or the wrong homepage may prevent a seller ratings page from loading.
+
+             Was this helpful?How can we improve it?YesNoSubmit       

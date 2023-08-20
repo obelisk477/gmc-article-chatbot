@@ -1,0 +1,63 @@
+ Vehicle ads overview
+
+
+  Note: While vehicle ads aren't available yet in Merchant Center Next, you can promote these ads in the classic Merchant Center experience.
+
+  Vehicle ads are currently available only in select countries. Vehicle ads are in open beta in the US and Canada, and in closed beta in Australia. Refer to the “Availability” section below for more information regarding participation in this program.
+
+
+Vehicle ads are a performance-focused lower funnel ad format, which allows auto advertisers to promote their entire inventory of vehicles to interested customers shopping for vehicles on Google. This format shows customers an image of the vehicle with important information such as make, model, price, mileage, and advertiser name. Showing inventory of available vehicles enriches the customer's purchase experience and provides more qualified leads for auto advertisers.
+
+Vehicle ads help advertisers drive sales by optimizing for both online conversions (leads) and offline conversions (store visits).
+
+Clicking on a vehicle ad will take the customer to the vehicle description page (VDP) on your website. From there, they can perform additional actions such as contacting the dealer, filling out a lead form, etc. before visiting the dealership. If you’re a US or Canadian auto advertiser and interested in participating, contact us here.
+
+
+
+Benefits
+
+Vehicle ads help you get in front of auto shoppers online at the right moment, with the right listings and information to move them closer to a purchase. Key benefits include:
+
+
+  More qualified leads: Showing customers key information and visuals about the car before they click, helps provide more qualified leads
+  Omnichannel goals: Optimize for both online conversions (leads) and offline conversions (store visits)
+  Automated targeting: Vehicle ads show your most relevant listings for a related user query
+  Increased exposure: Serve alongside your text ads on Google
+
+
+Availability
+
+Vehicle ads support both new and used vehicle inventory from dealer or retailer stock. Vehicle ads from private sellers, individuals, or auto brokers aren't permitted.
+
+Vehicle ads may be used to promote only non-commercial passenger vehicles, such as cars or pickup trucks (utes in AU).
+
+Examples of not-allowed vehicle types are recreational vehicles, commercial vehicles, farm vehicles, buses, 2-wheelers, trains, boats, airplanes, or outdoor utility vehicles.
+
+Vehicle ads are currently available in the US and Canada and in a limited beta in select countries. If you’re a US or Canadian auto advertiser and interested in participating, contact us here. For auto advertisers in Australia, contact your Google representative if you're interested in participating.
+
+How vehicle ads work
+
+
+  Note: All vehicle ads campaigns will be upgraded to Performance Max by September 2023.
+
+
+
+Advertisers are required to upload their vehicle data feed to Merchant Center. The advertiser’s feed must contain pertinent details about their vehicles, including make, model, price, mileage, color, and more. Google uses these details to match a customer's search to the most relevant cars.
+
+To use vehicle ads, you must create Smart Shopping campaigns on Google Ads. All existing vehicle ads campaigns will be upgraded to Performance Max campaigns by September 2023. You must also link your Google Ads account to a Merchant Center account and a Google Business Profile. A store feed alternative to Business Profile linking is available if you don’t own or manage the profiles for your dealer locations.
+
+Vehicle ads target customers at the bottom of the funnel, closer to selecting a specific vehicle, configuration, and/or dealer. The format appears on queries with a high car shopping intent.
+
+Related links
+
+
+  Vehicle ads overview
+  Vehicle ads policies
+  Implementation guide
+  Vehicle ads image guidelines
+  Vehicle ads Content API guidelines
+  Vehicle ads troubleshooting form
+  Enable vehicle ads in your Performance Max campaign
+
+
+             Was this helpful?How can we improve it?YesNoSubmit       

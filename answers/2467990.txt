@@ -1,0 +1,46 @@
+ Debug API errors via API Diagnostics
+
+
+
+The API Diagnostics tab in the Merchant Center shows the status of any Content API for Shopping requests.
+
+The API Diagnostics tab allows you to:
+
+
+  View all the successful and failed API requests for a given time period.
+  Determine the number of successful and failed requests per API service & method.
+  Review examples of failed requests.
+
+In this article, you'll learn how to access the API Diagnostics tab to diagnose errors with your API requests. After fixing the errors, you may resubmit the API requests.
+
+Review API requests
+There are two main parts of the API Diagnostics tab:
+
+
+  A timeline graph that shows the number of successful and failed API requests for a specific time period.
+  A table that shows the total API requests and the number of failed API requests within that total.
+
+
+
+  Note: The timestamps on the graph are based on the time zone specified in your account settings.
+
+To review API requests:
+
+
+  Sign in to your Merchant Center account
+  Click the tools and settings icon , then select Content API under “Settings.”
+  Use the date range drop-down menu to specify the time period.
+  Use the filter menu above the table to specify the API service request (for example, orders with the “cancellineitem” method) that you want to review. Both the table and the timeline update to show the specific API service request.
+
+
+View failed API requests
+
+Once the table displays the results for your selected data range, you can browse through the listed services and methods to quickly determine the causes of the failed API requests. By default, the errors are listed by descending number of instances for each service, but you can change the sort order by selecting a column header.
+
+To view the failed requests:
+
+
+  In the "Number of failed API calls" column, click the failed request value for a specific method to drill down through the errors and their respective example snippets.
+  View the error in the example code example. Use the error messages as guidelines for fixing your API requests.
+
+             Was this helpful?How can we improve it?YesNoSubmit       

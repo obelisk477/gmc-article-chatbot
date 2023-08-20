@@ -1,0 +1,107 @@
+ Merchant hosted local storefront (basic) setup errors
+
+This page explains various reasons why merchant hosted local storefront (basic) setups are rejected by Google and what steps can be taken to resolve the issues.
+
+Missing store selector: Ensure that your product pages allow users to check store availability
+
+Your product landing pages don’t provide users the option to check a product’s availability at different store locations. Follow the steps below:
+
+
+  Step 1: Add a store selector to your product landing pages
+
+  
+    1. If your product landing pages don’t provide a store selector, you will need to add that to your website pages.
+  
+
+
+
+  Step 2: Resubmit your example product landing page
+
+  
+    
+      
+        Sign in to your Merchant Center account.
+        Click the tools icon and then select Local inventory ads setup under “Tools.”
+        Select your country and the merchant hosted local storefront (basic) setup.
+        Resubmit your example product landing page URL in the text box.
+        Click Save.
+        Google will conduct another eligibility review of your website.
+      
+    
+  
+
+
+
+
+
+Missing price on landing page: Add your product’s omnichannel price to your product landing page
+
+Your example product landing page doesn’t contain an omnichannel price for your product. Add the price of your products to your product landing pages. Follow the steps below:
+
+
+  Step 1: Add the product price to your product landing pages
+
+  
+    1. If your product landing pages don’t provide an omnichannel price, you will need to add that to your website pages.
+  
+
+
+
+  Step 2: Resubmit your example product landing page
+
+  
+    
+      Sign in to your Merchant Center account.
+      Click the tools icon and then select Local inventory ads setup under “Tools.”
+      Select your country and the merchant hosted local storefront (basic) setup.
+      Resubmit your example product landing page URL in the text box.
+      Click Save.
+      Google will conduct another eligibility review of your website.
+    
+  
+
+
+
+
+
+Missing availability on landing page: Add your product’s store-specific availability to your product landing page
+
+Your example product landing page does not contain store-specific availability for your product. Add store-specific availability to your product pages. Follow the steps below:
+
+
+  Note: Online purchase availability is not equivalent to store level availability. You must display your store’s local availability as prominently as the option to Buy online.
+
+
+
+  Step 1: Add product’s store-specific availability to your product landing pages
+
+  
+    1. If your product landing pages don’t provide store-specific availability, you will need to add that to your website pages.
+  
+
+
+
+  Step 2: Resubmit your example product landing page
+
+  
+    
+      
+        Sign in to your Merchant Center account.
+        Click the tools icon and then select Local inventory ads setup under “Tools.”
+        Select your country and the merchant hosted local storefront (basic) setup.
+        Resubmit your example product landing page URL in the text box.
+        Click Save.
+        Google will conduct another eligibility review of your website.
+      
+    
+  
+
+
+Related Links
+
+
+  Local inventory onboarding guide
+  Merchant hosted local storefront (basic)
+  Local inventory ads overview
+
+             Was this helpful?How can we improve it?YesNoSubmit       

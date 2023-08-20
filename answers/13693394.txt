@@ -1,0 +1,147 @@
+ Syncing your productsThis article is intended for users of the Google & YouTube app on Shopify
+
+
+  If you're looking for information about syncing your products in the classic Merchant Center experience, click here. 
+
+
+
+The Google & YouTube app on Shopify syncs products that are available to your online store with Merchant Center. For eligible stores, products synced to Merchant Center using the Google & YouTube app on Shopify can appear in relevant Google Shopping tab search listings for free.
+
+To view the status of your products or change your account settings go to the Google & YouTube app on Shopify.
+
+
+On this page
+
+
+  How it works
+  How to add product data using the Google & YouTube app on Shopify
+  Product requirements
+  Optimizing product titles and descriptions for Google Shopping
+  Discounts or promotions
+  Product status
+
+
+
+How it works
+
+
+  Make products available to the Google & YouTube app on Shopify: When you set up the Google & YouTube app on Shopify for the first time, all of the products that are available on your Shopify store are automatically synced with Merchant Center. If you prefer to choose which products to sync, then you can change the availability of a single product manually or do a bulk action to change the availability for several products.
+
+
+
+  Add required product data: Google uses product data to help categorize your synced products on Google. However, in certain instances, you may need to add additional information before products can successfully sync to your Merchant Center account.
+
+
+A product sync will be initiated once a merchant has successfully connected their Merchant Center account and updates required product information. Products will continue to sync automatically when any information changes.
+
+
+  Note: Google sets a strict 30-day expiry policy on synced product data, so if no changes are made, the Google & YouTube app on Shopify updates products automatically within that 30-day period to avoid expiry or loss of product data.
+
+
+
+How to add product data using the Google & YouTube app on Shopify
+
+
+  In your Shopify admin page, navigate to Sales Channels and click Google.
+  On the Overview page, go to the Product feed section.
+  Click Manage Products to view your synced products in a bulk editor.
+  Update desired fields and click Save.
+  Optional: If your product doesn't have a GTIN or MPN because it's a custom product, then check This is a custom product.
+  Optional: In the Product categorization section, add a Google Product Category.
+  Optional: Add custom labels for Age, Gender, or Condition.
+  Click Save. 
+
+
+
+Product requirements
+
+Google requires specific information about your products before you can publish them on Google. The Google & YouTube app on Shopify imports your existing product data from Shopify, but you might need to add some additional information before you can sync products with Merchant Center.
+
+Most products only need the following information added:
+
+
+  Google product category: To make sure that your products are categorized accurately on Google, you should add a Google Product Category to products. If you don't add a product category, then Google automatically assigns a category to the product, but you might encounter errors.
+
+
+Learn more about Google product category.
+
+
+  Unique product identifiers: Google requires you to have a unique product identifier for each of your products. These identifiers let Google match your product with similar products on Google Shopping. If these identifiers aren't correct, then Google doesn't publish your products and your account could be suspended.
+
+    
+      If a product has a GTIN (Global Trade Item Number), then you need to add it before you can publish the product. You can add a GTIN in the details of a product variant.
+      For products without a GTIN, you need to add an MPN (Manufacturer Part Number) and brand to the product data in the Google & YouTube app on Shopify.
+    
+  
+
+
+Learn more about Unique product identifiers.
+
+Google also has specific requirements for the following product categories:
+
+
+  Apparel & accessories: Products in the Apparel & accessories category might require specific product data before they will be published. To determine if you need to include the product data, refer Google guidelines for the following:
+
+    
+      Age group
+      Gender
+      Color
+      Size
+    
+  
+  Media: Products in the Music, Movies, or Video games categories are required to have a UPC, EAN, or JAN as the unique product identifier.
+  Books: Products in the Books category are required to have an ISBN as the unique product identifier. Product options, including variants, need to be in English to sync with Google.
+
+
+
+  Note: Some countries are required to display a price per unit for products. You can add unit pricing information to the Google & YouTube app fields for a product in Shopify.
+
+
+
+Optimizing product titles and descriptions for Google Shopping
+
+The keywords that you use in your product titles and descriptions can help us show your products to the right customers on Google Shopping.
+
+When you're syncing products to Google Shopping, you can either sync your product titles and descriptions, or use the title tag and meta description from the search engine listing. You might want to use the search engine listing title tag and meta description so that you can include more keywords for search engine optimization on Google Shopping without changing the product information in your online store.
+
+Learn more about optimizing product title [title] and description [description].
+
+To use title tags and meta descriptions for your products on Google Shopping, first you need to select the preference from the Google & YouTube app on Shopify.
+
+
+  In your Google & YouTube app, click Settings.
+  In the “Product title preference” section, select SEO product title to use the search engine optimized product tag for your products on Google Shopping.
+  In the “Product description preference” section, select SEO product description to use the search engine optimized meta description for your products on Google.
+
+
+
+Discounts or promotions
+
+Discounts are known as promotions in Google Merchant Center. Some promotions (percentage, fixed amount, automatic discount) created in your Shopify admin automatically sync to Google Ads  and to show organically across Google.
+
+You can manage which discounts are available to the Google & YouTube app on Shopify by following the steps below:
+
+
+  In your Shopify admin, go to Discounts on the left navigation menu.
+  Click the name of the discount that you want to edit.
+  In the Sales channels section, select and deselect the sales channels that you want your discount to be available on.
+  Click Save.
+
+
+You can also manage your promotions in Merchant Center. Learn how to Edit a promotion or or change promotion status. Get general information about Promotions.
+
+
+Product status
+
+The Google & YouTube app on Shopify displays the status of your products on the Overview page, in the Products section. There are three possible product statuses:
+
+
+  Not approved - Products with the Not approved status are not synced with the Google Merchant Center because of one or more errors or missing product data.
+  Pending - Products with the Pending status have changes in Shopify that have not yet been synced to the Google Merchant Center.
+  Approved - Products with the Approved status are successfully synced to Merchant Center.
+
+
+To solve product errors, click the product name and make changes in the product details page to suit Merchant Center product requirements. When you make a change to a product here, it's automatically synced with Merchant Center.
+
+When you change product information on the Product page of your Shopify admin, the changes are synced to Google. Since Google errors and warnings are different from Shopify’s, check the Google & YouTube app on Shopify periodically to make sure that changes you made in your Shopify admin didn’t cause a disapproval on Google.
+             Was this helpful?How can we improve it?YesNoSubmit       

@@ -1,0 +1,12 @@
+ How to fix: Missing valid store codeAdd a valid store code for the fulfillment of the local vehicle offer in your product feed
+
+No valid store code has been provided in your product feed for your local-only vehicle ad. As a result, your ads have been disapproved.
+
+In addition to providing the vehicle fulfillment [vehicle_fulfillment] attribute with the option [option] sub-attribute set to in_store or ship_to_store, local-only offers require that you provide a store code using the store code [store_code] sub-attribute. The store code you submit must match one of the dealership's existing codes you have provided in your Business Profile. Ensure that your feed contains accurate store codes in all cases.
+
+Related links
+
+
+  Vehicle ads troubleshooting form
+
+             Was this helpful?How can we improve it?YesNoSubmit       

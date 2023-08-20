@@ -1,0 +1,19 @@
+ Post-purchase experience for shipping
+
+To improve your post purchase experience and provide the option for customers to track their orders directly in Gmail with tracking updates, we encourage you to provide the following information in your order and/or shipment confirmation emails:
+
+
+  Order number
+  Product name and product image (if applicable) 
+  Merchant name
+  Order URL
+  Tracking number 
+  Estimated delivery date
+
+
+
+  Note: This is currently only available for US orders and customers must opt-in to receiving these updates. Orders must be fulfilled through a supported carrier and data can also be provided via the Order and ParcelDelivery Schema.org.
+
+
+
+              Was this helpful?How can we improve it?YesNoSubmit       

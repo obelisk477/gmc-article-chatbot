@@ -1,0 +1,173 @@
+ Set up conversion tracking with the Google & YouTube app on ShopifyThis article is intended for users of the Google & YouTube app on Shopify
+
+Conversion tracking allows you to see the actions that people take on your website after clicking on one of your ads or free listings. This information can help you adjust your advertising strategy by showing you things such as which of your Google ads generates the most sales on your online store. It also allows you to see the free listings that are leading to significant customer activity, such as purchases.
+
+On this page
+
+
+  Recommended: Setup with the Google & Youtube app on Shopify
+  Advanced: Manual setup with a Google tag
+  How to avoid duplicating tracking events
+  Understand the conversion actions tracked in Google Ads
+
+
+
+Recommended: Setup with the Google & Youtube app on Shopify
+
+The easiest way to set up conversion tracking is through the Google & Youtube app on Shopify. If you’re using the Google & Youtube app on Shopify, conversion tracking for both Ads and free listings will be automatically set up when you onboard into the Google & Youtube app. You do not need to take additional action.
+
+If you prefer not to use Google Ads to track your conversions, we recommend creating a Google Analytics account and linking it within the Google Analytics 4 card within the Google & Youtube app.
+
+Ensure you're providing users with clear and comprehensive information about the data you collect on your websites, and getting consent for the collection, sharing, and use of personal data for personalization of ads where legally required.
+
+
+Advanced: Manual setup with a Google tag
+
+This option is only recommended for merchants who are familiar with the technical components of setting up a tag. Some possible scenarios where you might want to manually set up your Google tag:
+
+
+  To track select e-commerce conversions
+  To configure gtag on startup to set up additional products or other customizations (reference)
+    
+      For example: sending events to more than one property or creating groups
+    
+  
+
+
+Learn how to Set up your Google tag with Shopify.
+
+
+  Important: When setting up a tag manually, be sure to check that you are not duplicating tracking events. Follow the steps in the next section to check for and remove duplicate tags.
+
+
+
+How to avoid duplicating tracking events
+
+Duplicated conversion tracking (when a single user action on your ad or free listing is counted more than once) can happen if you have multiple Google tags set up. For example, if you had already set up conversion tracking before installing the Shopify app.
+
+Duplicated conversion tracking can cause inaccurate report data for your free listings and ads, and can lead to problems with ad optimization. You can use Tag Assistant to verify that you are not duplicating tracking.
+
+You can have one tag that tracks Google Analytics events and one tag that tracks Google Ads events. But you should not have multiple tags tracking and sending the same types of events.
+
+Follow the steps in the next section to check for and remove duplicate tags.
+
+How to check if you have duplicate tags using Tag Assistant
+
+
+  Disable any ad blockers or browser extensions
+  Open Tag Assistant
+    
+      If this is your first time using Tag Assistant, click Add Domain in the upper right corner. In the pop-up that opens, enter your website’s URL and click Connect.
+      If this is not your first time using Tag Assistant, find your site in the list and click the arrow icon 
+    
+  
+  A new tab will open with your website. Google Tag Assistant will add a pop-up to your site displaying helpful information.
+
+
+If the Google Tag Assistant pop-up appears in the bottom right corner:
+
+This confirms you have a Google tag installed on your site.
+
+
+  In the pop-up, click Finish.
+  Navigate back to the Tag Assistant window, where you will see a message stating that the connection was successful. Click Continue.
+  Now, you should see your Google tag(s) listed in a bar at the top of the page.
+  Click on a Google tag to open its “Summary” then click the “Hits sent” tab.
+  The “Hits sent” tab shows a box for each event sent from on your site. Each box is labeled with the Google product that tracked that event: either Google Analytics or Google Ads.
+    
+      For example: If you only see boxes labeled as Google Analytics, then your site only has Google Analytics linked to it, and it is not tracking Ads conversions.
+    
+  
+
+
+If the Google Tag Assistant pop-up did not appear:
+
+You do not have a Google tag installed on your site. Navigate back to the Tag Assistant window, and it should read “Could not connect to [your website URL]”.
+
+How to disable duplicated tags from Google Ads
+
+Double-check that you disable only the duplicated tracking events. Disabling non-duplicate conversion events can decrease ad tracking accuracy and efficiency. Learn more About account-default conversion goals
+
+
+Understand the conversion actions tracked in Google Ads
+
+When you link your Google Ads account to your Google & YouTube app on Shopify, a purchase conversion action is created automatically in Google Ads, and set as the account default.
+
+Additionally, the conversion actions below will also be created in Google Ads but set as secondary conversion actions, which are included for observation only and do not affect bidding.
+
+
+  
+    
+      Conversion type
+      Conversion goal
+      Conversion action
+    
+  
+  
+    
+      Sales
+      Tracks the conversion funnel
+      
+      
+        Purchase (primary conversion action by default): Every time a user completes the purchase
+        Add to cart: Every time a user adds a product to the cart
+        Begin checkout: Every time a user begins the checkout process
+      
+      
+    
+    
+      Page view
+      Observes user interaction
+      
+      
+        Page view: Every time a user opens a new page
+        View item: Every time a user opens a product page
+        Search: Every time a user uses the search option on the website
+      
+      
+    
+    
+      Other
+      Determines willingness of a user to purchase
+      Add payment info: Every time a user adds payment information during the checkout process
+    
+  
+
+
+Learn how to Understand your conversion tracking data
+
+Opt out of conversion tracking
+
+If you use Google Ads, deactivating conversion tracking may severely impact your campaigns’ performance unless you have set it up manually. Additionally, if you use YouTube Shopping or Google Analytics, conversion tracking is required.
+
+When you opt out of conversion tracking, you will deactivate tracking for both ads and free listings. If you would still like to opt out of conversion tracking, follow the steps below:
+
+When you first set up your Google & YouTube app on Shopify:
+
+
+  During the onboarding flow, navigate to the “Conversion tracking” box and click Remove
+
+
+After your account has been set up: 
+
+
+  In your Google & YouTube app, navigate to the “Settings” tab
+  Find the “Conversion tracking” box and click Remove
+    
+      If you use either YouTube Shopping or Google Analytics, you’ll need to first deactivate these programs in “Settings” before you can remove conversion tracking
+    
+  
+
+
+Opt back in to conversion tracking
+
+At any point, you can opt back in to conversion tracking in your Google & YouTube app. Navigate to the settings tab and find the “Conversion tracking” box. Click Start.
+
+Related links:
+
+
+  Shopify: Set up your Google tag
+  About conversion tracking
+  Learn more about free listings conversion tracking
+
+             Was this helpful?How can we improve it?YesNoSubmit       

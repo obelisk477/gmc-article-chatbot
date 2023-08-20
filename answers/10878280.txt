@@ -1,0 +1,159 @@
+ How to prepare for big events and product launches
+
+To ensure the success of any large event or product launch that you may have planned for your web site, it’s a good idea to review your Shopping campaign structure and Merchant Center data. You’ll want to verify that your product data is accurate and up-to-date and make sure that your Shopping campaigns and landing pages are properly set up.
+
+This article outlines the checks you should conduct before any sales event or product launch.
+
+
+  Make sure your product data is ready
+
+  
+    
+      Product data in Merchant Center is the foundation for your Shopping ads and free product listings, so it should always be accurate, up-to-date, and of high quality.
+
+      Submit product data early
+
+      Prior to an event or product launch, it’s important to account for processing time to ensure your data is ready. For example, it can take up to 72 hours for your feed to be crawled after it is submitted for an initial review.
+
+      
+        Tip: Submit any new product data 3-5 business days before a launch or sales event. For wireless project launches, refer to our Best practices for listing wireless products and services.
+      
+
+      If you take preorders
+
+      
+        Before the launch date, set the value for the availability [availability] attribute to preorder and set the value for the availability date [availability_date] attribute to the official release date of the product. This will allow you to take orders for the product even before it’s released for sale.
+
+          
+            Note that “taking orders” refers to the complete transaction, including paying for the item in advance.
+          
+        
+        On or after the launch date, set the availability [availability] attribute to in_stock.
+      
+
+      If you don't take preorders
+
+      
+        Prior to the launch date, submit your product and set the value for the availability [availability] attribute to out_of_stock.
+        On or after the launch date, once you’re accepting orders for the product and can fulfill purchase requests, set the availability [availability] attribute to in_stock as soon as you're able.
+      
+
+      
+        
+          Note: It may take up to 24 hours for an item set to in_stock to show in your campaigns or free listings.
+        
+      
+
+      Provide all necessary product data and follow Merchant Center requirements
+
+      Google uses product data to ensure your ads and free listings are matched to the right user search queries. The better your data, the more likely it is that your products will show to interested shoppers. Learn more about Product data specification.
+
+      The following tips can help your data perform better:
+
+      
+        Avoid using promotional text like “fast shipping” or “buy one get one free” in your title or image.
+        
+          Enable automatic item updates to minimize mismatches in product price and availability between your data feed and landing page, which can lead to disapprovals or account suspension.
+
+          
+            Note: Automatic item updates are not a replacement for feeds or for regular updates of your product data.
+          
+        
+        For new product launches, make sure to submit accurate and complete product information to set your ads and free listings up for success.
+          
+            Obtain and submit the correct GTIN [gtin] values.
+            Optimize the product title to display the most important product information.
+            Build the values for your product type [product_type] attribute to at least three levels to capture the most relevant search traffic.
+          
+        
+      
+    
+  
+
+
+
+  Have enough product capacities in your account
+
+  
+    If you have received a warning about exceeding account capacity, you can request additional quota with the Request for additional quota of items, feeds or sub-accounts form. Expect a notification within 7 business days letting you know if your request has been approved.
+
+    
+      
+        Note: For Comparison Shopping Service accounts, please reach out to your Google contact.
+      
+    
+  
+
+
+
+  Upload the special event logo 2-3 days in advance
+
+  
+    If you plan to switch to a special logo during an event, allow enough time for the logo to be reviewed.
+  
+
+
+
+  Test your promotions and submit at least 24 hours before the launch
+
+  
+    Promotions are usually reviewed within 12 hours of uploading, but may take longer during peak times. Learn more about Promotion approval process.
+  
+
+
+
+  Ensure your website and landing page are ready
+
+  
+    
+      Check your landing page prior to and during big events. Having a stable and working landing page is important, as your products may be disapproved in Merchant Center if the landing page is crawled and returns an error.
+
+      
+        Ensure content on your landing page is consistent. Don’t change the content based on user variables such as IP address, location, browser, device type, or cookies. Consider using stable landing pages for Shopping ads. Learn more About landing page requirements.
+        Test your page with Googlebot crawling capabilities. If your site can’t be crawled, your items will not be eligible to show. Learn more about the robots.txt file.
+        Follow best practices for crawl rate.
+          
+            Test your page with the robots.txt testing tool, Rich Results test, and set the Googlebot crawl rate to “Let Google optimize for my site".
+            Confirm with your web developer that your site or server has enough capacity to handle a high volume of traffic within a short period of time. If your site is down or times out while loading, your items may be disapproved.
+            Use our  PageSpeed Insights tool to check your site loading speed.
+            Avoid large scale changes to the structure of your site and landing pages, such as moving the location of price information within the source code or using JavaScript or other animations to display prices or price reductions. These may result in temporary product disapprovals as we crawl your landing page to gather information such as price and availability.
+          
+        
+      
+
+      
+        Tip: If you have planned site maintenance before the event, follow Best practices for landing page maintenance or a planned site outage.
+      
+    
+  
+
+
+
+  Get your campaign ready
+
+  
+    
+      Follow these guidelines to ensure your Shopping campaigns are set up correctly to successfully deliver ads during your event.
+
+      
+        Double check your inventory filter and product groups status. Avoid targeting the same products in multiple campaigns with the same target audience or leaving products untargeted.
+        Set the correct campaign launch date and priority. Campaign priority is useful when you're advertising the same product, for the same country, in multiple Shopping campaigns. Learn more about campaign priority for Shopping campaigns.
+        Make special considerations for Smart Shopping campaigns.
+          
+            Give a new campaign 2-3 weeks to adapt before making any changes. Smart Shopping campaigns use machine learning, which takes time to optimize. Learn more about optimizing Smart Shopping campaigns.
+            Pause other campaigns for the same products or groups of products. Smart Shopping campaigns take priority over standard Shopping and display remarketing campaigns for the same account, regardless of priority setting. Pausing them will minimize the interference on the machine learning of Smart Shopping campaigns. Learn more about Smart Shopping campaigns.
+          
+        
+      
+    
+  
+
+
+Related links
+
+
+  Tips to help your products stay approved
+  Best practices for landing page maintenance or a planned site outage
+  Make your products stand out and maximize your reach across Google’s channels
+
+             Was this helpful?How can we improve it?YesNoSubmit       

@@ -1,0 +1,359 @@
+ Regional availability and pricing
+
+  All existing vehicle ads Smart Shopping campaigns will be upgraded to Performance Max by September 2023, bringing you additional inventory and formats to reach new customers. Accounts in which all campaigns have been upgraded are no longer able to create new Smart Shopping campaigns. Learn how to create a Performance Max campaign.
+
+
+
+Regional availability and pricing lets you provide product availability and variable pricing based on your business presence and the location of your customer base.
+
+
+
+
+  Example
+
+  Your business might only have a presence in certain parts of the country or particular cities within a state, or you might sell food products that vary in price depending on the region they are purchased in. This feature allows you to specify the regions where your products are available and control pricing regionally.
+
+
+Regional availability and pricing is available for products advertised through Shopping ads on Google Search, and listed in free listings on the Shopping tab.
+
+Benefits
+
+
+  If you use local inventory ads, regional availability and pricing can help you expand your reach to areas outside the radius of your stores.
+  Regional availability and pricing helps you promote inventory that's regionally priced, in stock, and online.
+  Ensure that your online products are shown to the correct audience and you only pay for valid clicks from Shopping ads, as your products will only be shown to users in the custom regions you define.
+
+
+Requirements
+
+
+  To participate in regional availability and pricing, you'll need to work with your website development team to make changes to your landing pages (refer to requirement 3 below).
+
+
+You’ll also need to meet the following requirements:
+
+
+  The target country for your products is the United States, France, Australia, Brazil, Russia, or an eligible beta country.
+  The regions you set up in your Merchant Center are eligible to meet Google’s requirements for regional inventory.
+  You’re able to accept the region ID parameter passed by Google into your product landing pages and render the correct regional product pages with corresponding regional pricing and availability.
+  For privacy reasons, you may not use the region ID to re-identify any user.
+  For privacy reasons, the region ID value must be a randomized set of numbers (minimum 6 digits), rather than a readable name, such as "NY_City". Readable names or names that look like postal codes aren't accepted.
+  Avoid including an area code (such as a postal code, state, or oblast) in more than one region. If an overlap between 2 regions is detected, we will pick only one of the regional overrides to implement for that area. Up to 150 overrides can be supported for each product offer.
+  The currency used for a region must be the same as the currency used for the initial product offer.
+  Regions need to meet minimum geographic size and population requirements, and should ideally be geographically contiguous. Avoid adding unattached small area codes to a region. A small area code can be extended by clustering it with other area codes that surround it to make it larger. If the region doesn’t meet these size requirements, an error message will be shown in the “Issue” column on the "Regions" page.
+  If you have a physical warehouse or hub of delivery, we recommend that you use the corresponding region ID for associated products. This ensures that the correct price and availability are displayed to customers.
+
+
+
+  Note: Your region eligibility may change over time as it's subject to population changes. You can monitor your eligibility in the "Regions" menu.
+
+
+Regional availability and pricing is compatible with both the Standard and Smart Shopping campaigns. You won't need to configure any special regional settings in your Shopping campaigns. These will all be configured from your Merchant Center account.
+
+
+  Note: You're responsible for complying with all applicable local laws and regulations related to regional pricing.
+
+
+Beta countries
+
+Regional availability and pricing is currently available in beta for the following countries: Canada, Germany, Spain, Denmark, Norway, Sweden, the Netherlands, South Africa, Austria, Czech Republic, Italy, Romania, Hungary, Mexico, Chile, Columbia, Argentina, Peru, New Zealand, India, Vietnam, Indonesia, Pakistan, Thailand, Philippines, and Malaysia.
+
+To join the regional pricing and availability beta for one of these countries, get in touch with your Google Sales representative.
+
+Incompatibilities
+
+Regional availability and pricing is currently only available for offers that are shown in Shopping ads on Google Search and free listings on the Shopping tab.
+
+Regional availability and pricing only supports the values in_stock and out_of_stock for the availability [availability] attribute (the values preorder and backorder aren't supported).
+
+Offers with regional availability and pricing can't currently be shown on the Google Display Network, or in Buy on Google listings. In addition, automatic item updates can't be turned on.
+
+If you use Display ads, reach out to your Google Sales representative to be allowlisted for the interim solution that will allow you to run Display ads for your regional offers.
+
+Follow the steps in the sections below to set up regions, create a regional inventory feed, and configure the region ID to your landing page. Once you're approved for the interim Display solution, follow these steps to update your feeds:
+
+
+  Update primary feed.
+    
+      For all products, set the availability [availability] attribute to in_stock and set national pricing (the price shown on the landing page for customers coming from Display ads).
+    
+  
+  Update regional feed.
+    
+      For regionally available products, set availability [availability] attribute to out_of_stock for regions where your product isn’t offered online.
+      For regionally priced products, set price. Optionally, set sale price [sale_price] and sale price effective date [sale_price_effective_date] if you have regional promotions.
+    
+  
+
+
+If you plan to upload a large number of feeds or make frequent changes to your product data, it’s recommended that you use the Content API to directly upload your product data.
+
+This solution lets you show regional availability and pricing on your Shopping ads and free listings for your regional offers, while showing national availability and pricing on your Display ads. If you implement regional availability and pricing without implementing the interim solution to enable Display, your regional offers won’t be shown in Display ads across all campaign types, including Smart Shopping Campaigns, Standard Shopping Campaigns, and dynamic remarketing.
+
+How to use regions
+
+If your target country is eligible for regional availability and pricing, or if your account is allowlisted for a beta country, you’ll notice a new "Regions" menu in your Merchant Center account that allows you to specify regions for both regional inventory and shipping delivery zones. Learn more about shipping delivery zones
+
+A region is used to define areas in which products share the same online availability, price, or both. Based on your business model, you may only need one region for both shipping and regional availability and pricing, or you can create multiple regions and assign them to the service of your choice. For example, if your business has a presence in only certain parts of the country, you can use regions to define those areas and couple them with a regional inventory feed to make sure your online products are shown only in those regions.
+
+
+  Note: Regional availability and pricing isn't equal with regional shipping and may not yet be available for your country. Learn more about shipping settings
+
+
+Set up regions
+
+Regions are configured at the account level, which can be done either through the “Regions” page in Merchant Center or through a Content API upload.
+
+Set up regions by defining either postal code-based areas (AU, CA, and US) or state or oblast level areas (BR and RU) on the "Regions" page of your Merchant Center account, and let us know where you want to show online products for a set price. For each region, create a numeric region key that will be used as the value for the region ID [region_id] attribute. Then append the data you provided in your primary feed with a supplemental regional product inventory feed, which will let you specify the price and availability for your regions.
+
+To ensure that the price on the landing page matches the price you defined in your feed, Google needs to pass a piece of information along with each click. To do this, we pass a parameter called "region_id" into the URL you provided for the link [link] and mobile link [mobile_link] attributes of the primary feed. The value for this parameter is the same as the value you already specified for the region and provided in your regional inventory feed.
+
+
+  
+    Example
+
+    Value provided in the link attribute: https://mystorewebsite.com/p/myproductlandingpage
+
+    Final URL: https://mystorewebsite.com/p/myproductlandingpage?region_id=123456
+
+    Value provided in the link attribute: https://mystorewebsite.com/p?offer=myproduct
+
+    Final URL: https://mystorewebsite.com/p?offer=myproduct&region_id=123456
+  
+
+
+
+  For this URL to work, you must adjust your landing pages so that they can accept this parameter and render a product landing page that shows the corresponding price and availability. After the parameter is added, the landing page must remain static and not change even if the URL is tested from a different location.
+
+
+
+  Using your Merchant Center feed
+
+  
+    
+      
+        Sign in to your Merchant Center account.
+        Click Products.
+        Click Feeds.
+        Under “Supplemental feeds”, click Add product inventory feed.
+        Select “Regional inventory” as the feed type.
+          Note: This step is only visible if your account is using local inventory ads (LIA). Otherwise, this step is hidden.
+        
+        Set up your feed using the following attributes:
+          
+            Required: ID [id] (offer ID), region ID [region_id] (matches the retailer-defined value submitted in the "Regions" menu)
+            Optional: price [price], sale price [sale_price], sale price effective date [sale_price_effective_date], availability [availability]
+          
+        
+      
+
+      
+        Regional inventory is valid for 14 days. Products must be updated every 14 days at a minimum, or they'll expire and Merchant Center will revert to the primary feed settings.
+      
+    
+  
+
+
+
+  Using the Content API
+
+  
+    Review content API user guide for details.
+  
+
+
+Instructions
+
+
+  Create a new region
+
+  
+    
+
+    
+      Click the tools icon  .
+      Select Regions under “Tools”.
+      Click the plus button  to create a new region.
+      Enter values for “Region ID”, “Region name”, and “Country”.
+        
+          This region ID needs to be unique for each region and must be numeric (minimum of 6 digits).
+          The region name helps you identify the geographical area you want to include in your region.
+          Use the drop-down menu beside “Country” to select which country this region will apply to.
+        
+      
+      Create your region using postal codes or states (depending on the availability for your country).
+        
+          If postal codes are available, enter one code per line in any of the following styles:
+            
+              A postal code (for example, 75008)
+              A range of postal codes (for example, 2000-2500)
+              A range of postal codes using a prefix with a wildcard ( * ) (for example, 94*)
+              A range of postal codes using 2 prefixes with wildcards ( * ), using the same number of digits for both prefixes. (for example, 94*-95*)
+            
+          
+          Otherwise, choose the administrative region available for your country.
+          Click Add.
+        
+      
+      Click Save to finish creating the region.
+    
+  
+
+
+
+  Edit a region
+
+  
+    
+
+    
+      Click the tools icon .
+      Select Regions under “Tools”.
+      To add or change the region name, click the text in the “Region name” column and edit the “Region name” field.
+      To edit postal codes:
+        
+          Add new codes just like you did when you created the region, with one range per line. Click Add postal codes.
+          To remove a postal code, click the X next to it or click Clear all to remove all postal codes.
+        
+      
+      Click Save to finish editing the region.
+    
+  
+
+
+
+  Remove a region
+
+  
+    
+      
+
+      Before you can remove a region, make sure that it's no longer used with any of the available services.
+
+      
+        Click the tools icon .
+        Select Regions under “Tools”.
+        Click the trash icon  next to the name of the region in the “Region name” column, and then click Confirm.
+      
+    
+  
+
+
+Example scenarios
+
+
+  All your products are available regionally and your pricing differs based on region or you have nationally available products with different regional pricing.
+
+  
+    
+      
+        Upload a primary online feed with all of your products or otherwise add your product data.
+          
+            
+              Set the availability [availability] attribute to out_of_stock.
+            
+            Provide realistic pricing (for example, choose one of the regions you sell in and use those prices). Don’t use values of $0 USD or $1 USD.
+          
+        
+        For the state of Colorado, don’t include any retail delivery fee in your product feed. Therefore, a retail delivery fee shouldn’t be included in shipping [shipping], price [price], tax [tax], or any other attribute. Learn more about Colorado retail delivery fee.
+        To provide the appropriate information for items that are in stock, upload the regional inventory feed to override the prices and availability for the regions you defined.
+        For regional offers, it isn't necessary to include the availability for items that are out of stock, as this is already defined in the primary feed.
+      
+    
+  
+
+
+
+  You have a mix of products, some nationally available with national pricing and others regionally available with regional pricing.
+
+  
+    
+      
+        Upload a primary online feed with all of your products.
+          
+            For national products, set them to in_stock and provide national pricing in the primary feed.
+            For regional products, set them to out_of_stock, and provide realistic pricing (for example, choose one of the regions you sell in and use those prices). Don’t use values of $0 USD or $1 USD.
+          
+        
+        To provide the appropriate information for items that are in stock, upload the regional inventory feed to override the prices and availability for the regions you defined.
+        Don’t include overrides for national products.
+        For regional offers, it isn't necessary to include the availability for items that are out of stock, as this is already defined in the primary feed.
+      
+    
+  
+
+
+
+  You have regional product availability with national pricing.
+
+  
+    
+      
+        Upload a primary feed with national pricing, and set the availability for all products to in_stock.
+        Upload the regional inventory feed and manage regional availability by setting predefined regions to out_of_stock.
+      
+    
+  
+
+
+The following table shows how regional overrides can be used if you choose to set all products to out_of_stock in the primary feed:
+
+
+  
+    
+      Item ID
+      Region display name (Not included in the feed; defined in Regions)
+      Price
+      Availability
+    
+    
+      110
+      Zone A
+      $14.99 USD
+      in_stock
+    
+    
+      110
+      Zone B
+      $16.99 USD
+      out_of_stock
+    
+    
+      110
+      Zone C
+      $16.99 USD
+      in_stock
+    
+    
+      220
+      Zone A
+      $12.99 USD
+      in_stock
+    
+    
+      220
+      Zone B
+      $14.99 USD
+      out_of_stock
+    
+    
+      220
+      Zone C
+      $14.99 USD
+      out_of_stock
+    
+  
+
+
+In the above example, item availability depends on where the customer is located. Only customers located in Zone A and Zone C will be able to purchase item 110 on Shopping. Item 220 will only be available for purchase to customers in Zone A.
+
+Each item costs less when sold to customers in Zone A. Item 110 is $14.99 USD instead of $16.99 USD, while item 220 is $12.99 USD instead of $14.99 USD.
+
+
+  Note: For privacy reasons, the region ID [region_id] value must be a randomized set of numbers (minimum 6 digits), for example, "123456". Use the region display name to help you easier identify the regions defined, for example, “Zone A”.
+
+
+Review regions and fix issues
+
+In order to use the regions feature, you need to ensure that each of your regions meets the minimum requirements. If you’ve set up a region that doesn’t meet these requirements, you’ll notice an error message, which will show in the “Issue” column on the “Regions” page. You can filter your regions by issue, or manually address them one by one. Once you satisfy the necessary requirements, the error messages will disappear.
+             Was this helpful?How can we improve it?YesNoSubmit       

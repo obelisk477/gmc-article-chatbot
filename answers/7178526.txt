@@ -1,0 +1,46 @@
+ Merchant hosted local storefront
+
+The merchant hosted local storefront represents only a single merchant’s local storefront information. It lets you direct customers to your website when they click on your local inventory ads and free local product listings. By directing customers to your website instead of your Google-hosted local storefront, you can manage and track your customers' entire experience.
+
+This article helps you understand how the merchant hosted local storefront works and what’s required for your local products feed and website.
+
+Implementation options
+
+There are 2 options to implement the merchant hosted local storefront feature: full and basic
+
+
+  
+    
+      Feature Type
+      User experience
+      Shopping annotation displayed
+      Shopping behavior on “see what’s in-store”
+    
+  
+  
+    
+      Full
+      Clicking on a local inventory ad or a free local listing redirects to a product landing page that displays an item’s availability at a specific store.
+      Users will be shown a distance annotation (for example, “3.5 mi”) which shows the distance to a store where they can purchase the item.
+      Clicking on a local product in “see what’s in-store” will direct customers to a Google-hosted local storefront.
+    
+    
+      Basic
+      Clicking on a local inventory ad or a free local listing will redirect to a product landing page where customers can check the item’s availability at a store nearby.
+      Users will be shown the “in-store” annotation which communicates that the item is available for purchase at a store nearby.
+      Clicking on a local product in “see what’s in-store” will direct customers to a Google-hosted local storefront.
+    
+  
+
+
+
+  Note: You can select a landing page experience for your local inventory ads in Merchant Center. For free local listing, use the Contact Us form to request an eligibility review.
+
+
+Related links
+
+
+  Merchant hosted local storefront (full)
+  Merchant hosted local storefront (basic)
+
+             Was this helpful?How can we improve it?YesNoSubmit       

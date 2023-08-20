@@ -1,0 +1,37 @@
+ Set up your shipping for Buy on Google
+  Buy on Google for Search and Shopping will no longer be available starting September 26, 2023. Eligible merchants will be able to use Buy on Google for YouTube in the US. Learn more about Enabling Buy on Google for YouTube.
+
+
+
+
+
+
+
+Next: Opt your products in to Buy on Google
+
+This article explains how to configure your shipping settings for Buy on Google.
+
+Before you begin
+
+If you have a shipping service set up in Merchant Center, you can either reuse that service or create a new one just for Buy on Google.
+
+Important: When shipping internationally, Google isn’t the importer or exporter. Import and export are the responsibility of the merchant.
+
+Your return location can be in a country that is supported for business incorporation on Buy on Google.
+
+Shipping services for Buy on Google
+
+When customers purchase items through Buy on Google, Google will collect any related shipping fees based on your shipping configurations in Merchant Center. The shipping model you configure will be used to display an estimated delivery date and a shipping price to customers, so it's important to model services that reflect your offerings. Learn more about shipping policies for Buy on Google
+
+
+  Note: The shipping [shipping] attribute is not available for use with products on Buy on Google. Shipping price must be set up at the account-level in Merchant Center.
+
+
+
+
+
+
+  Need help? Click here to contact Buy on Google support.
+
+
+             Was this helpful?How can we improve it?YesNoSubmit       

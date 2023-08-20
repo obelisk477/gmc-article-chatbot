@@ -1,0 +1,51 @@
+ About the Google StoreBot crawler
+
+The Google StoreBot is a search-engine-based program that automatically “crawls” through web pages to gather and analyze data. Google uses crawlers that go through product pages and checkout processes, using machine learning algorithms to fill in forms with information such as shipping addresses, and help compile other information on price, shipping, payments, and more.
+
+On this page
+
+
+  How does Google access your site?
+  What information does Google extract?
+  How does Google use the information?
+  What if you need to correct or remove information extracted by the crawler?
+
+
+
+How does Google access your site?
+
+The Google StoreBot crawls through certain types of pages, including, but not limited to, product details pages, cart pages, and checkout pages. If you notice a user in your weblogs identified as “StoreBot-Google,” or a user with the first name “Google” and the last name “StoreBot” advancing through your checkout process without making a purchase, this is the crawler.
+
+
+What information does Google extract?
+
+The crawler tries to go through your entire checkout flow, from the product details page, to the cart page, and into the checkout page. It catalogs all relevant data from this process, including:
+
+
+  Shipping information
+  Local price
+  Promo codes
+  Final prices
+  Payment information
+  Online and local availability
+  Contact information
+  Return policies
+
+
+
+How does Google use the information?
+
+The information Google StoreBot gathers is used to enhance the user experience and increase the number of relevant customers who visit your page from Google. It allows Google to verify information you share through Merchant Center, and helps you keep your data more accurate and up-to-date.
+
+
+What if you need to correct or remove information extracted by the crawler?
+
+You can provide more accurate information by adding structured data to your pages as well as to Merchant Center, which takes precedence over what is extracted by the crawler. Allowing the crawler access to your pages is highly encouraged, but if you don't have a Google Merchant Center account and have a reason to prevent StoreBot-Google from crawling your data, you have a number of options.
+
+
+Related link
+
+
+  How to fix: Google StoreBot crawler can’t access your Merchant hosted local store front
+
+             Was this helpful?How can we improve it?YesNoSubmit       

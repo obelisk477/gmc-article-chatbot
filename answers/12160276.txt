@@ -1,0 +1,71 @@
+ I need help linking my Merchant Center and third-party application
+
+
+  
+    If you’re looking for information about linking your Merchant Center account to a third-party platform in the classic Merchant Center experience, click here. 
+  
+
+
+
+In this article:
+
+
+  Quick answers
+  Steps to link your accounts
+
+
+
+
+  
+    Quick answers
+
+    What do I do if I need support with my third-party application?
+
+    You can find answers for all Merchant Center actions in this Help Centre, otherwise, check your third-party application's support options for more help.
+  
+
+
+
+Link your accounts
+
+You may work with a third-party platform to show, promote or sell your products across Google. Linking your account will associate your Merchant Center account with an account that you manage on a third-party platform. This allows us to provide better services to you and your linked platforms.
+
+
+  It may be easier to initiate linking from your third-party application. Be sure to check out your options to decide what will work best for you. 
+
+
+
+  
+    
+      
+      Sign in to Merchant Center.
+    
+    
+      
+      From the business icon on the left menu, click the Apps tab.
+    
+    
+      
+      In the 'Third-party apps' section, click the Add third-party app button.
+    
+    
+      
+      Choose an app to link to your Merchant Center account, click Add and then follow the instructions.
+    
+    
+      
+      
+      Check the 'Status' column to see if your accounts have been successfully linked. You'll see 'Connected' in this column if your account has been successfully linked.
+
+      
+        Note: Make sure that you manage your account links carefully and that you remove any links if a third-party partnership ends. If you don't remove the link, your data may still be available to that third party.
+      
+      
+    
+  
+
+
+ 
+
+ 
+             Was this helpful?How can we improve it?YesNoSubmit       

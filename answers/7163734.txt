@@ -1,0 +1,57 @@
+ About Google Customer ReviewsGoogle Customer Reviews is a program that allows you to rate your purchase experience with our partners who participate in the program. The rating that you give in your review can help other shoppers make an informed decision to purchase.
+
+If you opt-in to receiving a survey from Google Customer Reviews, Google will email you a few days after your order has been delivered. It's important that you provide a review after your order has been delivered so that you can review your entire shopping experience. We will not send any other emails as a result of you opting in. The email contains a one-minute survey that looks like this:
+
+
+
+Illustrative Google Customer Reviews survey. For an example of survey text, see example survey invitation.
+
+Information collected by Google Customer Reviews
+
+To make sure Google sends you the survey at the right time, Google Customer Reviews receives the following information about your order after you opt-in:
+
+
+  
+    
+      Data
+      Description
+    
+  
+  
+    
+      Order ID
+      This ID is the unique order number for your purchase. Google uses it to connect your review with your order.
+    
+    
+      Your email
+      This email address is the one you provided when you opted-in to Google Customer Reviews at the completion of your purchase. The Google Customer Reviews survey will be sent to this address.
+    
+    
+      Google Account information
+      If you're logged in to a Google Account when opting-in, your Google Account information and associated identity.
+    
+    
+      Country
+      
+      The country name identifies where your order will be delivered. 
+      
+    
+    
+      Order delivery date
+      The order delivery date is the date the retailer expects your order will be delivered. Google Customer Reviews sends you a survey after your order has been delivered.
+    
+    
+      GTIN
+      GTIN is the Global Trade Item Number for products included in your order. This will identify which product the review data refers to.
+    
+  
+
+
+Associating your review with your Google Account
+
+If you’re signed in to your Google Account when you opt-in to receiving a survey, the review you provide for that survey will be associated with your Google Account. Your content will appear publicly in Google's Service across the web with your profile name and photo.
+
+Viewing and managing reviews associated with your account
+
+You can find all seller and product reviews you've contributed on your reviews page. From there, you can delete any or all reviews listed.
+      

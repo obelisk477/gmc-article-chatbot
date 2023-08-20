@@ -1,0 +1,8 @@
+ Remove product data from Merchant Center
+
+You can remove the contents of your Merchant Center account by removing your data feeds and your Website URL from the Settings page.
+
+Note: If after removing your Website URL, you'd like to register it in a new account, it may take up to an hour before you're able to do so. You will also need to verify and claim the website URL in the new account.
+
+You can also permanently delete your Google Account that's associated with Merchant Center. Learn more about deleting your Google Account
+             Was this helpful?How can we improve it?YesNoSubmit       

@@ -1,0 +1,140 @@
+ [GA4] Link your Merchant Center account and Google Analytics property
+
+
+  
+    Starting July 1, 2023, standard Universal Analytics properties will stop processing data (July 1, 2024 for UA 360 properties). It's critical that you migrate your Universal Analytics property to Google Analytics 4. Learn how to get started.
+  
+
+
+
+
+  Linking your Google Analytics property to your Merchant Center account allows you to access specific reporting or insights in Merchant Center and helps in improving your performance.
+
+  
+  Before you begin
+
+  
+    
+      Note: To link a Merchant center account to your Google Analytics account, you need to have editor access to your Google Analytics property and admin access to the Merchant center account. If you don't have any of those access levels, contact the account administrator to grant access or to link the accounts for you.
+      Learn more about [GA4] Access and data-restriction management.
+  
+
+
+
+Instructions
+
+Link an existing Google Analytics property with admin rights
+
+To link a Google Analytics property with admin rights, follow the steps outlined below.
+
+Steps to link an existing Google Analytics property with admin rights
+
+
+  
+    Sign into your Merchant Center account.
+    Click on the Settings icon , then under "Settings", click Conversion settings.
+    If you haven’t already enabled the "Auto-tagging" option, enable it to link to Google Analytics. Learn how to Set up auto-tagging in Merchant Center.
+    Click Add conversion source.
+    Select Google Analytics.
+    Choose the option Link existing property (it’ll be selected by default).
+      
+        Select the right property ID, then click Next.
+        Existing properties are linked individually, with a Terms of Service acceptance required for each linking.
+        Properties with Google Analytics Classic may be shown but must be upgraded to Google Analytics 4 to allow linking.
+      
+    
+    If you can’t find the property that you wish to link, choose “Request to link your existing property manually”.
+      
+        Enter a valid property ID.
+        The property will only be linked if it’s a Google Analytics 4 property and if you have admin rights on the Google Analytics account under which the property exists.
+      
+    
+    To accept the “Terms of Service”, review and click Accept.
+  
+
+  After you accept, you should see the linked property in the “Conversions settings” page.
+
+
+Create new Google Analytics property
+
+To create a new Google Analytics property, follow the steps outlined below.
+
+Create a new Google Analytics property if you already have a Google Analytics account
+
+
+  
+    Sign into your Merchant Center account.
+    Click the Tools icon , then under "Settings," click Conversion settings.
+    If you haven’t already enabled the "Auto-tagging" option, you’ll need to enable it to link to Google Analytics. Learn how to Set up auto-tagging in Merchant Center.
+    Click Add conversion source.
+    Select Google Analytics.
+    Select Create new property.
+    Click Next.
+    Under “Property details”, fill out the “Account name” and “Property name” fields.
+      
+        When there are more than 2 Google Analytics accounts available, choose only one.
+        When there’s only one existing account, the “Account name” stays the same and isn’t editable.
+        “Property name” defaults to Merchant Name and is editable.
+      
+    
+    (Optional) Click Show advanced settings.
+      
+        “Time Zone” and “Currency” defaults to Merchant Center settings.
+        “Data Stream” defaults to Web. Learn how to Set up Analytics for a website and/or app.
+        “Attribution Model” and “Conversion Window” are Google Analytics defaults and can't be edited from Merchant Center. Learn more about attribution settings.
+      
+    
+    Click Next.
+    To accept the “Terms of Service", review and click Accept.
+    Install the Google tag and event snippet in the code your page uses.
+      
+        Both instructions for web data stream and app data stream setup will be outlined on the screen.
+      
+    
+    Click Next.
+  
+
+
+Steps to create a new Google Analytics property if you don’t yet have a Google Analytics account
+
+
+  
+    
+      Sign in to your Merchant Center account.
+      Click the Tools icon , then under "Settings", click Conversion settings.
+      If you haven’t already enabled the "Auto-tagging" option, enable it to link to Google Analytics. Learn how to Set up auto-tagging in Merchant Center.
+      Click Add conversion source.
+      Select Google Analytics.
+      Select Create new property.
+      A Google Analytics property must be created under a Google Analytics account, so a Google Analytics account will be automatically created with the new property. You can edit the name of the account if you wish.
+      Enter your “Property name”.
+      (Optional) Click Show advanced settings to update time zone, currency, country and language settings for the account:
+        
+          “Time zone”, “language”, “country” and “currency” defaults to Merchant Center settings.
+          “Data Stream” defaults to Web. Learn how to Set up Analytics for a website and/or app.
+          “Attribution Model” and “Conversion Window” are Google Analytics defaults and can't be edited from Merchant Center. Learn more about attribution settings.
+        
+      
+      (Optional) Update data sharing settings from the Google Analytics default settings.
+      Click Next.
+      To accept the “Terms of Service”, review and click Accept.
+      Install the Google tag and event snippet in the code your page uses. Both instructions for web data stream and app data stream setup will be outlined on the screen. Learn how to Set up Analytics for a website and/or app.
+      Click Next.
+    
+
+    
+      Note: Click What’s next for additional information about how to verify that the tag has been set up correctly and what can be expected (for example, wait times, possible issues). You should see the newly created property under the “Conversions settings” page.
+    
+  
+
+
+
+  Related links
+
+  
+    About Shopping ads
+    Local inventory ads overview
+    About dynamic remarketing: show ads tailored to your site and app visitors
+  
+
+             Was this helpful?How can we improve it?YesNoSubmit       

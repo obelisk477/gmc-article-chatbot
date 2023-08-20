@@ -1,0 +1,97 @@
+ About the competitive visibility report
+
+The competitive visibility report helps you understand your competitive landscape on a product category level and take action to improve your visibility — based on displayed impressions from your Shopping ads and free listings.
+
+Watch this introductory video to learn more about your competitive visibility report and how it can help you take data-driven decisions to improve your performance.
+
+Google Merchant Center: Competitive visibility report (Extended Version)
+
+For subtitles in your language, turn on YouTube captions. Select the settings icon  at the bottom of the video player, then select "Subtitles/CC" and choose your language.
+
+
+
+
+Benefits
+
+The competitive visibility report will help you compare your visibility across Shopping ads and free listings based on displayed impressions on product-category level performance and allow you to understand:
+
+
+  Your consumer reach for Shopping ads and free listings — specifically and combined
+  Who your competitors are
+  How you compare against top merchants
+  How you stack-rank against competitors and top merchants over time
+
+
+
+  Keep in mind
+
+  The report will only provide a visibility ranking if there are a sufficient number of products displayed for a selected product category and time range.
+
+
+Descriptions of the metrics
+
+
+  Relative visibility
+
+  Relative visibility shows how often your competitors’ offers are shown compared to your offers. In other words, this is the number of displayed impressions of a competitor retailer divided by the number of your displayed impressions during a selected time range for a selected product category and country.
+
+
+
+  Page overlap rate
+
+  Page overlap rate describes how frequently competing retailers’ offers are shown together with your offers on the same page. In other words, this shows the number of times in which you and a competing merchant received an impression for at least one displayed offer divided by the number of times in which you received an impression for at least one offer.
+
+
+
+  Higher position rate
+
+  Higher position rate shows how often a competitor’s offer got placed in a higher position on the page than your offer. In other words, the number of times in which the competing merchant received an impression for at least one product in a higher position on the page than you, divided by the number of times in which you and a merchant appeared together on the same page.
+
+
+
+  Ads / free ratio
+
+  
+    Ads / free ratio shows how often a merchant receives impressions from Shopping ads compared to free listings. In other words, the number of times a merchant’s offer receives an Ads impression divided by the number of times this merchant’s offer receives a free impression aggregated in a selected category and time frame.
+  
+
+
+How to improve your visibility
+
+There are 3 ways you might improve your visibility in a selected product category:
+
+
+  Promote your visibility by setting up a dedicated Shopping ads campaign
+  Change your assortment using the best sellers report
+  Adjust product pricing using the price competitiveness report
+
+
+
+  Note: You need to have Market Insights enabled to view the best sellers and price competitiveness reports.
+
+
+How to find the report
+
+
+  Sign in to your Merchant Center account.
+  From the page menu, click Performance, then Competitive visibility.
+  There are two tabs you may want to review:
+    
+      Tab 1 displays the competitive visibility of your pre-selected competitors.
+      Tab 2 displays the aggregated competitive visibility of top performing merchants.
+    
+  
+
+
+Both reports can be filtered by product category, listing type, and time range.
+
+
+  Click the filter icon  above the table.
+  Select one of the filters that appears to see a list of conditions for new filters.
+  Enter the condition then click Apply. Both the table and the chart will update automatically based on your selection.
+
+
+
+  Note: If you’re interested in comparing the performance of your campaigns with other advertisers participating in the same auctions, consider visiting the auction insights report.
+
+             Was this helpful?How can we improve it?YesNoSubmit       

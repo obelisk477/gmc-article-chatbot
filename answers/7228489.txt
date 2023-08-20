@@ -1,0 +1,132 @@
+ Get more clicks with Opportunities
+
+Drive more traffic to your ads and free listings with Opportunities, a section of Merchant Center dedicated to helping you improve your feed and your campaigns. Opportunities shows you cards with customized recommendations based on your current Merchant Center product data and campaigns in Google Ads.
+
+This article explains how Opportunities works and how to use it.
+
+How Opportunities works
+
+Opportunities uses your account's performance history, your campaign settings, and trends across Google to automatically generate recommendations that could improve your performance. Opportunities is different from Diagnostics. Whereas Diagnostics shows you product offers that have received warnings or disapprovals, Opportunities shows you products that are likely to yield measurable traffic increases if you take action.
+
+Opportunities shows you which products to prioritize making changes to in order to show your ad or free listing to more people, or how to spend more efficiently in your campaigns. For example, you might see a card that estimates an additional 500 clicks if you add a missing image.
+
+Each card gives you estimated impact metrics and information for applying the opportunity. On every opportunity card, you’ll see:
+
+
+  Estimated increase in weekly clicks:This shows the number of additional weekly clicks the affected products could receive.
+
+
+
+  Weekly predicted click estimates are calculated using past performance of your affected products and similar products that are currently available on Google. A product may be considered similar if it has a matching GTIN, a related product title, a similar Google product category, or other similar identifying data. 
+
+
+
+  Estimated effort: The approximate amount of effort involved in addressing the opportunity. Some recommendations can take minutes to complete, others may take longer.
+  Depending on the type of opportunity, you’ll see either:
+    
+      Number of affected products: This is the number of products that could benefit from the opportunity, or are affected by the issue shown. Keep in mind that you can fix as few or as many as you like, but the estimated clicks and costs are based on the results of fixing all affected products.
+      Estimated cost impact: This is the cost impact of addressing the opportunity on the card. Your costs could fluctuate by this amount. 
+    
+  
+
+
+Keep in mind that the actual impact metrics may be different than the estimates because of changes in Google Ads campaign settings, budgets, bids, the market and auction, or seasonality. 
+
+When you click View opportunity on the card, you’ll see: 
+
+
+  A list of affected products or campaigns. For some opportunities, you’ll see a list of the top 15 affected products, including the estimated increase in weekly clicks per product after you fix the issue. For others, you’ll see a list of affected campaigns. 
+  Date the opportunity was generated: You can see how long ago the opportunity was updated, down to the hour. 
+
+
+The cards you see are updated several times per day. If you don't see any cards, there may not be enough information to surface an opportunity at that time, or there may not be any problems with your product data. If there aren’t any opportunities available, check back soon. 
+
+
+  
+    Opportunities for multi-client accounts
+    Opportunities are also available for multi-client accounts (MCAs). The Opportunities page in your MCA will show the aggregate effect of acting on the opportunity. Click the card to see the number of affected sub-accounts and their names. From there, you may click either the merchant or campaign to view the opportunity in the relevant sub-account.
+
+
+Available cards
+
+
+  Product data opportunities
+
+  
+    
+      Product data cards give you insight into missing or incorrect product data. Fixing these issues helps make your data more accurate, and helps Google show your product more often. You may see opportunities like:
+
+      
+        Missing GTIN or ISBN: Add a GTIN or ISBN to help identify your product and keep your products approved. 
+        Mismatched price: Match the prices in your product data and on your landing page to keep your products approved. 
+        Missing gender: Add gender information so we can show your product to the right audience. 
+        Missing age group: Add age group information to help us better target your products.
+      
+    
+  
+
+
+
+  Campaign recommendations
+
+  
+    
+      You may also see recommendations that also appear in the Recommendations page of your Google Ads account. These recommendations are related to your bids and budget, and can help you get more impressions and clicks. Here are some examples:
+
+      
+        Bid lowering: Get more clicks for the same or lower cost on budget limited campaigns. 
+        Budget raising: Show your ads more often and get more clicks. 
+      
+
+      Keep in mind there is some latency between Google Ads and Merchant Center, so the recommendation may not update immediately. However, you can see when the recommendation was last updated. Learn more about Recommendations in Google Ads
+    
+  
+
+
+Find the Opportunities page
+
+
+  Sign in to your Merchant Center account.
+  Select Growth from the navigation menu, then click Opportunities. 
+  You'll see all available Opportunities for your account in the Home section. 
+
+
+On the Opportunities home page, you’ll see the top 8 opportunities currently available for your account. If you’d like to see additional opportunities, click the “Show more” button at the bottom of the page. 
+
+Use Opportunities
+
+Apply an opportunity
+
+For data quality opportunities:
+
+
+  On the card, click View opportunity. The card will show the top 15 items, and you may also click the Download as CSV button to see a list of the top 1000 affected items. 
+  Update your product data as necessary.
+
+
+For campaign opportunities:
+
+
+  On the card, click View opportunity. In the table, find the affected campaign you’d like to adjust, and then click View in Google Ads. 
+  Make the adjustments in your Google Ads account.
+
+
+
+  
+    If you don’t have access to the affected campaigns, sensitive data such as cost and campaign name won’t appear. 
+  
+
+
+Archive an opportunity
+You know your products and goals best. If a card doesn't seem relevant to you or appropriate for your goals, you can move it to your archive. Select Growth from the navigation menu, then click Opportunities and choose the option that fits your needs. 
+
+
+  Move to my archive: This card will be moved to the Archive section of your Opportunities page. You can always move this back to the home page when you're ready to address it. 
+  Move to my archive until impact reaches a higher number of clicks: You’ll be interested in this card when it has a bigger impact. The card will reappear when the potential impact is around double the number of clicks the card shows at the time that you move it to the archive.
+  Report an error:  Let us know whether or not this card is useful to you, and why. 
+
+
+In the Archive tab, you’ll be able to see the reason you’ve selected for moving the card out of your home page. If you change your mind, click Move to home. 
+
+All users on a single Merchant Center account will be able to see the same opportunities, but archiving is personalized to your user account, so you may Archive opportunities without removing them from other users’ home pages. 
+             Was this helpful?How can we improve it?YesNoSubmit       

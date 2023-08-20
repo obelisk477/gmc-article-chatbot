@@ -1,0 +1,118 @@
+ Best practices for business-to-business (B2B) advertising
+
+The Shopping ads program is designed with individuals in mind and doesn't include a dedicated business-to-business experience. However, we recognize that businesses often turn to Google to find supplies, and as a result, companies selling to businesses have a lot of success advertising their products on Google.
+
+This article provides recommendations on how to optimize your account and product data to reach both businesses and individuals successfully.
+
+On this page
+
+
+  In your feed, submit the highest price someone could pay
+  Make your landing page clear
+  Allow everyone to checkout
+  Submit the highest shipping cost someone could pay
+
+
+
+
+In your feed, submit the highest price someone could pay
+
+Both individuals and businesses will be able to search for your products. So even if the majority of your customers don't usually pay value-added tax (VAT), you must still tell all customers the highest price they could pay, including VAT if it's required for the country you're targeting.
+
+To make sure your product's price is clear, your product feed should follow these recommendations:
+
+
+  Depending on the targeted country, include any tax in the price. For most countries, this means that you need to submit the gross price of your product, which is the price including VAT. This policy does vary depending on the country you're targeting.
+  The gross price in the feed must match the price on your landing page and the checkout pages on your website. Make sure that the price you submit with the price [price] attribute matches the gross price on your landing page and the checkout pages on your website. Learn more about landing page requirements
+  Submit the total price for the minimum number of items sold. Submit the total price an individual would pay when purchasing the minimum amount of items, for example, if your product is sold in bulk.
+  For certain product categories, you may submit a unit price. Learn more about the unit pricing measure [unit_pricing_measure] attribute
+  Include the prepackaged measurements of an item if applicable. For products that rely on unit pricing, you may need to include measurements such as prepackaged weight or volume. You can include per unit (US only) or per quantity information (US, EU, and Switzerland only) using the unit pricing measure [unit_pricing_measure] attribute. Keep in mind that you must also use the unit pricing base measure [unit_pricing_base_measure] attribute. Learn more about the unit pricing base measure [unit_pricing_base_measure] attribute
+
+
+ 
+
+Make your landing page clear
+
+Build your landing page to serve both business and individual customers by following these recommendations:
+
+
+  Include a clear return and refund policy on your landing page. Your customers should be able to easily find your return and refund policy. Include a prominent link to the policies on your landing page. The policy should also be easy for your customers to understand. Learn more about misrepresentation of self or product policy 
+  Prominently show the gross price, including the value-added tax (VAT), if legally required for the country you're targeting. On your landing page, display the gross price, which is the price including the VAT, more prominently than any other price on the page. Keep in mind that this price should match the price submitted in the data feed.
+    
+      For example, to display the gross price more prominently, you can display it above or to the left of the net price. You might also use a larger font size and weight. If this isn't the price that businesses will pay, then call out the gross price as the "price for individuals." Learn more about the price [price] attribute
+    
+  
+  (Optional) Show the net price, excluding VAT. If you also need to show the net price, which is the price excluding VAT, then make sure that the net price is less prominent than the gross price. For example, you might use a smaller font size and weight to display the net price.
+  Use microdata to indicate the gross price. To make sure that Google can accurately find the price on your landing page, use microdata to indicate which price on the page is the price you submitted to Google. Typically, this is your gross price, but remember that these prices must match. To indicate the price, mark it up with: itemprop='price'. Learn more about using microdata
+
+
+Learn more about landing page requirements
+
+
+
+
+Allow everyone to checkout
+
+Here are recommendations for your checkout process to meet the needs of both businesses and individuals:
+
+
+  Make your checkout process secure. To protect all of your possible customers, you'll need a secure checkout process that is protected with a valid SSL certificate. Specifically, you'll need to secure payment processing, transaction processing, and all personal information.
+  Tell customers about minimum order values. If you require a minimum order value, set it in your shipping settings. For example, if you require that customers order products for at least 30 EUR on your website, add a corresponding minimum order value to your shipping settings.
+  Allow individuals to purchase products. Individuals who are not part of a business need to be able to purchase from your website. For example, business-related fields such as company name or ID number should be optional. Learn more about the abuse of the network policy
+
+
+
+  Tip
+
+  If you still need to require certain fields for businesses, then we recommend that you create 2 checkout flows: 1 for individuals and 1 for businesses. For example, have customers select "Individual" or "Business" from a menu, and then hide the business-related fields from the individual.
+
+  Here are some common company ID numbers that individuals won't have: BTW-Nummer, Numero de TVA, Registro Federal de Contribuyentes, SIREN, SIRET, Umsatzsteuer-Identifikationsnummer, and VAT Reg Number.
+
+
+ 
+
+Submit the highest shipping cost someone could pay
+
+Accurate shipping cost is critical for both individuals and businesses when making a purchase, so optimize the shipping information you provide by following these recommendations:
+
+
+  Provide the shipping cost when targeting these countries. Customers will be able to see the shipping cost in your ads when they search on Google in these countries:
+
+    
+      Australia
+      Austria
+      Belgium
+      Czechia
+      France
+      Germany
+      Ireland
+      Israel
+      Italy
+      Netherlands
+      Poland
+      South Korea
+      Spain
+      Switzerland
+      United Kingdom
+      United States
+    
+  
+  Provide direct-to-individual rates. Provide the shipping rate that you charge individuals, rather than the rate that you charge businesses.
+  Deliver to a user’s address within the target country. Make sure that your products are available for purchase everywhere within the target country and you deliver to a user’s home address. There are a few exceptions to this requirement:
+    
+      In the United States, Australia and Japan you can specify that you deliver only to specific regions or postal codes. In all other countries, you must provide shipping to the user’s address in the entire target country.
+      In Sweden, Norway and Finland we allow shipping to a collection point for specific country based carriers. Learn more about the shipping [shipping] attribute
+      In Chile and Argentina we allow delivery to collection points or store pickup. Learn more about the shipping [shipping] attribute
+    
+  
+  Include handling and insurance fees. If you charge additional fees such as a service fee, handling and insurance, then include those fees in your shipping cost.
+  Overestimate costs if necessary. If you can't get an accurate shipping cost, then provide an overestimated cost based on the average cost individuals visiting your site from Shopping ads would pay.
+  Collect the appropriate amount of tax and shipping. No matter what tax and shipping amount you provide to Google, you're still responsible for collecting the appropriate amount of tax and shipping costs from your customers.
+
+
+
+  Note: For the state of Colorado, don’t include any retail delivery fee in your product feed. Therefore, a retail delivery fee shouldn’t be included in shipping [shipping], price [price], tax [tax], or any other attribute. Learn more about Colorado retail delivery fee.
+
+
+
+             Was this helpful?How can we improve it?YesNoSubmit       

@@ -1,0 +1,92 @@
+ About currency conversion
+
+Currency conversion can help you expand the reach of your products to more countries. This may be especially valuable to you if you sell and ship products to multiple countries, but your website doesn’t have different product pages for each country’s currency. Currency conversion is automatically enabled in all Merchant Center accounts. Just submit the products and prices you use on your website, and the tool will estimate the currency conversion in the ads for you.
+
+
+  Currency conversion is currently unavailable in South Korea.
+
+
+This article covers how currency conversion works.
+
+On this page
+
+
+  Benefits
+  How it works
+  Policy and requirements
+  Compatibility
+  Available features
+
+
+
+Benefits
+
+
+  Automatically show ads for your products in another country without making changes to your website. If you don’t support the target country currency, currency conversion may help you broaden your reach.
+
+
+
+How it works
+
+Currency conversion automatically converts the price in your product data to the currency of the new target country and displays both prices in your ads and free product listings. This makes your ads and listings understandable to users in other countries while allowing you to continue using your existing website and landing pages with minimal changes.
+
+If you provide prices in a currency different from the currency of the target country in your campaign, the prices will automatically be converted and shown in the local currency.
+
+The converted price estimate shown in your ad or listing is based on exchange rates from Google Finance.
+
+While your currency will be converted in your ads and listings, to target a new country, you’ll still need to meet the language requirements for that country. Keep in mind that you'll also need to update your shipping to match shipping requirements for your target country.
+
+Since your website charges in your existing currency, the final purchase price for the user depends on the exchange rates used by the user's credit card or other payment service provider. This means that the estimate and the final purchase price may be different. Make sure to clearly indicate the price in the original currency throughout your landing pages and website.
+
+
+  Example
+
+  
+    Matilda's store is based in the US, and her website shows prices for her products in USD. She uses Shopping ads to advertise in the US, so the prices in her product data are in USD. She also sells and ships to Canada, but her website doesn't show prices in CAD.
+
+    But with currency conversion, Matilda can use her US product data and landing pages, which show prices in USD, to advertise in Canada. After she submits the product data, she creates a new Shopping campaign in her Google Ads account. She now has 2 campaigns, one for the US and one for Canada, and she's using the same landing pages and essentially the same product data to do it.
+
+    In Matilda's Canada campaign, her ads show product prices in CAD, with USD listed secondarily. These converted prices help potential customers in Canada understand the product and price in their own, familiar currency. When a user clicks an ad, they see Matilda's landing page with the price in USD and can complete the checkout process clearly informed about the cost in their own currency.
+
+    
+  
+
+
+
+Policy and requirements
+
+Since users see your ads and free listings with a different currency than their own, they may assume that they’re making purchases from a merchant in a different country. To make sure the experience is consistent, you must follow the price and tax requirements of the country that the currency in your product data is local to.
+
+For example, if your product data is submitted in USD and your website charges in USD you must follow the price and tax requirements of the United States. For all other requirements, follow the requirements of the local country.
+
+
+Compatibility
+
+ You can use currency conversion with these features of Merchant Center and Google Ads.
+
+
+  
+    
+      
+      Available features
+      
+    
+  
+  
+    
+      Shopping ads. Learn more about Shopping ads.
+    
+    
+      Display campaigns. Learn more About dynamic remarketing for retail.
+    
+  
+
+
+Related link
+
+
+  Submit feeds to multiple countries
+
+
+
+             Was this helpful?How can we improve it?YesNoSubmit       

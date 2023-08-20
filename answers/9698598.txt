@@ -1,0 +1,92 @@
+ Add catalog products to Buy on Google using a GTIN (beta)
+  Buy on Google for Search and Shopping will no longer be available starting September 26, 2023. Eligible merchants will be able to use Buy on Google for YouTube in the US. Learn more about Enabling Buy on Google for YouTube.
+
+
+
+
+
+This beta program allows you to onboard your inventory to Buy on Google by matching and adopting product data from Google’s catalog - without entering your own rich product data or feed.
+
+How it works
+
+Google has a catalog of products with product data available, so if you sell the same products, you can adopt that data rather than creating brand new or unique data. We organize and surface these products using unique product identifiers, or UPIs, so you can find your products by entering your product’s GTIN, UPC, EAN, JAN, or ISBN and customizing price, availability, tax, and shipping settings. Learn more about unique product identifiers
+
+Ads and free listings for products submitted individually:
+
+
+  Are only available for Buy on Google
+  Cannot be combined with inventory feeds
+  Do not have an expiration date unless explicitly removed (unlike feed offers that expire in 30 days)
+  Cannot be affected by feed rules
+  Multi-client accounts are not eligible to use individual product data uploads.
+
+
+Before you begin
+
+We recommend that you set up your tax and shipping settings before entering your products. You can toggle between basic and advanced. We recommend you set up tax and shipping settings at the account level.
+
+Instructions
+
+
+  Sign in to your Merchant Center account.
+  From the navigation panel, click Products and then All products.
+  Click the plus button .
+  Select the “Add catalog product” tab.
+  Enter the GTIN or other UPI for your product, and click Search catalog.
+
+
+
+  Note: Your target country and destinations data will be pre-filled and you won’t be able to edit it.
+
+
+
+  Click either Yes, this is my product or No, search again. You can also provide feedback on the catalog data by clicking Send feedback.
+  Once you have the right product, enter your price and availability information. You can toggle between basic and advanced. Learn more about advanced price and availability settings
+  Click Save.
+
+
+Your product will be reviewed and should appear after several minutes. If your item doesn’t comply with Shopping ads policies and Buy on Google policies, or the Shopping ads product data specification and Buy on Google product data specification, it will be reported in Diagnostics in your Merchant Center account.
+
+To edit a catalog product
+
+
+  Log in to your Merchant Center account.
+  Select Products from the navigation menu, then click All products.
+  Click the pencil icon  on the product you’d like to edit.
+  Click Save.
+
+
+
+  Note: Only merchant provided data can be edited.
+
+
+If there are issues with your catalog-based offer, you can send feedback following this steps:
+
+
+  Sign in to your Merchant Center account.
+  From the page menu, click Products and then All products.
+  Open the relevant “Product details” page.
+  Click Send feedback.
+  Fill in the form with relevant information.
+
+
+Keep in mind: In order to continually improve the catalog, the product data is subject to change at any time. This means you cannot manually edit product data of catalog-based offers. You can only update inventory data such as price and availability. If you want to be able to edit your product data, you should submit a separate offer providing the full product data. Learn more
+
+
+  
+    About advanced price and availability settings
+
+    If you choose, you can add the following advanced price and availability information for each of the products you select:
+
+    
+      The quantity you have available to sell on Google
+      A sale price, and its effective date
+      The unit pricing measure or unit pricing base measure
+      A purchase quantity limit
+      Any product fee amounts and their types
+    
+
+    To access these features, you’ll need to toggle from “Basic” to “Advanced.”
+  
+
+             Was this helpful?How can we improve it?YesNoSubmit       

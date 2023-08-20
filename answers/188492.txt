@@ -1,0 +1,39 @@
+ Track your product performance
+
+You can track traffic by viewing the performance reporting section of your Merchant Center account. This reporting is available for Shopping ads, free listings, and Buy on Google. For a more detailed view of the performance of your products on Shopping ads, please review the features available in your Google Ads account.
+
+If you wish to track clicks using cross-domain redirects, keep in mind that this can be done only for Shopping ads or free listings that use Google Ads tracking templates.
+
+If you wish to track clicks using a third-party or proprietary web analytics tool (for example, Google Analytics), you can set up tracking on your website or application. Clicks from the products in your Merchant Center account will then automatically show up in these tools. You may want to verify that the split between Google Ads traffic and free listings traffic is reported accurately.
+
+Options for tracking
+
+Option 1: Use Google Ads for tracking paid clicks and Merchant Center for unpaid clicks (recommended)
+
+
+  Use Google Ads tracking templates with a final URL suffix or auto-tagging. If you’re using Google Analytics, then this will segment the traffic from Google Ads so that the source is shown as “google” and the medium as “cpc” in Google Analytics. Learn more about tracking in Google Ads
+  Use Merchant Center auto-tagging for free listings traffic. Traffic from free listings is shown as “Shopping free listings” in the source platform dimension in Google Analytics 4. Traffic from free listings is shown as the source “google” and the medium as “organic” in Google Analytics. Learn more about traffic sources in Google Analytics
+
+
+
+  
+    You should set up conversion tracking codes correctly on your website or app and specify link [link] and mobile link [mobile_link] attributes in your feeds in Merchant Center. We recommend that you verify your analytics tools reporting data with Merchant Center performance reporting.
+  
+
+
+Option 2: Use separate URLs in Merchant Center feeds, by using the ads redirect, link, mobile link, and canonical link attributes
+
+
+  Use the ads redirect [ads_redirect] attribute in your product data for landing page URLs intended for Shopping ads. Keep in mind that this attribute will override the link [link] or mobile link [mobile_link] attributes for Shopping ads traffic. You can use the {ifmobile} ValueTrack parameter in this attribute to provide specific landing pages for mobile ads. This can be set up in addition to Google Ads tracking templates and auto-tagging.
+    
+    Example: “https://www.example.com/product123.html?utm_source=feed&utm_medium=cpc”
+     
+  Use the link [link] or mobile link [mobile_link] attributes for landing page URLs intended for unpaid traffic (such as traffic from free listings and local free listings). If you intend to add tracking parameters, we recommend using separate tracking parameters for ads and free listings.
+    
+    Example: “https://www.example.com/product123.html?utm_source=feed&utm_medium=free”
+     
+  If you use tracking parameters in your link [link] or mobile link [mobile_link] attributes, we recommend that you use the Google Search index [canonical_link] attribute to ensure that products are associated with the correct URL in the Google Search index. The URL in this attribute is not served to customers; however, it will improve Google’s understanding about the product.
+
+
+
+             Was this helpful?How can we improve it?YesNoSubmit       

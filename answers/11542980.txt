@@ -1,0 +1,45 @@
+ Set up automated discounts (for Shopify and WooCommerce merchants)
+
+We’re launching a new beta feature for Shopify and WooCommerce merchants called automated discounts to help retailers effectively price their products with the goal of driving incremental profit.
+
+Retailers in the feature’s beta release allow Google to help them discount their product prices based on multiple real-time signals. Merchants then apply this price on their website for Shopping ads traffic.
+
+
+  Note: Merchants not using Shopify or WooCommerce follow a different process for setting up automated discounts. Learn how to Set up automated discounts.
+
+
+Benefits
+
+Automated discounts allow you to effectively price products in Shopping ads on Google. Our goal is to help you drive more conversions and profit.
+
+
+  Customize pricing: Find the optimum product discount or promotion across Shopping ads and your site’s product landing pages with the help of Google’s high-scale models.
+  Save time: Automated, real-time price optimization saves time, effort, and cost.
+
+
+Eligibility and requirements
+
+To participate in the beta, you need to have an aggregated minimum of 1,000 product clicks (per week) at the merchant-level.
+
+How to participate in the beta
+
+Merchants
+
+Sign up for automated discounts
+
+When you sign up for automated discounts, you can choose a channel partner that can help you with setup during the beta. Here are the channel partners that you can choose from:
+
+
+  emarketing
+  Cloud Seller Pro
+  ShoppingFeeder
+  Simprosys
+  SweetCode
+
+
+Channel partners
+
+If you’re not currently participating in the beta and want to help merchants set up automated discounts for their stores, select the link below.
+
+Sign up to offer support for automated discounts
+             Was this helpful?How can we improve it?YesNoSubmit       

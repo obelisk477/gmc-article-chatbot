@@ -1,0 +1,75 @@
+ I want to delete my Merchant Center account
+
+
+  If you’re looking for information about deleting your Merchant Center account in the classic Merchant Center experience, click here.
+
+
+
+On this page
+
+
+  Quick answers
+  Before you begin
+  How to delete your account
+
+
+
+  
+    Quick answers
+
+    Do I need a certain level of access to delete my account? 
+      Yes, an admin user will need to delete your Merchant Center account.
+
+    If I delete my account, may I create a different account for my business?
+      Yes, you may create a new Merchant Center account at any time.
+  
+
+
+
+  Keep in mind that deleting your Merchant Center account is different from removing your Merchant Center account access, canceling your Google Ads account, or deleting your Google Account.
+
+
+
+Before you begin
+
+When you delete your account, your access to all data and transactions will be disabled. So, before deleting your account:
+
+
+  Download any product data, reports, or other assets you'd like to retain
+  Process or cancel any active transactions
+
+
+What happens when the account is deleted
+
+When you delete your Merchant Center account, you’ll immediately lose all access to the account, your products will be disapproved, and your Shopping ads and free product listings will stop showing. Any other products you have linked to this account will no longer be linked.
+
+All users on the account will be notified via email that the account has been deleted. All users will lose access to the account immediately. Shopping ads and other Merchant Center features will be deactivated within 48 hours.
+
+
+How to delete your account
+
+
+  
+    
+      
+      Sign in to Merchant Center
+    
+    
+      
+      Click the tools and settings icon , then select Account settings under “Settings”.
+    
+    
+      
+      Select Delete account.
+    
+    
+      
+      Review the disclaimer.
+    
+    
+      
+      Click Delete account.
+    
+  
+
+             Was this helpful?How can we improve it?YesNoSubmit       

@@ -1,0 +1,55 @@
+ Change your Merchant Center email preferences
+
+You can adjust the types of emails each user of a Merchant Center account will receive. You can choose from mandatory service announcements, news and tips, surveys and pilots, opportunities, product data alerts, orders, returns, and reports. Depending on account access level, there are a few options for making these changes. 
+
+Change your preferences in Merchant Center (Admin and Standard users only) 
+
+Admin and Standard users can change their own email preferences directly in Merchant Center using these steps: 
+
+
+   Sign in to your Merchant Center account.
+  Click the tools icon , then select Preferences under “Settings.”
+  Under “Email notifications,” toggle the switch for which types of Merchant Center emails you’d like to receive.
+  Click Save.
+
+
+
+  Note: All Admin users are automatically opted-in into mandatory service announcements and cannot opt out.  
+
+
+Change your preferences from Merchant Center emails (all users and email contacts)
+
+All users can change their email preferences from a Merchant Center email you’ve received using these steps:
+
+
+  From any Merchant Center email that you’ve received, click the opt-out or unsubscribe link.
+  Check the boxes for each message type you’d like to unsubscribe from or start receiving.
+  If you’d like to opt out of all messages, click Unsubscribe all.
+
+
+Change preferences for others (Admin users)
+
+
+  Sign in to your Merchant Center account.
+  Click the tools icon , then select Account access under “Settings.”
+  Under “Users” or “Email contacts,” select the email address whose preferences you want to change.
+  Under “Email notifications,” toggle the switch for which types of Merchant Center emails will be sent.
+  Click Save.
+
+
+
+  Tip
+
+  Admin users can adjust their own preferences from either the Account access page or the Preferences page.  
+
+
+Related links
+
+
+  
+    User access for Merchant Center
+  
+
+
+ 
+             Was this helpful?How can we improve it?YesNoSubmit       

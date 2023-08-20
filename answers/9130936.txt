@@ -1,0 +1,263 @@
+ Order feed specification
+
+This article explains the data specifications you’ll need to follow to upload order feeds in Merchant Center.
+
+About order feed formatting
+
+
+  Order feeds contain actions that represent order status changes. For example, shipping or cancelling an order.
+  Create your feed in a delimited format where the first row contains the attribute name of each column. Each line after must define an action performed on one particular line item of an order.
+  Use English for the name of the attribute and supported attributes values. For example, the action [action] attribute may have the supported value “shipped”. We recommend using the language of the target country for any attribute value without a supported value, for example, cancellation reason text [cancellation_reason_text].
+  Use an underscore within an attribute name. For example: cancellation_reason.
+
+
+Summary of attribute requirements
+
+
+  
+    
+      Attribute name
+      Requirement
+    
+  
+  
+    
+      Action [action]
+      Required Must be set to shipped [shipped] or cancelled [cancelled]. Must be provided in English
+    
+    
+      Google order ID [google_order_id]
+      Required for all actions.
+    
+    
+      Line item ID [line_item_id]
+      Required for all actions.
+    
+    
+      Quantity [quantity]
+      Required for all actions.
+    
+    
+      Shipment timestamp [shipment_timestamp]
+      May be provided when the action is shipped.
+    
+    
+      Carrier [carrier]
+      May be provided when the action is shipped.
+    
+    
+      Tracking ID [tracking_id]
+      May be provided when the action is shipped.
+    
+    
+      Cancellation reason [cancellation_reason]
+      Required when the action is cancelled.
+    
+    
+      Cancellation reason text [cancellation_reason_text]
+      May be provided when the action is cancelled.
+    
+    
+      Action ID [action_id]
+      Required when performing the same action multiple times on the same line item.
+    
+  
+
+
+Attribute requirements
+
+
+  
+    
+      
+        Attribute name
+        Format
+      
+      
+        Action [action]
+        
+        Required
+
+        The action performed on the line item.
+
+        Supported values:
+
+        
+          shipped
+          cancelled
+        
+
+        Must be provided in English
+        
+      
+      
+        Google order ID [google_order_id]
+        
+        Required
+
+        The ID of the order, as found in the order list in Merchant Center or the CSV file you downloaded. Example TEST-1234-56-7890
+        
+      
+      
+        Line item ID [line_item_id]
+        
+        Required
+
+        The ID of the line item, as found in the CSV file you downloaded. Example MO52PDSQZ4KCZEYE
+        
+      
+      
+        Quantity [quantity]
+        
+        Required
+
+        The quantity of the line item that is to be marked as shipped or cancelled in this action.
+
+        Syntax
+
+        
+          A positive integer
+        
+        
+      
+      
+        Shipment timestamp [shipment_timestamp]
+        
+        Optional when the action is shipped [shipped].
+
+        The time when the line item was shipped. Must be specified at least to the nearest hour and include a time zone. For example:
+
+        2016-07-11T11:07:31-08 (for Pacific Standard Time, PST) 2016-07-11T11:07:31-07 (for Pacific Daylight Time, PDT) 2016-07-11T11:07:31-05 (for Eastern Standard Time, EST) 2016-07-11T11:07:31-04 (for Eastern Daylight Time, EDT) 2016-07-11T11:07:31+01 (for Central European Time, CET) 2016-07-11T11:07:31Z (for UTC)
+
+        Syntax
+
+        
+          Max 25 alphanumeric characters
+          A subset of ISO 8601
+            
+              YYYY-MM-DDThhZ
+              YYYY-MM-DDThh±hh
+              YYYY-MM-DDThh±hhmm
+              YYYY-MM-DDThh±hh:mm
+              YYYY-MM-DDThh:mmZ
+              YYYY-MM-DDThh:mm±hh
+              YYYY-MM-DDThh:mm±hhmm
+              YYYY-MM-DDThh:mm±hh:mm
+              YYYY-MM-DDThh:mm:ssZ
+              YYYY-MM-DDThh:mm:ss±hh
+              YYYY-MM-DDThh:mm:ss±hhmm
+              YYYY-MM-DDThh:mm:ss±hh:mm
+            
+          
+        
+        
+      
+      
+        Carrier [carrier]
+        
+        Optional when the action is shipped [shipped].
+
+        The carrier used to ship the line item.
+
+        Supported values:
+
+        
+          cxt
+          deliv
+          dhl
+          dynamex
+          ecourier
+          efw
+          emsy
+          fedex
+          google
+          gsx
+          lasership
+          mpx
+          ont
+          ontrac
+          uds
+          ups
+          usps
+        
+        Keep in mind: It’s highly recommended to implement the carrier [carrier] and tracking ID [tracking_id] attributes to provide the best customer experience and prevent your Retailer Standards score from being affected.
+      
+      
+        Tracking ID [tracking_id]
+        
+        Optional when the action is shipped [shipped].
+
+        The carrier's tracking ID for the shipment that contains the line item.
+
+        Syntax
+
+        
+          Max 50 characters
+        
+
+        Keep in mind: It’s highly recommended to implement the carrier [carrier] and tracking ID [tracking_id] attributes to provide the best customer experience and prevent your Retailer Standards score from being affected.
+        
+      
+      
+        Cancellation reason [cancellation_reason]
+        
+        Required when the action is cancelled [cancelled].
+
+        The fixed value from the list below that best describes the reason why the line item is being cancelled.
+
+        Supported values:
+
+        
+          customer_initiated_cancel
+          invalid_coupon
+          malformed_shipping_address
+          no_inventory
+          other
+          price_error
+          shipping_price_error
+          tax_error
+          undeliverable_shipping_address
+          unsupported_po_box_address
+        
+
+        Values must be submitted in English
+        
+      
+      
+        
+        Cancellation reason text [cancellation_reason_text]
+        
+        
+        Optional when the action is set to cancelled.
+
+        Free-form text to describe the cancellation reason in more detail.
+
+        Syntax
+
+        
+          Max 500 characters
+        
+        
+      
+      
+        Action ID [action_id]
+        
+        Optional
+
+        Not needed the first time the action is performed on the given line item.
+
+        Required when performing the same action multiple times on the same line item. For example, when shipping a line item partially, a unique action ID of your choice must be provided for each but the first action.
+
+        Syntax
+
+        
+          Max 15 characters, case-sensitive
+        
+
+        Note: This is to guarantee that a given action is not performed more than once by mistake.
+        
+      
+    
+  
+
+             Was this helpful?How can we improve it?YesNoSubmit       

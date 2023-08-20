@@ -1,0 +1,109 @@
+ Automatically adjust your product pricing on Buy on Google
+  Buy on Google for Search and Shopping will no longer be available starting September 26, 2023. Eligible merchants will be able to use Buy on Google for YouTube in the US. Learn more about Enabling Buy on Google for YouTube.
+
+
+
+
+
+ 
+
+Use the Buy on Google pricing rules tool to help you manage the prices of your Buy on Google items. Automatically adjusting your prices may help you to compete—driving visibility and sales.
+
+Google Ads Help: Competitive offers on Buy on Google | Pricing rules
+
+For subtitles in your language, turn on YouTube captions. Select the settings icon  at the bottom of the video player, then select "Subtitles/CC" and choose your language.
+
+
+
+
+ 
+
+How it works
+
+This tool will allow you to automatically lower the prices of your products from their regular price based on rules you set in your Merchant Center account. You’ll create rules based on certain goals, then you’ll determine which offers the rule will apply to (a product category or a subset based on shipping options) and set boundaries for the price adjustments. Any adjustments to your prices will persist for some time.
+
+Instructions
+
+Create a new rule in Merchant Center
+
+First, you’ll need to create and manage your pricing rules.
+
+
+  Sign in to your Merchant Center account.
+  From the page menu, click Marketing, then Pricing Rules.
+  To create a new rule, click the plus button  .
+
+
+
+
+In this section, you’ll also be able to see all the rules you’ve previously created, their status, and other rule details.
+
+
+
+
+  
+    The following rule types are available:
+
+    
+      Buy box winning: This rule will allow you to reduce the price of your offer by a maximum value or percentage, which may help you win the buy box. Keep in mind: “Winning the buy box” means that you’re the default merchant for a product when customers add the product to their cart. For instance, buy boxes are displayed in search results and on the product detail page.
+      Lowest price: This rule sets the price of your offer to the lowest price for the product on Buy on Google.
+      Cost of goods sold: This rule will allow you to set the price of your offer to a certain percentage or absolute dollar amount above your cost of goods sold. The cost of goods sold amount is determined by the cost of goods sold [cost_of_goods_sold] (COGS) attribute in your feed.
+      Top merchants: This rule allows you to set your price relative to the lowest price among top merchants for this product. You can set your price to be a percentage or absolute amount above or below that price.
+      Sales volume: This rule allows you to set your price based on the amount of sales you've had recently. You'll define one or more conditions in this rule. Each condition will consist of a range of sales (how many items of this product were ordered), a time period, and a price change. If the number of sales was in that range during your chosen time period, the price change will be applied. For example, you might define a condition that's the equivalent of "If the sales are between 0 and 10 units sold in the last 7 days, drop the price by 20%". You could have another condition in the rule that says, "If the sales are between 11 and 20 units sold in the last 7 days, drop the price by 10%". This gives you flexibility to adapt the price based on the sales. Note that the price change is always relative to the price in your feed.
+    
+  
+
+
+Use the repricing_rule_id attribute
+
+If you choose to add products to the new rule using a rule ID, you can use the repricing rule ID [repricing_rule_id] attribute in a supplemental feed. And if the rule requires a minimum price, set the minimum price for each offer using the auto pricing minimum price [auto_pricing_min_price] attribute.
+
+Use the following format in your supplemental feed:
+
+
+  
+    
+      
+        
+        id
+        
+        
+        repricing_rule_id
+        
+        
+        auto_pricing_min_price
+        
+      
+      
+        
+        1
+        
+        
+        rule1
+        
+        
+        5 USD
+        
+      
+    
+  
+
+  View your rule performance
+
+  After setting up your rules and adding products to them, you may view their results on the reporting page. Note that performance data is delayed by 3 days.
+
+  
+
+
+Best practices
+
+
+  The maximum number of rules you can create is 100. You can request an increase on this limit, but it's a best practice to be mindful about how you create rules and group offers.
+  If a price is negative after applying your rule to the offer, the rule will be invalid and the offer price will remain as is.
+
+
+
+  Need help? Click here to contact Buy on Google support.
+
+
+             Was this helpful?How can we improve it?YesNoSubmit       

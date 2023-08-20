@@ -1,0 +1,78 @@
+ Advertise your products using Shopping ads (for Shopify users)This article is intended for users of the Google & YouTube app on Shopify.
+
+Performance Max campaigns help you promote your products and increase traffic through paid advertising.
+
+On this page
+
+
+  About Shopping ads and Performance Max
+  Benefits for Shopify users
+  Create a Performance Max campaign in Shopify
+
+
+
+About Shopping ads and Performance Max
+
+Shopping ads
+
+Shopping ads use your existing product data to decide how and where to show your ads. Shopping ads show customers a photo of your product, plus a title, price, store name, and more. These ads give customers a strong sense of the product you're selling before they click the ad, which can result in more qualified leads.
+
+You manage your Shopping ads in Google Ads using Performance Max campaigns, a simple and flexible way to organize and promote your Shopify product inventory within Google Ads. Learn more About Shopping ads.
+
+Performance Max
+
+Performance Max is a performance-based campaign type that helps you to find more customers and meet your goals by serving ads across multiple Google surfaces including YouTube, Display, Search, Discover, Gmail, and Maps. To do this, Performance Max looks at campaign inputs like your budget, your product feed, the country in which your products are available, and then optimizes performance based on those inputs.
+
+You can create and monitor Performance Max campaigns in Merchant Center. If you want even more control over the campaign (such as bidding options), you can use Google Ads to edit the ad. Learn more about the features available for Performance Max in Google Ads.
+
+
+Benefits for Shopify users
+
+Campaign tracking
+
+Performance Max helps you review the impact of your marketing campaigns by letting you track specific actions your customers take. When you create a campaign, some conversion actions are automatically added to your Google Ads account and conversion tracking is automatically set up for your store.
+
+Optimize your customer shopping experience
+
+Your campaign's success can be affected based on what happens after they click your ad. By understanding how your customers behave when they arrive at your store, you can improve their shopping experience.
+
+
+Get started
+
+Before integrating your Performance Max campaigns with Shopify, you’ll have to set up the Google & YouTube app on Shopify.
+
+After you’ve completed this step, your Merchant Center and Shopify accounts will be linked together. The information from your Shopify account will always overwrite the information in your Merchant Center account, so any updates or other changes should be made in your Shopify account only.
+
+The only exception is for ad campaigns. Changes to ad campaigns should be made in your Merchant Center or Google Ads account and are not overwritten by changes made in Shopify.
+
+In addition to setting up the Google & YouTube app on Shopify, you’ll also need to create and/or link a Google Ads account and set up billing in Merchant Center. Then, you’ll be ready to manage or create new Performance Max campaigns in Merchant Center.
+
+Create a Performance Max campaign in Shopify
+
+
+  In Shopify, navigate to the Google & YouTube app.
+  Scroll down to the Performance Max campaign module.
+  Link your Google Ads account to your Shopify account
+    
+      If you already have a Google Ads account, you can select it from the list.
+      If you don't have a Google Ads account, you can create a new one.
+    
+  
+  Click Create Campaign. You'll be redirected to the Ads onboarding flow in Merchant Center.
+  In Merchant Center, you'll be asked to provide your payment information (if you haven't completed billing set up yet).
+  Provide your daily budget and campaign name.
+  Click Create.
+
+
+Once your campaign is live, you’ll be able to track its performance in Google Merchant Center. You can access Merchant Center by clicking on Manage campaigns in the "Overview" tab on your Shopify app.
+
+Learn more about how to create a Performance Max campaign and view ad campaigns performance in Merchant Center.
+
+
+Related links
+
+
+  About Shopping ads
+  About Performance Max campaigns
+
+             Was this helpful?How can we improve it?YesNoSubmit       

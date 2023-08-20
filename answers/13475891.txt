@@ -1,0 +1,142 @@
+ Quantity [quantity]Use the quantity [quantity] attribute to show the quantity of in-stock products in your store.
+
+In this article
+
+
+  When to use
+  Format
+  Minimum requirements
+  Best practices
+  Examples
+
+
+When to use
+
+ Optional for Shopping ads, local inventory ads, and free local listings.
+
+Format
+
+Follow these formatting guidelines to make sure Google understands the data you're submitting.
+
+Learn when and how to submit your product data in English
+
+
+  
+    
+      Type
+      Integer
+    
+    
+      Text/tab delimited example
+      4
+    
+    
+      XML example
+      <g:quantity>4</g:quantity>
+    
+  
+
+
+To format your data for Content API, go to the Content API for Shopping resource.
+
+Minimum requirements
+
+These are the requirements that you need to meet to show your product in local inventory ads and free local listings. If you don't follow these requirements, your local products won't be eligible to serve.
+
+
+  
+    Provide the quantity [quantity] attribute for each product and store combination.
+  
+  For inventory feed, quantity must be 0 or more.
+
+
+Best practices
+
+These best practices can help you go beyond the basic requirements to optimize your product data for performance.
+
+Availability
+
+
+  Note: While quantity [quantity] is optional, availability [availability] is mandatory for ads to run.
+
+
+Availability [availability] must be submitted as a text string with 1 of 4 accepted values:
+
+
+  "in stock"
+  "out of stock"
+  "limited availability"
+  "on display to order"
+
+
+If you decide to submit quantity [quantity], this is how you match your availability [availability]: if there are 3 or more available, the product is considered to be "in stock." If there are 1–2 available, the product is considered to have "limited availability." If there are 0 available, the item is considered to be "out of stock."
+
+
+  
+    
+      Availability
+      Number
+    
+    
+      In stock
+      3+
+    
+    
+      Limited availability
+      1–2
+    
+    
+      Out of stock
+      0
+    
+    
+      Temporarily out of stock
+      0
+    
+    
+      On display to order
+      1
+    
+  
+
+
+Examples
+
+
+  
+    
+      Feed
+      Field
+      Description
+      Type
+      Examples
+    
+    
+      Sales
+      quantity
+      The number of products of this kind that are sold and returned in a transaction.
+      
+      Integer
+
+      "Positive" for sold and "Negative" for returned
+      
+      
+      1
+
+      Positive
+      
+    
+    
+      Inventory
+      quantity
+      The quantity of the product.
+      
+      Integer
+
+      >= 0
+      
+      5
+    
+  
+
+             Was this helpful?How can we improve it?YesNoSubmit       

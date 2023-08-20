@@ -1,0 +1,883 @@
+ Vehicle ads onboarding guideCreate a primary feedNext: Register and submit your feed
+
+
+   This is step 4a of the vehicle ads onboarding guide.
+
+
+This article describes how to upload a primary feed to enable vehicle ads.
+
+If you're interested in submitting vehicle ads data through API, click here.
+
+The primary feed is a list of all your vehicle inventory with descriptive attributes. Some attributes are required for all vehicle ads in your feed, some are required for certain types of vehicle ads, and other attributes are recommended.
+
+
+  
+    Notes:
+
+    
+      Not providing a required attribute may prevent that particular vehicle ad from showing up in results.
+      Not providing recommended attributes may impact the ad's performance.
+    
+  
+
+
+Google recommends submitting all your vehicle inventory in a single feed.
+
+Before you begin
+
+
+  Supported Vehicle Types: Only non-commercial, passenger vehicles such as cars and pickup trucks (utes in AU) are supported. Vehicle ads can't be used to promote RVs, boats, buses, trains, etc.
+  Supported Offers: Your feed should only include vehicle offers. It shouldn't include offers for spare parts, accessories, or any other shopping offers.
+  Attribute headers: You must use the exact attribute headers listed below for your feed to be processed correctly.
+  Unique Vehicle Offers: Ensure that you submit each vehicle offer only once in the feed by checking the vehicle identification number (VIN). If the same vehicle is available for multiple store codes or has multiple fulfillment types, these are supported by repeated fields for store codes and the group attribute for vehicle fulfillment, and there is no need to submit a VIN multiple times for these scenarios. If a VIN is submitted for more than one vehicle offer, those offers will be disapproved in the feed.
+    
+      Exception: If you’re submitting offers in multiple languages, the VIN can be submitted once for each language (if available).
+    
+  
+
+
+
+  Note: All vehicle ads campaigns will be upgraded to Performance Max by September 2023.
+
+
+
+Build your primary feed
+
+Step 1: Create a delimited text file, an XML file, or use API
+
+To start, create either a delimited text file (recommended) or an XML file, or use the API.
+
+Step 2: Tell us about the vehicles in your inventory
+
+Your primary feed is Google’s source of information for your vehicle ads. The information you submit in this feed is what appears to auto shoppers searching for your products.
+
+Vehicle ads feed specification
+
+
+  
+    
+      
+        Attribute
+        Description
+        Type
+      
+    
+    
+      
+        Google product category [google_product_category]
+        
+        Required
+
+        Google Product Category.
+        
+        
+        Select the category: Vehicles & Parts > Vehicles > Motor Vehicles > Cars, Trucks & Vans
+
+        OR
+
+        Use category code: 916
+        
+      
+      
+        Vehicle fulfillment [vehicle_fulfillment]
+        
+        Required
+
+        This group attribute is used with the store_code sub-attribute for in store and ship to store fulfillment. Store code isn't required for online offers. Learn more
+        
+        
+        Supported values:
+
+        
+          in_store
+          ship_to_store
+          online
+        
+
+        This attribute can be repeated up to 3 times for each offer, allowing dealers to specify an option for each fulfillment type.
+        
+      
+      
+        Title [title]
+        
+        Optional
+
+        Specific title for the vehicle for sale which is displayed in Merchant Center.
+        
+        Title is automatically generated based on other attributes. Dealers can list this independently, but it won't be used.
+      
+      
+        Product type [product_type]
+        
+        Optional
+
+        Use this attribute to include your own product categorization system in your product data.
+        
+        String
+      
+      
+        VIN [VIN]
+        
+        Required
+
+        Vehicle Identification Number, unique identifier for each car.
+        
+        String, 17 digits
+      
+      
+        ID [id]
+        
+        Required
+
+        Your product’s unique identifier. This can be an internal stock number or VIN.
+        
+        String. Must be unique.
+      
+      
+        Store code [store_code]
+        
+        Required
+
+        Unique alphanumeric identifier for each dealership.
+
+        Note: The store code attribute is case-sensitive and must match the store codes submitted in your Business Profile.
+        
+        
+        String
+
+        This is a repeated field which can take multiple values.
+        
+      
+      
+        Image link [image_link]
+        
+        Required
+
+        Single image of the specific vehicle.
+        
+        
+        The URL for your main vehicle image.
+
+        Learn more about image guidelines for vehicle ads
+        
+      
+      
+        Additional image link [additional_image_link]
+        
+        Optional
+
+        Up to 10 additional images of the specific vehicle.
+        
+        
+        More images for your vehicle beyond the main image provided in the image link attribute, commonly used to show a vehicle from different angles.
+
+        This is a repeated field which can take multiple values.
+        
+      
+      
+        Link template [link_template]
+        
+        Required
+
+        Link to specific vehicle descriptions page (VDP). Make sure to include the {store_code} ValueTrack parameter.
+
+        Note: The parameter in the URL should be written using the words “store_code”. Don’t input the actual store code.
+        
+        
+        The URL for the landing pages of the vehicle on your site.
+
+        Example: including store_code as URL parameter: http://mikemart.com/123?store={store_code}
+
+        Example: including store_code as part of URL path: http://acmestores.com/456/store/{store_code}
+        
+      
+      
+        Link [link]
+        
+        Required for online offers
+
+        Link to specific vehicle descriptions page (VDP).
+        
+        The URL for the landing pages of the vehicle on your desktop site.
+      
+      
+        Mobile link template [mobile_link_template]
+        
+        Optional
+
+        Link to specific vehicle descriptions page (VDP) for mobile devices.
+
+        Make sure to include the {store_code} ValueTrack parameter.
+
+        Note: The parameter in the URL should be written using the words “store_code”. Don’t input the actual store code.
+        
+        The URL for the landing pages of the vehicle on your mobile site.
+      
+      
+        Mobile link [mobile_link]
+        
+        Optional
+
+        Link to specific vehicle descriptions page (VDP) for mobile devices.
+        
+        The URL for the landing pages of the vehicle on your mobile site.
+      
+      
+        Ads redirect [ads_redirect]
+        
+        Optional
+
+        Link + Storecode + Tracking Parameters
+        
+        Example: https://tracking.example.com?product=sports-car
+      
+      
+        Price [price]
+        
+        Required
+
+        The selling price to be displayed on the ad.
+
+        Make sure this price matches the most prominent or final price on your VDP landing page.
+        
+        
+        Number plus currency (use ISO 4217).
+
+        Example: 8000.00 USD
+        
+      
+      
+        Vehicle price type [vehicle_price_type]
+        
+        Required for new cars in some countries
+
+        Optional for used cars in some countries
+
+        Enum: All-in, Drive-away, etc.
+
+        Learn more about the applicability of the vehicle price type attribute.
+        
+        
+        Use the [vehicle_price_type] attribute to describe the type of price provided in the price attribute.
+
+        Supported values:
+
+        
+          all_in_price
+          drive_away_price
+          estimated_drive_away_price
+          excluding_government_charges_price
+        
+        
+      
+      
+        Vehicle MSRP [vehicle_msrp]
+        
+        Required for new cars
+
+        Optional for used cars
+
+        MSRP (Manufacturer Suggested Retail Price) for the vehicle in its current configuration.
+
+        If the MSRP isn't the same as the selling price (above), it should be displayed separately on your VDP landing page as well and labeled as MSRP.
+        
+        Use the same formatting as the price attribute.
+      
+      
+        Vehicle all-in price [vehicle_all_in_price]
+        
+        Required for new cars in some countries
+
+        Optional for used cars
+
+        The all-in advertised price includes costs for the following – any accessories attached to the vehicle, environmental levies, extra warranty, fuel, freight, pre-delivery inspection (PDI), dealer fees for handling licensing, provincial regulatory fees, miscellaneous dealer charges for security etching and nitrogen tire fill, and factory-to-customer or dealer-to-customer discounts or incentives.
+
+        This price must appear on the vehicle description page as well.
+
+        Note: The all-in advertised price doesn’t include sales tax, licensing (the cost of the plate and registration), any trade-in, or costs associated with vehicle financing.
+
+        Learn more about the applicability of the price attribute
+        
+        Use the same formatting as the price attribute.
+      
+      
+        Condition [condition]
+        
+        Required
+
+        The condition of the vehicle.
+
+        Note: For a vehicle to be considered "new", the maximum mileage must be 200 miles or 200 kilometers.
+        
+        
+        Supported values:
+
+        
+          Used
+          New
+        
+        
+      
+      
+        Certified pre-owned [certified_pre-owned]
+        
+        Optional
+
+        Car is OEM certified pre-owned.
+        
+        Boolean (yes / no)
+      
+      
+        Brand [brand]
+        
+        Required
+
+        The name of the company that manufactured the vehicle.
+        
+        String
+      
+      
+        Model [model]
+        
+        Required
+
+        Model of the car without trim specifics.
+
+        (e.g. submit “Model” and not “Model deluxe" or “Model standard”)
+        
+        String
+      
+      
+        Trim [trim]
+        
+        Optional
+
+        Trim of the model.
+        
+        String (for example, S, SV, SL)
+      
+      
+        Year [year]
+        
+        Required
+
+        Model year.
+        
+        Integer (4 digit)
+      
+      
+        Mileage [mileage]
+        
+        Required
+
+        Number of miles on the vehicle.
+
+        Make sure to include the Unit (km/miles).
+        
+        
+        Integer + Unit (km/miles)
+
+        Example: 43000 KM or 24533 Miles
+        
+      
+      
+        Color [color]
+        
+        Required
+
+        OEM specified exterior color, text.
+        
+        
+        String
+
+        Examples: White, Black, Red, Platinum, Metallic Tri-Coat
+
+        Notes:
+
+        
+          You can submit up to 3 colors, separated by “ / “
+          If you describe the vehicle on your landing page using a unique color (e.g. "Eco green"), submit that value through the color attribute, then add a more standard color name (e.g. “Green”) to your title.
+        
+        
+      
+      
+        Vehicle option [vehicle_option]
+        
+        Optional
+
+        (Required for free vehicle ads)
+
+        List of installed options, using comma separators.
+
+        (e.g. Leatherette Seats, Rear View Camera, Navigation System, Front Seat Heaters, A/C, Sunroof, Bluetooth)
+        
+        
+        String
+
+        The maximum number of values supported is 200. Each value may contain up to 256 characters.
+
+        This is a repeated field which can take multiple values.
+        
+      
+      
+        Body style [body_style]
+        
+        Optional
+
+        Enum: Sedan, SUV, Crossover, etc.
+        
+        
+        Supported values:
+
+        
+          convertible
+          coupe
+          crossover
+          full size van
+          hatchback
+          minivan
+          sedan
+          station wagon
+          suv
+          truck
+        
+        
+      
+      
+        Engine [engine]
+        
+        Optional
+
+        Enum: Gasoline, Diesel, Electric, Hybrid
+        
+        
+        Supported values:
+
+        
+          gasoline
+          diesel
+          electric
+          hybrid
+        
+        
+      
+      
+        Description [description]
+        
+        Optional
+
+        Free text. Seller notes and options: free text field for additional information about the car, such as single owner and/or a Separated list of installed options e.g. Leatherette Seats, Rear View Camera, Navigation System, Front Seat Heaters, A/C Seat(s), Sunroof(s), Satellite Radio Ready, etc.
+        
+        String
+      
+      
+        Custom label [custom_label_[0-4]]
+        
+        Optional
+
+        Add up to 5 custom labels.
+
+        custom_label_0 through custom_label_4 allow you to create specific filters to use in your Ads campaigns. Use these filters for reporting and bidding on groups of products. The information you include in this attribute won’t be shown to users.
+
+        For example, you could label a group of products by make, model, or year.
+
+        Learn more about custom labels
+        
+        
+        String
+
+        Example:
+
+        
+          custom_label_0: (vehicle make)
+          custom_label_1: (vehicle model)
+          custom_label_2: (vehicle year)
+        
+        
+      
+      
+        Included destination [included_destination]
+        
+        Optional
+
+        If you want to have your product participate in additional destinations (beyond what you specified in your feed settings), use the included destination [included_destination] attribute.
+
+        Learn more about included destination
+        
+        
+        Supported values:
+
+        
+          vehicle_ads
+        
+        
+      
+      
+        Excluded destination [excluded_destination]
+        
+        Optional
+
+        If you want to prevent your product from appearing in certain destinations, use the excluded destination [excluded_destination] attribute.
+
+        Learn more about excluded destination
+        
+        
+        Supported values:
+
+        
+          vehicle_ads
+        
+        
+      
+    
+  
+
+
+Submitting the vehicle_fulfillment group attribute
+
+  
+    
+      
+        
+          
+            Group attribute
+            vehicle_fulfillment
+          
+          
+            Accepted values
+            
+            
+              in_store
+              ship_to_store
+              online
+            
+            
+          
+          
+            Sub-attributes
+            
+            
+              option
+              store_code
+            
+            
+          
+        
+      
+
+      Text feeds
+
+      Format the group attribute name using vehicle_fulfillment, and then in parentheses, adding one of the supported fulfillment values followed by store_code (as needed). The store_code sub-attribute needs to be repeated for each store code value you want to submit, separated by a colon ( : ).
+
+      Example: In store fulfillment
+
+      If the store_code sub-attribute is repeated in the group attribute name, but only one store code value is submitted, the entry will still be accepted since there is only one colon in the value.
+
+      When a colon (:) doesn't indicate a separate sub-attribute value, the value should be surrounded by quotes (").
+
+      
+        
+          
+            Name
+            vehicle_fulfillment(option:store_code:store_code)
+          
+          
+            Values
+            in_store:1111:2222
+            in_store:1111
+            in_store:1111:”2222:2”
+          
+        
+      
+
+      Example: Online fulfillment
+
+      The store_code sub-attribute isn't required for online offers.
+
+      
+        
+          
+            Name
+            vehicle_fulfillment(option)
+          
+          
+            Value
+            online
+          
+        
+      
+
+      Example 3 : Hybrid offer
+
+      A hybrid offer combines both of the above examples as separate columns in the data
+
+      
+        
+          
+            
+            {other feed cols}
+            
+            vehicle_fulfillment(option)
+            vehicle_fulfillment
+            (option:store_code:store_code)
+          
+          
+            …
+            online
+            in_store:1111:2222
+          
+        
+      
+
+      Google Sheets
+
+      Format the group attribute name the same way as with text feeds. When a colon (:) isn't used to separate sub-attribute values, it should be submitted with a preceding backslash ( “ \ “ )
+
+      
+        
+          
+            Name
+            vehicle_fulfillment(option:store_code:store_code)
+          
+          
+            Values
+            in_store:1111:2222
+            in_store:1111
+            in_store:1111:2222\:2
+          
+        
+      
+
+      XML Feeds
+
+      Include the store_code sub-attribute as needed. To specify different fulfillment options, submit multiple vehicle_fulfillment attributes and include the store_code sub-attribute.
+
+      Example
+
+      <g:vehicle_fulfillment>
+        <g:option>online</g:option>
+        </g:vehicle_fulfillment>
+        <g:vehicle_fulfillment>
+        <g:option>in_store</g:option>
+        <g:store_code>1111</g:store_code>
+        <g:store_code>2222</g:store_code>
+        </g:vehicle_fulfillment>
+    
+  
+
+  
+    Applicability of the price attributes
+
+    
+      
+        
+          
+            
+              Country
+              
+              Inventory type
+              
+              
+              Advertiser type
+              
+              price
+              vehicle_price_type
+              
+              vehicle_msrp
+              
+              
+              vehicle_all_in_price
+              
+            
+          
+          
+            
+              US
+              Used
+              All
+              Required
+              
+              Optional
+
+              Not applicable. Leave the attribute blank or don’t provide the attribute in the feed.
+              
+              Optional
+              Not Applicable*
+            
+            
+              New
+              All
+              Required
+              
+              Optional
+
+              Not applicable. Leave the attribute blank or don’t provide the attribute in the feed.
+              
+              Required
+              Not Applicable*
+            
+            
+              Canada
+              Used
+              All
+              Required
+              
+              Optional
+
+              Not applicable. Leave the attribute blank or don’t provide the attribute in the feed.
+              
+              Optional
+              Optional
+            
+            
+              New
+              OEMs
+              Required
+              
+              Required
+
+              
+                all_in_price
+              
+              
+              
+              Optional
+
+              OEMs should submit either one of the attributes:
+
+              
+                vehicle_msrp
+                vehicle_all_in_price
+              
+              
+              
+              Required for all offers in the province of Quebec
+
+              Optional for other provinces
+
+              OEMs should submit either one of these attributes for the optional provinces:
+
+              
+                vehicle_msrp
+                vehicle_all_in_price
+              
+              
+            
+            
+              Non-OEMs
+              Required
+              
+              Required
+
+              
+                all_in_price
+              
+              
+              Optional
+              Required
+            
+            
+              Australia
+              Used
+              All
+              Required
+              
+              Required
+
+              
+                drive_away_price
+                excluding_government_charges_price
+              
+              
+              Optional
+              Not Applicable*
+            
+            
+              New
+              All
+              Required
+              
+              Required
+
+              
+                drive_away_price
+                estimated_drive_away_price
+              
+              
+              Required
+              Not Applicable*
+            
+          
+        
+
+        Not Applicable* - Leave the attribute blank or don’t provide the attribute in the feed.
+
+        all_in_price
+
+        Applicable to: Canada
+
+        Required for all new car offers in the province of Quebec, optional for other provinces. OEMs should submit either one of the vehicle_msrp attribute or the price attribute with vehicle_price_type = all_in_price.
+
+        drive_away_price
+
+        Applicable to: Australia
+
+        The drive-away price includes stamp duty, luxury car tax (if applicable), compulsory third-party insurance, registration and dealer delivery.
+
+        
+          This price type or estimated_drive_away_price (below) is required for new cars in Australia.
+          This price type or excluding_government_charges_price (below) is required for used cars in Australia.
+        
+
+        estimated_drive_away_price
+
+        Applicable to: Australia
+
+        The estimated drive-away price, like the drive-away price described above, includes stamp duty, luxury car tax (if applicable), compulsory third-party insurance, registration and dealer delivery, but is indicative only. The actual drive-away price may differ based on regional or other factors.
+
+        
+          This price type or drive_away_price (above) is required for new cars in Australia.
+        
+
+        excluding_government_charges_price
+
+        Applicable to: Australia
+
+        The excluding government charges price excludes duties, fees, levies or charges payable by the consumer directly to a relevant third-party authority.
+
+        This price type or drive_away_price (above) is required for used cars in Australia.
+      
+    
+  
+
+
+
+  Note:
+
+  
+    Vehicle ads don’t have availability [availability] as an attribute. Therefore, don’t submit this attribute. Submitting it may lead to errors in the feed.
+    If you don’t submit a value for an optional attribute, Google interprets it as though that attribute hasn’t been submitted.
+  
+
+
+More frequent inventory updates
+
+Inventory price and availability can change frequently. Increase the feed frequency to carry out more frequent updates of your inventory data. To submit product data through API, learn more about the Google Content API.
+
+Implementation guide
+
+
+  Set up your accounts
+  Enable the vehicle ads program
+  Add your business information
+  Create a primary feed
+  Register and submit your feed
+  Link your Business Profile and select your location group
+  Create, register, and submit your store feed (Optional)
+  Complete website policy review
+  Link your Merchant Center and Google Ads accounts
+  Enable vehicle ads in your Smart Shopping campaigns
+  Enable vehicle ads in your Performance Max campaigns
+
+
+Next: Register and submit your feed             Was this helpful?How can we improve it?YesNoSubmit       

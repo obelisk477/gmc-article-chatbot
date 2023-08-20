@@ -1,0 +1,150 @@
+ Feed label [feed_label] (Collections)
+
+Use the feed label [feed_label] attribute to specify the feed label for the featured products linked to your collection.
+
+
+
+  Note: The feed label [feed_label] attribute replaces the product country [product_country] attribute. The product country [product_country] attribute has been deprecated and will soon be removed. For new and existing feeds, you can optionally use the feed label [feed_label] attribute (if you're using feed labels for your product feeds in Merchant Center). If you use both attributes, the feed label attribute will take precedence over the product country attribute. If you don’t provide an attribute, we’ll attempt to match your collection to the most relevant Merchant Center feed(s).
+
+
+
+When to use
+
+
+ Optional if you have featured products linked to your collection.
+
+The feed label [feed_label] attribute can be used to match your collection to specific products in Merchant Center product feeds with matching feed labels.
+
+
+  Note: If you’d like to link to featured products from multiple feed labels from your collection, then you’ll need to create multiple collections, one for each feed label, using product feeds with that same feed label.
+
+
+
+Format
+
+Follow these formatting guidelines to make sure Google understands the data you're submitting.
+
+For details on when and how to submit values in English, learn more about submitting your product data
+
+
+
+  
+    
+      Type
+      String (Unicode characters. Recommended ASCII characters only)
+    
+    
+      Limits
+      20 characters. Must exactly match the feed label from your product feed
+    
+    
+      Repeated Field
+      No
+    
+  
+
+
+
+  
+    
+  
+
+
+
+
+  
+    
+      
+      File format
+      
+      
+      Example value
+      
+    
+    
+      
+      Text feeds
+      
+      
+      WINTERPRODUCTS
+      
+    
+    
+      
+      XML feeds
+      
+      
+      <g:product_country>WINTERPRODUCTS</g:product_country>
+      
+    
+  
+
+
+Guidelines
+
+Follow these guidelines to make sure you submit high-quality data for your collections.
+Minimum requirements
+
+These are the requirements you need to meet to show your collection. If you don't follow these requirements, we'll disapprove your collection and let you know in the Diagnostics page of your Merchant Center account.
+
+  Submit only one value for the feed label [feed_label] attribute for each collection. To link products from multiple feed labels, create multiple collections, each with a different feed label.
+  Ensure that the feed label submitted exactly matches a feed label associated with a product feed.
+
+Best practices
+
+These best practices can help you go beyond the basic requirements to optimize your collection data for performance.
+
+  If your collection is matching more featured products than expected, you can use the feed label attribute to specify the matching feed label for the product feed that contains the featured products linked to your collection.
+
+Examples
+
+
+
+  Sofa collection
+
+  
+    
+      
+        
+          Product data for a sofa collection
+        
+        
+          Attribute
+          Value
+        
+        
+          ID [id]
+          Sofas2023Q1
+        
+        
+          Feed label [feed_label]
+          US
+        
+      
+    
+
+     
+
+    
+      
+        
+          Product data for a sofa collection
+        
+        
+          Attribute
+          Value
+        
+        
+          ID [id]
+          Sofas2023Q1
+        
+        
+          Feed label [feed_label]
+          LABEL1
+        
+      
+    
+  
+
+
+             Was this helpful?How can we improve it?YesNoSubmit       

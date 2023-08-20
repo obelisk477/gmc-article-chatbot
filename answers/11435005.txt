@@ -1,0 +1,33 @@
+ About price drop annotations
+
+Price drop annotations make it easier for consumers to understand when your products drop in price. When consumers find your products on Google, they see a “Price drop” badge.
+
+How it works
+
+If you change the price of your product to be lower than the average price that you listed in the past, Google can show the “Price drop” badge for this product. “Price drop” badges are designed to show only when there has been a significant drop to what has been a fairly stable price for a product.
+
+How it shows
+
+The new price appears as the current price alongside the original price. The original price provides a reference for consumers so that they can see the difference between the original price and the new prices (for example, if the original price was $749 USD, it appears as “Was $749” in the listing).
+
+Your product also shows a “Price drop” badge. The specific colors used for annotations differ depending on where your product appears.
+
+
+
+The image above may contain English or USD. When a price drop is applied to your product, it will show in the local currency and language.
+
+
+  Note: Sale price annotations and price drop annotations are different and have separate requirements.
+
+
+How to find products with price drop annotations
+
+You can see which products are eligible for price drop annotations by visiting the “All products” page in Merchant Center.
+
+
+  Sign in to your Merchant Center account.
+  Select Products in the navigation menu.
+  Select All products.
+  In the table, use the filter icon , then choose Price drop detected > Yes in the menu.
+
+             Was this helpful?How can we improve it?YesNoSubmit       

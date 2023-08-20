@@ -1,0 +1,69 @@
+ Delete your Merchant Center account
+
+
+  If you’re looking for information about deleting your Merchant Center account in the classic Merchant Center experience, click here.
+
+
+
+ 
+
+You can delete your Merchant Center account at any time.
+
+When you delete your Merchant Center account, you will immediately lose all access to the account, your products will be disapproved, and your Shopping ads and free product listings will stop showing.
+
+This article explains how to delete your account, what you should know beforehand, and what will happen when your account is deleted.
+
+
+  Deleting your Merchant Center account is different from removing your Merchant Center account access, canceling your Google Ads account, or deleting your Google Account.
+
+
+Before you delete your Merchant Center account
+
+When you delete your account, your access to all data and transactions will be disabled. Before deleting your account:
+
+
+  Download any product data, reports, or other assets you'd like to retain
+  Process or cancel any active transactions
+
+
+How it works
+
+An admin user will need to delete the Merchant Center account. When this is done, users on the account will be notified via email. All users will lose access to the account immediately. Shopping ads and other Merchant Center features will be deactivated within 48 hours. Your products will be disapproved and your ads and free listings will stop showing.
+
+Any other products you have linked to this account will no longer be linked.
+
+Deleting multi-client accounts
+
+
+  If you delete a parent multi-client account, all sub-accounts will also be closed. Parent account users will be notified by email, but any sub-account users will not be notified.
+  To delete only a sub-account within a multi-client account, use the delete functionality as you normally would on the Accounts page of the parent multi-client account.
+
+
+
+  
+    Note: The instructions below apply only to parent multi-client accounts (MCAs). The option to delete will not show for sub-accounts. If you are using a sub-account, you’ll need the MCA’s owner to delete the account on your behalf.
+  
+
+
+Instructions
+
+
+  Sign in to your Merchant Center account.
+  Click the tools icon , then select Account settings under “Settings”.
+  Click Account settings.
+  Select Delete account.
+  Review the disclaimer.
+  Click Delete account.
+
+
+When you have deleted the account, you will be redirected. Your products will be immediately disapproved, and your ads and free listings will stop showing.
+
+You may create a new Merchant Center account at any time.
+
+Related links
+
+
+  Sign up for Google Merchant Center
+  Convert to an advanced account
+
+             Was this helpful?How can we improve it?YesNoSubmit       

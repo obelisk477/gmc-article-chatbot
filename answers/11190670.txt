@@ -1,0 +1,132 @@
+ Vehicle ads image guidelines
+
+
+
+The vehicle ads feature is designed to surface vehicle ads and dealer information to customers when the vehicle they're searching for is available nearby.
+
+
+  
+    Automatic image improvements aren't supported for Vehicle ads images yet.
+  
+
+
+
+  Note: All vehicle ads campaigns will be upgraded to Performance Max by September 2023.
+
+
+
+
+On this page
+
+
+  Image guidelines
+  Image specifications
+  Disapproval policies
+  Allowed but discouraged
+
+
+
+Image guidelines
+
+The below guidelines outline policies for which images may get disapproved. We recommend having high quality, clean images with minimal background for best performance.
+
+Image specifications
+
+
+  
+    
+      File formats
+      GIF (.gif), JPEG (.jpg/.jpeg), PNG (.png), BMP (.bmp), and TIFF (.tif/.tiff)
+    
+    
+      Maximum file size
+      16 MB
+    
+    
+      Minimum image size
+      100 X 100 pixels (recommended is 800 X 600)
+    
+    
+      Maximum image size
+      64 megapixels
+    
+    
+      Recommended aspect ratio
+      4:3
+    
+  
+
+
+
+Disapproval policies
+
+Offers will be disapproved if the images violate any of the following policies:
+
+1. No overlaid watermarks
+
+
+
+2. No superimposed logos or text
+
+
+
+3. No placeholder images
+
+Placeholder images such as “No Image”, “Coming Soon”, generic or stock image which is not the actual car, or using just the brand or dealer logo will be disapproved.
+
+
+  Exception: Stock images are allowed for new cars as long as they show the same make, model, and color as the car listed.
+
+
+
+
+4. No offensive content
+
+Images which contain any inappropriate or sensitive visuals will be disapproved.
+
+5. Include entire product
+
+Accurately display the entire product with minimal or no product staging. Images which are truncated will be disapproved.
+
+
+Allowed but discouraged
+
+While offers may not be disapproved for the reasons below, it is not a good user experience and could negatively impact performance. We recommend avoiding these types of images for best results.
+
+1. Logos or branding in the background
+
+Google may use technical solutions like background blur or auto-cropping to make these images more consistent with our guidelines.
+
+
+
+2. Modification on the license plate
+
+
+
+3. Cluttered background
+
+Google may use technical solutions like background blur or auto-cropping to make these images more consistent with our guidelines.
+
+
+
+4. Rear angle images as the main image
+
+Avoid submitting a rear angle image as the main image for the offer. These images can be submitted using the additional image link [additional_image_link] attribute.
+
+Use the image link [image_link] attribute to submit the main image. We recommend using images taken from a front-to-side angle (at ~45 degrees).
+
+
+
+Related links
+
+
+  Vehicle ads overview
+  Vehicle ads policies
+  Implementation guide
+  Vehicle ads image guidelines
+  Vehicle ads Content API guidelines
+  Vehicle ads troubleshooting form
+  Enable vehicle ads in your Performance Max campaign
+
+
+             Was this helpful?How can we improve it?YesNoSubmit       

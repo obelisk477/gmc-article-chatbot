@@ -1,0 +1,124 @@
+ About Buy on Google notifications
+  Buy on Google for Search and Shopping will no longer be available starting September 26, 2023. Eligible merchants will be able to use Buy on Google for YouTube in the US. Learn more about Enabling Buy on Google for YouTube.
+
+
+
+
+
+Use order notifications to stay informed about your Buy on Google orders via email without having to check your Merchant Center account.
+
+This article explains how order and return notifications work and how to use them.
+
+How it works
+
+When you enable order notifications, you’ll receive emails with consolidated updates on orders that require action or attention. There are several different notifications you may receive.
+
+New order notifications
+
+Pending order notifications
+
+
+  Pending order notifications will let you know when an order is ready for shipment. This may include a single product, or multiple products. The message will include the order date, and the Google order ID. You’ll find direct links to the orders page in the Merchant Center. You can update your order statuses from there.
+
+  
+    Note: All orders will also appear in your Merchant Center account as soon as they’re placed with the status “Pending".
+  
+
+  Making sure your orders are up to date and providing accurate and timely tracking information is essential for your performance score on Buy on Google. Learn more about retailer standards and policies
+
+
+Late shipment notifications
+
+
+  Late shipment notification emails let you know orders that are still pending at their ship by date. Google expects the order to be shipped by the specified ship by date and will cancel the order if it is pending for 5 days past that. Reminders like this one will prompt you to act on the order early to avoid the cancellation, and will lead to a better customer experience.
+
+
+Cancellation and refund notifications
+
+Order pending automatic cancellation notifications
+
+
+  Order pending automatic cancellation notification emails lets you know of orders that are still pending after the ship-by-date, and will be cancelled in 48 hours. This email may be helpful because it tells you why your order was cancelled by Google, and how to prevent such cancellations in the future.
+
+
+Order automatically cancelled notifications
+
+
+  Order automatic cancelled notification emails lets you know of orders that have been cancelled because they were not shipped within 5 days of their ship by date. This email is helpful because it tells you why their order was cancelled by google and how to prevent such cancellations in the future.
+
+
+Order cancellation request notifications
+
+Order cancellation notifications will let you know when Google wants you to cancel an order. The notification will be sent via email and merchant center. From there, you'll find details and links explaining why Google wants you to cancel the order (for example, when a user account is fraudulent) and the next steps you should take.
+
+Customer service-issued refund notifications
+
+
+  Customer service-issued refund notifications will let you know when Google Customer Service has refunded an order or product without a return shipment. This will allow you to open a dispute with the carrier if necessary. These refunds may be issued for the following reasons:
+
+  
+    WRONG_ITEM: Incorrect item sent
+    DAMAGED: Item damaged
+    EXPIRED_ITEM: Item expired
+    FAULTY_ITEM: Item defective
+    ITEM_MISSING: Item missing
+    STORE_PACKAGE_MISSING: Package missing
+    TRANSIT_PACKAGE_MISSING: Package missing
+    UNSUCCESSFUL_DELIVERY_UNDELIVERABLE: Package could not be delivered
+  
+
+
+Return notifications
+
+When you enable return notifications, you’ll receive emails with consolidated updates on returns that require your action. You will receive the following types of notifications:
+
+Return delivered notification
+
+
+  You’ll receive this notification when an order has been returned to your specified returns location. From here, you’ll need to process refunds, where relevant. If a refund isn't processed within 2 days, it may be processed automatically on your behalf and deducted from your merchant center account balance.
+
+
+Pending return notifications
+
+
+  Pending return notification emails let you know that you have return tasks that are at SLA. Pending return notifications send you a daily email informing you of returns pending processing or pending return requests.
+
+
+Overdue return notifications
+
+
+  Outstanding return notifications email lets you know that you have return tasks that have passed SLA. Outstanding return notifications send you a daily email informing you of returns overdue processing or overdue return requests.
+
+
+Performing your return actions within SLA is essential for your performance score on Buy on Google. Learn more about retailer standards and policies
+
+Instructions
+
+To enable order notifications:
+
+
+  Sign in to your Merchant Center account.
+  Click the tools and settings icon , then select "Account Access".
+  In the “Users” section, click on each email address that should receive orders notifications.
+  In the “Email notifications” section, toggle the switch for “Orders” or "Returns" on.
+  Click Save.
+
+
+
+  
+  Need help? Click here to contact Buy on Google support.
+
+
+
+  Try our new chatbot for immediate assistance
+
+
+  Related links
+
+  
+    Change your Merchant Center email preferences
+    User access for Merchant Center
+    About shipping policies for Buy on Google
+  
+
+             Was this helpful?How can we improve it?YesNoSubmit       

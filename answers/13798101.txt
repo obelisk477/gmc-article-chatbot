@@ -1,0 +1,64 @@
+ About Pricing within Performance
+The “Pricing” tab shows you cards that let you compare the prices of your products with the prices customers see on Google. These prices include the prices of your products and the prices of products from other sellers. This article explains which pricing information is available and how this can inform your pricing strategy to grow your business with Google.
+
+In this article
+
+
+  Benefits
+  How it works
+  What’s available?
+  Compliance to Merchant Center terms and conditions
+
+
+
+Benefits
+
+Knowing the average price on Google that consumers see when they click on products that you and other retailers are selling, you can make better decisions on how to balance the price of your products with your performance. Follow-up actions include:
+
+
+  Compare the price on product and brand level: Learn if the products you’re selling are cheaper or more expensive than the price on Google.
+  Understand your performance: Price plays an important role in optimizing product performance. Learn which products could benefit from a price change and how the price gap of your products relates to their performance.
+
+
+
+How it works
+
+To get started, navigate to the “Performance” page in Merchant Center. The “Pricing” tab displays a selection of cards based on the prices of your products compared to the average price that customers see when they click on products from you and other retailers.
+
+You can find answers to key questions such as “How do prices for my products compare to the price on Google?”, “How many of my products are cheaper, similar, or more expensive than the price on Google?”, “Which of my products has the biggest price gap compared to the price on Google?”, and “How should I price my products to improve performance?”.
+
+To find out more information and dive deeper into a specific product or brand, click the “View” button on each card. This will open up a more advanced experience that provides in-depth information. By clicking on a product title, a side panel opens on the right side, allowing you to view more product and performance details.
+
+
+What’s available?
+
+Your prices compared to the price on Google
+
+Get an overview on how many of your products have price comparison data available and how many of these products that are cheaper or more expensive compared to the price on Google. You can click the “View” button to explore a detailed list of those products.
+
+Price comparison across your brands
+
+Learn how prices are distributed across all the product impressions of your most popular brands with a breakdown on the percentage of cheaper, similar and more expensive prices. You can click on the “View” button to get a full list of your brands with price comparison data.
+
+Your products with the highest price gap
+
+Discover which of your products have the highest price gaps between your price and the prices consumers see on Google. You can click the “View” button to get a detailed list of all your products with higher prices compared to the price on Google.
+
+Explore insights beyond cards
+
+Click the “View” buttons on each card to explore detailed information on each topic. Besides the usual filters like time period, brand, item ID or title, you can filter or sort your results based on the following dimensions:
+
+
+  Your price is the current price of your product visible to customers on Google. is the current price of your product visible to customers on Google.
+  Price on Google is the effective click-weighted price for a given product across all retailers who list that same product on Shopping ads and free listings. Products are matched based on their GTIN. The price on Google is evaluated over a 7 day window.
+  Price gap shows the percentage difference between your current price and the price on Google for a specific product.
+  Price distribution shows how often prices of all products of a brand are cheaper, similar or more expensive than the price on Google. For multiple products, the price distribution is weighted by impressions of each product over the last 14 days.
+
+
+
+Compliance to Merchant Center terms and conditions
+
+The Pricing reports are only available for the internal use of the retailer or those acting on the retailer's behalf. Pricing data can’t be resold, publicly displayed, advertised, or aggregated across businesses. For purposes of Pricing, “retailer” means the business entity owning the domain of the products being sold or selling products on a marketplace.
+
+You must ensure that your use, or any third party's use, of Pricing data exported from your Merchant Center account complies with the Merchant Center terms and conditions.
+             Was this helpful?How can we improve it?YesNoSubmit       

@@ -1,0 +1,183 @@
+ Troubleshoot my data source
+
+
+  If you're looking for information about troubleshooting your data source in the classic Merchant Center experience, click here.
+
+
+
+In this article, you'll learn how to troubleshoot issues with creating, formatting, and uploading your product data.
+
+If your products or account are disapproved and you need more information, refer to the article about Issues in Merchant Center.
+
+Review data source processing results
+
+A processing report is available for all file based data sources. You can access by following the steps below:
+
+In your Merchant center account, click the gear icon  in the top right to open the settings menu, then select Data sources.
+
+ Click on the name of the data source you would like to review.
+
+ In the ‘Last updated’ you will find information on the status of your last upload of product data. The report includes:
+
+
+  Status of latest upload: For example, whether your file upload had an issue.
+  Attributes: This section indicates whether the product attributes found in your file were recognised during processing. The attributes provided in your product data file should adhere to the Product Data Specification
+  Your product file: This section provides details of any issues with your product data file upload. This includes what the issue is, how it can be fixed and how many products in the file were affected.
+
+
+ Enter the details of the product into the form. Learn more about the product details that need to be added.
+
+ When the product data is complete select Save. Or, if you’d like to add another product, select Save & add another.
+
+Note: Data source processing only checks for basic file and data issues. To review all issues, see the "Needs Attention" tab in the Products section.
+
+
+  Product file creation issues
+
+  
+    
+      Forgotten attribute: Your file may be missing a required attribute. The ID [id] attribute is one of the most commonly forgotten attributes, so always check it first.
+      Incorrect formatting: Click any of these links for example files that show what a feed should look like in these formats.
+        
+          Tab delimited (.txt)
+          RSS 2.0
+          Atom 1.0
+        
+      
+    
+
+    
+      We currently don't allow feeds in .xls format. If you created a feed in .xls format, learn how to convert it to a .txt file.
+    
+  
+
+
+
+  Product data file configuration issues
+
+  
+    
+      
+        Target country: Specify the location where your items are sold. For example, if you specify “United States” as the country of your file, this indicates that your items are available for purchase in the US. The product data uploaded to a selected country must meet the requirements for that country, including the feed specifications and policies.
+        Multiple countries: Specify multiple countries if you sell the same product in multiple countries. Ensure your products meet the requirements for each country, including the feed specifications and policies.
+        Data feed file name: RSS and Atom files should end with an .xml extension. Filenames that don't end with any extension will be processed as a tab-delimited file by default. Remember that we don't accept files in Excel format. See converting your spreadsheet for help.
+        When using filename extensions like .zip or .gz, you must ensure that the file is compressed because our system assumes that the file is compressed. Uploading an uncompressed file in this case may cause feed failure. Make sure that the compressed archive contains exactly one file.
+      
+    
+  
+
+  
+    Formatting issues
+
+    
+      
+        
+          Text or tab-delimited
+
+            
+              Make sure that your columns (tabs) with the required attributes correctly match all the items; oftentimes there will be either an extra tab or a missing tab.
+            
+          
+          XML
+            
+              You can't include un-escaped special characters like "&".
+              Your attribute names may not contain capital letters, any capitalization in your attribute names should be removed. For example, the title [title] attribute should be entered as <title>, instead of <Title>.
+              Incorrect encoding sometimes occurs. Be sure to encode your file in the accepted formats.
+            
+          
+        
+      
+    
+
+    
+      Uploading issues
+
+      
+        
+          Your feed may be too large for the upload method you're using.
+
+            
+              Direct upload files must be less than 4 GB in size. (If you're encountering an "oops" message from this method, please wait a few hours and try again.)
+              SSH File Transfer Protocol (SFTP) files must be less than 4 GB in size.
+              Files set for scheduled fetches must be less than 4 GB in size.
+            
+          
+        
+
+        
+          Common reasons automatic uploads fail:
+
+            
+              The URL used for scheduled fetch is roboted or doesn't have permission settings for Merchant Center to download the data feed.
+              The URL used for scheduling isn't working or redirects to a page that doesn’t contain the data feed.
+            
+          
+          Compressed files must be smaller than 500 MB.
+             
+          
+        
+
+        Here are some of the most common errors encountered when using SFTP:
+
+        
+          
+            
+              Issue
+              Solution
+            
+          
+          
+            
+              
+              Server not found error
+              
+              
+              For SFTP, verify that you're signing on to {sftp username}@partnerupload.google.com with a specified server port of 19321. If you're using an SFTP client, you may need to prefix the host name address with the ‘sftp://’ protocol (for example, sftp://partnerupload.google.com).
+              
+            
+            
+              
+              Username or password incorrect
+              
+              
+              You can verify you're using the correct username by signing in to your Google Merchant Center account. Once you're signed in, select SFTP / GCS under the 3-dot icon menu. If you’ve set them up, you'll see your username displayed under the Username section for each service.
+
+              
+                Your SFTP password isn't displayed in your account for security purposes. If you've lost your password, you'll need to reset it 
+              
+            
+            
+              
+              'Filename not allowed' error
+              
+              
+              Ensure that your filename doesn't contain spaces. The name of your file should exactly match the name of the filename that you registered in your account.
+              
+            
+            
+              
+              You don't have a data feed registered with this name
+              
+              
+              Ensure that the name of the file you're submitting via SFTP exactly matches the file name provided when registering your data feed.
+              
+            
+            
+              
+              'SFTP connection reset by peer' error
+              
+              
+              The Internet connection to our SFTP server was lost. Try uploading your file again. 
+                 
+              
+            
+          
+        
+
+        
+          For specific problems with SFTP not answered within this page read this article.
+      
+    
+  
+
+             Was this helpful?How can we improve it?YesNoSubmit       

@@ -1,0 +1,59 @@
+ Set up your account
+  Buy on Google for Search and Shopping will no longer be available starting September 26, 2023. Eligible merchants will be able to use Buy on Google for YouTube in the US. Learn more about Enabling Buy on Google for YouTube.
+
+
+
+
+
+This article details how to create and set up the accounts you need to participate in Buy on Google.
+
+To make your business information available for Shopping ads and listings, you need to provide us with specific information in Merchant Center. To get started, follow these steps:
+
+
+  Create a Merchant Center account. Provide basic information, such as contact information and location, then agree to the Terms of Service.
+
+    
+      Note: You need a Google Account before you can register for a Merchant Center account. If you don't already have a Google account, create one here.
+    
+  
+  Set up your user roles.
+  Set up your Merchant Center account. Click the tools icon  then click Business information.
+  In the "About your business" tab, enter the appropriate information.
+  Verify and claim your business' website URL. Make sure your URL begins with "http://" or "https://" and is not a port, fragment, or IP address.
+    
+      If your business does not have a website, you’ll need to:
+        
+          Leave the website field blank, but fill out all other fields under Business information
+          Leave the link [link] attribute blank in your feeds or in the content API
+        
+      
+    
+  
+  Make sure your business follows the Merchant Center guidelines.
+
+
+
+  Note: You can participate as a websiteless store by not providing the link [link] attribute. However, if you’ve claimed your website in Merchant Center before, you won't be able to remove the website.
+
+
+After your account is set up, click “Growth” and then “Manage Programs.” Then, to get started with Buy on Google:
+
+
+  Confirm that you meet the participation criteria and business country location requirements.
+  Link your payment service provider.
+  Set up your business information.
+  Verify your ID for your payment profile.
+  Set up your product data.
+  Set up your shipping settings.
+  Set up your returns settings, return address, and return policy.
+  Submit for review.
+  Upon approval, Buy on Google will be enabled in your account.
+
+
+
+
+
+  Need help? Click here to contact Buy on Google support.
+
+
+             Was this helpful?How can we improve it?YesNoSubmit       

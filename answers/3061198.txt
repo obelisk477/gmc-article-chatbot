@@ -1,0 +1,1579 @@
+ Local product data specification
+
+
+
+  Use this specification to format your product information to successfully show your local products on Google. Submit your product data in the right format - it allows you to create successful local inventory ads and free local product listings.
+
+  The product information you submit using the attributes below forms the foundation for your ads and free local listings. Make sure everything you submit is of the quality you would show to a customer.
+
+  This article lists all of the attributes you can provide in your products feed to implement local inventory ads and free local listings.
+
+
+Primary feeds
+
+To use an existing primary feed that has not been enabled for local inventory ads or free local listings, you will need to enable the local extension and select your destinations. To enable local destinations:
+
+
+  Sign in to your Merchant Center account.
+  Click Products.
+  Click Feeds.
+  Select the primary feed you wish to modify.
+  Add local inventory ads or free local product listings as a destination for all countries and languages of this feed.
+
+
+
+  Note: If you submit separate primary feeds for both online (Shopping ads and free product listings) and local offers, make sure that you don't submit the same products in both feeds.
+
+
+Google recommends submitting all of your products in a single feed for both local inventory ads and free local listings. For newly created feeds, all applicable feed destinations can be selected during feed creation. Learn how to create a primary feed. For existing feeds, use primary feed settings to opt into local inventory ads and/or free local listings as additional destinations. If you need to exclude products from either Shopping ads or local inventory ads and free local product listings, you may use the excluded destination [excluded_destination] attribute. Learn more about excluded destination
+
+If you have a legacy product feed created before October 3rd, 2019, this doesn't apply to you and you can continue to submit offers in separate feeds.
+
+Submit a primary feed
+
+File type: You can use either a delimited text file (recommended), XML, or API.
+
+Registering a new feed: Follow the standard steps to register a new feed.
+
+Please note that products may take up to 2 days to appear after submission.
+
+Important: Some attributes in this product data specification contain spaces and underscores. To make sure you submit attributes with correct characters and spacing, follow the guidelines below for your file type:
+
+
+
+  Tab-delimited feeds: Spaces are required. If the attribute has underscores, use a space instead of the "_".
+  XML feeds or XML API: Underscores are required, and are converted into white space when received
+  JSON API: Underscores are required, and are converted into white space when received
+
+
+
+Summary of attribute requirements
+
+
+  
+    
+      Attribute
+      Submission requirements
+    
+    
+      
+      Description [description]
+
+      ID [id]
+
+      Image link [image_link]
+
+      Title [title]
+      
+      Required for all products you sell in stores.
+    
+    
+      
+      GTIN [gtin]
+      
+      
+      Required for all new products with a GTIN assigned by the manufacturer.
+
+      Optional (strongly recommended) for all other products.
+      
+    
+    
+      
+      Brand [brand]
+      
+      
+      Required for all new products (except movies, books, and musical recording brands).
+
+      Optional for all other products.
+      
+    
+    
+      
+      Condition [condition]
+      
+      
+      Required if your product is used or refurbished.
+
+      Optional for new products.
+      
+    
+    
+      
+      Energy efficiency class [energy_efficiency_class]
+
+      Minimum energy efficiency class [min_energy_efficiency_class]
+
+      Maximum energy efficiency class [max_energy_efficiency_class]
+      
+      
+      Required if your products target any of the EU member states, the United Kingdom, or Switzerland.
+
+      Optional if your products don't target any of the EU member states, the United Kingdom, or Switzerland.
+      
+    
+    
+      
+      Excluded destination [excluded_destination]
+      
+      
+      Recommended if you're using a single primary feed to submit product data for both online and local offers.
+
+      Use this attribute to exclude products which are not sold in stores from appearing in your local inventory ads and free local listings.
+      
+    
+    
+      
+      GTIN [gtin]
+
+      MPN [mpn]
+
+      Brand [brand]
+      
+      
+      Optional
+
+      If you're using a legacy local products feed to submit product data for local offers, you may use these attributes to match the products you sell both online and in-store across your products feed and your local products feed. To do this, you have 2 options:
+
+      
+        Match ID [id] to matching ID [webitemid] value
+        Match GTIN [gtin] + brand [brand] or MPN [mpn] + brand [brand] values
+      
+      If you’re using any unique product identifiers to match, you need to include the condition [condition] attribute in this feed.
+    
+    
+      
+      Price [price]
+
+      Sale price [sale_price]
+
+      Sale price effective date [sale_price_effective_date]
+
+      Unit pricing measure [unit_pricing_measure]
+
+      Unit pricing base measure [unit_pricing_base_measure]
+      
+      
+      Recommended Price [price], sale price [sale_price], and sale price effective date [sale_price_effective_date] can be submitted in the primary feed if the product price is consistent across stores.
+
+       
+
+      Required Price [price], sale price [sale_price], and sale price effective date [sale_price_effective_date] are required in the primary feed when using merchant-hosted local storefront (basic).
+      Required Unit pricing measure [unit_pricing_measure] and unit pricing base measure [unit_pricing_base_measure] are required when regulated by local laws or regulations.
+    
+    
+      
+      Pickup method [pickup_method]
+
+      Pickup SLA [pickup_SLA]
+      
+      
+      If you want to allow people to purchase products online and pick them up in store, you will need to provide these 2 attributes:
+
+      
+        Pickup method [pickup_method] and pickup SLA [pickup_SLA] may also be submitted at the store level in your local products inventory feed.
+      
+
+      Learn more about pickup today, pickup later for local inventory ads and pickup later for Shopping ads.
+      
+    
+    
+      
+      Link [link]
+
+      Link for merchant hosted local storefront [link_template]
+
+      Mobile link for merchant hosted local storefront [mobile_link_template]
+
+      Ads redirect [ads_redirect]
+      
+      
+      Optional if you want to participate in a merchant hosted local storefront.
+
+      Link [link] is required for merchant hosted local storefront (basic).
+
+      Link for merchant hosted local storefront [link_template] is required for merchant hosted local storefront (full).
+
+      Mobile link for merchant hosted local storefront [mobile_link_template] and ads redirect [ads_redirect] are optional.
+      
+    
+  
+
+
+Important note (XML only): If you're updating your Merchant Center feed in XML for any of the attributes listed below, you must add the Google Merchant Center namespace declaration. Otherwise, your feed may not process correctly.
+
+Required identification attributes
+
+These attributes tell us basic information about your products and are required for all items.
+
+ID [id] - An identifier of the item
+
+  The identifier for each item is unique across all stores, and cannot be reused between feeds of the same type for the same country in the same language.
+
+  When to include: Required for all of the items in your feed.
+
+  
+    
+      
+        Type
+        String
+      
+      
+        Text/Tab delimited example
+        421486
+      
+      
+        XML example
+        <g:id>421486</g:id>
+      
+    
+  
+
+  Important:
+
+  
+    Starting and trailing whitespaces and carriage returns (0x0D) are removed.
+    Each sequence of carriage return (0x0D) and whitespace characters (Unicode characters with the whitespace property) is replaced by a single whitespace (0x20).
+    Only valid unicode characters are accepted, excluding the following characters:
+      
+        Control characters (except carriage return 0x0D)
+        Function characters
+        Private area characters
+        Surrogate pairs
+        Non-assigned code points (in particular, any code point larger than 0x10FFFF)
+      
+    
+    When an item is submitted, the ID can't change when you update your data feed or be used for a different product at a later time.
+    If you're using ID for Shopping campaigns, we recommend that you only use lowercase or case-insensitive characters.
+  
+
+
+
+Title [title] - Title of the item
+
+  The name of your item. Google recommends that you include characteristics (such as color or brand) in the title that differentiate the item from other products. If there's a match, Google may serve your online item or Google Catalog data, instead.
+
+  When to include: Required for all of the items in your feed.
+
+  
+    
+      
+        Type
+        Text (string), fewer than 70 characters
+      
+      
+        Text/Tab delimited example
+        Netgear ReadyNAS Duo
+      
+      
+        XML example
+        <g:title>Netgear ReadyNAS Duo</g:title>
+      
+    
+  
+
+  Important:
+
+  
+    Follow our editorial guidelines closely. For example, do not include any promotional text such as "Free shipping," and do not use BLOCK CAPITALS.
+    For variant products, you're required to include the common title of the variant items. For example, if “Mens Pique Polo Shirt” is available in red and blue colors, you can have one of the following titles:
+      
+        Mens Pique Polo Shirt (Can be used for both variants)
+        Mens Pique Polo Shirt - Red (For the red shirt)
+        Mens Pique Polo Shirt - Blue (For the blue shirt)
+      
+    
+  
+
+
+
+Description [description] - Description of the item
+
+  Include only information relevant to the product. Describe its most relevant attributes, such as size, material, intended age range, special features, or other technical specifications. You should also include details about the product's visual attributes (for example: shape, pattern, texture, and design), since we may use this text to find your item.
+
+  We recommend that you enter around 500-1,000 characters, but you can submit up to 5,000 characters. Descriptions should follow standard grammar rules and end with a punctuation mark.
+
+  When to include: Required for all of the items in your feed.
+  Content API v2 (JSON): "description": "Solid red, queen-sized bed sheets made from 100% woven polyester 300 thread count fabric. Set includes one fitted sheet, one flat sheet, and two standard pillowcases. Machine washable; extra deep fitted pockets."
+
+Content API v2 (XML): <description>Solid red, queen-sized bed sheets made from 100% woven polyester 300 thread count fabric. Set includes one fitted sheet, one flat sheet, and two standard pillowcases. Machine washable; extra deep fitted pockets.</description>
+
+
+  
+    
+      
+        Type
+        Text
+      
+      
+        Character limit
+        5,000
+      
+      
+        Text (TSV)
+        Solid red, queen-sized bed sheets made from 100% woven polyester 300 thread count fabric. Set includes one fitted sheet, one flat sheet, and two standard pillowcases. Machine washable; extra deep fitted pockets.
+      
+      
+        XML (Feeds)
+        <description>Solid red, queen-sized bed sheets made from 100% woven polyester 300 thread count fabric. Set includes one fitted sheet, one flat sheet, and two standard pillowcases. Machine washable; extra deep fitted pockets.</description>
+      
+    
+  
+
+  Important:
+
+  
+    Make sure to follow Google's editorial guidelines closely. For example, do not include any promotional text such as "Free shipping", do not use BLOCK CAPITALS, and do not include a description of your brand or company.
+    Additionally, the following information should not be included in descriptions:
+      
+        Links to your store or other websites
+        Billing, payment, or sales information
+        References to internal categorization systems, for example: "Toys & Games > Toys > Baby Dolls"
+        Comparisons to other products beyond the item you’re selling, for example: “even better/faster/larger than X”
+        Details about other products, accessories, or similar items available.
+      
+    
+  
+
+
+
+Image link [image_link] - URL of an image of the item
+  
+    This is the URL of the main image for a product and is the first image customers see on product detail pages.
+
+    If you have multiple different images of the product, submit the main image using this attribute, and include all other images in the additional image link [additional_image_link] attribute.
+
+    Image size:
+
+    
+      Submit the largest, highest resolution, full-size image you have for the product, up to 16MB file size.
+      Recommended image size is at least 800 x 800 pixels.
+      For apparel products, images must be at least 250 x 250 pixels and can't be larger than 64 megapixels. For all other products, images must be at least 100 x 100 pixels and can't be larger than 64 megapixels.
+      Do not scale up images or submit thumbnails. We recommend the product to take between 75-90% of the full image.
+    
+
+    When to include: Required for all of the items in your feed.
+    Content API v2 (JSON): "imageLink": "http://www.example.com/image1.jpg"
+
+Content API v2 (XML): <image_link>http://www.example.com/image1.jpg</image_link>
+
+
+    
+      
+        
+          Type
+          URL (Must start with 'http://' or 'https://')
+        
+        
+          Character limit
+          2,000
+        
+        
+          Text (TSV)
+          http://www.example.com/image1.jpg
+        
+        
+          XML (Feeds)
+          <g:image_link>http://www.example.com/image1.jpg
+          </g:image_link>
+        
+      
+    
+
+    By meeting the requirements and recommendations below, you can improve the shopping experience for customers.
+
+    Requirements:
+
+    
+      If you have no image of the item, you cannot submit the item.
+      The following types of images are also not allowed:
+        
+  Placeholder or incorrect product images
+  Generic images, graphics, or illustrations that are not the actual product images, except for products in the 'Hardware' (632) or 'Vehicles and parts' (888) categories, which allow graphics and/or illustrations of the actual product
+  Single color images that are only a square of color, except for products in the 'Vehicle Paint' (3812), 'Craft Paint, Ink & Glaze' (505378), and 'Painting Consumables' (503740) categories
+  Images containing promotional elements (for example: calls to action such as “buy”, service-related information such as extended warranty, free shipping, price information, promotional adjectives such as “best, cheap”, condition or compatibility such as new, 2-piece, adaptable) or names and/or logos of merchants regardless if the above mentioned elements overlay the product. This also applies to watermarks with promotional elements or names and/or logos of merchants
+  Images containing obstructing content (for example: watermarks, brand names and/or logos) that overlay the product being sold
+  Images that include borders
+  Images of a bundle that do not show the entire bundle
+  Images of multipack that do not display a single unit of the product
+  Landing pages with no image or placeholder images that do not show the actual product are also not allowed
+
+
+      
+      Make sure that the image you provide for each item matches the values provided in the color [color], pattern [pattern], and material [material] attributes, or your item might be disapproved.
+    
+
+    Recommendations:
+
+    
+      If you can't provide the appropriate images to submit your items as variants, you may list your variant products as a single item with multiple values for the variant attributes and provide the available image.
+      The image must accurately display the product and include minimal or no product staging.
+      For variants based on color, each individual variant item you submit must have an image that displays the product in a single color.
+      The main image should be taken on a solid white, gray, or light colored background.
+      The main image of a product should include a main and/or clear view of the product being sold. Additional views of the product (other than the main view) should be submitted in the additional image link [additional_image_link] attribute.
+    
+
+    Formatting:
+
+    
+      The accepted image formats are non-animated GIF (.gif), JPEG (.jpg/.jpeg), PNG (.png), BMP (.bmp), and TIFF (.tif/.tiff) and the file extensions for these images should correspond to their format.
+      The accepted URL protocols are "http" and "https". Any symbols used within the image URL must be replaced by URL encoded entities (for example: comma = %2C).
+      Google recommends that you submit stable URLs for your images and only update the URL if the actual image of the product has changed. This is especially important if you use a content delivery network to host images, and it makes sure that Google can correctly crawl your images.
+    
+
+    Cropping:
+
+    We may automatically crop your image to focus more on the product. To opt out of this feature, contact us.
+  
+
+
+
+Condition [condition] - Condition or state of the item
+  
+    Google allows the promotion of quality second-hand products. Google also allows the promotion of refurbished products as long as they comply with local laws and regulations and with our policies.
+
+    There are only 3 accepted values:
+
+    
+      New [new]: The product is brand-new and has never been used. It is unopened in its original packaging.
+      Refurbished [refurbished]: The product has been professionally restored to working order, is "as new", and comes with warranty. The packaging may or may not be the original packaging. This is sometimes referred to as "remanufactured".
+      Used [used]: Use this value if new and refurbished don't apply. For example, if the product has been used before, is a refilled printer cartridge, the original packaging has been opened, or the original packaging is missing.
+    
+
+    When to include: Required if your product is used or refurbished. Optional for new products.
+    Content API v2 (JSON): "condition": "used"
+
+Content API v2 (XML): <condition>used</condition>
+
+
+    
+      
+        
+          Type
+          Only 3 values are accepted:
+          
+            New [new]
+            Refurbished [refurbished]
+            Used [used]
+          
+          
+        
+        
+          Text (TSV)
+          
+          used
+          
+        
+        
+          XML
+          <g:condition>used</g:condition>
+        
+      
+    
+
+    Important: If you're submitting the attribute names in English, you'll need to provide the attribute values in English as well.
+  
+
+
+
+GTIN [gtin] - Global Trade Item Number (GTIN) of the item
+
+  Use the GTIN attribute to submit Global Trade Item Numbers (GTINs) in one of the following formats:
+
+  
+    UPC (in North America / GTIN-12): 12-digit number. 8-digit UPC-E codes should be converted to 12-digit codes.
+    EAN (in Europe / GTIN-13): 13-digit number.
+    JAN (in Japan / GTIN-13): 8 or 13-digit number.
+    ISBN (for books): 10 or 13-digit number. If you have both, only include the 13-digit number. ISBN-10 are deprecated and should be converted to ISBN-13.
+    ITF-14 (for multipacks / GTIN-14): 14-digit number.
+  
+
+  
+    
+      
+        Where to include
+        Required for all new products with a GTIN assigned by the manufacturer
+      
+      
+        Type
+        8-, 12-, 13-, or 14-digit number (UPC, EAN, JAN, or ISBN)
+      
+      
+        Character limit
+        50
+      
+      
+        Text/Tab delimited
+        3234567890126
+      
+      
+        XML (Feeds)
+        <g:gtin>3234567890126</g:gtin>
+      
+    
+  
+
+  Important:
+
+  
+    We accept only valid GTINs as defined in the official GS1 validation guide, which includes these requirements:
+      
+        The checksum digit is present and correct.
+        The GTIN is not restricted (GS1 prefix ranges 02, 04, 2).
+        The GTIN is not a coupon (GS1 prefix ranges 98 - 99).
+      
+    
+  
+
+
+
+Brand [brand] - Brand of the item
+
+  When to include: Required for all new products (except movies, books, and musical recording brands). Optional for all other products.
+  Content API v2 (JSON): "brand": "Acme"
+
+Content API v2 (XML): <brand>Acme</brand>
+
+
+  
+    
+      
+        Type
+        Text
+      
+      
+        Character limit
+        70
+      
+      
+        Text (TSV)
+        Acme
+      
+      
+        XML (Feeds)
+        <g:brand>Acme</g:brand>
+      
+    
+  
+
+  Important: Do not provide your store name as the brand unless you manufacture the product.
+
+
+
+Required energy efficiency class attributes (EU only)
+
+The energy efficiency class [energy_efficiency_class], minimum energy efficiency class [min_energy_efficiency_class], and maximum energy efficiency class [max_energy_efficiency_class] attributes are optional, but you may be required to provide this information based on local laws or regulations. For example, if your products target any of the EU member states, the United Kingdom, or Switzerland, consider the legal requirements on this matter defined in the national implementation acts of the EU directive 2017/1369 and any other applicable local law.
+
+Energy efficiency class [energy_efficiency_class], minimum energy efficiency class [min_energy_efficiency_class], maximum energy efficiency class [max_energy_efficiency_class]
+  
+    This attribute allows you to specify the required energy efficiency class values for your product.
+      When to include: It’s strongly recommended that you submit the energy efficiency class, minimum energy efficiency class, and maximum energy efficiency class attributes for applicable products. You might need to provide this class for these types of products:
+    
+
+    
+      
+        
+          
+            Refrigerators
+            Ovens
+          
+          
+            Freezers
+            Water heaters
+          
+          
+            Washing machines
+            Hot water storage appliances
+          
+          
+            Tumble dryers
+            Air conditioners
+          
+          
+            Combined washer dryers
+            Electrical lamps
+          
+          
+            Wine-storage appliances
+            Luminaires
+          
+          
+            Dishwashers
+            Televisions
+          
+        
+      
+
+      
+        
+          
+            Type
+            
+            Accepted values:
+
+            
+              A+++
+              A++
+              A+
+              A
+              B
+              C
+              D
+              E
+              F
+              G
+            
+            
+          
+          
+            Text (TSV)
+            
+            A+
+            
+          
+          
+            XML example
+            <g:energy_efficiency_class>A+</g:energy_efficiency_class>
+          
+        
+      
+
+      Important:
+
+      
+        The minimum energy efficiency class [min_energy_efficiency_class] value must be smaller than the maximum energy efficiency class [max_energy_efficiency_class] value. For example, your scale must run from A to D rather than D to A.
+        The energy efficiency class [energy_efficiency_class] value you provide must be within the range of the minimum energy efficiency class value and the maximum energy efficiency class value. For example, if your range runs from A to D, your energy efficiency class value may not be G.
+      
+    
+  
+
+
+
+Recommended exclusion attributes
+
+
+  Note: The following attributes are recommended if you're using a single primary feed to submit product data for both online and local offers that show in ads and free product listings.
+
+
+You can use the excluded destination [excluded_destination] attribute to exclude products that are ineligible for a particular destination. Use it to control the different locations where your content can appear. For example, you could use this attribute if you want a product to appear in a Shopping ads campaign, but not in local offers.
+
+When to include: Recommended if you want to prevent your product from participating in certain types of ads and listings.
+
+Supported values:
+
+
+  Shopping ads [Shopping_ads]. Prevent your product offers from showing in Shopping ads. Learn about Shopping ads
+  Buy on Google listings [Buy_on_Google_listings]. Prevent your product offers from showing in Buy on Google. Learn more about selling on Google
+  Display ads [Display_ads]. Prevent your product offers from showing in dynamic remarketing ads. Learn about dynamic remarketing for retail
+  Local inventory ads [Local_inventory_ads]. Prevent your product offers from showing in local inventory ads. Learn more about local inventory ads
+  Free listings [Free_listings]. Prevent your product offers from showing in free listings. Learn more about showing yours products for free on Google
+  Free local listings [Free_local_listings]. Prevent your local product offers from showing for free on Google. Learn more about listing your local products for free on Google
+
+
+
+  Note: Some of the names for product destinations have been updated. You may have previously submitted the following values as destinations for your products: Shopping Actions, Surfaces across Google, Local surfaces across Google. These values will still be accepted, but we recommend that you update your products to include the new values for these destinations: Buy_on_Google_listings, Free_listings, Free_local_listings.
+
+
+
+Format
+
+Follow these formatting guidelines to make sure we understand the data you're submitting.
+
+
+  
+    
+      Supported values
+      Shopping_ads, Buy_on_Google_listings, Display_ads, Local_inventory_ads, Free_listings, Free_local_listings
+    
+    
+      Repeated field
+      Yes
+    
+  
+
+
+
+  
+    
+      File format
+      Example value
+    
+    
+      Text feeds
+      Display_ads
+    
+    
+      XML feeds
+      <g:excluded_destination>Display_ads</g:excluded_destination>
+    
+  
+
+
+Repeated fields
+
+Text
+
+To submit multiple destinations that you would like to exclude, submit the attribute multiple times, once for each destination (recommended). For example:
+
+
+  
+    
+      Product data for an orthopedic dog bed
+    
+    
+      Attribute
+      Value
+    
+    
+      Title [title]
+      XXL Orthopedic Dog Bed
+    
+    
+      Excluded destination [excluded_destination]
+      Display_ads
+    
+    
+      Excluded destination [excluded_destination]
+      Shopping_ads
+    
+    
+      Excluded destination [excluded_destination]
+      Buy_on_Google_listings
+    
+  
+
+
+You can also separate each destination with a comma ( , ):
+
+Display_ads, Shopping_ads, Buy_on_Google_listings
+
+XML
+
+To submit multiple destinations to exclude for an XML feed, include a separate attribute for each excluded destination:
+
+<g:excluded_destination>Display_ads</g:excluded_destination>
+
+<g:excluded_destination>Shopping_ads</g:excluded_destination>
+
+<g:excluded_destination>Buy_on_Google_listings</g:excluded_destination>
+
+For more format API information, see the Content API for Shopping
+
+Matching attributes if you are using a legacy local products feed (optional)
+
+
+  Note: The following only applies if you are using a legacy local products feed.
+
+
+Matching ID [webitemid] - Match online and local IDs
+
+  If you can't match the ID [id] attribute in your local products feed to the ID in your products feed, you can use matching ID for matching. You’d submit different values for your ID, but the same value for matching ID and ID. This should always match the ID of the corresponding variant in your products feed, if one exists.
+
+  Since matching ID is only used for matching, multiple items may share the same matching ID if they map to the same item in your products feed.
+
+  When to include: Recommended for all items with different IDs/SKUs for online versus product.
+
+  
+    
+      
+        Type
+        Text (string)
+      
+      
+        Text (TSV)
+        WB1011
+      
+      
+        XML example
+        <g:webitemid>WB1011</g:webitemid>
+      
+    
+  
+
+  Important:
+
+  
+    Starting and trailing whitespaces and carriage returns (0x0D) are removed.
+    Each sequence of carriage return (0x0D) and whitespace characters (Unicode characters with the whitespace property) is replaced by a single whitespace (0x20).
+    Only valid unicode characters are accepted, with the exception of the following characters:
+      
+        Control characters (except carriage return 0x0D)
+        Function characters
+        Private area characters
+        Surrogate pairs
+        Non-assigned code points (in particular, any code point larger than 0x10FFFF)
+      
+    
+    Once an item is submitted, the matching ID [webitemid] can't change when you update your data feed or be used for a different product at a later point in time.
+  
+
+
+
+GTIN [gtin] - Global Trade Item Number (GTIN) of the item
+  
+    In this attribute, you'll include Global Trade Item Numbers (GTINs) for your products.
+
+    When to include: If you sell your items both in-store and online and cannot use the ID [id] attribute to match, you’ll need to use either matching ID [webitemid] or unique product identifiers as matching attributes.
+
+    If you’re using any unique product identifiers to match, you need to include condition in this feed.
+
+    
+      
+        
+          Type
+          Text (string)
+        
+        
+          Text (TSV)
+          0606449056822
+        
+        
+          XML example
+          <g:gtin>0606449056822</g:gtin>
+        
+      
+    
+  
+
+
+
+MPN [mpn] - Manufacturer Part Number (MPN) of the item
+  
+    This code uniquely identifies the product to its manufacturer. In particular, the combination of brand and MPN clearly specifies one product.
+
+    When to include: If you sell your items both in-store and online and cannot use the ID [id] attribute to match, you’ll need to use either matching ID [webitemid] or unique product identifiers as the matching attributes.
+
+    If you’re using any unique product identifiers to match, you need to include condition in this feed.
+
+    
+      
+        
+          Type
+          Text (string)
+        
+        
+          Text (TSV)
+          RND2150
+        
+        
+          XML example
+          <g:mpn>RND2150</g:mpn>
+        
+      
+    
+  
+
+
+
+Brand [brand] - Brand of the item
+  
+    When to include: If you sell your products both in-store and online and cannot use the ID [id] attribute to match, you’ll need to use either matching ID [webitemid] or unique product identifiers as the matching attributes.
+
+    If you’re using any unique product identifiers to match, you need to include condition in this feed.
+
+    
+      
+        
+          Type
+          Text (string)
+        
+        
+          Text (TSV)
+          Netgear
+        
+        
+          XML example
+          <g:brand>Netgear</g:brand>
+        
+      
+    
+  
+
+
+
+Apparel items
+
+Apparel items require several additional attributes in the primary feed:
+
+Item group ID [item_group_id] - Shared identifier for all variants of the same product
+  
+    All items that are variants of the same product need the same item group ID value. If you have a “Parent SKU” that's shared by all variants of a product, you can provide that as the item group ID value.
+
+    When to include: Required for Brazil, France, Germany, Japan, the UK, and the US for all items with variants that use these detailed product attributes: color [color], size [size], pattern [pattern], material [material], age group [age group], gender [gender], size type [size type], and size system [size_system]. Recommended for all other countries.
+    Content API v2 (JSON): "itemGroupId": "AB12345"
+
+Content API v2 (XML): <item_group_id>AB12345</item_group_id>
+
+
+    
+      
+        
+          Type
+          Alphanumeric code
+        
+        
+          Character limit
+          50
+        
+        
+          Text (TSV)
+          AB12345
+        
+        
+          XML (Feeds)
+          <g:item_group_id>AB12345</g:item_group_id>
+        
+      
+    
+
+    Important:
+
+    
+      The item group ID [item_group_id] attribute is different from the ID [id] attribute. An item group ID attribute has common values for a group of variants whereas the ID attribute should have unique values across a group of variants and for all other items, as well.
+      The values provided for item group ID should be unique between products, and only shared by items that are variants of the same product.
+      If you send us an item group ID attribute, we'll automatically look for variant attributes. If an item uses item group ID, make sure the item has at least one detailed product attribute.
+    
+  
+
+
+
+Color [color] - Color of the item
+
+  This defines the dominant color(s) for an item. When a single item has multiple colors, you can submit up to 2 additional values as accent colors:
+
+  
+    Combine the colors with "/" in order of prominence (dominant color first, then up to 2 accent colors). For example, a black shoe with green accents should have a color value of 'Black/Green'. In the case of non-deformable goods in Apparel like jewelry or wooden accessories where finishes or materials are equivalent to color, the finish or material name can be submitted in the color [color] attribute (for example: 'Mahogany' vs. 'Stainless Steel' vs. 'Rose Gold').
+    If you're using XML, represent the "/" with "#47;"
+  
+
+  When to include: Required for all products in an item group that vary by color and all apparel items in feeds that target Brazil, France, Germany, Japan, the UK, and the US. Recommended for all products for which color is an important, distinguishing attribute.
+  Content API v2 (JSON): "color": "Black"
+
+Content API v2 (XML): <color>Black</color>
+
+
+  
+    
+      
+        Type
+        Text
+      
+      
+        Character limit
+        100
+      
+      
+        Text (TSV)
+        Black
+      
+      
+        XML (Feeds)
+        <g:color>Black</g:color>
+      
+    
+  
+
+  What not to include:
+
+  
+    Color values that contain numbers (for example: '0 2 4 6 8').
+    Color values that contain non-alphanumeric characters (for example: '#fff000').
+    Single letter color values (for example: 'G') in Latin-based languages. Single-letter color values in Chinese/Japanese/Korean languages (for example: '红') are acceptable.
+    Color values that reference the product or product image (for example: 'see image').
+    Descriptive values that are not actually valid color names (for example: multicolor, various, variety, see image, N/A).
+    Long color values exceeding 40 characters.
+    Long color values that are aggregates of several other colors (for example: RedPinkBlue). Instead:
+      
+        If you're trying to indicate multiple colors for a single item (not product variants), specify a primary color, optionally followed by at most 2 secondary colors, separated by a "/." For example, replace RedPinkBlue with Red/Pink/Blue.
+        If you're trying to indicate multiple colors for multiple similar items (product variants), submit these as separate products each with the same item group ID and a different color value.
+      
+    
+  
+
+  A note on invalid submissions:
+
+  
+    If you submit a color value that violates the syntactic rules above, Google may reject the entire item at the time of feed submission.
+    Google regularly verifies the correctness of the attributes you submit, including color. If the values provided are found to be incorrect, Google may remove all of your items from the Shopping tab.
+  
+
+  Important:
+
+  
+    For variants, each different color or color combination must be submitted as its own item, in conjunction with the item group ID.
+    Use consistent names of colors across variants of the same product, as well as across multiple products of the same category.
+    The values you provide may be displayed to customers, so provide values that they will be able to understand.
+  
+
+
+
+Size [size] - Size of the item
+  
+    This indicates the size of a product. For ‘Apparel & Accessories’ items, you can also submit the size type [size_type] and size system [size_system] attributes to provide more details about your sizing.
+
+    
+      Submit only one attribute per item. If you provide multiple size attributes for the same item, only the first will be applied. Additional size attributes will be discarded, and you will receive a warning.
+    
+
+    When to include: Required for all of the products in an item group that vary by size. Required for all of the apparel items in the 'Apparel & Accessories > Clothing' and 'Apparel & Accessories > Shoes' product categories in product data that targets Brazil, France, Germany, Japan, the UK, and the US. Recommended for all of the products for which the size is an important, distinguishing attribute.
+
+    Content API v2 (JSON): "sizes": ["XL"]
+
+Content API v2 (XML): <size>XL</size>
+
+
+    
+      
+        
+          Type
+          Text
+          
+          If you're targeting the US, refer to the list of recognized values (US only)
+          
+          For all other countries, see example sizes.
+        
+        
+          Character limit
+          100
+        
+        
+          Text (TSV)
+          XL
+        
+        
+          XML (Feeds)
+          <g:size>XL</g:size>
+        
+      
+    
+
+    Important:
+
+    
+      For variants, each different size or size combination must be submitted as a separate item, in conjunction with the item group ID. Learn more about submitting apparel products
+      If sizes contain multiple dimensions, condense them into one value (for example: “16/34 Tall” for neck size 16 inches, sleeve length 34 inches, and “Tall” fit).
+      Use consistent size values across variants of the same product, as well as across multiple products of the same category. For example, within a group of t-shirts, use “S”, “M”, and “L” as sizes, not “S”, “Medium”, and “Lrg”.
+      You can use the same image for size variants if specific images aren't available, but we recommend that the link [link] attribute leads to a page which specifies all the details about the variant item.
+      The values you provide may be displayed to customers, so provide values that they'll be able to understand.
+      You can provide additional details about your sizing in the text string. For example, you can provide “3.5 Kid” or “3.5 Toddler”.
+      If your item is one size fits all or one size fits most, you can use the phrase "one size", "OS", "one size fits all", "OSFA", "one size fits most", or "OSFM" in this attribute.
+    
+
+    Example Sizing Values
+
+    Sizing values can be difficult to represent across different types of apparel products. It's not required to provide these exact values, but it may be helpful for you to standardize the size values of your apparel products. You can also use the size type [size_type] and size system [size_system] attributes to provide more information about the sizing of your products.
+
+    Tops, Outerwear, and Dresses
+
+    XXS, XS, S, M, L, XL, 1XL, 2XL, 3XL, 4XL, 5XL, 6XL
+    00, 0, 02, 04, 06, 08, 10, 12, 14, 16, 18, 20, 22, 24, 26, 28, 30, 32, 34
+
+    Bottoms
+
+    XXS, XS, S, M, L, XL, 1XL, 2XL, 3XL, 4XL, 5XL, 6XL
+    00, 0, 02, 04, 06, 08, 10, 12, 14, 16, 18, 20, 22, 24, 26, 28, 30, 32, 34
+    23, 24, 26, 27, 28, 29, 30, 32, 34, 36, 38, 40, 42, 44
+    For Pants: 24x30, 24x32, 24x34
+
+    Plus, Petite, Big, Tall, Inseams, etc.
+
+    
+      When an item applies to a special size group, like Plus, Petite, Maternity, or Big and Tall, use the size type [size_type] attribute
+      When an item includes an inseam, consider using this format for the size: 30 Short, 30 Regular, 30 Long
+    
+
+    Shoes
+
+    
+      For US: 5, 5.5, 6, 6.5, 7, 7.5, 8, 8.5, 9, 9.5, 10, 10.5, 11, 11.5, 12, 12.5, 13, 13.5, 14, 14.5, 15, 15.5, 16.
+      For Europe: 37, 38, 39, 40, 41, 42, 43, 44, 45.
+    
+
+    
+      Note: When a shoe is available in different width sizes, an indication is recommended (for example: 9.5 M, 8 W, 12 N).
+    
+  
+
+
+
+Gender [gender] - Gender of the item
+  
+    When to include: Required for all of the products in an item group that vary by gender and for all apparel items in feeds that target Brazil, France, Germany, Japan, the UK, and the US. Recommended for all products for which gender is an important, distinguishing attribute.
+
+    
+				
+					Content API v2 (JSON)
+				
+				
+					"gender": "male"
+				
+			
+			
+				
+					Content API v2 (XML)
+				
+				
+					<gender>male</gender>
+				
+			
+
+    
+      
+        
+          Format
+          Only 3 values are accepted:
+          
+            male (male)
+            female (female)
+            unisex (unisex)
+          
+          
+        
+        
+          Text (TSV)
+          male
+        
+        
+          XML (Feeds)
+          <g:gender>male</g:gender>
+        
+      
+    
+
+    Important
+
+    
+      If you're submitting the attribute names in English, then you'll need to provide the attribute values in English as well.
+      This attribute is recommended rather than required for the ‘pinback buttons’, ‘tie clips’, ‘wristbands’, ‘shoe covers’, ‘shoe laces’, ‘spurs’, and ‘watch bands’ subcategories of ‘Apparel & Accessories’.
+    
+  
+
+
+
+Age group [age_group] - Target age group of the item
+  
+    Use the age group attribute to indicate the demographic of your item.
+
+    When to include: Required for all of the products in an item group that vary by age group and all apparel items in feeds that target Brazil, France, Germany, Japan, the UK, and the US. Recommended for all products for which the age group is an important, distinguishing attribute.
+
+    Content API v2 (JSON): "ageGroup": "adult"
+
+Content API v2 (XML): <age_group>adult</age_group>
+
+
+    
+      
+        
+          Format
+          There are only 5 accepted values:
+          
+            Newborn [newborn]
+            Infant [infant]
+            Toddler [toddler]
+            Kids [kids]
+            Adult [adult]
+          
+          
+        
+        
+          Text (TSV)
+          adult
+        
+        
+          XML (Feeds)
+          <g:age_group>adult</g:age_group>
+        
+      
+    
+
+    Important:
+
+    
+      The target market for each value is defined as follows:
+        
+          Newborn [newborn]: Up to 3 months old. Newborn sizes are often identified by the month (0-3) age range and/or the single value 'newborn' [newborn].
+          Infant [infant]: Between 3-12 months old. Infant sizes are often identified by the month (3-12) age range.
+          Toddler [toddler]: Between 1-5 years old. Toddler sizes are often identified by the month (12-24) or year (1-5) age range.
+          Kids [kids]: Between 5-13 years old. All sizes within this age group have been manufactured to fit a child in that age range.
+          Adult [adult]: Typically teens or older. All sizes within this age group have been manufactured to fit an adult or teen in this age range.
+        
+      
+      If you're submitting the attribute names in English, you must provide the attribute values in English as well.
+      This attribute is recommended rather than required for the ‘pinback buttons’, ‘tie clips’, ‘wristbands’, ‘shoe covers’, ‘shoe laces’, ‘spurs’, and ‘watch bands’ subcategories of ‘Apparel & Accessories’.
+      If an item clearly isn't just for children, it should be declared as 'adult' [adult] because only one value may be submitted per item.
+    
+  
+
+
+
+Pricing attributes (Optional)
+
+There are also some optional attributes that you can submit if they apply to you.
+
+Price [price] - National default price of the item
+  
+    If the product price is consistent across stores, use this attribute to submit this default price. Submit this price if product price is consistent across stores, or if you are implementing the merchant hosted local storefront basic feature.
+
+    Otherwise, any store-specific prices that you include in the local products inventory feed will override this attribute value.
+
+    If you’re implementing the merchant hosted local storefront (basic) feature, the pricing attributes are required and must match the price on your landing page.
+
+    
+      Note: Google assumes the currency based on the country of the store location. If the currency is set at item level, make sure it complies to ISO 4217 Standard.
+    
+
+    When to include: Recommended for all items.
+
+    
+      
+        
+          Type
+          Price (float)
+        
+        
+          Text (TSV)
+          299.99 USD
+        
+        
+          XML example
+          <g:price>299.99</g:price>
+        
+      
+    
+  
+
+
+
+Sale price [sale_price] - Advertised sale price of the item
+  
+    Use this attribute to submit the advertised sale price of the item.
+
+    Google recommends submitting the sale price effective date [sale_price_effective_date] attribute for any items with sale prices, as this will determine when your sale price should be live. If the sale price effective date isn't submitted, the sale price will be in effect for that item for as long as it's submitted in your feed.
+
+    When to include: Recommended for items on sale.
+
+    
+      
+        
+          Type
+          Number
+        
+        
+          Text (TSV)
+          249.99
+        
+        
+          XML example
+          <g:sale_price>249.99</g:sale_price>
+        
+      
+    
+  
+
+
+
+Sale price effective date [sale_price_effective_date] - Date range during which an item is on sale
+  
+    Used in conjunction with the sale price [sale_price] attribute. This attribute indicates the dates during which the sale price is effective. Learn more about sales price definitions
+
+    
+      Note: Time zone is optional. To add a time zone, include + or - the number of hours and minutes ahead or behind UTC time (for example: -08:00 for PST). If there is no time zone included, Google assumes UTC time zone for each store. We use 24-hour time for the hour values.
+    
+
+    
+      
+        
+          Type
+          Start and end dates separated by a forward slash (/). The start is specified by the format (YYYY-MM-DD), followed by the letter "T", the time of the day when the sale starts, followed by an expression of the time zone for the sale, as defined by the ISO 8601 standard. The end date should be in the same format. If the timezone is not specified, UTC is assumed.
+        
+        
+          
+          Text (TSV)
+          
+          UTC example: 2021-07-19T17:00:00/2021-07-27T05:00:00
+          PST example: 2021-07-19T09:00:00-08:00/2021-07-26T21:00:00-08:00
+        
+        
+          XML
+          <g:sale_price_effective_date>2021-07-19T17:00:00/2021-07-27T05:00:00</g:sale_price_effective_date>
+        
+      
+    
+  
+
+
+
+
+  Unit pricing measure [unit_pricing_measure] - Define the measure and dimension of your product
+
+  
+    Use the unit pricing measure [unit_pricing_measure] attribute to define the measure and dimension of your product. This value allows customers to understand the exact cost per unit for your product.
+      
+      When to include: Optional for each product, except when regulated by local laws or regulations.
+
+    
+      
+        
+          Type
+          Positive number plus unit
+        
+        
+          Text (TSV)
+          1.5kg
+        
+        
+          XML example
+          <g:unit_pricing_measure>1.5kg</g:unit_pricing_measure>
+        
+      
+    
+  
+
+
+
+
+  Unit pricing base measure [unit_pricing_base_measure] - Include the denominator for your unit price
+
+  
+    The product's base measure for pricing (for example, "100ml" means the price is calculated based on 100 milliliter units). If you use unit pricing measure [unit_pricing_measure], then use unit pricing base measure to include the denominator for your unit price. To make the unit prices more comparable for all ads and free local listings on a page, yours might show a different base measure than what you provide here.
+
+    When to include: Optional, except when required by local laws or regulations.
+
+    
+      
+        
+          
+            Type
+            Integer+unit
+          
+          
+            Text (TSV)
+            100g
+          
+          
+            XML example
+            <g:unit_pricing_base_measure>100g</g:unit_pricing_base_measure>
+          
+        
+      
+    
+  
+
+
+
+Store pickup attributes (Optional)
+
+You can highlight the store pickup option by adding the following 2 attributes to your feed. Add these attributes to your primary feed for any items where the values are true in all stores (for example, a customer can pick up the XYZ television in any of your stores nationally).
+Pickup method [pickup_method] - Store pickup option for the item
+
+
+  Specify whether store pickup is available for this offer and whether the pickup option should be shown as buy, reserve, ship to store, or not supported.
+
+  
+    Buy [buy]: The entire transaction occurs online
+    Reserve [reserve]: The item is reserved online and the transaction occurs in-store
+    Ship to store [ship_to_store]: The item is purchased online and shipped to a local store for the customer to pick up
+    Not supported [not_supported]: The item is not available for store pickup
+  
+
+  
+    
+      
+        Type
+        Text (string). Must be one of the specified values listed above.
+      
+      
+        Text (TSV)
+        buy
+      
+      
+        XML example
+        <g:pickup_method>buy</g:pickup_method>
+      
+    
+  
+
+Pickup SLA [pickup_SLA] - Item store pickup timeline
+
+
+  Specify the expected date that an order will be ready for pickup, relative to when the order is placed.
+
+  
+    Same day [same_day]: Indicates that the item is available for pickup the same day that the order is placed, subject to cutoff times.
+    Next day [next_day]: Indicates that the item is available for pickup the following day that the order is placed.
+    2-day [2-day]: Indicates that the item will be shipped to a store for a customer to pick up in 2 days.
+    3-day [3-day]: Indicates that the item will be shipped to a store for a customer to pick up in 3 days.
+    4-day [4-day]: Indicates that the item will be shipped to a store for a customer to pick up in 4 days
+    5-day [5-day]: Indicates that the item will be shipped to a store for a customer to pick up in 5 days.
+    6-day [6-day]: Indicates that the item will be shipped to a store for a customer to pick up in 6 days.
+    7-day [7-day]: Indicates that the item will be shipped to a store for a customer to pick up in 7 days.
+    Multi-week [multi-week]: Indicates that the item will be shipped to a store for a customer to pick up in more than one week.
+  
+
+  
+    
+      
+        Type
+        Text (string). Must be one of the specified values listed above.
+      
+      
+        Text (TSV)
+        same_day
+      
+      
+        XML example
+        <g:pickup_sla>same day</g:pickup_sla>
+      
+    
+  
+
+
+Merchant hosted local storefront attributes (Optional)
+
+To use the merchant hosted local storefront, add the attributes ads redirect [ads_redirect] and link for merchant hosted local storefront [link_template] to your primary feed. You can also add the optional attribute mobile link for merchant hosted local storefront [mobile_link_template] to deliver a merchant hosted local storefront optimized for mobile devices and track mobile clicks.
+Link [link]
+
+
+  
+    When customers click your ad or designated free listing, if your account is enabled for the merchant hosted local storefront (basic) feature, they’re sent to a landing page on your website for the product. Set the URL for this landing page with the link [link] attribute.
+
+    Important:
+
+    
+      Use your verified domain name.
+      Start with http or https.
+      Use an encoded URL that complies with RFC 2396 or RFC 1738. For example, a comma would be represented as "%2C".
+      Don't link to an interstitial page unless legally required.
+    
+
+    
+      
+        
+          
+            Type
+            URL. (Must start with 'http://' or 'https://'.)
+          
+          
+            Text (TSV)
+            http://mikemart.com/123
+          
+          
+            XML
+            <g:link>http://mikemart.com/123</g:link>
+          
+        
+      
+    
+  
+
+Link for merchant hosted local storefront [link_template]
+
+
+  
+    When customers click your ad or free listing, if your account is enabled for the merchant hosted local storefront (full) feature, they’re sent to a landing page on your website for the product. Set the URL for this landing page with the link for merchant hosted local storefront [link_template] attribute.
+
+    Important:
+
+    
+      Include the store code {store_code} ValueTrack parameter. URL structures vary across websites. Store codes can be URL parameters or part of the URL path.
+      Verify and claim your website URL, and make sure the website URL registered in Merchant Center matches the domain in the link template. If the website URL doesn’t match the registered domain, learn how to resolve this issue.
+      Include URL tracking parameters in the ads redirect [ads_redirect] attribute only.
+    
+
+    
+      
+        
+          Type
+          URL. (Must start with 'http://' or 'https://'.)
+        
+        
+          Text (TSV)
+          http://mikemart.com/123?store={store_code}
+        
+        
+          XML
+          
+          <g:link_template>http://mikemart.com/123?store={store_code}</g:link_template>
+          
+        
+      
+    
+  
+
+Mobile link for merchant hosted local storefront [mobile_link_template]
+
+
+  
+    When customers click your ad or free listing, if your account is enabled for the merchant hosted local storefront (full) feature, they’re sent to a landing page on your website for the product.
+
+    The mobile link for merchant hosted local storefront [mobile_link_template] attribute lets you include a URL to a mobile-optimized version of your landing page. This mobile version will be shown to customers on mobile devices, like phones or tablets.
+
+    Important:
+
+    
+      Include the store code {store_code} ValueTrack parameter. URL structures vary across websites. Store codes can be URL parameters or part of the URL path.
+      Verify and claim your website URL, and make sure the website URL registered in Merchant Center matches the domain in the link for merchant hosted local storefront [link_template]attribute. If the website URL doesn’t match the registered domain, learn how to resolve this issue.
+      Include URL tracking parameters in ads redirect [ads_redirect] only.
+    
+
+    
+      
+        
+          Type
+          URL. (Must start with 'http://' or 'https://'.)
+        
+        
+          Text (TSV)
+          http://mikemart.com/123?store={store_code}
+        
+        
+          XML
+          
+          <g:mobile_link_template>http://mikemart.com/123?store={store_code}</g:mobile_link_template>
+          
+        
+      
+    
+  
+
+Ads redirect [ads_redirect]
+
+
+  When customers click your ad, if your account is enabled for the merchant hosted local storefront feature, they’re sent to a landing page on your website for the product.
+
+  Use ads redirect to set a URL that includes tracking parameters, which can help you better understand traffic to your landing page.
+
+  Important:
+
+  
+    Include the store code {store_code} ValueTrack parameter. URL structures vary across websites. Store codes can be URL parameters or part of the URL path.
+    Verify and claim your website URL, and make sure the website URL registered in Merchant Center matches the domain in the link template. If the website URL doesn’t match the registered domain, learn how to resolve this issue.
+    When you set up this attribute, a customer who clicks on your ad will be taken to the location in the ads redirect [ads_redirect] attribute instead of the ones you set in the link for merchant hosted local storefront [link_template] or mobile link for merchant hosted local storefront [mobile_link_template] attributes.
+  
+
+  
+    
+      
+        Type
+        URL. (Must start with 'http://' or 'https://'.)
+      
+      
+        Text (TSV)
+        http://mikemart.com/123?store={store_code}
+      
+      
+        XML
+        
+        <g:ads_redirect>http://mikemart.com/123?store={store_code}</g:ads_redirect>
+        
+      
+    
+  
+
+
+Additional attributes (Optional)
+
+Submit additional information about your products in your primary feed for more detailed ads or listings. See the product data specification for all of the possible attributes.
+ 
+
+
+              Was this helpful?How can we improve it?YesNoSubmit       

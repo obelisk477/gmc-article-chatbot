@@ -1,0 +1,198 @@
+ Buy on Google dashboard overview
+  Buy on Google for Search and Shopping will no longer be available starting September 26, 2023. Eligible merchants will be able to use Buy on Google for YouTube in the US. Learn more about Enabling Buy on Google for YouTube.
+
+
+
+
+
+Buy on Google reporting provides information about your account performance, sales, and various other aspects of your account. These reports may also help you identify your most popular products and monitor your operations on Buy on Google.
+
+This article explains the types of reports and metrics available in Buy on Google.
+
+How it works
+
+To access the Overview dashboard in Buy on Google:
+
+
+  Sign in to your Merchant Center account.
+  Select Performance from the page menu, then select Dashboard.
+
+
+The Overview dashboard contains the main Buy on Google metrics, grouped into three cards:
+
+
+  Sales & Orders: Track your ordered item sales, orders, and Average order value (AOV).
+  Operations: Track your shipped orders and days to ship.
+  Returns: Track your returns, returned items, and return rate.
+
+
+Each card has a “Related reports” section that links to reports with more specific metrics. Clicking on the title of a card or a related report opens the detailed view for these metrics. You can also view your daily metrics under the “Today’s Snapshot” feature in the Overview dashboard.
+
+Detailed view
+
+A detailed view has a bigger chart at the top, a table with the data in the chart below it and, if available, segmented views on the data.
+
+Data in the tables can be sorted by clicking on the headers. If time comparison is active, columns can be expanded by clicking on the <> icons, which include:
+
+
+  The value of that metric in the corresponding previous period
+  The absolute change
+  The percentage change
+
+
+You can sort these columns to present your data differently by clicking the column header. For example, you can view the top sales for the past month or the item with the highest increase in returns last week.
+
+Date selection
+
+On the top corner of each page you can see the current date reporting period for the whole page. By clicking on it, you can select specific dates. Enabling the “Compare” toggle will turn on comparison with a previous period, which is highlighted in yellow in the date picker. To change the time period:
+
+
+  Sign in to your Merchant Center account.
+  Select Performance from the page menu, then select Dashboard.
+  Click on the date in the top corner, then select the time period you want to apply.
+    
+      You can choose from two options:
+        
+          From the left column select from the preset periods of time (For example, Last 7 days or This month).
+          From the right column select a start and end date from the calendar.
+        
+      
+    
+  
+  Click on the “Compare” toggle to enable the time period comparison.
+  Click Apply.
+
+
+Once the time period comparison is active, the charts will show the metrics for the past data.
+
+Sales & Orders metrics
+
+
+  
+    
+      
+        Metric
+        Definition
+      
+      
+        Ordered items
+        Ordered items is the number of items ordered by customers during the selected date range.
+      
+      
+        Ordered item sales
+        Ordered item sales is the total price of items ordered, reported on the order date. This excludes shipping, taxes, and customer cancellations that happened within 30 minutes of the order being placed.
+      
+      
+        Orders
+        Orders is the number of orders for the selected date range. This excludes customer cancellations that happened within 30 minutes of placing the order.
+      
+      
+        Average order value (AOV)
+        Average order value (AOV) is the average value of an order for the selected date range.
+      
+      
+        Average order size (AOS)
+        Average order size is the average number of items in an order for the selected date range
+      
+    
+  
+
+  
+    Note: You can download reports for ordered item sales, orders, and average order value by clicking the 3-dot menu  on each card. Downloads are available in the following formats:
+
+    
+      .csv
+      Excel.csv
+      csv.gz
+      Excel.csv.gz
+    
+  
+
+
+Operations metrics
+
+
+  
+    
+      
+        Metric
+        Definition
+      
+      
+        Shipped orders
+        Shipped orders is the number of fully shipped orders, reported on the last shipment date.
+      
+      
+        Unshipped orders
+        Unshipped orders is the number of orders not shipped or partially shipped up until today.
+      
+      
+        Shipped item sales
+        Shipped item sales is the total price of items shipped and reported on the order date. This excludes shipping and taxes.
+      
+      
+        Item fill rate
+        Item fill rate is the percentage of items shipped and not rejected by the merchant, reported on the order date. This excludes unshipped items.
+      
+      
+        Order fill rate
+        Order fill rate is the percentage of orders fully shipped and not rejected by the merchant. This excludes unshipped orders.
+      
+      
+        Shipped items
+        Shipped items is the number of items that have been shipped, reported on the shipment date.
+      
+      
+        Unshipped items
+        Unshipped items is the number of items not yet shipped.
+      
+      
+        Days to ship
+        Days to ship is the number of days between the order being placed and the order being fully shipped, reported on the last shipment date.
+      
+      
+        Rejected items
+        Rejected items is the number of items canceled by the merchant, reported on the order date.
+      
+    
+  
+
+
+Returns metrics
+
+
+  
+    
+      
+        Metric
+        Definition
+      
+      
+        Returns
+        Returns is the total price of items sent back for return, reported on the date that the merchant accepted the return.
+      
+      
+        Returned items
+        Returned items is the total number of items sent back for return, reported on the date that the merchant accepted the return.
+      
+      
+        Return rate
+        Return rate is the total price of items returned, divided by the total sales of shipped items, reported on the order date.
+      
+    
+  
+
+
+
+  Need help? Click here to contact Buy on Google support.
+
+
+
+Related links
+
+
+  About Buy on Google insights
+  Buy on Google promotions reporting
+  Use the retailer standards dashboard
+
+             Was this helpful?How can we improve it?YesNoSubmit       

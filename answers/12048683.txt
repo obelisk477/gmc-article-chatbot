@@ -1,0 +1,89 @@
+ How to find support if you use a non-Google platform
+
+If you primarily use a platform other than Merchant Center (such as Shopify, WooCommerce, etc) to run your online retail business through Google, you may need to check that platform’s support offerings to help resolve issues with your account.
+  
+  The following are some popular third party platforms and links to resources that may help:
+
+
+  
+    
+      
+      Platform
+      
+      
+      Resource
+      
+    
+    
+      
+      Shopify
+      
+      
+      Support
+      
+    
+    
+      
+      WooCommerce
+      
+      
+      Support
+      
+    
+    
+      
+      GoDaddy
+      
+      
+      Support
+      
+    
+    
+      
+      BigCommerce
+      
+      
+      Support
+      
+    
+    
+      
+      LojaIntegrada
+      
+      
+      Support
+      
+    
+    
+      
+      Cafe24
+      
+      
+      Support
+      
+    
+  
+  
+  
+
+
+Resources in this help center
+
+There are some cases when you may need to take action in your linked Merchant Center account, even if you primarily use a different platform. Here are a list of those exceptions:
+
+
+  Promotions
+
+  
+    You may need to use Merchant Center to opt out of promotions. Learn more about managing promotions with third party partners
+  
+
+
+
+  Policy
+
+  
+    If you contact support regarding policy issues or account suspensions, agents may direct you to Merchant Center to make changes in your account.
+  
+
+             Was this helpful?How can we improve it?YesNoSubmit       

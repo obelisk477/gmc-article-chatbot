@@ -1,0 +1,252 @@
+ Buy on Google product data specification
+  Buy on Google for Search and Shopping will no longer be available starting September 26, 2023. Eligible merchants will be able to use Buy on Google for YouTube in the US. Learn more about Enabling Buy on Google for YouTube.
+
+
+
+
+
+To submit your products to Buy on Google, you’ll need to submit data in compliance with both the Shopping ads product data specification and the Buy on Google product data specification. The attributes documented here may be required in addition to those in the Shopping ads product data specification.
+
+Shopping Actions  How to set up data attributes Part 1 - Required attributes
+
+For subtitles in your language, turn on YouTube captions. Select the settings icon  at the bottom of the video player, then select "Subtitles/CC" and choose your language.
+
+
+
+
+ How to set up data attributes Part 2 - Recommended attributes
+
+
+  If you’re planning to create feeds using the Content API, you’ll find more information on the developer’s website. Learn more about the Content API for Shopping
+
+
+
+  How to use
+
+  
+    Once you join Buy on Google, all of the products in your existing product feed will be opted in by default. Any existing feeds in Merchant Center will automatically be opted in. If your account doesn't have any, you'll need to create a feed.
+
+    You can reference our example file (.xlsx), which lists required and recommended attributes for Buy on Google, as you're creating your feed.
+
+    
+      Note: We're not able to process files in the .xls format. The .xls example file is for illustration purposes in a spreadsheet program.
+    
+
+    You need to exclude any individual products from your product feeds that you don't want included in Buy on Google or are ineligible for Buy on Google. For information about prohibited items, review the Terms of Service in your Merchant Center account, the Shopping ads policies, Buy on Google content policies, and Google payments center content policies.
+
+    To exclude specific offers in your feed, use the excluded destination [excluded_destination] attribute and set the value to Buy_on_Google_listings
+
+    
+      
+        
+          Attribute
+          Value
+        
+        
+          ID [id]
+          B8888
+        
+        
+          Title [title]
+          table
+        
+        
+          Price [price]
+          $399.99 USD
+        
+        
+          Excluded destination [excluded destination]
+          Buy_on_Google_listings
+        
+      
+    
+
+    If you have an existing Shopping feed, you can use a supplemental feed to opt your products into Buy on Google.
+
+    
+      
+        
+          Attribute
+          Value
+        
+        
+          ID [id]
+          B8888
+        
+        
+          Minimum handling time [min_handling_time]
+          1
+        
+        
+          Maximum handling time [max_handling_time]
+          3
+        
+        
+          Quantity for Buy on Google [sell_on_google_quantity]
+          20
+        
+        
+          Included destination [included destination]
+          Buy_on_Google_listings
+        
+      
+    
+
+    Once you set up your feed and opt in products for Buy on Google, the Diagnostics section in Merchant Center provides issue reporting. The diagnostics page includes an overview of eligible products and issues to address. Learn more about Merchant Center diagnostics
+  
+
+
+Price & availability
+
+
+  
+    
+      Attribute
+      Format
+      Minimum requirements at a glance
+    
+    
+      Product fee [product_fee]
+      
+      Optional Additional fees related to the product. Examples fr_copie_privee:8.99EUR
+
+      us_az_tire_fee:25.99USD Syntax This attribute uses 2 sub-attributes:
+
+      
+        Type [type] (Required) The type of fee, selected from a set of supported values, such as: >fr_copie_privee or us_az_tire_fe
+        Amount [amount]  (Required) The total fee amount, ISO 4217.
+      
+      
+      Use this attribute to provide additional fees that must be paid when purchasing your product, for example government-imposed recycling fees or copyright fees. Make sure you still include the price attribute with the total price for the product.
+    
+    
+      Maximum purchase quantity [purchase_quantity_limit]
+      Optional The limit on the number of items your customers can buy in a single order Example 4 Syntax Any positive integer, 1 or greater
+      Only provide this attribute when there is a realistic limit on how many items your consumers can purchase in one order. Must be 1 or more.
+    
+    
+      Quantity for Buy on Google [sell_on_google_quantity]
+      Optional The total number of items available to sell on Google Example 50 Syntax Any positive integer, 1 or greater
+      This attribute helps you specify the quantity available in stock for a given product, allowing you to control the risk of out of stock. Google will take this value into account and decrement it with each order. Update this attribute as frequently as possible by making calls to the Inventory set API or through a supplemental feed.
+    
+  
+
+
+Detailed product description
+
+
+  
+    
+    
+    
+    
+  
+  
+    
+      Attribute
+      Format
+      Minimum requirements at a glance
+    
+    
+      Consumer notice [consumer_notice]
+      
+      Required for products with consumer warning labels Provide legally required warnings or disclosures Syntax Max 1000 characters
+
+      This attribute uses 2 sub-attributes:
+
+      
+        Notice type [notice_type] (Required) Use one the following supported values:
+
+          
+            Prop 65 [prop_65]
+            Safety warning [safety_warning]
+            Legal disclaimer [legal_disclaimer]
+          
+        
+        Notice message [notice_message] (Required) Details for the notice (such as cancer warning, choking hazard)
+      
+      
+      Add this attribute to display consumer warning or disclosure messages with your product, for example, indicating the presence of dangerous chemicals. The attribute can only contain text characters and the html tags <b>, <i>, and <br>.
+    
+  
+
+
+Returns
+
+
+  
+    
+      Attribute
+      Format
+      Minimum requirements at a glance
+    
+    
+      Return address label [return_address_label]
+      Optional Specify the identifier of a specific return address for certain products Example my label Syntax Max 100 characters
+      If you only have one return address (the default address), you do not need to make any updates to your feed. If you create multiple return addresses, you will need to add the return address label column to your feed. If the default address applies, keep this column blank. If a non-default return address applies, add the label name for that address.
+    
+    
+      Return policy label [return_policy_label]
+      
+      Optional Apply a non-standard return policy for specific products. Example my label Syntax Max 100 characters
+      
+      Use this attribute if your product has a non-standard return policy. If no value is provided your default configured return policy will be applied.
+    
+    
+      Return rule label [return_rule_label]
+      
+      Optional
+
+      Apply a non-standard return rule for specific products.
+
+      Example Needs oversized freight returns
+
+      Syntax Max 100 characters
+      
+      
+      If you need multiple return rules, you will need to add the return rule label column to your feed. You can create return rules, including the label for the return rule label, in the Merchant Center under “Settings,” then “Shipping and returns”. If a product has both returnless refunds and special return processing, then returnless refunds will take priority.
+
+      Note: Once you migrate to the new way to configure return rules, you'll create a new rule by specifying a price condition instead of creating a return_rule_label.
+      
+    
+  
+
+
+Shipping
+
+These attributes can be used together with the account shipping settings to help you provide accurate shipping information. Users rely on the shipping costs to help make choices about what to buy, so it's important to take the time to submit quality shipping information. Learn how to set up account shipping settings
+
+
+  
+    
+      Attribute
+      Format
+      Minimum requirements at a glance
+    
+    
+      Signature required [signature_required]
+      
+      Optional Example yes Supported values
+
+      
+        Yes [yes]: The product is subject to a signature on delivery policy.
+        
+          No [no]: The product does not require a signature on delivery.
+        
+      
+      
+      Apply a signature on delivery policy to certain items, such as fragile items, or items above a certain height.
+    
+  
+
+
+
+  Note: Buy on Google merchants need to choose “US” as their feed label if they want to use it. For existing feeds, “US” will be selected automatically. For new feeds, “US” will be suggested.
+
+
+
+
+  Need help? Click here to contact Buy on Google support.
+
+
+             Was this helpful?How can we improve it?YesNoSubmit       

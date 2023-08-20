@@ -1,0 +1,211 @@
+ Upgrade Vehicle Ads Smart Shopping campaigns to Performance Max campaigns with vehicle feedPerformance Max is the next generation of Vehicle Ads, with additional inventory and new features to help you reach your marketing goals across Google Ads.
+
+With Performance Max, you’ll get all of the same foundational features you already have with Vehicle Ads Smart Shopping campaigns. Plus, you’ll gain access to new inventory and automation insights, all from a single campaign.
+
+
+Benefits
+
+With Performance Max campaigns, you can:
+
+
+  Maximize your marketing objective by finding new customers across all Google channels and inventory: Access the full breadth of Google Ads inventory from a single campaign to engage customers for your specific goals and use Google’s real-time understanding of consumers to show up in the right moments.
+  Multiply conversions and conversion value by optimizing for the highest-ROI conversion opportunities: Your budget is optimized across channels in order to optimize for the highest value opportunities with the best of Google’s AI and attribution technology, customized to your business’s marketing objectives. Performance Max uses the best of Google Ads machine learning and attribution technology to help deliver better performance.
+  Multiply your expertise by sharing insights to help you answer strategic questions about your business: Understand how your AI is working and how you can improve your campaign. Find out which audiences, creatives, and search trends are impacting performance.
+  Get access to more robust reporting: The Insights report provides the audience and other insights not currently available in Smart Shopping reports.
+  Have equivalent features as Smart Shopping campaigns: Performance Max has equivalent features as Smart Shopping campaigns, plus additional functionality and inventory.
+
+
+
+Upgrade Details
+
+Upgrade timeline
+
+You’ll be able to create your own Performance Max Campaigns starting July 2023.
+
+If you choose not to upgrade early, your Vehicle Ads Smart Shopping campaigns will be automatically upgraded starting September 2023. You’ll be given a 60-day notice of the automatic upgrade through mandatory service announcements and other comms. After your campaigns are automatically upgraded, you’ll no longer be able to create new Smart Shopping campaigns.
+
+
+  Note: There is no self-upgrade tool to upgrade existing Vehicle Ads Smart Shopping campaigns to Performance Max campaigns. You either pause your old Vehicle Ads Smart Shopping campaigns and create the new Performance Max campaigns or wait for the auto-upgrade stage.
+
+
+How the Automatic Upgrade works
+
+Your campaign structure and settings, such as goals, budget, bid strategy, location targeting, creative assets, and vehicle feed, will automatically be transferred to a new Performance Max campaign via automatic migration. Campaign learnings will also be carried over to a new Performance Max campaign to maintain performance. The new PMax version of the campaign will have a different campaign name (named as “PMax: <original SSC name>”) and different campaign ID from the original campaign. If the original Smart Shopping campaign name is longer than 256 characters, it will initially be trimmed to 256 characters before being appended.
+
+The new Performance Max campaign with vehicle feed campaign will appear as “enabled” or “paused” (corresponding to the status of the original Vehicle Ads Smart Shopping campaign).
+
+The original Vehicle Ads Smart Shopping campaign will be automatically changed to “removed” status. While you won’t be able to edit, reactivate, or copy your Smart Shopping campaigns, you’ll still have access to the historical data in a read-only campaign in your Google Ads account.
+
+What happens after the upgrade to Performance Max
+
+After the upgrade, we recommend adding additional creative assets, such as text, images, and videos, to your Performance Max campaign to enable serving on additional inventory. You’ll also be able to add audience signals to speed up the machine learning optimization process.
+
+
+Frequently Asked Questions
+
+
+  Some advertisers have already migrated from Vehicle Ads to Performance Max. Why wasn’t I selected? When will I migrate?
+
+  
+    Select advertisers were initially part of a limited pilot in the second quarter of 2023. The upgrade to Performance Max for all advertisers will be rolled out early on in the third quarter of 2023, with all Vehicle Ad campaigns expected to be upgraded by the year end.
+  
+
+
+
+  Will a self-migration tool be available?
+
+  
+    Given the relative size of Vehicle Ads, a self-migration option won’t be made available. You need to manually upgrade your campaigns or wait for the automatic upgrade currently planned for September 2023.
+  
+
+
+
+  Is there a different migration timeline for Google Ads API users? What should I be doing in the short term?
+
+  
+    Performance Max with vehicle feeds has had API support since May 2023. If you weren’t part of the limited April pilot, no action is required. API support will be ready when Performance Max for vehicle feeds is ready for all advertisers.
+  
+
+  
+    Is there a different Vehicle Ads Smart Shopping campaign to Vehicle Performance Max migration timeline for SA360 users?
+
+    
+      The Vehicle Ads Product team is staying close to the Smart Shopping campaigns and SA360 team on timelines. As we receive more clarity on SA360 timelines, we will provide further guidance.
+    
+
+    
+      What is the recommended budget increase for the Performance Max Upgrade?
+
+      
+        It is recommended that advertisers increase budgets by 20%-25% to benefit from the advantages of Performance Max for vehicle feeds (New Formats and inventory, New Insights and Reporting) during initial testing.
+      
+
+      
+        Will Smart Shopping campaign history be ported over to Performance Max when my campaign is automatically upgraded?
+
+        
+          Campaign history won’t port over, but your previous campaign settings and budget will automatically be transferred to Performance Max with identical or comparable functionality. Your Smart Shopping campaigns will have the status “removed,” and historical performance statistics will still be available in your read-only Smart Shopping campaigns.
+        
+
+        
+          How can I view historical data from my Vehicle Ads Smart Shopping campaign once it's been upgraded to a Vehicle Ads Performance Max campaign?
+
+          
+            
+              After you upgrade to Performance Max, your previous Smart Shopping campaigns will be set to “removed” status and you won’t be able to edit or reactivate these campaigns.
+
+              However, you can still access your campaigns’ historical data by hovering over the upgraded status of your upgraded Performance Max campaign, by filtering for "removed" status in the campaigns page of Google Ads, or by clicking View Smart Shopping campaign from your upgraded Performance Max campaign's "Overview" page in the information bar at the top.
+            
+          
+        
+
+        
+          I paused or ended my Smart Shopping campaigns. What will happen to them?
+
+          
+            Campaigns that are paused will be eligible for upgrade and eventually be automatically upgraded, but kept in the same paused state. This is so you can easily restart your periodic and seasonal campaigns. If you don’t want your campaigns upgraded, you can set them to "removed" status. Campaigns with past end dates will be automatically set to “removed” status.
+          
+
+          
+            Will multiple Vehicle Ads Smart Shopping campaigns be combined into a single Vehicle Ads Performance Max campaign during the upgrade?
+
+            
+              No. Campaigns won’t be combined. A new Performance Max campaign will be created for each Smart Shopping campaign. Your active or paused Smart Shopping campaigns will be set to “removed” status after they're upgraded. Each new Performance Max campaign will optimize to the same goals as the original Smart Shopping campaigns.
+            
+
+            
+              How long will it take for the upgrade to complete?
+
+              
+                Depending on how many campaigns you try to upgrade at once, it may take a few minutes or up to a day to complete the upgrade for each campaign. During the upgrade, you won’t be able to make any changes to your Smart Shopping campaigns. Your Smart Shopping campaigns will continue running until the upgrade to Performance Max is complete.
+              
+            
+
+            
+              The campaign limit for Performance Max is 100 campaigns per account. What if my account has more than 100 Smart Shopping campaigns?
+
+              
+                We will grandfather in the Customer IDs that have more than 100 campaigns in their account, meaning each campaign will upgrade successfully. However, advertisers will be prevented from creating any new campaigns since they are past the 100 campaign limit.
+              
+            
+          
+
+          
+            Should I make any changes to the campaign structure before the auto-upgrade from Smart Shopping campaigns to Performance Max?
+
+            
+              No campaign structure changes are necessary for moving from Smart Shopping campaigns to Performance Max. The automatic upgrade process will use the campaign structure that currently exists in the account.
+            
+
+            
+              What performance impact do we expect by opting into Performance Max?
+
+              
+                While we are still testing this product, Performance Max with vehicle feed is essentially Vehicle Ads Smart Shopping campaigns with additional inventory and reach. Thus, we expect your volume to increase at your target goal. In the future, when vehicle feeds are integrated into additional surfaces, we expect volume and performance to further improve.
+              
+
+              
+                Once a new Performance Max with vehicle feed campaign is created, when can we expect it to start serving?
+
+                
+                  While most new Performance Max with vehicle feed campaigns will start serving in a few hours, note that new Performance Max with vehicle feed campaigns can take up to 48 hours to start serving. Keep this in mind when implementing account or campaign restructures.
+                
+
+                
+                  Will I have a chance to review settings before the newly upgraded Performance Max version of the campaign goes live?
+
+                  
+                    No. However, before enabling the Auto upgrade, we do robust testing in the back-end to ensure that all settings have been carried over correctly and campaign learnings have been carried over to ensure the same or better levels of performance.
+                  
+                
+
+                
+                  With Vehicle Ads upgrading to Performance Max, is there any change to the types of vehicles supported?
+
+                  
+                    No, the supported vehicles remain the same, as outlined in the Help Center.
+                  
+                
+              
+
+              
+                With Vehicle Ads upgrading to Performance Max, will availability expand to new countries?
+
+                
+                  No, the country availability for Performance Max with vehicle feeds remains unchanged, as outlined in the Help Center. We are exploring country expansion as a separate process independent of the Performance Max upgrade and we’ll be announcing via the regular channels when availability expands to more countries.
+                
+
+                
+                  What is new or added to the insights page with this upgrade?
+
+                  
+                    All standard reporting available in the Insights page generally for Performance Max campaigns, will be available for Performance Max with vehicle feed campaigns too. There are no additional reports available at this time.
+                  
+
+                  
+                    Are there any performance changes we can expect with the upgrade to Performance Max?
+
+                    
+                      As part of the auto-migration process, we don’t expect any changes to performance, as all the campaign settings, feeds, targeting, assets, and budgets are carried over as is along with the campaign learnings.
+
+                      If advertisers create their own new Performance Max versions of the campaigns before the auto-upgrade, then we expect the performance to remain the same, as long as all the settings and targeting remain the same. Advertisers should allow 30 days for their Performance Max campaigns to ramp up before comparing performance.
+                    
+                  
+
+                  
+                    Do Performance Max with vehicle feed campaigns have the same default 100% ROAS goal that Smart Shopping campaigns have? That is, if I’m using “Maximize Conversion Value” bid strategy and haven’t added a ROAS target, will the campaign still aim for a minimum 100% ROAS?
+
+                    
+                      Yes, if the bid strategy is set to “Maximize Conversion Value” with no target ROAS set, then the campaign will optimize for 100% ROAS as the default.
+                    
+                  
+                
+              
+            
+          
+        
+      
+    
+  
+
+             Was this helpful?How can we improve it?YesNoSubmit       

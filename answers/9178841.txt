@@ -1,0 +1,31 @@
+ How to fix: Missing value: Transit time
+  Buy on Google for Search and Shopping will no longer be available starting September 26, 2023. Eligible merchants will be able to use Buy on Google for YouTube in the US. Learn more about Enabling Buy on Google for YouTube.
+
+
+
+
+
+One or more of the values entered in Merchant Center for the estimated transit time of a shipping service are missing. Transit times are configured either with a single range (for example, “3-5 days”), or with multiple ranges based on ZIP code regions (for example, “3-5 days to Seattle, 1-2 days to Texas”). In order to configure multiple delivery ranges, you'll need to have delivery zones. Learn more about setting up delivery zones
+
+Instructions
+
+In order to correct the estimated transit times for the shipping services and destinations:
+
+
+  
+    Sign in to your Merchant Center account.
+  
+  Click the tools icon  then select Shipping and returns under “Tools.”
+  You should land on the "Shipping services" tab. To view and edit the details of the service that has invalid transit times, click the service name you want to edit under the “Service name” column. This will open the “Edit shipping service” form.
+  To update the transit time, scroll to the “Delivery time” section and enter your default minimum and maximum transit time in business days.
+  If you specify different transit times depending on geographic location, click Add destination to reference and/or add locations and enter the correct transit times for each of them.
+
+
+Related links
+
+
+  Shipping and service sub-attribute
+  Set up estimated delivery time and transit time
+  About shipping policies for Buy on Google
+
+             Was this helpful?How can we improve it?YesNoSubmit       

@@ -1,0 +1,35 @@
+ Vehicle ads onboarding guideLink your Merchant Center and Google Ads accountsNext: Enable vehicle ads in your Smart Shopping campaigns
+
+
+  This is step 7a of the vehicle ads onboarding guide.
+
+
+
+  Note: All vehicle ads campaigns will be upgraded to Performance Max by September 2023.
+
+
+
+
+  All existing vehicle ads Smart Shopping campaigns will be upgraded to Performance Max by September 2023, bringing you additional inventory and formats to reach new customers. Accounts in which all campaigns have been upgraded are no longer able to create new Smart Shopping campaigns. Learn how to create a Performance Max campaign.
+
+
+
+In order to show your vehicle ads, you will have to link your Merchant Center and Google Ads accounts. If you’ve already linked these 2 accounts, you can move on to the next step of the onboarding process: Enable vehicle ads in your Smart Shopping campaigns or Enable vehicle ads in your Performance Max campaigns.
+
+Implementation guide
+
+
+  Set up your accounts
+  Enable the vehicle ads program
+  Add your business information
+  Create a primary feed
+  Register and submit your feed
+  Link your Business Profile and select your location group
+  Create, register, and submit your store feed (Optional)
+  Complete website policy review
+  Link your Merchant Center and Google Ads accounts
+  Enable vehicle ads in your Smart Shopping campaigns
+  Enable vehicle ads in your Performance Max campaigns
+
+
+Next: Enable vehicle ads in your Smart Shopping campaigns             Was this helpful?How can we improve it?YesNoSubmit       

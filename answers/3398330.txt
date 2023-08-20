@@ -1,0 +1,149 @@
+ Promotions feed formatting and attributesThis article provides answers to common questions about creating, submitting, and updating your promotions feed.
+
+Your promotions feed contains the details about the promotions you want to show on Google.
+
+
+  What fields of the promotions feed (attributes) are required?
+
+  
+    The following feed attributes are required:
+
+    
+      
+        Promotion ID [promotion_id]
+        Products eligible for promotion [product_applicability]
+        Coupon code required [offer_type]
+        Promotion title [long_title]
+        Promotion start date [promotion_effective_dates]
+        Online eligibility for promotion [redemption_channel]
+      
+
+      Visit our Promotions feed specification article for more details and guidelines.
+    
+  
+
+
+
+  Why am I getting a "server error" message when I'm uploading my promotions feed?
+
+  
+    There are 2 main reasons for “server error” messages:
+
+    
+      The promotion start date [promotion_effective_dates] attribute value is incorrect. For detailed information about the format of promotion start and end times, visit the Promotions feed specification article.
+      The feed template is outdated. Use the current feed template.
+    
+  
+
+
+
+  How do I create a promotion?
+
+  
+    Create a promotion with the promotion builder in the Promotions dashboard of your Merchant Center or with a promotions feed. For more information, see how to create and submit promotions. Your promotions feed must follow the promotions feed specification, editorial requirements, and program policies.
+  
+
+  How do I change a promotion?
+
+    
+      Promotions that have not yet been approved can be edited in promotion builder or by uploading an updated promotions feed. Once a promotion has been approved, it is still possible to edit certain information using promotion builder. This article explains how to edit a promotion or change promotion status.
+    
+  
+
+  
+    How does Google use the attributes in the feed?
+
+    
+      Some attributes, like generic redemption code [generic_redemption_code], are directly reflected in the display of your promotion. Other attributes work in the background to determine where your promotion should be displayed, like the promotion start date [promotion_effective_dates] and products eligible for promotion [product_applicability] attributes. When you create and submit a feed, include the required attributes, plus any conditional attributes that apply to your promotions.
+
+      The optional coupon value type [coupon_value_type] attribute signals the type of promotion you’re running, allowing Google to perform a more automated review process, which can expedite promotion approval.
+
+      See Promotions feed specification for the specific functions of each attribute.
+    
+  
+
+  
+    Can I include multiple promotions for the same product in my products feed?
+
+    
+      Yes, you may submit multiple promotions for each product in your products feed. Submit the values separated by commas in a tab-delimited file or as unique rows within your XML file. See examples in the table below:
+
+      
+        
+          
+            Feed type
+            Instructions
+            Example
+          
+          
+            .txt
+            To add multiple promotion ID [promotion_id] attributes to an item, submit the values separated by commas in the "promotion ID" column. See example. Replace "PROMO1," "PROMO2," and "PROMO3" with the actual promotion ID [promotion_id] attributes.
+            PROMO1,PROMO2,PROMO3
+          
+          
+            XML
+            To add multiple promotion ID [promotion_id] attributes to an item, insert multiple lines. See example. Replace "PROMO1" and "PROMO2" with the actual promotion ID [promotion_id] attributes.
+            <g:promotion_id>PROMO1</g:promotion_id>
+            <g:promotion_id>PROMO2</g:promotion_id>
+          
+          
+            API
+            To add multiple promotion ID [promotion_id] attributes to an item, insert multiple lines. See example. Replace "PROMO1" and "PROMO2" with the actual promotion ID [promotion_id] attributes.
+            <sc:attribute name="promotion_id">PROMO1</sc:attribute>
+            <sc:attribute name="promotion_id">PROMO2</sc:attribute>
+          
+        
+      
+    
+  
+
+  
+    How many promotions are displayed at one time?
+
+    
+      Up to 10 promotion ID [promotion_id] attributes can be mapped to one item in the products feed. Ads and free listings show one promotion per product. 
+
+      When there are multiple promotions mapped, promotions with the "Specific_products" value for the products available for promotion [product_applicability] attribute are prioritized before promotions with the "All_products" value for the products available for promotion [product_applicability] attribute.
+    
+  
+
+  
+    Can I reuse a promotion ID?
+
+    
+      If a promotion was rejected during policy review and not stopped, you can reuse the promotion ID [promotion_id]. If the promotion is already approved for policy or is stopped, you can’t reuse the promotion ID.
+    
+  
+
+  
+    When do I need to add a promotion ID to the products feed?
+
+    If the promotion applies to "Specific products", add the promotion ID [promotion_id] to the "promotion ID" column in the products feed for each product to which the promotion applies. The promotion will be rejected if the promotion ID [promotion_id] is not mapped in the products feed.
+  
+
+  What is the difference between the promotion start date and display dates for promotion attributes and why is it beneficial to use both?
+
+    
+      
+        Display dates for promotion [promotion_display_dates]: when the promotion is available to the public
+        Promotion start date [promotion_effective_dates]: when the promotion can be tested on your website
+      
+
+      Use both attributes to allow your promotion to go through validation review in advance of its public display date.
+
+      
+        
+          Note: This is only possible when uploading your promotion using a promotions feed. The promotion start date [promotion_effective_dates] attribute is not available when using Promotion Builder.
+        
+      
+
+      To use this method, specify a start time for the promotion start date [promotion_effective_dates] attribute that’s earlier than the display dates for promotion [promotion_display_dates] attribute. Google will start the test process on the date you specify in your promotion start date [promotion_effective_dates]. The end date of promotion start date [promotion_effective_dates] should match the end date of the display dates for promotion [promotion_display_dates]. If your promotion is approved, it will go live when the display dates for promotion [promotion_display_dates] start time begins.
+
+      Make sure your promotion can be tested and works on your website as described.
+    
+  
+
+  RETURN TO PROMOTIONS HOME
+
+
+             Was this helpful?How can we improve it?YesNoSubmit       

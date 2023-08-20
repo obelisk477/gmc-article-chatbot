@@ -1,0 +1,504 @@
+ Supported languages and currencies
+When you submit your product data to Google Merchant Center, you'll need to use a currency that's supported for your target country. You’ll also want to consider which language you’re using for your feed. You may upload and show your products in any supported language and show products in any country in which Shopping ads and free product listings are available.
+
+You can target a specific language group within a country, even if that language isn’t one of the country’s major languages. Keep in mind, though, that not all languages will result in high traffic for all countries.
+
+This article explains the language and currency requirements that your product data and landing pages will need to meet for both your home country and internationally in order for you to display products in Shopping ads and free listings.
+
+Show products in your home country
+
+If you show products in your home country, you need to comply with the requirements for that country. You can use the table below to see which currencies are available per country. You may upload a feed in any supported language.
+
+
+  
+    Note: Some countries support targeting in multiple languages. In these countries, the products may serve in any of the supported languages to be more relevant to customers.
+  
+
+
+Show products across borders
+
+If you show products in a country different than your home country, there are three possible scenarios for language and currency.
+
+
+  Target country currency, local language
+
+  
+    To help provide a seamless international shopping experience, consider fully localizing language, price, tax, and currency.
+
+    
+      Translate landing pages and checkout flow into one or more local languages of your target country.
+      Upload translated product data as a new feed in a local language and with prices in the currency of the target country. Pay attention to the requirements for product prices and taxes in different countries.
+      Submit shipping information for the target country in the same currency you use for your product prices.
+      Show all cost information in the target country currency on your landing pages and website.
+      Set up a Shopping campaign for the target country.
+    
+
+    Your ads and free listings will show in:
+
+    
+      The language of your target country
+      The currency of your target country
+    
+  
+
+
+
+  Target country currency, supported language
+
+  
+    
+      While most users speak the primary languages of a country, many users speak multiple languages or prefer different languages. In all countries in which Shopping ads and free listings are available, you can submit products and run campaigns in any language that’s supported in Merchant Center, provided you set up tax and shipping and created a Shopping campaign for the target country.
+
+      
+        Of the countries in which Shopping ads and free listings are available, decide which would be good candidates for the languages your product data and website already support.
+        If you already have a feed in the supported language, add the desired country using the “Add multiple countries” selector. Otherwise, upload your product data as a new feed in a supported language with prices in that country's;currency.
+        Submit shipping information for the target country in the same currency you use for your product prices.
+        Show all cost information in the target country currency on your landing pages and website.
+        For Google Ads, set up a Shopping campaign for the target country.
+      
+
+      Your products will show in:
+
+      
+        A language of your choice
+        The currency of your target country
+      
+
+      Google will target people who use your chosen language. However, many users speak more than one language. To help target multilingual users, you may submit products and run campaigns in multiple languages.
+    
+  
+
+
+
+  Currency not native to the target country, local or supported language
+
+  
+    If you don’t want to convert your prices into the local currency for a country, you can use the currency conversion feature.
+
+    
+      Upload your product data as a new feed in a supported language with prices in your preferred currency. Follow the price and tax requirements for the country to which your chosen currency is native to.
+      Submit shipping information for the target country in the same currency you use for your product prices.
+      Show the product price on your landing page and checkout pages in the currency you submitted in the product data.
+      Set up a Shopping campaign for the target country.
+    
+
+    Your products will show in:
+
+    
+      A language of your choice
+      Both a currency of your choice and the currency of your target country (automatically converted by Google).
+    
+
+    Google will target people who use your chosen language. However, many users speak more than one language. To help target multilingual users, in select countries, you may submit products and run campaigns in multiple languages.
+  
+
+
+Supported languages and countries
+
+You may upload a feed in any language that is supported for Shopping ads and free listings, and use that feed to show products to any country in which Shopping ads and free listings are available. Keep in mind that you may want to target specific language groups within a certain country. For example, if you have a French feed and learn there are many French speakers in another country that you already target, you might also add that country as a target country for your French feed. Not all languages will result in high traffic for all countries.
+
+Also keep in mind that your product landing pages must be in the same language as your product data. For example, if you list your product data in French, you must link to landing pages in French.
+
+Shopping ads and free listings are supported in the following languages and countries:
+
+Languages: Arabic, Brazilian Portuguese, Chinese*, Czech, Danish, Dutch, English, Finnish, French, German, Hebrew, Hungarian, Indonesian, Italian, Japanese, Korean, Modern Greek, Norwegian, Polish, Portuguese, Romanian, Russian, Slovak, Spanish, Swedish, Thai, Traditional Chinese, Turkish, Ukrainian, Vietnamese
+
+*Google will deduce the script as Simplified or Traditional, which will impact traffic to your products.
+
+Supported countries and currencies
+
+
+  
+    
+      Target country
+      Supported currencies (other currencies may be supported using currency conversion)
+    
+    
+      Algeria**
+      Algerian Dinar (DZD)
+    
+    
+      Angola**
+      Angola Kwanza (AOA)
+    
+    
+      Argentina †
+      Argentinian Peso (ARS)
+    
+    
+      Australia †
+      Australian Dollar (AUD)
+    
+    
+      Austria †
+      Euro (EUR)
+    
+    
+      Bahrain
+      Bahraini Dinar (BHD)
+    
+    
+      Bangladesh**
+      Bangladeshi Taka (BDT)
+    
+    
+      Belarus
+      Belarusian Ruble (BYN)
+    
+    
+      Belgium †
+      Euro (EUR)
+    
+    
+      Brazil †
+      Brazilian Real (BRL)
+    
+    
+      Cambodia**
+      Cambodian Riel (KHR)
+    
+    
+      Cameroon**
+      Central African CFA franc (XAF)
+    
+    
+      Canada †
+      Canadian Dollar (CAD)
+    
+    
+      Chile †
+      Chilean Peso (CLP)
+    
+    
+      Colombia †
+      Colombian Peso (COP)
+    
+    
+      Costa Rica**
+      Costa Rican Colon (CRC)
+    
+    
+      Cote d'Ivoire**
+      West African CFA franc (XOF)
+    
+    
+      Czechia †
+      Czech Koruna (CZK)
+    
+    
+      Denmark †
+      Danish Krone (DKK)
+    
+    
+      Dominican Republic**
+      Dominican Peso (DOP)
+    
+    
+      Ecuador
+      US Dollar (USD)
+    
+    
+      Egypt
+      Egyptian Pound (EGP)
+    
+    
+      El Salvador**
+      US Dollar (USD)
+    
+    
+      Ethiopia**
+      Ethiopian Birr (ETB)
+    
+    
+      Finland †
+      Euro (EUR)
+    
+    
+      France †****
+      Euro (EUR)
+    
+    
+      Georgia
+      Georgian Lari (GEL)
+    
+    
+      Germany †
+      Euro (EUR)
+    
+    
+      Ghana**
+      Ghanaian Cedi (GHS)
+    
+    
+      Greece †
+      Euro (EUR)
+    
+    
+      Guatemala**
+      Guatemalan Quetzal (GTQ)
+    
+    
+      Hong Kong †
+      Hong Kong Dollar (HKD)
+    
+    
+      Hungary †
+      Hungarian Forint (HUF)
+    
+    
+      India †
+      Indian Rupee (INR)
+    
+    
+      Indonesia †
+      Indonesian Rupiah (IDR)
+    
+    
+      Ireland †
+      Euro (EUR)
+    
+    
+      Israel †
+      Israeli New Shekel (ILS)
+    
+    
+      Italy †
+      Euro (EUR)
+    
+    
+      Japan †
+      Japanese Yen (JPY)
+    
+    
+      Jordan
+      Jordanian Dinar (JOD)
+    
+    
+      Kazakhstan
+      Kazakhstani Tenge (KZT)
+    
+    
+      Kenya**
+      Kenyan Shilling (KES)
+    
+    
+      Kuwait
+      Kuwaiti Dinar (KWD)
+    
+    
+      Lebanon
+      Lebanese Pound (LBP)
+    
+    
+      Madagascar**
+      Madagascar Ariary (MGA)
+    
+    
+      Malaysia †
+      Malaysia Ringgit (MYR)
+    
+    
+      Mauritius**
+      Mauritian Rupee (MUR)
+    
+    
+      Mexico †
+      Mexican Peso (MXN)
+    
+    
+      Morocco**
+      Moroccan Dirham (MAD)
+    
+    
+      Mozambique**
+      Mozambican Metical (MZN)
+    
+    
+      Myanmar (Burma)**
+      Burmese Kyat (MMK)
+    
+    
+      Nepal**
+      Nepalese Rupee (NPR)
+    
+    
+      Netherlands †
+      Euro (EUR)
+    
+    
+      New Zealand †
+      New Zealand Dollar (NZD)
+    
+    
+      Nicaragua**
+      Nicaraguan Cordoba (NIO)
+    
+    
+      Nigeria**
+      Nigerian Naira (NGN)
+    
+    
+      Norway †
+      Norwegian Krone (NOK)
+    
+    
+      Oman
+      Omani Rial (OMR)
+    
+    
+      Pakistan**
+      Pakistani Rupee (PKR)
+    
+    
+      Panama**
+      Panamanian Balboa (PAB)
+    
+    
+      Paraguay
+      Paraguay Guarani (PYG)
+    
+    
+      Peru
+      Peruvian Sol (PEN)
+    
+    
+      Philippines †
+      Philippine Peso (PHP)
+    
+    
+      Poland †
+      Poland Złoty (PLN)
+    
+    
+      Portugal †
+      Euro (EUR)
+    
+    
+      Puerto Rico**
+      US Dollar (USD)
+    
+    
+      Romania †
+      Romanian Leu (RON)
+    
+    
+      Russia †
+      Russian Ruble (RUB)
+    
+    
+      Saudi Arabia †**
+      Saudi Riyal (SAR)
+    
+    
+      Senegal**
+      West African CFA franc (XOF)
+    
+    
+      Singapore †
+      Singapore Dollar (SGD)
+    
+    
+      Slovakia †
+      Euro (EUR)
+    
+    
+      South Africa †
+      South African Rand (ZAR)
+    
+    
+      South Korea †***
+      South Korean Won (KRW)
+    
+    
+      Spain †
+      Euro (EUR)
+    
+    
+      Sri Lanka**
+      Sri Lankan Rupee (LKR)
+    
+    
+      Sweden †
+      Swedish Krona (SEK)
+    
+    
+      Switzerland †
+      Swiss Franc (CHF)
+    
+    
+      Taiwan †
+      New Taiwan Dollar (TWD)
+    
+    
+      Tanzania**
+      Tanzanian Shilling (TZS)
+    
+    
+      Thailand †**
+      Thai Baht (THB)
+    
+    
+      Tunisia**
+      Tunisian Dinar (TND)
+    
+    
+      Turkey †
+      Turkish Lira (TRY)
+    
+    
+      Uganda**
+      Ugandan Shilling (UGX)
+    
+    
+      Ukraine †**
+      Ukrainian Hryvnia (UAH)
+    
+    
+      United Arab Emirates †
+      United Arab Emirates Dirham (AED)
+    
+    
+      United Kingdom †
+      British Pound (GBP)
+    
+    
+      United States †
+      US Dollar (USD)
+    
+    
+      Uruguay
+      Uruguayan Peso (UYU)
+    
+    
+      Uzbekistan
+      Uzbekistani Som (UZS)
+    
+    
+      Venezuela**
+      Venezuelan Bolivar (VEF)
+    
+    
+      Vietnam †**
+      Vietnamese Dong (VND)
+    
+    
+      Zambia**
+      Zambian Kwacha (ZMW)
+    
+    
+      Zimbabwe**
+      US Dollar (USD)
+    
+  
+
+
+† The Shopping tab is available to users in this country.
+
+**This is a beta target country.
+
+***If you want to show products to people in this location, you must have a business registration number (BRN) applied to your account.
+
+****Shopping for France is only available in the metropole and not in French overseas territories.
+
+
+             Was this helpful?How can we improve it?YesNoSubmit       

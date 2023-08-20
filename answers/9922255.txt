@@ -1,0 +1,147 @@
+ About cross-border selling for Buy on Google
+
+Buy on Google is currently available only in the US, but you may still be able to participate in Buy on Google if your business is incorporated in a different country, but sells to customers in the US.
+
+This article explains the requirements for businesses incorporated in Canada and the US that would like to sell internationally to Buy on Google US. Check back soon for more supported countries and corridors.
+
+How it works
+
+All cross-border merchants must meet the following requirements:
+
+
+  Inventory free of restricted products and services: Certain product categories aren't supported.
+  A valid government-issued ID or document: This requirement varies based on your country of incorporation—details below.
+  Compliance with all other Buy on Google policies.
+  Compliance with all other Shopping ads policies: If you also participate in Shopping ads, you'll need to adhere to Shopping ads policies, with a Shopping ads account free of violations and with good product health.
+
+
+
+  
+    Important: When shipping internationally, Google isn't to be the importer or exporter. Import and export are the responsibility of the merchant.
+
+    Your return location can be in a country that is supported for business incorporation on Buy on Google.
+  
+
+
+Depending on the country in which your company is incorporated or legally registered, the onboarding process works differently and different documents are required.
+
+Requirements by country
+
+
+  United States
+
+  
+    
+      
+        
+          
+            
+              
+              Income Tax Document
+              
+              
+              W-9
+              
+            
+            
+              
+              Business license or Incorporation Document
+              
+              
+              Business Registration Document. Accepted documents:
+
+              
+                W-9
+                CP 575
+                Articles of Incorporation
+              
+
+              Business Registration Number. Accepted registration numbers:
+
+              
+                EIN
+              
+              
+            
+            
+              
+              Legal Representative’s ID
+              
+              
+              Valid US ID
+              
+            
+            
+              Permitted bank account country
+              US (disbursement in USD)
+            
+          
+        
+      
+    
+  
+
+
+
+  Canada
+
+  
+    
+      
+        
+          
+            
+              
+              Income Tax Document
+              
+              
+              W-8 BEN-E
+              
+            
+            
+              
+              Business license or Incorporation Document
+              
+              
+              Business Registration Document. Accepted documents:
+
+              
+                Certificate of Incorporation
+                Articles of Incorporation
+                Certificate of Status/Good Standing/Existence
+                Certificate of Compliance
+              
+
+              Business Registration Number. Accepted registration numbers:
+
+              
+                BN (Business Number)
+              
+              
+            
+            
+              
+              Legal Representative’s ID
+              
+              
+              Valid CA ID
+              
+            
+            
+              Permitted bank account country
+              Canada (disbursement in CAD) or US (disbursement in USD)
+            
+          
+        
+      
+    
+  
+
+
+Related links
+
+
+  Create rich product description pages
+  Set up your payments and billing for Buy on Google
+
+             Was this helpful?How can we improve it?YesNoSubmit       

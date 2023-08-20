@@ -1,0 +1,200 @@
+ Best practices for advertising software subscriptions
+
+Individuals and businesses often turn to Google to find software. Besides selling software as a boxed and shipped product or as a one-time download, you can sell your software as a subscription, where customers buy a license for a year or longer to use the software for a prepaid fee.
+
+This article explains how to structure your product data and landing pages when submitting software subscriptions to Google.
+
+On this page
+
+
+  How to submit a subscription
+  Requirements for your product data
+  Requirements for your landing pages
+
+
+
+How to submit a subscription
+
+Not all software subscriptions are supported on Shopping ads.
+
+In order for your subscription to be supported on Shopping ads, it must meet these requirements:
+
+
+  It must be available in prepaid, 12-month (yearly) increments with a duration of at least 1 year.
+  It must meet the requirements for your product data.
+  It must meet the requirements for your landing pages.
+
+
+
+Requirements for your product data
+
+To make sure we understand the product data you're submitting for your software subscriptions, follow these formatting guidelines for each attribute.
+
+Title
+
+
+  Include the word "subscription" and the subscription duration in the title. The word "subscription" and the subscription duration can appear anywhere in the value for the title [title] attribute. For example, you can submit a product with "Your Product (1-year subscription)" or "Your Product (12-month subscription)."
+
+
+Learn more about the title [title] attribute
+
+Price
+
+
+  Submit the price for the full length of the software subscription, with a minimum of 1 year. If the prepaid 12-month subscription comes with any subsidized or free periods, then include those in the total price. If your subscription costs more (or less) for the 1st year than for the following years, submit the prepaid price for the 1st year. If you like, you can instead submit the prepaid price for multiple years.
+
+
+Learn more about the price [price] attribute
+
+
+  Examples
+
+  
+    If you're advertising a prepaid subscription for 12 months that's 29.90 USD, then submit 29.90 USD for the price.
+    If you're running a promotion where the first month of your 12-month software subscription is free, and the normal annual price is 120 USD, then submit 110 USD for the price and indicate the same price clearly on your landing page.
+  
+
+
+Google product category
+
+Use the Software > Computer Software (ID: 313) category to let us know when you're submitting a software subscription, or use one of its subcategories. For example:
+
+
+  Software > Computer Software > Antivirus & Security Software (ID: 5299)
+
+
+Learn more about the Google product category [google_product_category] attribute
+
+GTIN, MPN, and brand
+
+Brands, Global Trade Item Numbers (GTINs), and Manufacturer Part Numbers (MPN) are global product codes associated with an individual product or product variant. These codes are required for most products, but store brand and private-label products usually won't have unique product identifiers. Providing unique product identifiers, especially GTINs, can make your ads richer and easier for customers to find.
+
+
+  For products with unique product identifiers, submit the codes assigned by the manufacturer for the GTIN [gtin], brand [brand], and MPN [mpn] attributes.
+  For store brand and private-label products without a GTIN, submit the brand [brand] and MPN [mpn] attributes. Also submit the identifier exists [identifier_exists] attribute with a value of no.
+
+
+Learn more about unique product identifiers
+
+Shipping
+
+
+  Submit shipping cost as "0" (if shipping cost is required for your target country) when advertising an intangible product such as a software subscription, digital content, or downloadable software. For example, "0.00 USD", "0.00 EUR", "0.00 GBP". You can submit shipping cost through the shipping [shipping] attribute or through your account shipping settings.
+
+
+Learn more about the shipping attribute
+
+Image link
+
+
+  Submit an image of the software box or cover art, such as you would submit for a physically boxed version of the software. You can also submit a logo or icon.
+
+
+Learn more about the image link [image_link] attribute
+
+
+  Tip: submit an image of the software box or cover art
+
+  While you can submit logos, we recommend professional images, such as a software box or cover art, whenever possible for these reasons:
+
+  
+    Customers browsing your ads might have trouble telling your products apart if they see the same image for multiple options such as "basic", "premium", and "enterprise". Boxed images or cover art can help convey the differences between each version of your software.
+  
+
+
+Example
+
+
+  
+    
+      
+      
+    
+    
+      
+        Product data for a 1 year subscription for Google Security Software Basic Edition, priced at 29.90 USD
+      
+      
+        Attribute
+        Value
+      
+      
+        Title [title]
+        Google Security Software Basic Edition (1-year Subscription)
+      
+      
+        Price [price]
+        29.90 USD
+      
+      
+        Google product category [google_product_category]
+        Software > Computer Software > Antivirus & Security Software
+      
+      
+        Brand [brand]
+        Google
+      
+      
+        MPN [mpn]
+        G-ABC123
+      
+      
+        GTIN [gtin]
+        1234567890123
+      
+      
+        Shipping [shipping]
+        US:CA:Ground:0 USD
+      
+      
+        Image link [image_link]
+        http://www.example.com/software-box.jpg
+      
+    
+  
+
+
+
+Requirements for your landing pages
+
+When submitting software subscriptions, follow these requirements for your landing pages.
+
+Create a separate landing page for each product variant
+
+
+  Show each software subscription variant on a separate landing page. For example, if your software has three versions ("basic", "premium", and "enterprise"), then make sure each version has its own landing page.
+
+
+Display the total price and pre-select the right option
+
+
+  Prominently display and pre-select the price for the full length of the software subscription, with a minimum of 1 year. If the prepaid 12-month subscription comes with any subsidized or free periods, then include those in the displayed price. If your subscription costs more (or less) for the 1st year than for the following years, submit the prepaid price for the 1st year. If you like, you can instead submit the prepaid price for multiple years.
+
+
+
+  Example
+
+  If you're advertising a prepaid subscription for 12 months that's 29.90 USD, then display and pre-select 29.90 USD for the price on your landing page.
+
+
+Provide terms of renewal and cancellation
+
+
+  Clearly state in your terms of renewal and cancellation whether the product is for a fixed term or whether it is automatically renewed. Also explain the cancellation options, and explain under which conditions the auto-renewal occurs at the end of the prepaid duration.
+
+
+Learn more about requirements for Shopping ads landing pages
+
+
+  Examples
+
+  Here are some examples of terms of renewal and cancellation that would fit Google's policy. However, talk to your own legal advisors to create terms that work best for your situation.
+
+  
+    "This software subscription expires after 12 months and is not automatically renewed. Use your account settings to manually renew your subscription."
+    "Your subscription lasts for 2 years and you can cancel at any time prior to the end of your subscription for a prorated refund. At the end of your 2 year subscription, your subscription will auto-renew on an annual basis, and you will incur the cost for the subscription until you explicitly cancel your subscription by logging into your account and clicking "Cancel Subscription" in your account settings."
+  
+
+
+
+             Was this helpful?How can we improve it?YesNoSubmit       

@@ -1,0 +1,73 @@
+ How to fix: Vehicle image not validUse an image that matches the vehicle's description
+
+In order to list vehicles for sale on Google, you must use the image link [image_link] attribute to redirect to an image that clearly represents the vehicle being sold. If the image URL for your vehicle redirects to a non-vehicle image or an image that doesn’t match the vehicle’s description, you may receive an error. Vehicle listings that contain invalid images will be disapproved.
+
+In order to resolve the issue, add an image that matches the vehicle’s description.
+
+Learn more about image requirements and guidelines for vehicle ads
+
+Instructions
+
+Step 1: See the affected products
+
+
+  Sign in to your Merchant Center account.
+  Select Products on the navigation menu, then click Diagnostics.
+  Click the Item issues tab to see current issues affecting your products.
+  Click the filter icon  to filter by destination and select Vehicle ads.
+
+
+To download a list (.csv) of all affected products for all issues:
+
+
+  Click the download button  next to the filter button , beneath the graph and above the list of issues.
+
+
+To download a list (.csv) of all affected products for a particular issue:
+
+
+  Find the issue under the “Issue” column, then click the download button  at the end of the row.
+
+
+To see a list of up to 50 products with this particular issue:
+
+
+  Find the issue under the “Issue” column, then click View examples in the “Affected items” column.
+
+
+
+Step 2: Replace the product image with a valid image
+
+
+  
+    Filter the downloaded report so that you only find products with: "Issue title" = Vehicle image not valid
+    Check your product data for those products (using the ID), and remove any images that don’t match the vehicle’s description.
+    Add an image that matches the description of the vehicle, and use the image link [image_link] attribute to add a valid URL.
+  
+
+
+Step 3: Resubmit your product data
+
+
+  After you’ve updated your product data, resubmit it using one of these methods:
+    
+      Upload a feed
+      Submit through the Content API
+      Import content from an ecommerce platform
+    
+  
+  Next, check that you’ve fixed the issue by making sure it’s no longer listed on the Diagnostics page.
+    
+    Keep in mind: It may take some time for your change to be reflected on the Diagnostics page.
+
+
+
+Related links
+
+
+  About item disapprovals for policy violations
+  Vehicle ads overview
+  Vehicle ads policies
+  Vehicle ads troubleshooting form
+
+             Was this helpful?How can we improve it?YesNoSubmit       

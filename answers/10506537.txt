@@ -1,0 +1,14 @@
+ Local inventory onboarding guideLink your Merchant Center and Google Ads accounts (local inventory ads only)Next: Enable local products in your campaigns
+
+
+  This is step 9a of the local inventory onboarding guide.
+
+
+In order to make your in store products available to show in local inventory ads, you will have to link your Merchant Center and Google Ads accounts. If you’ve already linked these two accounts, you can move on to the next step of the onboarding process: Enable local products in your Shopping campaigns.
+
+
+  Note: Linking these accounts is optional and only relevant for those interested in local inventory ads. If you’ve completed the previous steps, your in store products will still be available to show in free local product listings.
+
+
+
+Next: Enable local products in your campaigns             Was this helpful?How can we improve it?YesNoSubmit       

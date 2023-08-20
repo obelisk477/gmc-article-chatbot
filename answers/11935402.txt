@@ -1,0 +1,36 @@
+ Change user access for Merchant Center reports
+
+You may control which users in your Merchant Center account have access to view and edit reports and dashboards. Users with the reporting manager role can view and edit all reports and dashboards, and may grant access to view specific reports and dashboards to other users.
+
+How it works
+
+Users with the reporting manager access level have permissions to view and edit all reports and dashboards within the account. Reporting managers may customize the level of access to reports and dashboards to other users, choosing to make those restricted or not.
+
+Note: Reports or dashboards that are unrestricted are by default visible to anyone.
+
+
+  Admin users and standard users: View reports and dashboard restricted to them, plus unrestricted reports and dashboards.
+  Reporting manager: View and edit all reports and dashboards and grant view access to reports and dashboards to other users.
+
+
+Admin users may grant reporting manager access level to other standard users and admins or themselves. Learn more about editing user roles in Merchant Center
+
+Instructions
+
+To change report access permissions, you must have reporting manager permissions. Then:
+
+
+  Sign in to your Merchant Center account.
+  Open the report or dashboard you’d like to change permissions for.
+  In the toolbar above, find the "Manage who has access" icon,  then click on it.
+  Choose either “Everyone has access” or “Limit to specific people". If you choose to limit access, enter the email addresses of the users you’d like to give access to.
+  Click Apply. These reports or dashboards are now restricted to be viewed by only the specific people you gave access to.
+
+
+Related links
+
+
+  User access for Merchant Center
+  Create custom reports in Merchant Center
+
+             Was this helpful?How can we improve it?YesNoSubmit       

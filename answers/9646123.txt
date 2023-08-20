@@ -1,0 +1,123 @@
+ Mobile link [mobile_link] (Collections)
+
+The mobile link [mobile_link] attribute lets you include a URL that links to a mobile-optimized version of your collection's landing page. This mobile version is the final landing page URL and will be shown to users on mobile devices, like phones or tablets.
+
+
+When using this attribute, you’ll see additional reporting in Merchant Center for potential issues with your mobile-optimized landing pages. Creating a mobile-optimized site helps ensure that your collection appears correctly, and potentially loads faster, on mobile devices.
+
+When to use
+
+
+ Optional for each collection.
+
+
+If you submit the mobile link [mobile_link] attribute in addition to the link [link] attribute, all mobile device users are directed to the landing page specified in the mobile link attribute.
+
+Format
+
+Follow these formatting guidelines to make sure Google understands the data you're submitting.
+
+For details on when and how to submit values in English, learn more about submitting your product data
+
+
+
+  
+    
+      Type
+      URL (including http or https), ASCII characters only, and RFC 3986 compliant
+    
+    
+      Limits
+      1-500 characters
+    
+    
+      Repeated Field
+      No
+    
+  
+
+
+
+
+  
+    
+      File format
+      Example value
+    
+    
+      Text feeds
+      https://www.m-example.com/asp/sp.asp?cat=12&id=1030
+    
+    
+      XML feeds
+      <g:mobile_link>https://www.m-example.com/asp/sp.asp?cat=12&id=1030</g:mobile_link>
+    
+  
+
+
+
+Guidelines
+
+Follow these guidelines to make sure you submit high-quality data for your collections.
+
+
+Minimum requirements
+
+These are the requirements you need to meet to show your collection. If you don't follow these requirements, we'll disapprove your collection and let you know in the Diagnostics page of your Merchant Center account.
+
+
+
+  Meet the requirements of the link [link] attribute with the value that you submit for mobile link [mobile_link].
+  
+    Submit the link attribute, which is the page that desktop users will see.
+  
+
+
+
+Best practices
+
+These best practices can help you go beyond the basic requirements to optimize your collection data for performance.
+
+
+
+  Follow the best practices of the link attribute with the value that you submit for mobile link [mobile_link].
+  Link to a landing page that renders properly on mobile devices. Some elements that you shouldn't use on your landing page include Flash, Silverlight, and ActiveX. Learn more about creating mobile-optimized websites
+
+
+
+Examples
+
+
+
+  Sofa collection
+
+  
+    
+      
+        
+          
+            Product data for a sofa collection
+          
+          
+            Attribute
+            Value
+          
+          
+            ID [id]
+            Sofas Seasonal Q1 2020
+          
+          
+            Mobile link [mobile_link]
+            https://mobile.example.com/sofas/
+          
+          
+            Link [link]
+            https://example.com/sofas/
+          
+        
+      
+    
+  
+
+
+             Was this helpful?How can we improve it?YesNoSubmit       

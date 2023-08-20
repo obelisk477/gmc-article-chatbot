@@ -1,0 +1,235 @@
+ Inappropriate content
+
+
+  This policy applies to Shopping ads and local inventory ads
+
+
+
+Our policy
+
+
+  
+    
+      
+        
+        
+          Google values diversity and respect for others, and we strive to avoid offending users, so we don’t allow ads or destinations that display shocking content or promote hatred, intolerance, discrimination, or violence.
+        
+        
+      
+    
+  
+
+
+Examples of what's not allowed
+
+
+  
+    
+      
+      Dangerous or derogatory content
+      
+    
+  
+
+
+ Content that incites hatred against, promotes discrimination of, or disparages an individual or group on the basis of their race or ethnic origin, religion, disability, age, nationality, veteran status, sexual orientation, gender, gender identity, skin tone, or other characteristic that is associated with systemic discrimination or marginalization.
+
+  Examples (non-exhaustive): Content promoting hate groups or hate group paraphernalia, content that encourages others to believe that a person or group is inhuman, inferior, or worthy of being hated
+  Example case: Skin lightening products that imply superiority of social status, beauty, professional and/or relational opportunities of lighter skinned persons
+
+
+
+
+ Content that harasses, intimidates or bullies an individual or group of individuals
+
+
+  Examples: Content that singles out someone for abuse or harassment
+
+
+
+
+ Content that threatens or advocates for physical or mental harm on oneself or others
+
+
+  
+    Examples: Content advocating suicide, anorexia, or other self-harm; promoting or advocating for harmful health or medical claims or practices; threatening someone with real-life harm or calling for the attack of another person; promoting, glorifying, or condoning violence against others, content made by or in support of terrorist groups or transnational drug trafficking organizations, or content that promotes terrorist acts, including recruitment, or that celebrates attacks by transnational drug trafficking or terrorist organizations. 
+  
+
+
+
+
+  
+    
+      
+      Shocking content
+      
+    
+  
+
+
+ Promotions containing violent language, gruesome imagery, or graphic images or accounts of physical trauma
+
+  Examples: Crime scene or accident photos, execution photos
+
+
+
+ Promotions containing gratuitous portrayals of or sale of bodily fluids, human waste, or human tissue
+
+  Examples: Blood, guts, gore, sexual fluids, human eggs or sperm
+
+
+
+
+  
+    
+      
+      Sensitive events
+      
+    
+  
+
+
+
+  Products that potentially profit from or exploit a sensitive event with significant social, cultural, or political impact, such as civil emergencies, natural disasters, public health emergencies, terrorism and related activities, conflict, or mass acts of violence
+
+
+  Examples (non-exhaustive): Appearing to profit from a tragic event with no discernible benefit to users; price gouging or artificially inflating prices that prohibits/limits access to vital supplies; sale of products or services (such as personal protective equipment) which may be insufficient for the demand during a sensitive event; using keywords related to a sensitive event to attempt to gain additional traffic
+
+
+  Products that claim victims of a sensitive event were responsible for their own tragedy or similar instances of victim blaming; products that claim victims of a sensitive event are not deserving of remedy or support
+
+
+  Examples (non-exhaustive): Products that claim victims from certain countries were responsible or deserving of global public health crises
+
+
+
+
+
+
+  
+    Due to the war in Ukraine, we will pause ads containing content that exploits, dismisses, or condones the war.
+  
+
+
+
+  As part of our recent suspension of ads in Russia, we will also pause ads on Google properties and networks globally for advertisers based in Russia.
+
+
+
+  Due to an ongoing sensitive event (the war in Ukraine), we are pausing ads from and for Russian Federation state-funded media.
+
+
+
+
+  
+    
+      
+      Animal cruelty
+      
+    
+  
+
+
+ Content that promotes cruelty or gratuitous violence towards animals 
+
+  Examples: Promoting animal cruelty for entertainment purposes, such as cock or dog fighting
+
+
+
+ Products that may be interpreted as trading in derived from threatened or extinct species
+
+  Examples: Sale of shark fins or shark cartilage supplements, elephant ivory, tiger skins, rhino horn, dolphin oil, and elkhorn coral, or products containing these ingredients
+
+
+
+
+What you can do
+
+Here's what you can do if your product is disapproved or if your Merchant Center account is impacted:
+
+
+Product disapproval
+
+  Products that don't comply with our policies may be disapproved. When a product is disapproved, it won't be eligible to serve. 
+
+  
+    Read our policies to learn what we don't allow.
+    Update your website. If your ad or listing leads to content that violates a policy, update your website to meet the requirements and be in compliance with our policies.
+    Remove the violating products from your product data. You’ll receive an email with details about the violation. 
+      
+        If you have products in your product data that violate the policy (or policies), you'll need to remove the offers from your feed.
+      
+    
+    Update your product data in Merchant Center. If you created a schedule for automatic uploads, update your product data manually or wait for your product data to be automatically updated before requesting any reviews.
+    Request a review of your products or appeal the decision taken on this issue.
+      
+        If the violating products are removed, you won't need to request a review or take any additional action.
+        If you fix your product-level issues by editing your product data via your chosen upload method (such as a file) or directly in Merchant Center, your products will be re-reviewed.
+        For certain issues, you can disagree with the issue but you may need to complete additional steps such as provide an appeal reason and/or upload required documentation.
+        If you use a third-party platform to list your products, you can refer to your third-party if you want to request a review. You won’t be able to do this in Merchant Center.
+        If a review or appeal is successful, the issue will disappear from Merchant Center.
+      
+    
+  
+
+
+
+Account disapproval
+
+  For most violations, we'll send you a warning email detailing the policy violation and give you 7 or 28 calendar days to fix your issue.
+
+  
+    Read our policies to learn what we don't allow.
+    Update your website. If your ad or listing leads to content that violates a policy, update your website to meet the requirements and be in compliance with our policies.
+    Remove any violating products from your product data. You’ll receive an email with details about the violation. If you have products in your product data that violate the policy (or policies) you'll need to remove the offers from your feed.
+    Update your data in Merchant Center. 
+      
+        Review your account and submit any missing information or complete any unfinished steps. 
+        If you created a schedule for automatic uploads, update your product data manually or wait for your product data to be automatically updated before requesting any reviews.
+      
+    
+    Request a review of your account or appeal the decision taken on this issue.
+      
+        If your account is still within the warning period, it will automatically be reviewed again at the end of the warning period. If the violating products are removed, you won't need to request an account review or take any additional action.
+        If your account is suspended and you've taken actions to resolve the issue, request an account review.
+        For certain issues, you can disagree with the issue but you may need to complete additional steps such as provide an appeal reason and/or upload required documentation.
+        If you use a third-party platform to list your products, you can refer to your third-party if you want to request a review. You won’t be able to do this in Merchant Center.
+      
+    
+  
+
+  Most accounts are reviewed within 3 business days, but it can take longer if a more complex review is needed. If we find that you've removed the violating products from your product data, we’ll remove the warning. If a review or appeal is successful, the issue will disappear from Merchant Center. In the case of account suspension, we'll then also approve your account so your products can start displaying again.
+
+
+
+Account issue that limits product visibility
+
+  Your account has an issue and is operating with reserved functionality, therefore your products have limited visibility. An email was sent with a notice on what to do and the steps needed to resolve your account issue.
+
+  
+    Read our policies to learn more about our requirements.
+    Update your website. If your ad or listing leads to content that violates a policy, update your website to meet the requirements and be in compliance with our policies.
+    Fix any other open policy violation in your account. Review your products and your account details. 
+      
+        If products aren’t supported, remove them from your feed.
+        If account details are missing, complete them in Merchant Center. 
+      
+    
+    Request a review of your account or appeal the decision taken on this issue.
+      
+        If your Merchant Center account is still within the warning period for certain policies, it will automatically be reviewed again at the end of the warning period. 
+        If your account is affected and you've resolved the issue, request a Merchant Center account review.
+        For certain issues, you can disagree with the issue but you may need to complete additional steps such as provide an appeal reason and/or upload required documentation.
+        If you use a third-party platform to list your products, you can refer to your third-party if you want to request a review. You won’t be able to do this in Merchant Center.
+      
+    
+  
+
+  Most accounts are reviewed within 3 business days, but it can take longer if a more complex review is needed. If we find that you've removed the violating products from your product data, we’ll remove the warning. If a review or appeal is successful, the issue will disappear from Merchant Center. In the case of accounts with limited visibility, we'll then also approve your account so your products can start displaying again without any restrictions.
+
+
+
+To ensure a safe and positive experience for customers, Google requires that retailers comply with all applicable laws and regulations in addition to our policies. It's important that you familiarize yourself with and keep up to date on these requirements for the place where your business operates, as well as any other places your ads are shown. When we find content that violates these requirements, we may block it from appearing. In cases of repeated or egregious violations, we may ban you from advertising content with us.
+
+             Was this helpful?How can we improve it?YesNoSubmit       

@@ -1,0 +1,79 @@
+ About the local feeds partnership program
+
+This article provides details on the eligibility requirements for the local feeds partnership program.
+
+The local feeds partnership program is a way for retailers to participate in local inventory ads and free local product listings without having to create their own primary and local product inventory feeds. Trusted data providers can provide sales and inventory data to Google on behalf of retailers.
+
+Current data partners
+
+
+  
+    
+      Provider
+      Countries serviced
+    
+    
+      Cayan
+      US
+    
+    
+      City Hive
+      US
+    
+    
+      dbaPlatform
+      AT, AU, BR, CA, CH, DE, DK, FR, GB, IN, JP, NL, NO, SE, US
+    
+    
+      Ecrebo
+      UK
+    
+    
+      Epicor
+      US
+    
+    
+      BrandSlice
+      Global
+    
+    
+      MapAds
+      DE, UK, US
+    
+    
+      Napp Solutions
+      BR
+    
+    
+      NearSt
+      All free local listings countries
+    
+    
+      Shopify
+      All free local listings countries
+    
+    
+      TakuLabs
+      CA, US
+    
+    
+      VersaCommerce
+      DE
+    
+    
+      Youbuyda
+      AT, CH, DE, NL
+    
+  
+
+
+POS or inventory data provider eligibility requirements
+
+If you're a POS or inventory data provider who would like to submit your customers' data to Google, learn more about the eligibility requirements.
+
+Retailer eligibility requirements
+
+If you're using one of our existing POS or inventory data providers and are interested in having them submit your transaction data to Google on your behalf, learn more about the eligibility requirements.
+
+
+             Was this helpful?How can we improve it?YesNoSubmit       

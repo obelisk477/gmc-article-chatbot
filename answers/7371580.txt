@@ -1,0 +1,16 @@
+ Matched inventory: price
+
+Pricing information is required for every product in your feed. Pricing may be included directly in your local product inventory feed or indirectly in your local products feed.
+
+Benefits
+
+To ensure all your inventory is eligible to serve local inventory ads and free local product listings, include pricing data. When you have more eligible inventory, it gives you more opportunities to drive traffic to your store.
+
+How to improve pricing data
+
+Make sure that you provide a price [price] attribute for each product in your local products feed. This attribute sets a national price for this product across all your inventory.
+
+If your products have regional pricing differences, include the price [price] attribute in your local product inventory feed. If you include the price in both feeds, the inventory level pricing data will take precedence over product level data.
+
+
+             Was this helpful?How can we improve it?YesNoSubmit       

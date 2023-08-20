@@ -1,0 +1,64 @@
+ Allow Merchant Center to improve your product images
+
+
+  If you’re looking for information about image improvement in the classic Merchant Center experience, click here. 
+
+
+With automatic image improvements, you can allow Merchant Center to apply changes to your product images so that they meet our requirements and improve the overall quality of your images. Automatic image improvements are turned off by default, but you can turn them on in your Merchant Center settings.
+
+In this article
+
+
+  Quick answers
+  How Merchant Center improves your product images
+  Turn automatic image improvements on or off
+
+
+
+  
+    Quick answers
+
+    How do automatic image improvements work with products that contain promotional overlays in the image?
+
+    Promotional text and similar elements that cover the product aren’t allowed on images, so your product will be disapproved by Merchant Center. If you turn on automatic image improvements, Merchant Center will try to fix these images by removing the promotional information. If successful, the image will be replaced and the product will be approved. If you’re not satisfied with the new image, upload a new image without the promotional overlay.
+
+    How do I check if my image has been improved?
+
+    You can see which images have been improved by checking the “Needs attention” tab in your Merchant Center account. Look for the title "Improved image quality [image_link] " in the “Issue” column of the table. On the product detail pages of affected products, you can see the improved image and the originally uploaded image.
+  
+
+
+
+How Merchant Center improves your product images
+
+
+  In this example, the original version of the image included a promotional overlay. The product was disapproved because it didn't meet our image requirements.
+  After turning on automatic image improvements, the promotional overlay was removed, and the product was approved again.
+
+
+
+  
+    
+      Original image
+      Improved image
+    
+    
+      
+      
+    
+  
+
+
+
+Turn automatic image improvements on or off
+
+ In Merchant Center, go to Products .
+
+ Select the Automatic improvements tab.
+
+ Under “Automatic image improvements”, select Edit.
+
+ In the “Automatic image improvements” dialog box, select or unselect Automatically improve products' main image.
+
+ Select Save.
+             Was this helpful?How can we improve it?YesNoSubmit       

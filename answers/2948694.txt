@@ -1,0 +1,108 @@
+ Issues in Merchant Center
+
+
+  If you’re looking for information about issues in Merchant Center Next, click here. 
+
+
+
+To ensure the success of your products and to provide a good experience for potential customers, we've developed a set of policies and data quality requirements for Merchant Center. If your uploaded product data and website don't meet the product data specifications or Shopping policy requirements, your products or your entire Merchant Center account may be subject to warnings, disapprovals, limited visibility, or suspension. These issues can prevent your products from showing across Google.
+
+In this article:
+
+
+  Product-level issues
+  Account-level issues
+  Request a review
+
+
+
+Product-level issues
+
+Product-level issues can occur if the product data you provide doesn’t match the product information on your website, if your product data doesn’t follow the product data specification, or if your products violate our Shopping policy requirements. Product-level issues are applied at the product level, so a product-level issue will only affect the status of individual products. 
+
+
+  Note: Products targeting multiple countries may receive different disapprovals or warnings for each country due to policy differences.
+
+
+There are two types of product-level issues:
+
+
+  Warnings: Products that receive warnings will continue to show across Google, however their performance may be limited. If warnings aren't resolved, they can lead to disapprovals.
+  Disapprovals: Disapproved products stop showing across Google. The product-level issue will need to be fixed before the product can be re-approved.
+
+
+Preemptive item disapproval (PID):
+
+Preemptive item disapproval (PID) occurs if the price or availability of your products don't match between your product data and website landing pages. Once a PID is in place, we err on the side of caution and disapprove products that are likely to violate our requirements. A review is required to resolve these issues. 
+
+To help prevent disapprovals related to price and availability, you can enable automatic item updates, a feature that may reduce the risk of preemptive product disapproval for price and availability mismatches.
+
+Finding product-level issues:
+
+All issues associated with a particular product can be found on the product details page for that particular product. To review all of your disapproved products though, follow these steps:
+
+
+  In your Merchant Center account, go to Products.
+  Then, click Diagnostics.
+  Go to the “Item issues” tab.
+  Sort through the list of issues.
+  Click View examples in the “Affected items” column to see a sample listing.
+  To download a complete list (.csv) of all affected items, click the Download button at the end of the row.
+
+
+Resolving product-level issues:
+
+It’s recommended that you fix product-level issues by editing your product data to correct the issue and then re-uploading your product data via your chosen upload method (such as a file). Each product-level issue also contains a “Learn more” link that directs you to specific instructions for fixing the issue.
+
+To help fix disapprovals related to promotional overlay on images, we recommend you enable automatic image improvements. This feature will try to automatically fix these images by removing promotional overlays. If the removal is successful, the image will be replaced and the products will be re-approved. 
+
+
+Account-level issues
+
+Account-level issues impact all of your products in Merchant Center.
+
+There are two types of account-level issues:
+
+
+  Warnings: If Google finds that your product data or website aren’t in compliance with the product data requirements or violate our Shopping policy requirements, you may receive a warning email with examples of the issues that you need to fix and a warning period in which to fix them. During the warning period your products will continue to appear across Google, however their performance may be limited.
+  Suspensions: If you don't manually request a review during the warning period, your product data and website will be reviewed once more at the end of the warning period. If all your issues are resolved, the warning will be lifted and your products will show as normal. If any of the issues aren't resolved, your account will be suspended and your products will be disabled from appearing across Google. You’ll also receive an email containing all the relevant information and notifying you that your account has been suspended.
+
+
+
+  Note: In some cases when an egregious account-level issue is detected, no warning is given and the account is suspended immediately.
+
+
+Initial review:
+
+When you upload products to your account for the first time, your products and website will be subject to an initial review to ensure they meet our Shopping policy requirements. This process can take up to 3 business days and during that time your products will remain in a “Pending” status. Additional changes to your product data and website may further delay the review process. If the review reveals that your products or website don’t comply with our Shopping policies, your account will be suspended immediately and you’ll receive a notification email with further details. If the review is successful, your products will become eligible to serve across Google.
+
+Finding account-level issues:
+
+To find account-level issues, follow these steps:
+
+
+  Sign in to your Merchant Center Account.
+  Click Products on the navigation menu, then click Diagnostics.
+  Click the Account issues tab.
+  Locate the account-level issue that you would like to learn more about.
+
+
+
+Request a review
+
+In some instances, if your account or one of your product offers is disapproved and you’ve either fixed the issue or you disagree with the issue, you can request a review. If the review is successful, your issue will disappear. If the disapproval remains and you’re uncertain with how to proceed, contact us for support.
+
+
+  Note: If you use a third-party platform to list your products, you may also be able to go to your third-party application to request a review.
+
+
+
+
+Related links
+
+
+  Product data specification
+  Shopping policy requirements
+  Request a review of your issues
+
+             Was this helpful?How can we improve it?YesNoSubmit       

@@ -1,0 +1,87 @@
+ How to fix: Invalid store code
+
+One or more store codes in your local inventory data couldn't be successfully matched with a business in the business group linked to your Merchant Center account. Review both your local inventory data as well as your linked business group to identify why the store codes submitted in your inventory feed don't match any values in your Business Profile.
+
+If all store codes are rejected, verify if your Business Profile is linked using the correct Business Profile owner or manager and that the relevant business group has been selected. Follow these instructions to link your Merchant Center account with your Business Profile.
+
+If your Merchant Center account and Business Profile are correctly linked, make sure that all of your businesses are assigned to their own unique store codes. Your local inventory data can't be matched if the store codes are missing in your Business Profile.
+
+To resolve this issue, make sure that all store codes exist in your Business Profile, then resubmit your product data.
+
+
+  Note: It can take up to 24 hours to sync your business locations into your Merchant Center account. So, we recommend that you upload your inventory feed 24 hours after linking accounts, or after a store code is updated in your Business Profile.
+
+
+Instructions
+
+
+  Step 1 of 3: See the affected store codes
+
+  
+    
+      In your Merchant Center, select Products on the navigation menu, then click Feeds.
+      Click the name of your local product inventory feed.
+      In the “Processing” tab, click Download file.
+      Open the file and filter by error “Invalid store code”.
+    
+  
+
+
+
+  Step 2 of 3: Identify why your store code couldn’t be matched
+
+  
+    To resolve this issue, follow the steps below:
+
+    1. Review store codes
+
+    Verify that the store codes identified as “Invalid store code” are matching the relevant store codes in your Business Profiles.
+
+    
+      Make sure that your store codes don't contain any misspellings or incorrect numbers in either your inventory feed or your Business Profile.
+      Check if store codes belong to another business group. If the store code belongs to another business group, add the store location to the linked business group. Learn how to add a location to additional business groups.
+    
+
+    2. Verify that all your businesses have a store code
+
+    
+      In the "Businesses" section of your Business Profile Manager, filter for missing store codes by switching the view from “All” to “Missing store codes”.
+      Review the displayed Business Profile and check if there are any stores without a store code.
+      Add the relevant store codes within your Business Profile account or by using Advanced profile settings from Google Search.
+    
+
+    3. Verify the Business Profile addresses
+
+    Your stores must operate with a storefront that is physically accessible to customers. So, your business must have a valid address. Learn how to add or edit a business address for your Business Profile.
+
+    4. Verify the linked Business Profile
+
+    If none of the store codes in your business group are missing and all of the store codes are correctly spelled:
+
+    
+      Make sure that the linked Business Profile account matches the Business Profile that contains your business.
+      Make sure that the linked business group within Merchant Center matches the business group that contains your business.
+    
+
+    5. Store codes invalid error despite being matched
+
+    If the issue persists after all the above checks, re-upload your inventory feed after 24 hours.
+  
+
+
+
+  Step 3 of 3: Resubmit your product data
+
+  
+    
+      After updating your store codes, resubmit your inventory feed using one of these methods:
+        
+          Upload a feed
+          Submit through the Content API
+        
+      
+      Next, check if you’ve fixed the issue by making sure it’s no longer listed on the processing report.
+    
+  
+
+             Was this helpful?How can we improve it?YesNoSubmit       

@@ -1,0 +1,22 @@
+ Feed specifications
+
+Feed overview
+
+Unless you are participating in Product Ratings through Google Customer Reviews, you will need to provide a feed if you would like to display product reviews and ratings. This article explains how to properly format your Product Ratings feed.
+
+Note that providing a feed does not guarantee that your content will be included on Google. Your reviews must always comply with our policies.
+
+View an example feed here
+
+XML schema
+
+An XML schema gives guidance on how to structure the XML feed and uses the .xsd file extension. The XML schema for Product Ratings is published here.
+
+Please refer to the Google Developers' site  for more detail on the Product Ratings XML schema and feed organization.
+
+XML validation
+
+To ensure that Google can process your feed, please use an XML schema validator before submitting your feed.
+
+For more information on validating your feed, visit the XML Validation page on the Google Developers' site
+             Was this helpful?How can we improve it?YesNoSubmit       

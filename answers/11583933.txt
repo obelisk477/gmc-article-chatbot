@@ -1,0 +1,44 @@
+ Benefits of showing your return policy on Shopping ads and listings (US only)
+
+Being able to review your return policy may help customers make a decision to buy a product, and may help improve the performance of your products. If you add your return policy to your Merchant Center account, customers will see various return-related annotations on your Shopping ads and listings, such as:
+
+
+  Free returns
+  30-day return policy
+  Free returns until January 31
+  Returns until January 31
+  30-day returns, $10 fee applies
+
+
+
+
+Shoppers can also filter by “free returns” when they search for products:
+
+
+
+In addition, if we’re able to determine your return policy without you uploading it, for example, by crawling your website or if you’ve linked your Merchant Center account to a third party account (for example, Shopify, WooCommerce), we may be able to automatically surface this information to customers on your behalf.
+
+If your return policy is already appearing on your ads and listings, and you’d like to make changes, you can create a new return policy in your Merchant Center account. Learn more about setting up your return policy
+
+For example:
+
+To ensure “Free returns” is comes up with your offers, set up your return policy:
+
+
+  Shopping ads and free listings
+  Buy on Google
+
+
+
+  If you see a notation on your ads or listings that says your return policy applies "For most items,” that means we were able to determine your return policy without you uploading it. To remove this notation, you’ll need to add a return policy to your Merchant Center account. Learn how to upload your return policy
+
+
+
+Related links
+
+
+  Switch how you manage your Buy on Google returns (US only)
+  Return settings requirements for Buy on Google (US only)
+  Supported structured data attributes and values
+
+             Was this helpful?How can we improve it?YesNoSubmit       

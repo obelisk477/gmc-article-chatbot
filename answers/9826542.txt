@@ -1,0 +1,109 @@
+ About performance reporting for free listings
+
+Use performance reporting for free listings and free local product listings to see how much engagement they're driving. Learn more about performance reporting in Merchant Center
+
+You can also create custom reports using the report editor. Learn more about custom reports in Merchant Center
+
+Review your performance data in Merchant Center
+
+You can review performance data for all of your products or for individual products. Clicks and impressions that your products receive across the Shopping tab, YouTube, the Shopping Knowledge Panel, and Popular Products will be included in your performance reporting. Learn more about where Google shows your free product listings
+
+
+  
+    Note: To review the performance of your free listings on Rich snippets in web results and Google Images, visit the "Performance" tab in Google Search Console. Learn more about Google Search Console
+  
+
+
+Review all data
+
+
+  For a broad look at your data, review the "Performance (free listings)" card on the “Overview” page.
+  For a deeper view, click “Performance” and then “Dashboard” in the left-hand navigation menu. Then, click either the “Free product listings” or “Free local product listings” tabs above the dashboard.
+  You can segment each metric into Country, Product, Brand, or Category by clicking the segment’s name at the bottom of the dashboard.
+
+
+Review your data for individual products
+
+
+  To find data for an individual product, click "Products" in the left-hand navigation menu, and then click “All Products”. You’ll see the number of clicks from free listings and free local listings for each product offer in the “Unpaid clicks” column.
+
+
+Performance data may be limited
+
+
+  If your product listings don’t have enough traffic during a selected time period, you could see limited performance data in your reporting. This situation can also occur when you apply a filter to your data.
+  When you segment your total performance data by any metric or category, you might notice a difference in the total and the sum of the rows. Some data might not be available for detailed reporting but is still considered in the total sum.
+
+
+Free listings performance troubleshooting
+
+If you don’t see data in performance reporting for your free listings, it may be because you haven’t opted in to the feature. To participate, follow the policies to show products for free on Google and opt in.
+
+
+  Note: You may see impressions and clicks for items that are disapproved for free listings due to insufficient product information. In some instances where it may be beneficial for a potential customer, we try to serve listings for these items.
+
+
+Best practices for web analytics tools
+
+If you want to track clicks using a third-party or proprietary web analytics tool (for example, Google Analytics), you may do so by implementing the tracking setup on your website or application. Clicks from various Merchant Center features will then automatically show in these tools. You may want to verify that the split between Google Ads traffic and free traffic is reported accurately.
+
+Here are a few options:
+
+
+  Option 1: Use link / mobile link URLs and Google Ads auto-tagging
+
+  
+    
+      Enable auto-tagging in your Google Ads account or use Google Ads tracking templates with a final URL suffix. This will segment the traffic from Google Ads so that the source is shown as “google” and the medium as “cpc” in Google Analytics. Learn more about tracking in Google Ads
+      Use the link [link] and mobile link [mobile_link] attributes in your feed. In Google Analytics, traffic from free listings will show “google” as the source and “organic” as the medium. Learn more about traffic sources in Google Analytics
+        
+          Clicks from Merchant Center free listings reporting are only a portion of your clicks reported by Google Analytics. It's recommended that you verify your analytics tools reporting data with Merchant Center performance reporting.
+        
+      
+    
+  
+
+
+
+  Option 2: Use separate URLs in Merchant Center feeds, by using the ads redirect, mobile link, and the Google Search index attributes
+
+  
+    
+      Use the ads redirect [ads_redirect] attribute in your product data for landing page URLs intended for Shopping ads. This attribute will override the link [link] and mobile link [mobile_link] attributes for Shopping ads traffic. You can use the {ifmobile} ValueTrack parameter in this attribute to provide specific landing pages for mobile ads. Additionally, auto-tagging in your Google Ads account will need to be enabled. Google Ads tracking templates can also be set up.
+
+        
+          An example of using the ads redirect [ads_redirect] attribute with Google Analytics tracking parameters: “https://www.example.com/product123.html?utm_source=feed&utm_medium=cpc”
+        
+      
+      Use the link [link] and mobile link [mobile_link] attributes for landing page URLs intended for free traffic (such as traffic from free product listings and free local product listings). Traffic from free listings will show in Google Analytics with “google” as the source and “organic” as the medium.
+        
+          Some free listings traffic can be further segmented in Google Analytics by using parameters in your link and mobile link attributes. It's recommended that you verify your analytics tools reporting data with Merchant Center performance reporting as this setup may lead to data discrepancies.
+        
+      
+      If you use tracking parameters in your link [link] and mobile link [mobile_link] attributes, we recommend using the Google Search index [canonical_link] attribute in your feed to provide a canonical URL. Use the Google Search index [canonical_link] attribute to ensure products are associated with the correct URL in the Google Search index as this improves Google’s understanding about the product. Learn more about canonical links
+      If the Google Search index [canonical_link] attribute isn’t used, the link [link] and mobile link [mobile_link] feed attributes may be included in the web search index. If the link or mobile link attributes have been indexed, you can prevent organic click reporting under your link or mobile link tracking parameters by setting up the canonical link. Alternatively, to prevent indexing, add the noindex tag to your pages if appropriate.
+        
+          Note: Once the pages are reindexed, the tracking parameter from the link attribute should no longer appear in organic search results. It can take days to three months for re-indexing to occur. Check your crawl rate settings in the web developer console tools to assist with reindexing pace.
+        
+      
+    
+  
+
+
+Updating your product data feeds
+
+You have 2 options to update the attributes in your product data feeds:
+
+
+  Update the feed with the recommended values for the link [link], mobile link [mobile_link], and ads redirect [ads_redirect] attributes using one of the feed updating mechanisms.
+  If you can’t change the feed, use feed rules to map the link [link] attribute to the ads redirect [ads_redirect] attribute and remove / change tracking parameters in the link attribute.
+
+
+Related links
+
+
+  Show your products for free on Google
+  Where Google shows your free listings
+  About performance reporting in Merchant Center
+
+             Was this helpful?How can we improve it?YesNoSubmit       

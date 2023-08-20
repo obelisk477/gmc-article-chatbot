@@ -1,0 +1,32 @@
+ Availability for inventory
+
+Your inventory availability reflects the status of your products to users based on how much of a product you have in stock.
+
+How it works
+
+Inventory is classified into one of the following categories based on availability and quantity in your local products inventory:
+
+
+  In stock: Items that have quantities of 3 items or more.
+  Limited stock: Items that have quantities of 2 items or less.
+  On Display to Order (ODO): Items that are displayed in-store, but not immediately available for purchase: Such as large furniture items, or different sizes and colors of a display model.
+  Out of stock: Items that are marked as quantity 0. We won’t serve local inventory ads for these items.
+
+
+Note: Inventory is classified based on the lower value between your availability and quantity.
+
+Benefits
+
+To deliver an optimal customer experience, make sure you present accurate inventory information. Accurate information helps you show local products on Google that drive traffic to your store.
+
+How to improve inventory availability
+
+Use these guidelines to keep your inventory availability up-to-date:
+
+
+  Add missing products or inventory values to the corresponding feeds, or adjust the availability data in your feeds as needed. 
+  Make sure your account allows On Display to Order for the country in question. Learn more About on display to orderLearn more About on display to order
+
+
+
+             Was this helpful?How can we improve it?YesNoSubmit       

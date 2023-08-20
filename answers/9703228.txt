@@ -1,0 +1,49 @@
+ Create a collection
+
+Collections help you create rich ad and free product listing experiences in a simpler way. They can also enrich your product data, which may increase performance and improve the user experience.
+
+If you’d like to create a collection using products in your product data, begin by setting up a collections feed in your Merchant Center account.
+
+Instructions
+
+Upload a collections feed
+
+
+  Sign in to your Merchant Center account.
+  Click Products.
+  Click Feeds.
+  Select the Collections feeds tab.
+  Click the plus button .
+  Choose the destinations where you’d like your collection to appear.
+  Name your collection feed.
+  Choose an upload method, and follow the instructions for that method.
+    
+      Google Sheets
+      Scheduled fetch
+      Upload (SFTP, GCP, or manually)
+    
+  
+
+
+
+  Note: The Content API is also compatible with collections creation. Visit the developer site for more details.
+
+
+Review feed processing results
+
+You’re able to review the results of all feed processing for file-based or Google Sheet-based feeds. To find the results:
+
+
+  Sign in to your Merchant Center account.
+  From the navigation panel, click Products, and then click Feeds.
+  Select the Collections feeds tab.
+  Click the collections feed name you’d like to review.
+  Review the results:
+    
+      Properties: This includes key feed properties, which vary depending on the input method of the feed. Here, you can find attributes such as input method, time zone, file size, detected delimiter (if applicable), and more.
+      Attributes: Depending on which Merchant Center program your feed is opted into, we require attributes to adhere to the product data specification. In this section, you can review all of the attributes we found in your feed, including those attributes which are recognized and map to the feed specification, and also unrecognized attributes which don’t match any of those listed in the product data specification. You may review the list and use tools, such as Feed Rules, to tell Merchant Center which unrecognized attribute you’d like to use to populate a Google attribute. For example, you may want to use "product name" in the "title" attribute.
+      Processing Data: In this section, you can review the amount of items found in your feed as well as those with any detected item issues. Review the list of item issues to understand how many items in your feed are impacted, including examples and links to documentation to address the issue.
+    
+  
+
+             Was this helpful?How can we improve it?YesNoSubmit       

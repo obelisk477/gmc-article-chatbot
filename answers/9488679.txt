@@ -1,0 +1,106 @@
+ About the best sellers report
+
+
+  
+    Note: You’ll need to enable Market Insights before you can use this feature.
+  
+
+
+The best sellers report shows you the most popular brands and products used in Shopping ads and free listings, as well as whether or not you currently carry them in your product feed. This popularity data is grouped by Google product category and country to help you decide which new products and brands to stock. It can also help you pinpoint seasonal trends with the use of historical data, as well as identify the products and brands that would benefit from increased budgets or bids.
+
+This article explains how the best sellers report works and how advertisers can get the most out of it.
+
+Benefits
+
+
+  Add the right products to your inventory (applicable for retailers that use Shopping ads, free listings, and/or Buy on Google): The best sellers report shows you which products are most popular on Shopping ads and free listings right now and over time, so you'll have more insight into new brands or products that you could add to your own assortment. Filter the report by Google product category and country to look at the products that make the most sense for your business.
+  Set the right bid and budget (applicable for retailers who use Shopping ads and free listings): The report also shows you which popular products and brands are in your product data, so you can identify which high-demand products and brands could benefit from bids and budget optimization.
+  Feature best-selling products on your website (applicable for retailers who use Shopping ads, free listings, and Buy on Google): Use the best sellers report to identify Google best sellers that you can showcase on your website.
+  View insights at scale with Google BigQuery (requires a Google Cloud account): View best sellers data through Google Cloud’s BigQuery. By enabling this, you can develop custom workflows using your own data and gain business insights to inform assortment decisions and more. Learn more about Google BigQuery Data Transfer Service for Merchant Center
+
+
+How it works
+
+The best sellers report data is refreshed daily. (The data included in metrics can be delayed by up to 2 days.) The report uses Shopping ads and free listings data and is available to retailers who use Shopping ads, free listings, and/or Buy on Google. It doesn't include used products.
+
+To get started, navigate to the "Growth" tab in Merchant Center. Here you’ll find the “Best sellers” report. In each report, you can filter the information by country and Google product category.
+
+The information available in the best sellers report includes:
+
+
+  Top products
+
+  
+    
+      Popularity rank: The popularity of the item on Shopping ads and free listings, in the selected category and country, based on the estimated number of units sold.
+      Change from preceding week or month: The change in items’ popularity rank from the previous week or month.
+      Relative demand: A product's estimated demand in relation to the product with the highest popularity rank in the same category and country.
+        
+          Very high: This product has 51-100% of the demand of the highest ranked product
+          High: This product has 21-50% of the demand of the highest ranked product
+          Medium: This product has 11-20% of the demand of the highest ranked product
+          Low: This product has 6-10% of the demand of the highest ranked product
+          Very low: This product has 0-5% of the demand of the highest ranked product
+        
+      
+      Image: An image of the product.
+      Title: An example title for the product.
+      Popular variants (GTIN): The most popular GTINs, as provided by merchants, associated with this product in Shopping ads and free listings.
+      Category: The Google product category that the item belongs to on Shopping ads and free listings.
+      Brand: The product's brand.
+      Brand inventory status: Notates whether the brand is currently "in stock" in your feed across multiple countries, or "not in inventory". This field doesn't take the best sellers report country filter into account.
+      Product inventory status: Notates whether the product is "in stock" in your product feed across multiple countries, "out of stock" in your product feed, or "not in inventory" at all. This field doesn't take the best sellers report country filter into account.
+      Price range: This displays the price range for the product in Shopping ads and free listings. These values don't include shipping cost.
+    
+
+    
+      Note: The “Popular variants (GTIN)”, “Brand inventory status”, “Product inventory status”, and “Price range” fields reflect the current status, regardless of the time range selected.
+    
+  
+
+
+
+  Top brands
+
+  
+    
+      Popularity rank: The popularity of the brand in Shopping ads and free listings, in the selected category and country, based on the estimated number of units sold for this brand.
+      Change from preceding week or month: The change in the brands’ popularity rank from the previous week or month.
+      Relative demand: A brand's estimated demand in relation to the brand with the highest popularity rank in the same category and country.
+        
+          Very high: This brand has 51-100% of the demand of the highest ranked brand
+          High: This brand has 21-50% of the demand of the highest ranked brand
+          Medium: This brand has 11-20% of the demand of the highest ranked brand
+          Low: This brand has 6-10% of the demand of the highest ranked brand
+          Very low: This brand has 0-5% of the demand of the highest ranked brand
+        
+      
+      Brand: The product's brand.
+      Top products in your inventory: Number of the brand’s top "in stock" and "out of stock" products that currently exist in your product feed for the selected country and category. "In stock" and "out of stock" status is defined based on your inventory across all target countries for your Merchant Center account.
+      Top product opportunities: Number of products in the "Top Products" tab associated with that brand that are not in your product inventory today. The link redirects to the "Top Products" tab, where you can see the full list of specific top products for that brand.
+    
+
+    
+      Note: The “Top products in your inventory” and “Top product opportunities” fields reflect the current status, regardless of the time range selected.
+    
+  
+
+
+To download the results of the two reports into a .csv file, click the Download button in the top right corner of the report table.
+
+Best practices
+
+Depending on the type of business you run, you can use this report in different ways.
+
+
+  If you're a retailer selling products in many categories: Consider searching for results based on a high-level Google product category, like “Media” or “Home & Garden”. You'll get a wide understanding of product popularity, because the results will include products from all sub-categories within the category you chose.
+  If you're a retailer specializing in a specific category: Consider searching for results based on a narrow Google product category, like “Home & Garden > Plants > Trees”. You'll get a focused understanding of product popularity in a specific category.
+
+
+Related links
+
+
+  About Market Insights
+  About the price competitiveness report
+
+             Was this helpful?How can we improve it?YesNoSubmit       

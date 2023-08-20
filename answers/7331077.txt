@@ -1,0 +1,114 @@
+ Set up structured data for Merchant Center
+
+This article outlines how to implement structured data markup for your product data.
+
+
+  Before getting started, review About structured data markup for Merchant Center and verify your site meets the requirements.
+  For general guidelines for structured data beyond your Merchant Center product data, visit schema.org’s Getting started guide. We also recommend using Search Console to troubleshoot structured data related issues, and to measure your site's search traffic and performance.
+  Additional guidance can be found in the Search Product structured data article, specifically the sections on Merchant Listings.
+
+
+On this page
+
+
+  Getting started
+  Add structured data markup
+  Products and offers
+  Test your markups
+
+
+
+Getting started
+
+To add structured data markup to your website, you need to be able to access and edit your site’s HTML, or your shop system’s template configuration. Markup is an HTML tag annotation that lets search engine crawlers and bots know there is product data on your site and helps the systems reliably understand the data.
+
+In order for Google’s crawler to match the structured data to your product data, one of the two following conditions must be satisfied:
+
+
+  There is a single offer on the landing page
+  If there are multiple offers on the whole page, each offer present on the page is annotated with a SKU or a GTIN and the respective offer in your product data on Shopping has the same SKU (ID [id] attribute) or GTIN (GTIN [gtin] attribute). This can be useful if you show multiple variants of the same product (for example, different sizes or colors, or related products) on the same landing page.
+
+
+If at least one of these conditions isn’t met, the products on your landing page won’t match your product data.
+
+For more in-depth information about setting up structured data markups on your website, please visit schema.org’s Getting started guide. The schema.org section on machine-understandable versions of information provides help on understanding and clarifying your structured data.
+
+
+Add structured data markup
+
+To add structured data markup to your site, we recommend you add this as JSON-LD to your HTML markup. Refer to Introduction to structured data markup in Google Search for more information.
+
+JSON-LD markup is distinct from any user-facing code, which makes it easier to maintain. Any structured data markup specifically designed for Google use can be added without changing any of the visual elements of your site.
+
+If you use an e-commerce platform on your site, you may need to make some changes to the platform template or code before adding your structured data. In addition, your site should be able to support JavaScript for template and page level applications.
+
+
+  Tip: The code that generates your structured data needs to be kept in sync with any changes to the user-facing elements on your site.
+
+
+
+  Example
+
+  
+    JSON-LD
+
+    {
+
+      "@context": "https://schema.org/",
+
+      "@type": "Product",
+
+      "sku": "trinket-12345",
+
+      "image": "https://www.example.com/trinket.jpg",
+
+      "name": "Nice trinket",
+
+      "description": "Trinket with clean lines",
+
+      "gtin": "12345678901234",
+
+      "brand": {
+
+        "@type": "Brand",
+
+        "name": "MyBrand"
+
+      },
+
+      "offers": {
+
+        "@type": "Offer",
+
+        "url": "http://www.example.com/trinket_offer",
+
+        "itemCondition": "https://schema.org/NewCondition",
+
+        "availability": "https://schema.org/InStock",
+
+        "price": "39.99",
+
+        "priceCurrency": "USD"
+
+      }
+  
+
+
+Added structured data markups can appear anywhere in the HTML source. Any added markups must be present in the HTML returned from the web server, and can’t be generated after a page has been loaded using JavaScript.
+
+
+Products and Offers
+
+Your landing pages should contain a Product object, which describes the product, and a nested Offer object in the offers field, which describes how this product is sold.
+
+Note that the price must be specified with a period as a decimal separator, instead of a comma. If you show the price in multiple currencies on the landing page, you can use multiple objects of type Offer. When you use multiple Offer objects, you’ll also need to use the priceCurrency attribute to specify currencies.
+
+If a sales price is shown on the landing page and this price is what a user would actually pay at that time, make sure the sales price is provided in the structured data.
+
+Important: Some product spec attributes are not supported by schema.org.Specifying the following schema.org values is required for automatic item updates: price, priceCurrency, availability and condition. Learn more about supported structure data attributes.
+
+
+Test your markups
+
+Test your schema.org implementation with Search Console or the Rich Results Tool. Visit the Google Search Console Help Center to learn more about using the tool, debugging any issues, and interpreting your results in the tool.
+             Was this helpful?How can we improve it?YesNoSubmit       

@@ -1,0 +1,40 @@
+ Link your Merchant Center account to a third-party platform
+
+
+  
+    If you’re looking for information about linking your Merchant Center account to a third-party platform in Merchant Center Next, click here.
+  
+
+
+
+ 
+
+You may work with a third-party platform to show, promote, or sell your products across Google. Linking your account will associate your Merchant Center account with an account you manage on a third-party platform. This allows us to provide better services to you and your linked platform.
+
+Instructions
+
+Link your accounts
+
+
+  In your Merchant Center account, click the tools and settings icon .
+  Click Linked accounts under "Settings".
+  Click the "Partners & platforms" tab.
+  Click the Link button to choose a platform that you want to link to your Merchant Center account.
+  Click Link accounts, then follow the instructions.
+  Check the “Status” column to see if your accounts have been successfully linked.
+
+
+Remove a link
+
+
+  In your Merchant Center account, click the tools and settings icon .
+  Click Linked accounts under "Settings".
+  Click the "Partners & platforms" tab.
+  In the “Action” column, click Manage.
+  Click Unlink.
+
+
+
+  Note: For instructions on how to integrate with your carrier account to generate return labels, click here.
+
+             Was this helpful?How can we improve it?YesNoSubmit       

@@ -1,0 +1,92 @@
+ Live display and performance tracking
+
+This article provides answers to common questions about where Google distributes your promotions, how to track promotion performance, and when costs apply to live promotions.
+
+
+  Where will my promotions appear?
+
+  
+    Your promotions can appear across different Google properties, including Google Search, the Shopping tab, Chrome, and more. The promotion will be shown on products eligible for the promotion, and will appear as a clickable annotation that says "special offer". On mobile devices, promotions display with more detail, showing the offer amount and benefit type.
+
+    Before submitting promotions to Google, review our editorial requirements, promotions policies, and feed specifications.
+
+    Note: If your promotions target countries that were newly added to the Promotions eligibility list, your promotions will start appearing gradually. For this reason, your offers may not all be visible immediately.
+  
+
+
+
+  How do I get my promotion to appear?
+
+  
+    You can create a promotion for your products by using the promotion builder within Merchant Center, or by uploading a promotions feed. Learn more about creating and submitting promotions
+
+    Note: The use of promotions won't affect your ranking on Google.
+  
+
+
+
+  How do I track my promotion performance?
+
+  
+    You can track, measure, and compare key performance metrics for any of your deals (your products with promotion, sale, or price drop badges, for example) in Merchant Center and for your promotions in Google Ads.
+
+    Measure performance in Merchant Center
+
+    
+      In Merchant Center, select Performance from the left navigation bar.
+      Then, click the Promotions tab to view the performance of your promotions.
+    
+
+    Measure performance in Google Ads
+
+    In Google Ads, you can only measure the performance of standard Shopping campaigns. You can measure the performance of Performance Max campaigns with a Merchant Center Product Feed in your Merchant Center account.
+
+    To measure how customers engage with your promotions, follow these steps:
+
+    
+      Go to your Shopping campaign.
+      Click Segment, then select Click type. Click type reports impressions from the “Special offer” link and reports clicks to the “Shop” button in the promotion bubble.
+      Segment campaigns by click type.
+      Go to the “Shopping ad - Coupon” click type. This click type reports impressions from the “Special offer” link and reports clicks to the “Shop” button in the promotion bubble.
+    
+
+    To capture the impact of the "special offer" annotation, measure CTR at the campaign level. Your clicks and CTR may appear low, but impressions and conversions are typically higher.
+  
+
+
+
+  What URL does Google use when customers click on the "SHOP" button on a promotion?
+
+  
+    Customers will land on the link [link] attribute value specified in your feed. This location is the same as if they had clicked on the product landing page.
+  
+
+
+
+  How much does it cost to show promotions?
+
+  
+    Promotions don't incur additional costs, though Costs-Per-Click (CPCs) do still apply.
+  
+
+
+
+  Can multiple promotions be mapped to an item? How will they appear on Google?
+
+  
+    Up to 10 promotion ID [promotion_id] values can be mapped to one item in your product feed. Google shows up to 5 promotions per item. The order the promotions appear are organized by product applicability [product_applicability].
+
+    Promotions with specific_products as the value for the product applicability [product_applicability] attribute are prioritized, followed by promotions with all_products as the value for the product applicability [product_applicability] attribute.
+  
+
+
+
+  How can I make promotions available on mobile devices?
+
+  
+    No additional action is required to have your promotions display on mobile devices. Once your promotion has been approved per policy and SKU guidelines, it will be visible on both desktop and mobile.
+
+    Note: Promotion links on mobile won't appear with a "special offer" annotation. Instead, mobile promotions will display the actual promotion, for example, "5% off, min $25 USD".
+  
+
+             Was this helpful?How can we improve it?YesNoSubmit       

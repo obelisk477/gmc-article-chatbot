@@ -1,0 +1,67 @@
+ How to add products directly in Merchant Center
+
+
+  If you’re looking for information about adding products directly in Merchant Center in the classic Merchant Center experience, click here.
+
+
+
+You can add product data in Merchant Center without needing to add a new product file. You can enter product details directly in a form in Merchant Center. This option is useful when you want to add one or a few products in Merchant Center.
+
+On this page
+
+
+  Quick answers
+  Get started
+  Next steps
+  Fix an issue
+
+
+
+
+  Quick answers
+
+  How do I add or update my products directly in Merchant Center?
+
+  When you choose this option, you enter your product data directly into the Merchant Center using an online editor. The product editor allows you to add images, prices, and other required information needed to show your product on Google.
+
+  This method of adding products can be used with other product data upload options.
+
+  Can I add multiple products at the same time?
+
+  No. You can only add one product at a time when using Merchant Center’s online product editor.
+
+
+
+Get started
+
+ In your Merchant center account, go to Products.
+
+ Under “All products” click Add Products.
+
+ Select the option Add products one by one.
+
+ Enter the details of the product into the form. Learn more about the product details that need to be added.
+
+ When the product data is complete select Save. Or, if you’d like to add another product, select Save & add another.
+
+
+  Tip: If you need to make updates to your product information, click the title of the product on the “All Products” list. Learn more about updating product information in Merchant Center.
+
+
+
+Next steps
+
+
+  We review your products for completeness and compliance with our policies, and inform you of any issues with products that sync to your account.
+  You can check the publishing status of each product from the “Products” page (under the “Status” column). If you don’t want to show some products, you can also change the visibility of the products. Learn more about checking product visibility and status in Merchant Center.
+
+
+
+
+Fix an issue
+
+Issues with your products need to be fixed before customers can view them on Google. All issues with your product data can be found in the "Needs attention" tab of the “Products” section in Merchant Center.
+
+Each product-level issue also contains a “Learn more” link that directs you to specific instructions for fixing the issue. Learn more about Issues in Merchant Center.
+
+             Was this helpful?How can we improve it?YesNoSubmit       

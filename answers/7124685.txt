@@ -1,0 +1,24 @@
+ Google Customer Reviews website badge
+
+The Google Customer Reviews website badge is an image incorporated on your store’s pages that will indicate your participation. Use the badge to display your seller rating and link to your seller ratings landing page. The badge also lets shoppers know what other customers have said about their experiences with your site.
+
+This article explains what the badge looks like, how to customize it, and where you can place it.
+
+How it works
+
+Once you accept the Google Customer Reviews agreement, you can integrate the badge on your site. The badge may be placed anywhere on the page and may appear on any number of pages. Your badge will contain the Google Customer Reviews brand and your seller rating (the numerical value and star rating). Learn how to integrate the badge code
+
+Note: There is no minimum seller rating. If you do not have a seller rating, your Google Customer Reviews badge will state “Rating not available”.
+
+What it looks like
+
+You need enough reviews from a country during the past year for your seller rating to appear on your Google Customer Reviews badge for users in that country. In most cases, merchants are able to obtain a rating after collecting 100 or more eligible reviews.
+
+
+
+When customers click on your badge, they arrive on your site’s seller ratings landing page for that country. Learn more about seller ratings, including how to determine whether or not you have a seller rating.
+
+When it might be removed
+
+If you violate the Google Customer Reviews agreement, privacy policies, or in any other way manipulate the product offering, your account may be suspended. If your account is suspended, you can no longer display the badge and it will disappear from your site. If your account is reinstated, the badge will reappear.
+             Was this helpful?How can we improve it?YesNoSubmit       

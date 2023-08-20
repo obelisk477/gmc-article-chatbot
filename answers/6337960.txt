@@ -1,0 +1,64 @@
+ Best practices for landing page maintenance or a planned site outage
+
+You might need to perform maintenance on your product's landing pages or plan for an outage on your site. If your product data remains active when your landing page isn't, you could end up paying for clicks when customers visit your landing page's error message. Your products could also be disapproved in Merchant Center if the landing page is crawled and returns an error.
+
+This article explains how to submit your product data to let us know about an outage on your site, and to limit the risk of product disapprovals.
+
+On this page
+
+
+  Before your landing page is unavailable
+  After your landing page becomes available again
+
+
+
+Before your landing page is unavailable
+
+Step 1: Use Google Search Console to limit how often Google crawls your site
+
+At least 24 hours before your landing pages become unavailable.
+
+
+  We don't recommend limiting Google's crawl rate if your site gets more than a million or more visits per day. Instead, skip to step 2: disable automatic item updates.
+
+
+Once you limit your crawl rate, the new crawl rate will be valid for 90 days. After 90 days, the crawl rate will revert back to the previous setting. Learn more about how to Change Googlebot crawl rate.
+
+Step 2: Disable automatic item updates
+
+If you use automatic item updates, disable them at least 24 hours before your landing page becomes unavailable.
+
+Step 3: Use the excluded destination attribute in your product data
+
+If the product is available for sale but you’d like to stop showing ads for the product, use the excluded destination [excluded_destination] attribute. Learn more about Excluded destination [excluded_destination].
+
+Keep in mind:
+
+
+  Products that are excluded from all destinations for more than 7 days will be automatically deleted.
+  Don't use out_of_stock for the availability [availability] attribute for products that you're no longer selling. Instead, remove any discontinued products from your product data.
+
+
+
+  Note: The best practice is to pause the campaign before you start excluding products to prevent ads from serving due to system delays. You can either pause the campaign or use the excluded destination [excluded_destination] attribute.
+
+
+
+After your landing page becomes available again
+
+When your landing page is available again, return each of the settings to their previous state.
+
+Reset the crawl limit in Google Search Console
+
+To make sure Google crawls your site sooner, let Google optimize the crawl rate for your site, or at least set the rate to a high limit. If your site has been offline for a while, you may notice that Google is crawling your site at a higher rate than normal.
+
+Update the excluded destination attribute
+
+Reset the excluded destination [excluded_destination] attribute to include your products in the desired destinations and then re-upload your feed.
+
+
+  Tip: If you followed the steps in this article and your product was still disapproved because Google crawled your page while it wasn't available, don't worry. Google will generally crawl your landing page again within a day. If your landing page is available at that time, then the disapproval notification will be removed.
+
+
+
+             Was this helpful?How can we improve it?YesNoSubmit       

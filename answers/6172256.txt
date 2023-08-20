@@ -1,0 +1,94 @@
+ Serving limitations
+
+
+  This policy applies to Shopping ads and local inventory ads
+
+
+
+
+Our policy
+
+
+  
+    
+      
+        
+        
+          Google classifies certain types of content to ensure it is only shown to the relevant audience based on the nature of the products or legal restrictions.
+
+          For business areas where there are age restrictions, Google may limit how products are served. As a retailer, you are always responsible for ensuring that you comply with all applicable laws and regulations and do not target minors, for example with alcoholic beverages, adult-oriented content with nudity or reference to a sexual activity, accessories that make reference to the drugs, or profane language.
+
+          In order to help retailers provide a quality user experience Google will not show content that is intended only for the adult audience:
+
+          
+            On partner websites who don't accept this type of content.
+            For users who have activated their SafeSearch filter.
+            In countries where the content isn't allowed. Please see the section below for details.
+            For queries that aren't considered "adult" in nature.
+          
+        
+        
+      
+    
+  
+
+
+Users who have activated their SafeSearch filter will only see those Shopping ads that are considered “family safe” and that are intended to be shown to any audience. In order to see the content that belongs to any of the product categories where age restrictions apply, users need to deactivate their SafeSearch filter. Learn more about SafeSearch.
+
+
+How does this policy differ from country to country?
+
+In addition to the requirements above, some countries have further restrictions. Please see the additional country-specific requirements below.
+
+Country-Specific Requirements
+
+
+  
+    
+      Countries
+      Status
+      Details
+    
+    
+      
+      India
+        Indonesia
+        Hong Kong
+        Malaysia
+        Philippines
+        Russia
+        Saudi Arabia
+        Singapore
+        South Korea
+        Thailand
+        Turkey
+        United Arab Emirates
+        Vietnam
+      
+      
+        Not allowed
+      
+      
+      In these countries, Google doesn't allow the promotion of adult-oriented content including nudity.
+      
+    
+    
+      
+      Germany
+      
+      
+        Allowed with limitations
+      
+      
+      In Germany, Google does not allow adult oriented content that displays sexualized nudity of human, digital or otherwise artificially generated models (this includes cartoons, drawings, paintings, sculptures and anime). Sex toys must not be promoted in sexualized use by such models. Content must not show the genitals or the buttock, or have exclusive focus on these body parts, even if those body parts are censored.
+      
+    
+  
+
+
+We appreciate your understanding as we strive to keep our users safe.
+
+
+To ensure a safe and positive experience for customers, Google requires that retailers comply with all applicable laws and regulations in addition to our policies. It's important that you familiarize yourself with and keep up to date on these requirements for the place where your business operates, as well as any other places your ads are shown. When we find content that violates these requirements, we may block it from appearing. In cases of repeated or egregious violations, we may ban you from advertising content with us.
+
+             Was this helpful?How can we improve it?YesNoSubmit       

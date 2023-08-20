@@ -1,0 +1,155 @@
+ Promotion status FAQs
+
+This article provides answers to common questions about pending and rejected promotion statuses.
+
+Each promotion has a status that indicates whether it is eligible to show on Google.
+
+
+  How do I determine the status of my promotion?
+
+  
+    Follow the steps below:
+
+    
+      Go to the Promotions dashboard in your Merchant Center account.
+      Review the “Status” column to see the status of each of your promotions.
+      Click the speech bubble icon  for information about disapproved promotions and helpful links.
+    
+
+    Learn more about how to Confirm your promotion status.
+  
+
+
+
+  Why hasn't my promotion been reviewed?
+
+  
+    The most common reason promotions have not yet been reviewed are:
+
+    
+      Promotion reviews are typically completed within 12 hours but may take up to 24 hours, especially if the promotion has been submitted within 24 hours of the start time.
+      The promotion’s start date/time hasn't yet been reached. Promotions aren't tested for validation review until the promotion’s start date and time is reached.
+    
+  
+
+
+
+  Why was my promotion disapproved?
+
+  
+    Your promotion could've failed the policy review or the validation review (promotion check). Listed below are the most common reasons for disapproval:
+
+    
+      My promotion was rejected during the policy review.
+        
+          The promotion doesn't comply with Google’s promotions policies or editorial requirements.
+        
+      
+      My promotion was rejected during the validation review.
+        
+          The promotion_id isn't mapped to the applicable items in your products feed.
+          The promotion_id is mapped to ineligible items.
+          The promotion didn't provide the promised discount.
+          The discounted price is stated on the product's landing page.
+          The product's base price isn't on the landing page.
+          Gift isn't reflected in the cart or at checkout.
+        
+      
+    
+  
+
+
+
+  When will my promotion be reviewed?
+
+  
+    The review process involves 2 steps: policy review and validation review (promotion check). The status of the promotion will appear in review until both steps of the review have been completed.
+
+    Tip: We recommend that you submit promotions 24 hours before the start time to allow a smooth and timely review process. Otherwise, the promotion may be delayed by 24 hours.
+  
+
+
+
+  My promotion has begun, but it’s still not displaying. Why not?
+
+  
+    There are a few factors that could affect your displayed promotions:
+
+    
+      Items in your feed aren't fully processed.
+      The start time within the date attributes was incorrect.
+      The promotion_id values weren't in your products feed.
+      The promotion_id in the products feed doesn't exactly match the promotion_id in the promotions feed.
+      Information wasn't submitted in time.
+    
+
+    Note: In some cases, unique promotions may not be visible on mobile.
+  
+
+
+
+  What is the turnaround time for submitting a promotion and seeing it on Google?
+
+  
+    Submit promotions during business hours from Monday through Friday. After you submit a promotion, processing, review, and validation can take up to 24 hours but typically is completed within 12 hours. It may also take a few hours for your promotion to go live after it’s fully approved or quit showing in ads and free listings after you’ve stopped it.
+  
+
+
+
+  How do I edit a promotion?
+
+  
+    Promotions that haven't yet been approved can be edited in promotion builder or by uploading an updated promotions feed. Once a promotion has been approved, it's still possible to edit certain information using promotion builder. This article explains how to edit a promotion or change promotion status.
+  
+
+
+
+  What happens to my existing promotions when I upload a new promotions feed?
+
+  
+    If you upload a new promotions feed to replace the current promotions, the new feed doesn't stop or delete existing promotions. Existing promotions will continue to run for their specified durations and expire as the promotions from the new feed are added.
+
+    Note: Expired promotions will remain in the Promotions dashboard for one year following the expiration date.
+  
+
+
+
+  My promotion failed the validation review (promotion check) and I've made the necessary changes. How do I request a retest?
+
+  
+    
+      In your Merchant Center account, select Promotions in the left navigation menu. 
+      On the “All Promotions” tab, select the promotion you want to retest.
+      Select the pencil icon, make any edits, and then resubmit.
+    
+
+    Saving your edits will trigger another validation review.
+  
+
+
+
+  How can I see if I submitted a redemption code with my promotion?
+
+  
+    If your promotion was submitted using promotion builder in your Merchant Center account, follow the steps below:
+
+    
+      Navigate to your Promotions dashboard.
+      Find the promotion_id you want to check.
+      You can find your promo code under the "Promo Code" column.
+    
+
+    If you submitted your promotion with a feed, check your last feed submission for redemption codes.
+  
+
+
+
+  Why do my expired promotions still appear when I filter my promotions’ status by “Not Ended” in my Promotions dashboard?
+
+  
+    Promotion status refers to whether a promotion has been manually “Ended” in the Promotions dashboard. Note that “Ended” promotion_ids are permanently disabled and can't be re-used or restarted.
+
+    If an approved promotion expires and it hasn’t been manually ended, the promotion will remain in your dashboard as "Visible", though it will no longer appear. Approved promotions that have expired also can't be re-used or restarted.
+  
+
+             Was this helpful?How can we improve it?YesNoSubmit       

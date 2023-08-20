@@ -1,0 +1,286 @@
+ Show your products for free on Google
+
+You can show your products on Google for free. Learn more by watching our Guide to Free listings livestream and reviewing our presentation.
+
+Overview
+
+Free listings allow customers to see product results from your store across Google, such as on the Shopping tab, YouTube, Google Search (.com), Google Images, and Google Lens. Just as we don't charge websites to be part of the Google Search index in order to organize and display relevant information, merchants are also eligible to have their product information organized and displayed for free across Google. You can submit your product data to Merchant Center for inclusion in free listings. In addition, content on your website that’s been crawled and is related to retail may also be shown in product listings and annotations for free across Google.
+
+Eligibility
+
+To be eligible for free listings, make sure that you do the following:
+
+Required
+
+
+  Note: Your products aren’t guaranteed to show across Google, as we rely on the data you provide to us to match what customers might be searching for.
+
+
+
+  Follow our policies for showing products in free listings.
+  Add your return policy information to your website to show information about returns in your free listings. Your return policy may determine whether or not a customer decides to purchase a product.
+    
+      We also recommend adding your return policy in Merchant Center.
+    
+  
+  Set up “Shipping” settings or add shipping costs via the shipping [shipping] attribute to product data. This gives customers access to important information about shipping for the products they may want to purchase.
+
+
+
+  Note: You’re only required to set up “Shipping” settings or add shipping costs via the shipping [shipping] attribute in the following countries: Australia, Austria, Belgium, Canada, Czechia, France, Germany, Ireland, Israel, Italy, Japan, Poland, South Korea, Spain, Switzerland, the Netherlands, United Kingdom, and the United States.
+
+
+Recommended
+
+It’s important to keep your account up to date and provide high-quality information so that your customers have a positive experience, as these can affect your eligibility for free listings.
+
+
+  Follow our SEO guidelines to improve the visibility of your website on Google and to provide a good shopper experience.
+  If applicable, link your Merchant Center account with a third-party platform.
+  If applicable, link your Merchant Center account to your existing Business Profile.
+  Improve your eligibility for seller ratings by opting in to Google Customer Reviews or other third-party review services.
+  Match your product data in your Merchant Center feed with your website to ensure customers see the same information, such as prices, across both.
+
+
+Submit your product data
+
+New accounts
+
+When you’re creating a new Merchant Center account, you can sign up for free listings when submitting your product data.
+
+Existing accounts
+
+If you have an existing Merchant Center account with product data already uploaded, you may already be opted into free listings. You can confirm by checking the destination setting of the feeds in your Merchant Center account:
+
+
+  Sign in to your Merchant Center account.
+  Click Products in the main left navigation menu.
+  Click Feeds to see settings for your different feeds.
+    
+      If your feed is opted in to free listings: You'll see "Free listings" under the “Destination” column.
+      If your feed is not opted in to free listings: Select the feed, then select Settings. Under “Destinations”, select the box next to “Free listings”.
+    
+  
+
+
+Partners
+
+If your account was created through a partner, then your product data was submitted to Merchant Center using the Content API. Any changes that need to happen with your product data will need to be done through your partner portal or discussed with your partner.
+
+
+  To maximize your potential for exposure in free listings, it’s recommended that you submit your entire inventory in your product data feed.
+
+
+Other ways your product data is used in free listings
+
+
+  Data from your website: Content on your website that’s been crawled and is related to retail may also be shown in listings and product annotations for free across Google surfaces. This can occur even if the information hasn’t been marked up using schema.org or submitted through Merchant Center. This is done to ensure that people see a wide variety of products from a broad group of retailers when they search for information on Google. You can control how your product information appears and opt out at any time by implementing crawl and indexing controls.
+  Data from Merchant Center: Google may still use and display certain product feed data you submit (for example, titles and images) as described in the Merchant Center terms of service, to improve Google’s services.
+
+
+Provide the required product attributes
+
+The product information you submit using these attributes is our foundation for creating free listings for your products. You can reference the "Diagnostics" section under the "Products" tab in your Merchant Center account to identify any issues with the product data you submit. Learn more about product data specification
+
+
+  Note: If you’re using structured data markup on your website, click into each attribute in the table below to find the corresponding schema.org attribute name. For troubleshooting, check the errors in Search Console to make sure you’ve added the markup correctly.
+
+
+Most of the following attributes are required to participate in free listings:
+
+
+  
+    
+      Attribute
+      Additional details
+    
+  
+  
+    
+      
+      Id [id]
+      
+      Required for all products
+    
+    
+      
+      Title [title]
+      
+      Required for all products
+    
+    
+      
+      Link [link]
+      
+      Required for all products
+    
+    
+      
+      Image link [image_link]
+      
+      
+      Required for all products
+        Ensure that the image is large enough and does not contain promotional content to avoid disapproval.
+      
+    
+    
+      
+      Price [price]
+      
+      Required for all products
+      If you include specific prices for the price attribute, any price drops based on the running historical average of your product’s pricing may appear in your listings. Learn more about best practices for using the price attribute in your product feed
+    
+    
+      
+      Description [description]
+      
+      Required for all products
+    
+    
+      Availability [availability]
+      Required for all products
+    
+    
+      
+      Condition [condition]
+      
+      Required for each used or refurbished product
+    
+    
+      
+      Brand [brand]
+      
+      Required for each product with a clearly associated brand or manufacturer
+    
+    
+      
+      Gtin [gtin]
+      
+      Required for all products with a GTIN assigned by the manufacturer
+      Match your product information with the most relevant queries. Learn more about unique product identifiers
+    
+    
+      
+      Mpn [mpn]
+      
+      Required for all products without a GTIN
+      Match your product information with the most relevant queries. Learn more about unique product identifiers
+    
+    
+      
+      Multipack [multipack]
+      
+      Required if your product is a multipack
+      Indicate if your product consists of multiple, identical products grouped as one product (“10 pairs of white cotton socks”).
+    
+    
+      
+      Bundle [is_bundle]
+      
+      Required if your product is a bundle
+    
+    
+      
+      Color [color]
+      
+      Required for Apparel & Accessories
+      Submit the primary color of your product. If your product has variations by color, use the Item group ID [item_group_id] attribute to submit each of your variants by color.
+    
+    
+      
+      Size [size]
+      
+      Required for Apparel & Accessories
+      Specify the standardized size of your product. If your product has variations by size, use the Item group ID [item_group_id] attribute to submit each of your variants by size.
+    
+    
+      
+      Age group [age_group]
+      
+      Required for Apparel & Accessories
+      Indicate which demographic your product is designed for. This attribute is used in combination with the gender [gender] attribute to help ensure customers see the correct size information.
+    
+    
+      
+      Gender [gender]
+      
+      Required for Apparel & Accessories
+      Specify which gender your product is designed for, or submit “unisex” if no gender is specified. We use gender in combination with size [size] and age group [age_group] attributes to standardize sizing and departments that are shown to customers (ie, a t-shirt with “male” and “kids” indicated for the gender and age group could be used to display a “boys t-shirt”).
+    
+    
+      
+      Item group ID [item_group_id]
+      
+      Required for product variants
+      Use this attribute to group product variants together in your data.
+    
+    
+      
+      Shipping [shipping]
+      
+      Required when you need to override your account shipping settings in Merchant Center
+      Learn more about shipping settings and how to set up shipping
+    
+    
+      
+      Tax [tax]
+      
+      Required when you need to override your account tax settings in Merchant Center
+    
+    
+      
+      Pattern [pattern]
+      
+      Recommended only for Apparel & Accessories
+      Use this to describe the pattern or graphic print on your product. If your product has variations by pattern, use the item group ID attribute to submit each of your variants by pattern.
+    
+    
+      
+      Material [material]
+      
+      Recommended only for Apparel & Accessories
+      Indicate the primary materials used in your product, as customers often search for products by material (for example, “leather jackets”).
+    
+    
+      
+      Additional image link [additional_image_link]
+      
+      Recommended
+      Provide up to 10 additional images per product to help customers see different views of your product, in addition to the required image link [image_link] attribute.
+    
+    
+      
+      Size type [size_type]
+        
+        Size system [size_system]
+      
+      Recommended only for Apparel & Accessories
+      Further specify the standardized size of your product in addition to size [size].
+    
+    
+      
+      Link in Google Search Index [canonical_link]
+      
+      
+      Recommended for all products
+        Help Google match your product data with user queries by associating your products with the correct URL in Google’s Search index. If not used, the URL provided in the link [link] or mobile link [mobile_link] feed attribute may be indexed. Learn more about link attributes and performance reporting for free listings
+      
+    
+  
+
+
+Reporting
+
+Learn how you can track your free listings performance across Merchant Center and the Search Console.
+
+Related links
+
+
+  Where Google shows your free listings
+  Set up feeds
+  Set up free product listings in Merchant Center
+  About structured data markup for Merchant Center
+  About Shopping campaigns and Shopping ads
+  About the Shopping experience scorecard program
+
+             Was this helpful?How can we improve it?YesNoSubmit       

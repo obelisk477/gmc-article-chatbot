@@ -1,0 +1,83 @@
+ Market Insights policy
+
+Market Insights allow you to view the price competitiveness and best sellers reports in Merchant Center. If you’re eligible, you can navigate to "Growth" and click "Manage programs" to enable Market Insights.
+
+Who’s eligible
+
+Merchant Center account administrators can enable Market Insights. The reports under Market Insights are subject to the Merchant Center Terms of Service.
+
+Additionally, the account must meet certain minimum requirements for participation in Shopping ads, free listings, and Buy on Google. 
+
+Use
+
+Market Insights reports are only available for the internal use of the retailer, or those acting on the retailer's behalf. Market Insights data cannot be resold, publicly displayed, advertised, or aggregated across businesses. For purposes of Market Insights, “retailer” means the business entity owning the domain of the products being sold or selling products on a marketplace.
+
+You must ensure that your use, or any third party's use, of Market Insights data exported from your Merchant Center account complies with the Market Insights policy.
+
+Availability
+
+Both the price competitiveness report and the best sellers report are available for all countries. However, while the price competitiveness report can show data for all countries, the best sellers report can currently only show data for the following countries:
+
+
+  
+    
+      
+        
+        
+          Australia
+          Austria
+          Brazil
+          Belgium
+          Canada
+          Czech Republic
+          Denmark
+          Finland
+        
+        
+        
+        
+          France
+          Germany
+          Hungary
+          India
+          Ireland
+          Italy
+          Japan
+          Mexico
+        
+        
+        
+        
+          Netherlands
+          New Zealand
+          Norway
+          Poland
+          Portugal
+          Romania
+          Russia
+          Slovakia
+        
+        
+        
+        
+          Spain
+          Sweden
+          Switzerland
+          Turkey
+          Ukraine
+          United Kingdom
+          United States
+        
+        
+      
+    
+  
+
+
+Related links
+
+
+  About the price competitiveness report
+  About the best sellers report
+
+             Was this helpful?How can we improve it?YesNoSubmit       

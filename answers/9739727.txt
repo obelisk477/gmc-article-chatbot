@@ -1,0 +1,79 @@
+ How to fix: Incorrect value: Google product category [google_product_category]Submit a Google product category for books
+
+One or more of your products has been detected to be a book, but has not been identified as such using the correct category for the Google product category [google_product_category] attribute. Either the Google product category [google_product_category] has not been set, or it has been set to the wrong category. As a result, the offer has been disapproved.
+
+To fix this issue, set the value for the Google product category [google_product_category] attribute to Media > Books, Media > Books > Audiobooks, or Media > Books > Print Books.
+
+It is possible that we may have mistakenly detected that your offer was a book. Check the offer title and description to help ensure your products are correctly categorized.
+
+Instructions
+
+
+  Step 1: See the affected products
+
+  
+    
+  Sign in to your Merchant Center account.
+  Select Products from the navigation panel.
+  On the Diagnostics page, click the Item Issues tab to see the current issues affecting your products.
+  Click the filter icon  to filter by destination and select Buy on Google.
+
+To download a list (.csv) of all affected products for all issues:
+
+
+  Click the download button  to the right of the filter button  , beneath the graph and above the list of issues.
+
+To download a list (.csv) of all affected products for a particular issue:
+
+
+  Find the issue under the “Issue” column, then click the download button  in the right-hand column.
+
+To see a list of up to 50 products with this particular issue:
+
+
+  Find the issue under the “Issue” column, then click View examples in the “Affected items” column.
+
+
+  
+
+
+
+  Step 2: Submit a Google product category for books
+
+  
+    
+      Filter the downloaded report so that you only see products with:
+        "Issue title" = Invalid value: Google product category [google_product_category]
+      Search your product data for those products (using the ID), and make sure each product is using the Google product category [google_product_category] attribute, as well as the correct book-related value.
+      If you believe your offer was mistakenly identified as a book, check the offer title and description. Certain identifying terms could incorrectly indicate that the product is a book. You can try removing or replacing these terms.
+    
+  
+
+
+
+  Step 3: Resubmit your product data
+
+  
+    
+  After you’ve updated your product data, resubmit it using one of these methods:
+    
+      Upload a feed
+      Submit through the Content API
+      Import content from an ecommerce platform
+    
+  
+  Next, check that you’ve fixed the issue by making sure it’s no longer listed on the Diagnostics page.
+    
+    Keep in mind: It may take some time for your change to be reflected on the Diagnostics page.
+
+
+  
+
+
+Related links
+
+
+  Google product category [google_product_category]
+  Buy on Google policies
+
+             Was this helpful?How can we improve it?YesNoSubmit       

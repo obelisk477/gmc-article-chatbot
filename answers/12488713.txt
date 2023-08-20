@@ -1,0 +1,113 @@
+ Check product visibility and status in Merchant Center
+
+
+  If you’re looking for information about product visibility and status in the classic Merchant Center experience, click here. 
+
+
+
+When you add products to Merchant Center, Google reviews the products for any issues. After receiving approval, you can control whether or not they show on places across Google. In this article, you’ll learn about product visibility and status in Merchant Center.
+
+On this page
+
+
+  How visibility and status work
+  Change the visibility of your products
+  Next steps
+
+
+
+How visibility and status work
+
+The “Visibility” column lets you know if your product is being shown on Google (indicated by a green dot icon ). You control the visibility of your products.
+
+The “Status” column lets you know if your product is approved to show on Google. There are 6 statuses: “Under review”, “Processing”, “Approved”, “Limited”, "Expiring", and “Not approved”. Google controls the approval status for products added to Merchant Center.
+
+Visibility
+
+
+  
+    
+      
+      The product is showing on Google.
+    
+    
+      
+      The product is hidden and not showing on Google.
+    
+    
+      
+      The product can't be shown because it has one or more errors.
+    
+  
+
+
+Status
+
+Under review
+
+Google is reviewing the product for any issues. Reviews may take up to 3 days for ads and a few weeks for other features (such as free listings). Common reviews include:
+
+
+  Initial review: You’re new to Merchant Center or you upload product data to your account for the first time. Our specialists review the provided information to ensure it aligns with product data specifications.
+  Pending image crawl: You don’t need to do anything right now. Your image will automatically appear after we’ve fetched it. We’ll let you know if we encounter any problems.
+
+
+Processing
+
+Google is processing updates to the product, which may take up to 15 minutes. This usually happens when you edit the product’s information.
+
+Approved
+
+Google has completed reviewing the product, and the product is now showing on Google.
+
+Limited
+
+The product is showing on Google, but only some instances. This may mean that the product is eligible to show in some countries (but not others), or may not be showing in some places on Google. You can check for any issues with the product in the “Needs attention“ tab.
+
+Expiring
+
+Your product will expire in the next 3 days, and will no longer be eligible to appear in ads or free listings. You can avoid this by:
+
+
+  Keeping your product data up-to-date: Products expire after 30 days if the product data doesn’t get updated within that timeframe (with the exception of products added directly in Merchant Center).
+  Providing an expiration date that’s more than 3 days after the current date: If you're using the expiration date [expiration_date] attribute in your product data and have provided an expiration date that's within 3 days of the current date, your products will show as “expiring” in your account. However, if you plan to update your product data daily, you can set short expiration dates.
+
+
+Not approved
+
+The product can’t be shown on Google. There may be one or more errors that are preventing it from showing on Google. You can fix the error by selecting “Fix errors” or by going to the “Needs attention” tab in Merchant Center. Common reasons why your products may not be approved include:
+
+
+  Policy disapprovals: Your website or specific products that you’ve submitted don't comply with our policies. Visit the Shopping ads policy center for additional information.
+  Data quality disapprovals: Your product doesn't comply with our product data specification.
+
+
+Learn more about issues in Merchant Center.
+
+
+Change the visibility of your products
+
+Sometimes, you may want to hide a product from showing on Google (for example, when a product is out of stock). Or, you want to show a product again (for example, in preparation for a special sale). You can change how visible your product is by using the “Visibility” column.
+
+ In Merchant Center, select Products .
+
+ Scroll to the table in the “All products” tab.
+
+ (Recommended) Use the filter option  above the table and select Visibility to filter the table by hidden or visible products.
+
+ Find the product(s) that you want to hide or show.
+
+ Select the dot and change the visibility.
+
+
+  If you want to hide or show multiple products, select the checkbox next to each product, then choose the option to hide or show the products. When prompted, confirm the changes.
+
+
+
+Next steps
+
+
+  If your products are not approved or limited in where they show, use the “Needs attention” tab in Merchant Center to diagnose any issues with your products.
+  You can change the visibility of your product at any time.
+
+             Was this helpful?How can we improve it?YesNoSubmit       

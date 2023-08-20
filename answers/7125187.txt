@@ -1,0 +1,36 @@
+ Google Customer Reviews guidelines
+
+This article provides details about where Google Customer Reviews is available, eligibility guidelines, and policies.
+
+Availability
+
+Google Customer Reviews is available in the following countries: Algeria, Argentina, Australia, Austria, Bahamas, Bahrain, Belgium, Belize, Bhutan, Brazil, Burkina Faso, Cameroon, Canada, Chad, Chile, China, Colombia, Costa Rica, Cote d'Ivoire, Czechia, Denmark, Dominican Republic, Ecuador, Egypt, El Salvador, Fiji, France, Gabon, Germany, Guatemala, Guyana, Honduras, Hong Kong, India, Indonesia, Ireland, Israel, Italy, Jamaica, Japan, Jordan, Kuwait, Libya, Liechtenstein, Luxembourg, Malaysia, Maldives, Mali, Mexico, Morocco, Namibia, the Netherlands, New Zealand, Nicaragua, Norway, Oman, Panama, Papua New Guinea, Paraguay, the Philippines, Poland, Portugal, Puerto Rico, Qatar, Russia, Saudi Arabia, Singapore, South Africa, South Korea, Spain, State of Palestine, Sweden, Switzerland, Taiwan, Thailand, Timor-Leste, Tunisia, Turkey, Ukraine, the United Arab Emirates, the United Kingdom, the United States, Uruguay, Venezuela, Vietnam
+
+
+Basic eligibility requirements
+
+To use Google Customer Reviews, your checkout flow must include a separate order confirmation page and meet the following technical requirements:
+
+
+
+  Your platform must allow you to add JavaScript code to all of your site’s web pages.
+  During checkout, some e-commerce platforms redirect customers away from the store's domain and to their own third-party domain (e.g. Shopify or CoreCommerce). If you use such a platform, you must redirect customers back to an order confirmation page on your store's domain after they've completed the checkout process.
+  Your site’s order confirmation page must be encrypted (i.e. only accessed using HTTPS).
+
+
+
+Note: To participate in Google Customer Reviews, consent to the agreement for your country. You can review the agreement when you sign up.
+
+Additional requirements for collecting product reviews
+
+Collecting product reviews via Google Customer Reviews is an optional feature. To collect product reviews and participate in the Product Ratings feature via Google Customer Reviews, you must meet these additional technical requirements:
+
+
+  You must add a few lines of JavaScript code to your site’s order confirmation page to provide Google with GTIN data from customers who opt in to receiving the Google Customer Reviews survey.
+  You must provide Google with valid GTINs for all orders in which GTIN data is available.
+
+
+Policies
+
+Google Customer Reviews policies provide guidance for participants that help protect users and maintain the integrity of your brand and Google’s brand. To ensure you understand the expectations, review the Google Customer Reviews policies. 
+             Was this helpful?How can we improve it?YesNoSubmit       

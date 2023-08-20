@@ -1,0 +1,32 @@
+ Troubleshoot your account
+
+
+  If you’re looking for information about set up issues in Merchant Center Next, click here. 
+
+
+
+
+  Note:
+
+  
+    For issues related to suspended accounts due to product data quality violations, learn about understanding account-level enforcement for product data quality violations.
+    For issues related to suspended accounts due to policy violations, learn about understanding account-level enforcement for policy violations.
+    For issues related to performance of Shopping campaigns, learn about troubleshooting performance fluctuations and changes or about troubleshooting campaigns not running or low traffic.
+    For issues related to performance of Performance Max campaigns, learn about troubleshooting performance fluctuations and changes or troubleshooting campaigns not running or low traffic.
+  
+
+
+Unable to sign in to your account
+
+If you're having trouble signing in to your Merchant Center account, please make sure that you're using the correct email address and password. If you're using the correct username and password, try deleting your cookies and cache before trying to access Merchant Center again. Additionally, please enable SSL 2.0 and cookies and confirm that any automatic configuration scripts or proxies that you're using aren't disabling cookies. Learn more about how to turn cookies on or off
+
+If you've forgotten your password, follow the steps in change or reset your Google Account password.
+
+Contact us to change your sign-in email address, as users aren't able to change their sign-in email directly.
+
+Deleting an account
+
+You can remove the contents of your Google Merchant Center account by removing your product and your website URL from the "Business information" page. You can also permanently delete the account that's associated with the Google Merchant Center. Learn more about how to delete your Google account
+
+
+             Was this helpful?How can we improve it?YesNoSubmit       

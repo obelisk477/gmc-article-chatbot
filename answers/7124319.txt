@@ -1,0 +1,63 @@
+ Google Customer Reviews basics
+
+Google Customer Reviews is a free service that allows you to collect valuable feedback from customers who’ve made a purchase on your site. Your customers can choose to take a survey to rate their experience with just one click on your checkout page. Ratings from customer surveys apply to seller ratings eligibility and to Product Ratings eligibility.
+
+This article will give you the basics about how Google Customer Reviews works and how it connects with both product and seller ratings.
+
+
+  Note: Reviews aren't verified by Google.
+
+
+
+Benefits
+
+
+  Seller ratings: Google Customer Reviews data is accepted by seller ratings, helping you gain seller ratings on Search ads and Shopping ads.
+  Product Ratings: Google Customer Reviews data is accepted by Product Ratings, helping you gain product reviews and ratings when you show your products on Google.
+  Engagement: Product ratings and seller ratings can result in more qualified shoppers visiting your site.
+  A badge for your website: Google Customer Reviews badge helps you let your users know what other customers have said about their experiences on your site.
+
+
+Seller ratings
+
+We use the Google Customer Reviews survey responses to help determine a seller rating for your site. Your aggregate score is a 1-5 star rating that shows up on Search ads and Shopping ads. This rating also appears on your Google Customer Reviews badge. Learn more about seller ratings
+
+Google Customer Reviews badge
+
+
+
+The Google Customer Reviews badge is a visual way to help shoppers easily identify your site with the Google brand. The badge also promotes your seller rating and can be placed on any page on your site that you desire.
+
+
+  Note: The actual star rating inside your badge will vary based on the seller rating you receive.
+
+
+Product Ratings
+
+Google Customer Reviews can also collect product reviews and help you collect ratings for the products you sell. Product ratings show on your Shopping ads as a 1-5 star rating and a count of total reviews. Learn more about Product Ratings
+
+Google Customer Reviews opt-in
+
+Google Customer Reviews requires that you display the survey opt-in to all your users after checkout. Users choosing to opt-in often receive an email from Google Customer Reviews asking them to rate their experience.
+
+
+
+Illustrative Google Customer Reviews opt-in
+
+Google Customer Reviews survey
+
+The Google Customer Reviews survey is a brief questionnaire that is emailed to customers and allows them to rate their purchase experience with your site.
+
+Enable Google Customer Reviews in your Google Merchant Center account
+
+
+  Log into your Merchant Center account.
+  Make sure your Merchant Center account is verified and claimed.
+  In the page menu on the left, click Growth.
+  Click Manage programs.
+  Go to the Customer Reviews card.
+  Click Enable to sign up.
+
+
+Learn more About onboarding and integration
+             Was this helpful?How can we improve it?YesNoSubmit       

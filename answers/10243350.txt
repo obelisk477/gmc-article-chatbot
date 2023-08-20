@@ -1,0 +1,24 @@
+ Delete return policies for Shopping ads and free listings
+
+If you need to remove a return policy for Shopping ads and free listings, you may do so. It may take up to two days for your return policy to be removed, so you may still notice your return policy reflected on your ads and unpaid listings for a short time after you delete it. 
+
+Instructions
+
+
+  Sign in to your Merchant Center account.
+  From the page menu, click Shipping and returns and then click the Return policies tab. 
+  Under “Your return policies”, click the checkbox next to the policies you want to delete and click the trash icon.
+
+
+
+  Note: If this policy has exceptions, they will be deleted too. Policies and exceptions can’t be restored after they’re deleted.
+
+
+Related links
+
+
+  
+    Set up your return policies for Shopping ads and free listings 
+  
+
+             Was this helpful?How can we improve it?YesNoSubmit       

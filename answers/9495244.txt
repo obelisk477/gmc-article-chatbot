@@ -1,0 +1,110 @@
+ Quickly add or update your products directly in Merchant Center
+
+
+  If you’re looking for information about updating info for your products in Merchant Center Next, click here.
+
+
+
+You can add individual product listings without creating and uploading a new feed. Once you’ve added products to your Merchant Center account, you can make edits to those items individually. Keep in mind that you’re able to use a combination of feeds and individual product uploads.
+
+How it works
+
+Ads for products submitted individually:
+
+
+  Aren't available for local inventory ads
+  Can't be combined with inventory feeds
+  Don't have an expiration date unless explicitly removed (unlike feed offers that expire in 30 days)
+  Can't be affected by feed rules
+
+
+
+  Multi-client accounts aren't eligible to use individual product data uploads.
+
+
+Before you begin
+
+Before you can upload product data to Merchant Center, you need to verify and claim your store’s website URL. Learn more about how to verify and claim your website URL
+
+You also need to have already set up tax and shipping for the country that you want to advertise in.
+
+Instructions
+
+To add products individually:
+
+
+  Sign in to your Merchant Center account.
+  Select Products from the navigation menu, then click All products.
+  Click the “Add products” button and select Add product one by one.
+  Fill out the required product data fields.
+  (Optional) If you sell similar products which vary by color, size, gender, or other variant attributes, go to the “Detailed product description” section and click I have an apparel or variant products. You can add all variant colors, genders, age groups, sizes, materials, and patterns for the product. Choose the attributes and corresponding attribute values which distinguish your variant items.
+  Click Save.
+
+
+
+  
+    Note: If there are any errors with your product data, you can still save the product and edit it later.
+  
+
+
+It’s also possible to use a file to add products in bulk. To do this:
+
+
+  Prepare your upload file
+    
+      Create a file containing the product information for the products you want to add to your Merchant Center. Learn more about the required product data fields here
+      In addition to the required product data fields, the field ‘update_type’ should be included in your file. This field defines how the contents of your file should be processed for each item. The field has 3 possible values:
+        
+          replace: all fields will be overwritten for the product (Note: if “update_type” is set to “replace” and no value is provided for a field then the field will be deleted for that product). 
+          merge: only fields for which a value is provided are updated. If no value is provided for a field then the field value is not changed for that product. If the value of the id field does not already exist then a new product with provided id value will be created in the merchant center. merge is the default processing behavior should no value be provided for “update_type.”
+          delete: the product is deleted. Any values provided for other fields for the item will be ignored
+        
+      
+    
+  
+  Upload your file to your Merchant Center account
+    
+      Sign in to your Merchant Center account.
+      Select Products from the navigation menu, then click All products.
+      Select Upload a product file from the Add Products drop down
+      Either add your file by dragging and dropping or click Browse to choose the file
+    
+  
+  Click Add products from file.
+
+
+Alternatively, more advanced product upload options are available via feeds. Learn more about feeds and creating a feed
+
+If you added variant products in the previous step:
+
+
+  (Optional) Click Assign values to variants in bulk (optional) if you want to define templates for dynamically populating attribute values based on variants.
+
+    
+      For example, you can dynamically generate your variant titles or link URLs by appending attributes such as color or size.
+    
+  
+  Click Apply to save any product data templates you created in step 1. The changes will be seen in the summary table below. You can enable and disable these templates by clicking the chips on the top if you want to use either a URL or only a title template.
+  Review the summary of all the variant offers you created. For attributes not listed in the table, the values will be taken from the previous screen.
+    
+      (Optional) Click Add attribute column to add additional attributes
+    
+  
+  Click Continue to review the product and variants
+  Click List this product
+
+
+
+  Note: It can take up to an hour for your product to appear in the “All products” page. To edit your product details after they’ve uploaded, follow the instructions here.
+
+
+Learn more about the Shopping ads product data specification and the Buy on Google product data specification
+
+Related links
+
+
+  About feeds
+  Build your product data
+  Create a feed
+
+             Was this helpful?How can we improve it?YesNoSubmit       

@@ -1,0 +1,1481 @@
+ Supported structured data attributes and values
+
+Use structured data markup on your product landing pages to help Google retrieve up-to-date information about your products and offers directly from your website. Any structured data markup that is supported by Merchant Center will have corresponding attributes and accepted values, as listed in the product data specification. Your structured data must be matched to the corresponding values and attributes.
+
+
+  Not all attributes are supported by schema.org at this time.
+
+
+Attributes and schema.org annotations
+
+Attributes are one of the ways in which the product data you submit to Merchant Center is organized. Each attribute contains a single piece of information about a product, such as the product's title or description. Accurately matching the schema.org value to the corresponding product data specification attributes will lead to fewer errors when validating your feed.
+
+
+  
+    Note: If you’re using automatic item updates, make sure to specify the schema.org properties price, priceCurrency, availability, and condition to increase its accuracy. Learn more about automatic item updates
+  
+
+
+
+  
+    
+      
+      Product Data Attribute
+
+      
+        Schema.org Property
+      
+      
+      Type and Description
+    
+  
+  
+    
+      The following attributes are from the schema.org Product type
+    
+    
+      
+      id
+
+      
+        sku
+      
+      
+      Text
+    
+    
+      
+      title
+
+      
+        name
+      
+      
+      Text
+    
+    
+      
+      description
+
+      
+        description
+      
+      
+      Text
+    
+    
+      
+      image_link
+
+      
+        image
+      
+      
+      URL
+    
+    
+      
+      item_group_id
+
+      
+        inProductGroupWithID
+      
+      
+      
+      Text
+
+      A parent SKU, required to group all variant products belonging to the same product group together.
+      
+    
+    
+      
+      gtin
+
+      
+        gtin8
+          OR
+        gtin12 
+          OR
+        gtin13 
+          OR
+        gtin14 
+          OR
+        gtin 
+          OR
+        isbn
+      
+      
+      
+      Text
+
+      The GTIN that uniquely identifies your product.
+
+      Specify only one of these schema.org properties.
+
+      If you use GTIN values, they must be the correct length and contain the correct check digit.
+      
+    
+    
+      
+      material
+
+      
+        material
+      
+      
+      Text
+    
+    
+      
+      pattern
+
+      
+        pattern
+      
+      
+      Text
+    
+    
+      
+      mpn
+
+      
+        mpn
+      
+      
+      Text
+    
+    
+      
+      brand
+
+      
+        brand.name
+      
+      
+      
+      Text
+
+      Use the brand property to specify a Brand object which specifies the brand through its name property.
+      
+    
+    
+      
+      gender
+
+      
+        audience.suggestedGender
+      
+      
+      
+      Text
+
+      Use the audience property to specify a PeopleAudience object which specifies the gender using its suggestedGender property. Valid values are those defined by the gender attribute:
+
+      male
+
+      female
+
+      unisex
+      
+    
+    
+      
+      age_group
+
+      
+        audience.suggestedMinAge 
+          AND
+        audience.suggestedMaxAge
+      
+      
+      
+      Number (in years)
+
+      Use the audience property to specify a PeopleAudience object which specifies the age group using its suggestedMinAge and suggestedMaxAge properties.
+
+      Valid values are those defined by the age_group attribute:
+
+      
+        
+          
+            
+              Data spec
+              Schema.org value
+            
+            
+               
+              suggestedMinAge
+            
+            
+              newborn
+              0
+            
+            
+              infant
+              0.25
+            
+            
+              toddler
+              1.0
+            
+            
+              kids
+              5.0
+            
+            
+              adult
+              13
+            
+          
+        
+      
+
+      
+        
+          
+            
+              Data spec
+              Schema.org value
+            
+            
+               
+              suggestedMaxAge
+            
+            
+              newborn
+              0.25
+            
+            
+              infant
+              1.0
+            
+            
+              toddler
+              5.0
+            
+            
+              kids
+              13.0
+            
+            
+              adult
+              Not specified
+            
+          
+        
+      
+      
+    
+    
+      
+      color
+
+      
+        color
+      
+      
+      Text
+    
+    
+      
+      size
+
+      
+        size
+      
+
+      OR
+
+      
+        size.name
+      
+      
+      
+      Text
+
+      Use the size property to specify a Text value or a SizeSpecification object, which specifies the size through its name property. The SizeSpecification object should be used when specifying sizeGroup and/or sizeSystem.
+      
+    
+    
+      
+      size_type
+
+      
+        size.sizeGroup
+      
+      
+      
+      Text
+
+      Use the size property to specify a SizeSpecification object which specifies the size type through its sizeGroup property.
+
+      Valid values are from the WearableSizeGroupEnumeration type. At most two values can be specified. They are mapped to feed values as follows:
+
+      
+        
+          
+            
+              Data spec
+              schema value
+            
+            
+              big
+              
+              WearableSizeGroupBig
+              
+            
+            
+              maternity
+              
+              WearableSizeGroupMaternity
+              
+            
+            
+              petite
+              
+              WearableSizeGroupPetite
+              
+            
+            
+              plus
+              
+              WearableSizeGroupPlus
+              
+            
+            
+              regular
+              
+              WearableSizeGroupRegular
+              
+            
+            
+              tall
+              
+              WearableSizeGroupTall
+              
+            
+          
+        
+      
+      
+    
+    
+      
+      size_system
+
+      
+        size.sizeSystem
+      
+      
+      
+      Text
+
+      Use the size property to specify a SizeSpecification object which specifies the size system through its sizeSystem property.
+
+      Valid values are from the WearableSizeSystemEnumeration type. They are mapped to feed values as follows:
+
+      
+        
+          
+            
+              Data spec
+              schema value
+            
+            
+              AU
+              
+              WearableSizeSystemAU
+              
+            
+            
+              BR
+              
+              WearableSizeSystemBR
+              
+            
+            
+              CN
+              
+              WearableSizeSystemCN
+              
+            
+            
+              DE
+              
+              WearableSizeSystemDE
+              
+            
+            
+              EU
+              
+              WearableSizeSystemEurope
+              
+            
+            
+              FR
+              
+              WearableSizeSystemFR
+              
+            
+            
+              IT
+              
+              WearableSizeSystemIT
+              
+            
+            
+              JP
+              
+              WearableSizeSystemJP
+              
+            
+            
+              MEX
+              
+              WearableSizeSystemMX
+              
+            
+            
+              UK
+              
+              WearableSizeSystemUK
+              
+            
+            
+              US
+              
+              WearableSizeSystemUS
+              
+            
+          
+        
+      
+      
+    
+    
+      
+      product_length
+
+      
+        depth.value
+        depth.unitCode 
+          OR depth.unitText
+      
+      
+      
+      value: Number
+        unitCode / unitText: Text
+
+      Use the depth property to specify a QuantitativeValue object which specifies the length of the product using the value property and the dimension using the unitCode (UN/CEFACT code "CMT' or "INH") or unitText ("cm" or "in") properties.
+      
+    
+    
+      
+      product_width
+
+      
+        width.value
+        width.unitCode 
+          OR width.unitText
+      
+      
+      
+      value: Number
+        unitCode / unitText: Text
+
+      Use the width property to specify a QuantitativeValue object which specifies the width of the product using the value property and the dimension using the unitCode (UN/CEFACT code "CMT' or "INH") or unitText ("cm" or "in") properties.
+      
+    
+    
+      
+      product_height
+
+      
+        height.value
+        height.unitCode 
+          OR height.unitText
+      
+      
+      
+      value: Number
+        unitCode / unitText: Text
+
+      Use the height property to specify a QuantitativeValue object which specifies the length of the product using the value property and the dimension using the unitCode (UN/CEFACT code "CMT' or "INH") or unitText (feed unit "cm" or "in") properties.
+      
+    
+    
+      
+      product_weight
+
+      
+        weight.value
+        weight.unitCode 
+          OR weight.unitText
+      
+      
+      
+      value: Number
+        unitCode / unitText: Text
+
+      Use the weight property to specify a QuantitativeValue object which specifies the weight of the product using the value property and the dimension using the unitCode (UN/CEFACT code "LBR", "ONZ", "KGM", or "GRM") or unitText ("lb", "oz", "kg", or "g") properties.
+      
+    
+    
+      
+      The following schema.org properties are from the Offer type, which must be nested within a Product using the offers property (refer to examples below).
+      
+    
+    
+      
+      link
+
+      
+        url
+      
+      
+      A valid URL to your product.
+    
+    
+      
+      price
+
+      sale_price
+
+      
+        price
+        priceCurrency
+      
+
+      OR:
+
+      
+        priceSpecification.price
+        priceSpecification.
+          priceCurrency
+        priceSpecification.priceType
+      
+      
+      
+      price: Number. Submitted without currency symbols, thousand separators, or spaces (for example, '1498.99').
+
+      priceCurrency: Text. Submitted in a three-letter ISO 4217 format (for example, USD, GBP, EUR), the currency should meet the language and currency requirements for your target country.
+
+      Note: price and priceCurrency can be provided directly under the Offer instance or indirectly via a priceSpecification property of type UnitPriceSpecification.
+
+      When sale_price is specified then price must be provided using a priceSpecification property with priceSpecification.priceType="ListPrice".
+      sale_price can be specified directly under the Offer or via a priceSpecification property of type UnitPriceSpecification without a priceSpecification.priceType.
+    
+    
+      
+      availability
+
+      
+        availability
+      
+      
+      
+      Valid values are from the ItemAvailability type. They’re mapped to feed values as follows:
+
+      
+        
+          
+            
+              Data spec
+              Schema.org value
+            
+            
+              in_stock
+              
+              InStock
+
+              LimitedAvailability
+
+              OnlineOnly
+              
+            
+            
+              out_of_stock
+              
+              Discontinued
+
+              InStoreOnly
+
+              OutOfStock
+
+              SoldOut
+              
+            
+            
+              preorder
+              
+              PreOrder
+
+              PreSale
+              
+            
+            
+              backorder
+              
+              BackOrder
+              
+            
+          
+        
+      
+      
+    
+    
+      
+      condition
+
+      
+        itemCondition
+      
+      
+      
+      Valid values are from the OfferItemCondition type. They’re mapped to feed values as follows:
+
+      
+        
+          
+            
+              Data spec
+              Schema.org value
+            
+            
+              new
+              
+              NewCondition
+              
+            
+            
+              refurbished
+              
+              RefurbishedCondition
+              
+            
+            
+              used
+              
+              DamagedCondition
+
+              UsedCondition
+              
+            
+          
+        
+      
+      
+    
+  
+
+
+Examples using JSON-LD
+
+Single product
+
+
+  Example
+
+  
+    The following example illustrates a basic product with a minimum set of properties. 
+
+    
+      {
+        "@context": "https://schema.org/",
+          "@type": "Product",
+          "sku": "trinket-12345",
+          "image": "https://www.example.com/trinket.jpg",
+          "name": "Nice trinket",
+          "description": "Trinket with clean lines",
+          "gtin": "12345678901234",
+          "brand": {
+            "@type": "Brand",
+            "name": "MyBrand"
+          },
+          "offers": {
+            "@type": "Offer",
+            "url": "https://www.example.com/trinket_offer",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock",
+            "price": 39.99,
+            "priceCurrency": "USD"
+          }
+        }
+
+      The following example illustrates how to specify size type and size system using schema.org. The example specifies US size "XL" for a blue t-shirt intended for adults (13+ age group) in the male "Big&Tall" fashion department.
+
+      {
+            "@context": "https://schema.org/",
+            "@type": "Product",
+            "sku": "12345",
+            "image": "https://www.example.com/tshirt.jpg",
+            "name": "Classic T-Shirt",
+            "description": "All-cotton t-shirt in classic cut",
+            "gtin": "12345678901234",
+            "brand": {
+              "@type": "Brand",
+              "name": "MyBrand"
+            },
+            "material": "cotton",
+            "color": "blue",
+            "size": {
+              "@type": "SizeSpecification",
+              "name": "XL",
+              "sizeSystem": "https://schema.org/WearableSizeSystemUS",
+              "sizeGroup": [ 
+                 "https://schema.org/WearableSizeGroupBig",
+                 "https://schema.org/WearableSizeGroupTall" 
+              ]
+            },
+            "audience": {
+              "@type": "PeopleAudience",
+              "suggestedGender": "male",
+              "suggestedMinAge": 13
+            },
+            "offers": {
+              "@type": "Offer",
+              "url": "https://www.example.com/tshirt",
+              "itemCondition": "https://schema.org/NewCondition",
+              "availability": "https://schema.org/InStock",
+              "price": 24.99,
+              "priceCurrency": "USD"
+            }
+          }
+         
+    
+  
+
+
+
+  
+    Multiple unrelated products on one landing page
+
+    When your page contains multiple unrelated products and each product has its own structured data annotation, each annotation must contain information that identifies which product it is referring to.
+
+    For example, it’s recommended to provide the SKU (ID [id] attribute) or the GTIN ([gtin] attribute) in each annotation. If you don’t provide this information, the products on your landing page may not be matched to your structured product data. Learn more about setting up structured data on landing pages
+
+    
+      Example
+
+      [
+          {
+            "@context": "https://schema.org/",
+            "@type": "Product",
+            "sku": "trinket-12345",
+            "image": "https://www.example.com/trinket.jpg",
+            "name": "Nice trinket",
+            "description": "Trinket with clean lines",
+            "gtin": "12345678901234",
+            "brand": {
+              "@type": "Brand",
+              "name": "MyBrand"
+            },
+            "offers": {
+              "@type": "Offer",
+              "url": "https://www.example.com/trinket_offer",
+              "itemCondition": "https://schema.org/NewCondition",
+              "availability": "https://schema.org/InStock",
+              "price": 39.99,
+              "priceCurrency": "USD"
+            }
+          },
+          {
+            "@context": "https://schema.org/",
+            "@type": "Product",
+            "sku": "racket-12345",
+            "image": "https://www.example.com/racket.jpg",
+            "name": "Nice racket",
+            "description": "Racket for Tennis",
+            "gtin": "12345678901235",
+            "brand": {
+              "@type": "Brand",
+              "name": "MyBrand"
+            },
+            "offers": {
+              "@type": "Offer",
+              "url": "https://www.example.com/racket_offer",
+              "itemCondition": "https://schema.org/NewCondition",
+              "availability": "https://schema.org/InStock",
+              "price": 59.99,
+              "priceCurrency": "USD"
+            }
+          }
+        ]
+
+      Sale price
+
+      The following example illustrates a basic product with a sale price. To indicate a sale price, also specify the original list price, which is specified with the /priceType property.
+
+       
+
+      
+        Example
+
+        
+          
+            {
+                "@context": "https://schema.org/",
+                "@type": "Product",
+                "sku": "trinket-12345",
+                "image": "https://www.example.com/trinket.jpg",
+                "name": "Nice trinket",
+                "description": "Trinket with clean lines",
+                "gtin": "12345678901234",
+                "brand": {
+                  "@type": "Brand",
+                  "name": "MyBrand"
+                },
+                "offers": {
+                  "@type": "Offer",
+                  "url": "https://www.example.com/trinket_offer",
+                  "itemCondition": "https://schema.org/NewCondition",
+                  "availability": "https://schema.org/InStock",
+                  "price": 10.00,
+                  "priceCurrency": "USD",
+                  "priceSpecification": {
+                    "@type": "UnitPriceSpecification",
+                    "priceType": "https://schema.org/ListPrice",
+                    "price": 15.00,
+                    "priceCurrency": "USD"
+                  }
+                }
+              }
+              
+              If a /UnitPriceSpecification is also used for the non sale-price, the encoding simply contains two /UnitPriceSpecifications:
+              
+              {
+                "@context": "https://schema.org/",
+                "@type": "Product",
+                "sku": "trinket-12345",
+                "image": "https://www.example.com/trinket.jpg",
+                "name": "Nice trinket",
+                "description": "Trinket with clean lines",
+                "gtin": "12345678901234",
+                "brand": {
+                  "@type": "Brand",
+                  "name": "MyBrand"
+                },
+                "offers": {
+                  "@type": "Offer",
+                  "url": "https://www.example.com/trinket_offer",
+                  "itemCondition": "https://schema.org/NewCondition",
+                  "availability": "https://schema.org/InStock",
+                  "priceSpecification": [
+                    {
+                      "@type": "UnitPriceSpecification",
+                      "price": 10.00,
+                      "priceCurrency": "USD"
+                    },
+                    {
+                      "@type": "UnitPriceSpecification",
+                      "priceType": "https://schema.org/ListPrice",
+                      "price": 15.00,
+                      "priceCurrency": "USD"
+                    }
+                  ]
+                }
+              }
+          
+        
+      
+
+      Shipping
+
+      To specify shipping costs (recommended) for your product use the Schema.org OfferShippingDetails type, which must be nested within an Offer using the shippingDetails property and which maps on the shipping attribute in the Product Data Specification. Multiple shippingDetails properties can be provided.
+
+      
+        
+          
+            
+            Product Data Attribute
+
+            
+              Schema.org Property
+            
+            
+            Type and Description
+          
+          
+            The following attributes are from the schema.org OfferShippingDetails type.
+          
+          
+            
+            shipping.country
+
+            
+              shippingDestination.
+                addressCountry
+            
+            
+            
+            Text
+
+            2-digit ISO 3166-1 country code
+
+            Use the shippingDestination property to specify a DefinedRegion object which specifies the shipping country through its addressCountry property.
+            
+          
+          
+            
+            shipping.region
+
+            
+              shippingDestination.
+                addressRegion
+            
+            
+            
+            Text
+
+            2- or 3-digit ISO 3166-2 subdivision code, without country prefix. Supported for US, AU, or JP only. Examples: "NY", "NSW", or "03".
+
+            Use the shippingDestination property to specify a DefinedRegion object which specifies the shipping region through its addressRegion property. Use the same shippingDestination property to specify the addressRegion as is used to specify the addressCountry.
+            
+          
+          
+            
+            shipping.price
+
+            
+              shippingRate.value
+              shippingRate.currency
+            
+            
+            
+            value: Number without currency symbols, thousands separators or spaces (e.g. '1498.99').
+
+            currency: Text. Submitted in 3-letter ISO 4217 format (e.g. 'USD', 'GBP', 'EUR'). The currency should be the same as submitted for the offer price.
+
+            Use the shippingRate property to specify a MonetaryAmount object which specifies value and currency.
+            
+          
+          
+            
+            shipping.min_handling_time
+
+            
+              deliveryTime.handlingTime.
+                minValue
+            
+
+            shipping.max_handling_time
+
+            
+              deliveryTime.handlingTime.
+                maxValue
+            
+
+            shipping.min_transit_time
+
+            
+              deliveryTime.transitTime.
+                minValue
+            
+
+            shipping.max_transit_time
+
+            
+              deliveryTime.transitTime.
+                maxValue
+            
+
+             
+            
+            
+            Number (Non-negative, whole number)
+
+            Specifies the minimum and maximum number of business days for handling and transit of an order. Handling time specifies the time between when an order is placed and when it's handed off to a shipping carrier. Transit time specifies the time between when the product is handed off to a shipping carrier and when it's delivered to the customer.
+
+            Use the deliveryTime property to specify a ShippingDeliveryTime object which specifies handlingTime and transitTime of type QuantitativeValue. Use properties minValue and maxValue under QuantitativeValue to specify the minimum and maximum number of business days respectively.
+            
+          
+        
+      
+
+      Example
+
+      
+        The following example illustrates how to specify shipping information using schema.org. The example specifies a shipping cost of USD 3.49 to the states of California, Nevada, and Arizona in the US. The handling time is between 0 and 1 business days and the transit time is between 1 and 5 business days.
+          
+          {
+            "@context": "https://schema.org/",
+            "@type": "Product",
+            "sku": "trinket-12345",
+            "gtin": "12345678901234",
+            "image": "https://www.example.com/trinket.jpg",
+            "name": "Nice trinket",
+            "description": "Trinket with clean lines",
+            "brand": {
+              "@type": "Brand",
+              "name": "MyBrand"
+            },
+            "offers": {
+              "@type": "Offer",
+              "url": "https://www.example.com/trinket_offer",
+              "itemCondition": "https://schema.org/NewCondition",
+              "availability": "https://schema.org/InStock",
+              "priceSpecification": {
+                "@type": "UnitPriceSpecification",
+                "price": 39.99,
+                "priceCurrency": "USD"
+              },
+              "shippingDetails": {
+                "@type": "OfferShippingDetails",
+                "shippingDestination": {
+                  "@type": "DefinedRegion",
+                  "addressCountry": "US",
+                  "addressRegion": [ "CA", "NV", "AZ" ]
+                },
+                "shippingRate": {
+                  "@type": "MonetaryAmount",
+                  "value": 3.49,
+                  "currency": "USD"
+                },
+                "deliveryTime": {
+                  "@type": "ShippingDeliveryTime",
+                  "handlingTime": {
+                    "@type": "QuantitativeValue",
+                    "minValue": 0,
+                    "maxValue": 1,
+              "unitCode": "DAY"
+                  },
+                  "transitTime": {
+                    "@type": "QuantitativeValue",
+                    "minValue": 1,
+                    "maxValue": 5,
+              "unitCode": "DAY"
+                  }
+                }
+              }
+            }
+          } 
+      
+    
+  
+
+
+Returns
+
+To specify return windows and cost for your product use the Schema.org MerchantReturnPolicy type, which must be nested within an Offer type using the hasMerchantReturnPolicy property.
+
+
+  MerchantReturnPolicy can only be applied to crawled offers. There is no corresponding attribute in the Product Data Specification.
+
+
+
+  
+    
+      
+      Product Data Attribute
+
+      
+        Schema.org Property
+      
+      
+      Type and Description
+    
+    
+      The following schema.org properties are from the MerchantReturnPolicy, which must be nested within a product using the offers property (refer to examples below).
+    
+    
+      applicableCountry
+      
+      text
+
+      Two-letter ISO 3166-1 alpha-2 country code (example, “US”) 
+
+      Three-letter ISO 3166-1 alpha-3 country code (example, “USA”)
+
+      A country a particular merchant return policy applies to. This can be different from the country where the product was shipped from. Up to 50 countries can be specified.
+      
+    
+    
+      
+      returnPolicyCategory
+      
+      
+      Valid values are from the MerchantReturnEnumeration type.
+
+      
+        MerchantReturnFiniteReturnWindow
+        MerchantReturnNotPermitted
+        MerchantReturnUnlimitedWindow
+      
+
+      If specified as MerchantReturnFiniteReturnWindow or MerchantReturnUnlimitedWindow, returnMethod and returnShippingFeesAmount are recommended. In addition, if specified as MerchantReturnFiniteReturnWindow, merchantReturnDays is required.
+      
+    
+    
+      merchantReturnDays
+      
+      Integer
+
+      The number of days (from the delivery date) that a product can be returned.
+      
+    
+    
+      returnMethod
+      
+      Valid values are from the ReturnMethodEnumeration type:
+
+      
+        ReturnAtKiosk
+        ReturnByMail
+        ReturnInStore
+      
+      
+    
+    
+      returnFees
+      Valid value is FreeReturn from the ReturnFeesEnumeration type.
+    
+    
+      returnShippingFeesAmount
+      
+      MonetaryAmount
+
+      Information about the cost of shipping for product returns.
+      
+    
+  
+
+
+
+  Example
+
+  
+    
+      {
+          "@context": "https://schema.org/",
+          "@type": "Product",
+          "sku": "trinket-12345",
+          "gtin": "12345678901234",
+          "image": "https://www.example.com/trinket.jpg",
+          "name": "Nice trinket",
+          "description": "Trinket with clean lines",
+          "brand": {
+            "@type": "Brand",
+            "name": "MyBrand"
+          },
+          "offers": {
+            "@type": "Offer",
+            "url": "https://www.example.com/trinket_offer",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock",
+            "priceSpecification": {
+              "@type": "UnitPriceSpecification",
+              "price": 39.99,
+              "priceCurrency": "USD"
+            },
+            "shippingDetails": {
+              "@type": "OfferShippingDetails",
+              "shippingRate": {
+                "@type": "MonetaryAmount",
+                "value": 2.99,
+                "currency": "USD"
+              },
+              "shippingDestination": {
+                "@type": "DefinedRegion",
+                "addressCountry": "US"
+              },
+              "deliveryTime": {
+                "@type": "ShippingDeliveryTime",
+                "handlingTime": {
+                  "@type": "QuantitativeValue",
+                  "minValue": 0,
+                  "maxValue": 1,
+                  "unitCode": "DAY"
+                },
+                "transitTime": {
+                  "@type": "QuantitativeValue",
+                  "minValue": 1,
+                  "maxValue": 5,
+                  "unitCode": "DAY"
+                }
+              }
+            },
+            "hasMerchantReturnPolicy": {
+              "@type": "MerchantReturnPolicy",
+              "applicableCountry": "US",
+              "returnPolicyCategory":  "https://schema.org/MerchantReturnFiniteReturnWindow",
+              "merchantReturnDays": 60,
+              "returnMethod": "https://schema.org/ReturnByMail",
+              "returnFees": "https://schema.org/FreeReturn"
+            }
+          }
+        }
+    
+  
+
+
+Energy Efficiency
+
+Schema.org supports energy efficiency labeling of products using the EnergyConsumptionDetails type, which can be specified for a Product that uses the EnergyConsumptionDetails property.
+
+
+  
+    
+      
+        
+        Product Data Attribute
+
+        
+          Schema.org Property
+        
+        
+        Type and Description
+      
+    
+    
+      
+        The following schema.org properties are from the EnergyConsumptionDetails type.
+      
+      
+        
+        energy_efficiency_class
+
+        
+          hasEnergyEfficiencyCategory
+        
+        
+        
+        Valid values are from the schema.org EUEnergyEfficiencyEnumeration type. Use the value mapping table below this table.
+        
+      
+      
+        
+        min_energy_efficiency_class
+
+        
+          energyEfficiencyScaleMin
+        
+        
+        Add under the instance of EnergyConsumptionDetails that was used to specify the energy_efficiency_class attribute and use the same mapping table to select the value. If not provided and energy_efficiency_class is specified then then value EUEnergyEfficiencyCategoryG is assumed.
+      
+      
+        
+        max_energy_efficiency_class
+
+        
+          energyEfficiencyScaleMax
+        
+        
+        Add under the instance of EnergyConsumptionDetails that was used to specify the energy_efficiency_class attribute and use the same mapping table to select the value. If not provided and energy_efficiency_class is specified then value EUEnergyEfficiencyCategoryA3Plus is assumed.
+      
+    
+  
+
+
+Values for energyEfficiencyScale, energyEfficiencyScaleMin, and energyEfficiencyScaleMax are from the schema.org EUEnergyEfficiencyEnumeration enumeration type and are mapped to values for the 3 energy efficiency attributes in the product data specification as follows.
+
+
+  
+    
+      
+        Product data specification value
+        Schema.org enumeration value from the
+        EUEnergyEfficiencyEnumeration type
+      
+    
+    
+      
+        A+++
+        EUEnergyEfficiencyCategoryA3Plus
+      
+      
+        A++
+        EUEnergyEfficiencyCategoryA2Plus
+      
+      
+        A+
+        EUEnergyEfficiencyCategoryA1Plus
+      
+      
+        A
+        EUEnergyEfficiencyCategoryA
+      
+      
+        B
+        EUEnergyEfficiencyCategoryB
+      
+      
+        C
+        EUEnergyEfficiencyCategoryC
+      
+      
+        D
+        EUEnergyEfficiencyCategoryD
+      
+      
+        E
+        EUEnergyEfficiencyCategoryE
+      
+      
+        F
+        EUEnergyEfficiencyCategoryF
+      
+      
+        G
+        EUEnergyEfficiencyCategoryG
+      
+    
+  
+
+
+
+  Example
+
+  
+    The following example illustrates how to specify energy efficiency information using schema.org. The example specifies the EU energy efficiency class "C" with scale "A+" to "F" for a water heater.
+
+    {
+        "@context": "https://schema.org/",
+        "@type": "Product",
+        "sku": "1234-5678",
+        "image": "https://www.example.com/waterheater.jpg",
+        "name": "Water heater",
+        "description": "Large capacity water heater",
+        "gtin": "12345678901231",
+        "mpn": "WH1234",
+        "brand": {
+          "@type": "Brand",
+          "name": "ExampleWaterHeaterBrand"
+        }, 
+        "hasEnergyConsumptionDetails": {
+          "hasEnergyEffiencyCategory": "https://schema.org/EUEnergyEfficiencyCategoryC",
+          "energyEffiencyScaleMax":
+      "https://schema.org/EUEnergyEfficiencyCategoryA1Plus",
+          "energyEffiencyScaleMin": "https://schema.org/EUEnergyEfficiencyCategoryF"
+        },
+        "offers": {
+          "@type": "Offer",
+          "url": "https://www.example.com/hotwaterheater",
+          "itemCondition": "https://schema.org/NewCondition",
+          "availability": "https://schema.org/InStock",
+          "price": 1799.00,
+          "priceCurrency": "EUR"
+        }
+      }
+  
+
+  Unit pricing
+
+  Schema.org supports unit pricing of products using the referenceQuantity property under the UnitPriceSpecification type, provided using the priceSpecification property on Offer. When specifying unit pricing, also specify the price and currency of the product using the priceSpecification property (instead of directly using the price and priceCurrency properties on Offer).
+
+  
+    
+      
+        
+        Product Data Attribute
+
+        
+          Schema.org Property
+        
+        
+        Type and Description
+      
+      
+        The following schema.org properties are from the UnitPriceSpecification type.
+      
+      
+        
+        unit_pricing_measure
+
+        
+          referenceQuantity.value
+          referenceQuantity.unitCode
+          referenceQuantity.unitText
+        
+        
+        
+        value: Number
+          unitCode / unitText: Text
+
+        Specify the unit pricing measure using a referenceQuantity property of type QuantitativeValue under the UnitPriceSpecification object used to specify the price of the offer.
+
+        Use the value property and the unitCode (UN/CEFACT code) or unitText properties to specify the value and unit of the unit pricing measure. Refer to the unit_pricing_measure article for the supported values and units.
+        
+      
+      
+        
+        unit_pricing_base_measure
+
+        
+          referenceQuantity.
+            valueReference.value
+          referenceQuantity.
+            valueReference.unitCode
+          referenceQuantity.
+            valueReference.unitText
+        
+        
+        
+        value: Number
+          unitCode / unitText: Text
+
+        Specify the unit pricing base measure using a valueReference property of type QuantitativeValue under the QuantitativeValue object that is used to specify the unit pricing measure.
+
+        Use the value property and the unitCode (UN/CEFACT code) or unitText properties to specify the value and unit of the unit pricing measure. Refer to the unit_pricing_base_measure article for the supported values and units.
+        
+      
+    
+  
+
+  Example
+
+  
+    The following example illustrates a price of 3.99 Euro for a 5 KG bag of rice with a preferred standardized price per 1 KG. This means the product may show up to consumers with a unit price of .80 EUR / kilo.
+
+     {
+        "@context": "https://schema.org/",
+        "@type": "Product",
+        "sku": "basrice12345",
+        "image": "https://www.example.com/rice.jpg",
+        "name": "Basmati rice",
+        "description": "Large bag of Organic Basmati white rice, 5 Kilogram",
+        "gtin": "12345678901231",
+        "brand": {
+          "@type": "Brand",
+          "name": "ExampleRiceBrand"
+        },
+        "offers": {
+          "@type": "Offer",
+          "url": "https://www.example.com/basrice1kg",
+          "itemCondition": "https://schema.org/NewCondition",
+          "availability": "https://schema.org/InStock",
+          "priceSpecification": {
+            "@type": "UnitPriceSpecification",
+            "price": 3.99,
+            "priceCurrency": "EUR",
+            "referenceQuantity": {
+              "@type": "QuantitativeValue",
+              "value": 5,
+              "unitCode": "KGM",
+              "valueReference": {
+                "value": 1,
+                "unitCode": "KGM"
+              }
+            }
+          }
+        }
+      }
+  
+
+
+Test your markup
+
+Test your schema.org implementation with the Rich Results tool (by reviewing the reporting for "Merchant Listings" structured data). Visit the Google Search Console Help Center to learn more about using the tool, debugging any issues, and interpreting your results in the tool. Learn more about product structured data.
+
+Requirements for structured data markup
+
+
+  Structured data markup must be present in the HTML returned from the web server. The structured data markup can’t be generated with JavaScript after the page has loaded.
+  Your landing page can’t change based on information about the customer, such as if you adapt prices based on a customer’s IP address or browser type.
+  Structured data must match the values that are shown to the customer. Providing incorrect data on your product landing pages is a violation of our web developer guidelines.
+  Google recommends the use of JSON-LD for your structured data.
+
+
+
+             Was this helpful?How can we improve it?YesNoSubmit       

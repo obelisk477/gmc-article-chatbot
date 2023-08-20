@@ -1,0 +1,168 @@
+ Manage Buy on Google returns in Merchant Center
+  Buy on Google for Search and Shopping will no longer be available starting September 26, 2023. Eligible merchants will be able to use Buy on Google for YouTube in the US. Learn more about Enabling Buy on Google for YouTube.
+
+
+
+
+
+Once a customer initiates a return through Google, the return will be available for you to view and edit on the Returns page in your Merchant Center account. From there, you can view and track the status of the return shipment, as well as process the return. If you need to process a refund on your order for any other reasons, such as undelivered shipments, you'll continue to process these using the Orders tab in Merchant Center.
+
+Buy on Google Best Practices Episode 3: Managing returns
+
+For subtitles in your language, turn on YouTube captions. Select the settings icon  at the bottom of the video player, then select "Subtitles/CC" and choose your language.
+
+
+
+
+How it works
+
+The Returns list is grouped into three categories:
+
+
+  Due today: Returns that have been initiated, but not yet processed and the “respond by” date is today.
+  Returns requested: The customer sent a request for a return shipping label, but the label hasn’t yet been sent.
+  Awaiting refund: You’ve received the return shipment from the customer and haven’t processed the refund yet.
+    
+      If you process some but not all quantities that the customer is requesting to return, you’ll continue to see this status until you’ve processed all returns.
+    
+  
+
+
+To view all returns, select "All returns" under “Orders”, and toggle the default tile off to remove the applied filter.
+
+Instructions
+
+For merchant-managed returns: Upload a return shipping label or issue a refund (new experience only)
+
+
+  If you choose not to provide Google with your carrier account information, you won’t be eligible for Google-facilitated returns. Instead, you’ll be responsible for handling generating return labels. This is called “merchant-managed returns.”
+
+  When a customer decides to make a return, you will receive a return request which you can view and act on in the Merchant Center or via API.
+
+  To upload return label:
+
+  
+    Log in to your Merchant Center account.
+    Click Orders, then click All returns.
+      
+        You can see returns “Due today”, “Returns requested”, and “Awaiting refund”.
+      
+    
+    Click Start Refund.
+    Here, you’ll see the “Add a return shipment label” screen. You can view the order details and the customer’s address on this screen.
+    Select whether you want to refund or refuse the return. If refunding, select the quantity of items to refund
+    (Optional) You can override the refund total by clicking on the pencil icon.
+    Enter the refund reason for each product, including a note describing the rationale for the partial refund amount. You can also upload a photo of the returned item.
+      
+        This refund rationale and photo may be shared with the customer.
+        Restocking fees cannot be included here.
+      
+    
+    Choose if you’d like to refund the original shipping fee and remove the return shipping fee.
+    Click on the button in the Summary box to complete the refund. You’ll be directed back to the “Returns details” page, and the return will have an updated status.
+  
+
+  Once you’ve added the label, Google will email the label to the customer and provide the customer with a returns packing slip.
+
+  Instead of uploading a label, you can also choose to issue a refund directly.
+
+  To issue a refund:
+
+  
+    Log in to your Merchant Center account.
+    Click Orders, then click All returns.
+      
+        You can see returns “Due today”, “Returns requested”, and “Awaiting refund”.
+      
+    
+    Click Start Refund.
+    Here, you’ll be able to see the reason why the customer returned each product, plus the actual refund amount (the maximum that can be refunded for this return) and how much has been refunded so far.
+    Select whether you want to refund or refuse the return. If refunding, select the quantity of items to refund
+    (Optional) You can override the refund total by clicking on the pencil icon.
+    Enter the refund reason for each product, including a note describing the rationale for the partial refund amount. You can also upload a photo of the returned item.
+      
+        This refund rationale and photo may be shared with the customer.
+        Restocking fees cannot be included here.
+      
+    
+    Choose if you’d like to refund the original shipping fee and remove the return shipping fee.
+    Click on the button in the Summary box to complete the refund. You’ll be directed back to the “Returns details” page, and the return will have an updated status.
+  
+
+  
+    Keep in mind
+
+    
+      You must select a return reason when issuing refunds. For partial refunds, we highly recommend that you use the “Notes” text to provide detailed rationale for the partial refund. Detailed return reasons allow Google to provide customers with appropriate support when they reach out to us.
+      You cannot undo refund actions. You may review the return and refund history on the Orders page.
+      You can filter returns by their shipment state, which allows you to easily see returns that have been delivered but not processed.
+      If you choose to issue a refund without providing the customer a return label, we recommend you issue a full refund (net of return shipping fee specified in the return policy)
+    
+  
+
+
+Process a return
+
+
+  From the Returns page, you can take a number of actions on unprocessed returns - including rejecting a return, issuing a refund, and assigning a return reason.
+
+  
+    Log in to your Merchant Center account.
+    Click Returns.
+    In the “Unprocessed” tab, click on a return shipment ID.
+      
+        Here, you’ll be able to see the reason why the customer returned each product, plus the actual refund amount (the maximum that can be refunded for this return) and how much has been refunded so far.
+      
+    
+    Click on Process to take action on one or more items.
+      
+        Select a return action. Choose to either issue a refund or reject the return.
+        Select a reason for each item, including a note describing the return’s condition in more detail if the item isn’t being fully refunded. Restocking fees cannot be included here.
+        When processing returns, you'll have the option to refund or modify the original shipping fee, and to charge a return shipping fee by deducting it from the refund amount.
+          
+            Note: The return shipping fee will be preselected unless the customer returned the product for a reason where it should be free for them, but you can still charge a fee if you choose. If you always offer free returns, the return shipping fee won't be visible
+          
+        
+      
+    
+    
+      Click Save. You’ll be directed back to the Returns details page. The return will have an updated status.
+    
+  
+
+
+
+  Keep in mind
+
+  
+    We highly recommend you use detailed return reasons when issuing partial refunds. Detailed return reasons allow Google to provide customers with appropriate support when they reach out to us.
+  
+
+  
+    For example, a detailed partial refund reason would be “mobile phone returned without charger” or “handset returned with cracked screen.” This type of description allows Google customer support to precisely address the customer’s concerns if they contact Google. A return reason like “item returned with missing parts” or “item returned damaged,” is less useful.
+  
+
+  
+    You cannot undo returns actions. You may review the return and refund history on the Orders page.
+    You can filter returns by their shipment state, which allows you to easily see returns that have been delivered but not processed.
+  
+
+
+
+Related links
+
+
+  Return settings requirements for selling on Google
+  Set up return addresses for Buy on Google
+
+
+
+  Need help? Click here to contact Buy on Google support.
+
+
+
+Try our new chatbot for immediate assistance
+
+
+
+             Was this helpful?How can we improve it?YesNoSubmit       

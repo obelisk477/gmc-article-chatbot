@@ -1,0 +1,40 @@
+ Set up auto-tagging in Merchant Center
+
+When used with a web analytics tool, auto-tagging allows you to view how effective your free listings and free local listings are at leading to significant customer activity (such as purchases). When you turn on auto-tagging in Merchant Center, you can:
+
+
+  Track conversions from your free listings and free local product listings on your website on all browsers (separately from other conversion types).
+  Split out performance in a third-party web analytics tool, such as Google Analytics, between your free listings and free local listings from overall Google organic traffic.
+
+
+This article covers how auto-tagging works and how to enable it.
+
+How it works
+
+After someone clicks your free listing and free local listing, auto-tagging adds a bit of additional information—a parameter called a result id—to the URLs people click through. For example, if someone clicks on your free listing for www.example.com, the final URL will look like www.example.com/?srsltid=123xyz.
+
+The result id is created at the time of an impression. If a user clicks the same free listing or free local listing again, the same result id will be used.
+
+A small percentage of websites don't allow arbitrary URL parameters and serve an error page when auto-tagging is turned on. Check with your web developer to see if this applies to you, or turn on auto-tagging and do a test by clicking on your free listing. If the link to your site works, then you can use auto-tagging. If you get an error, you'll need to turn auto-tagging off from your Merchant Center account. Then, ask your web developer to allow arbitrary URL parameters before turning it back on.
+
+Set up auto-tagging
+
+Auto-tagging can be enabled at the Merchant Center account level by an admin. It won't be enabled by default. To turn it on, follow the steps below.
+
+
+  Sign in to your Merchant Center account.
+  In your Merchant Center account, click the tools icon  and then click Conversion settings under "Settings".
+  Toggle "Auto-tagging" to ON.
+
+
+
+  
+    How do I view traffic from free listings in Google Analytics?
+
+    
+      For Google Analytics 4 properties, the traffic source is “Shopping free listings”.
+      For Universal Analytics (the previous version of Google Analytics) properties, free listings traffic is reported with all other organic traffic sources from Google (with “google” as the traffic source and “organic” as the medium).
+    
+    Learn more about traffic sources in Google Analytics
+
+             Was this helpful?How can we improve it?YesNoSubmit       

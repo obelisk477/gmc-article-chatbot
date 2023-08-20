@@ -1,0 +1,33 @@
+ About the assistive promotions insights
+
+The assistive promotions insights shows common types of promotions that other retailers run on the same products that you sell. You’ll see a few examples of promotions currently being run for each product, which can help you understand the types of promotions in the market that other retailers are using to get clicks.
+
+Benefits
+
+With the assistive promotions insights, you can:
+
+
+  Understand the types of promotions being run on same products that you sell
+  Add new promotions for your products to provide competitive product offers
+
+
+How it works
+
+If you're eligible, you'll be able to see the price competitiveness report appear in the Growth tab. An account administrator must accept the Terms of Service upon opening the reports for the first time. In addition, make sure to review the Market Insights policy.  Once those steps are completed, you can click into each report to learn more.
+
+The assistive promotions insights within the price competitiveness report provide eligible merchants with examples of promotions found on a similar product from other sellers. 
+
+How to find the assistive promotion insights within the price competitiveness report
+
+To see your price competitiveness report, follow these steps:
+
+
+  Sign in to your Merchant Center account.
+  Navigate to the “Growth” tab.
+  Click on Price competitiveness.
+  Under the ‘Your price / Current benchmark price’ column, if there are promotions from other sellers on similar products you sell, a value will appear in this column, such as ‘Other sellers promoting this product’
+  Hover over on the value ‘‘Other sellers promoting this product’ to see common promotion types for this product from other sellers. 
+
+
+Availability
+Assistive promotion insights will be available in countries where Promotions are supported. See here for participating countries and promotion policies.             Was this helpful?How can we improve it?YesNoSubmit       

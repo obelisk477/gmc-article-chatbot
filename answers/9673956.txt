@@ -1,0 +1,60 @@
+ Sell refurbished products on Buy on Google (beta) 
+
+
+  Buy on Google for Search and Shopping will no longer be available starting September 26, 2023. Eligible merchants will be able to use Buy on Google for YouTube in the US. Learn more about Enabling Buy on Google for YouTube.
+
+
+
+
+
+This article explains how to sell refurbished products on Buy on Google.
+
+How it works
+
+To sell refurbished products on Buy on Google, you’ll need to meet the eligibility criteria listed below. Once you've been approved to sell refurbished products, you’ll need to submit the condition [condition] feed attribute for each of your products with the value "refurbished".
+
+Note: Your refurbished products may have the same GTIN [gtin], MPN [mpn], and brand [brand] as the same product sold in new condition.
+
+Your refurbished products will be added to your Buy on Google feed after all criteria have been met. After you classify your products as refurbished, your products will display the word “refurbished” next to the price and search results.
+
+Eligibility requirements
+
+
+  Your products must be Grade A certified refurbished only. Grade A products are near mint condition based on cosmetic level quality and usage.
+  You must have a minimum 90-day return policy with links to the policy. (You’re required to provide links to warranties as displayed in the Returns sections.)
+  Your refurbished products must contain all relevant accessories and the product must be backed by a minimum 90-day limited warranty.
+  You’ll need to meet top retailer criteria and have good refurbished sales with low return rate. This means you’ll be asked to share invoices showing over $20,000 in qualifying refurbished purchases in the last 90 days.
+
+
+
+  Which refurbished categories are eligible?
+
+  
+    Computers
+    Tablets
+    Phones
+    Cameras
+    Video Games
+    Headphones
+    TVs
+    Wearables
+    Speakers
+    Tools
+    Watches
+    Home and kitchen
+    Lawn and garden
+    Musical Instruments
+  
+
+
+Get started
+
+Fill out this form to express an interest in and be considered for the refurbished pilot program.
+
+You’ll receive a notification of approval if you meet all requirements to sell refurbished products in your Merchant Center account.
+
+
+  Need help? Click here to contact Buy on Google support.
+
+
+             Was this helpful?How can we improve it?YesNoSubmit       

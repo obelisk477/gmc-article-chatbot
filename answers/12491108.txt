@@ -1,0 +1,31 @@
+ About product details in Merchant Center
+
+
+  If you’re looking for information about reviewing product details in the classic Merchant Center experience, click here. 
+
+
+
+Accurate product information is important to customers. If you want to review details about your products or update product information, you can use the “Product details” page in Merchant Center.
+
+
+Benefits
+
+
+  Review all details for the product and a list of stores where the product is available.
+  Make quick changes to the product details.
+  View how your product listing looks on Google.
+
+
+
+How it works
+
+Select the product title from the “Products” page in Merchant Center to view product details. On the “Product details” page, you can:
+
+
+  Add or remove images associated with the product: Select Manage images.
+  Show or hide the product on Google: Under “Visibility preference”, select the checkbox next to an item if you want to show or hide it on Google.
+  Open the editor to make quick changes to product details: Select Edit product.
+
+
+Learn how to edit your products
+             Was this helpful?How can we improve it?YesNoSubmit       

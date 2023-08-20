@@ -1,0 +1,146 @@
+ Irresponsible data collection & use
+
+
+  This policy applies to Shopping ads and local inventory ads
+
+
+
+Our policy
+
+
+
+  
+    
+      
+        Google wants users to trust that information about them will be respected and handled with appropriate care. As such, our advertising partners should not misuse this information, nor collect it for unclear purposes or without appropriate security measures.
+      
+    
+  
+
+
+Examples of what's not allowed
+
+
+
+  
+    
+      
+      Unsafe collection or use of personal information
+      
+    
+  
+
+
+ Using security measures inappropriate for the type of information being collected
+
+  Examples: Collecting personal information: first and last name, mailing address, phone number, numbers for credit or debit cards, bank and investment accounts, wire transfers, national identity, login email and password, tax ID, pension, healthcare, driver’s license or social security numbers over an unsecured page which is not SSL protected and without a valid certificate.
+
+
+
+
+  
+    
+      
+      Misuse of personal information
+      
+    
+  
+
+
+ Using personal information in ways users have not consented to
+
+  Examples: Re-selling users' contact information or using images of users in ads without their consent
+
+
+
+
+
+What you can do
+
+Here's what you can do if your product is disapproved or if your Merchant Center account is impacted:
+
+
+Product disapproval
+
+  Products that don't comply with our policies may be disapproved. When a product is disapproved, it won't be eligible to serve. 
+
+  
+    Read our policies to learn what we don't allow.
+    Update your website. If your ad or listing leads to content that violates a policy, update your website to meet the requirements and be in compliance with our policies.
+    Remove the violating products from your product data. You’ll receive an email with details about the violation. 
+      
+        If you have products in your product data that violate the policy (or policies), you'll need to remove the offers from your feed.
+      
+    
+    Update your product data in Merchant Center. If you created a schedule for automatic uploads, update your product data manually or wait for your product data to be automatically updated before requesting any reviews.
+    Request a review of your products or appeal the decision taken on this issue.
+      
+        If the violating products are removed, you won't need to request a review or take any additional action.
+        If you fix your product-level issues by editing your product data via your chosen upload method (such as a file) or directly in Merchant Center, your products will be re-reviewed.
+        For certain issues, you can disagree with the issue but you may need to complete additional steps such as provide an appeal reason and/or upload required documentation.
+        If you use a third-party platform to list your products, you can refer to your third-party if you want to request a review. You won’t be able to do this in Merchant Center.
+        If a review or appeal is successful, the issue will disappear from Merchant Center.
+      
+    
+  
+
+
+
+Account disapproval
+
+  For most violations, we'll send you a warning email detailing the policy violation and give you 7 or 28 calendar days to fix your issue.
+
+  
+    Read our policies to learn what we don't allow.
+    Update your website. If your ad or listing leads to content that violates a policy, update your website to meet the requirements and be in compliance with our policies.
+    Remove any violating products from your product data. You’ll receive an email with details about the violation. If you have products in your product data that violate the policy (or policies) you'll need to remove the offers from your feed.
+    Update your data in Merchant Center. 
+      
+        Review your account and submit any missing information or complete any unfinished steps. 
+        If you created a schedule for automatic uploads, update your product data manually or wait for your product data to be automatically updated before requesting any reviews.
+      
+    
+    Request a review of your account or appeal the decision taken on this issue.
+      
+        If your account is still within the warning period, it will automatically be reviewed again at the end of the warning period. If the violating products are removed, you won't need to request an account review or take any additional action.
+        If your account is suspended and you've taken actions to resolve the issue, request an account review.
+        For certain issues, you can disagree with the issue but you may need to complete additional steps such as provide an appeal reason and/or upload required documentation.
+        If you use a third-party platform to list your products, you can refer to your third-party if you want to request a review. You won’t be able to do this in Merchant Center.
+      
+    
+  
+
+  Most accounts are reviewed within 3 business days, but it can take longer if a more complex review is needed. If we find that you've removed the violating products from your product data, we’ll remove the warning. If a review or appeal is successful, the issue will disappear from Merchant Center. In the case of account suspension, we'll then also approve your account so your products can start displaying again.
+
+
+
+Account issue that limits product visibility
+
+  Your account has an issue and is operating with reserved functionality, therefore your products have limited visibility. An email was sent with a notice on what to do and the steps needed to resolve your account issue.
+
+  
+    Read our policies to learn more about our requirements.
+    Update your website. If your ad or listing leads to content that violates a policy, update your website to meet the requirements and be in compliance with our policies.
+    Fix any other open policy violation in your account. Review your products and your account details. 
+      
+        If products aren’t supported, remove them from your feed.
+        If account details are missing, complete them in Merchant Center. 
+      
+    
+    Request a review of your account or appeal the decision taken on this issue.
+      
+        If your Merchant Center account is still within the warning period for certain policies, it will automatically be reviewed again at the end of the warning period. 
+        If your account is affected and you've resolved the issue, request a Merchant Center account review.
+        For certain issues, you can disagree with the issue but you may need to complete additional steps such as provide an appeal reason and/or upload required documentation.
+        If you use a third-party platform to list your products, you can refer to your third-party if you want to request a review. You won’t be able to do this in Merchant Center.
+      
+    
+  
+
+  Most accounts are reviewed within 3 business days, but it can take longer if a more complex review is needed. If we find that you've removed the violating products from your product data, we’ll remove the warning. If a review or appeal is successful, the issue will disappear from Merchant Center. In the case of accounts with limited visibility, we'll then also approve your account so your products can start displaying again without any restrictions.
+
+
+
+To ensure a safe and positive experience for customers, Google requires that retailers comply with all applicable laws and regulations in addition to our policies. It's important that you familiarize yourself with and keep up to date on these requirements for the place where your business operates, as well as any other places your ads are shown. When we find content that violates these requirements, we may block it from appearing. In cases of repeated or egregious violations, we may ban you from advertising content with us.
+
+             Was this helpful?How can we improve it?YesNoSubmit       

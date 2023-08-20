@@ -1,0 +1,14 @@
+ Local inventory onboarding guideLink your Business Profiles and select your business groupNext: Select a landing page experience for your local inventory ads
+
+
+  This is step 4 of the local inventory onboarding guide.
+
+
+To show your local products on Google, you will need to link your Business Profiles to your Merchant Center account and select a business group. The Link Business Profiles and Merchant Center article explains how. It can take up to 24 hours to sync your business locations into your Merchant Center account, so we recommend that you upload your inventory feed 24 hours after linking accounts, or after a store code is changed or updated in your Business Profile.
+
+
+  Note: Your stores must operate with a storefront that is physically accessible to customers. As a result, your Business Profiles need to reference an address. Learn how to add an address to your Business Profiles
+
+
+
+Next: Select a landing page experience for your local inventory ads             Was this helpful?How can we improve it?YesNoSubmit       

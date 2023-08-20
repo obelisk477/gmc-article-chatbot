@@ -1,0 +1,19 @@
+ How to fix: Invalid value: return address label [return_address_label]Go to the Merchant Center to create a new return address for this product, or update the return address label for this product to match an existing label
+
+The value specified for the return address label [return_address_label] attribute in your Merchant Center product feed does not have a corresponding return address configuration in your Merchant Center account.
+
+If you’d like to apply a return address to a specific product or type of product, you need to create a return address label in Merchant Center. If you attempt to apply a return address and a corresponding return address label is not found in Merchant Center, your default return address will be applied, which will affect where the customer returns will be sent. If you’d prefer to apply the default return address, remove the return address label [return_address_label] attribute from the offer.
+
+Instructions
+
+To create a new return address and label:
+
+
+  Sign in to your Merchant Center account.
+  Click the tools icon , then select Shipping and returns under "Tools".
+  Click the Return addresses tab.
+  Under “Additional addresses,” click the plus button .
+  Enter the return address label and return address.
+  Click Save.
+
+             Was this helpful?How can we improve it?YesNoSubmit       

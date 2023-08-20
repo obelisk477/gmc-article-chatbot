@@ -1,0 +1,209 @@
+ Custom label 0-4 [custom_label_0-4] (Collections)
+
+Custom labels allow you to create specific filters to use in your collections. Use these filters for reporting and bidding on groups of collections. The information you include in this attribute won’t be shown to customers.
+
+For example, you could label a group of collections as "kitchens", "sneakers", or "summer collection".
+
+
+Note that the custom label 0-4 [custom_label_0-4] attribute for Collections is different from the custom label 0-4 [custom_label_0-4] attribute used in Shopping ads and free product listings, but it works in the same way.
+
+
+When to use
+
+
+ Required for promoting local products within Performance Max for store goals.
+
+
+If you advertise your collections through campaigns in Google Ads, use custom labels to group collections for reporting and bidding.
+
+The custom label attributes are numbered 0–4:
+
+
+  Custom label 0 [custom_label_0]
+  Custom label 1 [custom_label_1]
+  Custom label 2 [custom_label_2]
+  Custom label 3 [custom_label_3]
+  Custom label 4 [custom_label_4]
+
+
+
+Format
+
+Follow these formatting guidelines to make sure Google understands the data you're submitting.
+
+For details on when and how to submit values in English, learn more about submitting your product data
+
+
+
+  
+    
+      Type
+      String (Unicode characters. Recommended: ASCII only), not case sensitive
+    
+    
+      Limits
+      1–100 characters, up to 1,000 unique values account-wide for each custom label attribute (up to 5,000 labels total)
+    
+    
+      Repeated field
+      No, but you can create up to five custom labels numbered custom_label_0 through custom_label_4
+    
+  
+
+
+
+
+  
+    
+      File format
+      Example value
+    
+    
+      Text feeds
+      sofas
+    
+    
+      XML feeds
+      <g:custom_label_0>sofas</g:custom_label_0>
+    
+  
+
+
+
+Guidelines
+
+Follow these guidelines to make sure you submit high-quality data for your collections.
+
+
+Minimum requirements
+
+These are the requirements you need to meet to show your collection. If you don't follow these requirements, we'll disapprove your collection and let you know in the Diagnostics page of your Merchant Center account.
+
+
+
+  
+    Submit only 1 value for each custom label 0-4 [custom_label_0-4] attribute.
+  
+  Create up to 1,000 unique labels for each custom label 0-4 [custom_label_0-4] attribute across your account (up to 5,000 labels total, 1,000 values per attribute). If you submit collections with a custom label after you exceed the limit, you won’t see reporting on collections with those additional labels. You might also see other reporting errors. To fix the issue, reduce the number of unique labels, and then resubmit your collections’ data.
+
+
+
+Best practices
+
+These best practices can help you go beyond the basic requirements to optimize your collection data for performance.
+
+
+
+  Create up to five custom labels for each collection: Custom label 0 [custom_label_0] through custom label 4 [custom_label_4]
+  Choose your own definition for each of the five custom labels.
+
+
+
+Examples
+
+
+
+  Custom label definitions
+
+  
+    Set up your own definitions for custom labels and include only one type of label per attribute. This definition isn’t something that you enter in Google Ads or Merchant Center, but it will help your own understanding of what values you should include.
+
+    
+      Custom label 0
+
+      
+        
+          
+            
+              Attribute
+              Custom label 0 [custom_label_0]
+            
+            
+              Your definition
+              Season
+            
+            
+              Example values
+              winter, spring, summer, fall
+            
+          
+        
+      
+
+      
+        Custom label 1
+
+        
+          
+            
+              
+                
+                  Attribute
+                  Custom label 1 [custom_label_1]
+                
+                
+                  Your definition
+                  Soft Furnishings
+                
+                
+                  Example values
+                  curtains, throws
+                
+              
+            
+          
+        
+
+        
+          Custom label 2
+
+          
+            
+              
+                
+                  
+                    Attribute
+                    Custom label 2 [custom_label_2]
+                  
+                  
+                    Your definition
+                    Women’s Running Gear
+                  
+                  
+                    Example values
+                    leggings, t-shirts
+                  
+                
+              
+            
+          
+
+          
+            Custom label 3
+
+            
+              
+                
+                  
+                    Attribute
+                    Custom label 3 [custom_label_3]
+                  
+                  
+                    Your definition
+                    Winter Shoe Collection
+                  
+                  
+                    Example values
+                    boots, ski shoes
+                  
+                
+              
+            
+          
+        
+      
+    
+  
+
+
+             Was this helpful?How can we improve it?YesNoSubmit       

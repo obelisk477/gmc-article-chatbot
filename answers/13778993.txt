@@ -1,0 +1,195 @@
+ Vehicle ads onboarding guideEnable vehicle ads in your Performance Max campaigns
+
+
+  This is step 7b of the vehicle ads onboarding guide.
+
+
+
+  Note: All vehicle ads campaigns will be upgraded to Performance Max by September 2023.
+
+
+
+All existing Vehicle ads Smart Shopping campaigns will be upgraded to Performance Max by September 2023, bringing you additional inventory and formats to reach new customers. This page details how to set up and optimize a Performance Max campaign to run your vehicle ads. You need to have an active Performance Max campaign in your Google Ads account. If you don’t have one, create a Google Ads account.
+
+There are a number of ways to customize your vehicle ads setup and improve your performance.
+
+Instructions
+
+
+  
+    Note: To complete these actions, your Google Ads and Merchant Center accounts must be linked. Learn more about linking your Merchant Center and Google Ads accounts
+  
+
+
+Set up your first Performance Max campaign with vehicle feed
+
+The instructions below are specific to Performance Max campaigns with vehicle feeds. For other goals, learn how to create a Performance Max campaign.
+
+1. Create your campaign and choose your campaign objective
+
+
+  Note: The instructions below are part of a new Google Ads user experience that will launch for all advertisers in 2024. If you’re still using the previous version of Google Ads, review the Quick reference map or use the Search bar in the top navigation panel of Google Ads to find the page you’re searching for.
+
+
+
+
+  In your Google Ads account, click the Campaigns icon .
+  Click the Campaigns drop down in the section menu.
+  Click Campaigns.
+  Click the plus button , then select New campaign.
+  Choose your campaign objective.
+    
+      Performance Max with vehicle feed campaigns are only compatible with the Sales, Leads, Website Traffic objectives, or Create a campaign without goal guidance. Select one of them depending on your main goal.
+    
+  
+  Choose your conversion goal. Setting the right goal is essential for the success of the campaign, and it helps the algorithm to improve your bid strategy. It’s important to have the right conversion set up. Use these conversion goals to improve Sales:
+    
+      Purchases
+      Contacts
+      Qualified leads
+      Store visits
+      Submit lead forms
+    
+  
+
+
+Using the same goals for all your performance campaigns is recommended. You can add multiple goals that are relevant for the campaign.
+
+
+  Choose Performance Max as your campaign type to access all Google Ads inventory from a single campaign.
+  After you choose Performance Max as your campaign type, the “Add vehicles to this campaign” section will appear. If your Merchant Center account is opted in for vehicle ads and you selected the supported campaign objective, the box “Advertise vehicles from a Merchant Center account” will be checked by default. Scroll down to continue creating your campaign.
+
+
+
+  Note: The option “Advertise vehicles from a Merchant Center account” can only be enabled during campaign creation. After the campaign is created, this setting can't be changed. If the box isn't checked before saving, you’ll need to create a new campaign.
+
+
+2. Set up your bid and budget
+
+
+  
+    On the "Select campaign settings" page, scroll to the “Bidding” section and select a bid strategy.
+
+    Types of bidding strategies for Performance Max with vehicle feed:
+
+    
+      
+        
+          Goal
+          Type
+        
+      
+      
+        
+          Get the most conversion value while meeting a Target return on ad spend (ROAS). Your Target ROAS represents how much revenue you want to earn for each dollar you spend on Google Ads.
+          Maximize conversion value (with an optional ROAS target)
+        
+        
+          Get the most conversions while meeting a Cost Per Acquisition Target.
+          Maximize conversions (with an optional CPA target)
+        
+      
+    
+
+    Performance Max with vehicle ads campaign is designed for using Maximize conversion value bidding.
+
+    
+      When you tick Set a target return ad on spend (optional), your campaign will try to meet the target average ROAS for Maximize conversion value bidding and CPA for Maximize conversion bidding.
+      Omnichannel bidding is recommended. Make sure to include store visits in conversions so that your bid strategies optimize for both online and offline actions.
+    
+  
+  Scroll to the “Budget” section and enter an individual daily budget or set a custom budget.
+  Click Next.
+
+
+3. Set up campaign settings
+
+
+  On the “Campaign settings” page, select the location to target under “Locations”.
+  Select Enter another location, enter the name of the place you want to target, then select Target or Exclude.
+    
+      If you want to target specific places within a location, select Nearby and again select Target or Exclude locations.
+    
+  
+  Under “Languages”, select the language you want your ads to serve in.
+    
+      Note: You can select multiple languages to show your ads to specific sets of customers.
+    
+  
+  Click More settings to expand the section. More settings allows you to set ad scheduling, campaign start and end dates, and URL settings.
+    
+      Opting in Final URL expansion allows Google AI to select the best landing page that will drive the best performance based on customer intent. It will increase the potential auctions where your Performance Max campaign can participate. We always recommend enabling final URL expansion to allow our bidding systems to bid up or down to find you the most performance actions.
+      You can eventually exclude some particular URL from being targeted. In case you want to send traffic only to a single page, you can turn off the URL expansion.
+    
+  
+
+
+4. Create an asset group and select your audiences
+
+Ad strength
+
+Ad strength is a real-time feedback tool to guide you on the best practices for optimal asset group set-up to maximize performance across all inventory where Performance Max can serve.
+
+Ad strength will provide recommendation messages and optimize assets to ensure maximum performance. The asset group is where you manage your listing group and the different creative assets you provide (text, images, videos, and logos).
+
+It’s important to name your asset group and target the products you want to advertise.
+
+Asset group
+
+Start by forming an asset group with assets that share a common theme or target audience. You have the option to create multiple asset groups for each campaign.
+
+Our system will automatically assemble your assets into all relevant ad formats that are aligned with your campaign objectives. It will then display the most suitable creative for each user.
+
+Learn how to build an asset group.
+
+Assets
+
+For image assets, you can scan the website, upload your own files, or pick from the library. Use as many image assets and sizes as possible until Ad strength indicates you have an optimal number of images. Add headlines and descriptions. Your goal should be to achieve an “Excellent” Ad strength rating.
+
+You can view the list of assets with “Best Rating” after you upload your assets. When you reach the maximum number of assets, you can start replacing the assets marked as “Low”.
+
+Audience signals
+
+To enhance the targeting, you can inform our AI about the most relevant audiences for your asset group by utilizing audience signals.
+
+The more assets you provide, the more ad formats the system can generate. This will increase your advertiser's visibility across various platforms.
+
+You can use audience signals as an option to let Google know your unique insights on your audience. Audience signals are available for all surfaces except Search as of today.
+
+Audience signals are available only for Display, Gmail, YouTube, and Discovery. When you have an unique insight on which segment of users are more likely to convert, you can use them to let Google know. Adding audience signals is optional, but it provides Performance Max with an important signal for optimization to help with AI ramp up.
+
+All existing audience segments can be leveraged by automated targeting to help reach your goals, and are also compatible with audience signals (for example, demographics, Google Audiences, custom segment, and remarketing and customer match lists).
+
+If you believe certain creatives perform better with specific audiences, you can create separate asset groups and use audience signals to validate your assumptions.
+
+Listing groups
+
+Listing groups are essentially product groups. This is where you choose which products you want to target in your Performance Max campaigns.
+
+5. Publish your campaign
+
+Before you finish setting up your campaign, you'll be taken to a review summary with the details of your new campaign. Select Publish Campaign to complete the process.
+
+After you create your campaign, we recommend that you activate the campaign and wait 2 weeks for the Performance Max campaign to fully ramp up. Run your campaign for at least 4–6 weeks to collect enough data to compare performance.
+
+
+  It may take up to 48 hours before your vehicle ads begin to serve.
+
+
+Implementation guide
+
+
+  Set up your accounts
+  Enable the vehicle ads program
+  Add your business information
+  Create a primary feed
+  Register and submit your feed
+  Link your Business Profile and select your location group
+  Create, register, and submit your store feed (Optional)
+  Complete website policy review
+  Link your Merchant Center and Google Ads accounts
+  Enable vehicle ads in your Smart Shopping campaigns
+  Enable vehicle ads in your Performance Max campaigns
+
+
+             Was this helpful?How can we improve it?YesNoSubmit       

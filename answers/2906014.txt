@@ -1,0 +1,958 @@
+ Promotions feed specification
+
+This article lists all of the attributes you can provide in your promotions feed.
+
+To use promotions, you can submit your product data to Google through a feed. The information within your feed is then distributed on relevant Shopping ads as well as free product listings appearing on the Shopping tab in the US (may also appear outside of the US as well). Promotions will display for customers on desktop and mobile devices in Australia, Brazil, Canada, France, Germany, India, Italy, Japan, South Korea, Spain, the Netherlands, the United Kingdom, and the United States.
+
+
+Submit a promotions feed
+
+File type: You can use either an XML file, tab-delimited file, or Google Spreadsheet. View an example feed template
+
+Registering and uploading a new feed: Follow the steps to register and upload a new promotions feed. Upload your promotions feed to the same Merchant Center account you use for your online products feed.
+
+
+  Google reviews all promotions against program policies and editorial requirements before displaying them.
+
+
+
+Create promotions to target specific products
+
+You can create promotions for specific products in the following ways:
+
+
+  Apply product filter attributes in your promotion feed: If a promotion applies to specific products in your product feed, you may use product filter attributes. View Product filters.
+  Map the promotion ID to products in your product feed: For Google to recognize the products included in your promotion, submit a value for the promotion ID [promotion ID] attribute and map that to the eligible products in your products feed. For more information about mapping, view how to create promotion groups for specific products.
+
+
+If you set product filters on the promotion feeds and explicit promotion IDs in the product feed, then the promotion applies to products selected by both applying product filter attributes and mapping the promotion ID to your products.
+
+
+Basic promotions data
+
+Include the following attributes in your feed to define how your promotions will display:
+
+
+
+  
+    
+      Attribute
+      Minimum requirements at a glance
+    
+  
+  
+    
+      Promotion ID [promotion_id]
+       Required
+
+      Syntax
+
+      
+        Maximum length is 50 characters
+        Case sensitive
+        Should not contain spaces or symbols (such as % and !)
+      
+      
+      
+      This attribute is the unique ID of a promotion.
+
+      The promotion ID [promotion_id] attribute is used to link promotions to specific products.
+      
+    
+    
+      
+      Products eligible for promotion [product_applicability]
+
+       Required
+
+      Supported values
+
+      
+        All products
+          [all_products]
+        Specific products specific_products
+      
+      
+      
+      This attribute specifies if the promotion applies to all products or only to specific products.
+
+      
+        If the value is specific products specific_products, you must use product filter attributes or map a promotion ID [promotion_id] to applicable products in your products feed. These specific products are continuously tested for the duration of the promotion.
+        If the value is all products [all_products], you do not need to use product filter attributes or a promotion ID [promotion_id] in the products feed. The promotion validity is tested against all of the items in your products feed.
+      
+      
+    
+    
+      
+      Coupon code required [offer_type]
+
+       Required
+
+      Supported values
+
+      
+        No code [no_code]
+        Generic code [generic_code]
+      
+
+      If the value for this attribute is generic_code (that is, a code that is the same for all customers), the attribute below is required:
+
+      
+        Generic redemption code [generic_redemption_code]
+      
+      
+      
+      This attribute indicates whether or not a coupon code is required for customers to redeem the offer.
+
+      Note: All shipping promotions must include a valid redemption code.
+
+      
+        Free shipping promotions must include a valid coupon code that customers can manually apply. Otherwise, shipping will be treated as a service that is normally offered.
+      
+
+      Learn more about how to include redemption codes for shipping promotions in the promotions program policies.
+      
+    
+    
+      Promotion title [long_title]
+       Required
+
+      Syntax
+
+      
+        Maximum length is 60 characters
+      
+
+      Example
+
+      
+        Free mug with purchase
+      
+      
+      
+      This attribute specifies the full title of the promotion.
+
+      Important:
+
+      Follow our editorial requirements closely. They outline title requirements and provide helpful examples of acceptable and unacceptable titles.
+
+      The title should describe the promotion completely and accurately.
+      
+    
+    
+      Promotion start date [promotion_effective_dates]
+       Required
+
+      Syntax
+
+      
+        Start date and end date are separated by a forward slash (/).
+        The date format is (YYYY-MM-DD), followed by the letter ‘T’, the time of day when the sale starts or ends, and an expression of the time zone for the sale.
+      
+
+      Example
+
+      If your promotion is valid from 3:00 a.m. on July 19, 2009 to 9:00 p.m. on July 26, 2009 EST (Eastern Standard Time), you would submit:
+
+      2009-07-19T03:00:00-05:00/2009-07-26T21:00:00-05:00
+
+      If your promotion is valid from 3:00 a.m. on July 19, 2009 to 9:00 p.m. on July 26, 2009 GMT (Greenwich Mean Time), you would submit:
+
+      2009-07-19T03:00:00+00:00/2009-07-26T21:00:00+00:00
+      
+      
+      Important:
+
+      
+        GMT is Greenwich Mean Time. -5 hours represents EST while -8 hours represents PST.
+        Promotions have a 6-month limit (183 days).
+        Daylight Savings: -4 hours represents EDT while -7 hours represents PDT.
+      
+
+      If you use the promotion builder, it will only support the promotion start date [promotion_effective_dates] attribute and the time will default to the time zone of your Merchant Center account setting. If you want the promotion to be in a different time zone, adjust the time zone manually.
+
+      Tip: You can validate your promotion before it starts by using the promotion display dates [promotions_display_dates] attribute. Learn more about promotions feed formatting and attributes
+      
+    
+    
+      
+      Eligible channel for promotion [redemption_channel]
+
+      Note: This attribute is only available in the classic Merchant Center experience.
+
+       Required
+
+      Supported values
+
+      
+        Online [online]
+        In store [in_store]*
+      
+
+      * In store value is only applicable for those participating in the local promotions open beta. Learn more about local promotions
+      
+      
+      This attribute indicates the promotion is valid online.
+      
+    
+    
+      
+      Promotion destination [promotion_destination]
+
+       Required
+
+      Supported values
+
+      
+        Shopping ads [Shopping_ads]
+        Buy on Google listings [Buy_on_Google_listings]
+        Free listings [Free_listings]
+      
+
+      Add a supported value to your feed. To submit your promotion to one or more destination, submit each destination value as a separate column:
+
+      
+        promotion_destination: local_inventory_ads
+        promotion_destination: Shopping_ads
+        promotion_destination: Buy_on_Google_listings
+        promotion_destination: Free_listings
+      
+
+      Important:
+
+      If you use the promotion destination [promotion_destination] attribute, and don't specify a destination by including a supported value in your feed, your promotion will display in Shopping ads and free listings by default.
+      
+      
+      Important:
+
+      These are repeated fields and values are supported simultaneously. Values indicated in this field will overwrite any product defaults.
+
+      For more details on repeated fields, view About attributes with repeated fields.
+
+      Note:
+
+      The Buy on Google listings [Buy_on_Google_listings] destination is only applicable to advertisers enrolled in Buy on Google.
+
+      The free listings [Free_listings] destination requires an approved offer for free listings. In addition, we recommend offers submitted via promotions feed be in structured format to help ensure faster approval.
+      
+    
+  
+
+
+
+  Note: Some of the names for product destinations have been updated. You may have previously submitted the following values as destinations for your products: Shopping Actions, Surfaces across Google, Local surfaces across Google. These values will still be accepted, but we recommend that you update your products to include the new values for these destinations: Buy_on_Google_listings, Free_listings, Free_local_listings.
+
+
+
+
+Product filters
+
+If you create a promotion that only applies to specific products in your product feed, use the product filter in your promotion feed. The product filter attributes only apply when the products eligible for promotion [product_applicability] attribute is set to specific_products. All the attributes under this section are repeated fields with a limit up to 1,000 in XML/CSV.
+
+The product filter attributes in the table below determine the products that apply for a promotion. When the same attribute is used more than once, the product must match at least one of the attributes for the filter to apply. When there are multiple filters, only the products that pass all filters are selected for the promotion. If a filter excludes a product and another filter includes the same product, the product will be excluded from the promotion.
+
+Example:
+
+For example, if you create a promotion for brand = "example1" and product_type = “Tshirt”, the promotion will apply only to those products in the product feed that have brand =“example1” and product_type = “Tshirt”.
+
+Alternatively, you can also link a product to a specific promotion by setting the promotion ID [promotion_id] attribute in the product feed.
+
+
+  
+    
+      Attribute
+      Description
+    
+  
+  
+    
+      
+      Product ID for promotion [item_id]
+
+        Optional
+
+      Syntax
+
+      
+        String
+        Maximum length is 50 characters
+      
+      
+      
+      The promotion only applies to products that match the product ID for promotion [item_id] specified in this attribute. Note: The product ID for promotion [item_id] attribute matches the ID [id] attribute in the products feed spec.
+      
+    
+    
+      
+      Product type [product_type]
+
+        Optional
+
+      Syntax
+
+      
+        Unicode characters. Recommended: ASCII only.
+        Maximum length is 750 characters.
+        Case sensitive. Must match the product feed.
+      
+      
+      The promotion only applies to products that match the product type specified in this attribute.
+    
+    
+      
+      Brand [brand]
+
+        Optional
+
+      Syntax
+
+      
+        Unicode characters. Recommended: ASCII only.
+        Maximum length is 70 characters.
+        Case sensitive. Must match the product feed.
+      
+      
+      
+      The promotion only applies to products that match the brand specified in this attribute.
+      
+    
+    
+      
+      Item group ID [item_group_id]
+
+        Optional
+
+      Syntax
+
+      
+        String
+        Maximum length is 50 characters
+        Case sensitive. Must match the product feed.
+      
+      
+      
+      This promotion applies to products that match the item group ID [item_group_id] which is set with this attribute.
+      
+    
+    
+      
+      Excluded item ID [item_id_exclusion]
+
+        Optional
+
+      Syntax
+
+      
+        String.
+        One or more item IDs.
+        Maximum length is 50 characters.
+        Case sensitive. Must match the product feed.
+      
+      
+      Products with one of these item ids are excluded from the promotion.
+    
+    
+      
+      Excluded product types [product_type_exclusion]
+
+        Optional
+
+      Syntax
+
+      
+        Unicode characters. Recommended: ASCII only.
+        Maximum length is 70 characters.
+        Case sensitive. Must match the product feed.
+      
+
+      Example
+
+      Rings
+      
+      Products with one of these product types are excluded from the promotion.
+    
+    
+      
+      Excluded brands [brand_exclusion]
+
+        Optional
+
+      Syntax
+
+      
+        String.
+        Maximum length is 50 characters.
+        Case sensitive. Must match the product feed.
+      
+
+      Example
+
+      Acme Products
+      
+      Products with one of these brands are excluded from the promotion.
+    
+    
+      
+      Excluded item group ID [item_group_id_exclusion]
+
+        Optional
+
+      Syntax
+
+      
+        String.
+        Maximum length is 50 characters.
+        Case sensitive. Must match the product feed.
+      
+      
+      Products with an excluded item group ID are excluded from the promotion.
+    
+  
+
+
+
+Promotion details
+
+The following sections describe the different attributes you can use to create structured promotions, such as “Buy N, get M”.
+
+
+  "Preconditions" are used to set up the requirements that must be met for the customer to redeem the promotion
+  "Promotion categories" determine the type of promotion
+  "Limits" determine the restrictions you can apply to your promotions (for example, you can set a limit on the minimum price or quantity of eligible purchases required for a customer to receive a promotion)
+
+
+Preconditions
+
+This attribute communicates the precondition (a minimum purchase amount) that a customer needs to meet to redeem a promotion. It does not filter the products that are eligible for a promotion. To filter, use product filters.
+
+For example, if you want to create:
+
+
+  A “Free shipping with $50 purchase” promotion, set the minimum purchase amount [minimum_purchase_amount] attribute to 50 USD.
+  A “Free tote bag with $100 purchase” promotion, set the minimum purchase amount [minimum_purchase_amount] attribute to 100 USD.
+
+
+
+  
+    
+      Attribute
+      Description
+    
+  
+  
+    
+      Minimum purchase amount [minimum_purchase_amount]
+        Optional
+
+      Syntax
+
+      Promotions feeds only support currencies of the specified locales.
+
+      Example
+
+      20 USD
+      
+      
+      This attribute sets the minimum purchase amount for the promotion to be redeemed.
+
+      For example, for X amount of purchases of the same product or a combination of products, the customer will receive promotion Y.
+      
+    
+  
+
+
+Promotion categories
+
+The table below shows the types of promotion categories. Specify a promotion category to create a structured promotion, such as a “Buy 1, get 1 free” promotion. Learn more about structured data attributes
+
+You can associate only one promotion category with a promotion ID [promotion_id]. You can further restrict a promotion category with limits. View Limits.
+
+
+  
+    
+      Attribute
+      Description
+    
+    
+      
+      Percentage discount amount [percent_off]
+
+       Optional
+
+      Syntax
+
+      Must be an integer
+
+      Example
+
+      10
+      
+      
+      This attribute specifies the percentage discount offered in the promotion.
+
+      For example, 10% off.
+      
+    
+    
+      
+      Monetary discount amount of a promotion [money_off_amount]
+
+       Optional
+
+      Syntax
+
+      Must be a number and the currency
+
+      Example
+
+      20.00 USD
+      
+      
+      This attribute specifies the discount amount.
+
+      For example, 20.00 USD off.
+      
+    
+    
+      
+      Quantity eligible for promotion [get_this_quantity_discounted]
+
+       Optional
+
+      Syntax
+
+      Must be an integer
+
+      Example
+
+      2
+      
+      
+      This attribute specifies the number of items to which the promotion or discount applies
+
+      For example, set this attribute to 1 for a “Buy 2, get 1 free” (100% off) promotion.
+      
+    
+    
+      
+      Free shipping [free_shipping]
+
+       Optional
+
+      Supported values
+
+      
+        Free standard shipping[free_shipping_standard]
+        Free overnight shipping[free_shipping_overnight]
+      
+      
+      This attribute specifies the type of free shipping offered in the promotion.
+    
+    
+      
+      Free gift of monetary value [free_gift_value]
+
+       Optional
+
+      Syntax
+
+      Must be a number and specify currency
+
+      Example
+
+      400.00 USD
+      
+      This attribute specifies the monetary value of the free gift offered in the promotion.
+    
+    
+      
+      Free gift description [free_gift_description]
+
+       Optional
+
+      Syntax
+
+      String should not exceed 100 characters
+
+      Example
+
+      Free tote bag with 100.00 USD purchase.
+      
+      
+      This attribute is the description (but not the value) of any free gift offered in the promotion.
+
+      Use the free gift item ID [free_gift_item_id] attribute instead when the product is in your product feed.
+      
+    
+    
+      
+      Free gift item ID [free_gift_item_id]
+
+       Optional
+
+      Syntax
+
+      
+        Unicode characters (we recommend ASCII only)
+        Maximum length is 50 characters
+      
+      
+      
+      This attribute specifies a free gift if it is an item in your product feed.
+
+      The product ID for promotion [item_id] specified in this attribute is the product that the customer will receive as a free gift.
+
+      The product ID for promotion [item_id] should map to the ID from your product feed.
+      
+    
+    
+      
+      Coupon value type [coupon_value_type]
+
+       Optional
+
+      Supported values:
+
+      
+        no_structured_data
+        money_off
+        percent_off
+        buy_m_get_n_money_off
+        buy_m_get_percent_off
+        buy_m_get_money_off
+        free_gift
+        free_gift_with_value
+        free_gift_with_item_id
+        free_shipping_standard
+        free_shipping_overnight
+        free_shipping_two_day
+        free_shipping_with_shipping_config
+      
+      
+      
+      This attribute signals the type of promotion you’re running, allowing Google to perform a more automated review process, which can expedite promotion approval.
+
+      When you use the optional coupon value type [coupon_value_type] attribute, the value submitted may require the use of additional attributes (to provide the information needed for your promotion).
+
+      For example, if you set the coupon value type [coupon_value_type] attribute to money off [money_off], you must also use the monetary discount amount of a promotion [money_off_amount] attribute.
+      Additional attributes may be required or optional to be included in your promotions feed, depending on the value set for the coupon value type [coupon_value_type] attribute.
+    
+  
+
+
+
+  Attributes to use with coupon_value_type in your promotions feed
+
+  
+    The following list of supported coupon value type [coupon_value_type] values shows the required and optional feed attributes for each.
+
+    No structured data [no_structured_data]
+
+    
+      Required: None
+      Optional: Minimum purchase amount [minimum_purchase_amount], minimum purchase quantity for promotion [buy_this_quantity], maximum purchase quantity for promotion [limit_quantity], maximum product price for promotion [limit_value], price for promotion [promotion_price], monetary discount amount of a promotion [money_off_amount], percentage discount amount [percent_off], quantity eligible for promotion [get_this_quantity_discounted], free gift monetary value [free_gift_value], free gift item ID [free_gift_item_id], free gift description [free_gift_description]
+    
+
+    Money off [money_off]
+
+    
+      Required: Monetary discount amount of a promotion [money_off_amount]
+      Optional: Minimum purchase amount [minimum_purchase_amount]
+    
+
+    Percentage discount amount [percent_off]
+
+    
+      Required: Percentage discount amount [percent_off]
+      Optional: Minimum purchase amount [minimum_purchase_amount]
+    
+
+    Buy M get N money off [buy_m_get_n_money off]
+
+    
+      Required: Monetary discount amount of a promotion [money_off_amount], minimum purchase quantity for promotion [buy_this_quantity], quantity eligible for promotion [get_this_quantity_discounted]
+      Optional: None
+    
+
+    Buy M get N percent off [buy_m_get_n_percent_off]
+
+    
+      Required: Percentage discount amount [percent_off], minimum purchase quantity for promotion [buy_this_quantity], quantity eligible for promotion [get_this_quantity_discounted]
+      Optional: None
+    
+
+    Buy M get money off [buy_m_get_money_off]
+
+    
+      Required: Monetary discount amount of a promotion [money_off_amount], minimum purchase quantity for promotion [buy_this_quantity]
+      Optional: None
+    
+
+    Buy M get percent off [buy_m_get_percent_off]
+
+    
+      Required: Percentage discount amount [percent_off], minimum purchase quantity for promotion [buy_this_quantity]
+      Optional: None
+    
+
+    Free gift [free_gift]
+
+    
+      Required: Free gift description [free_gift_description]
+      Optional: Minimum purchase amount [minimum_purchase_amount], minimum purchase quantity for promotion [buy_this_quantity]
+    
+
+    Free gift monetary value [free_gift_with_value]
+
+    
+      Required: Free gift monetary value [free_gift_value]
+      Optional: Minimum purchase amount [minimum_purchase_amount], minimum purchase quantity for promotion [buy_this_quantity]
+    
+
+    Free gift item ID [free_gift_with_item_id]
+
+    
+      Required: Free gift item ID [free_gift_item_id]
+      Optional: Minimum purchase amount [minimum_purchase_amount], minimum purchase quantity for promotion [buy_this_quantity]
+    
+
+    Free shipping standard [free_shipping_standard]
+
+    
+      Required: None
+      Optional: Free shipping type [free_shipping_type], minimum purchase amount [minimum_purchase_amount], minimum purchase quantity for promotion [buy_this_quantity]
+    
+
+    Free shipping overnight [free_shipping_overnight]
+
+    
+      Required: None
+      Optional: Free shipping type [free_shipping_type], minimum purchase amount [minimum_purchase_amount], minimum purchase quantity for promotion [buy_this_quantity]
+    
+
+    Free shipping two day [free_shipping_two_day]
+
+    
+      Required: None
+      Optional: Free shipping type [free_shipping_type], minimum purchase amount [minimum_purchase_amount], minimum purchase quantity for promotion [buy_this_quantity]
+    
+
+    Free shipping with shipping config [free_shipping_with_shipping_config]
+
+    
+      Required: None
+      Optional: None
+    
+  
+
+
+Limits
+
+These attributes communicate the limits that a customer needs to meet to redeem a promotion. Limits do not filter the products that are eligible for a promotion. To filter, use Product filters.
+
+For example:
+
+
+  "Buy 1 get 1 free, up to 10 items" set maximum purchase quantity for promotion [limit_quantity] to 10.
+  "10% off, up to order value $100", set maximum product price for promotion [limit_value] to $100.
+
+
+
+  
+    
+      Attribute
+      Description
+    
+  
+  
+    
+      
+      Maximum purchase quantity for promotion [limit_quantity]
+
+       Optional
+
+      Syntax
+
+      Must be an integer
+
+      Example
+
+      5
+      
+      
+      This attribute is used to communicate the maximum number of items that can be bought using this promotion.
+      
+    
+    
+      
+      Maximum product price for promotion [limit_value]
+
+       Optional
+
+      Syntax
+
+      Must be a number and specify currency.
+
+      Example
+
+      50.00 USD
+      
+      
+      This attribute communicates the maximum item value allowed for this promotion.
+      
+    
+  
+
+
+Additional attributes
+
+
+  
+    
+      Attribute
+      Description
+    
+  
+  
+    
+      
+      Display dates for promotion [promotion_display_dates]
+
+       Optional
+
+      Syntax
+
+      Start date and end date are separated by a forward slash (/).
+
+      The date format is (YYYY-MM-DD), followed by the letter ‘T’, the time of the day when the sale starts or ends, and by an expression of the time zone for the sale.
+
+      Example
+
+      If your promotion was valid from 3:00 a.m. on July 19, 2009 to 9:00 p.m. on July 26, 2009 EST (Eastern Standard Time), you would submit:
+
+      2009-07-19T03:00:00-05:00/2009-07-26T21:00:00-05:00
+
+      If your promotion was valid from 3:00 a.m. on July 19, 2009 to 9:00 p.m. on July 26, 2009 GMT (Greenwich Mean Time), you would submit:
+
+      2009-07-19T03:00:00+00:00/2009-07-26T21:00:00+00:00
+      
+      
+      Important:
+
+      
+        GMT is Greenwich Mean Time. -5 hours represents EST while -8 hours represents PST.
+        Promotions have a 6- month limit (183 days).
+        Daylight Savings: -4 hours represents EDT while -7 hours represents PDT.
+      
+
+      This attribute specifies the date and time frame when the promotion will be live on Google.com and Shopping ads.
+
+      If the display dates for promotion [promotion_display_date] attribute is not specified, the promotion start date [promotion_effective_dates] determines the date and time frame when the promotion will be live on Google.com and Shopping ads. This optional attribute is supported by the regular Promotions feed only.
+      
+    
+    
+      
+      Description [description]
+
+       Optional
+
+      Syntax
+
+      
+        String
+        Maximum length is 2,500 characters
+      
+      
+      
+      This attribute specifies the promotion description.
+
+      The description is not shown to customers
+      
+    
+    
+      
+      Generic redemption code [generic_redemption_code]
+
+       Optional
+
+      Syntax
+
+      
+        String
+        Maximum length is 20 characters
+      
+
+      Example
+
+      EXTRA20
+      
+      
+      This attribute specifies the code that customers can use online to redeem the promotion. It is required if the coupon code required [offer_type] is set to generic code [generic_code].
+
+      Note: All shipping promotions must include a valid redemption code.
+
+      Free shipping promotions must include a valid coupon code that shoppers can manually apply. Otherwise, shipping will be treated as a service that is normally offered and must be specified in the product feed. If the promotion is offered for a specific duration, then the duration must also be reflected in the product feed. See promotions program policies for more information.
+      
+    
+    
+      
+      Image link [image_link]
+
+       Optional
+
+      Syntax
+
+      
+        The image link [image_link] must be a URL
+        The linked image must be at least 200 x 200 pixels
+        There is no required aspect ratio
+      
+      
+      
+      This attribute is a link to an image that features the promotion or the promotional item.
+      
+    
+    
+      
+      Fine print for promotion [fine_print]
+
+       Optional
+
+      Syntax
+
+      
+        String
+        Maximum length is 500 characters.
+      
+      
+      
+      This attribute is the text of any terms and conditions that apply to the promotion, such as restrictions and exclusions.
+
+      The terms and conditions will be shown to the customer along with the generic redemption code.
+      
+    
+    
+      
+      Price for promotion [promotion_price]
+
+       Optional
+
+      Syntax
+
+      Must be a number and the currency.
+
+      Example
+
+      15.00 USD
+      
+      
+      This attribute is the promotional sales price of an item or category (for example, a promotion in which all jeans are $50).
+
+      The promotion price is available to customers who enter a promotion code or meet the promotional requirements.
+      
+    
+  
+
+
+To express interest in promotions, fill out this form.
+             Was this helpful?How can we improve it?YesNoSubmit       

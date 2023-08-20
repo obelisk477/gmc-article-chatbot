@@ -1,0 +1,42 @@
+ Best practices for Buy on Google customer support 
+
+
+  Buy on Google for Search and Shopping will no longer be available starting September 26, 2023. Eligible merchants will be able to use Buy on Google for YouTube in the US. Learn more about Enabling Buy on Google for YouTube.
+
+
+
+
+
+Buy on Google merchants are responsible for providing their own front line customer support. You’re expected to provide courteous customer service responses within two business days. This means support for your customers’ purchases, returns, and questions.
+
+
+  Keep in mind: Although Buy on Google merchants are required to provide their own customer support, Google customer support agents will still be available for escalations or claims.
+
+
+Good customer service is a mark of a successful business. When customers are provided with great customer service, they’re more likely to return and make another purchase. In order to maximize customer satisfaction, here are some tips to help foster a positive relationship with your customers.
+
+Best practices
+
+When communicating with the customer, it is important to keep these best practices in mind:
+  
+  Merchants should have a valid email address listed as a customer service contact. Make sure to check it frequently and clear out the inbox so it doesn’t become too full to receive messages.
+
+
+  Be cordial to customers. Communicate with your customers in a professional, timely manner.
+  Merchants should provide a prepaid return label in addition to a RMA number and address when a buyer requests a return. Once a return is received, the merchant can approve, deny, or modify compensation depending on the item quality.
+  Require a signature at delivery if the product is of high value.
+  Include a valid reason on why the product is ineligible for return if a return is being rejected.
+  Communicate to your customers in a clear, consistent, and succinct manner. Make sure the information you communicate to your customer is consistent. You can accomplish this by using a standardized template and by minimizing text in email signatures to prevent confusion and clutter.
+  Address the response to the customer requesting assistance and not the “Google Merchant Center” when responding to customer service tickets.
+  Don’t redirect the customer to your own customer service or website as this could cause additional confusion.
+  Google-facilitated communications. To ensure our Google customer support agents have insight into the full conversation in the event of a dispute, all customer correspondence related to orders placed through Buy on Google must be managed via Google-facilitated messaging.
+  Requesting personal information from customers is strictly prohibited.
+  Refunds and returns. In some cases, customers may request a refund or to return an item. You can issue a full or partial refund in Merchant Center. Be sure to also follow the minimum required return policies. If you sell products that need special return processing, you’ll receive an email prompting you to coordinate return shipping with the customer via email. Learn more about special return processing
+
+
+Related links
+
+
+  About merchant-managed customer support
+
+             Was this helpful?How can we improve it?YesNoSubmit       

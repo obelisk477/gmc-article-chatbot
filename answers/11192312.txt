@@ -1,0 +1,47 @@
+ Vehicle ads onboarding guideLink your Business Profile and select your location groupNext: Create, register, and submit your store feed (Optional)
+
+
+   This is step 5 of the vehicle ads onboarding guide.
+
+
+To show your vehicle ads on Google, you’ll need to link your Business Profile to your Merchant Center account and select a location group. Learn how to link your Business Profiles and Merchant Center account
+
+
+  Note: All vehicle ads campaigns will be upgraded to Performance Max by September 2023.
+
+
+
+Requirements
+
+
+  Ensure each business listing has a physical address that is valid and current. Learn more
+  Ensure the store code assigned to each business listing is unique within the linked Business Group. Learn more
+    
+      This is to ensure that the correct listing is mapped to the intended vehicle offer(s)
+    
+  
+  Ensure that your business listings are open, active, and have accurate business hours displayed. Learn more
+  Ensure the category of the business listing is in the “Store & Shopping” vertical. Learn more
+
+
+
+  Note: A Business Profile isn't required if you submit a store feed.
+
+
+Implementation guide
+
+
+  Set up your accounts
+  Enable the vehicle ads program
+  Add your business information
+  Create a primary feed
+  Register and submit your feed
+  Link your Business Profile and select your location group
+  Create, register, and submit your store feed (Optional)
+  Complete website policy review
+  Link your Merchant Center and Google Ads accounts
+  Enable vehicle ads in your Smart Shopping campaigns
+  Enable vehicle ads in your Performance Max campaigns
+
+
+Next: Create, register, and submit your store feed (Optional)             Was this helpful?How can we improve it?YesNoSubmit       

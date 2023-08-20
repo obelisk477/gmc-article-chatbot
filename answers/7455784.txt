@@ -1,0 +1,58 @@
+ Local inventory onboarding guideVerify your About page (Austria, Germany, and Switzerland only)Next: Request inventory verification
+
+
+  This is step 7 of the local inventory onboarding guide.
+
+
+In order to enable local inventory ads or free local product listings in Austria, Germany, and Switzerland, you must submit an About page for each applicable country.
+
+An About page has specific requirements in accordance with Article 5 of the EU E-Commerce Directive and it’s implemented by local laws. These requirements mandate that the webpage hosted at your About page must contain the following information:
+
+
+  A physical address
+  Contact information, such as phone number and/or email address
+  The location where your company is registered
+  Any industry-specific registration, license, or authorization
+
+
+You can also use this page to display any additional information, such as information required by local laws.
+
+To submit an About page, follow these steps:
+
+
+  Sign in to your Merchant Center account.
+  Click Overview in the navigation window.
+  Click Continue next to "Local inventory ads" or "Free local product listings".
+  Find the relevant country's program bar (and click on it if the "About page" text field is not already displayed).
+  Add your About URL into the text field.
+  Click Save.
+
+
+Review your About page status
+
+Google reviews the webpage hosted at your About page to ensure it complies with About page requirements. The review process may take up to a week.
+
+Follow the steps below to see your review status.
+
+
+  Sign in to your Merchant Center account.
+  Click Overview in the navigation window.
+  Click Continue next to "Local inventory ads" or "Free local product listings".
+  Find the relevant country’s program bar (and click on it if the "About page" text field is not already displayed).
+  See the status next to the "About page" field.
+
+
+The status of your About page may be:
+
+
+  Verified: No further action needed.
+  Pending Google verification: Check back soon. Your About page is under review. This process can take up to a week.
+  Rejected: The Google review rejected your About page because your webpage does not meet requirements. Have the primary and technical contacts in your Merchant Center account settings check their email for details about the issues you must resolve. Then, submit your About page again (see above).
+
+
+
+  Keep in mind that local inventory ads or free local listings can't appear in Austria, Germany, or Switzerland without a verified About URL.
+
+
+
+Next: Request inventory verification             Was this helpful?How can we improve it?YesNoSubmit       

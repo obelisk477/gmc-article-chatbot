@@ -1,0 +1,66 @@
+ Add products from online store to Merchant Center
+
+  
+    If you’re looking for information about adding your products from your online store in the classic Merchant Center experience, click here. 
+  
+
+
+
+ 
+
+Use this option to add all products from your online store to Merchant Center. If you make any changes to your online store (such as changing your product prices or removing a product), the changes are automatically reflected on Google.
+
+On this page
+
+
+  How it works
+  Get started
+  Next steps
+  Fix an issue
+
+
+
+
+  How it works
+
+  After you provide your website URL, we look at the product data on your online store and then sync the most up-to-date information about relevant products from your website. This process is known as “website crawling”.
+
+  To crawl your online store, we look at things like structured data (a representation of your product data on your site that can be read by Google) and sitemaps (a file with information about the pages, videos, and other files on your site, and the relationships between them).
+
+  Though not required, consider updating your online store’s HTML with structured data to enable Google and other search engines to understand and process your website reliably. Maintain clear information and images of your products in your online store so we can add your products to Merchant Center.
+
+  Note:
+
+  
+    It may take up to 3 days for all products to show up in Merchant Center. You can check the status from the “Products” page in Merchant Center.
+    You’ll be notified in the Merchant Center if there’s a problem while adding your product. Follow the instructions in your account to fill in missing information about the product or other important details.
+  
+
+
+Get started
+
+ In your Merchant Center account, go to Home .
+
+ Select Add next to “Add your products”.
+
+ Select Add products from [online store] (with "[online store]" being your store's website URL).
+
+ Select Continue.
+
+
+Next steps
+
+
+  We review your products for completeness and compliance with our policies, and inform you of any issues with products that sync to your account.
+  You can check the publishing status of each product from the “Products” page (under the “Status” column). If you don’t want to show some products, you can also change the visibility of the products. Learn more about checking product visibility and status in Merchant Center.
+
+
+
+
+Fix an issue
+
+Issues with your products need to be fixed before customers can view them on Google. All issues with your product data can be found in the "Needs attention" tab of the “Products” section in Merchant Center.
+
+Each product-level issue also contains a “Learn more” link that directs you to specific instructions for fixing the issue. Learn more about Issues in Merchant Center.
+
+             Was this helpful?How can we improve it?YesNoSubmit       

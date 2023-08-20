@@ -1,0 +1,19 @@
+ Content API in Merchant Center
+
+The Content API for Shopping allows apps to interact directly with the Merchant Center platform, vastly increasing the efficiency of managing large or complex Merchant Center accounts. The Content API for Shopping can be used to manage your Merchant Center configuration, act as an input source for your product data, and provide reporting. Learn more about getting started with Content API for Shopping
+
+
+  
+    Note: If you plan to upload a large number of feeds or make frequent changes to your product data, it is strongly recommended that you upload this directly using the Content API.
+  
+
+
+
+Debug API errors
+
+Errors with your API requests can prevent your store from reaching online customers. To diagnose and fix errors with your API requests, access the API Diagnostics tab.
+
+
+  Note: the API Diagnostics tab may not be available in Merchant Center Next.
+
+             Was this helpful?How can we improve it?YesNoSubmit       

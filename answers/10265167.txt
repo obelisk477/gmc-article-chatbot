@@ -1,0 +1,138 @@
+ About performance reporting in Merchant Center
+
+
+  If you’re looking for information about performance reporting in Merchant Center Next, click here.
+
+
+
+Merchant Center offers you different ways to find out how your ads and free listings are performing. This key data can help you decide what strategy will work best for getting your products in front of the right audiences.
+
+
+Before you begin
+
+Before it can start creating performance information, Merchant Center needs to be able to access some tracking data from your ads and free listings.
+
+You can do this using your Google Ads account or by adding selected attributes to your Merchant Center feeds. Learn more about tracking your product performance.
+
+
+Where to view your performance data
+
+
+  An overview of your performance reporting appears on the “Overview” page.
+    
+      Find Shopping ads data in the "Performance (Shopping ads)" card.
+      Find free listings and free local listings data in the "Performance (free listings)" card.
+    
+  
+  For a deeper view of your aggregated data, click "Performance" and then "Dashboard" in the left-hand navigation menu. Then, click either the "Shopping ads", "Free listings", "Free local listings", or "Buy on Google" tab above the dashboard.
+    
+      You can segment each metric into "Country", "Product", "Brand", or "Category" by clicking the segment’s name at the bottom of the dashboard.
+    
+  
+  To view data for an individual product, click "Products" in the left-hand navigation menu, and then click "All Products". The number of clicks from free listings and free local listings for each product offer appears in the “Unpaid clicks” column. Shopping ads clicks are shown in the "Clicks" column.
+  You can compare holistic performance across ads and free listings by creating custom reports and dashboards. Learn more about how to create custom reports in Merchant Center.
+  To review the performance of your deals (your products with promotion, sale, or price drop badges, for example) across Shopping ads and free listings, click “Performance” and then “Dashboard” in the left-hand navigation menu. Then, click either the “Shopping ads” or “Free listings” tab above the dashboard to view your performance in the “Traffic for promotion, sale and price drop badges” card.
+    
+      You can split metrics by "Country", "Product", "Brand", or "Category" by clicking the segment’s name at the bottom of the card.
+      To review reports that split your deals performance by "Badge type", "Promotion", or "Promotion category", you can click on the related report at the bottom of the card.
+    
+  
+  The currency column applies only to monetary metrics (for example, Conversion value or Ordered item sales). Remaining metrics are reported under "None."
+  Some discrepancies in data are expected between MC and Ads, because the way clicks, impressions, and conversions are attributed to products in MC and how they are attributed to campaigns in Ads are different.
+
+
+
+Types of performance metrics
+
+
+  This section describes metrics for ads, free listings, and free local listings. Learn more about Buy on Google reporting.
+
+
+
+  Clicks
+
+  
+    The total number of clicks on your products on Google that led to visits to your product detail pages.
+  
+
+
+
+  Impressions
+
+  
+    Impressions count how often your products were shown on Google. We only count impressions where customers had the option to visit your product detail pages.
+
+    If your products show zero impressions, you should verify that the products are approved and wait a few days for impressions to show up. Impressions may also not show if they’re below a minimum threshold.
+  
+
+
+
+  Clickthrough rate (CTR)
+
+  
+    The CTR shows how often clicks on your products on Google led to visits to your product detail pages.
+
+    
+      CTR is the number of clicks that your product listing receives divided by the number of times it’s shown: clicks ÷ impressions = CTR.
+        
+          For example, if you had 5 clicks and 100 impressions, then your CTR would be 5%.
+        
+      
+    
+  
+
+
+Conversion metrics
+
+
+  Conversion metrics can be viewed only when linking Merchant Center with Google Analytics. Learn more about linking Merchant Center with Google Analytics.
+
+
+
+  Conversions
+
+  
+    Conversions are counted when customers complete a desired action on your website or app, such as buying your products.
+
+    When an impression starts on product A but leads to a purchase of product A and B, then conversion values are only attributed to product A (and product B has 0 conversion value).
+
+    
+      Note: Conversions are reported on conversion date but the other metrics are reported on impression date. As an implication: conversions divided by clicks for a given day might not result in the conversion rate for the day.
+
+       
+
+      Additionally, conversions/conversion rate don’t include traffic from product images and website links that lead to your product detail pages.
+    
+  
+
+
+
+  Conversion rate
+
+  
+    Conversion rate is a ratio showing how often customers who clicked on your products on Google completed a desired action on your website or app, such as buying your products. Conversion rates are calculated by taking the number of conversions and dividing that by the number of interactions (clicks) with your products on Google that can be traced to a conversion during the same time period.
+  
+
+
+
+  Conversion value
+
+  
+    Conversion value is the monetary value resulting from your conversions (there is no aggregate conversion value metric).
+  
+
+  
+    Note: Your clicks, impressions, and CTR now include all traffic that was previously reported as assisted metrics. Assisted metrics now show as 0 and will be removed from your reports and dashboards starting from August 1, 2023. To avoid any disruptions, remove assisted metrics from your custom reports and dashboards before August 1, 2023.
+  
+
+  
+  Related links
+
+
+
+  Where Google shows your free product listings
+  Track your product performance
+  About performance reporting for free product listings
+  About performance reporting for marketplaces in Merchant Center
+
+             Was this helpful?How can we improve it?YesNoSubmit       

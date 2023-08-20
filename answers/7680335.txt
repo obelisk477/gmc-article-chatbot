@@ -1,0 +1,27 @@
+ Opt your products in to Buy on Google
+  Buy on Google for Search and Shopping will no longer be available starting September 26, 2023. Eligible merchants will be able to use Buy on Google for YouTube in the US. Learn more about Enabling Buy on Google for YouTube.
+
+
+
+
+
+To opt your products into Buy on Google, you'll select an assortment of eligible products and then use either feeds or the Shopping Content API to upload or adjust your existing product data. Alternatively, you can work with one of our partners that specialize in product feeds for Shopping ads and can assist with Buy on Google.
+
+CONTENT API FEEDS BUY ON GOOGLE PARTNER
+
+
+  It's recommended that you use the same feed for Buy on Google that you use for Shopping ads in order to avoid overwriting data or triggering errors due to duplicate products. It is a best practice to manage destinations at the item level, in the feed directly.
+
+
+
+  Note: Buy on Google merchants need to choose “US” as their feed label if they want to use it. For existing feeds, “US” will be selected automatically. For new feeds, “US” will be suggested.
+
+
+
+
+
+
+  Need help? Click here to contact Buy on Google support.
+
+
+             Was this helpful?How can we improve it?YesNoSubmit       

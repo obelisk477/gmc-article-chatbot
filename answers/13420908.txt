@@ -1,0 +1,119 @@
+ Set up Buy on Google for YoutubeThis article is intended for users of the Google & YouTube app on Shopify.
+  Buy on Google for Search and Shopping will no longer be available starting September 26, 2023. Eligible merchants will be able to use Buy on Google for YouTube in the US. Learn more about enabling Buy on Google for YouTube below.
+
+
+The Buy on Google program is only available to merchants using the Google & YouTube app on Shopify. This program allows you to enable in-app checkout for your channel store on YouTube so customers can purchase products directly through it. The the payment is processed with Shopify Payments, and the order shows up within 30 minutes in the “Orders” section of the your Shopify admin.
+
+Before you use Buy on Google, you need to set up the Google & YouTube app on Shopify and enable Shopify Payments in your “Payment” settings.
+
+On this page
+
+
+  Eligibility and store requirements
+  Add Buy on Google to the Google & YouTube app on Shopify
+  Pause or remove Buy on Google
+
+
+
+Eligibility and store requirements
+
+
+  Note: To enable Buy on Google through the Google & YouTube app on Shopify, you'll need to establish a product feed. If you're using a third-party app to list your products on Google, some of your product and inventory data may get overwritten. The Google & YouTube app on Shopify doesn't work with other Google feed apps.
+
+
+To use Buy on Google for Youtube, you need to make sure that your online store meets the Google Merchant Center requirements:
+
+
+  You need to use Shopify Payments.
+  You must meet the Google & YouTube app eligibility requirements.
+  Your store must be located in the United States.
+  Your store must fulfill orders from the continental United States (this excludes Alaska, Hawaii, and non-state territories such as Puerto Rico, and Guam).
+  Your store must always have at least one product available on the Google & YouTube app on Shopify. Learn more about Syncing your products.
+  Transit time must be set for all your products and shipping zones. Learn more about shipping settings. If you use a third-party app to manage your shipping, then your transit time is automatically set to 14 to 21 business days.
+  Tax inclusive pricing must not be active on your store. Learn more About marketplace facilitator tax.
+  Automatic discounts must not be active for products that you want to sell using Buy on Google.
+  Discount codes can't be used for products that you want to sell using Buy on Google.
+
+
+
+  If you change any settings in your Shopify admin and no longer meet the Buy on Google requirements, then Buy on Google for Youtube is automatically paused.
+
+
+
+Instructions
+
+Add Buy on Google to the Google & YouTube app on Shopify
+
+Before you can use Buy on Google, you need to make sure that you set up the Google & YouTube app on Shopify. To use Buy on Google, your store needs to have Shopify Payments enabled.
+
+
+  From your Shopify admin, click Settings > Apps and sales channels.
+  From the “Apps and sales channels” page, click Google.
+  Click Open sales channel.
+  In the “Buy on Google” section, click Get started.
+  In the “Know Google's policies before starting” section, review Google's policies and click I understand.
+  In the “Activate Shopify Payments” section, make sure Shopify Payments is activated:
+    
+      If you haven't activated Shopify Payments, then click Activate Shopify Payments, and then complete the Shopify Payments set up.
+    
+  
+  In the “Connect a Google Merchant Center account” section, select the Google Merchant Center account that you want to connect, and then click Connect.
+  In the “Configure your product feed settings” section, set up your Target market, Shipping settings, and Return window:
+    
+      To select your target market, click Select in the “Target market” section.
+      In the “Select a target market” window, choose United States as your target country and language.
+      Click Save.
+      To set your Shipping settings, click Select in the “Shipping settings” section.
+      In the “Configure shipping settings” dialog, select either Manually set up shipping settings or Automatically import shipping settings.
+      Click Save.
+      Optional: If you select “Manually set up shipping settings”, you need to input your handling time in Merchant Center. Make sure that Buy on Google is selected. Learn more about shipping settings.
+      To set your return window, click Select in the “Return window” section.
+      In the “Set a return window” window, enter the number of days that a customer can complete a return, or select Lifetime guarantee.
+      Click Save.
+    
+  
+
+
+
+  Note: Google rounds up your value to either 30 days or 1 year. For example, if you put 7 days, then Google rounds this up to a 30-day return window. If your return window is more than 30 days, then Google rounds this up to a lifetime guarantee.
+
+
+
+  In the “Provide a customer service email” section, enter your customer service email and then click Save. After you enter your customer service email address, Google uses your customer service email to send a verification email. You need to click on the verification link in the email and verify your email address.
+  In the “Terms and conditions” section, review Google's Buy on Google terms of service, and click I have read and agree to the terms.
+
+
+Once active, Google reviews your account and products before approving you to use Buy on Google for Youtube. During the approval process, it can take up to 24 to 72 hours for your account to be changed from “Pending” to “Active”.
+
+
+Pause or remove Buy on Google
+
+You can pause the Buy on Google feature or remove it from your Google & YouTube app on Shopify. If you pause Buy on Google from the Google & YouTube app on Shopify, then your settings are saved. If you cancel your enrollment with Buy on Google, then your settings are deleted.
+
+Pause Buy on Google
+
+If you pause Buy on Google, then your settings are saved until you resume using Buy on Google for Youtube.
+
+
+  From the Google & YouTube app on Shopify, click Overview.
+  In the “Checkout on Google” section, click Pause.
+  In the new “Pause Buy on Google?” dialogue, click Pause.
+
+
+Remove Buy on Google
+
+If you turn off Buy on Google, then your settings aren’t saved. When you want to enable Buy on Google for Youtube, you have to complete the Buy on Google setup steps again.
+
+
+  From the Google & YouTube app on Shopify, click Overview.
+  In the “Checkout on Google” section, click Turn off.
+  In the new “Turn off Buy on Google?” dialogue, click Turn off.
+
+
+
+Related link
+
+
+  Set up shipping settings
+
+             Was this helpful?How can we improve it?YesNoSubmit       

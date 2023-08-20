@@ -1,0 +1,95 @@
+ Set up returnless refunds for Buy on Google 
+
+
+  Buy on Google for Search and Shopping will no longer be available starting September 26, 2023. Eligible merchants will be able to use Buy on Google for YouTube in the US. Learn more about Enabling Buy on Google for YouTube.
+
+
+
+
+
+Use return rules to set up returnless refunds. If your customer wishes to return a product ordered from you, you can decide to automatically issue a refund without requiring the product to be returned, or in other words, issue a “returnless refund”. This may help you save on shipping fees and other operational costs, and may be cheaper than having the customer return the product.
+
+How it works
+
+You’ll be able to configure returnless refunds in your Merchant Center account. When a customer initiates a return for that product, it will be recognized as a returnless refund based on the price. You’ll also be able to specify which return reasons qualify a product for a returnless refund.
+
+Returnless refund rules only apply at the time of the return. Returnless refunds are only issued for orders placed after the return rule is created.
+
+
+  How much are customers refunded?
+
+  
+    Customers will be refunded the full product value of the returned products (even for customer remorse returns because there isn’t any return shipping).
+    Customers will also be refunded the original shipping fee if the entire order is returned for order or product issues.
+  
+
+  You’ll see all returnless refunds reflected in your settlement reports. Learn more about settlement reports
+
+
+Instructions
+
+Configure your returnless refund
+
+
+  Log in to your Merchant Center account.
+  Click the tools icon  , then select Shipping and returns.
+  Click the Returns tab.
+  Click Return rules (Buy on Google).
+  Click on Set up now to add a new returnless refund rule.
+    
+      Enter the maximum product price for products to qualify for returnless refunds. Products below this price will be targeted by this rule.
+      Select the return reasons that apply to the return. For example, the product didn’t fit or it’s no longer needed.
+    
+  
+  Click Apply.
+
+
+If you’ve created return rules using the previous process that leveraged the return rule label [return_rule_label] attribute, we recommend deleting this rule if you have a rule based on price condition. Once a return rule created using the previous process has been deleted, it is no longer automated. This action cannot be reversed.
+
+
+  Previous way to add return rules
+
+  If you have previously created return rules and see the message “Automate refunds for products under a certain price” at the top of the screen, you’re using the previous way to add return rules. Instead of the rule being automatically applied to products based on price and return reason, you will need to first configure your return rule here in Merchant Center and then add the return rule label to your feed.
+
+
+Learn more
+
+
+  Step 1: Configure your return rules
+
+  
+    Sign in to your Merchant Center account.
+    Click the tools icon  , then select Shipping and returns.
+    Click the Returns tab.
+    Select the return policy you want to modify or the return rule you want to delete.
+      
+        You'll notice an exclamation point “!” beside the return policy.
+      
+    
+    You can either click the trash icon to delete the rule or click Edit.
+    If you're editing the rule, specify the return rule label [return_rule_label] for this rule (for example, toys_under_15_dollars). This return rule label [return_rule_label] specified will be the same as what is added to the offer in the return rule label [return_rule_label] column for the offer.
+    Under ”Reasons”, select which return reasons you're willing to issue returnless refunds for. You can select “Specific reason", which allows you to choose from a list of reasons, or “All reasons”, which means returnless refunds will be issued for any return reason.
+    Click Save.
+  
+
+  Step 2: Add the return rule label attribute to your products
+  You’ll need to add the return rule label [return_rule_label] column to your feed. If you don't want to offer returnless refunds for any reason for a specific product, leave the column blank.
+
+
+Related links
+
+
+  Set up special processing returns
+  Return settings requirements for selling on Google
+
+
+
+  Need help? Click here to contact Buy on Google support.
+
+
+
+Try our new chatbot for immediate assistance
+
+
+
+             Was this helpful?How can we improve it?YesNoSubmit       

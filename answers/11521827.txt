@@ -1,0 +1,11 @@
+ How to fix: Local offer ineligible for regionRemove the offer from the region in which this type of product is ineligible.
+
+You’ve uploaded a local offer in a region for which this type of product is ineligible to be shown in Shopping ads and free listings. As a result, your offers have been disapproved for stores in this region.
+To fix this issue, remove the product from the region for which it is ineligible. You can do this by removing the store code [store_code] attribute value associated with the ineligible region.
+
+Related links
+
+
+  Vehicle ads troubleshooting form
+
+             Was this helpful?How can we improve it?YesNoSubmit       

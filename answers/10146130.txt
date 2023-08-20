@@ -1,0 +1,379 @@
+ Local promotions feed specification
+
+The information that you provide for local promotions is distributed in local ads on the Shopping tab, and displays on both desktop and mobile devices. This is done by uploading a local promotions feed containing information about the promotions that you use in stores. The information should be accurate and include all the attributes that you use to describe your local promotions.
+
+A feed is an XML file, tab delimited file, or Google spreadsheet that is uploaded into Google Merchant Center, and can include multiple entries. Upload the local promotions feed to the same Merchant Center account that is used for your Google products feed (contact us to make sure the account is provisioned to participate in local promotions).
+
+In this article, you'll learn about the attributes available for a local promotions feed. To see an example of a local promotions feed, select the button below.
+
+Download example feed
+
+
+  Keep in mind
+
+  
+    All promotions are reviewed against promotions program policies and editorial requirements.
+    We recommend using structured data attributes for offers submitted using a promotions feed. Learn more about structured data attributes
+    Shipping-related offers aren't accepted for local promotions.
+    Providing a promotions feed doesn't affect any of your rankings on Google.
+  
+
+
+Expand all
+
+Required attributes
+Promotion ID [promotion_id]
+
+
+  This is the unique ID of a promotion. For in-store promotions that apply to specific products, the “promotion_id” values in your promotions feed should match the “promotion_id” values in your products feed. This will allow Google to identify to which products the promotion should be applied.
+
+  Important:
+
+  
+    The promotion ID is case sensitive. If you're mapping a specific promotion to a set of products in your products feed, it must match exactly in both feeds.
+    The promotion ID should not contain spaces or symbols (for example, %, !, etc.).
+    To add multiple promotion ID values to an item (you can add up to 10 per item), submit them separated by commas in the “promotion id” column in your products feed.
+    A promotion ID cannot be longer than 60 characters.
+  
+
+Products eligible for promotion [product_applicability]
+
+
+  This indicates whether the promotion is applicable to all products or only specific products.
+
+  Valid values:
+
+  
+    All products [all_products]
+    Specific products [specific_products]
+  
+
+  Important:
+
+  
+    If the value is set to specific_products, then product targeting attributes will be used to determine to which products the promotion applies (see Optional attributes below to learn about product targeting).
+    If the value is set to all_products, then product targeting filters will be ignored.
+  
+
+Coupon code required [offer_type]
+
+
+  This attribute indicates whether or not you require online shoppers to use a code in order to redeem the offer.
+
+  Valid values:
+
+  
+    No code [no_code]
+    Generic code [generic_code]
+  
+
+  
+    Note: If the coupon code required [offer_type] is generic_code (that is, a code that is the same for all shoppers), the generic redemption code [generic_redemption_code] attribute is also required.
+  
+
+Generic redemption code [generic_redemption_code]
+
+
+  This attribute specifies the code (example: EXTRA20) that shoppers will use online to redeem the promotion.
+
+  Important:
+
+  
+    It is required if the coupon code required [offer_type] attribute is set to generic_code.
+    The value submitted for the generic redemption code [generic_redemption_code] attribute should not exceed 20 characters.
+  
+
+Promotion title [long_title]
+
+
+  This is the full title of the promotion. These editorial requirements describe title guidelines and formatting, and also provide examples of what is and isn’t acceptable.
+  
+
+  Important:
+  
+
+  
+    The promotion title [long_title] should describe the promotion completely and accurately.
+    It should not exceed 60 characters.
+  
+
+Promotion start date [promotion_effective_dates]
+
+
+  This attribute indicates the dates and time frame when the promotion is active. Syntax:
+
+  
+    Date format: YYYY-MM-DD
+    Time format: HH:MM:SS, not including the adjustment relevant to GMT (see below).
+      
+        Times are based on GMT (Greenwich Mean Time). Therefore, you also have to include the number of hours and minutes (+HH:MM or -HH:MM) your time differs from GMT, immediately afterwards.
+          
+            For example, if your promotion time is in PST (Pacific Standard Time), you would add “-08:00” since PST is 8 hours earlier than GMT.
+          
+        
+      
+    
+    Dates and times should be separated by the letter “T”.
+    List the start date + time first, followed by the end date + time, separating them by a forward slash (/).
+  
+
+  Examples:
+
+  
+    If your promotion was valid from 3:00 a.m. on July 19th, 2019 to 9:00 p.m. on July 26th, 2019 EST (Eastern Standard Time) you would submit:
+      
+        2019-07-19T03:00:00-05:00/2019-07-26T21:00:00-05:00
+      
+    
+    If your promotion was valid from 3:00 a.m. on July 19th, 2019 to 9:00 p.m. on July 26th, 2019 GMT (Greenwich Mean Time) you would submit:
+      
+        2019-07-19T03:00:00+00:00/2019-07-26T21:00:00+00:00
+      
+    
+  
+
+  Important:
+
+  
+    Remember to adjust for Daylight Savings when applicable:
+      
+        In Standard time, “-05:00” represents EST while “-08:00” represents PST.
+        During Daylight Savings, “-04:00” represents EDT while “-07:00” represents PDT.
+      
+    
+  
+
+Online eligibility for promotion [redemption_channel]
+
+
+  This attribute indicates where your promotion is offered.
+
+  Valid values:
+
+  
+    in_store
+    online
+    in_store, online
+  
+
+  Important:
+
+  
+    If you have an omnichannel promotion (available both in store and online), submit the value as “in_store, online”.
+    If this value is left empty, your promotion will default to online.
+      
+        Online promotions will not be restricted to the region store radius, and will appear on your online Shopping ads.
+      
+    
+  
+
+Store applicability [store_applicability]
+
+
+  This attribute indicates whether your promotion is applicable to all stores or only specific stores.
+
+  Valid values:
+
+  
+    all_stores
+    specific_stores
+  
+
+  Important:
+
+  
+    If specific_stores is selected, you must also use either the store codes inclusion [store_codes_inclusion] attribute or the store codes exclusion [store_codes_exclusion] attribute.
+    If all_stores is selected, the attributes store codes inclusion and store codes exclusion (see below) will be ignored.
+  
+
+Promotion URL [promotion_url]
+
+
+  The promotion URL must be a link pointing to the page on your website where customers can find the promotion details. This can be a page on your website describing the promotion, a page with the promotional banner or the page on which the image of the promotional banner is hosted. This link is used as part of the promotion approval process to verify local applicability and that it is redeemable in store or as part of curbside pickup. It’s also used to verify that customers don't need to take any additional steps to redeem the promotion in store, besides presenting a coupon code or barcode. The information present on the page with your promotion’s details must match the promotion data submitted.
+
+Promotion destination [promotion_destination]
+
+
+  This attribute indicates the destination of the promotion.
+
+  Valid values:
+
+  
+    promotion_destination: local_inventory_ads
+    promotion_destination: Shopping_ads
+    promotion_destination: Buy_on_Google_listings
+    promotion_destination: Free_listings
+  
+
+
+Store-related attributes
+Store codes inclusion [store_codes_inclusion]
+
+
+  This attribute indicates the specific stores to which your promotion applies.
+  
+
+  Important:
+  
+
+  
+    If your promotion applies to specific_stores, list those store codes as submitted to your Business Profiles.
+    You may use either the store codes inclusion [store_codes_inclusion] or store codes exclusion [store_codes_exclusion] attribute, but not both simultaneously.
+  
+
+Store codes exclusion [store_codes_exclusion]
+
+
+  This attribute indicates the specific stores for which your promotion is excluded.
+
+  Important:
+
+  
+    If your promotion excludes specific_stores, list those store codes as submitted to your Business Profiles.
+    You may use either the store codes exclusion [store_codes_exclusion] or store codes inclusion [store_codes_inclusion] attribute, but not both simultaneously.
+  
+
+
+Optional attributes
+
+Product targeting attributes
+
+Product targeting attributes are optional “filters” which allow you to specify to which products your promotion can be applied directly in your local promotions feed.
+
+Alternatively, you can add the promotion ID [promotion_id] attribute directly to products via your product feed.
+Product ID for promotion [item_id]
+
+
+  This attribute maps your promotion to specific items in your products feed.
+
+  If the products eligible for promotion [product_applicability] attribute for your promotions is set to specific_products, setting this item ID attribute will map your promotion to the items represented by the associated IDs in your products feed.
+
+  Important:
+
+  
+    Up to 20 product item IDs can be mapped to a single promotion in your promotions feed.
+    Don't use the product ID for promotion [item_id] attribute if you want to assign your promotion to more than 20 items. Instead, add the promotion ID directly to the items in your products feed.
+  
+
+Google product category [google_product_category]
+
+
+  This attribute maps your promotion to a specific product category in your products feed.
+
+  If your promotion’s products eligible for promotion [product_applicability] attribute is set to specific_products, setting this Google product category [google_product_category] attribute allows you to map your promotion to a specific Google product category.
+
+  Important:
+
+  
+    Do not set this attribute if there are any exclusions within the category. If that is the case, you will need to manually map the promotion ID [promotion_id] to the eligible items in your products feed, or use the product ID for promotion [item_id] attribute (see above) to map the eligible items in your promotions feed. For additional mapping details visit the Choose products for your promotion article in our promotions implementation guide.
+    The highest level categories, like Apparel & Accessories (166) or Media (783), are not supported. If your products fall under one of these, you’ll need to provide a category that’s more granular. For example: Apparel & Accessories > Clothing > Activewear > Bicycle Activewear (5697).
+  
+
+Product type [product_type]
+
+
+  The product type attribute maps your promotion to a specific product type (or product types) in your products feed.
+
+  If your promotion’s products eligible for promotion [product_applicability] attribute is set to specific_products, setting this product type [product_type] attribute allows you to map your promotion to one or more product types.
+
+  Important:
+
+  
+    Do not set this attribute if there are any exclusions within the product type(s). If that is the case, you will need to manually map the promotion ID [promotion_id] to the eligible items in your products feed, or use the product ID for promotion [item_id] attribute (see above) to map the eligible items in your promotions feed (for up to 20 items). For additional mapping details visit the Choose products for your promotion article in our promotions implementation guide.
+  
+
+Brand [brand]
+
+
+  
+    The brand attribute maps your promotion to a specific brand in your products feed.
+
+    If your promotion’s products eligible for promotion [product_applicability] attribute is set to specific_products, setting this brand attribute allows you to map your promotion to select brands.
+
+    Important:
+
+    
+      Up to 10 brands can be specified. Separate each brand listed with a comma.
+      Brands are space and case sensitive, and must match the exact spelling in your products feed.
+      Do not set this attribute if there are any exclusions within the brand(s). If that is the case, you will need to manually map the promotion ID [promotion_id] to the eligible items in your products feed, or use the product ID for promotion [item_id] attribute (see above) to map the eligible items in your promotions feed (for up to 20 items). For additional mapping details visit the Choose products for your promotion article in our promotions implementation guide.
+    
+  
+
+Excluded item ID [item_id_exclusion]
+
+
+  The excluded item ID attribute allows you to exclude specific items in your products feed from your promotion.
+
+  If your promotion’s products eligible for promotion [product_applicability] attribute is set to specific_products, setting this excluded item ID [item_id_exclusion] attribute will map your promotion to all of the item IDs in your products feed, except for those noted here.
+
+Google product category exclusion [google_product_category_exclusion]
+
+
+  The Google product category exclusion attribute allows you to exclude all items in a specific product category in your products feed from your promotion.
+
+  If your promotion’s product applicability [product_applicability] attribute is set to specific_products, setting this Google product category exclusion attribute will exclude all items with the same product category in your products feed from your promotion.
+
+  Important:
+
+  
+    Do not set this attribute if there are any eligible items within the category. If that is the case, you will need to manually map the promotion ID [promotion_id] to the eligible items in your products feed, or use the product ID for promotion [item_id] attribute (see above) to map the eligible items in your promotions feed (for up to 20 items). For additional mapping details visit the Choose products for your promotion article in our promotions implementation guide.
+  
+
+Excluded product types [product_type_exclusion]
+
+
+  The excluded product types attribute allows you to exclude one or more product types in your products feed from your promotion.
+
+  If your promotion’s products eligible for promotion [product_applicability] attribute is set to specific_products, setting this excluded product types [product_type_exclusion] attribute will exclude all items with the same product type(s) in your products feed from your promotion.
+
+  Important:
+
+  
+    Up to 10 product types can be specified. Separate each product type listed with a comma.
+    Do not set this attribute if there are any eligible items within the product type(s). If that is the case, you will need to manually map the promotion ID [promotion_id] to the eligible items in your products feed, or use the product ID for promotion [item_id] attribute (see above) to map the eligible items in your promotions feed (for up to 20 items). For additional mapping details visit the Choose products for your promotion article in our promotions implementation guide.
+  
+
+Excluded brands [brand_exclusion]
+
+
+  The excluded brands attribute allows you to exclude one or more brands in your products feed from your promotion.
+
+  If your promotion’s products eligible for promotion [product_applicability] attribute is set to specific_products, setting this excluded brands [brand_exclusion] attribute will exclude all items with that brand (or those brands) in your products feed from your promotion.
+
+  Important:
+
+  
+    Up to 10 brands can be specified. Separate each brand listed with a comma.
+    Brands are space and case sensitive, and must match the exact spelling in your products feed.
+    Do not set this attribute if there are any eligible items within the brand(s). If that is the case, you will need to manually map the promotion ID [promotion_id] to the eligible items in your products feed, or use the product ID for promotion [item_id] attribute (see above) to map the eligible items in your promotions feed (for up to 20 items). For additional mapping details visit the Choose products for your promotion article in our promotions implementation guide.
+  
+
+Promotion tags [promotion_tags]
+
+
+  The promotion tags attribute allows you to specify subsets within product categories, product types, and brands to which your promotion will apply. This attribute can be set to pairs of the previously listed attributes and their specific values to specify a subset of items in your products feed.
+
+  Syntax:
+
+  
+    Acceptable keys: google_product_category, product_type, brand
+    Format: {attribute1: “valueA”, attribute2: “valueB”}
+    Maximum length is 500 characters.
+  
+
+  Example:
+
+  
+    {brand: “Nike”, google_product_category: “Apparel & Accessories > Shoes”}
+  
+
+  Important:
+
+  
+    The promotion tags [promotion_tags] attribute should be used when the promotion applies to a subset (but not all) of the items in a category, type, or brand, and the specific item IDs are not known.
+  
+
+
+RETURN TO PROMOTIONS HOME
+
+             Was this helpful?How can we improve it?YesNoSubmit       

@@ -1,0 +1,50 @@
+ About compliance warnings for products
+
+To ensure that the ads and free listings we show to people shopping online meet all local regulations, you must submit all the legally required attributes for your products. If products are missing or have incorrect values for any legally required attributes, they are classified as non-compliant and displayed with a compliance warning in Merchant Center.
+
+
+  Note: We use automated systems to identify products that might violate local regulations. These checks are applied to all products for all merchants.
+
+
+If a product is incorrectly marked as being non-compliant, you can request a review in Merchant Center. This article explains how to find the list of products that are non-compliant and how to request a manual review for them.
+
+Instructions
+
+To find the products that are marked as non-compliant, follow these steps:
+
+
+  In your Merchant Center account, go to Products.
+  Then, click Diagnostics.
+  Go to the “Item issues” tab.
+  Find the compliance warning in the list of issues, for example, “Missing potentially required value [unit_pricing_measure]”. You can identify them using the warning icon .
+  Click View examples in the “Affected items” column to see a sample listing.
+  To download a complete list (.csv) of all affected items, click the download button  at the end of the row.
+
+
+Why does a product keep getting a warning?
+
+Occasionally, our automated process may label products because they share terms or descriptions related to similar products that have legally required attributes.
+
+To help resolve this issue, you may have the option to request a manual review of a product that has been automatically marked as being non-compliant on your product page (you can find the “Request Review” button in the “Item status” section).
+
+If we review your product and determine that it is non-compliant, you won’t be able to request a manual review for the same product again.
+
+To request a manual review of a product with a compliance warning
+
+In some instances, you will have an option to request a manual review for an individual product that has a compliance warning. If this option is available, “Request Review” will be listed in the “Actions” column of the “Item status” section of the product’s overview page. Here’s how you can request a manual review for one of these products:
+
+
+  Find the item in the “All products” list under “Products” in your Merchant Center account.
+  Click on the title of the product.
+  In the "Item status" section, click Request Review next to the compliance warning that you wish to be reviewed.
+  A pop-up appears with a link to the applicable local regulations.
+  Review the regulations and then check the box that acknowledges that you reviewed the information.
+  Click Request manual review.
+
+
+
+  Note: This manual review is only available for regulatory warnings and is done one product at a time. There is currently no bulk manual review option. Contact Support for additional assistance.
+
+
+It may take up to 3 business days to complete the manual review. If your products don’t need any legally required attributes, the warning will be removed within 24 hours. If we review your product and determine that it correctly received a warning, you won’t be able to request a manual review for the same product again.
+             Was this helpful?How can we improve it?YesNoSubmit       

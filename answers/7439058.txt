@@ -1,0 +1,249 @@
+ Create a feedTo upload your product data in Google Merchant Center, you'll first need to create a feed to which you can submit your data. This step is required for any new feed, and when a feed is registered, you can update the existing feed without having to register it again.
+
+Create a primary feed
+
+A primary feed is the central data source that Merchant Center uses to access and display your product data. Learn more about feeds
+
+Use primary feeds to add or remove product data, set language and country targeting, and set feed rules for your product data. Primary feeds are the only feed type that can add or remove products.
+
+
+  Note: If you submit separate primary feeds for online and local ads and/or listings, make sure that you don't submit the same products in both feeds.
+
+
+Google recommends submitting all of your products in a single primary feed. If you need to exclude products, use the excluded destination [excluded_destination] attribute.
+Instructions
+
+
+  Go to the "Feeds" section under "Products" in Merchant Center. Click the plus button  in the primary feed section. Then, follow the prompts and enter these pieces of information:
+
+   Target countries: Target countries are the countries in which products from this feed are sold. Product data in this feed must meet the requirements for the countries you submit, including the feed specifications and policies. You can add countries for Shopping ads when you select destinations during the feed creation process.
+
+   Language: The language in which your product data is written. Learn more about using the right language and currency
+
+  Feed label: Feed labels let you advertise all products with the same feed label in a Google Ads campaign.
+
+   Destination: Choose one or many feed destinations in Merchant Center to allow you to determine which Google features can use the items in your data feed. Learn more about multiple destinations
+
+   Primary feed name: Enter a descriptive name that helps you identify the primary feed. The feed name doesn’t need to match the name of the file you’re submitting.
+
+  
+    To change the feed name later, edit your primary feed settings.
+  
+
+   Input method: Select the one that fits your needs best:
+
+  
+    Google Sheets: You can upload your data using a generated Google Sheets template, or with an existing Google Sheet with your product data. Learn more about Google Sheets
+    Scheduled fetch: Google can fetch your feed directly from your server.
+    Upload: Upload files directly to Merchant Center via SFTP, Google Cloud Storage, or manually.
+    Website crawl: If there are no feeds currently in your account, and you have the appropriate structured data on your website, Google can crawl your website to retrieve your product data. Learn more about how to use automated feeds to build your product data
+  
+
+   File name: Depending on what input method you select, you may be prompted to enter the name of the file you will submit. This name should exactly match the name of the file you created and it should include a valid extension.
+
+  After you have provided the information and clicked Continue, you can view and manage your newly created primary feed in the "Feeds" section of your Merchant Center account.
+
+  To manually fetch or upload a feed, click on the 3-dot icon  in the "Processing" tab of your feed and select your upload preference from the dropdown.
+
+
+Create a supplemental feed
+
+Supplemental feeds provide data that supplements product data in one or more primary feeds. They can’t add or remove products, or be used as a standalone feed. Learn more about feeds
+
+To use a supplemental feed, connect it to existing primary feed through the ID [id] attribute. Supplemental feeds will only update your product data when the supplemental feed contains IDs that already exist in a primary feed.
+
+Feed rules and supplemental feeds can be defined for multi-client accounts and can be applied to all or some of the associated sub-accounts. If you have selected to override rules and supplemental feed data from sub-accounts, then the supplemental feed (added at the sub-account level) can't be linked with any primary feeds. Learn more about setting up supplemental feeds for multi-client accounts
+
+
+  Note: Make sure your ID [id] attributes for supplemental feeds match exactly with the ID [id] attributes for primary feeds as they are case sensitive.
+
+
+Legacy online inventory update feeds 
+If you want to use a separate feed for pricing and availability updates, create a supplemental feed and use the "Take latest" rule to update your primary feed. 
+Instructions
+
+
+  How it works
+
+  When you create a supplemental feed, change your selection to indicate you’d like to join your feeds with the ID [id] attribute.
+
+  
+    For example:
+
+    Primary feed:
+
+    
+      
+        
+          ID [id]
+          Title [title]
+          Price [price]
+          Brand [brand]
+        
+        
+          1
+          shirt
+          34
+          Brand A
+        
+        
+          2
+          shoes
+          55
+          
+          Brand B
+          
+        
+        
+          3
+          hiking boots
+          100
+          Brand C
+        
+        
+          4
+          pants
+          75
+          Brand A
+        
+      
+    
+
+    Supplemental feed that uses the ID [id] attribute to match to the primary feed:
+
+    
+      
+        
+          ID [id]
+          Custom label [custom_label]
+        
+        
+          1
+          SALE
+        
+        
+          4
+          SALE
+        
+      
+    
+
+    Resulting feed:
+
+    
+      
+        
+          ID [id]
+          Title [title]
+          Price [price]
+          Brand [brand]
+          Custom label [custom_label]
+        
+        
+          1
+          shirt
+          34
+          Brand A
+          SALE
+        
+        
+          2
+          shoes
+          55
+          Brand B
+           
+        
+        
+          3
+          hiking boots
+          100
+          Brand C
+           
+        
+        
+          4
+          pants
+          75
+          Brand A
+          SALE
+        
+      
+    
+
+    A supplemental feed is a secondary data source used to provide additional attributes, both required and optional, that may be missing from your primary feed. Supplemental feeds can't be used as a main data source. Common use cases for supplemental feeds include, but aren't limited to:
+
+    
+      Add or override custom labels for campaign management.
+      Add or override promotion IDs for retail promotions.
+      Override titles.
+      Exclude specific products (via the excluded destination [excluded_destination] attribute).
+      Add missing GTINs. Learn more about GTINs
+      Add local inventory product data for local inventory ads.
+      Add or override country-specific attributes for a primary feed with multiple countries.
+    
+
+    Each supplemental feed must have an ID [id] attribute column, along with at least one additional column with the data you would like to connect to a primary feed.
+
+    To create a supplemental feed, go to the Feeds section under the Products page in Merchant Center. At the top of the supplemental feeds table, click Add a supplemental feed to create a new supplemental feed. Follow the prompts and provide the following pieces of information about your data:
+
+    
+      Supplemental feed name: Enter a descriptive name that helps you identify the supplemental feed. The supplemental feed name doesn’t need to match the name of the file you’re submitting.
+
+        
+          You can change the feed name later by editing your primary feed settings.
+        
+      
+      Input method: Select the one that fits your needs best:
+        
+          Google Sheets: You can upload your data using a generated Google Sheets template, or with an existing Google Sheet with your product data. Learn more about Google Sheets
+          Scheduled fetch: Google can fetch your feed directly from your server.
+          Upload: Upload files directly to Merchant Center via SFTP, Google Cloud Storage, or manually.
+        
+      
+      File name: Depending on what input method you select, you may be prompted to enter the name of the file you'll be submitting. This name should exactly match the name of the file you created and include a valid extension.
+      Linking to primary feed: Select any primary feed and target country or language combination to which the supplemental feed belongs.
+      Fetch schedule: Set a scheduled fetch for your product data. This lets Merchant Center get fresh feeds without you needing to manually upload your data.
+    
+
+    To manually upload or fetch a feed, click on the 3-dot icon  in the "Processing" tab of your feed and select your upload preference from the dropdown.
+
+    Once your supplemental feed is created and linked to a primary feed, Merchant Center will automatically create a rule, which you can find in the "feed rules" section of Merchant Center. The rule will connect the product data from the two feeds based on the value provided for the ID [id] attribute, and will connect attribute data from the supplemental feed.
+  
+
+
+
+  Regional product inventory feeds
+
+  Regional inventory feeds are a type of supplemental feed that can be used to override your existing product data in the primary feed in order to show regional pricing or availability for a selection of products in your predefined regions. Regional inventory feeds can't add or remove products, or be used as standalone feeds; instead, they're used to override existing product data.
+
+  Regional inventory feeds support the following required attributes:
+
+  
+    ID [id] (offer id)
+    Region ID [region_id] (region id)
+  
+
+  Regional inventory feeds also support the following optional attributes:
+
+  
+    Price [price]
+    Sale price [sale_price]
+    Sale price effective date [sale_price_effective_date]
+    Availability [availability]
+  
+
+
+Related links
+
+
+  About feeds
+  Add your products
+  Create a feed
+  Show products in multiple target countries
+  Set up feed rules
+  Remove a feed or feed label
+  Test and preview your feed rules
+  How to set up data attributes Part 1 - Required attributes 
+
+
+             Was this helpful?How can we improve it?YesNoSubmit       

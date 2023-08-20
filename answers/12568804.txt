@@ -1,0 +1,44 @@
+ I want to switch to the classic Merchant Center experience
+
+If you’re currently using the Merchant Center Next, and find that features you need aren’t yet available, you have the option to switch to the classic Merchant Center experience while we continue to build Merchant Center Next. 
+
+What will happen when I switch to the classic Merchant Center experience? 
+
+If you switch to the classic Merchant Center experience, you won’t have the option to return to the Merchant Center Next experience until the classic Merchant Center experience is retired. Before you decide to make the switch, keep in mind that we’ll add features from the classic Merchant Center experience to the Merchant Center Next over time and we'd encourage you to stay in Merchant Center Next. 
+
+How do I switch? 
+
+
+  
+    
+      
+      Sign in to Merchant Center
+    
+    
+      
+      At the top of the screen, click the help icon
+    
+    
+      
+      Click Switch to classic Merchant Center
+    
+    
+      
+      A disclaimer will appear. If you'd still like to continue, click Switch to classic Merchant Center
+    
+    
+      
+      A box will appear allowing you to give feedback on why you’d like to switch. When you’re done, click Submit
+    
+    
+      
+      Another disclaimer will appear. Check the box, and click Switch now
+    
+  
+
+
+ 
+
+Your classic Merchant Center experience will now be available to use.
+
+             Was this helpful?How can we improve it?YesNoSubmit       

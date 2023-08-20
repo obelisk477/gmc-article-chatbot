@@ -1,0 +1,168 @@
+ Link a Google Ads account to Merchant Center
+
+
+  If you’re looking for information about how to link a Google Ads account in Merchant Center Next, click here. 
+
+
+Before you can create campaigns in Merchant Center, you need to link a Google Ads account to Merchant Center. After you link the accounts, you'll be able to create a campaign in Merchant Center that uses your product information. Product data in Merchant Center can also be used to set up local inventory ads, dynamic remarketing, and more.
+
+Note: In countries where the Comparison Shopping Services (CSS) program is available, you participate in Shopping ads through one or several CSSs of your choice. Some CSSs manage your product data and your campaigns on your behalf, while others provide tools allowing you to manage your setup yourself. Learn more about advertising with Comparison Shopping Services
+
+On this page
+
+
+  Link a Google Ads account
+  Manage links between accounts
+
+
+
+  Important
+
+  When you approve a link between your Google Ads and Merchant Center accounts, you'll allow your product data to flow from Merchant Center to Google Ads for use in advertising campaigns.
+
+  
+    Only someone with admin access in Merchant Center can initiate an account linking request.
+    Someone with admin access to the Google Ads account will need to approve the link request in Google Ads.
+    The link can be removed at any time from Google Ads by anyone with Admin access to the Google Ads account, or from Merchant Center by people with Merchant Center admin access. Other actions in the linked account may have additional access requirements (even if both accounts are linked). For example:
+      
+        People using Merchant Center can’t create or edit campaigns unless they have admin or standard access to the linked Google Ads account.
+        A Google Ads account owner can’t edit or add products or create campaigns in Merchant Center unless they also have access to the linked Merchant Center account. (However, the Google Ads account owner can create campaigns with product feeds from Google Ads.)
+      
+    
+    When the linking request is approved, information is shared between the accounts to ensure that your ads work properly. Some examples of information shared between accounts includes: account names and IDs for Merchant Center and Google Ads, product information from Merchant Center, and Google Ads metrics for ads featuring your products.
+    Google Ads manager accounts can’t be linked to Merchant Center. A Google Ads manager account lets you view and manage multiple Google Ads accounts. To create and manage campaigns in Merchant Center, you’ll need admin access to the Merchant Center account that will own the campaigns, even if you’re already an admin of the corresponding Google Ads manager account.
+    If you remove the account link, campaigns in Google Ads that rely on product data from the Merchant Center account will stop using your product data to serve ads. You also won't be able to create new campaigns in Google Ads based on product data from this Merchant Center account. Google Ads will still continue to serve other campaign types in the account.
+  
+
+
+
+Link a Google Ads account
+
+Option 1: Create a new Google Ads account in Merchant Center
+
+If you don’t have a Google Ads account, you can create an account in Merchant Center.
+
+
+  In Merchant Center, select the settings icon .
+  Select Linked accounts.
+  Click Link to Google Ads.
+  Select Create account, and follow the instructions to finalize your account and link it to Merchant Center.
+
+
+Note: During the setup process, you’ll need to provide your time zone and currency. The options are pre-populated based on your location, but you can change the time zone and currency while you set up your account. After you create your account, you won’t be able to change these settings later.
+
+Option 2: Link to an existing Google Ads account
+
+If you have admin access to a Google Ads account that you currently manage, or you want to link a Google Ads account owned by other persons (for example, agency partners), you can link it directly in Merchant Center. You’ll need the Google Ads customer ID, which can be found at the top of any Google Ads page when you’re signed in (near the account email address).
+
+
+  Request link to Google Ads in Merchant Center
+
+  
+    
+      In Merchant Center, select the settings icon .
+      Select Linked accounts.
+      Select Google Ads.
+      Choose the account that you want to link:
+        
+          Your Google Ads account: Enter your Google Ads customer ID, then select Link. If your Google Account is already associated with one or more Google Ads accounts, select the Google Ads account from the list instead.
+          Other Google Ads accounts: Select Link account and enter the Google Ads customer ID. Then, select Send link request.
+        
+      
+    
+
+    
+      Note: If your Google Ads account requires 2-Step verification, you’ll need to Turn on 2-Step Verification in your Google account or to Disable the 2-Step Verification requirement in Google Ads before linking your account.
+    
+  
+
+
+
+  Approve link request in Google Ads
+
+  Link requests from Merchant Center need to be approved in the Google Ads account that you’re linking to (unless the Google Ads account is already associated with your Google Account). Someone with admin access to the Google Ads account should follow these steps to approve the link request:
+    
+  Note: The instructions below are part of a new Google Ads user experience that will launch for all advertisers in 2024. If you’re still using the previous version of Google Ads, review the Quick reference map or use the Search bar in the top navigation panel of Google Ads to find the page you’re searching for.
+
+
+
+    
+      In your Google Ads account, click the Admin icon .
+      Click Linked accounts.
+      Under “From Google", find "Google Merchant Center”, then select Manage and link.
+      Find the account to link. The “Status” column will say “Needs your approval”.
+      Select View request in the “Actions” column and review the request details.
+      Select Approve.
+    
+
+    
+      Note: A Merchant Center account can only be linked to up to 100 Google Ads accounts.
+    
+  
+
+  
+  
+
+  Manage links between accounts
+
+
+Once you've linked Merchant Center and Google Ads accounts, you can cancel the request or unlink the accounts. You can also view the status of the link in Merchant Center.
+
+
+  Cancel a link request
+
+  
+    In Merchant Center
+
+    
+      In your Merchant Center account, select the settings icon .
+      Select Linked accounts.
+      Select Google Ads.
+      Find the Google Ads account.
+      Under the “Actions” column, select Cancel request.
+      When prompted, select Continue.
+    
+  
+
+
+
+  Unlink accounts
+
+  
+    In Merchant Center
+
+    
+      In your Merchant Center account, select the settings icon .
+      Select Linked accounts.
+      Select Google Ads.
+      Find the account, then select Unlink.
+    
+
+    In Google Ads
+
+    
+  Note: The instructions below are part of a new Google Ads user experience that will launch for all advertisers in 2024. If you’re still using the previous version of Google Ads, review the Quick reference map or use the Search bar in the top navigation panel of Google Ads to find the page you’re searching for.
+
+
+
+    
+      In your Google Ads account, click the Admin icon .
+      Click Linked accounts.
+      Under “From Google", find "Google Merchant Center”, then click Manage and link.
+      Find the account you want to unlink and click Unlink.
+    
+  
+
+
+
+  Review link statuses
+
+  You can review the status of your account links in the “Google Ads” tab in “Linked accounts”. You may notice these statuses for linked accounts:
+    
+      Account link needs to be confirmed in Google Ads: Your request to link to the Google Ads account needs to be confirmed directly in Google Ads. Access your Google Ads account (or ask the account owner) to approve the link request.
+      Active: Your Google Ads account has been linked to this Merchant Center account. You can now start using the account to run campaigns from Merchant Center.
+      Not linked: The Google Ads account is no longer linked to your Merchant Center account. Your ads will stop running and you won’t be able to create new campaigns in Merchant Center.
+    
+  
+
+             Was this helpful?How can we improve it?YesNoSubmit       

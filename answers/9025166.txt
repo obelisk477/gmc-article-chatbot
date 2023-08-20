@@ -1,0 +1,150 @@
+ Test your direct upload feed
+You can preview your product data in Merchant Center without overriding your existing feeds and disrupting your Shopping ads or free product listings. You can test your direct upload feed when:
+
+
+  You create the feed.
+  Your feed is already registered (for example, you’re uploading a file for the first time on a feed which is already created, or when you're uploading a new version of a previous file).
+
+
+This article explains how to test your feed before you commit the changes.
+
+Instructions
+
+Test your direct upload when you create and register a feed
+
+
+  Note: The following steps are specific to primary product feeds. However, you may use the same steps ("Upload as test") when manually uploading other feed types, such as promotions, local product inventory, regional inventory, POS inventory, and POS sales.
+
+
+
+  Sign in to your Merchant Center account.
+  Click on Products in the navigation menu, then click Feeds.
+  Click the plus button  to add a new feed.
+  Complete steps 1 ("Basic information") and 2 ("Primary feed name and input method"). Learn more about how to create a new primary feed
+  In step 3 ("Setup"), click Upload a file now (optional).
+  Check the box for "Upload as test".
+  Click Continue.
+  In the "Processing" tab, review errors and warnings that may appear. After your feed is live, you can refer to the "Diagnostics" page for a full report of issues.
+
+
+Test a new feed file on a newly registered feed
+
+
+  Note: The following steps are specific to primary product feeds. However, you may use the same steps ("Upload as test") when manually uploading other feed types, such as promotions, local product inventory, regional inventory, POS inventory, and POS sales.
+
+
+
+  Select the primary feed for which you would like to test an updated version.
+  In the "Processing" tab, select Upload file.
+  Choose which file you want to upload.
+  Check the box for "Upload as test".
+  In the "Processing" tab, review errors and warnings that may appear. After your feed is live, you can refer to the "Diagnostics" page for a full report of issues.
+
+
+
+  Keep in mind: Test feeds can't be created as a separate feed.
+
+
+Review your results
+
+The test results are displayed after a test is completed. You can view your test results by clicking Show test. For most feed types, you’ll have access to a basic summary of the processing of the feed. For primary feeds, there will be an expanded summary, including an item summary, attribute change summary, status summary, and issue summary.
+
+Item summary
+
+This section shows how your test feed upload would change the number of products in your feed.
+
+In this section, you can view:
+
+
+  The number of new products that would be created if you were to upload your feed.
+  The number of products that would be removed from your live feed if you were to upload your feed.
+  The number of products that would move to your live feed from a different primary feed in your account if you were to upload your feed.
+
+
+Item summary will not appear for your supplemental feeds since they do not create, remove, or move products in your feed.
+
+Attribute change summary
+
+In this section, you can view:
+
+
+  The attributes that would be impacted by your test feed upload.
+  For each attribute, the number of products that would have a change in that attribute.
+  For each attribute, up to 5 examples of how the attribute would change if you were to apply your test feed upload.
+
+
+Status summary
+
+This section shows how the items in your test feed upload would impact the status of your products.
+
+The table includes the total number of "Approved", "Disapproved", and "Excluded" products for your destination (typically Shopping ads), based on your currently live feed. It also shows how those numbers would change if you applied your test upload file. If you submit product data for multiple destinations, such as Shopping ads and local inventory ads, you can choose which destination you would like to view product data for.
+
+
+  
+    
+      
+        Status
+        Meaning
+      
+    
+    
+      
+        Approved
+        This status includes products that would appear in the Diagnostics page as "Active", "Pending", or "Expiring".
+      
+      
+        Disapproved
+        
+        If a product is "Disapproved", that means it can't show in your chosen destination.
+
+        This includes any and all of the disapproval reasons you'd be able to view in the Diagnostics page of your Merchant Center account.
+        
+      
+      
+        Excluded
+        These are products that you chose to exclude from your destination. To manage whether your products are excluded or included, you can use the excluded destination [excluded_destination] and included destination [included_destination] attributes as well as your feed settings. "Excluded" isn't the same as "Disapproved". Excluded products may be approved, but they won't appear in your destination.
+      
+    
+  
+
+
+Below the status summary table, you can also view the following:
+
+
+  Groups of products whose status would change as a result of your test feed upload.
+    
+      For each group, the way in which the status of the products would change, such as approved to disapproved.
+      For each group, the number of products whose status would change.
+      For each group, up to 5 examples of which products would change and how if you were to apply your test feed upload.
+    
+  
+
+
+
+  Note: Review all status change messages before applying your test feed upload to avoid unintentionally taking a portion of your inventory offline.
+
+
+Issue summary
+In this section, you can view which existing product issues would be resolved, which new product issues would be introduced, and which existing product issues would remain unchanged as a result of your test feed upload. For each issue, you’ll also know:
+
+
+  The number of products affected by the issue.
+  Up to 5 examples of products affected by the issue, and the current and new values for the attribute related to the issue if applicable.
+
+
+In some cases, you may encounter the same issue appearing in various sections of the issue summary. This can happen when you resolve an issue for one set of products in your feed, but don’t resolve that same issue for another set of products.
+
+Related links
+
+
+  About feeds
+  Add your products
+  Create a feed
+  Show products in multiple target countries
+  Set up feed rules
+  Remove a feed or feed label
+  Test and preview your feed rules
+  How to set up data attributes Part 1 - Required attributes 
+
+
+             Was this helpful?How can we improve it?YesNoSubmit       

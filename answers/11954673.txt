@@ -1,0 +1,75 @@
+ Use the returns overview page to optimize your return settings
+  Buy on Google for Search and Shopping will no longer be available starting September 26, 2023. Eligible merchants will be able to use Buy on Google for YouTube in the US. Learn more about Enabling Buy on Google for YouTube.
+
+
+
+
+
+Many customers check the return policy of a store before buying. Policies like free returns and longer return windows may be appealing to customers, and if your store has a seamless way to return purchases, this may influence customers to purchase from your store again in the future. Because of this, it’s important to consider updating your return policy.
+
+The returns overview page helps you to optimize your return policy of your products. This page allows you to view your established policy so you can confirm if it's accurate or make changes accordingly. It also allows you to make better decisions to update your existing policy to improve your business.
+
+How it works
+
+To navigate to the returns overview page, sign in to your Merchant Center account, then select “Shipping and returns” from the tools and settings menu. Select “Returns” to view or edit your setup.
+
+Your setup
+
+From here, you’ll be able to check the different dimensions of the return information you have provided Google to share with your customers such as:
+
+
+  An overview of your return setup, with an option to add multiple return policies, as well as return policy exceptions
+  The return window and cost metrics and how they compare with other merchants
+  The return policy recommendations to improve your customer experience
+
+
+
+  Note: Access to return locations and return rules is for Buy on Google only.
+
+
+Your metrics
+
+You’ll be able to view the following metrics:
+
+Return policies
+
+There should be a minimum of one return policy for all your products. This will be your default policy until you create additional policies by using labels to define groups of products. You can then apply specific return policies to those groups. Your default return policy will be used on occasions when a return policy specified by the feed cannot be found.
+
+Customers expect a return policy. Place your return policy where it can be easily viewed, like your website home page or the product page.
+
+
+  Return window: Your return window can be a number of days from delivery (up to 90), for a lifetime, or no returns at all. Try to update your window period based on the insights that you can view from the page and the metrics. You may consider extending your return window especially on holidays.
+  Customer return fees: You can choose reasons from which a customer has to pay return shipping fees ("better price found", "changed mind", "does not fit", "no longer needed", and "ordered wrong product"). Choosing the right reasons to return purchases allows your customers to have a better experience from your store. Also, consider setting up returnless refunds to save time and money.
+  Seasonal overrides: These are policy exceptions for specific date ranges. Some merchants use overrides for holidays when gifts are purchased in advance. Depending on the holiday or season, you might consider setting your seasonal override a month or two longer.
+
+
+Return locations (Buy on Google only)
+
+You must provide at least one address to ensure that customers are returning products to the correct location. You can also facilitate generating your return label by linking your shipping provider when you use Buy on Google.
+
+It is recommended that you use detailed return reasons when issuing partial refunds. Detailed return reasons allow Google to provide appropriate support to customers when they reach out.
+
+
+  Label and description: This is a label for your feed and a description to easily identify your return location. Consider linking your carrier account to automatically generate return shipping labels.
+  Return address: This is your address information for returning items. You can add addresses by using labels to define groups of products. Remember that each product must have valid return addresses.
+  Return reason: You need to select at least one reason for return (from defect or errors to customer remorse). It is recommended that you provide notes to further explain why you are processing a return.
+
+
+Return rules (Buy on Google only)
+
+For Buy on Google, you can set up returnless refunds to automatically issue a refund without requiring the product to be returned. You can consider setting up returnless refunds as it may help you with business costs.
+
+
+  Product price: This is the amount that you set for your return rules. This will apply when the product price is less than the set amount.
+  Return reasons: You can select one or more reasons from the options. This will apply when a customer requests for a refund based on the selected reasons.
+
+
+Related links
+
+
+  Return settings requirements for Buy on Google
+  Set up return policies for Buy on Google
+  Choose how you manage your Buy on Google returns
+  Set up your return policies for Shopping ads and free listings
+
+             Was this helpful?How can we improve it?YesNoSubmit       

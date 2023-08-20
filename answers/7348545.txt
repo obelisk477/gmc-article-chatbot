@@ -1,0 +1,400 @@
+ Best practices for advertising apparel and accessories
+
+Customers are increasingly looking for ideas, finding the best products, and buying apparel and accessories on Google. Starting with our highest priority tips, test the following tactics to optimize your product data and drive results for your business. The right details can help qualify and attract the best customers, and ultimately drive them to choose your product to purchase.
+
+On this page
+
+
+  Basic product data requirements
+  Provide high-quality images
+  Enhance your product titles
+  Use consistent color names
+  Build out your product type
+  Provide size type and size system
+  Submit product variants as unique items grouped under an item group ID
+
+
+
+Data requirements
+
+Online customers usually look for specific product information while they search for a particular product, for example apparel and accessories. Providing the correct product data will help them make an informed decision.
+
+Provide high-quality images
+
+When customers shop online, they rely heavily on images to evaluate what you’re selling and decide what they want to buy. A photo can be the deciding factor for a user to click your ad or a free product listing. Make the right first impression with a high-quality image.
+
+
+
+
+  Use your highest resolution images. Be sure that you show the best image possible whether someone is seeing your ad or free listing on a desktop, tablet, or mobile phone. It's best to use a minimum image width of 1500 pixel. An ideal aspect ratio is 9:11 (width : height) for vertical images and 4:3 (width : height) for horizontal images. Also, make sure to remove any resizing UTM parameters (for example, http://thumbnail.google.com/imageurl.jpg?ex=400x400).
+  Show clothing on models. Showing how your product looks on a real person can help inspire customers to consider it for themselves. If you’re using a full-body image, avoid cropping the model’s head or feet. If you’re selling one article of clothing, such as a top, make sure your product is the focus of the image so customers understand what you’re selling. Learn more about Lifestyle image link [lifestyle_image_link].
+
+
+Example
+
+  
+
+
+
+  Show non-clothing products, such as shoes, handbags, or accessories, alone in your main images, and on a model in your additional images. Be clear about what product you’re selling in your main images while providing more context and inspiration in your additional images. 
+
+
+Example
+
+  
+
+
+
+  Use a solid white or transparent background. Using these colors keeps your image looking great in a variety of formats, styles, or designs.
+
+
+Example
+
+  
+
+
+
+  Include additional images of your product. Additional images give people a better sense of your product. Multiple angles and close-ups help customers decide whether or not to buy. You can also include more detailed photos, product staging, or different image backgrounds. For example, for more inspiration, you could provide an additional image of your product as part of an outfit against a scenic backdrop. Learn more about Additional image link [additional_image_link].
+
+
+Example
+
+  
+    View an example of additional images for clothing products below.
+
+    
+
+    View an example of additional images for non-clothing products below.
+
+    
+
+    
+  
+
+
+
+Enhance your product titles
+
+By providing highly relevant product titles, you’ll be able to attract and convert potential customers.
+
+Include the most important product details within the first 70 characters of the title. Include attributes that aren't visible in the image, such as strong brand names, size, size type, or personalization options. Make sure you highlight what makes your product most relevant to your user while staying brief and clear. Try the following title [title] attribute structure for apparel and accessories:
+
+Brand + Product Type + Other Important Attributes
+
+Optimize your product titles to drive search relevance and create a better user experience. Learn more about submitting the title [title] attribute.
+
+
+  If applicable, add size type. Showing the size type will help you find customers who are searching for a particular fit. For example, include “plus size”, “petite”, or “maternity” in your title [title] attribute.
+  If you offer personalization, let your customers know right away. Customization can be a key differentiator for your products. Add “customized”, “personalized”, or “monogrammed” to your title attribute. Learn more about Best practices for advertising customized goods.
+  Put strong brand names first. Particular brands can have a strong pull for certain customers. To find out if the brand name is strong, see if customers commonly search for the brand name by using Google Trends.
+  Specify the gender or age group if it’s unclear in your product image. Include the gender (for example, women’s, men’s, girl’s, or boy’s) in your title [title] attribute. However, if your product is made for young children or babies, also add the age group [age_group] attribute to your product titles (for example, infant, toddler, newborn). It’s also helpful to your customers to specify the age group for unisex products (for example, adult, kids).
+  Include color, size, material, and/or pattern attributes. When they are shopping for apparel and accessories, these attributes help customers decide if your product is right for them. Having the right color, size, and/or material can be the final reason for customers to buy your product.
+
+
+
+  Use Feed Rules to optimize and test your product titles
+
+  
+     Note: Feed rules are currently only available in the classic version of Merchant Center.
+
+    Feed Rules let you append attribute values or replace your title [title] attribute with information from other attributes. Check some examples below and learn more about setting up feed rules.
+
+    
+      You can overwrite your current title values with a combination of important attribute values. For example, you can replace your title [title] attribute with brand [brand] + “ , “ + title [title] + “ , “ + color [color] + “, “ + size [size].
+    
+    
+
+    
+      Add your size type [size_type] attribute value to the beginning of your title [title] attribute.
+    
+
+    
+
+    
+      Add “personalized” or “customized” at the beginning of your title [title] attribute by searching for those terms in your category [category] or description [description] attributes.
+    
+    
+
+    
+      Add fixed terms, like “men’s” or “girl’s”, to your title [title] attribute based on your gender [gender] or age group [age_group] values. For example, you can build a rule to add “men’s” to the title [title] attribute if age group [age_group] = adult and gender = male.
+    
+    
+
+    
+      Add the color [color], size [size], material [material], and/or pattern [pattern] attribute values to your title [title] attribute.
+    
+
+    
+  
+
+
+
+Use consistent color names
+
+Customers often have color preferences in mind when they're searching for products. Submitting the color name in your product title [title], description [description], and color [color] attributes will help match your products with the colors that people are looking for.
+
+
+
+The color name you submit in your product data should match the color name used on your product landing page. You can avoid product disapprovals and potentially confusing shoppers by not showing a different color name in your Shopping ad than the one you use on your product landing page. For example, if your product’s color is “ocean”, include “ocean” in your title [title], description [description], and color [color] attributes instead of changing the color name to “blue”.
+
+If your product is multicolored (such as jewelry), submit up to 3 colors, separated by a “/”. For example, if your product is a gold necklace with turquoise stones, submit multiple color values as “gold/turquoise” in the color [color] attribute. Avoid using “multicolor”, “multi” or other similar values. Being more specific helps match your products with what your customers are searching for. Learn more about submitting the color [color] attribute.
+
+
+Build out your product type
+
+Categorizing products in your product data provides a good structure for your Shopping campaigns to help manage and bid on your products effectively. Provide the most detailed product type [product_type] values you have (for example, Apparel & Accessories > Clothing > Outerwear > Coats & Jackets > Denim Jackets), and Google product category [google_product_category] values that are at least 2-3 levels deep.
+
+
+  Use Feed Rules to replace your product type attribute
+
+  
+    Note: Feed rules are currently only available in the classic version of Merchant Center.
+
+    You can replace your product type [product_type] attribute based on other values in your product data using Feed Rules. For example, if your product type [product_type] value is set to apparel, it may not be descriptive enough. So, you can replace it with a more detailed value, such as Men’s > Apparel > Pants, but only if the following conditions are true: the gender [gender] attribute is set to male, and the title [title] contains the word "pants". Learn more about setting up feed rules.
+
+    
+  
+
+
+
+Provide size type and size system
+
+When customers search for apparel and accessories, they won’t purchase a product if it isn't available in the right size and fit. Give a clear idea of your product’s sizing by using the size [size], size type [size_type], and size system [size_system] attributes. Learn more about submitting the size [size] attribute.
+
+
+
+Although the size type [size_type] and size system [size_system] attributes aren't required, they offer more valuable information to help customers determine if your product is the right fit for them. If you don't provide these attributes, the system will use the default values.
+
+If a specific garment comes in a specialty size, use the size type [size_type] attribute to help your product show for more relevant search results. Check the example below for a couple of ways you may submit size [size] and size type [size_type] attributes. Learn more about submitting the size type [size_type] attribute.
+
+Example
+
+
+
+
+
+  
+    
+    
+    
+  
+  
+    
+      Product data for a women’s size 4P sleeveless cotton dress
+    
+    
+      Title [title]
+      Size [size]
+      Size type [size_type]
+    
+    
+      Womens Sleeveless Cotton Dress - 4P
+      4P
+      Petite
+    
+    
+      Womens Sleeveless Cotton Dress - 4P
+      4 Petite
+      Petite
+    
+  
+
+
+Similarly, using the size system [size_system] attribute provides useful information to help your customers make their final purchase decision. If your apparel or accessories are produced in multiple countries and sized specifically to each country, make sure to clarify the size system [size_system] for different products. Learn more about submitting the size system [size_system] attribute.
+
+
+Submit product variants as unique items grouped under an item group ID
+
+You can manage product variants more easily by grouping them under the same item group ID [item_group_id].
+
+
+
+If you're selling a product in multiple variations, each color, size, material and pattern must be submitted as a unique product. Examples of product variants:
+
+
+  If a dress comes in 1 size and 5 colors, the product has 5 product variants.
+  If a pair of shoes comes in 3 sizes, 4 colors, and 2 materials, the product has 24 product variants.
+  If a bag comes in 2 sizes, 3 colors, and 2 patterns, the product has 12 product variants.
+
+
+Don't show all of your variant options as a single value within the corresponding attribute value. In the example below, you can check that the shirt comes in one size and three colors, but they're all under the same item group ID [item_group_id].
+
+Example
+
+
+  
+    
+      
+      
+      
+      
+      
+    
+    
+      
+        Product data for a large, multi-colored broad stripe button-down shirt
+      
+      
+        ID [id]
+        Title
+        [title]
+        Item group ID
+        [item_group_id]
+        Size
+        [size]
+        Color
+        [color]
+      
+      
+        8842
+        Broad Stripe Button-Down Shirt - L
+        8842
+        L
+        Blue, green, and orange
+      
+    
+  
+
+
+Instead, each product variant should be submitted as a unique item in the feed. If the available attributes aren’t enough to define each of your product variants. Learn more about Best practices for submitting unsupported variants.
+
+Example
+
+
+  
+    
+      
+      
+      
+      
+      
+    
+    
+      
+        Product data for a large, multi-colored broad stripe button-down shirt
+      
+      
+        ID
+        [id]
+        Title
+        [title]
+        Item group ID
+        [item_group_id]
+        Size
+        [size]
+        Color
+        [color]
+      
+      
+        8842-lb
+        Broad Stripe Button-Down Shirt - L
+        8842
+        L
+        blue
+      
+      
+        8842-lg
+        Broad Stripe Button-Down Shirt - L
+        8842
+        L
+        green
+      
+      
+        8842-lo
+        Broad Stripe Button-Down Shirt - L
+        8842
+        L
+        orange
+      
+    
+  
+
+
+To provide a seamless experience for your customers, the submitted image link [image_link] attribute should match the product variant and your ad or listing should link to a landing page with the correct variant already selected. Any photos you submit with the additional image link [additional_image_link] attribute should also show the same variant.
+
+Product variants can be grouped together using the item group ID [item_group_id] attribute. For example, if you sell a top in three sizes (S, M, L) and two colors, you should group these six products with the same item group ID [item_group_id].
+
+Example
+
+
+  
+    
+      
+      
+      
+      
+      
+    
+    
+      
+        Product data for a small, medium or large black or heather women’s flutter-sleeve top
+      
+      
+        ID
+        [id]
+        Title
+        [title]
+        Item group ID
+        [item_group_id]
+        Size
+        [size]
+        Color
+        [color]
+      
+      
+        72025-s-hth
+        Women’s Flutter-Sleeve Top - Heather
+        72025
+        S
+        Heather
+      
+      
+        72025-s-blk
+        Women’s Flutter-Sleeve Top - Black
+        72025
+        S
+        Black
+      
+      
+        72025-m-hth
+        Women’s Flutter-Sleeve Top - Heather
+        72025
+        M
+        Heather
+      
+      
+        72025-m-blk
+        Women’s Flutter-Sleeve Top - Black
+        72025
+        M
+        Black
+      
+      
+        72025-l-hth
+        Women’s Flutter-Sleeve Top - Heather
+        72025
+        L
+        Heather
+      
+      
+        72025-l-blk
+        Women’s Flutter-Sleeve Top - Black
+        72025
+        L
+        Black
+      
+    
+  
+
+
+Learn more about submitting the item group ID [item_group_id] attribute.
+
+Don't use the item group ID [item_group_id] attribute for products that aren't product variants. See below for examples:
+
+
+  Groups of related products: a coordinated outfit, where each piece is sold separately (matching trouser and top), is not a product variant group.
+  Different styles of a product: a short-sleeve tee, long-sleeve tee, and a sweater with the same design is not a product variant group. Each garment type is its own product variant group with a separate item group ID [item_group_id] attribute for each type’s size and color variants.
+
+
+However, these different apparel pieces can be represented as one item and sold as a bundle in a single size and color value using the bundle [is_bundle] attribute. Learn more about submitting the bundle [is_bundle] attribute.
+             Was this helpful?How can we improve it?YesNoSubmit       

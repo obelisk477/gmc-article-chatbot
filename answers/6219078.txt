@@ -1,0 +1,66 @@
+ Find a GTIN
+
+A Global Trade Item Number (GTIN) is a unique and internationally recognized identifier for a product. When a GTIN is available, it will appear next to the barcode on your product's packaging or book cover. Submit GTINs in your product data using the GTIN [gtin] attribute to help us classify and display your products.
+
+On this page
+
+
+  Types of GTINs
+  Finding a GTIN
+  Related links
+
+
+Types of GTINs
+
+GTINs vary in length depending on the type of product and where the product will be sold. Here are the different GTINs you might encounter:
+
+
+  UPC (in North America / GTIN-12): 12-digit number (8-digit UPC-E codes should be converted to 12-digit UPC-A codes)
+  EAN (in Europe / GTIN-13): 13-digit number
+  JAN (in Japan / GTIN-13): 8 or 13-digit number
+  ISBN (for books): 13-digit number (ISBN-10 values should be converted to ISBN-13)
+  ITF-14 (for multipacks / GTIN-14): 14-digit number
+
+
+Finding a GTIN
+
+To find the GTIN of your product, you can refer to the barcode on your product, your product's packaging or book cover. Take a look at the example barcodes below to get a sense of how the GTIN can be displayed on your product. Keep in mind that not all products have a GTIN. If you can't find the GTIN, you can always contact the product's manufacturer to ask for it. Learn more about unique product identifiers
+
+
+  Note: If you are using a third party to find GTINs, be sure to verify its legitimacy.
+
+
+UPC
+
+This type of GTIN is found on products sold in the United States. It's the 12-digit number below the barcode:
+
+
+
+EAN or JAN or ISBN
+
+This type of GTIN is found on products sold in Europe or Japan, plus on books sold worldwide. It's the 13-digit number below the barcode:
+
+
+
+ITF-14
+
+This type of GTIN is found on products that are sold in multipacks, like shipping boxes for example. The GTIN is the 14-digit number below the barcode:
+
+
+
+
+  Tip
+
+  If you're reviewing the GTINs on your product's packaging, you might want to download the Barcode Scanner app from the Google Play Store. The app can scan a barcode to give you the GTIN and tell you the type of GTIN you scanned.
+
+
+Related links
+
+
+  Unique product identifiers
+  Product data specification
+  GTIN [gtin]
+
+
+
+             Was this helpful?How can we improve it?YesNoSubmit       

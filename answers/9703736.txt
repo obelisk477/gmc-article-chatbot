@@ -1,0 +1,145 @@
+ Featured product [featured_product] (Collections)Use the featured product [featured_product] attribute to link the products from your product feeds to the collection in which you’d like to feature them.
+
+
+When to use
+
+
+ Required for promoting local products within Performance Max for store goals.
+
+
+The featured product [featured_product] attribute consists of two parts, the ID and the image coordinates, and a total of 3 sub-attributes:
+
+
+  ID [id]:  Required.
+  X [x]: float [0-1] ( Required for or used in Performance Max for store goals).
+    X-coordinate of the product callout in consumer experiences
+  Y [y]: float [0-1] ( Required for or used in Performance Max for store goals).
+    Y-coordinate of the product callout in consumer experiences
+
+
+Note: For "promoting local products within Performance Max for store goals" format, you can provide random coordinates but the coordinate must be different for each featured product. For example, you can increment the coordinates by 1 for each featured product as shown below:
+
+
+  Featured Product 1:0.01:0.01
+  Featured Product 2:0.02:0.02
+  Featured Product 3:0.03:0.03
+
+
+
+Format
+
+Follow these formatting guidelines to make sure Google understands the data you're submitting.
+
+For details on when and how to submit values in English, learn more about submitting your product data
+
+
+
+  
+    
+      Type
+      id: Text (Unicode characters. Recommended: ASCII only)
+    
+    
+      Limits
+      id: 1-50 characters
+    
+    
+      Repeated Field
+      Yes, up to 100
+    
+  
+
+
+
+Guidelines
+
+Follow these guidelines to make sure you submit high-quality data for your collections.
+
+
+
+  
+    
+      File format
+      Example value
+    
+    
+      Text (TSV)
+      winterhikingboot:0.54:0.9
+    
+    
+      XML (Feeds)
+      <g:featured_product>
+      winterhikingboot:0.54:0.9
+      </g:featured_product>
+    
+  
+
+
+
+Minimum requirements
+
+These are the requirements you need to meet to show your collection. If you don't follow these requirements, we'll disapprove your collection and let you know in the Diagnostics page of your Merchant Center account.
+
+
+
+  Use this attribute to list the featured products for this collection
+  Make sure the ID you enter corresponds exactly to the ID of your product in your Merchant Center product data feed.
+  If you add this attribute, then the language attribute is also required.
+  Optionally specify feed labels for collections that have featured products. This will help us to determine the specific products associated with each collection.
+  Provide a maximum of 100 featured product [featured_product] attributes (for collections)
+
+
+
+Best practices
+
+These best practices can help you go beyond the basic requirements to optimize your collection data for performance.
+
+
+Examples
+
+
+
+  Collection with multiple featured products
+
+  
+    
+      
+        
+          Product data for a winter shoe collection
+        
+        
+          Attribute
+          Value
+        
+        
+          Collection [collection]
+          Winter Shoes
+        
+        
+          Image link [image_link]
+          https://www.example.com/image1.jpg
+        
+        
+          Headline [headline]
+          Winter footwear range 2019/20.
+        
+        
+          ID [id]
+          WinterShoes2019
+        
+        
+          Featured product [featured_product]
+          SnowShoeBaseModel2019:0.54:0.9, WinterHikingBoots2019:0.67:0.44, Skiboots2019:0.28:0.76, WarmSlippers2019:0.38:0.25
+        
+      
+    
+
+    
+      
+        Note: The ID in the above example is the collection ID, but not the product ID.
+      
+    
+  
+
+
+             Was this helpful?How can we improve it?YesNoSubmit       

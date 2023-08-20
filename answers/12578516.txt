@@ -1,0 +1,73 @@
+ Manage your shipping settingsWhat shipping information do I need to provide?Next: I want to set up shipping settings for my entire account
+
+
+  If you’re looking for information about shipping settings in the classic Merchant Center experience, click here.
+
+
+
+You need to specify delivery times, shipping costs, and countries to associate this shipping information. You’ll submit this information in the “Shipping” tab of the “Products” section.
+
+On this page
+
+
+  Delivery time
+  Shipping cost
+
+
+
+Delivery time
+
+You’ll need to provide information about your delivery time. This includes:
+
+
+  Order cut-off time is the time customers need to have an order placed to meet your delivery estimates.
+  Handling time is the number of business days needed to process an order before it ships. It normally begins when an order is placed by a customer and ends when a carrier picks up the package for shipment.
+  Transit time is the number of business days it takes for a carrier to deliver a package after it's picked up from your facility.
+
+
+
+Shipping cost
+
+You’ll also need to tell us about your shipping cost. 
+
+Shipping cost covers the shipping carrier cost as well as other costs directly related to shipping. Costs related to shipping might include handling, delivery, shipping, logistics, or carrier fees. You’ll submit the shipping cost for a customer's location, not for a business or separate collection point.
+
+
+  Rules by country
+
+  
+    
+      
+        For Canada only, submit the shipping cost exclusive of taxes.
+        For Finland, Norway, and Sweden, you may alternatively submit the shipping cost to a collection point for specific carriers based on country.
+          
+            For Norway and Sweden: PostNord, DHL, Bring, Schenker
+            For Finland: Posti.fi, DHL, Bring, Schenker, Matkahuolto
+          
+        
+        For Argentina and Chile, you may alternatively submit the shipping cost to a collection point or a store for pickup.
+      
+    
+  
+
+
+
+  If you ship across borders
+
+  
+    
+      
+        In this case, you normally incur additional costs such as customs, duties or import tax. Don't include such costs unless the shipping provider is fully responsible for the handling of goods through customs and the cost is included under a shipping term on your website. Shipping should also include insurance costs related to any of the terms above.
+      
+      Note: Learn more on how to ship to South Korea.
+  
+
+
+
+  
+    You can also submit shipping information with your product data.
+
+    When there are shipping cost values in your product data, the item-level shipping information will override the account-level value for that product. Handling and transit times configured at the account level will be ignored even if those values aren’t included in your product data.
+  
+
+Next: I want to set up shipping settings for my entire account             Was this helpful?How can we improve it?YesNoSubmit       

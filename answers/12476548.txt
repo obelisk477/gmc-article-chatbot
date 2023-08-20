@@ -1,0 +1,47 @@
+ The Needs attention tab
+
+
+  If you’re looking for information about the Diagnostics page in the classic Merchant Center experience, click here. 
+
+
+
+ 
+
+You’ll find details regarding issues with your products in the "Needs attention" tab. Get to this tab by clicking Needs attention on the upper menu of the "Products" page.
+
+High-impact issues
+
+At the top of the "Needs attention" page you’ll find 3 summary cards that describe issues having the biggest impact on your account, along with the number of products impacted by each issue. These cards may include account-level issues and product-level issues.
+
+
+  Click Fix to begin resolving issues that are affecting your entire account.
+  Click View products to view a filtered list of all of the products impacted by the issue on the card.
+  Click View all just above the summary cards to view a full list of these issues for your account.
+
+
+All products that need attention
+
+Below the high-impact section, you'll find a full list of all the products in your account that have an issue and need attention, along with their product details. You can filter this list by click potential, issue, status, or title, or set your own filter. Download any view you choose.
+
+Click in the “What needs attention" column to expand the issue, learn more about what’s wrong with the product, and begin resolving the issue.
+
+Click potential
+
+In the “Click potential” column you’ll find how likely a product is to be clicked in relation to other products. Potential is based on past traffic metrics, provided product data, and demand. There are several possible values for click potential:
+
+
+  High: Potential to receive a higher number of clicks compared to other products
+  Medium: Potential to receive a moderate number of clicks compared to other products
+  Low: Potential to receive a low number of clicks compared to other products
+
+
+If no click potential is shown that means Google is still estimating the click potential. Check back later to view the click potential for this product.
+
+View history
+
+
+
+Access historical changes in the status of your products. At the top of the page, beside the “Show all fixes” button, click View history to open a table that shows the latest product status and status history.
+
+This information can help you better evaluate your current inventory status. You can set filters on the table to adjust for time period, country, and product type (with ads or without ads). You can also filter by product status. Scroll over the table to view snapshot metrics for specific dates and times.
+             Was this helpful?How can we improve it?YesNoSubmit       

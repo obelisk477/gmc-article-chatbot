@@ -1,0 +1,142 @@
+ Local inventory onboarding guideUpload a primary feedNext: Create a local product inventory feed
+
+
+   This is step 5a of the local inventory onboarding guide.
+
+
+This article describes how to upload a primary feed to enable local inventory ads or free local product listings.
+
+If you're interested in submitting product data through API, learn more about the Google Content API.
+
+The primary feed is a list of all of the products that you sell with attributes that describe those products. Some attributes are required for all items in your feed, some are required for certain types of products, and other attributes are recommended or optional.
+
+
+  If you submit separate primary feeds for online offers (Shopping ads or free listings) and local offers (local inventory ads or free local product listings), make sure that you do not submit the same products in both feeds.
+
+  If you do not provide a required attribute, that particular item may not show up in results, and if you do not provide recommended attributes, the ad's or listing's performance may be impacted.
+
+
+Google recommends that you submit all of your products in a single feed for both online and local offers. When you create a new feed, all applicable feed destinations (for example: Shopping ads or free local product listings) can be selected. If you want to opt into local inventory ads and/or free product listings as additional destinations for an existing feed, you can do so via primary feed settings. If you need to exclude products from a destination, you can use the excluded destination [excluded_destination] attribute.
+
+If you have a legacy product feed that was created before October 3rd, 2019, this does not apply to you and you can continue to submit online offers eligible for Shopping ads or free product listings, and local offers eligible for local inventory ads or free local product listings in separate feeds.
+
+Build your primary feed
+
+Step 1: Create a delimited text file, an XML file, or use API
+
+To start, create either a delimited text file (recommended) or an XML file or use API.
+
+Step 2: Tell us about the products you sell in stores
+
+Your primary feed is Google’s source of information about your products. The information you submit in this feed is what appears to people searching for your products. Learn more about product data specification
+
+Example primary feed for local inventory ads and free local product listings:
+
+
+  
+    
+    
+  
+  
+    
+      
+      Attribute
+      
+      
+      Examples
+      
+      
+      Tips
+      
+    
+  
+  
+    
+      
+      ID [id]
+      
+      
+      1001
+      
+      Required for every product.
+    
+    
+      
+      Title [title]
+      
+      Colorbang Headphones
+      
+      Required for every product.
+
+      Put the most important details first. Customers will usually see only the first 70 or fewer characters of your title, depending on screen size.
+      
+    
+    
+      
+      Description [description]
+      
+      A light and elegant design and super sound quality make these over-ear headphones a constant companion. Foldable to save space, and printed with the white Google logo on one earpiece.
+      
+      Required for every product.
+
+      Be specific and accurate. The more specific you are in your description, the easier it is for customers to identify the product they are searching for.
+      
+    
+    
+      
+      Image link [image_link]
+      
+      http://tmp29120.purecake.com/images/
+      headphones.jpg
+      
+      Required for every product.
+
+      Submit only one value. Only one value will be accepted for the image link [image_link] attribute, and any subsequent entries will be ignored. If you want to submit multiple images, you can provide these using the additional image link [additional_image_link] attribute.
+      
+    
+    
+      
+      GTIN [gtin]
+      
+      00050644632143
+      
+      The GTIN [gtin] attribute is required if the product is widely manufactured and has a GTIN. Learn more about unique product identifiers
+
+      Use the correct GTIN for each product, including variants. Each product and variant of a product (different colors or sizes) has its own GTIN, so make sure to submit the correct value.
+      
+    
+    
+      
+      Brand [brand]
+      
+      
+      Google
+      
+      
+      If the product has a clearly associated brand or manufacturer, submit the brand attribute.
+
+      If the product doesn’t have a clearly-associated brand (for example: movies, books, music or posters) or is custom-made (for example: art, custom t-shirts, novelty or handmade products), this attribute is optional.
+
+      Learn more about unique product identifiers
+      
+    
+    
+      Excluded destination [excluded_destination]
+      Local inventory ads
+      
+      If you want to exclude the product from serving on local inventory ads, submit a value of "Local_inventory_ads".
+
+      If you want to exclude the product from serving on shopping ads, submit a value of "Shopping_ads".
+
+      If you want to exclude the product from appearing as free product listings, submit a value of “Free_listings”.
+
+      If you want to exclude the product from appearing as free local product listings, submit a value of “Free_local_listings”.
+
+      Learn more about excluded destination
+      
+    
+  
+
+
+
+Next: Create a local product inventory feed             Was this helpful?How can we improve it?YesNoSubmit       

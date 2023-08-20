@@ -1,0 +1,41 @@
+ How to fix: Suspended Business Profile
+
+One or more store code in your local inventory data is referencing a Business Profile that has been identified as suspended within the linked business group.
+
+Fix your issue
+
+
+  Step 1 of 2: Investigate the suspended Business Profile
+
+  
+    
+      
+        Ensure your Business Profile follows the Business Profile guidelines.
+        Request a Business Profile reinstatement.
+      
+    
+  
+
+
+
+  Step 2 of 2: Resubmit your product data
+
+  
+    
+      
+        After your account has been reinstated, resubmit your inventory feed using one of these methods:
+          
+            Upload a feed
+            Submit through the Content API
+          
+        
+        Next, check if you’ve fixed the issue by making sure it’s no longer listed on the processing report.
+      
+
+      
+        Note: It can take up to 24 hours to sync your business locations into your Merchant Center account, so we recommend that you upload your inventory feed 24 hours after linking accounts, or after a store code is updated in your Business Profile.
+      
+    
+  
+
+             Was this helpful?How can we improve it?YesNoSubmit       

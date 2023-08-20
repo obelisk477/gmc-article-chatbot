@@ -1,0 +1,184 @@
+ Submit feeds using SFTP
+
+
+  If you're looking for information about submitting feeds via SFTP in the classic Merchant Center experience, click here.
+
+
+
+What is SFTP?
+
+SFTP stands for SSH File Transfer Protocol. SFTP is a common way for users to download or upload files to the Internet. With SFTP, data is securely transferred using encryption and no clear text file data is transferred.
+
+
+
+
+
+On this page
+
+
+  Before you begin
+  Create an SFTP account
+  Upload your file using SFTP
+  Login errors when uploading files using SFTP
+
+
+
+Before you begin
+
+Create a product file data source and activate the Merchant Center SFTP account by creating a password. Note that when submitting using SFTP, your file must be under 4 gigabytes (GB) in size, in either the compressed or uncompressed format. If your file is larger than 4 GB, split your file into multiple, smaller files before uploading.
+
+If you need more help using SFTP after reading this article, read our troubleshooting guide.
+
+
+Create an SFTP account
+
+Your Merchant Center account already has an SFTP account. However, it needs to be activated. To activate the SFTP account:
+
+
+  Create a product file data source.
+  Select Add a file using SFTP and click View SFTP details.
+  Click Create password. Your password is then automatically generated.
+    
+      Note: Your password won’t be shown again for security reasons. Make sure you securely store your password before dismissing the popup box. If you’ve forgotten the password, you can generate a new password by clicking Reset password.
+    
+  
+  Your Merchant Center SFTP account is now active. However, your first password generation may not take effect for several hours. If you can't log in to our SFTP server right away, try again later.
+
+
+
+Upload your file using SFTP
+
+While you can use many methods to upload a file using SFTP, the instructions below are for the most common types. If you haven't used SFTP before, we recommend Option 1 below as it's easiest to configure.
+
+With all of the options, you’ll need the following information:
+
+
+  Host name: partnerupload.google.com is our SFTP server where you will send your feed.
+  User: The SFTP username you can find in your Google Merchant Center SFTP settings.
+  SFTP server port: 19321 is the port used by the Google Merchant Center SFTP server.
+  SFTP server fingerprint: 85:19:8a:fb:60:4b:94:13:5c:ea:fe:3b:99:c7:a5:4d is the identifying server fingerprint key for partnerupload.google.com.
+  Password: The SFTP password you generated in your Merchant Center account. Note that this will be different from your Merchant Center password. Your SFTP password can be found in the details of any of your file-based data sources in Merchant Center.
+
+
+Option 1: Transfer your data feed using an SFTP program
+
+Transfer your data feed using an SFTP program
+
+
+  To use this method, you'll need to have an SFTP program, also known as an SFTP client, installed on your computer. If you don't already have an SFTP client, you can download an SFTP client from the web. Depending on your usage, you may have to pay for SFTP clients after your trial period with the program runs out.
+
+  Here are SFTP clients that you can try for free:
+
+  
+    FileZilla (Windows)
+    Fetch (Mac)
+    Find alternate SFTP clients on the web by searching “SFTP clients” on Google Search.
+  
+
+  After you have downloaded and installed your SFTP program, you will need to configure it so you can connect to our SFTP server. Your SFTP client will need the following settings:
+
+  
+    Host name: partnerupload.google.com is our SFTP server where you will send your feed.
+    User: Your SFTP username can be found in the details of any of your file-based data sources in Merchant Center.
+    Password: The SFTP password generated in your Google Merchant Center account. Note that this will be different from your Merchant Center password. Your SFTP password can be found in the details of any of your file-based data sources in Merchant Center.
+    Logontype: Should be set to normal, not anonymous. You may have to change this setting before you can enter your username and password.
+  
+
+  
+    Note: SFTP clients have different interfaces. You may need to select the connection as SFTP or you may need to prefix the host name address with the "sftp://" protocol, as in sftp://partnerupload.google.com. Refer to your SFTP client's documentation for instructions.
+  
+
+
+Option 2: SFTP your data using the command line
+
+Windows: SFTP your data using Command Prompt
+
+
+  
+    From the Start menu, select Programs, then select Accessories, then select Command Prompt. Or, from the Start menu, select Programs, then select MS-DOS Prompt. If neither of the mentioned steps works, try this option: From the Start menu, select Search, then select For Files or Folders, then type in the word prompt. Double-click the file named Command Prompt.
+    In the window that appears, type sftp -P 19321 {your sftp username}@partnerupload.google.com and press Enter.
+      
+        Your SFTP username can be found in the details of any of your file-based data sources in Merchant Center.
+        “-P 19321” designates the correct port for the Google Merchant Center SFTP server.
+      
+    
+    If this is your first time connecting to partnerupload.google.com, you may find the following prompt: “The authenticity of host "[partnerupload.google.com]:19321" can't be established. RSA key fingerprint is 85:19:8a:fb:60:4b:94:13:5c:ea:fe:3b:99:c7:a5:4d. Are you sure you want to continue connecting (yes/no)?” After verifying that the fingerprint key displayed in your session matches the fingerprint key above, enter “y”.
+    You'll be prompted to enter a password. Provide the SFTP password you generated in Merchant Center. Note that this will be different from your Merchant Center password. Your SFTP password can be found in the details of any of your file-based data sources in Merchant Center.
+    Send the file through SFTP by typing put {your directory, including filename} and pressing Enter. For example, if you had a feed named "datafeed.txt" located in your Documents folder, you'd type "put C:\Users\username\Documents\datafeed.txt".
+    After a few moments, you should find a status update appear which shows you the progress of your upload, and then confirm when the upload is complete. When completed, you can exit the program.
+  
+
+  
+    Note: If you make a mistake along the way, you may get a blank prompt or an error message. If so, start over with the first step and continue until you can complete the transfer of your file.
+  
+
+
+Mac: SFTP your data using Terminal
+
+
+  
+    Open a Terminal window. You can do this by pressing Command + Spacebar, searching for Terminal, and then selecting it in the box that appears.
+    In the Terminal window that appears, type sftp -P 19321 {your sftp username}@partnerupload.google.com and press Enter.
+      
+        Your SFTP username can be found in the details of any of your file-based data sources in Merchant Center.
+        “-P 19321” designates the correct port for the Google Merchant Center SFTP server.
+      
+    
+    If this is your first time connecting to partnerupload.google.com, you may find the following prompt: “The authenticity of host "[partnerupload.google.com]:19321" can't be established. RSA key fingerprint is 85:19:8a:fb:60:4b:94:13:5c:ea:fe:3b:99:c7:a5:4d. Are you sure you want to continue connecting (yes/no)?” After verifying that the fingerprint key displayed in your session matches the fingerprint key above, enter “y”.
+    You'll be prompted to enter a password. Provide the SFTP password you generated in Merchant Center. Note that this will be different from your Merchant Center password. Your SFTP password can be found in the details of any of your file-based data sources in Merchant Center.
+    Send the file through SFTP by typing put {your directory, including filename} and pressing Enter. For example, if you had a feed named "datafeed.txt" located in your Documents folder, you'd type "put /Users/username/Documents/datafeed.txt".
+    After a few moments, you should find a status update appear which shows you the progress of your upload, and then confirm when the upload is complete. When completed, you can exit the program.
+  
+
+  
+    Note: If you make a mistake along the way, you may get a blank prompt or an error message. If so, start over with the first step and continue until you can complete the transfer of your file.
+  
+
+
+Linux: SFTP your data using the command line
+
+
+  
+    Open the Terminal.
+    In the terminal window that appears, type sftp -P 19321 {your sftp username}@partnerupload.google.com and press Enter.
+      
+        Your SFTP username can be found in the details of any of your file-based data sources in Merchant Center.
+        “-P 19321” designates the correct port for the Google Merchant Center SFTP server.
+      
+    
+    If this is your first time connecting to partnerupload.google.com, you may find the following prompt: “The authenticity of host "[partnerupload.google.com]:19321" can't be established. RSA key fingerprint is 85:19:8a:fb:60:4b:94:13:5c:ea:fe:3b:99:c7:a5:4d. Are you sure you want to continue connecting (yes/no)?” After verifying that the fingerprint key displayed in your session matches the fingerprint key above, enter “y”.
+    You'll be prompted to enter a password. Provide the SFTP password you generated in Merchant Center. Note that this will be different from your Merchant Center password. Your SFTP password can be found in the details of any of your file-based data sources in Merchant Center.
+    Send the file through SFTP by typing put {your directory, including filename} and pressing Enter. For example, if you had a feed named "datafeed.txt" located in your Documents folder, you'd type "put /home/username/Documents/datafeed.txt".
+    After a few moments, you should find a status update appear which shows you the progress of your upload, and then confirm when the upload is complete. When completed, you can exit the program.
+  
+
+  
+    Note: If you make a mistake along the way, you may get a blank prompt or an error message. If so, start over with the first step and continue until you can complete the transfer of your file.
+  
+
+
+
+Login errors when uploading files using SFTP
+
+There are several common reasons why you may have trouble connecting to the SFTP server.
+
+You haven't created an SFTP account
+
+Before you can upload files using SFTP, you need to create the SFTP account for your Merchant Center. Note, your SFTP and Google Merchant Center account logins will be different. Therefore, they'll have different usernames and passwords.
+
+Your SFTP account hasn't become active
+
+You may be unable to log in when attempting to connect too soon after creating or editing your SFTP account. It takes a couple of hours for new SFTP account information to become active.
+
+You aren't connecting to the correct SFTP server
+
+For SFTP, if you’re using command line prompt, you should be connecting to {your SFTP username}@partnerupload.google.com with a specified server port of 19321 (for example, sftp -P 19321 {your sftp username}@partnerupload.google.com). If you're using an SFTP client, you may need to prefix the host name address with the "sftp://" protocol (for example, sftp://partnerupload.google.com).
+
+You're using an incorrect SFTP username
+
+Verify that you’re using the SFTP name for the correct Merchant Center account. The SFTP username can be found in the details of any of your file-based data sources in Merchant Center.
+
+You're using an incorrect SFTP password
+
+SFTP password isn't displayed in your account for security purposes. If you've lost your password, you'll need to reset it.
+             Was this helpful?How can we improve it?YesNoSubmit       

@@ -1,0 +1,226 @@
+ Promotions on Buy on Google participation criteria and policies 
+
+
+  Buy on Google for Search and Shopping will no longer be available starting September 26, 2023. Eligible merchants will be able to use Buy on Google for YouTube in the US. Learn more about Enabling Buy on Google for YouTube.
+
+
+
+
+
+This article provides details about Buy on Google promotions participation criteria and policies. To participate, merchants need to be a retailer on Buy on Google with a Merchant Center account and must have at least one active item in your Merchant Center account.
+
+Learn more about promotions on Buy on Google
+
+Participation criteria
+
+
+  To use promotions on Buy on Google, they must meet the following criteria:
+
+  
+    Promotions must provide an additional value on top of an item’s display price
+    Promotions must follow our editorial guidelines
+  
+
+  You can run promotions on Buy on Google independently of promotions you might run on Shopping ads or your own website.
+
+
+Promotions policy requirements
+
+Supported promotion types
+
+Promotions on Buy on Google can be of the following structured promotion types. Structured promotions are promotion types that allow you to insert dollar amounts or percentages off into standardized promotions, such as “get X% off” or “Buy x units get $x USD off”.
+
+
+  
+    
+      Promotion
+      Type
+      Additional info
+    
+    
+      Discounts
+      % off discounts
+      % off on entire order
+      % off on select items
+      % off on select items with minimum order of $x USD
+    
+    
+      Promo code
+      % off with code (auto applies at checkout)
+      $ USD off with code (auto applies at checkout)
+    
+    
+      $ USD off discounts
+      $ USD off on entire order
+      $ USD off with minimum order of $x
+      $ USD off on select items
+      $ USD off on select items with minimum order of $x USD
+    
+    
+      Quantity discounts (on the same item)
+      Buy x units get $x USD off
+      Buy x units get x% off
+      Buy x units, get $x USD off or x+1 item money off
+      Buy x units, get x% off or x+1 item money off
+      Buy one get one free
+    
+    
+      Free shipping
+      Buy an item, get free shipping
+    
+  
+
+
+Unsupported promotion types
+
+
+  
+    
+      Promotion
+      Type
+      Additional info
+    
+    
+      Promotion Bundles
+      Bundle: save $x USD when you buy x & y
+       
+    
+    
+      Free gift or gift card
+      Gift or gift card with purchase
+       
+    
+    
+      Free shipping
+      Free or discounted shipping
+       
+    
+    
+      Unstructured or combined promotions
+      Custom or combined promotions
+      Promotions on Buy on Google must be structured promotions.
+    
+    
+      Does not add value
+      Mail in rebate
+      Must provide a monetary discount or an additional good or service not normally associated with the purchase
+    
+    
+      Restrictive
+      Customer targeting: new customers, existing customers, students, store credit card holders...
+      Example: 
+      10% off for Seniors and Military
+      5% off with Visa credit card
+      Must be generally accessible to most customers
+    
+    
+      Limit per customer
+       
+    
+  
+
+
+Add value
+
+Promotions must provide a monetary discount or an additional good or service not normally associated with the purchase. All promotions are applied at checkout or point of sale.
+
+Promotions can't be:
+
+
+  Trade-in offers
+  Mail-in or email rebates
+  Products and services that are usually free
+  Sweepstakes
+  Text used to advertise a product without a discount
+  Less than $5 USD or 5% off the current price of an item
+  Tax/value added tax (VAT) discounts
+  Reflected in the stock keeping unit (SKU) price on the Shopping ads product page or product landing page
+
+
+
+  Note: Maximum duration of the promotion is limited to 6 months (183 days). You are responsible for ensuring that your promotions comply with all applicable laws and regulations.
+
+
+Adhere to Buy on Google policies
+
+Some products or services can't be promoted in Buy on Google. For details, see the Buy on Google policy restrictions. Google reserves the right to remove any promotion from your Buy on Google listing at any time for any reason.
+
+Adhere to editorial requirements for titles
+
+Promotion titles should be concise, easy to understand, accurate, and only represent the value of the specific deal being promoted.
+
+Titles need to:
+
+
+  Clearly state any minimum thresholds/items needed for deal
+  Disclose any redemption requirements
+  Clearly state the conditions and any restrictions or limitations of the offer
+  Ensure that title text has only one promo applicable to Buy on Google
+
+
+Titles can't:
+
+
+  Attempt to trick or mislead customers
+
+
+See our Editorial requirements for a list of additional editorial requirements, best practices, and instructions on how to format your promotion's text. To optimize the quality of your promotions, Google may contact your business to request changes based on these guidelines.
+
+
+  Note: Google or its affiliates may modify promotion text to make non-material changes (for example: size, formatting, punctuation, capitalization and spelling modifications).
+
+
+Avoid overly restrictive promotions
+
+Promotions must be generally accessible to all customers. Promotions available only to a subset of customers or specific payment methods that are different from the website’s normal payment restrictions are unacceptable. Examples of overly restrictive promotions can include, but are not limited to:
+
+
+  "$10 USD off for Teachers & Students"
+  "10% off for Seniors and Military”
+  “$15 USD off on your birthday”
+  "First time customers"
+  “10% Discount with Like”
+  "5% off with Visa credit card"
+  "10% off when you complete a short survey at check-out"
+
+
+
+  Note: Promotions for discounts on paid memberships are acceptable.
+
+
+Make promoted products clear to the shopper
+
+Customers must be able to redeem promotions for all eligible products.
+
+If a promotion is limited to specific products, the exclusions (and any other applicable terms and conditions) need to be called out by indicating conditions using the following attribute:
+
+
+  
+  
+  
+    
+      Fine print [fine_print]
+      
+      Optional
+
+      Syntax
+
+      
+        String
+        Maximum length is 500 characters.
+      
+      
+      
+      This attribute is the text of any terms and conditions that apply to the promotion, such as restrictions and exclusions.
+
+      The terms and conditions will be shown to the customer along with a generic redemption code [generic_redemption_code].
+      
+    
+  
+
+
+
+  Need help? Click here to contact Buy on Google support.
+
+
+             Was this helpful?How can we improve it?YesNoSubmit       

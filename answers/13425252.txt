@@ -1,0 +1,269 @@
+ YouTube Shopping ads and App ads requirements
+
+
+  Note: Google provides translated versions of our Help Center. They are not meant to change the content of our policies. The English version is the official language we use to enforce our policies. To view this article in a different language, use the language dropdown at the bottom of the page.
+
+
+All YouTube Shopping ads and App ads must comply with our advertising policies, and all products served within a YouTube ad must also comply with our Shopping ads policies. This article outlines the additional requirements your products must meet to serve within YouTube ads.
+
+Automated content policy decision
+
+​We use a combination of automated and human evaluation to ensure that YouTube Shopping ads and App ads comply with these policies. Our enforcement technologies use algorithms and machine learning, modeled on human reviewers’ decisions, to help protect our customers and keep our ad platforms safe. More complex, nuanced or severe cases are often reviewed and evaluated by our specially-trained experts.
+
+Quality checks
+
+ YouTube Shopping ads and App ads can't have:
+
+
+  Blurred, distorted, incomplete, unclear, or poorly cropped images
+  Images that contain overlaid elements
+
+
+YouTube Shopping ads and App ads must meet the Google Ads editorial standards.
+
+Prohibited categories
+
+
+  
+    
+      
+        
+        Uncomfortable content
+        
+      
+    
+  
+
+
+ YouTube Shopping ads and App ads depicting pornography, sexually suggestive content, nudity, or unnecessarily exposed body parts
+
+
+  Examples:
+
+    
+      Sex toys, erotic DVDs, or sexually suggestive lingerie promotions
+      Visible genitalia, female breasts, or bare buttocks
+    
+  
+
+
+
+ YouTube Shopping ads and App ads containing gratuitous portrayals of invasive medical procedures, bodily fluids and waste, disgusting content, or shocking content
+
+
+  Examples:
+
+    
+      Dental procedures, images of organs, or blood
+      Animal and meat products
+    
+  
+
+
+
+
+  
+    
+      
+        
+        Dating
+        
+      
+    
+  
+
+
+ YouTube Shopping ads and App ads related to dating offers or intimate meetings
+
+
+  Examples:
+
+    
+      Hook-up or fling dating content
+      Coupons or gift cards to swinger dating sites
+    
+  
+
+
+
+
+  
+    
+      
+        
+        Cash giveaways
+        
+      
+    
+  
+
+
+ YouTube Shopping ads and App ads advertising cash sweepstakes, cash giveaways, paid surveys and questionnaires, or any cash products aimed at spamming or misleading customers
+ 
+
+
+  
+    
+      
+        
+        Nervous or unsafe content
+        
+      
+    
+  
+
+
+ YouTube Shopping ads and App ads that are likely to make the viewer feel nervous, threatened, fearful, in danger, ashamed, or self-conscious
+
+
+  Examples:
+
+    
+      Toys of wounded humans or animals, toys of scary animals or creatures
+      Masks, clothes, or accessories that contain dangerous or fearful symbols or images
+    
+  
+
+
+
+
+  
+    
+      
+        
+        Violent or criminal content
+        
+      
+    
+  
+
+
+ YouTube Shopping ads and App ads that depict violence or criminality
+
+
+  Examples:
+
+    
+      Products that resemble firearms
+      Products containing images of prisons, criminals, or arrests
+    
+  
+
+
+
+
+  
+    
+      
+        
+        Inappropriate substances
+        
+      
+    
+  
+
+
+ YouTube Shopping ads and App ads containing images that of illegal, regulated or harmful substances
+
+
+  Examples:
+
+    
+      Drugs, tobacco, or cigarettes
+      Needles, intoxication, addiction, or images containing these items and implying drug use
+      Alcoholic beverages
+    
+  
+
+
+
+
+  
+    
+      
+        
+        Misery or unhappy events
+        
+      
+    
+  
+
+
+ YouTube Shopping ads and App ads that depict or correlate to unhappy life events in a way that would likely make the viewer uncomfortable
+
+
+  Examples:
+
+    
+      Products related to death or funerals, such as caskets, condolences flowers, and graveyards
+      YouTube Shopping ads and App ads related to divorce, breakups or family separation
+      Images containing vehicle accidents, emergencies, injuries, or hospital visits
+      Depiction of natural or man-made disasters
+    
+  
+
+
+
+
+  
+    
+      
+        
+        Media content
+        
+      
+    
+  
+
+
+ YouTube Shopping ads and App ads such as movies, TV shows, news channels, and video games that show gory content
+
+
+  Examples:
+
+    
+      Video games containing shocking images
+      T-Shirt, hats or other products containing violent content from a TV Show scene
+    
+  
+
+
+
+
+  
+    
+      
+        
+        Political content
+        
+      
+    
+  
+
+
+ YouTube Shopping ads and App ads related to elections or politics, including political figures, political news, elections, or voting
+
+
+  Examples:
+
+    
+      Products relating to political organizations, political parties, political issue advocacy or fundraising, and individual candidates and politicians
+    
+  
+
+
+
+
+  
+    
+      
+        
+        Gambling content
+        
+      
+    
+  
+
+
+ YouTube Shopping ads and App ads that depict or reference gambling-related content, including lottery, offline gambling, online gambling, online non-casino games, and social casino games
+             Was this helpful?How can we improve it?YesNoSubmit       

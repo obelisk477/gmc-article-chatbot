@@ -1,0 +1,168 @@
+ Promotions policies
+
+Promotions policies provide important guidance about promotion eligibility. To help make sure users have a positive experience, your promotions must comply with the following policies:
+
+
+  Promotions must add value
+  Adhere to Shopping ads policies
+  Adhere to Google editorial requirements for titles
+  Follow redemption requirements
+  Avoid overly restrictive promotions
+  Make promoted products clear to the shopper
+  Make confirmation of promotion receipt clear
+  Include redemption code for shipping promotions
+  Follow combined promotions policies
+
+
+Add value
+
+Promotions must provide a monetary discount or an additional good or service not normally associated with the purchase. All promotions are applied at checkout or point of sale.
+
+Promotions  can't be:
+
+
+  Trade-in offers
+  Mail-in or email rebates
+  Products and services that are usually free
+  Sweepstakes
+  Text used to advertise a product without a discount
+  Less than $5 or 5% off the current price of an item
+  Tax/value added tax (VAT) discounts
+  Reflected in the SKU (stock keeping unit) price on the Google product page or your product landing page
+
+
+Note: Promotions are limited to 6 months (183 days).
+
+Adhere to Shopping ads policies
+
+Some products or services can't be shown in ads or free listings. For details, see the Shopping ads policy restrictions. Google reserves the right to remove any promotion from your ad or listing at any time for any reason.
+
+Adhere to editorial requirements for titles
+
+Promotion titles should be concise, easy to understand, accurate, and only represent the value of the specific deal being promoted.
+
+Titles need to:
+
+
+  Clearly state any minimum thresholds/items needed for deal
+  Disclose any redemption requirements
+  Include billing expectations, additional charges, minimum purchase limits, etc.
+  Clearly state the conditions and any restrictions or limitations of the offer
+
+
+Titles can't:
+
+
+  Attempt to trick or mislead customers
+  Keep additional fees hidden until checkout
+
+
+See our editorial requirements for a complete list, including best practices, and instructions on how to format your promotion's text. To optimize the quality of your promotions, Google may contact your business to request changes based on these guidelines.
+
+Note: Google or its affiliates may modify promotion text to make non-material changes (for example: size, formatting, punctuation, capitalization, and spelling modifications).
+
+Follow redemption requirements
+
+Retailers must not impose deal-specific costs on users upon redemption if these costs do not apply to non-deal purchases. In other words, when customers redeem a promotion, they should not be subject to fees which do not apply to someone not redeeming a promotion.
+
+Promotions must be redeemable without unspecified additional user requirements. Deals where retailers impose requirements not included in titles in order to redeem are not permissible. Unacceptable additional requirements include, but are not limited to:
+
+
+  Sign up for store credit card
+  Sign up for paid membership
+  Take this survey to redeem the promotion
+
+
+Avoid overly restrictive promotions
+
+Promotions must be generally accessible to all customers. Promotions available only to a subset of customers or specific payment methods that are different from the website’s normal payment restrictions are unacceptable. Examples of overly restrictive promotions can include, but are not limited to:
+
+
+  $10 off for Teachers & Students
+  10% off for Seniors and Military
+  $15 off on your birthday
+  10% Discount with Like
+  5% off with Visa credit card
+  10% off when you complete a short survey at check-out
+
+
+Although you can't require users to sign up for a paid membership in order to redeem a promotion, you can offer promotions for discounts on membership fees (example: 20% discount on annual membership fees). You are able to offer promotions applicable to free membership programs as long as the condition is specified in the title.
+
+Promotions offered only to first-time customers are allowed, as long as you state the targeting condition in the title (example: 10% off for new customers or $10 off on first purchase). If you’re using Smart Shopping campaigns in your Google Ads account, we recommend that you set up a new customer conversion goal to help increase the number of new customers your campaigns acquire. Learn more about new customer conversion goals for Smart Shopping campaigns
+
+Promotions for first-time customers are not applicable to Buy on Google listings.
+
+Make promoted products clear to the shopper
+
+Customers must be able to redeem promotions for all eligible products. When a promotion is limited to specific products, it must be applicable to only the specific products identified in your products feed.
+
+Bundled promotions must clearly disclose all items. If a combination of products must be added to qualify for the promotion, the title should clearly state all products that must be added.
+
+Make confirmation of promotion receipt clear
+
+A customer's receipt of promotions must be clearly confirmed by the point of purchase, and given in the cart or at checkout (not on the product landing page).
+
+Discounts must not already be shown on the product landing page. If your promotion says “$10 off” and a customer is purchasing a $100 item, they would also expect to see the item priced at $100 on your landing page (where they could then redeem the promotion). If your landing page shows the item’s price at $90 (because the discount was already factored in), it creates a negative experience.
+
+Promotions confirmed on landing pages are not considered added value and are not eligible. See Shopping policies for more information. The price in your products feed (which is the price that we also show in ads and free listings) must match the price on the landing page.
+
+Receipt of free gifts, gift cards, or e-cards can be displayed on the product landing pages, and must also be mentioned in one of the following locations:
+
+
+  Cart or basket
+  Checkout page
+
+
+Note that free gift cards for stores other than your own are not permissible. Additionally, sample products or trials do not qualify as free gifts. Store credit and reward points are permissible only in monetary value. To review title guidelines for gifts, refer to the editorial requirements.
+
+Include redemption code for shipping promotions
+
+A shipping promotion must have a valid redemption code or it will not be considered an added value. If free shipping is already offered on your site at a certain threshold without a code, you can still offer free shipping at a lower amount as long as it is associated with a code.
+
+Note: If your promotion offers shipping at a lower threshold, promotions should not be tied to items priced above the normally offered threshold. The promotion must have a product applicability of Specific products and be mapped only to products that are priced below the offered amount.
+
+For example, if free shipping is already given for orders $45+ (without a code) and you would like for free shipping to be given at $35+ with a code, the promotion should only be mapped to items that are priced below $45.
+
+Follow combined promotions policies
+
+Some promotions that are not permissible as standalones can become permissible when combined with another promotion that provides additional value for customers.
+
+
+  
+    
+      
+        Example Title
+        Allowed
+      
+      
+        10% off on all products with free shipping
+        Yes - Allowed with or without a shipping redemption code
+      
+      
+        $50 mail-in or email rebate and $25 instant discount for $300+ purchase
+        Yes - Rebate promotion combined with instant discount promotion is considered an added value promotion
+      
+      
+        $50 mail-in or email rebate plus free shipping sitewide
+        Yes - If promotion contains valid shipping redemption code
+        No - If promotion is missing shipping redemption code
+        
+      
+      
+        Free camera lens + 2% rewards
+        Yes - Rewards promotion combined with a free gift is considered an added value
+      
+      
+        20% off + Buy one get one free
+        Yes - If 20% discount is reflected in checkout page
+        No - If 20% discount is given in product landing page already and the checkout page price is same as product landing page price
+        
+      
+    
+  
+
+  
+    In some cases of repeated policy violations, you will receive a warning notification email. If you do not respond to the email or continue to violate Google’s policies, the promotions feature will be deactivated from your Merchant Center account. Any promotions in the deactivated account will no longer display, and you will not be able to submit new data.
+  
+
+             Was this helpful?How can we improve it?YesNoSubmit       

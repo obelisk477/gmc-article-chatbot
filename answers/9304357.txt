@@ -1,0 +1,67 @@
+ How to set promotion limits and budgets for Buy on Google
+  Buy on Google for Search and Shopping will no longer be available starting September 26, 2023. Eligible merchants will be able to use Buy on Google for YouTube in the US. Learn more about Enabling Buy on Google for YouTube.
+
+
+
+
+
+This article explains what promotion limits and budgets are and how you can add them to your Buy on Google promotions.
+
+Limits and budgets allow you to:
+
+
+  Have more control over your promotions
+  Limit the amount you want to spend on a promotion
+  Prevent a promotion from being applied too many times
+
+
+Adding a limit and a budget to your promotions is optional. Learn more about how to create a promotion in Merchant Center
+
+Once the promotion limits you set are reached, your promotions will no longer be displayed to customers. You can set limits for:
+
+
+  Maximum budget: This is the total amount you can set for a promotion. For example, imagine that you want to set up a promotion of 10 USD off per item and you set a maximum budget of 1000 USD. Once you sell 100 items in this promotion, the total budget amount is reached and the promotion is no longer displayed to customers.
+  Order limit: The maximum number of orders a promotion applies to. When the order limit is reached, your promotion is no longer displayed to customers.
+
+
+
+  Note: Google may stop displaying a promotion before the limit is reached to prevent oversell. This applies to both maximum budget and order limits.
+
+
+How to add a budget and/or order limit to a promotion:
+
+
+  Sign in to your Merchant Center account
+  Click Marketing in the navigation menu, then click Promotions
+  Click the plus button 
+  Select the promotion categories that best fit your promotion
+  Under “Buy on Google”, enter the order limit and/or the maximum budget for the promotion
+  Click Continue and finish editing your promotion
+
+
+Feed attributes
+
+You can also set a budget and/or order limit to a promotion by using the following promotion feed attributes:
+
+
+  
+    
+      Attribute
+      Description
+    
+    
+      Maximum number of promotion applications [end_promo_max_applies]
+      The maximum number of orders the promotion can be applied to
+    
+    
+      Maximum budget for promotion [end_promo_max_cost]
+      The maximum budget amount set for the promotion
+    
+  
+
+
+
+  Need help? Click here to contact Buy on Google support.
+
+
+             Was this helpful?How can we improve it?YesNoSubmit       

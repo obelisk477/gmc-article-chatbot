@@ -1,0 +1,165 @@
+ FAQs for collecting product reviews
+
+
+  Will collecting product reviews via Google Customer Reviews impact the existing seller rating for my site?
+
+  
+    No, the seller rating for your site will not be impacted by the collection of product reviews via Google Customer Reviews. Product reviews are used to calculate product ratings for the products that you sell on your site and have no effect on the seller rating calculation.
+  
+
+
+
+  I implemented the new code for collecting product reviews. When will product ratings start surfacing with my ads?
+
+  
+    
+      Product ratings will begin surfacing on your Shopping ads as well as the Shopping tab when Google has successfully collected product reviews on your behalf. The process toward eligibility begins with Google receiving valid GTINs via the opt-in module for orders placed on your site.
+
+      Please note that product ratings will only surface for any given product when Google has 3 reviews or more for that product. If a specific product you have provided a GTIN for does not have product ratings surfacing, this may be because Google has not yet received sufficient reviews for that product. There may also be a delay between the point at which a product review is collected by Google Customer Reviews and the point at which it is displayed along with other product reviews in the product listing page for a given product.
+    
+  
+
+  
+    Can I stop collecting product reviews via Google Customer Reviews if I don’t want to use this feature?
+
+    
+      
+        Yes, you’re not required to collect product reviews via Google Customer Reviews. If you want to stop using this feature at any point, you simply have to remove the "products" line of code from the opt-in module code snippet on your site. When you remove this line of code, we will no longer collect GTINs from orders placed on your site, and you’ll no longer receive product reviews from your shoppers.
+
+        Please note that if you decide to stop collecting product reviews via Google Customer Reviews, product ratings will disappear from your Shopping ads and your product listings on the Shopping tab.
+
+        See the opt-in module below and notice the highlighted line of code that you need to delete in order to stop collecting GTINs via Google Customer Reviews.
+
+        
+          
+            <!-- BEGIN GCR Opt-in Module Code -->
+              <script src="https://apis.google.com/js/platform.js?onload=renderOptIn"
+              async defer>
+              </script>
+
+            <script>
+              window.renderOptIn = function() {
+              window.gapi.load("surveyoptin", function() {
+              window.gapi.surveyoptin.render(
+              {
+              // REQUIRED
+              "merchant_id": "MERCHANT_ID",
+              "order_id": "ORDER_ID",
+              "email": "CUSTOMER_EMAIL",
+              "delivery_country": "COUNTRY_CODE",
+              "estimated_delivery_date": "YYYY-MM-DD",
+
+             // OPTIONAL
+              "opt_in_style": "OPT_IN_STYLE",
+              "products": [{"gtin":"GTIN1"}]
+
+             });
+              });
+              }
+              </script>
+              <!-- END GCR Opt-in Module Code →
+          
+        
+      
+    
+
+    
+      If I decide to stop collecting product reviews via Google Customer Reviews, what happens to existing product reviews that have been collected from my store?
+
+      
+        If you stop collecting product reviews via Google Customer Reviews, existing product reviews that have been collected from your site will continue to be displayed in the product listing page for each qualifying product. However, product ratings will disappear from your Shopping ads and your product listings on Google.
+      
+
+      
+        Can I stop collecting seller ratings via Google Customer Reviews but still collect product ratings?
+
+        
+          The product ratings survey is the optional module in Google Customer Reviews, while the main module collects reviews that add to your seller ratings. It is not possible, therefore, to keep collecting product ratings through Google Customer Reviews if you have disabled the opt-in module for collecting reviews for seller ratings.
+        
+
+        
+          My website is still using the old Trusted Stores code snippets. Can I use this new product reviews feature?
+
+          
+            If your site is still using the old Trusted Stores code snippets, you cannot use the new product reviews feature until you update your source code to use the new Google Customer Reviews code snippet. You must remove both the Trusted Stores opt-in module code and badge code from your site, and follow the instructions in the Google Customer Reviews technical integration guide to add the new opt-in module snippet (and, optionally, the new badge snippet) to your site.
+
+            Once you do that, you can follow the instructions below to start using the new product reviews feature:
+
+            1. In your site’s source code, locate the new Google Customer Reviews opt-in module snippet shown above.
+
+            2. Below the "opt_in_style" line, add the new "products" line.
+
+            
+              // OPTIONAL
+                "opt_in_style": "OPT_IN_STYLE",
+                "products": [{"gtin":"GTIN1"}]
+
+               
+            
+
+            The line above specifies the products in a customer’s order as an array of JSON "gtin" objects inside a "products" array. This line has just one "gtin" object, so it will enable Google Customer Reviews to collect a single GTIN for an order, regardless of how many products are part of the order. To collect a GTIN for every product in an order, you’ll need to add code to your site to dynamically add a "gtin" object to the "products" array for every distinct product in the order.
+
+            For example, an order that includes two distinct products should have a snippet that looks like this:
+
+            
+              // OPTIONAL
+                "opt_in_style": "OPT_IN_STYLE",
+                "products": [{"gtin":"GTIN1"}, {"gtin":"GTIN2"}]
+            
+
+            An order that includes three distinct products should have a snippet that looks like this:
+
+            
+              // OPTIONAL
+                "opt_in_style": "OPT_IN_STYLE",
+                "products": [{"gtin":"GTIN1"}, {"gtin":"GTIN2"}, {"gtin":"GTIN3"}]
+            
+
+            3. Once you have correctly implemented the new code on your site, we’ll start collecting GTINs from orders placed on your site and gathering product reviews from your shoppers.
+          
+
+          
+            Are there any products that are not eligible to get reviewed by shoppers via Google Customer Reviews?
+
+            
+              Yes, there are products that are not eligible to get reviewed by shoppers via Google Customer Reviews. We’ll only generate product surveys for products that have a valid GTIN and are matched to a product in the Shopping catalog.
+            
+          
+
+          
+            The products that I sell don’t have GTINs. Can I still collect product reviews via Google Customer Reviews?
+
+            
+              Unfortunately, if you do not sell any products that have GTINs on your site, you will not be able to collect product reviews via Google Customer Reviews. We will only generate product surveys for products that have a valid GTIN and are matched to a product in the Shopping catalog. However, you can still continue using Google Customer Reviews to collect seller reviews that help you earn a seller rating for your site.
+            
+          
+        
+
+        
+          What is the definition of a valid GTIN?
+
+          
+            Google Customer Reviews considers a GTIN to be valid if it is properly formatted in accordance with international standards and corresponds to an existing product listing in the Shopping catalog.
+          
+        
+      
+
+      
+        What kind of GTIN formats are supported by Google Customer Reviews?
+
+        
+          There are various GTIN formats that comply with international standards: GTIN-12, GTIN-14, UPC, EAN, etc. All of these GTIN formats are supported by Google Customer Reviews.
+        
+      
+    
+  
+
+  
+    What happens when a customer buys multiple products with valid GTINs in a single order?
+
+    
+      When a customer buys multiple products with valid GTINs in a single order, they will receive just one product survey for each order they make. Google will choose which GTINs to survey users on, with the logic for selection likely to change over time.
+    
+  
+
+             Was this helpful?How can we improve it?YesNoSubmit       

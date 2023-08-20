@@ -1,0 +1,205 @@
+ List your products for free on GoogleThis article is intended for users of the Google & YouTube app on Shopify
+
+
+  If you're looking for information for how to list your products for free on Google on Merchant Center Next, click here.
+
+
+
+For eligible stores, products synced to Merchant Center using the Google & YouTube app on Shopify can appear across Google for free.
+
+If you already use the Google & YouTube app on Shopify to sync products to Merchant Center, then you can confirm that your product feed is opted in to surfaces across Google. If you opt in to surfaces across Google, then your products can appear in unpaid product listings on Google surfaces. You can choose any Comparison Shopping Service via the CSS dashboard available in your Merchant Center.
+
+If you're new to the Google & YouTube app on Shopify, then you need to set up the app to sync your products with Google Merchant Center.
+
+
+On this page
+
+
+  About free listings
+  Supported countries and regions
+  Confirm that your product feed is opted in to surfaces across Google
+  Opting in/out of free listings
+
+
+
+About free listings
+
+Free listings allow customers to see product results from your Shopify store across Google, such as on the Shopping tab, YouTube, Google Search (.com), Google Images, and Google Lens.
+
+Customers who search on the Shopping tab have a high purchase intent, so your product listings in those search results might convert better than regular search engine results. Additionally, only approved products appear in Shopping tab search results, so there is a greater chance that new customers will discover your products when searching with the Shopping tab than within regular search engine listings. Your products might also appear as a rich snippet in the Search results page for related product searches.
+
+
+  
+    Note: Your products aren't guaranteed to show across Google, as we rely on the data that you provide to us to then match what customers might be searching for.
+  
+
+
+Learn more about how to Show your products for free on Google.
+
+To improve the performance of your product listings on the Shopping tab, use the following guidance to help you optimize your product information:
+
+
+  Make sure that your product and store information is descriptive and up to date.
+  Add high-quality images to your products.
+  Optimize your product titles and descriptions by including keywords that customers use in searches.
+  Add relevant product data, such as size or gender, to improve the chance that customers can find your products.
+  Add a product type to your products up to at least 3 levels. Learn more about Product type.
+
+
+
+  
+    Note: If you're new to online selling, then it might take time before your products appear in relevant search results.
+  
+
+
+
+Supported countries and regions
+
+You can list your products for free on Google in the following countries and regions.
+
+
+  
+    
+      
+      
+      
+    
+    
+      
+        Argentina
+        India
+        Saudi Arabia
+      
+      
+        Australia
+        Indonesia
+        Singapore
+      
+      
+        Austria
+        Israel
+        Slovakia
+      
+      
+        Belgium
+        Ireland
+        South Africa
+      
+      
+        Brazil
+        Italy
+        South Korea
+      
+      
+        Canada
+        Japan
+        Spain
+      
+      
+        Chile
+        Malaysia
+        Sweden
+      
+      
+        Colombia
+        Mexico
+        Switzerland
+      
+      
+        Czechia
+        Netherlands
+        Taiwan
+      
+      
+        Denmark
+        New Zealand
+        Thailand
+      
+      
+        Finland
+        Norway
+        Turkey
+      
+      
+        France
+        Philippines
+        Ukraine
+      
+      
+        Germany
+        Poland
+        United Arab Emirates
+      
+      
+        Greece
+        Portugal
+        United Kingdom
+      
+      
+        Hong Kong SAR
+        Romania
+        United States
+      
+      
+        Hungary
+        Russia
+        Vietnam
+      
+    
+  
+
+
+
+Confirm that your product feed is opted in to surfaces across Google
+
+For your synced products to be eligible to show in free listings across Google, your store needs to sell in a supported country or region. Additionally, the method that you used to create your Merchant Center account determines whether your product feed is automatically opted in to show on surfaces across Google:
+
+
+  If you created your Merchant Center account by using the Google & YouTube app on Shopify and your store meets eligibility requirements, then your approved products can automatically start appearing on the Shopping tab in relevant search results.
+  If you created your Merchant Center account outside of Shopify, then you need to use Merchant Center to confirm whether your products can appear on the Shopping tab in relevant search results.
+
+
+Learn more about how to view the status of feeds and products.
+
+
+Opting in for free listings
+
+If you want to opt in for free listings across Google, follow the steps below:
+
+
+  In the Google & YouTube appon Shopify, select the Settings tab.
+  Select and open your Merchant Center account.
+  In the left navigation menu, click Products then click Feeds.
+  Under the "Destinations" section of the table, confirm that Free listings is shown. If your product feed lists Free listings as a destination, then your approved products can appear on surfaces across Google.
+  If Free listings isn't listed as a destination for your product feed, then you need to opt in:
+    
+      Click the name of your product feed. Product feeds created by Shopify are listed as Content API.
+      Under the Settings tab, select your target country. If you don't sell to a supported country or region, then you aren't eligible to opt in.
+      Check Free listings to opt in.
+    
+  
+
+
+Opting out of free listings
+
+If you'd like to exclude your feed from a particular destination after configuring your account:
+
+
+  In the Google & YouTube appon Shopify, select the Settings tab.
+  Select and open your Merchant Center account.
+  In the left navigation menu, click Products then click Feeds.
+  Select the name of the feed you wish to update.
+  On the page that loads, click the Settings tab.
+  Deselect any destinations that you'd like to exclude in the "Destinations" section.
+  Click Save.
+
+
+
+Related links
+
+
+  Show your products for free on Google
+  Where Google shows your free listings
+  Set up free product listings in Merchant Center
+
+             Was this helpful?How can we improve it?YesNoSubmit       

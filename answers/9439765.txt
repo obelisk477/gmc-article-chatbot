@@ -1,0 +1,300 @@
+ How to implement pickup later for local inventory ads
+
+Pickup later allows you to provide a direct online to offline experience for your customers. For items that can be picked up in store within a specific SLA regardless of store availability, pickup later allows you to use your stores as an omnichannel asset and differentiator. Unlike other local inventory ads features, pickup later doesn't require full inventory information.
+
+Pickup later for local inventory ads gives you full flexibility for granular SLA information at the store level for each product. Additionally, pickup later for local inventory ads is compatible with all of the other local inventory ads products: you can advertise pickup later alongside in-stock inventory in a way that maximizes the value of your stores as omnichannel assets.
+
+Pickup later for local inventory ads runs in conjunction with Shopping ads, only surfacing when customers are more likely to engage with pickup later than alternatives based on user intent.
+
+Before you begin
+
+If you're interested in participating in pickup later for local inventory ads, fill out the interest form.
+
+Implementation guide for pickup later for local inventory ads
+
+In order to implement pickup later for local inventory ads, you must meet the following requirements:
+
+
+  You must satisfy all requirements for local inventory ads. Review our implementation guide.
+  You must be able to identify your store locations that are eligible to fulfill online orders.
+  You must be able to fulfill store pickup orders even when a product isn't physically in-stock at your store locations.
+  You must meet the website requirements outlined below, which also include the merchant hosted local storefront (full) or merchant hosted local storefront (basic) requirements. Request a review of your website by filling out this form.
+  Verify that your local product inventory feed contains out of stock items (with availability [availability] set to “out_of_stock”).
+  Add the required attributes to your primary and local product inventory feed.
+  Link Google Ads and enable your campaigns.
+    
+      Link your Merchant Center and Google Ads accounts.
+      Enable Local products in your Shopping campaign.
+    
+  
+
+
+Website requirements and recommendations
+
+Your website must meet the requirements listed below on both desktop and mobile devices, including tablets. Once you're certain that your website meets the requirements, request a review of your website by filling out this interest form.
+
+
+  Important: The Google-hosted local storefront can't be used in combination with pickup later for local inventory ads.
+
+
+
+  Website requirements
+
+  
+    
+      Display your pickup later option on your landing pages or in your checkout flow.
+      Allow customers to select the store where their order will be shipped.
+        
+          Stores can be displayed after clicking on a link (for example: “check availability” or by entering a postal code or address).
+          Alternatively, store selection can occur in your checkout flow after a customer has added an item to their cart.
+        
+      
+      Display the item’s price on your product page.
+        
+          Note: The price must match the value of the price [price] attribute in your primary feed or local inventory feed. Submit the price [price] attribute in your primary feed for national default pricing and in the local product inventory feed for any store-specific overrides.
+        
+      
+      Indicate pickup date and pickup fee (if a pickup fee will be charged).
+        
+          This may be displayed in your checkout flow alongside store selection.
+        
+      
+      Provide an option to select other store locations.
+        
+          This may be displayed in your checkout flow alongside store selection.
+        
+      
+      Allow users to complete and pay for their order on your website.
+      Provide a pickup confirmation message when the order is ready (for example: email or SMS).
+      Don't require customers to enter payment information before showing your fulfillment options.
+    
+  
+
+  
+    Website recommendations
+
+    
+      In addition to the website requirements above, we recommend the following:
+
+      
+        Don't require customers to create an account before showing your fulfillment options (for example: provide a “checkout as guest” option).
+        Don't require customers to enter address information before showing your fulfillment options.
+      
+    
+  
+
+
+Feed requirements
+
+
+  
+    
+      Important: Pickup later for local inventory ads allows you to advertise offers where availability is “out of stock” or the quantity is “0” (out of stock). Inventory offers with availability [availability] “in stock” or “limited availability” or quantity [quantity] larger than “0” will be treated as regular inventory ads.
+    
+  
+
+  
+    Pickup later enables you to create ads showing your local products regardless of whether the product is in the store when the order is placed. In order to create ads showing your local products for your in-stock items, you must verify your store inventory. Learn more About inventory verification
+  
+
+  In addition to the feed requirements for the merchant hosted feature, please add the following attributes to the assigned feeds below. Select the type of merchant hosted local storefront (MHLSF) you're using to ensure that you submit the correct values. If you're new to local inventory ads, we recommend that you use merchant hosted local storefront (basic). Learn more About the merchant hosted local storefront
+
+  
+    
+      Merchant hosted local storefront (basic)
+
+      
+        
+          
+            
+              Attribute
+              Required or optional?
+              Feed
+              Possible values
+              Note
+            
+            
+              Pickup method [pickup_method]
+              Required
+              Local product inventory feed
+              
+              ship_to_store
+
+              not_supported
+
+              Text/tab delimited example
+                ship to store
+
+              XML example
+                <g:pickup_method>ship to store</g:pickup_method>
+              
+              
+              Submit “ship_to_store” in the local products inventory feed if the product can be shipped to the relevant store.
+
+              Submit “not_supported” if the product can't be shipped to the relevant stores.
+              
+            
+            
+              
+              Pickup SLA [pickup_sla]
+              Required
+              Local product inventory feed
+              
+              2-day
+                3-day
+                4-day
+                5-day
+                6-day
+                multi-week
+
+              Text/tab delimited example
+                multi-week
+
+              XML example
+                <g:pickup_sla>multi-week</g:pickup_sla>
+              
+              
+              If the item's pickup method [pickup_method] is set to “not_supported” leave pickup SLA [pickup_sla] blank.
+
+              Tip: You can set the pickup SLA [pickup_sla] to multi-week if you want to show a fixed annotation, the ad will render the annotation “Store pick-up”.
+              
+            
+            
+              Link [link]
+              Required
+              Primary feed
+              URL parameter or URL path
+              The link [link] attribute will be used for pickup later for local inventory ads and the merchant-hosted local storefront (basic) feature.
+            
+            
+              Mobile link [mobile_link]
+              Optional
+              Primary feed
+              URL parameter or URL path
+              If you have a mobile-optimized page, submit the mobile link [mobile_link]attribute.
+            
+            
+              Ads redirect [ads_redirect]
+              Optional
+              Primary feed
+              URL parameter or URL path
+              Use the ads redirect [ads_redirect] attribute to specify additional landing page parameters for a product in a Shopping ad.
+            
+          
+        
+      
+    
+
+    
+      Merchant hosted local storefront (full)
+
+      
+        
+          
+            
+              Attribute
+              Required or optional?
+              Feed
+              Possible values
+              Note
+            
+            
+              Pickup method [pickup_method]
+              Required
+              Local product inventory feed
+              
+              ship_to_store
+
+              not_supported
+
+              Text/tab delimited example
+                ship to store
+
+              XML example
+                <g:pickup_method>ship to store</g:pickup_method>
+              
+              
+              Submit “ship_to_store” in the local products inventory feed if the product can be shipped to the relevant store.
+
+              Submit “not_supported” if the product can't be shipped to the relevant store.
+              
+            
+            
+              Pickup SLA [pickup_sla]
+              Required
+              Local product inventory feed
+              
+              2-day
+                3-day
+                4-day
+                5-day
+                6-day
+                multi-week
+
+              Text/tab delimited example
+                multi-week
+
+              XML example
+                <g:pickup_sla>multi-week</g:pickup_sla>
+              
+              
+              If the item's pickup method [pickup_method] is set to “not_supported” leave pickup SLA [pickup_sla]blank.
+
+              Tip: You can set the pickup SLA [pickup_sla] to multi-week if you want to show a fixed annotation, the ad will render the annotation “Store pick-up”.
+              
+            
+            
+              Link for merchant hosted local storefront [link_template]
+              Required
+              Primary feed
+              URL parameter or URL path
+              The link for merchant hosted local storefront [link_template] attribute will be used for pickup later for local inventory ads and the merchant-hosted local storefront (full) feature.
+            
+            
+              Mobile link for merchant hosted local storefront [mobile_link_template]
+              Optional
+              Primary feed
+              URL parameter or URL path
+              If you have a mobile-optimized page, submit the mobile link for merchant hosted local storefront [mobile_link_template]attribute
+            
+            
+              Ads redirect [ads_redirect]
+              Optional
+              Primary feed
+              URL parameter or URL path
+              Use the ads redirect [ads_redirect] attribute to specify additional landing page parameters for a product in a Shopping ad.
+            
+          
+        
+      
+
+      
+        Best practices
+
+        
+          
+            You may show the pickup later option in ads showing your local products if an item is out of stock at a local store, but can be shipped to the local store for a customer to pick up.
+
+            
+              Set the following attribute values in your local products inventory feed:
+                
+                  Availability [availability]: “out_of_stock”
+                  Pickup method [pickup_method]: “ship_to_store”
+                  Pickup SLA [pickup_sla]: choose one of the following values: "2-day", "3-day", "4-day", "5-day", "6-day", "multi-week"
+                  If you were previously activated for pickup later for Shopping Ads and would now like to migrate to pickup later for local inventory ads also submit: Availability [availability]: “out of stock”
+                
+              
+            
+
+            
+              Note: You may only select one omnichannel fulfillment option for each item in your inventory feed. Inserting 2 rows for the same item at the same store will cause an error.
+            
+
+            Implement both the pickup later feature and the pickup today feature to show your full range of fulfillment options to customers. Please review the pickup today implementation options.
+          
+        
+      
+    
+  
+
+             Was this helpful?How can we improve it?YesNoSubmit       

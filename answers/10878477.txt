@@ -1,0 +1,35 @@
+ About U.S. online marketplace consumer information laws
+  Buy on Google for Search and Shopping will no longer be available starting September 26, 2023. Eligible merchants will be able to use Buy on Google for YouTube in the US. Learn more about Enabling Buy on Google for YouTube.
+
+
+
+
+
+U.S. laws require Google to collect and verify information about Buy on Google retailers, and then display that information across Google surfaces. This means certain retailers will need to undergo a data verification process in order to ensure a safe, trustworthy, and more transparent experience for users. This process will help consumers understand your business, products and services better.
+
+How it works
+
+Retailers participating in Buy on Google must submit additional information either when setting up their Buy on Google account, or if you already had a Buy on Google account before these laws went into effect, when prompted in your account. 
+
+You’ll find the list of required information in the Buy on Google setup page of your Merchant Center account. 
+
+
+  Sign in to your Merchant Center account.
+  Click the tools  icon.
+  Under “Tools,” click Buy on Google setup.
+  Enter the required information.
+
+
+
+  Note: Not conforming to the requirements above may result in your products not showing on Buy on Google. An example of an online marketplace consumer information law is the federal INFORM Consumers Act.
+
+
+ 
+
+
+  Need help? Click here to contact Buy on Google support.
+
+
+
+ 
+             Was this helpful?How can we improve it?YesNoSubmit       

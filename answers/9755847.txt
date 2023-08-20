@@ -1,0 +1,74 @@
+ How to fix: Inconsistent value: price [price] for MHSLF (basic)For your merchant-hosted local storefront (basic), ensure that the prices in your product data matches the prices displayed on your landing page
+
+When someone clicks a local inventory ad or free local product listing on Google, they expect to see the same price on your landing page as they see in the ad or listing. You may be paying for wasted clicks if someone clicks on a product and then returns to Google after seeing a different price on your landing page.
+
+
+  Price mismatches were found between your local inventory ads data and your landing pages. You should have received an email asking you to update your local inventory ads data by a certain date so the values in your data are consistent with those on your landing page. If mismatching data is detected after this date, your account will be suspended and will no longer be eligible to serve local inventory ads and listings.
+
+
+Instructions
+
+Expand all
+
+The merchant-hosted local storefront (basic) implementation advertises the national price of a product. Refer to the table below to determine which feed and attribute is providing the ad price for your ads or free listings showing your local products.
+
+
+  
+    
+      Storefront Type
+      Feed Source
+      Pricing Attribute
+    
+    
+      Basic
+      Primary Feed or Legacy Local Products Feed
+      Price [price] or sale price [sale_price]
+    
+  
+
+
+ 
+Step 1: Ensure that price in your product data matches price on your landing page
+
+
+  
+    Investigate your update process to see what could be causing the problem:
+      
+        Check the warning email for examples of products that were disapproved. Look for a common problem in your product data that could cause these mismatched prices.
+        Make sure you’re updating your landing page and product data at the same time. Schedule an upload or use the Content API to immediately update your product data. This scheduling helps make sure Google has the same data that is displayed on your landing page.
+      
+    
+    Once you’ve addressed the problem, update the price [price] attributes in your product data to match your landing page.
+  
+
+Step 2: Resubmit your product data
+
+
+  
+    Once you’ve updated your product data, resubmit it using one of the methods below:
+      
+        Upload a feed
+        Submit through the Content API
+      
+    
+  
+
+Step 3: Wait for your data to be re-crawled
+
+
+  
+    Google will crawl the products listed in your Merchant Center account. If we detect that your feed data prices now match your landing page prices, your account suspension will be lifted and you will be able to serve local inventory ads and listings again.
+  
+
+
+Tips
+Ensure that you are submitting data correctly when advertising on-sale products
+
+
+  
+    If you are submitting the sale price [sale_price] attribute to advertise on-sale products, make sure that you also submit the sale price effective date [sale_price_effective_date] attribute to specify when a sale expires.
+      
+      Otherwise, you run the risk of advertising a sale price [sale_price] that is no longer active on your product landing page, which will result in a mismatched price.
+  
+
+             Was this helpful?How can we improve it?YesNoSubmit       

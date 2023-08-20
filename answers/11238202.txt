@@ -1,0 +1,64 @@
+ About the Merchant Center status dashboard
+
+Use the Merchant Center status dashboard to get real-time updates about product outages or service disruptions for Merchant Center.
+
+VIEW THE MERCHANT CENTER DASHBOARD
+
+Understand the dashboard
+
+
+  All times are shown in Coordinated Universal Time (UTC).
+  The first column on the left shows all products that are supported.
+  The last column on the right shows the current service status for each product.
+  The dated columns in between contain icons indicating historical statuses for the dates shown.
+
+
+Product statuses
+
+
+  
+    
+      
+      Available
+      The product is fully available with no known disruptions
+    
+    
+      
+      Service information
+      Product or service notification update
+    
+    
+      
+      Service disruption
+      Major features in the product are unavailable or affected by a known issue
+    
+    
+      
+      Service outage
+      The product is inaccessible to all users
+    
+  
+
+
+
+  Example:
+
+  
+    An orange status icon in the column dated May 1 indicates a service disruption on that date for the product in that row.
+
+    
+      Click the status icon to see details related to the incident.
+      To see historical incident details, click “View history”.
+      Subscribe to atom feeds by clicking “RSS Feed” at the bottom of the page.
+    
+  
+
+
+Related links
+
+
+  Merchant Center Help Center
+  Content API for Shopping
+  Google Content API for Shopping User Group
+
+             Was this helpful?How can we improve it?YesNoSubmit       

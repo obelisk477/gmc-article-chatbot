@@ -1,0 +1,179 @@
+ Set up return policies for Buy on Google
+  Buy on Google for Search and Shopping will no longer be available starting September 26, 2023. Eligible merchants will be able to use Buy on Google for YouTube in the US. Learn more about Enabling Buy on Google for YouTube.
+
+
+
+
+
+To sell your products on Google, you’ll need to configure your return policies for all of your products.
+
+How it works
+
+A return policy can be associated with all products or with specific groups of products, which can be specified using the return policy label [return_policy_label] attribute.
+
+For each return policy, you can configure a number of settings, such as return window, when customers are responsible for the cost of return shipping, and seasonal overrides.
+
+
+  You must configure your return policy options in your Merchant Center account. Any separate or additional return policies (for example, the return policies on your website) cannot be enforced on customers who make purchases via Buy on Google.
+
+
+Add a return policy
+
+The first return policy that you create will be your default return policy. This policy will apply to all products with a return policy attribute that is empty or cannot be found in the return settings. After setting up your default policy, you can add additional return policies for specific groups of products.
+
+About default and additional policies
+
+Your default return policy must allow customers to make returns for up to at least 30 days, from the delivery date. Additional return policies shorter than 30 days may be created, but should only be applied to products in allowable exception categories.
+
+The first return policy you create will be your default return policy. If the feed for a product does not include a return policy label column, if the return policy label [return_policy_label] attribute is blank, or if the return policy specified by the feed cannot be found, the default return policy will be used.
+
+Additional return policies can be created by using labels to define groups of products, like electronics or apparel, and then applying specific return policies to those groups. These policies can be specified in the feed with the return policy label [return_policy_label].
+
+Requirements for return policies
+
+
+  Return window
+
+  
+    You choose whether or not products with a specific return policy can be returned, and if so, for how long. Eligibility for return is calculated from the date when the products were delivered (or the latest estimated delivery date if the actual delivery date is not available).
+
+    Exceptions: You may provide a return policy with a minimum of 14 days for electronics products. You may also provide a return policy that designates food products, perishables, or living things as ineligible for return.
+  
+
+
+
+  Customer return fees
+
+  
+    Select reasons for return fees (such as, “does not fit” or “ordered by mistake”) to indicate the reason for the return is the responsibility of the customer. If you don't select a reason, or if the reason for return is not included among the reasons you are able to select, you will be responsible for the cost of the return and the customer will be informed that there are “Free returns” for the purchase.
+
+    
+      Restocking fees are not allowed and therefore cannot be specified.
+    
+  
+
+
+
+  Seasonal overrides
+
+  
+    In order to accommodate high-purchase and high-return periods, like holidays, you can create seasonal overrides during which there are exceptions to your standard return policy. For example, you might set a seasonal override for products ordered between November 1 and December 25 that allows those products to be returned until January 31 of the following year.
+
+    
+      Specifications for seasonal overrides include:
+
+      
+        Name of the override
+        Override dates
+        Whether or not products are returnable
+        Return window, with four options
+          
+            A specified date until which products may be returned
+            Number of days during which products may be returned
+            Product may be returned any time
+            Product may not be returned
+          
+        
+      
+
+      If you set a specific date until which products may be returned and that date differs from the return window of a non-seasonal policy, the more favorable of the two policies will be applied.
+    
+  
+
+
+Instructions
+
+To add a return policy:
+
+
+  Sign in to your Merchant Center account.
+  Click the tools icon , then select Shipping and returns under “Tools”.
+  Click the Return policies tab.
+  Click +Add return policy.
+
+
+
+  Step 1: Select which program the return policy applies to
+
+  
+    Choose “Buy on Google”, and click Next.
+
+    Learn more about adding a return policy for ads and free listings
+  
+
+
+
+  Step 2: Policy settings
+
+  
+    
+      
+        Determine the return window. Decide if products covered by this policy:
+          
+            Can be returned for a specific time period.
+            Can be returned at any time.
+            May not be returned.
+          
+        
+      
+    
+  
+
+
+
+  Step 3: Reason for return fees
+
+  
+    Select reasons (such as, “does not fit” or “ordered wrong product”) to indicate when the return cost is the responsibility of the customer. If you do not select any reasons, or if the reason for the return is not included among the reasons that you do select, you will be responsible for the cost of the return, as specified in the Buy on Google Return policy. You’ll have to specify that the actual cost of return shipping the customer will be charged for this return policy
+
+    Note: This fee is only applicable on remorse returns. Restocking fees are not allowed.
+  
+
+
+
+  Step 4: Seasonal overrides
+
+  
+    
+      Set a seasonal override for products that are ordered within a specific time range and for which there is an exception to the standard return policy.
+
+      
+        Enter override name. Choose a name to identify your override.
+        Override dates. Determine the purchase period to which the policy applies.
+        Return time window. Specify the latest date by which products must be returned, set specific dates during which products may be returned, or allow products to be returned at any time or not at all.
+      
+
+      
+        Note: If you set a specific date until which products may be returned and that date differs from the return window of a non-seasonal policy, the more favorable of the two policies will be applied.
+      
+    
+  
+
+
+Add the return policy label attribute to products
+
+If you only have one return policy (the default policy), you do not need to make any updates to your feed.
+
+If you have created multiple return policies, you will need to add the return policy label column to your feed. If the default policy applies, keep this column blank. If a non-default return policy applies, add the label name for that policy.
+
+
+Related links
+
+
+  Set up your return settings for Buy on Google
+  Set up return policies for Buy on Google
+  Return settings requirements for Buy on Google 
+  Switch how you manage your Buy on Google returns
+
+
+
+
+  Need help? Click here to contact Buy on Google support.
+
+
+
+Try our new chatbot for immediate assistance
+
+
+
+             Was this helpful?How can we improve it?YesNoSubmit       

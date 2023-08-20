@@ -1,0 +1,281 @@
+ About display ads attribute specification
+
+This page lists the technical requirements for all of the additional attributes available for dynamic remarketing that can be used in conjunction with the product data specification.
+
+
+  Important: If you are updating your Merchant Center feed in XML for any of the attributes listed below, you must add the XML product data feed in the RSS 2.0. Otherwise, your feed may not process correctly. This is for XML feeds only.
+
+
+Technical requirements
+ID for display ads [display_ads_id] - An identifier for a product for dynamic remarketing campaigns
+
+
+  This attribute will override the ID [id] attribute in your product feed for your dynamic remarketing campaigns only. The ID for display ads [display_ads_id] for each product has to be unique within your account, and cannot be re-used between feeds. If you have multiple feeds, the ID for display ads of products within different feeds must still be unique. You can use any sequence of letters and numbers for the ID for display ads attribute.
+
+  When to include: Required if the product IDs for your dynamic remarketing campaigns are different from the ID [id] attribute you submit for Shopping ads and free product listings.
+  
+		Content API v2 (JSON)
+		"displayAdsId": "tddy123uk"
+	
+	
+		Content API v2 (XML)
+		<display_ads_id>tddy123uk</display_ads_id>
+	
+
+  
+    
+      
+        Type
+        Text
+      
+      
+        Character limit
+        50
+      
+      
+        Text/Tab delimited
+        tddy123uk
+      
+      
+        XML (Feeds)
+        <g:display_ads_id>tddy123uk</g:display_ads_id>
+      
+    
+  
+
+Similar ID for display ads [display_ads_similar_id] - Advertiser-specified recommendations
+
+
+  Use this attribute to recommend other products that will be presented in a dynamic remarketing ad.
+
+  When to include: Recommended if you want to provide your own product recommendations to be considered by our recommendation engine. You can submit this attribute up to 10 times per product.
+  
+  		Content API v2 (JSON)
+  		"displayAdsSimilarIds": ["tddy123uk", "tddy456us"]
+  	
+  	
+  		Content API v2 (XML)
+  		<display_ads_similar_id>tddy123uk</display_ads_similar_id><display_ads_similar_id>tddy456us</display_ads_similar_id>
+  	
+
+  
+    
+      
+        Type
+        Text
+      
+      
+        Character limit
+        50
+      
+      
+        Text/Tab delimited
+        tddy123uk, tddy456us
+      
+      
+        XML (Feeds)
+        <g:display_ads_similar_id>tddy123uk</g:display_ads_similar_id>
+        <g:display_ads_similar_id>tddy456us</g:display_ads_similar_id>
+      
+    
+  
+
+Title for display ads [display_ads_title] - Title of a product for dynamic remarketing campaigns
+
+
+  This attribute will override the title [title] attribute for your dynamic remarketing campaigns only. We recommend you include characteristics in the title that differentiate the product from other products, such as color or brand.
+
+  When to include: Recommended if the title you want to use for a product in your dynamic remarketing campaign is different from the title [title] attribute you submit for Shopping ads and free listings.
+  
+  		Content API v2 (JSON)
+  		 "displayAdsTitle": "Mens Pique Polo Shirt"
+  	
+  	
+  		Content API v2 (XML)
+  		<display_ads_title>Mens Pique Polo Shirt</display_ads_title>
+  	
+
+  
+    
+      
+        Type
+        Text
+      
+      
+        Character limit
+        150
+      
+      
+        Text/Tab delimited
+        Men's Pique Polo Shirt
+      
+      
+        XML (Feeds)
+        <g:display_ads_title>Mens Pique Polo Shirt</g:display_ads_title>
+      
+    
+  
+
+  Important:
+
+  
+    We recommend that you follow our Editorial guidelines closely if you're using title for display ads [display_ads_title]. For example, we recommend that you don't include any promotional text such as "Free shipping", and do not use BLOCK CAPITALS.
+    For variant products, you are required to include the common title of the variant products. For example if “Mens Pique Polo Shirt” is available in red and blue colors, you can have one of the following titles:
+      
+        Men's Pique Polo Shirt (Can be used for both variants)
+        Men's Pique Polo Shirt - Red (For the red shirt)
+        Men's Pique Polo Shirt - Blue (For the blue shirt)
+      
+    
+  
+
+Link for display ads [display_ads_link] - URL directly to your product's landing page for dynamic remarketing campaigns
+
+
+  When a potential customer clicks on your product in a dynamic remarketing ad, they are sent to this URL. It must point to a page showing the essentially identical product the customer was looking at. This attribute will override both the link [link] and ads redirect [ads_redirect] attributes for your dynamic remarketing campaigns only. Depending on your business needs, you may need to set this different URL for tracking purposes.
+
+  When to include: Recommended if the URL you want to use for a product in your dynamic remarketing campaign is different from the link [link] attribute you submit for Shopping ads and free listings.
+  Content API v2 (JSON) "displayAdsLink": "https://www.example.com/asp/sp.asp?cat=12&id=1030" Content API v2 (XML) <display_ads_link>https://www.example.com/asp/sp.asp?cat=12&id=1030</display_ads_link>
+
+
+  
+    
+      
+        Type
+        URL (this must include the http:// portion)
+      
+      
+        Character limit
+        2,000
+      
+      
+        Text/Tab delimited
+        https://www.example.com/asp/sp.asp?cat=12&id=1030
+      
+      
+        XML (Feeds)
+        <g:display_ads_link>http://www.example.com/
+        asp/sp.asp?cat=12&amp;id=1030</g:display_ads_link>
+      
+    
+  
+
+Margin value for display ads [display_ads_value] - Offer margin for dynamic remarketing campaigns
+
+
+  Specifies the margin of a product. You can use this attribute to set how valuable the conversion of this product is.
+
+  When to include: Optional attribute to indicate the margin of a product.
+   
+    		Content API v2 (JSON)
+    		"displayAdsValue": 5.00
+    	
+    	
+    		Content API v2 (XML)
+    		<display_ads_value>5.00</display_ads_value>
+    	
+
+  
+    
+      
+        Type
+        Float
+      
+      
+        Text/Tab delimited
+        5.00
+      
+      
+        XML (Feeds)
+        <g:display_ads_value>5.00</g:display_ads_value>
+      
+    
+  
+
+Excluded destination [excluded_destination] - Excluded destinations of your products
+
+Content API v2 (JSON) "destinations": [
+    {
+     "destinationName": "DisplayAds",
+     "intention": "excluded"
+    }
+  ] Content API v2 (XML) <destination intention="excluded">
+  DisplayAds</destination> 
+
+
+  
+    
+      
+        Format
+        Predefined values accepted:
+        
+          Shopping_ads
+          Display_ads
+        
+        
+      
+      
+        Text/Tab delimited
+        Shopping_ads, Display_ads
+      
+      
+        XML (Feeds)
+        <g:excluded_destination>Shopping_ads</g:excluded_destination>
+        <g:excluded_destination>Display_ads</g:excluded_destination>
+      
+    
+  
+
+
+Product grouping for display ads [ads_grouping]
+
+  Used to group products in an arbitrary way. It can be used for product filters to limit a campaign to a group of products, or product targets to bid differently for a group of products. Required if you want to bid differently on different subsets of products. It can only hold one value.
+
+  Note that this attribute is not supported in Shopping campaigns.
+
+  
+    
+      
+        Type
+        String
+      
+      
+        Text/Tab delimited
+        comforters
+      
+      
+        XML (Feeds)
+        <g:ads_grouping>comforters</g:ads_grouping>
+      
+    
+  
+
+
+
+Product grouping label for display ads [ads_labels]
+
+  This attribute is similar to the product grouping for display ads [ads_grouping] attribute, but can hold multiple values, allowing you to tag a product with multiple labels. You can add the product grouping label for display ads [ads_labels]attribute up to 30 times. This attribute will work with cost-per-click (CPC) and Video action campaigns.
+
+  Note that this attribute is not supported in Shopping campaigns.
+
+  
+    
+      
+        Type
+        String
+      
+      
+        Text/Tab delimited
+        clothing, shoes
+      
+      
+        XML (Feeds)
+        <g:ads_labels>clothing</g:ads_labels>, <g:ads_labels>shoes</g:ads_labels>
+      
+    
+  
+
+
+
+ 
+             Was this helpful?How can we improve it?YesNoSubmit       

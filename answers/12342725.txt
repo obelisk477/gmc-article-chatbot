@@ -1,0 +1,15 @@
+ About the LIA Partner Program
+
+
+When a retailer provides their product and inventory data to Google, it allows them to be discovered across Google via local inventory ads. However, the collecting and submitting of this product and inventory data can be challenging for retailers who are new to inventory feeds or new to digital advertising.
+
+The local inventory ads (LIA) Partner Program provides a network of pre-approved partners that can help prospective retailers onboard their product and inventory data onto Google so they can seamlessly enable local inventory ads. These LIA partners help retailers get started with delivering product and inventory data faster through feed creation, management, and optimization tools specifically built to help omnichannel merchants leverage local inventory ads.
+
+Partner Types:
+
+
+  Feed Tool partners
+  Agency partners
+  LFP Providers
+
+             Was this helpful?How can we improve it?YesNoSubmit       

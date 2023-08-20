@@ -1,0 +1,41 @@
+ Local inventory ads overview
+
+
+
+  The local inventory ads feature allows you to showcase your products and store information to nearby shoppers searching with Google. When shoppers click an ad that shows your local product they arrive on your local storefront, a Google-hosted page for your store or your omnichannel landing page if your website meets the necessary requirements. Shoppers use the local storefront to view in-store inventory, get store hours, get directions to your stores, and more.
+
+  
+    Important: To participate in local inventory ads, you must adhere to the local inventory ads policies.
+  
+
+
+
+
+Benefits
+
+
+  Promote your in-store inventory: Let local shoppers know that your store has the products they’re looking for, at the moment they search on Google.
+  Bring your local store online: Use the Google-hosted local storefront or your own website with the merchant-hosted local storefront feature as a robust, digital local storefront experience.
+  Highlight your store pickup options directly on your local inventory ads
+    
+      Use the pickup today feature to showcase which of your products can be reserved or bought online and picked up in store within the same day or the next day.
+      Use the pickup later for local inventory ads feature to advertise products which are currently not available in your stores but that can be picked up in store within a specific SLA.
+      Use pickup later for Shopping ads in conjunction with Shopping ads without being required to provide full inventory information. Advertise your Shopping ads products that can be picked up in store within a specific SLA.
+    
+  
+  Measure performance: Monitor the impact your digital ads have on online and in-store performance goals.
+
+
+Availability
+
+We’re currently working with retailers who have brick-and-mortar stores in Australia, Austria, Belgium, Brazil, Canada, Denmark, France, Germany, India, Ireland, Italy, Japan, Netherlands, New Zealand, Norway, Poland, Spain, Sweden, Switzerland, the UK, and the US.
+
+
+  Tip: You can use Pointy from Google to add in-store products to Google and set up local inventory ads. Available for retailers located in the US, CA, UK & IE. Get started.
+
+
+Set up local inventory ads
+To show your local products on Google, provide information about your business, stores, and products, follow the local inventory onboarding guide.
+
+
+             Was this helpful?How can we improve it?YesNoSubmit       

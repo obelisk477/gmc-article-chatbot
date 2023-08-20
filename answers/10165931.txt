@@ -1,0 +1,202 @@
+ About letting Google calculate your shipping speedsIf you’re a retailer that ships products to the US, you can choose to let Google calculate a shipping speed (sometimes called “delivery time”) for your customers.
+
+
+
+Shipping speed is a critical factor in customers’ purchase decisions. By allowing Google to calculate shipping speeds, you’ll receive the following benefits:
+
+
+  Clarity and accuracy: Manually-configured shipping speeds are often overly conservative because they typically take the most remote locations into account. In general, Google-calculated shipping speeds are determined by the customer’s location, often making them more precise.
+  Easy entry: Once you activate Google-calculated shipping speeds, your estimated delivery times are automatically calculated and displayed on eligible ads and free product listings.
+
+
+There are 2 ways to have Google calculate your shipping speeds:
+
+
+  1. By carrier: Using delivery locations and information from your shipping carrier
+
+  
+    
+      This option allows Google to estimate your shipping speeds by using the delivery locations of your customers and your warehouses, plus information from your shipping carrier(s).
+
+      The total shipping speed that each customer views is based on handling time plus transit time, and is unique to that customer’s delivery location and the products they’re purchasing. You still provide the handling time, while Google will calculate the transit time and overall shipping speed.
+
+      How it works
+
+      Google uses your warehouse locations, your customer’s delivery location, and your carrier’s shipping information (for example, the time-in-transit tables related to the specific carrier service(s) you select) to calculate a unique shipping speed that appears in your listings.
+
+      Google assumes that each of your warehouses has the same set of products and will calculate shipping speeds based on this assumption. If you have multiple shipping services (of any type) for the same offer, we'll show the shipping speed associated with the cheapest shipping service based on the customer's location. If the cheapest shipping service is the one where you've provided multiple warehouses and/or carrier services, we'll display the fastest speed based on the possible warehouse and carrier service combinations.
+
+      
+        If you have different products in different warehouses, you can create a shipping service that only works for specific products or regions.
+      
+
+      
+        Note: If you're a carrier and would like to be added to our list, complete this interest form.
+      
+    
+
+    Eligibility
+
+    To participate, you need to:
+
+    
+      Ship to US customers
+      Have warehouses based in the US
+      Use one of the select carriers (UPS, USPS, or FedEx)
+    
+  
+
+  1.a By carrier: To set carrier calculated transit times for a new shipping service
+
+  
+    
+      
+        Click Add Shipping service under “Your shipping services” on the main shipping page.
+        Enter the shipping service name.
+        Select the United States under “Which countries can you deliver to with this service?”
+        Click Next to configure the delivery time settings.
+        Select Your carrier and ship from location under “How do you want to determine delivery times for this service?”.
+        Enter your ship from location(s). If it does not yet exist, use Add a new ship from location to provide the name, address, handling time, and order cut off information.
+          
+            You can create multiple shipping services using the same warehouse.
+            You can update the location and handling time details for your warehouse at any time by clicking Your shipping locations on the main shipping page. Any changes you make will automatically be propagated to all shipping services that refer to that warehouse.
+          
+        
+        Select Add carriers to choose all possible combinations of carriers and service level that you'd like to apply to this shipping service and click Save.
+        Click Next to configure the shipping rates you charge your customers.
+          
+            Every shipping service can only have one shipping cost framework (for example, free shipping or flat fee) that you charge your customers. If your shipping service contains multiple warehouses or carrier services, all of the possible warehouse and carrier service combinations must share the same shipping cost framework. You’ll need to create a separate shipping service for every individual shipping cost framework that you charge your customers.
+          
+        
+        Click Save and you’re all set with this shipping service.
+      
+    
+  
+
+  
+    1.b By carrier: To set carrier calculated transit times for an existing shipping service
+
+    
+      
+        
+          Select the shipping service you want to update from the summary table available on the main shipping page.
+          Click on the edit icon  for “Delivery time”.
+          Select Your carrier and ship from location under “How do you want to determine delivery times for this service?”.
+          Select your ship from location(s). If it does not yet exist, use Add a new ship from location to provide the name, address, handling time, and order cut off information.
+            
+              You can create multiple shipping services using the same warehouse.
+              You can update the location and handling time details for your warehouse at any time by clicking Your shipping locations on the main shipping page. Any changes you make will automatically be propagated to all shipping services that refer to that warehouse.
+              Click on the edit icon  for “Delivery time”.
+            
+          
+          Select Add carriers to choose all possible combinations of carriers and service level that you'd like to apply to this shipping service and click Save.
+          Click Next to update (if needed) the shipping rates you charge your customers.
+            
+              Every shipping service can only have one shipping cost framework (for example, free shipping or flat fee) that you charge your customers. If your shipping service contains multiple warehouses and/or carrier services, all of the possible warehouse and carrier service combinations must share the same shipping cost framework. You will need to create a separate shipping service for every individual shipping cost framework that you charge your customers.
+            
+          
+          Click Save and you’re all set with this shipping service.
+        
+      
+    
+  
+
+  
+    2. By partner: Using historical order tracking and shipping data from a partner
+
+    
+      This option allows Google to estimate your shipping speeds by using your historical order tracking data and/or offer-level estimated delivery dates provided by your partner, paired with our machine learning capabilities, to show the most accurate shipping speeds to your customers.
+
+      How it works
+
+      Once you link your Merchant Center account with a partner, Google will be able to calculate shipping speeds on your behalf. Through your linked account, Google will pull historical order tracking data and/or offer-level estimated delivery dates for your existing offers to calculate customized shipping speeds specific to your business. The historical order tracking data can cover all of your orders (for example: those made on your website), not just those through Buy on Google. This data will also be used to improve Google’s proprietary machine learning models for all merchants, but will never be shared with any other merchant or third party. Learn more about Google’s privacy policy
+
+      Order tracking data includes:
+
+      
+        Order information, including order ID, order creation time, delivery postal code, and region code
+        Shipping cost charged to the buyer
+        Shipping information, including the carrier, tracking number, origin, destination, and shipping times for each shipment associated with the order
+        Order line item information, including the products in the order
+      
+
+      Not all of the information listed above is required. In addition, we won’t be retrieving customer names or exact addresses.
+
+      Eligibility
+
+      To participate, you need to:
+
+      
+        Ship to US customers.
+        Use one of our select partners, including CedCommerce, Sales & Orders, ShipHero, ShipStation, and Simprosys.
+          
+            If you’re using multiple partners, you’ll have to create a new shipping service for each one.
+          
+        
+      
+
+      
+        Note: If you’re a partner and would like to be added to our list, complete this interest form.
+      
+
+      Link a partner when setting your delivery times for a shipping service
+
+      To link to a partner, follow these steps when setting your delivery times for a shipping service:
+
+      
+        Select Your shipping data from partners under “How do you want to determine delivery times for this service?”.
+        Select your partner and follow the prompts to link your account.
+        Set a backup delivery time in case there’s not enough shipping data to create an estimate. This is required. Learn more about the estimated delivery time setup
+        Click Next to configure the shipping rates you charge your customers.
+      
+
+      Manually upload your historical order tracking data
+
+      If you don't work with one of Google's current delivery signals partners, you can create a historical order tracking feed and manually upload it.
+
+      
+        Select Your shipping data from partners.
+        Click Switch to manual upload.
+        Drag and drop or upload a TSV or CSV file of your historical order tracking data into the tool.
+        Set a backup delivery time in case there’s not enough shipping data to create an estimate. This is required. Learn more about the estimated delivery time setup
+      
+
+      Click Next to configure the shipping rates you charge your customers.
+
+      When you create a shipping service by linking to a partner or manually providing historical order tracking data, you’ll be opted into automatic shipping improvements on all your offers across all ads, free product listings, and Buy on Google listings in the US. By opting into automatic shipping improvements, you’re allowing Google to improve the accuracy of your manually-configured delivery times shown to customers. More accurate delivery times, especially when faster, typically lead to better conversion rates. You can turn off automatic shipping improvements at any time by deleting the shipping service that’s linked to a partner or uses manually-provided order tracking data.
+
+      Unlinking
+
+      To manage your linked partner or to unlink, you can navigate to the “Linked accounts” settings within Merchant Center and click on the "Platforms" tab. Unlinking a partner removes Google’s authorization to retrieve any data from this partner. All prior data from this partner will be deleted within 120 days. Any shipping service that used this partner data will remain active and now rely on your backup delivery times.
+
+      Shipping data verification
+
+      If you choose to link with a partner, you’ll also be automatically opted into shipping data verification that allows Google to verify any manually-configured shipping speeds on any of your US offers. Learn more about shipping data verification
+
+      
+        Note: Like any shipping service, you can pause or delete a partner-based shipping service at any time. You can also convert a partner-based shipping service to a standard, manually-configured policy at any time and vice versa.
+      
+    
+  
+
+  About shipping speed (delivery time)
+
+
+Shipping speed is an important piece of information for people evaluating a possible purchase. If you want to show this information, you can specify a time in transit and a handling time.
+
+Transit time refers to the number of business days it takes for a carrier to deliver a package once it's picked up from your facility.
+
+Handling time refers to the number of business days needed to process an order before it ships. Handling time normally starts when an order is placed by a customer and ends when a carrier picks up the package for shipment. Learn more about setting up shipping speed
+
+
+  Note: You can only take advantage of having shipping speed appear on Buy on Google listings if you use a shipping service to provide your shipping settings. The delivery time-related sub-attributes within the shipping [shipping] attribute only apply to ads and free listings. They don’t apply to Buy on Google listings.
+
+
+Related links
+
+
+  Set product delivery time
+  About shipping data verification
+  Quickly add or update your products directly in Merchant Center
+
+             Was this helpful?How can we improve it?YesNoSubmit       

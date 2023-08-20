@@ -1,0 +1,223 @@
+ Onboarding GuideVerify and claim your store's websiteNext: About feeds
+
+
+  If you’re looking for information about how to verify and claim your store's website in Merchant Center Next, click here.
+
+
+Verifying and claiming your store’s website are 2 essential steps in setting up your Merchant Center account. Usually, after these steps are completed, you won’t have to verify again.
+
+If you’ve lost your website claim, use this troubleshooting guide to learn why this might have happened and what you can do to fix it.
+
+
+  The terms "URL" and "website address" are used interchangeably in Merchant Center. They have the same meaning.
+
+
+How it works
+
+This process has 2 parts: verify and then claim your website address.
+
+
+  When you verify your website address, a user in your account proves that they have authorized ownership of the website. Verification doesn’t give Google any special access to your website. Keep in mind that only the user who verifies a website can claim it later.
+  When you claim your website address, you associate your website address with your Merchant Center account, creating a link between them. Linking your website address and account reserves the website address for use with your account exclusively.
+  Ecommerce platforms may have suggested options for verifying your website with Google Merchant Center or Google Search Console. Check with your platform for more information.
+
+
+Note: The links you provide in your product data must match the URL, including the top-level domain (for example, .com or .net) that you claim in your account. Items submitted for any domain other than the one registered in your Merchant Center account will not process successfully.
+
+Guide to Shopping ads on Google: Verifying and claiming your website
+
+For subtitles in your language, turn on YouTube captions. Select the settings icon  at the bottom of the video player, then select "Subtitles/CC" and choose your language.
+
+
+
+
+Instructions
+
+Before reviewing the detailed instructions, you may review our simulator content show below.
+
+
+
+
+Add and verify your website address
+
+
+  If a user on your account has previously verified your website for use with other Google products, such as Search Console, you don't have to verify it for use with Merchant Center. Your website is recognized as verified if any of your users are verified owners of the website in Search Console. In that case, you can skip to Claim your website.
+
+
+Step 1: Add your website address
+
+
+  Sign in to your Merchant Center account.
+  From the navigation menu, click the tools icon .
+  Select Business information under “Tools”.
+  Click the Website tab.
+  Enter the URL for your online store, starting with http:// or https://. Use a domain that you own and maintain.
+  Click Continue.
+
+
+
+  Note: You can also open this page by clicking Provide your website URL when you set up Shopping ads and free product listings.
+
+
+
+
+Step 2: Verify your website
+
+To verify your website, you can use one of 4 methods.
+
+Add an HTML tag
+
+
+  Choose this if: You can add HTML code to the index page on the site you want to verify.
+
+
+Upload an HTML file
+
+
+  Choose this if: You can add new files to the server behind the site you want to verify.
+
+
+Connect your website to Google Tag Manager
+
+
+  Choose this if: You’re an account-level administrator for Google Tag Manager.
+
+
+Connect your website to Google Analytics
+
+
+  Choose this if: You have admin access to a Google Analytics account that's already linked to the site you want to verify.
+  This might not work if you use a third-party platform, such as Shopify. For those accounts, we recommend using an HTML tag to verify your site.
+
+
+Add an HTML tag
+
+  
+    If you're able to edit the HTML code of your site's index page, you can add a meta tag (a line of HTML code) to the homepage to verify your website. This tag is only a marker and does not give Google access to or permissions for your site.
+
+    Instructions
+
+    
+      Copy and paste the meta tag into the <head> section of your site's homepage, before the <body> section.
+      Click the Verify website button on the bottom right to submit your website for verification.
+    
+
+    After you submit your website address, you'll receive a confirmation email from Google Search Console.
+
+    
+      Note: To stay verified, don't remove the HTML tag even after you’ve verified and claimed your website.
+    
+  
+
+
+Upload an HTML file
+
+  
+    If you're able to upload new files to your server, you can verify your website URL with an HTML file upload.
+
+    Instructions
+
+    
+      Sign in to your Merchant Center account.
+      Click the link to download the HTML file in the "Website" tab. This will generate a custom HTML file for your site.
+      Upload the file to your web server, so it’s accessible in the correct path as shown in the example below:
+        
+          To verify https://www.example.com", the file should be accessible under "https://www.example.com/<filename>.html".
+          However, if you want to verify "https://www.example.com/shop1" instead, the file should be accessible under "https://www.example.com/shop1/<filename>.html".
+        
+      
+      Confirm the upload by visiting the site address shown in the instructions.
+      Click the Verify website button on the bottom right to submit your website for verification.
+    
+
+    After you submit your website, you'll receive a confirmation email from Google Search Console.
+
+    
+      Note: To stay verified, don't remove the HTML tag even after you’ve verified and claimed your website.
+    
+  
+
+
+Google Tag Manager
+
+  
+    Consider using this method if you’re an account-level administrator for Google Tag Manager.
+
+    Instructions
+
+    
+      When your Google Tag Manager account was created, you should have received a container installation code snippet and placed that snippet on your website.
+      Make sure the <noscript> portion of the Tag Manager code is placed immediately after the opening <body> tag of your site’s homepage.
+      Click the Verify website button on the bottom right to submit your website for verification. Make sure the website address you choose is a page from your site that has the container ID included.
+    
+
+    After you submit your website, you'll receive a confirmation email from Google Search Console.
+
+    
+      Note: The Google Tag Manager container ID is used only to verify website ownership. No Google Tag Manager data will be accessed.
+    
+  
+
+
+Google Analytics
+
+  
+    You can use this method if you’re already using Google Analytics and have edit permissions on that account.
+
+    Instructions
+
+    
+      Ensure that you have set up the Google tag in your Google Analytics account.
+        
+          If the tag has been set up, you’ll notice it right after the opening <head> tag on each webpage that has it installed. You need to have the tag on at least one page on your site to verify it using Google Analytics.
+          If you don’t have the tag, learn how to set it up.
+        
+      
+      Click the Verify website button at the bottom right to submit your website for verification. Make sure the URL that you choose is a page from your site that has the Google tag in your Analytics account included.
+    
+
+    After you submit your website, you'll receive a confirmation email from Google Search Console.
+
+    Some frameworks or tools, such as Shopify, don’t implement Google Analytics in the standard way. In that case your attempt will result in an error message such as “malformed tag” or “wrong format”. Contact their support for guidance on the suggested verification method.
+
+    
+      Note: The Google tag is only used to verify that you own your website. No Google Analytics data will be accessed.
+    
+  
+
+
+Claim your website
+
+Claiming your website gives you the exclusive right to use your website in connection with your Merchant Center account.
+
+To claim your website, sign in to your Merchant Center account, click the Claim website button on the bottom right. Only users who verified the website can claim it. If you already created a feed, you must refetch it after you claim your website. If you use the Content API, you must re-upload your feed so it can be recrawled.
+
+In some instances, you may find that your account has no verification but still contains a claim. This can occur for a limited amount of time if your previously verified and claimed website loses its verification.
+
+Other options
+
+Automatic verification
+
+Sometimes, Google already has the information it needs to verify your site (for example, if you use Google Analytics on your site). In this case, the process will happen automatically after you enter your website’s address in the “Business information” screen and click Continue. Learn more about automatic website verification
+
+If you use a third-party ecommerce platform
+
+If your store website is hosted by a third-party ecommerce platform, there may be suggested options for verifying your website provided by the platform. Check with your platform for more information.
+
+Verify and claim more than one website
+
+Multi-client accounts allow you to manage multiple accounts, each of which can be associated with a different website address.
+
+Typically, the parent account should verify and claim the top-level address, for example: https://example.com. Each sub-account will then automatically inherit the claim and set its website address to any path under the claimed website address (for example, https://example.com/forum or https://example.com/shop1).
+
+Alternatively, each sub-account can also choose to verify and claim a different website. Learn more about verifying and claiming website URLs for Multi-client accounts
+
+Related links
+
+
+  Website URL verification and claim issues
+  Set up the Google tag
+
+
+
+Next: About feeds             Was this helpful?How can we improve it?YesNoSubmit       

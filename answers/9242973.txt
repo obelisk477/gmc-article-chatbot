@@ -1,0 +1,80 @@
+ About automatic image improvements
+
+
+  If you’re looking for information about image improvement in Merchant Center Next, click here. 
+
+
+Automatically improve your uploaded images, ensure they meet requirements, and improve your overall user experience with automatic image improvements. Turn on these improvements in Merchant Center and they’ll automatically be applied to all relevant images in your account.
+
+
+  
+    Automatic image improvements aren't supported for Vehicle ads images yet.
+  
+
+
+
+On this page
+
+
+  Promotional overlays
+  How Merchant Center improves your product images
+  See which images were improved
+  How to address issues
+  Manage automatic image improvements
+
+
+
+Promotional overlays
+
+If a promotional overlay is detected on a main image, that product will be disapproved because it doesn’t meet the image requirements.
+
+If you activate the automatic removal tool, Google will try to automatically fix these images by removing promotional overlays. If the removal is successful, the image will be replaced and the product will be reapproved.
+
+Note that this fully-automated process may not always be successful. If an image can’t be improved, the product will remain disapproved. In rare cases, promotional overlays may remain untouched or other non-promotional parts of the image may be removed. If you are not satisfied with an automatically improved image, you can replace it by uploading a new image yourself.
+
+Images of approved products remain untouched and unchanged.
+
+
+How Merchant Center improves your product images
+
+
+  In this example, the original version of the image included a promotional overlay. The product was disapproved because it didn't meet our image requirements.
+  After turning on automatic image improvements, the promotional overlay was removed, and the product was approved again.
+
+
+
+  
+    
+      Original image
+      Improved image
+    
+    
+      
+      
+    
+  
+
+
+
+See which images were improved
+
+You can see which images have had promotional overlays removed by checking the warnings in Diagnostics in your Merchant Center account. Look for the title Improved image quality [image_link] in the “Issue” column of the table. On the product detail pages of affected products, you can see the improved image as well as the originally uploaded image.
+
+
+How to address issues
+
+If you don’t like the improved version of an image, you can replace it by uploading a new image. Make sure to change the image URL that you provide in your feed so that Google can immediately crawl the new image. If you reupload the original image that caused the product disapproval, the product will be disapproved again.
+
+
+Manage automatic image improvements
+
+Automatic image improvements are turned off by default. You can turn them on and manage your settings at any time.
+
+To manage the settings for automatic image improvements:
+
+
+  Sign in to your Merchant Center account.
+  Click the tools icon , then select Automatic improvements under “Settings.”
+  On the following page, click the Image improvements tab and adjust your settings for automatic image improvements.
+
+             Was this helpful?How can we improve it?YesNoSubmit       

@@ -1,0 +1,20 @@
+ About onboarding and integration
+
+Google Customer Reviews is a free feature that allows Google to collect seller reviews and product reviews on your behalf from your customers. Signing up and adding the script to your site can take less than a few hours and allows you to place a badge with the Google brand and your seller rating on your website.
+
+ Onboarding steps 
+
+                       1. Configure your account
+
+                       2. Sign the program agreement
+
+                       3. Prepare your team for technical integration
+
+ Integration steps
+
+                      1. Integrate the survey opt-in
+
+                      2. Optional: Modify the survey opt-in to gather product reviews
+
+                      3. Optional: Integrate the badge code
+             Was this helpful?How can we improve it?YesNoSubmit       

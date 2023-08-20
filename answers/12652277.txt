@@ -1,0 +1,20 @@
+ Set up your target country of sale
+
+If you’re looking for information about your target country in the classic Merchant Center experience, click here. 
+
+
+Target countries are the countries where the products included in your product data are sold. You will be able to set-up your target countries when you create your Merchant Center account, and modify these or add more in the Your Business area of your Merchant Center account.
+
+The items uploaded to a selected target country must meet the requirements for the target country you submit to, including the feed specifications, policies and language and currency requirements.
+
+If an item does not meet the requirements for a target country, the product will be disapproved for that country and an issue will be displayed on the Merchant Center product detail page in the “Products” section of your Merchant Center indicating affected countries.
+
+
+What to expect
+
+
+  For Shopping ads, the geotargeting you set up for your Shopping campaign should align with (or be a subset of) the target countries defined in Merchant Center.
+  Google might show your offers to users from a country even if you have excluded this country from your targeting. This helps users who are interested in products that may be sold outside their country. If you are not targeting the country in Google Ads, clicks from that country will be free.
+  Shopping ads are in beta for some target countries. Performance and traffic may vary significantly from the other Shopping target countries and the target countries beta.
+
+             Was this helpful?How can we improve it?YesNoSubmit       

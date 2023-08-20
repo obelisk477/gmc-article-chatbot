@@ -1,0 +1,258 @@
+ Implement pickup later for Shopping ads
+
+Pickup later enables you to provide a direct online to offline experience for your customers. For items that can be picked up in store within a specific SLA regardless of store availability, pickup later enables you to use your stores as an omnichannel asset and differentiator. Unlike other local inventory ads products, pickup later doesn't require full inventory information.
+
+Pickup later for Shopping ads run in conjunction with Shopping ads, only surfacing when customers are more likely to engage with pickup later based on user intent.
+
+In order to implement pickup later for Shopping ads, you must meet the following requirements:
+
+
+  You must be active for Shopping ads.
+  You must be able to identify your store locations which are eligible to fulfill online orders.
+  You must be able to fulfill store pickup orders even when a product isn't physically in-stock at your store locations.
+
+
+
+  Note: To submit inventory information specific to different stores, please implement pickup later using local inventory ads.
+
+  To show your in-store product on Google please follow this implementation guide to show local inventory ads or free local product listings.
+
+
+Before you begin
+
+If you're interested in participating in pickup later for Shopping ads, fill out the interest form.
+
+Implementation guide for pickup later for Shopping ads
+
+Follow the steps below to implement pickup later with Shopping ads:
+
+
+  Review the website requirements for pickup later. Once you're certain that your website meets the requirements, request a review of your website by filling out this interest form.
+  Set up your accounts.
+  Enable local inventory ads.
+  Link your Business Profile and select your location group.
+  Add the required feed attributes to your product data.
+  Verify your About page (Austria, Germany and Switzerland only).
+  Link Google Ads and enable your campaigns.
+    
+      Link your Merchant Center and Google Ads accounts.
+      Enable Local products in your Shopping campaign.
+    
+  
+
+
+Website requirements
+
+To be eligible for pickup later for Shopping ads, your website must meet the following requirements on both desktop and mobile devices, including tablets:
+
+
+  Display the option to pick up a product on your landing page or in your checkout flow.
+  Allow customers to select the store where their order will be shipped.
+    
+      Stores can be displayed after clicking on a link (for example: “check availability”) or by entering a postal code or address.
+      Alternatively, store selection can occur in your checkout flow after a customer has added an item to their cart.
+    
+  
+  Display the item’s price on your product page.
+    
+      Note: the price must match the value of the price [price] attribute in your primary feed.
+    
+  
+  Indicate pickup date and pickup fee (if a pickup fee will be charged).
+    
+      This may be displayed in your checkout flow alongside store selection.
+    
+  
+  Provide an option to select other store locations.
+    
+      This may be displayed in your checkout flow alongside store selection.
+    
+  
+  Provide a pickup confirmation message when the order is ready (for example: email or SMS).
+  Don't require customers to enter payment information before showing your fulfillment options.
+
+
+Website recommendations
+
+In addition to the website requirements above, we recommend the following:
+
+
+  
+    Don't require customers to create an account before showing your fulfillment options (for example: provide a “checkout as guest” option).
+  
+  Don't require customers to enter address information before showing your fulfillment options.
+
+
+Select participating Business Profile locations
+
+By default, Google will show local inventory ads for all store locations in the linked Business Profile location group.
+
+If all of your store locations are eligible to fulfill online orders, select the Business Profile location group that contains all of your store locations during account linking.
+
+If only a subset of your store locations are eligible to fulfill online orders, organize these stores into a separate location group. During account linking, select this location group.
+
+If you're unable to re-organize your store locations into groups, please reach out to our support team by filling out the contact us form and selecting “I want to implement additional features.” Under “Summary of issue” please specify the store codes and addresses of the locations that aren't eligible to allow users to pick up your products.
+
+Feed requirements
+
+In addition to the feed requirements for Shopping ads, you must add the following attributes to your primary feed:
+
+
+  
+    
+      Attribute
+      Optional or required?
+      Possible values
+      Note
+    
+    
+      Pickup method [pickup_method]
+      Required
+      
+      ship to store
+
+      not supported
+
+      Text/tab delimited example
+        ship to store
+
+      XML example
+        <g:pickup_method>ship to store</g:pickup_method>
+      
+      
+      Don't submit the following values:
+
+      
+        buy
+        reserve
+      
+
+      For each product that's eligible to be fulfilled at one of your store locations, submit “ship to store”
+
+      For all other products, submit “not supported”
+      
+    
+    
+      Pickup SLA [pickup_sla]
+      Required
+      
+      2-day
+
+      3-day
+
+      4-day
+
+      5-day
+
+      6-day
+
+      multi-week
+
+      Text/tab delimited example
+        multi-week
+
+      XML example
+        <g:pickup_sla>multi-week</g:pickup_sla>
+      
+      
+      Don't submit the following values:
+
+      
+        same day
+      
+
+      Submit the maximum amount of time it will take for you to fulfill an online order to one of your stores.
+
+      If the item's pickup method [pickup_method] is set to “not_supported” leave pickup SLA [pickup_sla] blank.
+
+      Tip: You can set the pickup SLA [pickup_sla] to multi-week if you want to show a fixed annotation, the ad will render the annotation “Store pick-up”.
+      
+    
+    
+      Link [link]
+      Required
+      URL parameter or URL path
+      The link [link] attribute that's used for Shopping ads will also be used for pickup later for Shopping ads.
+    
+    
+      Mobile link [mobile_link]
+      Optional
+      URL parameter or URL path
+      If you have a mobile-optimized page, submit the mobile link [mobile_link] attribute
+    
+  
+
+
+FAQ
+
+Expand all Collapse all
+How does pickup later for Shopping ads work?
+
+
+  
+    Google will create inventory entries for each product for each of the stores in your linked location group. Since you're able to ship your products indicated in your primary feed to each of your stores, Google will allow you to advertise those products for each of the stores along with the SLA on how long it will take you to ship the product to the store.
+  
+
+Can I advertise products that are marked as "out of stock" in my primary feed for pickup later for Shopping ads?
+
+
+  
+    No, products with the availability “out of stock” in your primary feed aren't eligible for pickup later for Shopping ads.
+
+    Pickup later for Shopping ads enables you to create ads, showing your local products for your online available items. Since your online available products can be shipped to your stores, you can advertise the products along with the SLA on how long it will take to ship these products to all of your stores. For this feature to work, the product needs to be fulfillable online. This will allow Google to guarantee that the product can be transacted on.
+  
+
+By using pickup later for Shopping ads in my Merchant Center account can I also advertise in-stock inventory?
+
+
+  
+    Products enabled through pickup later for Shopping ads only allow you to showcase products that can be picked up at your stores regardless of whether the item is in the store when the order is placed. Pickup later for Shopping ads doesn't allow you to advertise actual inventory within your stores. To be able to advertise through pickup later for Shopping ads, you will need to enable the local inventory ads program card within your Merchant Center account. To be able to advertise any in-stock items within your stores, you will need to set up local inventory ads as indicated in our implementation guide.
+  
+
+What should I do if a few products can't be shipped to all of my stores?
+
+
+  Products that can't be shipped to all of the locations in your linked location group aren't eligible for pickup later for Shopping ads. Set the pickup method to “not supported” for these products. To submit store specific attributes for pickup SLA [pickup_SLA] and pickup method [pickup_method] refer to how to implement pickup later using local inventory ads.
+
+Can I submit specific SLAs for different stores using pickup later for Shopping ads?
+
+
+  No. Pickup Later for Shopping ads only allows you to set the maximum SLA for all of your stores. This means that if a product can be shipped to most of your stores within 3 days but for a few stores it can take up to 4 days, you need to submit the SLA for this product as “4-day”. To submit store specific attributes for pickup SLA [pickup_SLA] and pickup method [pickup_method] please see how to implement pickup later using local inventory ads.
+
+How do I recognize my pickup later offers in Google Ads?
+
+
+  
+    Pickup later for Shopping ads will appear as Segment Click type “Shopping - Product - Local”. Ads enabled through pickup later for Shopping ads will be represented in Google Ads exactly the same way as local inventory ads. Learn more on how to include local inventory in a Google Shopping campaign
+  
+
+Can I use pickup later for Shopping ads in combination with local inventory ads and also provide inventory and pickup_sla information via inventory feed?
+
+
+  
+    Yes. To use pickup later for Shopping ads in combination with an inventory feed, you should avoid providing conflicting information between primary feed and inventory feed: For example, if a product is set to ‘in stock’ in the primary feed and also contains pickup later values (i.e., pickup_method set to “ship to store” and pickup_SLA set to “3-day”), the information from the inventory feed will take precedence. Therefore, products which are in the local inventory feed will be disregarded for pickup later from the primary feed.
+
+    To activate pickup later for Shopping ads in combination with an inventory feed, please contact us by using this form and specify your request in one of the text fields.
+  
+
+Can I submit the necessary attributes for pickup later for Shopping ads via Google's content API for shopping?
+
+
+  
+    Yes. However, since the attributes required for pickup later for Shopping ads aren't supported with the channel set to “online”, you'll have to re-submit all of the required product information (ID [id], title [title], image link [image_link], etc.) with the channel set to “local”.
+
+    To submit the pickup later attributes (pickup SLA [pickup_sla], and pickup method [pickup_method]) you must use the localinventory.insert API. Learn more on how to submit product information via the Content API for Shopping
+
+    
+      Important: You also need to set the quantity to “0” and availability to “out of stock”.
+    
+  
+
+How can I migrate from pickup later for Shopping ads to local inventory ads?
+
+
+  
+    Our team will be happy to assist you. Please contact us using this form. Note that we require both ‘quantity’ and ‘availability’ information in the inventory feed.
+  
+
+             Was this helpful?How can we improve it?YesNoSubmit       

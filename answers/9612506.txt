@@ -1,0 +1,31 @@
+ Providing an invoice document to Buy on Google customers
+  Buy on Google for Search and Shopping will no longer be available starting September 26, 2023. Eligible merchants will be able to use Buy on Google for YouTube in the US. Learn more about Enabling Buy on Google for YouTube.
+
+
+
+
+
+If you sell via Buy on Google, you're what's called "the merchant of record," which means you're responsible for issuing any required tax documents (for example, tax invoices) to your buyers. There are many reasons why a customer would request an invoice document:
+
+
+  Business customers may need an invoice stating the paid VAT amount for their own tax or accounting process.
+  Customers may want to file a warranty request to a manufacturer and need an invoice to prove ownership, source, and date of purchase.
+  Customers may want to participate in cashback promotions, such as those offered by manufacturers, that require the invoice as proof of ownership.
+  Customers may want to resell their purchased products and need the invoice as proof of ownership.
+
+
+How it works
+
+A customer can reach out to Google’s Customer Support, and the Google Customer Support agent in turn will reach out to your customer support to retrieve the invoice document and then forward it to the customer. However, automated VAT provides an automated way for you to provide invoice documents to customers who need them. The automated VAT invoicing process works by:
+
+
+  Reusing existing functionality of merchants to send invoices to a billing contact address.
+  Capturing those emails and retrieving the attached or embedded invoices from them.
+  Storing the resulting document alongside the order data before making it available to the customer.
+
+
+
+  Need help? Click here to contact Buy on Google support.
+
+
+             Was this helpful?How can we improve it?YesNoSubmit       

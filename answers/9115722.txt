@@ -1,0 +1,37 @@
+ How to fix: Missing default value [return_address_label]Go to the Merchant Center to create a default return policy
+  Buy on Google for Search and Shopping will no longer be available starting September 26, 2023. Eligible merchants will be able to use Buy on Google for YouTube in the US. Learn more about Enabling Buy on Google for YouTube.
+
+
+
+
+
+A default return address for Buy on Google hasn’t been created, validated, or is unavailable in Merchant Center. You won’t be able to sell products on Buy on Google until this issue is resolved.
+
+To add a default return address, follow the instructions below. Your return address is the address to which products will be sent when customers need to return their purchased products.
+
+Instructions
+
+
+  Step 1: Add a return address
+
+  
+    
+      Sign in to your Merchant Center account.
+      Click the tools icon , then select Shipping and returns under “Tools.”
+      Click the Return addresses tab, then add or edit a “Default return address.”
+      Verify the applicable details for your location, including: name, address, city, state/province (US only), postal/zip code, country, and phone number.
+      Click Save.
+    
+  
+
+
+
+  Step 2: Verify updates
+
+  
+    After you’ve created or updated your return address, check that you’ve fixed the issue by making sure it’s no longer listed on the Diagnostics page.
+
+    Keep in mind: It may take some time for your changes to be reflected on the Diagnostics page.
+  
+
+             Was this helpful?How can we improve it?YesNoSubmit       

@@ -1,0 +1,89 @@
+ Merchant hosted local storefront (basic)
+
+The merchant hosted local storefront (basic implementation) represents only a single merchant’s local storefront information. It lets you direct customers to your omnichannel landing page when they click on an ad that shows your local product. By directing customers to your website instead of your Google-hosted local storefront, you can manage and track your customers' entire experience.
+
+
+  Note: Clicking on a free local product listing will direct customers to a Google-hosted local storefront.
+
+
+This article helps you understand how the merchant hosted local storefront (basic implementation) works and what’s required for your primary feed, local inventory feed, and website.
+
+On this page
+
+
+  How it works
+  Landing page requirements
+  Feed requirements
+
+
+
+How it works
+
+The merchant hosted local storefront (basic implementation) surfaces all your purchase options and includes local product information in your existing website.
+
+Here’s how the process works behind the scenes:
+
+
+  A customer clicks on a local inventory ad.
+  The retailer generates an omnichannel landing page where customers can select a store to view the clicked item’s price and availability.
+
+
+
+Landing page requirements
+
+The landing page for your merchant hosted local storefront must represent only a single merchant’s store and meet the following requirements on both desktop and mobile devices, including tablets. Your landing page is required to:
+
+
+
+
+  Show the omnichannel price on your product landing page. The price on your landing page must match the price value submitted in your primary product feed.
+  Display your store’s local availability.
+    
+      Local availability can be displayed after clicking on a link (for example, “check local availability” or entering a post code or address). The local availability displayed after interaction with the store selector must match the availability submitted in your local products inventory feed for the selected store.
+      After clicking or inputting required information you must display an item’s availability and the location of the local store, without further customer interaction.
+    
+  
+  Be crawlable by the Google Storebot user-agent. This allows Google to ensure your product landing page is meeting the requirements.
+
+
+
+Feed requirements
+
+To implement the merchant hosted local storefront (basic) feature you'll need to add the following attributes to your local feeds in addition to the local inventory ads feed attributes.
+
+
+  
+    
+      Feed
+      Attribute
+      Submission requirements
+    
+  
+  
+    
+      Local Products
+      price [price]
+      Required for all products.
+      Submit the price of the item as it appears on your omnichannel landing page.
+    
+    
+      Local Products
+      link [link]
+      Required for all products.
+      Submit the link to your omnichannel landing page.
+    
+    
+      Local Inventory
+      price [price]
+      Optional.
+      Submit the price for items that have a different price in store.
+    
+  
+
+
+
+  
+    Note: You can select a landing page experience for your local inventory ads in Merchant Center. For free local listing, use the Contact Us form to request an eligibility review.
+  
+
+             Was this helpful?How can we improve it?YesNoSubmit       

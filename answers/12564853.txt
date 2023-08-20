@@ -1,0 +1,43 @@
+ About Merchant Center access requests
+
+If someone from your Google Business profile needs to have access to your Merchant Center account so that they can manage products for their connected store in Merchant Center, you will find an alert in Merchant Center that says:
+
+
+“A person from Google Business profile requested access to Merchant Center to manage products. This user will get “standard” permission by default. You can change the person's access later.”
+
+
+If you approve this request, this person will also be able to connect additional stores and edit information about their store in Merchant Center. You can see all of the stores that are connected to your Merchant Center in the “Your business” section on the Stores tab.
+
+“Standard” permission means that this person will be able to sign in to Google Merchant Center and access everything in the account except managing user access.
+
+To change someone’s access to Merchant Center, you’ll make edits in the “People & access” section. Learn more about user access levels.
+
+
+Frequently asked questions
+
+
+  Can I change this person’s access type if I want them to have a different level?
+
+  
+    Yes, you can change this person’s access in the "People and access" section.
+  
+
+
+
+  If I deny the request, will I be able to add them to Merchant Center later?
+
+  
+    Yes, you'll be able to add a person to Merchant Center at any time in the “People and access” section.
+  
+
+  
+    How long does the request last?
+
+    
+      
+        The access request will expire after 7 days.
+      
+    
+  
+
+             Was this helpful?How can we improve it?YesNoSubmit       

@@ -1,0 +1,50 @@
+ Edit product details in Merchant Center
+
+Once you’ve uploaded your product details in Merchant Center, you can make changes to them at a later time directly in Merchant Center. This article walks you through how to edit product features, descriptions, and other attributes.
+
+Instructions
+
+To edit product details in Merchant Center:
+
+
+  Sign in to your Merchant Center account.
+  Select Products from the navigation menu, then click All products.
+  Select the product you want to edit.
+  Click the pencil icon  to edit the product.
+  Edit the attributes values you wish to change.
+  Click Save. Google will review your product edits. When the edits are approved, your product will be updated.
+
+
+Note: Edits are permanent. They also override any updates made directly in your feed and may take several minutes to process. However, automatic item updates to a product’s price or availability take precedence over any edits made in Merchant Center. For offers created by automated feeds, the value of the link [link] attribute cannot be edited.
+
+To undo edits made in Merchant Center:
+
+
+  Sign in to your Merchant Center account.
+  Select Products from the navigation menu, then click All products.
+  Select the product you want to edit.
+  Click the pencil icon  to edit the product.
+  Click the revert icon  next to the edited attribute. The value will then show the attribute value in the latest feed upload.
+  Click Save.
+
+
+How item level edits made in Merchant Center interact with feed rules
+
+A manual edit made to an attribute in the Merchant Center will always override a feed rule. For example, if for item A the value of attribute X is “1” in the feed and modified to “2” by a feed rule, but there’s also a manual edit changing the value to “3”, then the value of the attribute will be “3”.
+
+Note that if attribute X of item A is used in feed rules that affect another item (item B), then the value of X seen by the feed rules will also be “3”.
+
+
+  Note: Custom attributes cannot be edited.
+
+
+
+Related links
+
+
+  Add products directly in Merchant Center
+  About feeds
+  Build your product data
+  Create a feed
+
+             Was this helpful?How can we improve it?YesNoSubmit       

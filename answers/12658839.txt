@@ -1,0 +1,56 @@
+ About the Comparison Shopping Services dashboard
+
+
+  
+    If you’re looking for information about the comparison shopping services dashboard in the classic Merchant Center experience, click here. 
+  
+
+
+
+The Comparison Shopping Services (CSS) dashboard allows merchants operating in CSS program countries to decide which CSSs can promote their products on Google. This dashboard is available in the Merchant Center account where the merchant has claimed their website (under “Shopping ads setup”).
+
+On this page
+
+
+  Advertise with Shopping ads in CSS program countries
+  Place free listings on Google in Europe
+  Place products outside of Europe
+  Use automated feeds from website crawl
+
+
+
+Advertise with Shopping ads in CSS program countries
+
+You can select which CSSs you want to allow to advertise your products on Google in CSS program countries. To prevent a specific CSS from advertising your products this way, you can disable the CSS by using the menu at the far right of the respective row.
+
+
+  Note: Once a new CSS begins uploading your offers, it can take up to 24 hours for the service to appear on your dashboard.
+
+
+Google Shopping is listed on your dashboard alongside CSS. By disabling Google Shopping, products uploaded via this Merchant Center account won't be shown in Shopping ads in CSS program countries.
+
+Your products may still appear in Shopping ads if there are other CSS advertising your products.
+
+
+Place free listings on Google in Europe
+
+If you’d like to place free listings on Google in Europe, you can select one CSS to submit your products for free listings on Google in Europe. Offers uploaded via a Merchant Center account associated with that CSS are then eligible to show in free listings.
+
+You can change the CSS representing you at any point in time. Use the menu at the far right of a row to select or deselect a CSS. CSSs that are not offering to place free listings in Europe cannot be selected in the dashboard.
+
+
+Place products outside of Europe
+
+If you’d like to place products outside of Europe, you can select one CSS to represent you for this purpose. Offers uploaded via a Merchant Center account associated with that CSS are then eligible to show outside of Europe. This selection affects both free listings and Shopping ads outside of Europe.
+
+You can change the CSS that represents you for placing products outside of Europe at any time. Use the menu at the far right of a row to select or deselect a CSS. CSSs that are not offering this service cannot be selected in the dashboard.
+
+
+Use automated feeds from website crawl
+
+If any of the CSSs representing you would like to use automated feeds to let Google crawl offer data from your website, an additional column will appear on your CSS dashboard. It shows which CSSs have been authorized by you to generate automated feeds based on Google crawls of your website.
+
+You can grant or revoke authorization at any point in time. Use the menu on the far right of a row to change your settings for the respective CSS.
+
+You can contact these services at any time to learn more about how they use your data with Google's systems. You can find contact information in the dashboard.
+             Was this helpful?How can we improve it?YesNoSubmit       

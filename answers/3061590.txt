@@ -1,0 +1,89 @@
+ Local inventory onboarding guideRegister and submit local feedsNext: Verify your About page (Austria, Germany, and Switzerland only)
+
+
+   This is step 5c of the local inventory onboarding guide.
+
+
+This article describes how you submit your product information to Google through your Merchant Center account.
+
+
+  To submit product data through API, learn more about the Google Content API.
+
+
+Step 1: Register your feeds
+
+You must register a feed the first time you submit it to Merchant Center. You only need to complete this registration process once per feed. Follow the steps to register your feed. Read more about submitting data through API.
+
+There are 2 types of local feeds:
+
+
+  
+    
+      Feed
+      Type
+      Function
+    
+  
+  
+    
+      Products
+      Primary
+      Provides us a list of items that you sell in-store with attributes to describe them. This feed can contain different information depending on if the item is available only in-store or both in-store and online.
+    
+    
+      Local product inventory
+      Supplemental
+      Tells us how many of your products are for sale, in which of your stores they are located, and at what price.
+    
+  
+
+
+
+  Your product feed needs to be registered as a primary feed.
+
+
+Step 2: Upload your feeds
+
+After you’ve registered your feed, you can upload your data to Merchant Center. We recommend creating a schedule for your upload so your data is sent automatically. Learn more about available upload methods
+
+Important: If you submit a file that only has the headers to the local products feed or local product inventory feed (in other words, you upload a blank feed without product or store information), we will not surface any local items.
+
+Submission frequency
+
+Each of your data feeds for your local inventory should be uploaded as frequently as possible to ensure your information is fresh and accurate. We recommend the following minimum upload frequency for each feed:
+
+
+  
+    
+      
+      Feed
+      
+      
+      Recommended minimum upload frequency
+      
+    
+  
+  
+    
+      
+      Products
+      
+      
+      At least once a day. Please note that this data will expire after 30 days.
+      
+    
+    
+      
+      Local product inventory
+      
+      
+      At least once a day, but can be submitted multiple times per day to update segments of your inventory. To be able to submit your local product inventory feed multiple times per day, please contact our support team using this form. Local inventory data for a store will expire after 14 days from the last update of any attribute for the relevant store.
+      
+    
+  
+
+
+Tip: Check your data mapping across feeds to make sure everything is working as intended.
+
+You should also update your store information in your Business Profiles whenever a new store opens, an existing store closes, a store changes hours, or anything else needs to be edited about a particular business.
+Next: Verify your About page (Austria, Germany, and Switzerland only)             Was this helpful?How can we improve it?YesNoSubmit       

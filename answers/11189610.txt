@@ -1,0 +1,37 @@
+ Vehicle ads onboarding guideAdd your business informationNext: Create a primary feed
+
+
+   This is step 3 of the vehicle ads onboarding guide.
+
+
+Complete the following requirements:
+
+
+  Fill in your business address and phone number in the "Business Information" section of your Merchant Center account.
+  Verify your phone number. Learn how to verify your phone number
+
+
+When setting up your account, you'll add the name of your store. Users will find this store name in your vehicle ads. Learn more about your store name
+
+
+  Note: All vehicle ads campaigns will be upgraded to Performance Max by September 2023.
+
+
+
+Implementation guide
+
+
+  Set up your accounts
+  Enable the vehicle ads program
+  Add your business information
+  Create a primary feed
+  Register and submit your feed
+  Link your Business Profile and select your location group
+  Create, register, and submit your store feed (Optional)
+  Complete website policy review
+  Link your Merchant Center and Google Ads accounts
+  Enable vehicle ads in your Smart Shopping campaigns
+  Enable vehicle ads in your Performance Max campaigns
+
+
+Next: Create a primary feed             Was this helpful?How can we improve it?YesNoSubmit       

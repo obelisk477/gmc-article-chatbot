@@ -1,0 +1,57 @@
+ How to fix: Invalid return window: return policy label [return_policy_label]Enter a return window that meets the minimum requirements for this product's target country
+
+Google has established minimum return policy requirements for retailers, and also allows for the creation of differentiating return policies. If the return policy for one of your products violates Google’s minimum return policy guidelines, your product may be disapproved.
+
+Make sure your product’s return policies adhere to Google’s minimum return policy guidelines. Your product will remain disapproved and won't show to shoppers until you correct the product’s return policies.
+
+Instructions
+
+You can resolve this issue in one of two ways. You can edit your existing return policy or add a new return policy.
+
+
+  Edit your default return policy
+
+  
+    
+      Sign in to your Merchant Center account.
+      Click the tools icon , then select Shipping and returns under “Tools”
+      Click the Return policies tab.
+      Under “Default return policy”, click Edit.
+      Set up a default return policy for products you sell through Buy on Google. This policy applies to all products for which the return policy label [return_policy_label] attribute is empty, not present, or has a label for which there is no matching return policy.
+    
+
+    
+      Note: Keep in mind that editing a return policy will apply the same changes to any other products that use the same return policy.
+    
+
+    Learn more about setting up your default return policy
+  
+
+
+
+  Add a new return policy
+
+  
+    
+      Sign in to your Merchant Center account.
+      Click the tools icon , then select Shipping and returns under “Tools”
+      Click the Return policies tab.
+      Click the plus button  under “Additional policies”.
+      Set up a new return policy.
+    
+
+    Learn more about how to create a new return policy
+
+    
+      Note: Make sure you apply this new return policy to the disapproved products.
+    
+  
+
+
+Related links
+
+
+  Set up return policies for Buy on Google
+  Manage Buy on Google orders in Merchant Center
+
+             Was this helpful?How can we improve it?YesNoSubmit       

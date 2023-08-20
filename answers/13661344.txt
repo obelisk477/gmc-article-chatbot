@@ -1,0 +1,25 @@
+ I want to add my customer support information to Merchant Center
+
+Customer service is important for your business and your customers because it allows you to help customers solve any issues with your product or service. It also helps you build trust with your customers. So it’s important that your customers know how they can reach you for support.
+
+In Merchant Center Next, you can add your customer support information. 
+
+Instructions
+
+
+  Sign into Merchant Center.
+  On your Home page, navigate to the “Add customer support info” card.
+  Click Add info.
+  Provide the following customer support information:
+    
+      Customer service telephone number
+      Customer service email address
+      Customer service web page URL (i.e. link to a customer service form)
+      Select the “Live chat support available” toggle if your business supports this
+      Select the “Chat bot support available” toggle if your business supports this
+      After providing the relevant information, select your preferred contact method.
+    
+  
+  Scroll down to the bottom of the page and click Save.
+
+             Was this helpful?How can we improve it?YesNoSubmit       

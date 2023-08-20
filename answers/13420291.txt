@@ -1,0 +1,53 @@
+ About the Shopping experience scorecardThis article is intended for users of the Google & YouTube app on Shopify.
+
+The Shopping experience scorecard program rewards businesses that provide excellent customer experiences.
+
+
+  Note: This program is only available if you're participating in Buy on Google or free listings in the US.
+
+
+By meeting certain customer experience criteria, you may receive:
+
+
+  The "Top Quality Store" badge which displays on your listings and can improves user confidence in buying from you
+  Prominence in placements on the Shopping tab
+
+
+The program monitors the experience that you provide to customers in several areas including shipping speed, shipping cost, return cost, and return window. You are given a rating of Excellent, Comparable, or Opportunity for each metric.
+
+
+View your performance
+
+You can view your performance by either opting in to receive regular performance reports via email or signing in to your Merchant Center.
+
+Opt in to receive performance reports via email
+
+
+  Sign in to your Merchant Center account.
+  Click the tools and settings icon .
+  Under the “Settings” column, click Preferences.
+  In the “Email notifications” section, make sure Tips and best practices and Reports are checked.
+  Click Save.
+
+
+Sign in to Merchant Center
+
+
+  Sign in to your Merchant Center account.
+  Click the Growth tab.
+  Click the Shopping experience scorecard tab.
+
+
+
+  Any other changes to settings or product data made in your Merchant Center account may be overridden by changes made in your Shopify account. All other settings should be edited and maintained directly in your Shopify account.
+
+
+
+Related links
+
+
+  About Buy on Google Retailer Standards and policies
+  How to improve your Retailer Standards rating
+  Get more clicks with Opportunities
+
+             Was this helpful?How can we improve it?YesNoSubmit       

@@ -1,0 +1,95 @@
+ Set up transit time label
+
+Use transit time labels to provide more accurate estimated delivery dates to your customers when shipping different groups of products from different locations. For example, if you ship a group of products from a warehouse in Texas and you ship another group of products from a warehouse in New York, the delivery time may vary based on the destination.
+
+How it works
+
+The following table shows how transit time labels and regions can be used:
+
+
+  
+    
+      Product
+      transit_time_label
+      "West Coast" region
+      "Midwest" region
+      "East Coast" region
+    
+    
+      5-piece drum kit - blue
+      drums_heavy
+      2-3 days
+      3-4 days
+      4-5 days
+    
+    
+      5-piece drum kit - red
+      drums_heavy
+      2-3 days
+      3-4 days
+      4-5 days
+    
+    
+      Guitar strap - blue
+      guitar_strap_light
+      1-2 days
+      1-2 days
+      2-3 days
+    
+    
+      Guitar strap - red
+      guitar_strap_light
+      1-2 days
+      1-2 days
+      2-3 days
+    
+  
+
+
+In the above example, the same transit time labels are applied to similar products. Since the retailer's warehouse is located in California, shipping speeds are faster for deliveries to the west coast than to the east coast. Additionally, items labeled with "drums_heavy" have longer shipping speeds than items labeled with "guitar_strap_light" since those packages are larger and heavier.
+
+Instructions
+
+
+  Step 1: Update your feed
+
+  
+    Add the transit time label [transit_time_label] attribute to your feed. This is an open text field, which means you can customize the label you create. Apply labels to products in your feed that have similar transit times.
+  
+
+
+
+  Step 2: Set up regions
+
+  
+    Regions are used to create custom areas so accurate shipping costs and transit times can be set across multiple shipping services. Learn more about how to set up regions
+  
+
+
+
+  Step 3: Set up a new shipping service with transit time labels
+
+  
+    
+      Sign in to your Merchant Center account.
+      Click the tools icon , then select Shipping and returns under “Tools.”
+      If you’re creating a new shipping service, click the plus icon  in the “Shipping services” tab. If you’re updating an existing shipping service, open that service and skip to step 6.
+      Use the drop-downs to set the cutoff times under "Order cutoff time".
+      Under "Handling time in business days", fill in the estimated handling time.
+      Under "Transit times", click More transit times.
+      Click Add Destination and select your destination from the drop-down. Create a new destination by selecting New destination.
+      Click Add transit time label and select a product group from the drop-down.
+      Define the number of transit days for each product group by destination.
+      Click Save.
+    
+  
+
+
+Related links
+
+
+  About shipping settings
+  Set up shipping settings
+  Set up estimated delivery time
+
+             Was this helpful?How can we improve it?YesNoSubmit       

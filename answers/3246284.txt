@@ -1,0 +1,103 @@
+ About automatic item updates
+
+
+  If you’re looking for information about automatic item updates in Merchant Center Next, click here. 
+
+
+
+Automatic item updates can help you keep your data more accurate and up-to-date by automatically using your landing page and product data to detect discrepancies and update your product data. Automatic item updates allow Google to update your products on Shopping ads, Buy on Google, free product listings, and local inventory ads when using merchant hosted local storefront (basic).
+
+For example, if your most recent data feed contains a product that costs $4 USD but your product landing page lists it as $3 USD, we will automatically update the product to $3 USD.
+
+Automatic item updates are offered for price [price], availability [availability], and condition [condition] attributes in Shopping ads, Buy on Google, and free product listings. However, it is only available for the price [price] attribute for local inventory ads when using merchant hosted local storefront (basic).
+
+Benefits
+
+Automatic item updates leads to an improved user experience, more traffic to your products, and higher conversion rates because customers are shown the correct price, availability, and condition of your products in your ads or free listings. Automatic item updates uses offer data found directly on your landing pages or elsewhere in your product data and eliminates discovered mismatches right away. This reduces the risk of account enforcement for price, availability, and condition mismatches. If too many mismatches occur, automatic item updates will stop working and your account will be at risk for preemptive item disapproval. Learn more about preemptive item disapproval
+
+Automatic item updates will be turned on by default in your account. If you decide to turn them off, products with mismatched price, availability, or condition will be disapproved rather than updated. Manage automatic item updates in your account
+
+
+  Note: If your Merchant Center account is configured as a multi-client account, by default each sub-account will use the settings of the parent account. Sub-accounts can also select the option to specify their own settings.
+
+
+Automatic item updates isn’t a replacement for your feeds or for regular updates of your product data. It's designed to fix temporary problems with your price, availability, or condition accuracy for a small percentage of your products. You should continue to provide accurate product data frequently as we won't be able to cover all of your products with automatic item updates.
+
+Price and availability
+
+For price and availability, automatic item updates uses advanced extractors to find price and availability information on a product’s landing page. These extractors use a combination of statistical models and machine learning to detect and extract product data from your website independent of structured data markup. The extractors work in addition to schema.org structured data markup and using schema.org markup is still recommended for retailers.
+
+
+  Note that Google can't guarantee the accuracy of any updates we make. For example, we may not have advanced data extractor coverage for every domain and schema.org annotations may be disabled if they aren’t accurate. However, we've designed various checks and safeguards for this feature to prevent incorrect updates. For more details, review the section below. You may also want to review the landing page requirements.
+
+
+Getting started with automatic item updates for price and availability
+
+1. Implement valid structured data on your landing pages
+
+The first step to getting started with automatic item updates is to ensure that you have valid structured data on the landing pages for your products. If your landing pages don’t contain any structured data, or the structured data markup is incomplete, or not valid, we'll use advanced data extractors to update products automatically. If you turn off automatic item updates, or our extractors are unable to determine any price or availability information, the product will be subject to item-level disapprovals. Learn more about getting started with structured data
+
+2. Review products that have been updated
+
+If you haven't disabled automatic item updates, you can view the current status of these updates on the "Automatic item updates" section of your account, located in the Tools and settings menu. You can also review recently automatically updated products in the downloadable report available in the Diagnostics page.
+
+Condition
+
+Automatic item updates checks the value you provide for the condition attribute against information in other attributes for that product and updates the condition [condition] attribute if there's a discrepancy. Ensure the info in your product feed is consistent with the actual condition of your product.
+
+Getting started with automatic item updates for condition
+
+1. Include information regarding the condition of your products in your product data
+
+Automatic item updates for condition checks the value you provide for the condition [condition]attribute against other values in your product data. Using terms like “new”, “used”, or “refurbished” in the title or description of your product allows us to cross-check for consistency. If you turn off automatic item updates, the product will be subject to item-level disapprovals.
+
+2. Review products that have been updated
+
+If you haven't disabled automatic item updates, you can view the current status of these updates on the "Automatic item updates" section of your account, located in the Tools and settings menu. You can also review recently automatically updated products in the downloadable report available in the Diagnostics page.
+
+Limitations of automatic item updates
+
+Automatic item updates are designed to alleviate issues related to latency or minor mismatches within your Merchant center product data or between your product data and your product landing pages. It isn't a scalable solution to resolve systematic account issues with automatic item updates as it's intended to only cover a small portion of your inventory. Using automatic item updates to attempt to resolve systematic issues may result in product disapproval or account-level enforcement.
+
+We won’t be able to update products effectively in all instances depending on the frequency of price and availability updates on your website. As a general rule, automatic item updates won't be very effective if the price or availability of the majority of the products on your website is updated multiple times per day. This includes, for example, scenarios where prices are regularly updated based on currency exchange rates. In these cases we recommend that you use the Content API to update your product data.
+
+Manage automatic item updates settings
+
+Automatic item updates are turned on by default. You can manage automatic item updates settings at the account level at any time.
+
+To manage the settings for automatic item updates:
+
+
+  In to your Merchant Center account, click the tools icon .
+  Select Automatic improvements under “Settings”.
+  On the following page, you can enable automatic item updates for price, availability, condition, or any combination of the 3. You can also turn off automatic item updates completely.
+
+
+For Buy on Google
+
+If Buy_on_Google_listings is listed as a value for the included destination [included_destination] attribute and a link [link] attribute is provided for any of your products, those products may receive automatic price updates when a minor price difference is detected between the feed price and the price found on the landing page that was submitted using the link attribute.
+
+If a significant difference in price is detected, the price for that product won't be automatically updated and the product will continue selling on Buy on Google with the original feed price.
+
+Similarly, if both Shopping_ads and Buy_on_Google_listings are listed as values for the included destination [included_destination] attribute for any of your products and a significant difference is found between the feed price and the price on the landing page that was submitted using the link [link] attribute, the price won't be automatically updated and the products will be disapproved for Shopping ads due to price mismatch. The products will, however, still be eligible to sell on Buy on Google at the original feed price.
+
+
+  Note: The price for the Buy on Google [sell_on_google_price] attribute is not subject to automatic item updates and should be used if the price for Buy on Google differs from the one on the product landing page provided.  Learn more about the price for Buy on Google [sell_on_google_price] attribute
+
+
+
+  Best practices for automatic item updates
+
+  
+    To improve the quality of your data and provide a good user experience, try the following:
+
+    
+      Schedule feed uploads or updates via the Content API immediately after the products have been updated on your website. This will help you avoid errors due to the time difference between updates on your website and updates of your Shopping data.
+      If you’re using the sale price [sale_price] attribute, make sure that the time period in which the sale is active is specified correctly with the sale price effective date [sale_price_effective_date] attribute and that the timezone is correct. When a sale is active, the sale price is shown as the current price in Shopping search results.
+      For products sold in bulk quantities, you should submit the total price for the minimum number of products sold. Landing pages must list prices in the appropriate currency of the target country, and in the same currency as submitted in your product data.
+      To detect and update price and availability mismatches, Google crawls the landing pages listed in your data feed or provided in the Content API. You can increase Google's crawl rate to allow us to cover more products on your website. Learn more about how to change the Googlebot crawl rate
+      Use common descriptors when describing the condition of your product, for example “used” or “second-hand”. While colloquial terms like “pre-loved” may be cute, they aren't explicitly clear. Use a term like “pre-owned” instead.
+    
+  
+
+             Was this helpful?How can we improve it?YesNoSubmit       

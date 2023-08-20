@@ -1,0 +1,173 @@
+ Working with Comparison Shopping Services
+
+ 
+
+
+  If you’re looking for information about working with Comparison Shopping Services in the classic Merchant Center experience, click here.
+
+
+
+Comparison Shopping Services (CSSs) can place Shopping ads and free product listings on Google on behalf of merchants in the following countries: Austria, Belgium, Czech Republic, Denmark, Finland, France, Germany, Greece, Hungary, Ireland, Italy, the Netherlands, Norway, Poland, Portugal, Romania, Slovakia, Spain, Sweden, Switzerland, and the United Kingdom.
+
+
+There are many CSSs, including Google Shopping. CSSs offer different areas of expertise, services, and charging models.
+
+You need to work with at least one CSS to place Shopping ads or free listings. You can work with several at the same time if you prefer. This article provides an overview of some of the different setups that we've seen CSSs offer, and information on how to work with a CSS. Learn more About advertising with Comparison Shopping Services.
+
+
+On this page
+
+
+  Finding a CSS
+  CSS Service Models
+  Using conversion reporting and auto-bidding
+  Placing products beyond general search
+  Using free product listings in Europe
+  Placing products outside of Europe
+  Switching an account from one CSS to another
+    
+
+
+Finding a CSS
+
+You can find eligible CSS partners on Google’s Comparison Shopping Partners portal. Filter by one or more countries, industries, or supported languages to find CSSs that fit your specific needs. You can also set filters to search for partners that offer API feed technology or for premium partners that have additional technical certification and offer conversion tracking for merchants.
+
+
+CSS Service Models
+
+There are a number of different ways in which CSS and merchants can agree to work together. Any given CSS might offer multiple service models or tailor services to your specific needs.
+
+Some specialize in specific categories (apparel, for example). Some manage feeds and campaigns for you, while others provide tools for you to manage your product data and bidding strategies yourself. Hybrid models exist as well, and CSSs may offer a variety of additional services. Some CSSs charge a fee per click, while with others you might pay a commission when a click on an ad leads to a sale. Combining the strengths of several CSSs can increase the overall performance of your Shopping ads.
+
+
+  Managed service
+
+  
+    
+      In this case, the CSS creates a Merchant Center and a Google Ads account on your behalf. You provide your product data to the CSS and they optimize your feed, upload it to Google, and manage your campaigns. Some CSSs may also use your product data to generate leads for you from other channels.
+
+      Google will invoice the CSS for clicks on the ads they place on your behalf. The cost that Google charges the CSS will depend on the outcome of the ad auction. The CSS in turn will charge you. The pricing model will depend on the agreement you have with that CSS. For example, some CSSs may charge a fixed price per click, some a different click price by category, and some a commission only when a click leads to a sale.
+
+      The CSS typically provides you with reporting of the performance of their activities and the associated cost, potentially across the different channels they use. In this model, you won't normally have access to the Merchant Center and Google Ads accounts that the CSS runs on your behalf, but you may have access to tools the CSS provides.
+    
+  
+
+
+
+  Self-service
+
+  
+    
+      In this case, the CSS creates a Merchant Center and a Google Ads account on your behalf and then gives you access to these accounts. Another alternative is to switch your existing account from one CSS to another. You manage your feeds and campaigns yourself.
+
+      Google will invoice the CSS for clicks on the ads they place on your behalf. The cost that Google charges the CSS will depend on the outcome of the ad auction. The CSS in turn will charge you. The pricing model will depend on the agreement you have with that CSS. In this model, the CSS typically charges a fixed-percentage markup on the CPC paid in the Google auction. Other pricing schemes exist. Some CSSs enable merchants to directly pay their Google Ads invoice and charge separately for the CSS’s services.
+
+      You typically have direct access to reporting in Merchant Center and Google Ads. The CSS may provide additional reporting on the performance of the campaigns and the associated cost. Some CSSs may provide consulting services to assist you with your Shopping ads activity.
+    
+  
+
+
+
+  Hybrid models
+
+  
+    
+      These models combine aspects of managed service and self-service models. For example, a CSS may manage and optimize your product data feed, but you run the campaigns yourself. Or the other way around, you manage your feed yourself, while the CSS runs the campaigns for you.
+
+      Variants of these hybrid setups involve the CSS creating a new Merchant Center account on your behalf, which you then link to an existing Google Ads account. This way you can use your existing Google Ads account to manage Shopping ads placed through the CSS.
+
+      Other variants involve Google invoicing you directly for ads by a CSS. This may be a more suitable setup if you manage your Shopping campaigns yourself. In these cases, the CSS typically invoices you separately for their services.
+
+      Some CSSs might offer additional services beyond those described above.
+    
+  
+
+
+
+Using conversion reporting and auto-bidding
+
+Whatever model they offer you, all CSSs have access to the same features, including conversion reporting and Google’s auto-bidding tools.
+
+If you’d like to use conversion reporting and auto-bidding with a CSS, there are several ways, including:
+
+
+  Add a Google Ads conversion tracking tag to your website
+
+  
+    
+      You add a Google Ads conversion tracking tag, or code snippet, to your website for the CSS you’d like to work with. Based on this conversion data, the CSS can then run auto-bidding campaigns on your behalf.
+
+      Learn more about setting up adding conversion tracking to your website.
+    
+  
+
+
+
+  Share conversions via a Google Ads manager account
+
+  
+    
+      If you've already set up conversion tracking with one CSS, you can share this conversion data with another CSS. To do this, the new CSS links the Google Ads account used for your new campaigns to your Google Ads manager account (if you don’t have one, you can create one). The new CSS can then run auto-bidding campaigns based on this shared conversion data.
+
+      Learn more About cross-account conversion tracking.
+    
+  
+
+
+
+  Share conversions via Google Analytics
+
+  
+    If you're importing conversion data in your Google Ads account using Google Analytics, you can also use this method with CSSs by linking the Google Ads account used for your campaigns to your Google Analytics.
+  
+
+
+
+  Using third-party bidding tools
+
+  
+    CSSs can also use any third-party bidding tools compatible with Google Ads and Shopping campaigns. In a managed service model, the CSS uses the third-party tool to manage bids on your behalf. In a self-service model, you use the third-party tool yourself to place bids through the CSS.
+  
+
+
+
+Placing products beyond general search
+
+By default, a CSS can place products only in the Shopping unit on Google’s general search results pages in CSS program countries.
+
+Some CSSs opt in to placing products also on the Display network and on other surfaces beyond Google’s general search results pages (such as the Shopping tab, YouTube, and more) in CSS program countries. If you work with one of these CSSs, they can place products on your behalf on Google’s general search results pages and these other surfaces, for any feature available on those surfaces.
+
+
+Using free product listings in Europe
+
+If you’d like to place products in free listings, you can do so through any CSS in Europe. You can select only one CSS to use for free listings in Europe in your CSS dashboard.
+
+
+Placing products outside of Europe
+
+You can choose only one CSS to place products for you in Shopping ads and free listings outside of Europe. You can change this selection in your CSS dashboard.
+
+
+Switching an account from one CSS to another
+
+If you’d like to keep an existing Merchant Center account, but work with a different CSS, you can request to have your account switched from one CSS to another. Ask your new CSS to initiate the switch. After the CSS has initiated the switch, it can be approved or declined by a Merchant Center account admin. Note that a Merchant Center account can be associated with only one CSS at a time.
+
+Google Ads accounts don’t need to be switched. Your Merchant Center account determines which CSS your Shopping ads and free listings are associated with. If you use product data from a Merchant Center account that is associated with a specific CSS for any campaign in any Google Ads account, that campaign is considered to belong to the associated CSS.
+
+If you switch a Merchant Center account from one CSS to another, note the following:
+
+Products shown on dynamic remarketing and surfaces beyond general search: If the CSS you switch to isn't opted in to serving ads on dynamic remarketing and surfaces beyond general search, your products will only appear on Google’s general search results pages and will stop serving on other surfaces.
+
+Placing products outside of CSS program countries: If the switched Merchant Center account contains product data for countries where the CSS program isn’t available, these ads and free listings will stop serving if the new CSS hasn't chosen to place Shopping ads and free listings in those countries. If you want to continue to place Shopping ads and free listings both in countries where the CSS program is available and in countries where it’s not, you have 2 options:
+
+
+  Create a new Merchant Center account with your old CSS for your product data for countries where the CSS program isn't available. Switch the existing Merchant Center account to the new CSS to place ads and free listings in CSS program countries.
+  Ask the new CSS to create a new Merchant Center account for your product data for CSS program countries. Keep the existing Merchant Center account with the old CSS to place ads and free listings in countries where the CSS program isn't available.
+
+
+
+  Note: When initiating a switch, a CSS can also request to change your account setup. Your Merchant Center account can be associated with a CSS as a standalone account, or it can be a sub-account of a multi-client account (MCA) that is associated with the CSS. In the latter case, MCA users automatically get access to your account.
+
+
+Admins can review the access settings to your Merchant Center account for your CSS in the “account access” page in Merchant Center to ensure the settings reflect your and your CSS’ needs.
+             Was this helpful?How can we improve it?YesNoSubmit       

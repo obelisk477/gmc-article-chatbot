@@ -1,0 +1,61 @@
+ How to fix: Duplicate storeRemove duplicate stores from the offer
+
+If one or more store codes in your vehicle inventory ads data (which are submitted using the vehicle fulfillment store code [vehicle_fulfillment_store_code] or store code [store_code] attributes) reference a location that has been identified as a duplicate within the linked location group of your Business Profile account, inventory data associated with duplicate store listings will be rejected. Listings can either be a duplicate of a listing to which you already have access to or a listing to which you don’t have access. The Business Profile interface will indicate whether or not you have access to the original listing.
+
+Investigate duplicate store listings
+
+
+  In your Business Profile account, go to “Manage locations”.
+  Identify all listings with the status “Duplicate”.
+    
+      Utilize the status filter and set it to “Duplicate” to display all listings which are accessible to you.
+    
+  
+  Click on the listing identified as “Duplicate” to reach the overview page for this listing.
+  On the overview page, the “Duplicate location” will be called out in a red box.
+  If you have access to the original listing of which this listing is a duplication, you will see the “View original” link. If you do not have access, a “Request access” link will be displayed instead.
+
+
+Access to the original listing (View original)
+
+Follow the link to the original listing. If you confirm that the listing identified as a duplicate is an actual duplication of the original, follow the instructions to remove duplicate locations.
+
+
+  Ensure that the location has the same store code as the store code in your inventory data. Either update your inventory data or update the store code to ensure that the inventory and the listing match.
+  Ensure that the remaining listing is in the location group linked to your Merchant Center account.
+  
+    
+      Note: If you reassign the store code in Business Profile, make sure that none of your inventory data references the original store code. If it does, make sure that you assign the new store code to all relevant inventory offers.
+    
+  
+  If you have reason to believe that the listing has incorrectly been identified as a duplicate, use our contact us form.
+
+
+No access to the original listing (Request access)
+
+If the Business Profile interface indicates that you do not have access to the original listing follow these steps to request access to the original listing:
+
+
+  Click on Request access.
+  Fill in the request access form.
+
+
+Alternatively:
+
+
+  Open Google Maps.
+  Find the location you want to report.
+  Click Suggest an edit.
+  Mark the location as "Place is permanently closed or has never existed".
+  Select "Duplicate" as the reason.
+  Click Submit.
+
+
+Once you’ve been granted access to the listing, follow the “Access to the original listing (View original)” steps above.
+
+Related links
+
+
+  Vehicle ads troubleshooting form
+
+             Was this helpful?How can we improve it?YesNoSubmit       

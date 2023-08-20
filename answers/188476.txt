@@ -1,0 +1,168 @@
+ Troubleshoot your feed
+  
+    If you're looking for information about troubleshooting your feed in Merchant Center Next, click here.
+  
+
+
+It is our goal to provide answers to any problems that you might experience when using feeds and Google Merchant Center. In this article, you'll learn how to troubleshoot issues with creating, formatting, and uploading your feed.
+
+If your products are disapproved, read the article About item disapprovals for policy violations.
+
+If your account is disapproved, read the article Understanding account-level enforcement for product data quality violations.
+
+Review feed processing results
+
+You’re able to review the results of all feed processing for file-based or Google Sheet-based feeds. To find the results:
+
+
+  Sign in to your Merchant Center account.
+  From the navigation menu, click Products, and then click Feeds.
+  Click the primary or supplemental feed name you’d like to review.
+  Review the results:
+    
+      Properties: Includes key feed properties, which vary depending on the input method of the feed. Here, you can find attributes such as input method, timezone, filesize, detected delimiter (if applicable), and more.
+      Attributes: Your feeds need to adhere to the product data specifications for the programs you’re opted into. In this section, you can review all of the attributes we found in your feed, including those attributes which are recognized and map to the feed specification, and also unrecognized attributes which do not match one listed in the product data specification. You may review the list and use tools such as feed rules to tell Merchant Center which unrecognized attribute you would like to use to populate a Google attribute. For example, you may want to use "product name" in the title [title] attribute.
+      Processing data: In this section, you can review the amount of items found in your feed, as well as those with any detected item issues. Review the list of item issues to understand how many items in your feed are impacted, including examples and links to documentation to address the issue.
+    
+  
+
+
+If your account has been disapproved and your feeds seem to be correct, you can view consolidated issue reporting for the Shopping product data across your account, feeds, and items in the "Diagnostics" page, located under “Products”.
+
+
+  Note: Processing only checks for basic file and data issues. To review all issues, go to Diagnostics.
+
+ Feed creation issues
+
+
+  
+    Forgotten attribute: Your feed may be missing a required attribute. The ID [id] attribute is one of the most commonly forgotten attributes, so always check it first.
+    Incorrect formatting: Click any of these links for example files that show what a feed should look like in these formats.
+      
+        Tab delimited (.txt)
+        RSS 2.0
+        Atom 1.0
+      
+    
+    We currently don't allow feeds in .xls format. If you created a feed in .xls format, learn how to convert it to a .txt file.
+  
+
+Feed registration issues
+
+
+  
+    Target country: Specify the location where your items are sold. For example, if you specify “United States” as your target country, this indicates that your items are available for purchase in the US. The product data uploaded to a selected country must meet the requirements for that country, including the feed specifications and policies.
+    Multiple countries: Specify multiple target countries if you sell the same product in multiple countries. Ensure your products meet the requirements for each country, including the feed specifications and policies.
+    Data feed file name: RSS and Atom files should end with an .xml extension. Filenames that don't end with any extension will be processed as a tab-delimited file by default and should end with (.txt). Remember that we don't accept files in Excel format. See converting your spreadsheet for help.
+    When using filename extensions like .zip or .gz, you must ensure that the file is compressed because our system assumes that the file is compressed. Uploading an uncompressed file in this case may cause feed failure. Make sure that the compressed archive contains exactly one file.
+  
+
+  Note that, when editing your data feed settings, we recommend you leave "autodetect" as the selected option unless a specific problem needs to be addressed.
+
+ Formatting issues
+
+
+  
+    Text or tab-delimited
+      
+        If you are using previously formatted text (anything with line breaks or quotations), make sure your feed has quoted attributes turned on.
+        Make sure that your columns (tabs) with the required attributes correctly match all the items; oftentimes there will be either an extra tab or a missing tab.
+        If you’re using Google Sheets, the Google Merchant Center add-on can help you validate your data.
+      
+    
+  
+
+  
+    XML
+      
+        You can't include un-escaped special characters like "&".
+        Your attribute names may not contain capital letters, any capitalization in your attribute names should be removed. For example, the title [title] attribute should be entered as <title>, instead of <Title>.
+        Incorrect encoding sometimes occurs. Be sure to encode your file in the accepted formats.
+      
+    
+  
+
+Uploading issues
+
+
+  
+    Your feed may be too large for the upload method you're using.
+
+      
+        Direct upload files must be less than 4 GB in size. (If you're encountering an "oops" message from this method, please wait a few hours and try again.)
+        SSH File Transfer Protocol (SFTP) files must be less than 4 GB in size.
+        Files set for scheduled fetches must be less than 4 GB in size.
+      
+    
+  
+
+  
+    Commonly, automatic uploads fail because:
+
+      
+        The URL used for scheduled fetch is roboted or doesn't have permission settings for Merchant Center to download the data feed.
+        The URL used for scheduling isn't working or redirects to a page that doesn’t contain the data feed.
+      
+    
+    Compressed files must be smaller than 500 MB.
+  
+
+  Here are some of the most common errors encountered using SFTP.
+
+  
+    
+      
+        Issue
+        Solution
+      
+      
+        Server not found error
+        
+        For SFTP, verify you're signing on to {sftp username}@partnerupload.google.com with a specified server port of 19321. If you're using an SFTP client, you may need to prefix the host name address with the ‘sftp://’ protocol (for example, sftp://partnerupload.google.com).
+        
+      
+      
+        Username or password incorrect
+        Click here for help with SFTP login issues.
+      
+      
+        "Filename not allowed" error
+        Ensure that your filename doesn't contain spaces. The name of your file should exactly match the name of the filename you registered in your account.
+      
+      
+        You don't have a data feed registered with this name
+        Ensure that the name of the file you’re submitting via SFTP exactly matches the file name provided when registering your data feed.
+      
+      
+        "SFTP connection reset by peer" error
+        The Internet connection to our SFTP server was lost. Try uploading your file again. If your file is under 200 MB in size, you can also upload your file directly through the Google Merchant Center data feeds page. If your file is larger than 200 MB, try splitting your data feed into multiple files smaller than 200 MB. The smaller file size will allow you to upload your files through your dashboard.
+      
+    
+  
+
+  For specific problems with SFTP not answered within this page read this article.
+
+
+If you created your feed using one of the upload methods and would like to review it during your investigation, follow these steps to download it. Note that there is no file to download for Content API feeds.
+  
+
+
+  Sign in to your Merchant Center account.
+  Select Products from the left-hand navigation menu, then click Feeds.
+  Under the "Feed" column, click the feed name.
+  Under the "Processing" tab, click the 3-dot icon  on the far right.
+  Select the option to Download file.
+
+
+
+  You may also try exporting your entire feed to Google Cloud using Merchant Center export (beta)
+
+
+Note that only users who belonged to the merchant account when the file was uploaded have the right privileges to download the feed.
+
+You’ll be able to download a CSV report detailing processing errors and warnings after you’ve uploaded your feed. When a report is available, you’ll notice an option to download the report in the feed summary page next to the "Download file" button. The report will contain identifying information for errors at the top, followed by a table with details on individual items and their feed errors and warnings. Note that the report will only be available for 14 days after you’ve uploaded your feed and will only detail up to 100,000 errors and warnings combined.
+
+You may also be able to use feed rules to correct missing or incorrectly formatted attributes in your feed without editing its content.
+
+
+             Was this helpful?How can we improve it?YesNoSubmit       

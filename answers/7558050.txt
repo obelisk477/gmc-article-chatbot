@@ -1,0 +1,207 @@
+ About compatible or refurbished third party productsIf you advertise products from third party manufacturers that are compatible with Original Equipment Manufacturer (OEM) products or OEM products that are refurbished by a third party, follow these requirements for the condition [condition], title [title], and image link [image_link] attributes as well as for unique product identifiers. If you don't follow these requirements, your products may be disapproved or your account suspended.
+
+On this page
+
+
+  Minimum requirements
+  Printer cartridge requirements
+
+
+
+  
+    Note:
+
+    
+      For printer cartridges, there are more detailed requirements. Review them at the bottom of this article.
+      Advertising refurbished products is available only on Shopping ads. You can’t sell refurbished products with Buy on Google.
+    
+  
+
+  
+  Minimum requirements
+
+  If you're selling any compatible or refurbished third party products, make sure each different product is submitted as one single item.
+
+  
+    Example: If you're selling a third party printer cartridge that's compatible with different printers, you must submit the cartridge as one single product, and then provide the different compatible printer models in the description attribute.
+  
+
+  If the third party product is compatible with multiple OEMs, submit it as one item and list all the compatibilities in the description [description] attribute. Duplications of the same third party product aren’t allowed.
+
+  
+    Example: If you have multiple different third party cartridges, each compatible with its own set of printers, then each cartridge must be submitted as one product, and the compatible printers should be added to the description.
+  
+
+  Condition
+
+  Use the correct attribute value for the condition[condition] of your product:
+
+  
+    new (new): Your product is new and has never been used. It's in its original packaging, which hasn’t been opened.
+    refurbished (refurbished): While your product isn’t new, it has been professionally restored to working order so that it appears new, and it comes with a warranty. The product might or might not be in its original packaging. This is sometimes referred to as "remanufactured".
+    used (used): Your product is a second-hand item. For example, the product has been used before, the original packaging has been opened, or the original packaging is missing.
+  
+
+  Note: These values must be submitted in English in your product data.
+
+  Title
+
+  Make it clear in your title [title] what kind of product customers are buying and who manufactured or refurbished it.
+
+  
+    If your product is compatible with an OEM product, but was manufactured by a third party, begin the title with a non-OEM keyword such as “compatible”, “third party”, “generic”, or with the name of the third party manufacturer.
+    If your product is a refurbished OEM product, but was refurbished by a third party, begin the title with a non-OEM keyword such as “refurbished”, “remanufactured” or with the name of the third party refurbisher.
+    Include the name of the third party manufacturer or refurbisher in the title.
+    You can include the OEM name, model and/or part number in the title, but none may be at the beginning of the title.
+    Don’t include OEM keywords like "original", "genuine", etc.
+  
+
+  
+    Example: If you advertise a dishwasher rack by third party manufacturer GreatSpareParts that is compatible with products from OEM ABC Dishwasher, use the title “Compatible dishwasher rack AD12345 for ABC Dishwasher by GreatSpareParts” or something similar.
+  
+
+  Image
+
+  The image [image] should clearly show what the customer is buying.
+
+  
+    If your product is refurbished, show the product by itself or in its third party packaging. Don’t show the original OEM product or OEM packaging in your image.
+    If your product is compatible with an OEM product, but was manufactured by a third party, the image should show the third party product or packaging. Don’t show OEM products or OEM packaging in your image.
+  
+
+  Unique product identifiers
+
+  Use the correct product identifiers.
+
+  
+    If the product contains any third party parts, submit the unique product identifier (brand, GTIN, MPN) values of the third party manufacturer. Don’t include OEM product identifiers.
+    If the product exclusively contains OEM parts and is refurbished, submit the unique product identifier (brand, GTIN, MPN) values of the OEM (and the condition value “refurbished”). Note more specific requirements for printer cartridges below.
+  
+
+  Printer cartridge requirements
+
+  Printer cartridges have specific requirements for different scenarios. The values you submit for condition [condition], title [title], image link [image_link], and unique product identifiers depend on the type of printer cartridge you are selling.
+
+  The type of cartridge is determined by who manufactures the ink or toner, who manufactures the container, and the condition of the cartridge.
+
+  All compatible or refurbished third party products can be submitted as single products, and a compatible printer type can be added to the description. Additionally, if you have multiple third party printer cartridges, each which are compatible with different printers, submit each product separately.
+
+  
+    Note: “OEM” refers to the manufacturer of the printer.
+  
+
+  Most popular types of cartridges
+
+  
+    OEM ink in OEM container, new condition
+
+    
+      
+        
+          Condition: Submit “new” as the value for the condition [condition] attribute.
+          Title: The title can have keywords like “original”, “genuine”, and the OEM brand name. Omitting any such keywords in the value for the title [title] attribute is also considered as OEM.
+          Image: The image should show the OEM box or packaging or the standalone cartridge item that you are advertising.
+          Unique product identifiers: Submit the unique product identifier (brand, GTIN, MPN) values of the OEM.
+        
+      
+    
+  
+
+  
+    Third party ink in third party container, new condition
+
+    
+      
+        
+          Condition: Submit “used” as the value for the condition [condition] attribute.
+          Title: Begin the title with a non-OEM keyword. Non-OEM keywords include “compatible”, “third party”, and “generic”.
+          Image: The image should show the third party cartridge you are advertising. No image of OEM cartridges or their packaging must be used.
+          Unique product identifiers: Submit the unique product identifier (brand, GTIN, MPN) values of the third party manufacturer. Don’t include OEM product identifiers.
+        
+      
+    
+  
+
+  
+    Third party ink in OEM container, refilled or used condition
+
+    
+      
+        
+          Condition: Submit “used” as the value for the condition [condition] attribute.
+          Title: Begin the title with the keyword “refilled” followed by the OEM brand and cartridge number. Don’t include OEM keywords like "original", "genuine", etc.
+          Image: The image can show the standalone cartridge item you are advertising, but must not show the OEM packaging or box.
+          Unique product identifiers: Submit the unique product identifier (brand, GTIN, MPN) values of the OEM only if using exclusively OEM parts. Should there be any third party parts included, don’t submit the OEM product identifiers (using any third party parts, the container is considered third party, refer to cartridge type below for requirements).
+        
+      
+    
+  
+
+  
+    Third party ink in third party container, refilled or used condition
+
+    
+      
+        
+          Condition: Submit “used” as the value for the condition [condition] attribute.
+          Title: Begin the title with a non-OEM keyword. Non-OEM keywords include “compatible”, “third party”, and “generic”.
+          Image: The image should show the third party cartridge you are advertising. No image of OEM cartridges or their packaging must be used.
+          Unique product identifiers: Submit the unique product identifier (brand, GTIN, MPN) values of the third party manufacturer. Don’t include OEM product identifiers.
+        
+
+        
+          Note: If there is no third party GTIN [gtin] assigned to the product, submit the value for the identifier exists [identifier_exists] attribute as false.
+        
+      
+    
+  
+
+  Other types of cartridges
+
+  
+    OEM ink in OEM container, refurbished condition
+
+    
+      
+        
+          Condition: Submit “refurbished” as the value for the condition [condition] attribute.
+          Title: Titles can have keywords like “original”, “genuine”, and the OEM brand name. Not mentioning such keywords in the title is also considered as OEM.
+          Image: The image should show the OEM box or packaging or the standalone cartridge item you are advertising.
+          Unique product identifiers: Submit the unique product identifier (brand, GTIN, MPN) values of the OEM.
+        
+      
+    
+  
+
+  
+    Third party ink in third party container, refurbished condition
+
+    
+      
+        
+          Condition: Submit “refurbished” as the value for the condition [condition] attribute.
+          Title: Begin the title with a non-OEM keyword. Non-OEM keywords include “compatible”, “third party”, “generic”.
+          Image: The image should show the third party cartridge you are advertising. No image of OEM cartridges or their packaging must be used.
+          Unique product identifiers: Submit the unique product identifier (brand, GTIN, MPN) values of the third party manufacturer. Don’t include OEM product identifiers.
+        
+      
+    
+  
+
+  
+    OEM ink in OEM container, refilled or used condition
+      OEM ink in OEM container, refill
+
+    
+      
+        
+          Condition: Submit “used” as the value for the condition [condition] attribute.
+          Title: Titles can have keywords like “original”, “genuine”, and the OEM brand name. Not mentioning such keywords in the title is also considered as OEM.
+          Image: The image should show the OEM box or packaging or the standalone cartridge item you are advertising.
+          Unique product identifiers: Submit the unique product identifier (brand, GTIN, MPN) values of the OEM.
+        
+      
+    
+  
+
+             Was this helpful?How can we improve it?YesNoSubmit       

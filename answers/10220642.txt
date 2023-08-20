@@ -1,0 +1,219 @@
+ Set up your return policies for Shopping ads and free listings
+
+
+  This article does not apply to Buy on Google return policies. To learn how to set up return policies for Buy on Google, check this article.
+
+
+When you submit your product data to show Shopping ads or free listings, you may also choose to provide information about your return and refund policies. Return policy is a key factor for people who are making a purchasing decision, and showing your policies on your ads and listings may help the performance of your products.
+
+
+
+
+  Tip: If you see a notation on your ads or listings that says your return policy applies "For most items,” that means we were able to determine your return policy without you uploading it. Uploading your policy following the steps in this article will remove that notation. The return policies that are uploaded and verified will take precedence over what we've collected from your website.
+
+
+How it works
+
+To set up returns, you’ll need to create return policies in your Merchant Center account. Return policies can be associated with all products, with specific groups of products, or even a single product by using the return policy label [return_policy_label] attribute in your product feed.
+
+Alternatively, you can share your return policy automatically using the Content API. Only people with experience in web development should set this up, but once it’s done, anyone can use it. Learn how to share your return policy via the Content API
+
+For each return policy, you can configure a number of settings, such as return eligibility and when customers are responsible for return shipping costs.
+
+Examples
+
+
+  
+    
+      Return scenario
+      How you’ll configure return policies
+    
+  
+  
+    
+      
+      If you have one standard policy for all items you sell
+      
+      Create a single policy.
+    
+    
+      If you have one standard return policy for domestic sales, but you don’t accept returns on international sales
+      Create one return policy for the country that you accept returns to. Then set up another policy for “international” countries that you sell to but don’t accept returns to.
+    
+    
+      If you have one standard return policy for most items, but certain others can’t be returned
+      
+      Create a single standard return policy that applies to all items. Then, create an exception policy, in which you’ll indicate that returns are not allowed for certain items. In the exception policy process, you’ll be asked to create a label, which you’ll apply to exception products in your feed.
+
+      Some products which commonly can’t be returned are personal care items, safety equipment, and customized production like engraving.
+      
+    
+    
+      
+      If you have one standard return policy for most items, but some items have to be returned sooner than others
+
+      (for example, premium electronics)
+      
+      
+      Create a single standard return policy that applies to all items having 30 days to return. Then, create an exception policy to indicate items with the exception applied that will need to be returned within 14 days.
+
+      In the exception policy process, you’ll be asked to create a label, which you’ll apply to exception products in your feed.
+      
+    
+    
+      Combination
+      You may have some combination of any of the above, which means you’ll need to create a standard policy and multiple exceptions. Then, you’ll apply the proper label to relevant products in your feed.
+    
+  
+
+
+Requirements
+
+Provide clear and conspicuous refund and return information on your website. Based on information collected from this return policy, Google may show your general return policy on your ads and listings. Any return policy that doesn't meet Google's policies may not be used.
+
+
+  Make sure that the return policies are applicable not just to defective products, but also to more general cases, such as buyer’s remorse.
+  Make sure that the return policy is accessible to all users visiting your online store, without having to log-in, sign-up, or enter any personal information.
+  Confirm that the return policies are consistent in Merchant Center and the website, and also throughout your website, for example, in the footer, returns page, and web banner.
+  Make sure that your website clearly states how you handle actions related to returns and refunds, for instance, the time frame within which you accept returns, the return method, return fees, and so on.
+  When targeting your products to a specific country, use the official language of that country. The return and refund policy should also be in the same language as the website.
+
+
+Instructions
+
+Add a return policy
+
+You can create a policy that applies to a single country or to multiple countries. Once you’ve created a policy, you can add exception policies, and you can add additional countries to any policy later (as long as that country isn’t already included in a different policy).
+
+
+  Sign in to your Merchant Center account.
+  From the page menu, click Shipping and returns then click the Returns tab.
+  In the box at the top, click Add policy.
+
+
+
+  Note: You may see suggestions for your return policy. These suggestions have been customized for you based on information collected from your website, and are designed to provide for an optimal user experience. You can accept them, partially accept them, or disregard them and start from the beginning. Either way, you can review your return policy before saving, or edit them anytime.
+
+
+Return policies can be added in the "Returns" section in Merchant Center (under “Tools and Settings” > “Shipping and Returns”), via feeds, or via the Content API.
+
+Step 1: Select which program the return policy applies to
+
+
+  Choose “Ads and free listings”, and click Next.
+
+  Learn more about adding a return policy for Buy on Google
+
+Step 2: Select the countries this return policy applies to
+
+Choose the country or countries where you sell the majority of your products, and click Next.
+
+Step 3: Return policy URL
+
+
+  
+    
+      Enter the URL for the return policy on your website.
+      Select whether or not you accept returns from the countries selected in Step 1 above.
+    
+  
+
+
+Step 4: Return method
+
+
+  
+    Select the various methods that customers can return your products, such as:
+
+    
+      In store
+      At a kiosk
+      By mail
+    
+  
+
+
+Step 5: Return window and seasonal override
+
+
+  
+    Enter the number of days customers have to complete returns.
+    Set a seasonal override for products that are ordered within a specific time range and for which there is an exception to the standard return policy (for example, during the holidays).
+      
+        Set the dates for when the policy applies.
+        Specify the latest date by which products must be returned or number of days of the return window.
+      
+    
+  
+
+  
+    Note: If you set a specific date until which products may be returned, and that date differs from the return window of a non-seasonal policy, the more favorable of the two policies will be applied.
+  
+
+
+Step 6: Product condition
+
+
+  
+    Select whether you allow product to be returned if they are:
+
+    
+      New. This can include unopened products in original packaging, and products that have never been used.
+      Used. This can include products that are lightly used or opened.
+    
+  
+
+
+Step 7: Return fees
+
+
+  
+    
+      Select the currency, enter your restocking fee, and indicate your return shipping costs
+      Review your details, and click Done.
+    
+  
+
+
+
+
+
+Add an exception policy
+
+To add an exception, you’ll need to change the parts of your existing policy that are different for specific products. Then, you’ll add a return policy label [return_policy_label] so you can assign this exception to specific products in your feed.
+
+
+  Sign in to your Merchant Center account.
+  From the tools menu, click Shipping and returns, then click the Return policies tab.
+  Select the return policy you want to add an exception to.
+  Click + Add exception policy.
+  Enter the policy name and a label. This return policy exception will only apply to items that have that label in your feed.
+  Set the return window for your policy. You can choose from a number of days after delivery, lifetime returns, or no returns.
+  Select the reasons that require customers to pay for the return shipping fees.
+  Add a date range and return window if you want the policy exception to apply for a specific date range, for example during the holidays.
+  Review your details, then click Save.
+
+
+Add return policy label attribute to products
+
+If you only have one return policy (the default policy), you do not need to make any updates to your feed, or if you desire you can still add the return policy label [return_policy_label] column to your feed using the keyword “default” as the label value for every product.
+
+If you have created multiple return policies, you will need to add the return policy label [return_policy_label] column to your feed. If the default policy applies, use the keyword “default” or simply keep this column blank. For products that have an exception to the default policy, add the label name you created for that exception policy.
+
+Check the verification status of your return policy
+
+Google verifies your return policies before using them. In the “Status” column of the “Returns” tab, you will see one of the following:
+
+
+  Verified: Your policy has been approved.
+  Pending: The review of your policy is not yet complete.
+  Rejected: Your policy has not been approved. Ensure your return policy meets the requirements, and update as needed.
+
+
+Related links
+
+
+  Delete return policies for Shopping ads and free listings
+  Supported structured data attributes and values
+
+             Was this helpful?How can we improve it?YesNoSubmit       

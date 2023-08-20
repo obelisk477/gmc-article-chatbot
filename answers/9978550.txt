@@ -1,0 +1,57 @@
+ How to fix: Incompatible shipping service for some ordersUpdate the shipping service for this product to include all of the possible shipping rates and minimum order values
+
+One or more of your offers doesn't include a shipping fee. This could be because a shipping fee hasn’t been created or hasn’t correctly been applied due to incompatibility with shipping rules that you have set regarding the price, destination, weight, or number of items in an order.
+
+For example, let’s say you’re showing a pair of shoes that cost $75 USD and you’ve set shipping settings that assign shipping to orders between between $0-$50 USD and $50-100 USD. If the customer’s cart already contains an item that costs $30 USD, and they add the shoes, which cost $75 USD, the total will exceed $100 USD and shipping will not be applied.
+
+To resolve this issue, examine and change your shipping service settings, so that there is an applicable shipping service for each potential order, whether it is determined by price, destination, weight, or number of items.
+
+Instructions
+
+
+  Step 1: See the affected products
+
+  
+    
+  Sign in to your Merchant Center account.
+  Select Products from the navigation panel.
+  On the Diagnostics page, click the Item Issues tab to see the current issues affecting your products.
+  Click the filter icon  to filter by destination and select Buy on Google.
+
+To download a list (.csv) of all affected products for all issues:
+
+
+  Click the download button  to the right of the filter button  , beneath the graph and above the list of issues.
+
+To download a list (.csv) of all affected products for a particular issue:
+
+
+  Find the issue under the “Issue” column, then click the download button  in the right-hand column.
+
+To see a list of up to 50 products with this particular issue:
+
+
+  Find the issue under the “Issue” column, then click View examples in the “Affected items” column.
+
+
+  
+
+
+
+  Step 2: Update your shipping settings
+
+  
+    
+      Filter the downloaded report so that you can only see products with:
+        “Issue title” = Incompatible shipping service for some orders
+      Update your shipping settings to ensure that shipping will be applied to your products. Check for any rules you may have set based on the price, weight, or number of items to make sure that shipping can always be applied to each of your products. To provide free shipping set up a FlatRate of 0.
+    
+  
+
+  Related links
+
+  
+    purchase_quantity_limit: Definition
+  
+
+             Was this helpful?How can we improve it?YesNoSubmit       

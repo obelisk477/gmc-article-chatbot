@@ -1,0 +1,75 @@
+ Live display and performance trackingThis article provides answers to common questions about where Google distributes your promotions, how to track promotion performance, and when costs apply to live promotions.
+
+
+  Where will my promotions appear?
+
+  
+    Your promotions can appear across different Google properties, including Google Search, the Shopping tab, Chrome, and more. The promotion will be shown on products eligible for the promotion, and will appear as a clickable annotation that says "special offer". On mobile devices, promotions display with more detail, showing the offer amount and benefit type.
+
+    Before submitting promotions to Google, review our editorial requirements, promotions policies, and feed specifications.
+
+    
+      Note: If your promotions target countries that were newly added to the Promotions eligibility list, your promotions will start appearing gradually. For this reason, your offers may not all be visible immediately.
+    
+  
+
+
+
+  How do I get my promotion to appear?
+
+  
+    You can create a promotion for your products by using the promotion builder within Merchant Center, or by uploading a promotions feed. Learn more about creating and submitting promotions
+
+    Note: The use of promotions won't affect your ranking on Google.
+  
+
+
+
+  How do I track my promotion performance?
+
+  
+    To get started, learn how to measure your promotion performance.
+  
+
+
+
+  What URL does Google use when customers click on the "SHOP" button on a promotion?
+
+  
+    Customers will land on the link [link] attribute value specified in your feed. This location is the same as if they had clicked on the product landing page.
+  
+
+
+
+  How much does it cost to show promotions?
+
+  
+    Promotions don't incur additional costs, though Costs-Per-Click (CPCs) do still apply.
+  
+
+
+
+  Can multiple promotions be mapped to an item? How will they appear on Google?
+
+  
+    Up to 10 promotion ID [promotion_id] values can be mapped to one item in your product feed. Google shows up to one promotion per item.
+
+    When there are multiple promotions, promotions with the value specific_products for the products eligible for promotion [product_applicability] attribute are prioritized over the promotions with the value all_products for the products eligible for promotion [product_applicability] attribute.
+  
+
+
+
+  How can I make promotions available on mobile devices?
+
+  
+    No additional action is required to have your promotions display on mobile devices. Once your promotion has been approved per policy and SKU guidelines, it will be visible on both desktop and mobile.
+
+    
+      Note: Promotion links on mobile won't appear with a "special offer" annotation. Instead, mobile promotions will display the actual promotion. For example: 5% off, min $25 USD.
+    
+  
+
+
+RETURN TO PROMOTIONS HOME
+
+             Was this helpful?How can we improve it?YesNoSubmit       

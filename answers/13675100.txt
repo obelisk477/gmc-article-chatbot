@@ -1,0 +1,49 @@
+ Display your products in 3D and augmented reality
+
+The 3D models help customers to see your products from different angles on free listings and Shopping ads. Customers can also use augmented reality to see how the product looks in their space before they purchase. This article explains how the feature works, and how to show your content on Google surfaces.
+
+
+  Note: 3D and AR experiences are currently only available for shoes and home goods, and limited to products sold in the US.
+
+
+
+Benefits
+
+
+  The 3D model enables customers to see products from every angle, and even zoom-in to view the details.
+  Augmented reality helps your customers to visualize your product in a real environment, like their living room, and have a better understanding of what they are purchasing.
+  3D and augmented reality (AR) products often have strong customer engagement and receive more interactions compared to products with 2D images, which can help to increase quality clicks.
+
+
+ 
+
+
+
+
+  Note: You can use the 3D model link [virtual_model_link] attribute for home goods and shoes only. The attribute is limited to products sold in the US. New 3D models may start showing on Google Search within 2 weeks of being added to your feed.
+
+
+
+How it works
+
+Merchants can create 3D and AR models of their products on their own, or with the help of partners such as CGTrader, Epigraph, Ocavu, and VNTANA.
+
+When your 3D model is ready, you can provide the publicly-accessible link (URL) to your hosted model to Merchant Center using the 3D model link [virtual_model_link] attribute.
+
+
+  If you’re a merchant without a Merchant Center account, you need to set up an account before you can participate in 3D/AR experiences.
+  If you are the manufacturer of the product, please use Manufacturer Center to provide your 3D models, and they will be used as the first choice models of the product.
+  If you already use both Merchant and Manufacturer Center, you can simply update your Merchant Center feed and link the accounts to sync the models.
+
+
+After you’ve connected the appropriate accounts and provided the necessary links, 3D and AR assets will be eligible to serve in free listings.
+
+3D assets are also eligible to serve in Shopping ads if you have Performance Max or Shopping campaigns targeting these products. Note that 3D assets for Shopping Ads are currently in beta and AR experiences are not yet supported by Shopping ads. Learn more about Shopping ads and how to link your Merchant Center account to your Google Ads account.
+
+
+Related links
+
+
+  3D model link [virtual_model_link]
+
+             Was this helpful?How can we improve it?YesNoSubmit       

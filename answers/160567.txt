@@ -1,0 +1,104 @@
+ File formats for product data
+
+
+  If you’re looking for information about file formats for product data in Merchant Center Next, click here. 
+
+
+After you’ve created a feed, you’ll add your product data to it by uploading a data feed. We currently support data feeds in these formats:
+Text (spreadsheet) or tab delimited
+
+
+  
+
+  We recommend using a spreadsheet program such as Microsoft Excel or Google Sheets to create your spreadsheet. If you’re using Google Sheets, you can download your file and then upload it directly to Merchant Center.
+
+  Learn how to create and upload a tab delimited product data feed
+
+  Advantages:
+
+  
+    Simple to create and edit if you have a spreadsheet program
+    Easier to view multiple products
+  
+
+  Disadvantages:
+
+  
+    Easier to make formatting mistakes
+  
+
+  An example using some of the required attributes would look like this:
+
+  
+    
+      
+        
+        ID
+          [id]
+        
+        
+        Title
+          [title]
+        
+        
+        Description
+          [description]
+        
+        
+        Price
+          [price]
+        
+        
+        Condition
+          [condition]
+        
+        
+        Link
+          [link]
+        
+      
+      
+        123-uk
+        Yellow Bear
+        A fuzzy, cuddly teddy bear
+        12
+        new
+        http://www.example.com
+      
+    
+  
+
+XML
+
+
+  
+
+  We support extended versions of RSS 2.0 and Atom 1.0. You can create and edit these files using any text editor, such as Notepad or SimpleText. Like HTML, XML uses tags to define blocks of content. Information about your products is enclosed within these tags, which are indicated by angle brackets.
+
+  Advantages:
+
+  
+    Your site may already generate an XML file of your content
+    Including multiple values for an attribute is easier
+  
+
+  Disadvantages:
+
+  
+    May require more tech-savviness
+    Difficult to see many products at once
+  
+
+  For example files click the appropriate XML format and download it. RSS 2.0 or Atom 1.
+
+
+When creating your data feed, remember to save your file in one of the supported file types with the appropriate filename extension:
+
+
+
+Note: XML is now officially supported for inventory feeds.
+
+If you are scheduling your data feed, you can ensure that the feed URL directly points to your feed file. If it points to your website instead, your product information will be fetched in a HTML format which will result in a feed failure. The URL must begin with either http://, https:// or sftp://. If your file requires a username and password to access, enter the appropriate login information to allow Google to access your file.
+
+
+             Was this helpful?How can we improve it?YesNoSubmit       

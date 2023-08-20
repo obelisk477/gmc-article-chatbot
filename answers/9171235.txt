@@ -1,0 +1,265 @@
+ About promotions on Buy on Google 
+
+
+  Buy on Google for Search and Shopping will no longer be available starting September 26, 2023. Eligible merchants will be able to use Buy on Google for YouTube in the US. Learn more about Enabling Buy on Google for YouTube.
+
+
+
+
+
+Promotions allow you to distribute online offers in your Buy on Google listings. When you add promotions to your Buy on Google inventory, customers see a promotional banner on the product details page for applicable products. This link can increase the appeal of your products and encourage customers to buy.
+
+Learn more about Best Practices: Setting up promotions
+
+Benefits
+
+
+  Increase conversions: Give customers a reason to buy now.
+  Capture multi-screen traffic: Google shows “special offer” links on desktop and mobile devices.
+
+
+Availability
+
+Promotions on Buy on Google is currently available in the US. If you’re interested in participating, complete the Help request to promotions form. Learn more about policy and promotion types
+
+
+  Note: To complete the interest form, you must have a Google Merchant Center account. Learn more about how to configure your accounts
+
+
+How it works
+
+Once your product feed is set up, you can create a promotion with the promotion builder tool or upload a promotion feed. Google will review each type of promotion you’ve created and update the status in Merchant Center.
+
+Promotion approval process
+
+After your promotions feed and products feed are processed, Google reviews and approves your promotions before distributing them. We recommend that you submit your promotions as early as possible for a timely review. As always, you are responsible for ensuring that your promotions comply with all applicable laws and regulations.
+
+The approval process requires 2 steps:
+
+
+  Policy review: The policy review confirms the promotion follows all editorial requirements and program policies and will occur shortly after a promotion is submitted during weekday business hours.
+  Validation review: When a promotion becomes active on your site, Google testers will verify that the promotion works and that it follows all program policies.
+
+
+If your promotion doesn’t comply with the policies for one of your selected destinations, your promotion will be disapproved for that destination only. It may still appear on other destinations.
+
+Create a promotion
+
+You can create a promotion two different ways - through a promotion feed or using the promotion builder in the "Promotions" section of your Merchant Center account. Below, you’ll find a detailed review of each method.
+
+
+  Note: Make sure you’ve completed the Help request to the promotions form. Our team will let you know when you’re ready to start implementation.
+
+
+Submit a promotions feed
+
+The promotions feed is a spreadsheet that contains all of the promotions you use online. Use a promotions feed if you have a high volume of promotions to submit.
+
+To submit a promotions feed:
+
+
+  Sign in to your Merchant Center account.
+  Create a spreadsheet (for example: tab-delimited file, .xml file, or Google Sheets).
+  Use the required feed attributes to tell us about each of your promotions. Learn more about promotions on Buy on Google feed specification
+  To upload your promotions feed, click Marketing on the navigation menu, then click Promotions.
+  Click the Promotion feeds link in the top-right corner of the page.
+
+
+Promotion builder
+
+The promotion builder is located in the "Promotions" section of your Merchant Center account. It allows you to manually enter individual promotions. Use the promotion builder if you have a small number of promotions to submit.
+
+To add promotions manually, follow the steps below:
+
+
+  Click Marketing in the navigation menu, then click Promotions.
+  Click the plus icon .
+  Enter the promotion details and click Save.
+
+
+The promotion will appear in your dashboard. Follow the steps above for each promotion that you want to submit.
+
+You can quickly set up a promotion and omit tagging products with the promotion ID [promotion_id] in your product feed by applying filters:
+
+
+  All products
+  Custom filters (Brand, Item ID, Item Group ID, Product type. Input limit is 1000 values.)
+
+
+This option is available for both the promotion builder and the promotions feed.
+
+Example: Say you are selling shoes, and you want to run a promotion on all shoes except for a select few. You can use the Item ID filter to exclude SKUs you aren't promoting.
+
+
+  We recommend submitting promotions at least 24 hours prior to their effective start date. Occasionally, promotions submitted less than 24 hours before the effective start date may experience approval and display delays.
+
+
+Destination
+
+The Destination attribute allows you to target your promotions to Shopping Ads, Buy on Google, Free listings or any combination of these. Based on how you submit your promotion, there are a few ways to add the destination.
+
+
+  Note: Some of the names for product destinations have been updated. You may have previously submitted the following values as destinations for your products: Shopping Actions, Surfaces across Google, Local surfaces across Google. These values will still be accepted, but we recommend that you update your products to include the new values for these destinations: Buy_on_Google_listings, Free_listings, Free_local_listings.
+
+
+
+Promotion builder
+
+After you begin building a promotion with the promotion builder, you will see a Destinations section. By default, all destinations are selected. To change your promotion destination, deselect any destination you do not want to use. Based on the destination type you select, the available promotion category options will change.
+
+Promotion feed
+
+If you submit your promotions through the promotions feed, you can add the promotion destination [promotion_destination] attribute to your feed. Follow these formatting guidelines to make sure we understand the data you're submitting.
+
+
+  
+    
+      Attribute
+      Promotion destination [promotion_destination]
+    
+    
+      Supported values
+      Buy_on_Google_listings, Shopping_ads , or Free_listings
+    
+    
+      Format
+      Add a supported value to your feed. To submit your promotion to more than one destination, create a separate column for each destination value. For example: 
+      
+        
+          
+            
+            Attribute name
+
+            Value
+            
+            Promotion destination [promotion_destination]
+            Promotion destination [promotion_destination]
+          
+          
+            Shopping_ads
+            Buy_on_Google_listings
+          
+        
+      
+      
+    
+    
+      Repeated field
+      No
+    
+  
+
+
+
+  Note: If you use the promotion destination [promotion_destination] attribute, and don’t specify a destination by including a supported value in your feed, your promotion will display in Shopping ads and free listings by default.
+
+
+Learn more about promotions product data attributes
+
+Promotion editing
+
+Edit an “Approved” promotion
+
+Once a promotion has been approved, it is still possible to edit most of that promotion's information using the promotion builder. Depending on the information you edit, re-approval may be required.
+
+To edit an approved promotion from the promotions dashboard in your Merchant Center account:
+
+
+  Select the promotion you’d like to edit.
+  Update the promotion as needed.
+  Save the promotion.
+
+
+Not all promotion attributes are editable after a promotion has been approved. Here are the four categories into which they’re classified:
+
+
+  Editable with additional reviews. Changes to these attributes will trigger a new review process.
+  Editable without additional reviews, but with restrictions. Changing these attributes will not reset the review status, but some restrictions apply.
+  Editable without additional reviews. Changes to these attributes will not be reviewed by Google.
+  Non-editable. You are not able to change these attributes once a promotion has been approved.
+
+
+Expand the categories below to see how each attribute is classified when editing an approved promotion:
+
+Editable with additional reviews
+
+
+  
+    This is the default category and contains any attribute not listed in one of the other categories below.
+  
+
+
+Editable without additional reviews, but with restrictions
+
+
+  
+    Maximum budget. Can only be added.
+    Maximum orders. Can only be added.
+    End time. Any adjustment must keep the total promotion duration less than 180 days.
+  
+
+
+Editable without additional reviews
+
+
+  
+    Destination. Can be removed.
+  
+
+
+Non-editable
+
+
+  
+    Country
+    Currency
+    Destination. Cannot be added.
+    Language
+    Merchant ID
+    Promotion ID
+    Start time
+  
+
+
+
+  Note: Approved promotions cannot be edited using a promotions feed. To edit an approved promotion using a promotions feed, create a new promotion with a new promotion ID [promotion_id] and resubmit your feed, then end the previous promotion you wanted to edit. If your promotion is SKU specific you will need to re-map the new promotion ID [promotion_id] to the appropriate products.
+
+
+Edit an “Under review” or "Disapproved" promotion
+
+Promotions either under review or rejected for policy review can still be edited. Any promotion that is not currently editable will have a lock icon that appears when you hover your mouse over the title.
+
+To change or update an editable promotion:
+
+
+  Select the promotion you’d like to edit.
+  Update the promotion with the required information or applicable updates.
+  After updating, re-submit the promotion through the promotion builder with the same promotion ID [promotion_id] and the corrected information. The review process for the promotion will begin again.
+
+
+You can also edit the promotion by uploading an updated promotions feed with the required changes. This will also restart the review process. If your promotion is disapproved during the policy review, the disapproval details will be included in a summary email that is sent to you daily.
+
+End a promotion
+
+You can end a promotion at any time, but you should only do this if you would like to terminate a live promotion. Once you have ended a promotion, it can't be restarted.
+
+To end a promotion, follow these steps:
+
+
+  Sign in to your Merchant Center account.
+  Click Promotions.
+  Check the box next to the promotion you want to end.
+  Click End promotions at the top of the dashboard.
+
+
+You may also end specific promotions from the promotion description page. To end a promotion from the description page, scroll to the bottom of the page and select End promotion.
+
+
+  Note: It may take a few hours after you end a promotion before it's removed from Google.com and Buy on Google.
+
+
+
+  Need help? Click here to contact Buy on Google support.
+
+
+             Was this helpful?How can we improve it?YesNoSubmit       

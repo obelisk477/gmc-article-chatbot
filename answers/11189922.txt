@@ -1,0 +1,74 @@
+ Vehicle ads onboarding guideSet up your accountsNext: Enable the vehicle ads program
+
+
+  
+     This is step 1 of the vehicle ads onboarding guide.
+  
+
+
+This article describes how to create and set up the accounts you need to show your vehicle ads.
+
+Create your accounts
+
+You need 3 separate accounts to show your vehicle ads: a Merchant Center account and a Google Ads account, as well as a Google Business Profile (not required if you submit a store feed).
+
+
+  For ease of use and linking, we recommend adding the same email as an administrator user in your Merchant Center account and as a manager or owner in your Business Profile and Google Ads account.
+
+
+Merchant Center
+
+Your product information is submitted to Merchant Center. Follow the steps in Sign up for Google Merchant Center, if you don't already have a Merchant Center account, to submit your vehicle ads feed. Ensure that you verify and claim your website.
+
+
+  If you’re using Merchant Center Next, switch to the classic Merchant Center experience.
+
+
+Business Profile
+
+Your dealership information is located in your Business Profile. If you don't already have a Business Profile, follow the steps below.
+
+
+  Create a Business Profile to provide information about your dealership locations.
+  Upload your dealership information in bulk. Don't use the “Add another business” option.
+
+
+
+  Note: A Business Profile isn't required if you submit a Store Feed.
+
+
+Google Ads account
+
+You can use Google Ads to manage your ads, including vehicle ads. Create a Google Ads account if you don’t already have one.
+
+
+  Note: All vehicle ads campaigns will be upgraded to Performance Max by September 2023.
+
+
+
+Link your accounts
+
+Link your Business Profile and Google Ads account to your Merchant Center account to connect information across these sources.
+
+
+  Link Business Profiles and Merchant Center.
+  Link a Google Ads account to Merchant Center.
+
+
+Implementation guide
+
+
+  Set up your accounts
+  Enable the vehicle ads program
+  Add your business information
+  Create a primary feed
+  Register and submit your feed
+  Link your Business Profile and select your location group
+  Create, register, and submit your store feed (Optional)
+  Complete website policy review
+  Link your Merchant Center and Google Ads accounts
+  Enable vehicle ads in your Smart Shopping campaigns
+  Enable vehicle ads in your Performance Max campaigns
+
+
+Next: Enable the vehicle ads program             Was this helpful?How can we improve it?YesNoSubmit       

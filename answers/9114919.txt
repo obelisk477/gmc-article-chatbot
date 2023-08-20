@@ -1,0 +1,61 @@
+ Manage orders in bulk using order feeds 
+
+To manage significant order volume without needing to use the Orders API or manually manage orders in Merchant Center, use order feeds to receive, process, and update orders. Order feeds allow you to make bulk changes to your new and existing orders, including:
+
+
+  Mark an ordered product as shipped
+  Bulk upload tracking information for products that you’ve shipped
+  Cancel an order or individual product from an order
+
+
+This article explains how to make changes to your order statuses using order feeds.
+
+Before you begin
+
+
+  Familiarize yourself with the Order feeds formatting
+  Make sure to use either the .csv or .tsv file type for your order feeds
+
+
+Download your order feed
+
+
+  Sign in to your Merchant Center account.
+  From the navigation panel, click Orders.
+  Select the List tab.
+  From anywhere your orders are available (for example, from the “Pending shipment” section), click the Download button.
+
+
+
+  The order feed download will include your customers’ marketing opt-in information, which is also available using Google’s Orders API.
+
+
+Upload your order feed
+
+
+  From the navigation panel, click Orders.
+  Select the Import tab.
+  Select Upload input file.
+  Drag and drop or select your feed file.
+  (Optional) If you’d like to apply testing or "sandbox" mode, check the box.
+  Click Upload.
+
+
+
+  
+    About test mode for order feeds
+
+    When uploading your order feed, you’ll have the option to use the testing, or "sandbox" mode. This allows you to test your order feed integration without impacting user orders.
+  
+
+
+
+  Need help? Click here to contact Buy on Google support.
+
+
+
+Try our new chatbot for immediate assistance
+
+
+
+             Was this helpful?How can we improve it?YesNoSubmit       

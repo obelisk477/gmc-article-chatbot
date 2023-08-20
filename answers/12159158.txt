@@ -1,0 +1,57 @@
+ How to fix: Online store URL verification issues
+
+On this page
+
+
+  Know why your issue is happening
+  How to fix your issue
+
+
+
+Know why your issue is happening
+
+You may be having trouble with claiming your online store URL for several reasons.
+
+You haven't verified your online store URL 
+
+You can only claim an online store URL for your Merchant Center account after you’ve verified the URL. Verification happens through onboarding as part of the online store confirmation step.
+
+Your URL has been claimed at a higher level in the domain path
+
+If you view an error that your URL has been claimed at a higher level, another Merchant Center account has a claim that is taking precedence over yours. For example, you won't be able to claim the URL http://shop.example.com if another Merchant Center account has already claimed the URL http://example.com, because the latter is at a higher level in the domain path.
+
+Website tags have been incorrectly placed or modified
+
+If you’ve made modifications to the tag or if you’ve incorrectly placed it in your HTML code, you’ll not be able to complete website verification. For example, if you’re using an HTML tag, be sure the meta tag is inserted into the <head> section of your site's homepage, before the <body> section. For specific tag implementation instructions on each of the 4 verification methods, read about verifying and claiming your store’s website.
+
+There isn’t an owner set in the Search Console
+
+If you already have a Search Console account, the verification will be set if the Search Console owner matches a user in the Merchant Center. If the users are different, you’ll need to make sure the user who'll be verifying the website is added to both.
+
+The person trying to verify doesn't have edit permissions 
+
+It’s required that the Google Analytics user has edit rights for the Google Analytics account used by that page, and they must also be a user or admin in Merchant Center. If the users are different, you’ll need to make sure the user who will be verifying the website is added to both.
+
+Your ecommerce platform requires you to use a different verification method
+
+Ecommerce platforms may have preferred options to help you verify your website with Google Merchant Center or Google Search Console. Check with your platform for more information.
+
+The person trying to verify doesn’t have access to an email address that’s associated with the website
+
+Google requires that you can prove access to an email address that’s associated with the website. The email address can be verified if the email is on the website domain, or if it’s listed on the website.
+
+Your confirmation email went to your spam folder
+
+Check all your email folders, including spam, social, marketing, and promotions. If the confirmation email doesn’t arrive after 3 minutes, resend the confirmation code in Merchant Center.
+
+The verification code isn’t entered correctly
+
+You must copy and paste the verification code into the code field in Merchant Center. The code field isn’t autofilled by clicking the link in the verification email.
+
+
+How to fix your issue
+
+ Make sure you verified your website using one of the 5 methods listed here.
+
+ If you aren't the person who set up the account or verified your online store URL, get in touch with the person who did, either to complete the process or to add you as someone who can complete the process.
+             Was this helpful?How can we improve it?YesNoSubmit       

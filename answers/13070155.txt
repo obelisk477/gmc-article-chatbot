@@ -1,0 +1,26 @@
+ I want to add my social profile to Merchant Center (US only)To showcase your brand across Google and connect customers to your community, share your social profile in Merchant Center. We may display your social profile in the knowledge panel and listings across Google.
+
+You can add up to 4 social profiles at a time.
+
+
+Benefits
+
+Social handles allows you to provide your social media profiles within Merchant Center and the data provided will be verified and displayed on the merchant panel, helping merchants showcase their social profiles. It helps you gain trust from shoppers who rely on social media in their shopping journeys.
+
+
+Add your social profile information
+
+
+  In your Merchant Center account, click the Tools icon .
+  From the "Tools" menu, click Business information.
+  In the “Social profiles” section, click the Social media drop down menu.
+  Click the icon for the social media profile that you want to add.
+  In the “Website address” section, enter your social profile website address.
+  To add more social profiles, click Add social profile.
+  Click Save.
+
+
+
+  Check that your social profile website address is entered correctly. Google doesn’t verify that the social profile belongs to your business.
+
+             Was this helpful?How can we improve it?YesNoSubmit       

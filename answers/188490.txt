@@ -1,0 +1,34 @@
+ Remove products from your account
+
+All products expire from your Merchant Center account 30 days after the last refresh. Products can be refreshed by re-submiting your feed or scheduling regular feed uploads. Google will also regularly check your website and refresh your products automatically if the product data can be validated, for example, by the crawling of schema.org structured data on your product landing pages.
+
+You can remove product data or specific products at anytime.
+
+
+  Note: After you remove your product from Merchant Center, it may take 24 - 48 hours for your product to be removed from ads and free listings.
+
+
+Remove the item from your feed: If you're updating your products using a feed, delete the products from your feed file and submit the feed again.
+
+Use the expiration date [expiration_date] attribute: Add the expiration date to any item that you would like to remove on a specific date. Learn more about the expiration date [expiration_date] attribute.
+
+Remove items from the "All products" page: You can remove individual products using the "All products" page in Merchant Center.
+
+
+  In your Merchant Center, select Products > All products in the left navigation tab.
+  Check the boxes next to the products that you're removing.
+  Select the Delete selected items  icon at the top of the list. You won't be able to retrieve the products once you remove them.
+  
+    (Optional) If you want to permanently remove the products, delete the products from your feed before the next upload. If the products aren't removed from your feed, they'll be added to Merchant Center again on the next upload.
+  
+
+
+Related links
+
+
+  About feeds
+  Add products directly in Merchant Center
+
+
+
+             Was this helpful?How can we improve it?YesNoSubmit       

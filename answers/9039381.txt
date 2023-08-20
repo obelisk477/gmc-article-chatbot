@@ -1,0 +1,360 @@
+ Manage Buy on Google orders in Merchant Center
+  Buy on Google for Search and Shopping will no longer be available starting September 26, 2023. Eligible merchants will be able to use Buy on Google for YouTube in the US. Learn more about Enabling Buy on Google for YouTube.
+
+
+
+
+
+After a customer places an order, it'll be available for you to view and edit under the "Orders" page in Merchant Center. When the order is ready, its status will change to “pending shipment”, “shipped”, or “delivered”.
+
+Note: You'll need to be added as an Order manager to see this page in your Merchant Center account. Order manager status is automatically given to sub-account admins. If you only have the multi-client account (MCA) admin, you still need to be added as an Order manager.
+
+
+  Unless otherwise directed by your payment service provider, always use Merchant Center to update your order statuses. This will ensure your orders are properly charged through your payment service provider.
+
+
+
+  Keep in mind: If you expect a high volume of orders and use a separate third-party solution for managing your inventory or orders, you may consider using order feeds, using Google's Orders API, or working with one of our partners.
+
+
+Google uses algorithmic and manual solutions to detect fraud and abuse on our platform. There are multiple checks from Google to detect and stop fraudulent transactions. These processes review transactions at the order, account, and payment instrument level. If Google has signals that an order may be fraudulent, Google may:
+
+
+  Reject the order and prevent it from being placed.
+  Cancel the order before releasing it for fulfillment.
+  Request the merchant to cancel the order if it has already been released for fulfillment.
+
+
+In addition, any other partner (for example, a payment service provider, marketplace, or e-commerce platform) may also review and decline orders.
+
+View orders
+
+The "Orders" page shows you 3 filtering tiles to quickly view orders that need your attention:
+
+
+  Due today: All active orders that require immediate action to prevent a Retailer Standards defect and items that are overdue. These orders need your immediate attention to preserve the customer experience.
+  Pending shipment: Active orders that need to be marked as shipped with valid tracking details at some point in the future.
+  Pending delivery: Active orders that are pending delivery. Depending on the carrier used, most order statuses are updated automatically within 2 business days of actual delivery scan by the carrier.
+
+
+When you click “Orders” in the page menu on the left, you'll go to the “Inbox” section with the “Due today” box selected by default. To view all orders, select "All orders" under “Orders”, and toggle the default tile off to remove the applied filter.
+
+You can also filter the orders by date, status, or alert type. To do so, click the filter icon  above the table, then select "Order date", "Order status", "Order issue", or “Orders with request for cancellation”. You can also search any order by its Google order ID or Merchant order ID by clicking the search icon  in the top right portion of the page.
+
+You may download a CSV file of orders listed on the interface with the download button above the table.
+
+
+  Order alerts
+
+  
+    Alerts help you identify what action is needed for a particular order to preserve the shopper experience. Use the “Action“ column within the "Orders" page to determine what action should be taken to avoid a Retailer Standards defect.
+
+    
+      
+        
+          
+            Alert type
+            Description
+            Actions
+          
+          
+            
+            Pending Shipment
+            
+            
+            Item is not “Marked as shipped” within 8 hours of the “ship by” time.
+            
+            
+            Click "Mark as shipped" to update the status of the item to “Marked as shipped”.
+            
+          
+          
+            
+            Missing Tracking
+            
+            
+            Item is “Marked as shipped” but doesn’t have an uploaded tracking number within 8 hours of the “ship by” time.
+            
+            
+            Click "Upload" tracking to update the tracking number for the item.
+            
+          
+          
+            
+            Invalid Tracking
+            
+            
+            Item is “Marked as shipped” but has invalid tracking number (such as invalid carrier name) within 8 hours of the original “arrives by” time.
+            
+            
+            Click "Fix tracking" to change the tracking number for the item.
+            
+          
+          
+            
+            Multiple
+            
+            
+            If different items in order have different defects
+            
+            
+            Click "Expand" to show which items are flagged and what actions to take per item.
+            
+          
+        
+      
+
+      Resolve alerts before the original “delivery by” time to avoid negatively affecting your Retailer Standards rating.
+    
+
+    
+      Note: Items can only have one active alert at a time.
+    
+
+    Order statuses
+
+    
+      In progress: These orders are still being verified, and may also be within the 30-minute grace period in which customers may cancel their orders. You shouldn't fulfill orders while they're in the "in-progress" state. It can take more than 30 minutes for an order to progress from "in progress" to "pending shipment". An order in the "in progress" state may still be canceled by the customer or by Google, so it's important not to ship orders until their status has changed to “pending shipment”. Note that you're responsible for the cost of an item when a canceled item has been shipped to the customer.
+    
+
+    Requires action:
+
+    
+      Pending shipment: Orders that need to be addressed. All items of an order should be updated as shipped within the number of handling days that you provide to Buy on Google. You can also mark an item as canceled if it can't be shipped due to blocking reasons such as no inventory or payment failure. Customers will be charged after you click “Mark as shipped”. Note that you will be responsible for any delinquency cost.
+      Partially shipped: Some items in the order have been updated as shipped, but other items still need to be marked as shipped.
+    
+
+    Processed orders:
+
+    
+      Shipped: Orders that have been updated as shipped by the merchant.
+      Partially shipped: Orders that have been updated as partially shipped by the merchant.
+      Delivered: Orders that have been updated as fully delivered by the merchant.
+      Partially delivered: Orders that have been updated as partially delivered.
+      Returned: Orders that have been updated as fully returned.
+      Partially returned: Orders that have been updated as partially returned.
+      Canceled: Orders that were either (1) canceled directly by the customer while they were in "In progress" state, (2) marked as canceled by the merchant, or (3) cancelled automatically because items weren't marked as shipped within 3 days of merchant committed handling time.
+    
+  
+
+
+Manage orders
+
+To view additional details about the customer and order, click the Google order ID. You'll land on the "Order details" page which contains:
+
+
+  Product information
+  Order, shipping, and delivery dates
+  Pricing details, including product cost, shipping cost and type, and tax cost
+  Order history, including any refunds or adjustments made to the order
+  Customer details, including shipping and payment details
+
+
+You can click the arrow to expand shipment details.
+
+The "Order details" page can be used to complete actions on orders. Depending on the order status, you can make specific updates to an order.
+
+
+  Create Merchant order ID (optional)
+
+  You may add the Merchant order ID that your system creates for the order. This is the same order number that is sent in your standard email communications to customers. The Merchant order ID can help your team locate an order and reconcile transactions, acting as a unique key between your internal systems and the "Order details" page.
+
+  
+    Note: The Merchant order ID is different from the Google order ID that is created when a purchase is made on Google.
+  
+
+  To update the Merchant order ID field, click the pencil icon . In the dialog that opens, enter your Merchant order ID, then click "Save".
+
+
+Update ship by and delivery by dates
+
+If you expect that all or part of an order won’t be shipped on time, you should update the ship by and delivery by dates for the affected line items. If products aren't shipped within 3 days of your handling time, they may be canceled automatically. Google will respect the updated ship by and delivery by dates in the auto-cancellation process and will inform the customer via email of the new delivery information for their products.
+
+
+  Note: Ship by and delivery by dates can only be updated using Google’s Orders API.
+
+
+Mark products as shipped
+
+Orders should be shipped as soon as possible and within the number of handling days that you've provided.
+
+Once the order is ready to ship, click "Mark as shipped" for each order from either the “Pending shipment” summary page or the "Order details" page. Google will then charge the customer.
+
+If the payment succeeds, ship the orders immediately (must be on the same day) and input the carrier name and the tracking ID in the dialog that appears. Then, click "Mark as shipped" in the bottom right hand corner of the pop up.
+
+If the charge fails, you can click "Cancel order" to cancel the order. If you've already shipped the products, input the carrier name and the tracking ID and click "Mark as shipped". Google won't cover delinquency costs.
+
+
+  Keep in mind: The tracking ID for the order must be set correctly and provide end-to-end tracking from the original handoff to the carrier until delivery to the customer. For collection point orders, the tracking ID should be provided by the collection point network used.
+
+
+When done, the order status will change to “shipped” (or “partially shipped” if there are products left to ship).
+
+Important information about reporting shipments:
+
+
+  Reporting shipment of all products in the order will signal Google to begin payment transfer to your company.
+  Google might consider orders that aren't marked as shipped stale and cancel them as a result. If you ship out orders that have been canceled for this reason, you’ll be responsible for the cost of these orders. Google won't issue refunds to you for these orders.
+
+
+
+  Your due balance will be updated when every product in the order is marked as shipped. The actual payment transfer will happen after that. Learn more About Buy on Google payments to retailers
+
+
+Mark products as delivered
+
+The carrier updates most orders automatically within 2 business days of the actual delivery scan. Results may vary based on the carrier used. To mark an item as delivered, the order must first have "Shipped" status. Once an order has been marked as shipped, a "Mark as delivered" button will appear in the "Shipments" section on the "Order details" page.
+
+To mark a product as delivered, click "Mark as delivered". In the dialogue that appears, update the product and click "Mark as delivered" again.
+
+Mark orders or line items as canceled
+
+If you want to cancel an order due to a customer’s request or due to an inability to fully or partially fulfill an order, you should report the order cancellation. This will release the hold of funds from the customer’s payment method, and an automated email will be sent by Google informing the customer of the cancellation. You can also cancel a specific line item if a customer wishes to remove a specific item from their order.
+
+To report a canceled order, click the 3-dot icon  from the "Order details" page then select "Cancel order". In the dialog box that appears, select the quantity you'd like to cancel and indicate a reason for cancellation. Then, click "Cancel order".
+
+To report a canceled line item, click the 3-dot icon  from the "Order details" page then select "Cancel line item". In the "Cancel line item" dialog box, select the line item you'd like to cancel and fill out the optional fields. Then, click "Cancel line item".
+
+The potential reasons for cancellation that you can select from are:
+
+
+  Customer initiated cancellation
+  Invalid coupon
+  Malformed shipping address
+  Price error
+  Products unavailable
+  Shipping price error
+  Tax error
+  Undeliverable shipping address
+  Unsupported PO box addresses
+  Other
+  Failed to capture funds
+
+
+Once you select a reason for cancellation and click "Cancel order" or "Cancel line item", the customer’s payment authorization will be released.
+
+
+  Note: You can't undo this action. Cancel history is tracked in the "Orders" page for future reference and might impact your seller standards score.
+
+
+Returns
+
+You may manage returns in both the "Orders" page and the "Returns" page. Based on the action you need to perform, either the "Orders" page or "Returns" page might be the right destination for you. If you need to:
+
+
+  Process (issue refunds or reject) a Google-facilitated return, we recommend that you use the "Returns" page.
+  Issue refund payments not associated with any Google-facilitated return (for example, product adjustments or undeliverable shipments), we recommend that you use the "Orders" page.
+
+
+
+  Accept a return
+
+  
+    When a customer initiates a return, you can approve and process the refund payment corresponding to this return. In order to issue a return, the order status must be updated from “Shipped” to “Delivered”.
+
+    To mark a product as returned:
+
+    
+      From the "Order details" page, click the More Actions drop-down menu.
+      Select Accept return and issue refund.
+      In the dialog that appears, enter a refund amount and a reason for return.
+      Click Accept return and issue refund.
+    
+
+    The refund reasons that you can select from are:
+
+    
+      Buyer discretionary return
+      Undeliverable shipping address
+      Wrong product shipped
+      Product arrived damaged
+      Other
+    
+
+    Once you click "Accept return and issue refund", it'll initiate the payment transfer to the customer.
+
+    
+      Note: You can't undo this action. Return and refund history is tracked in the "Orders" page for future reference.
+    
+  
+
+Reject a return
+
+
+  If you need to reject a return, you can indicate that you’re doing so in Merchant Center, which will generate an email letting the customer know you’ve rejected their return.
+
+  To reject a return:
+
+  
+    On the "Order details" page, click the More Actions drop-down menu.
+    Select Reject return.
+    Check the boxes next to the products for which you’d like to reject returns.
+    Select the reason for rejecting the return.
+    Enter a description of the problem.
+    Click Reject return.
+  
+
+  The reasons for rejecting a product that you can select from are:
+
+  
+    Damaged or used
+    Missing component
+    Not eligible
+    Out of return window
+    Other
+  
+
+  You can select any quantity of products to be rejected for the same reason at one time as long as the rejected quantity reflects the shipped and delivered quantities.
+
+
+
+  Process a refund
+
+  
+    
+      When a customer requests a full or partial refund, Buy on Google customer support asks you to approve and process the refund payment.
+
+      To process refund payments that aren't associated to any return:
+
+      
+        From the "Order details" page, click the More actions drop-down menu.
+        Select Issue refund without return.
+        In the dialog that appears, select a refund percentage or dollar amount, and a reason for refund.
+        Click Issue refund without return.
+      
+
+      The reasons for a refund that you can select from are:
+
+      
+        Customer discretionary return
+        Customer initiated merchant cancellation
+        Delivered too late
+        Expired item
+        Invalid coupon
+        Malformed shipping address
+        Other
+        Product arrived damaged
+        Product not as described
+        Quality not as expected
+        Undeliverable shipping address
+        Unsupported PO box address
+        Wrong product shipped
+      
+
+      Once you click "Issue refund without return", it'll initiate the payment transfer to the customer.
+
+      
+        Note: You can't undo this action. Refund history is tracked in the "Orders" page for future reference.
+      
+    
+  
+
+
+
+
+  Need help? Click here to contact Buy on Google support.
+
+
+
+
+             Was this helpful?How can we improve it?YesNoSubmit       

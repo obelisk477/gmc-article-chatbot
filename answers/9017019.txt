@@ -1,0 +1,42 @@
+ About sale price annotations
+
+Promote your products and attract attention to your ads and free listings by showcasing sales. When your product shows with sale price annotations, your sales stand out and potential customers can view how much they’ll save.
+
+How it works
+
+Submit the original price for your item using the required price [price] attribute. When you lower the price of an item for a sale, you can submit the sale price using the optional sale price [sale_price] attribute. You can continue submitting the original price using the price [price] attribute, even during the time of the sale.
+
+How it shows
+
+If the sale price and original base price meet certain conditions, both prices and sale price annotations will appear. The sale price will show as the current price alongside the original price, which will show with a strikethrough. Your product will also show a badge that highlights your sale. The specific colors used for annotations differ depending on where your product appears.
+
+
+
+The image above may contain English or USD. When the sales price is applied to your product, it will display in the local currency and language.
+
+Requirements
+
+For your product to show with sale price annotations, you need to meet certain requirements:
+
+
+  The base price, or a higher price, must have been charged for a period of 30 days (it doesn't need to be consecutive) in the past 200 days.
+  The base price must be valid.
+  The sale price must be lower than the base price.
+  The discount of the sale must be greater than 5% and less than 90%.
+
+
+
+  Note: Sale price annotations are available for mobile and desktop. Both sale price annotations and promotions allow merchants to highlight product sales in different ways. While sale price [sale_price] is an attribute that can be submitted through the product feed, promotions are a supplemental feature that allow merchants to highlight special offers on their products. Learn more about Promotion types allowed.
+
+
+How to find products with sale price annotations
+
+You can check which products are eligible for a sale price annotation by visiting the “All products” page in the Merchant Center.
+
+
+  In your Merchant Center account, go to the navigation panel and click Products.
+  Select All products.
+  Use the filter icon  in the table and then choose Sale badge > Yes.
+  Select Yes.
+
+             Was this helpful?How can we improve it?YesNoSubmit       

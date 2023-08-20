@@ -1,0 +1,87 @@
+ Register a Google Sheet on Merchant Center
+
+
+  If you’re looking for information about adding your products using Google Sheets in Merchant Center Next, click here. 
+
+
+
+This article contains information on how to register and set up a Google Sheet based feed with Merchant Center. Use Google Sheets to quickly submit your product data to Google Merchant Center. Google Sheets and Merchant Center offer simple templates and add-ons to help you create and manage your feeds.
+Register a new Google Sheets feed
+
+
+  A feed registered through Google Sheets can be sourced through an existing Google Sheet or through a generated Merchant Center template (recommended).
+
+  
+    Sign in to your Merchant Center account.
+    Under "Products", click Feeds.
+    To create a new feed, click the plus button 
+    Select a target country by clicking Add under "Target countries".
+    Select “Language” from the drop-down menu.
+    Under “Destinations”, check all desired destinations.
+    Click Continue.
+    Input a name for your primary feed.
+    Select "Google Sheets".
+    Click Continue.
+  
+
+  Your Google spreadsheets will be shared with an email address that ends in the domain @partnercontent.gserviceaccount.com, which is the account we use to access and process your Sheet. The email address is unique to your Merchant Center account. If other members of your organization need to edit the feed, you can share it with them.
+
+Generate a new Google Sheet template
+
+
+  The Google Sheet template contains an auto-filled row of required and recommended attributes, descriptions of attributes and value requirements, and a step by step guide on how to upload your product data to Merchant Center. If this is your first time creating a feed, the template is a useful tool to determine what information is needed for your product data.
+
+  
+    When prompted, select the option to Generate a new Google spreadsheet from a template. Optional: Click Create an upload schedule (optional) to set a time and frequency from which this feed will fetch from your Google spreadsheet.
+    Click Continue.
+    Grant Merchant Center temporary permission to view and manage your spreadsheets and your documents in the popup that appears. These permissions are temporary and are only used to add the spreadsheet template in Drive at the time of creation.
+  
+
+  
+    Permissions will need to be granted every time a new spreadsheet template is created.
+  
+
+  Once you grant permissions to Merchant Center, your new feed will appear under “Primary feeds”. You can edit the header row or update the template with a new header if needed, such as to add any optional attributes. Make sure you have all of the required attributes according to the product data specification before uploading your product data. Learn more about setting up your product data in Google Sheets
+  The template generated will be specific to the target country you selected and the data you upload must meet our target country requirements and product data specification.
+
+  
+    If you’re unable to edit the new template, it may be because you aren’t recognized as being signed in. Click “Sign In” on the top right of the screen and try again.
+  
+
+
+
+  Select an existing Google sheet
+
+  
+    
+      Make sure your product data is in a language that is supported by the feed target country. Learn more about the language and currency requirements for target countries.
+
+      
+        
+          When prompted, choose the option to Select an existing Google Sheet.
+          In the popup that appears, select the Google Sheet that you want to link to your Merchant Center account
+          Click Continue.
+          Grant Merchant Center permission to view and manage your spreadsheets and your documents in the popup that appears. These permissions are temporary and are only used to add the spreadsheet template in Drive at the time of creation.
+            
+              Permissions will need to be granted every time a new spreadsheet template is created.
+            
+          
+          To upload your product data to Merchant Center, click Upload now.
+        
+      
+    
+  
+
+
+After you've registered your Google Sheets-powered feed in Merchant Center, you can begin to set up and submit your product data.
+
+
+Related links:
+
+
+  Set up your product data in Google Sheets
+  Set up structured data for Merchant Center
+
+
+
+             Was this helpful?How can we improve it?YesNoSubmit       

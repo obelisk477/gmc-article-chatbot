@@ -1,0 +1,160 @@
+ About tax settings
+
+ 
+
+So that customers understand the exact price that they’ll have to pay for a product, you may need to submit the taxes that you collect. Because tax can be a complex subject, you have several different options for submitting tax.
+
+This article helps you choose the correct option or combination of options. Learn more about how to set up tax settings (US only)
+
+
+  Need help troubleshooting tax settings? Learn more on how to fix common tax issues
+
+
+Submit taxes correctly for your target country
+
+Depending on your target country, you need to follow different requirements when submitting tax information.
+
+
+  United States
+
+  
+    
+  Submit tax rates for products targeting the US. For the US, include tax through the account tax settings or through the tax attribute. If you can’t provide accurate tax rates, provide an overestimate of the average tax rate that you would charge users visiting your site from Google Shopping. If you submit an amount that’s lower than what you actually charge users, your products could be disapproved. To understand what tax rate you should charge, consult your tax advisor.
+  Use the same tax rate in your product data as on your checkout pages. While the tax rate might vary depending on the product or the user’s location, use the Merchant Center tax settings to make sure that users always see the same amount that you charge. Learn more about landing page requirements.
+
+
+  
+
+
+
+  Canada
+
+  
+    
+  Don't include any taxes, such as value-added tax (VAT), sales tax, or import tax, either in the price or the tax attribute when targeting Canada.
+  Display applicable taxes on your checkout pages, so that users can accurately understand the entire cost of your product. Learn more about landing page requirements.
+
+
+  
+
+
+
+  Argentina, Australia, Austria, Belgium, Brazil, Chile, Colombia, Czechia, Denmark, France, Germany, Hong Kong, Ireland, India, Indonesia, Israel, Italy, Japan, Malaysia, Mexico, New Zealand, Netherlands, Norway, Philippines, Poland, Portugal, Russia, Saudi Arabia, Singapore, South Africa, South Korea, Spain, Sweden, Switzerland, Taiwan, Thailand, Turkey, Ukraine, United Arab Emirates, United Kingdom, Vietnam
+
+  
+    Provide the product price, including any value-added tax (VAT) or Goods and Services Tax (GST), in the price [price] attribute and ensure that the landing page price matches the price in your product data. Don’t use the tax [tax] attribute.
+  
+
+
+Determine the states in which you charge tax (US only)
+
+In the US, tax rates vary based on the buyer’s or seller’s location, such as state, county, and city. Each state or local tax authority will have its own rules, which will affect how much tax you should collect depending on where your business is required to charge sales tax.
+
+Generally, you are required to collect sales tax in any state where you have a sufficient physical presence, such as offices, employees, property, or independent contractors. Each state has its own rules on what is considered a sufficient physical presence.
+
+Consult your tax advisor to understand where you are required to collect sales tax.
+
+
+  
+    Notice to Shopping advertisers regarding Connecticut sales and use tax
+
+    In accordance with Conn. Gen. Stat. § 12-408f(b)(2), Google is required to notify merchants advertising on the Shopping platform of the following information:
+
+    
+      Connecticut imposes a sales or use tax on sales made to Connecticut purchasers
+      A merchant making sales to Connecticut purchasers must collect and remit sales or use tax to the Department of Revenue Services as required by the Sales and Use Taxes Act
+    
+
+    Learn more about the Connecticut Sales and Use Taxes Act
+  
+
+
+Understand how states charge taxes (US only)
+
+To understand which tax settings to use, you’ll want to know if the states you are required to collect sales tax in charge tax based on origin or destination:
+
+
+  Origin-based states charge tax based on the seller’s location within the state. In Merchant Center, you can enter a custom rate for all sales made to a state, which you may want to consider for these states.
+  Destination-based states charge tax based on the destination of the buyer within the state. In Merchant Center, you can select the Google determined rate option, which you may want to consider for these states. In addition, if you sell products in a home rule state, selecting the Google determined tax allows you to manually apply these tax rates to specific cities and counties.
+
+
+Consult your tax advisor to understand how taxes are collected for a specific state.
+
+Types of tax settings (US only)
+
+The easiest way to set up tax is to use the tax settings in Merchant Center, where you can set up tax rates for each state. You can also override taxes for each product by specifying it in your product data. Whichever method you choose, you’ll need to match the rate that you collect on sales.
+
+When setting up rates, you have several options. Depending on your goals, you’ll probably want to use a combination of these options. Consult your tax advisor to understand what tax rate you should charge. Learn more about how to set up tax settings
+
+
+  
+    For Buy on Google merchants: In states where marketplace facilitator tax applies, Google is responsible for collecting and remitting sales tax.
+  
+
+
+
+  
+    
+      Your goal
+      You may want to consider this tax setting
+    
+  
+  
+    
+      Don’t collect any taxes in the US
+      Don’t charge sales tax for any state
+    
+    
+      Don’t collect tax in a specific state
+      Set up sales tax for states in which you charge sales tax
+      Only add rates for states where you charge tax. You don’t need to add a rate of 0.
+    
+    
+      Collect a specific rate for an origin-based state
+      Set up custom tax rate
+    
+    
+      Collect a variety of rates for a destination-based state
+      Use Google determined tax rate
+    
+    
+      Collect a variety of rates for a state based on city or county
+      Use Google determined tax rate, applicable to all cities and counties within the state (home rule states only)
+    
+    
+      Collect tax on shipping
+      Apply tax on shipping
+    
+    
+      Collect a non-standard tax rate for a product or exempt a product from tax
+      The tax [tax] attribute
+    
+  
+
+
+How the Google determined tax rate option works (US only)
+
+When using account tax settings, you can use the Google-determined tax rate option to automatically determine an appropriate rate. The rate is calculated based on the customer’s location using third-party data. For home rule states, you can select the cities and counties in which to collect sales tax. For non-home rule states, it will automatically charge sales tax throughout the state.
+
+While the Google-determined rate is an easy option to set up, keep in mind that it's not a good fit for all situations:
+
+
+  Tax rates are destination-based, not origin-based. Google will determine the tax rate based on the customer’s location, so use this method for destination-based states. For origin-based states, you may want to consider using the custom tax rate option or overriding tax settings with the tax [tax] attribute.
+  Tax exemptions and reduced rates aren’t supported. If your product is tax exempt or has a special tax rate, you can’t specify that using the Google determined tax rate option. Instead, override tax settings with the tax [tax] attribute.
+
+
+Consult your tax advisor to understand what tax rate you should charge.
+
+Tax on shipping (US only)
+
+When using the Google-determined rate, you can specify (for each state) if tax should be applied to shipping cost. If yes, then Google will calculate tax for both the product price and the shipping cost. The tax that customers see will be the sum of those costs.
+
+Consult your tax advisor to understand if taxes should be collected for shipping in a specific state.
+
+Related links
+
+
+  Set up tax settings (US only)
+  Tax [tax]
+
+             Was this helpful?How can we improve it?YesNoSubmit       

@@ -1,0 +1,84 @@
+ How to fix: Ineligible for Buy on GoogleEither sign up for Buy on Google, select Buy on Google as an excluded destination for this product, or if you paused Buy on Google, contact Google to resume
+  Buy on Google for Search and Shopping will no longer be available starting September 26, 2023. Eligible merchants will be able to use Buy on Google for YouTube in the US. Learn more about Enabling Buy on Google for YouTube.
+
+
+
+
+
+You have indicated that you would like Buy on Google to serve as the destination for one or more of your products, but you currently cannot participate in Buy on Google. As a result, your products will not serve this destination.
+
+ 
+
+This could be for one of a few reasons:
+
+
+  You are not yet eligible for Buy on Google or do not meet the participation criteria
+  You have not completed onboarding for Buy on Google
+  You attempted to sign up for Buy on Google, but were unsuccessful
+  You paused your status on Buy on Google
+
+
+To resolve this issue, either sign up for Buy on Google or set "Buy on Google" as an excluded_destination for this product. If you’ve paused your status on Buy on Google and want to un-pause it, contact us.
+
+Instructions
+
+
+  Step 1: See the affected products
+
+  
+    
+  Sign in to your Merchant Center account.
+  Select Products from the navigation panel.
+  On the Diagnostics page, click the Item Issues tab to see the current issues affecting your products.
+  Click the filter icon  to filter by destination and select Buy on Google.
+
+To download a list (.csv) of all affected products for all issues:
+
+
+  Click the download button  to the right of the filter button  , beneath the graph and above the list of issues.
+
+To download a list (.csv) of all affected products for a particular issue:
+
+
+  Find the issue under the “Issue” column, then click the download button  in the right-hand column.
+
+To see a list of up to 50 products with this particular issue:
+
+
+  Find the issue under the “Issue” column, then click View examples in the “Affected items” column.
+
+
+  
+
+
+
+  Step 2: Resolve the issue
+
+  
+    To resolve this issue, complete one of the following:
+
+    
+      Sign up for Buy on Google and complete onboarding if you haven’t already.
+      Set "Buy on Google" as an excluded_destination for this product.
+      If you have reached out to Buy on Google to temporarily suspend participation in Buy on Google, please contact us to resume participation in Buy on Google.
+    
+  
+
+  
+    Step 3: Verify updates
+
+    
+      After you’ve completed onboarding, un-paused your status, or removed "Buy on Google" as a destination for your products, check that you’ve fixed the issue by making sure it’s no longer listed on the Diagnostics page.
+
+      Keep in mind: It may take some time for your changes to be reflected on the Diagnostics page.
+    
+  
+
+  Related links
+
+  
+    About selling on Google
+    Get started with Buy on Google
+  
+
+             Was this helpful?How can we improve it?YesNoSubmit       

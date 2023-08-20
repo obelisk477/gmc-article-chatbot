@@ -1,0 +1,114 @@
+ About refunds based on item condition
+
+This article explains Google’s guidelines for how to handle refunds for items that are returned based on their condition, and items that are not returned in their original condition.
+
+
+  Items in new condition
+
+  
+    We recommend that items returned in as-shipped condition in their original packing within the return window be fully refunded.
+
+    We recommend that items returned in as-shipped condition within the return window due to a quality issue be fully refunded.
+
+    
+      
+        Examples of items with quality issues include items that:
+
+        
+          Have manufacturing defects
+          Are not meeting quality expectations
+          Were damaged during shipping
+          Have expired
+          Were delivered late
+          Don’t match their purchase description
+          Are faulty
+          Are not the item the customer ordered
+        
+      
+    
+  
+
+
+
+  Items in used or poor condition
+
+  
+    We recommend that items that are returned missing their original packaging, unsealed, or with original tags present but unattached should be refunded with deductions totaling up to a maximum 10% of the item’s price.
+
+    We recommend that items that are returned missing nonessential parts or original tags, or showing minor signs of wear or use for reasons not due to merchant error should be refunded with deductions totaling up to a maximum of 30% of the item’s price.
+
+    We recommend that items that are returned damaged, without merchant error, be refunded with deductions totaling up to a maximum of 50% of the item’s price.
+
+    
+      Examples of items damaged without merchant error include items that:
+
+      
+        Are defective (requiring service or repair)
+        Are missing essential parts
+        Are missing certificates of authenticity (for example, manuals or warranty cards)
+        Require grading or appraisal
+        Show obvious signs of use
+        Have a broken factory seal (if applicable)
+        Are materially different to their condition when shipped
+      
+    
+  
+
+
+
+  Single use or perishable items
+
+  You’re allowed to reject or not issue refunds for single-use items if they’re not returned unused and in their original condition, with the factory seal and packaging intact, within the return window.
+
+  
+    
+      Examples of single-use items include:
+
+      
+        CDs, DVDs, VHS tapes, cassette tapes, Blu-ray discs, audiotapes, videotapes and video games or vinyl records that were opened (taken out of their plastic wrap) and returned for reason other than an item quality issue
+        Items that have been activated post-purchase (including prepaid cellular phone cards and electronically fulfilled PINs or minutes, software, or video games)
+        Books that have been used or marked
+      
+    
+  
+
+  Items that can’t be reused for hygiene reasons must be returned unused in their original condition, with the factory seal and packaging intact, within the return window. If they don’t meet this standard, you can reject or not issue a refund.
+
+  
+    
+      Examples of items that can’t be reused for hygiene reasons include:
+
+      
+        Some baby care products, like feeding accessories, breast pumps, bathing accessories, lotions and powders, diapering accessories, diaper pails, potty seats and wipes, changing pad covers, strollers, and car seats
+        Swimsuits and undergarments
+      
+    
+  
+
+  Perishable items are sometimes not returnable, but they should be fully refunded if returned due to issues with their quality.
+
+
+
+
+Related links
+
+
+  
+    Manage Google-facilitated returns in Merchant Center
+  
+
+
+
+  Need help? Click here to contact Buy on Google support.
+
+
+
+Try our new chatbot for immediate assistance
+
+
+ 
+
+
+
+ 
+             Was this helpful?How can we improve it?YesNoSubmit       

@@ -1,0 +1,40 @@
+ About promotions implementation
+
+Promotions allow you to distribute online offers across different Google properties, including Google Search, the Shopping tab, Chrome, and more.
+
+Google Ads Help: About promotions
+
+For subtitles in your language, turn on YouTube captions. Select the settings icon  at the bottom of the video player, then select "Subtitles/CC" and choose your language.
+
+
+
+
+Promotions are automatically enabled for all eligible accounts. If the "Promotions" card (located on the "Manage programs" page) in Merchant Center hasn't been enabled, fill out the interest form to request enrollment.
+
+ Implementation steps
+
+
+
+  Configure your accounts.
+  Create a promotion.
+  Choose products for your promotion.
+  (Optional) Register and upload your promotions feed.
+    
+      This step is required if you created a promotions feed. Skip this step if you used the promotion builder in Merchant Center.
+    
+  
+  (Optional) Upload your promotions using the Content API.
+    
+      This step is required if you created a promotion using the Content API. The Content API is available to merchants in Australia, Brazil, Canada, France, Germany, India, Italy, Japan, Netherlands, South Korea, Spain, the United Kingdom, and the United States. Languages supported by this feature are Dutch, English, French, German, Italian, Japanese, Korean, Portuguese and Spanish. Skip this step if you used the promotion builder or created a promotions feed.
+    
+  
+
+
+
+
+  Note: You can also create and manage your promotions through third-party partners, such as Shopify and WooCommerce. Learn more about managing your promotions through third-party partners
+
+
+RETURN TO PROMOTIONS HOME
+
+             Was this helpful?How can we improve it?YesNoSubmit       

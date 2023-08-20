@@ -1,0 +1,18 @@
+ Feed update frequency for local products inventory
+
+For optimal user experiences, you must upload your local products inventory feed daily to reflect accurate store inventory and prices (optional).
+
+
+  Learn more about feed upload options and tips.
+
+
+Benefits
+
+Accurate online inventory data can help improve customer experience and brand association. Accurate data also helps users trust that the product they’re looking for will be available in stores when they arrive.
+
+How to change feed update frequency
+
+To make sure your local product inventory feed reflects accurate information, you may need to update the feed upload frequency. You can change the frequency in which you update the local product inventory feed in Merchant Center using scheduled fetches. You can upload your feed at regular intervals instead of manual feed uploads. Learn how to submit feeds via scheduled fetches.
+
+
+             Was this helpful?How can we improve it?YesNoSubmit       

@@ -1,0 +1,40 @@
+ Use the removal delay feature to protect your products
+
+To prevent the unintentional removal of products from your Merchant Center, turn on the removal delay feature within the product protection settings. This feature protects against data removal that may result from the addition of incomplete product data. It also lets you receive notifications when your products are detected to be at risk of removal.
+
+How it works
+
+The product protection feature is triggered by a significant drop in the number of products in a particular data source (for example, Google sheet). To prevent the accidental deletion of product data, Google won't remove the products that were missing in your latest upload of your product data. If no action is taken, these missing products will remain active until their previous expiration date.
+
+You’ll receive a notification of this protection by email, as long as you’ve opted to get email updates for product data alerts. An alert will also appear in the "Processing" or "Latest update" section of the relevant data source indicating that the product protection has been triggered. The alert also indicates the number of products detected in the previous uploads.
+
+If you didn’t intend to delete protected products from your feed, check the product data that was added most recently for any errors, make any necessary corrections, and add the product data again.
+
+If you did intend to remove protected products from your feed, you can override the feature in the following ways:
+
+
+  In the warning found in the "Processing" or "Latest update" section tab of the relevant data source, click Remove products.
+  Disable the feature in your account settings and then reupload the product data.
+
+
+
+  Eligible feeds (Merchant Center Classic only)
+
+  The product protection feature is available for primary feeds, including product, local product, local product inventory feeds, and any file feed upload (including spreadsheets). This feature isn't available for supplemental feeds, API, Automated Feeds, online product inventory updates, or local product inventory updates.
+
+  The feature is turned off by default, but you can turn it on or adjust the percentage drop threshold in your account settings.
+
+
+Instructions
+
+How to adjust the product protection feature
+
+
+  Sign in to your Merchant Center account.
+  Click on the tools icon .
+  Click Account settings or General account options.
+  Click the Product protection menu and toggle “Start protection when this percentage of products would be removed".
+  Set the percentage drop threshold that will trigger protection of your products.
+  Click Save.
+
+             Was this helpful?How can we improve it?YesNoSubmit       

@@ -1,0 +1,37 @@
+ Google Customer Reviews opt-in and survey
+
+The Google Customer Reviews survey enables customers to rate their purchase experiences with your site. If a customer opts in, Google sends them a survey after their order has been delivered. The Google Customer Reviews survey is designed to allow customers to review their entire shopping experience. By adding a few optional lines of code, you can also get customers to leave feedback on the specific item they purchased on your site.
+
+This article explains how to set up the survey opt-in and ensure that your customers can start filling it out.
+
+
+  The survey opt-in works on desktop and mobile. Be sure to add the opt-in code snippet to both your desktop and mobile sites.
+
+
+
+How it works
+
+Complete survey opt-in integration in order for Google Customer Reviews to work on your site. Opt-in integration allows Google to display the Google Customer Reviews survey invite to your customers after they checkout on your site.
+
+Note: You agree to show the opt-in to all customers as it appears consistently on your order confirmation page. Additionally, when you integrate the Google Customer Reviews survey opt-in on your site, you agree to share your customer’s order confirmation email address with Google.
+
+Customize survey opt-in placement
+
+Google Customer Reviews allows you to customize where you place the opt-in on your checkout page. We recommend placing the opt-in at the center of the page, as bottom and right-hand page placements usually lead to lower opt-in rates. For complete details, see Integrate the survey opt-in module.
+
+
+
+Illustrative Google Customer Reviews opt-in
+
+Survey customer experience
+
+For customers who opt-in, Google may email a survey invitation after their purchase arrives. Customers must complete the survey in order for Google to collect their feedback as part of the Google Customer Reviews program.
+
+During the survey, customers rate their purchase experience at your store from 1-5 stars and may provide free text comments if they choose.
+
+
+
+Illustrative Google Customer Reviews survey. For an example of survey text, see example survey invitation.
+
+After providing feedback about their experience with you, customers will be able to rate the item they purchased and provide text feedback.This feature is available to your customers if you have completed the technical integration requirements for collecting product reviews via Google Customer Reviews, and provided product data for an order.
+             Was this helpful?How can we improve it?YesNoSubmit       

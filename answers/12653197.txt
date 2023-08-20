@@ -1,0 +1,246 @@
+ About advertising with Comparison Shopping Services
+
+
+  
+    If you’re looking for information about advertising with Comparison Shopping Services in the classic Merchant Center experience, click here. 
+  
+
+
+
+Comparison Shopping Services (CSSs) can place Shopping ads and free product listings on Google on behalf of merchants in the following countries: Austria, Belgium, Czech Republic, Denmark, Finland, France, Germany, Greece, Hungary, Ireland, Italy, the Netherlands, Norway, Poland, Portugal, Romania, Slovakia, Spain, Sweden, Switzerland, and the United Kingdom.
+
+
+On this page
+
+
+  How it works
+  FAQs
+
+
+How it works
+
+Comparison Shopping Services can bid to place Shopping ads on Google general search results pages on behalf of merchants they represent.
+
+As a merchant, you can choose to participate in Shopping ads on the Google general search results page in various ways: you can provide your product data to any CSS, including Google Shopping, and you can also use multiple CSSs at the same time. Google Shopping bids on behalf of merchants it represents like any other CSS.
+
+
+
+CSSs use a separate Merchant Center account for each merchant they represent. This allows the CSS to upload inventory for a merchant and run Shopping Campaigns on their behalf. Learn how to manage requests to link to your business profile
+
+
+  Note: All campaigns need to follow the same Shopping ads policies and product data requirements. This means, for example, that Shopping ads need to take users directly to a merchant's landing page where they can buy the advertised product.
+
+
+Shopping ads on Google general search results pages where the CSS program is available will also show which CSS uploaded the offer (the “By CSS” link displayed at the bottom of the ad). If users click on that link, they are taken to the CSS’s own website.
+
+FAQs
+
+
+  Do I need to use a CSS to place Shopping ads on the Google general search results page?
+
+  
+    Yes, only CSSs can place Shopping ads. You can use Google Shopping or any other CSS of your choice. You can also participate via several CSSs at the same time.
+  
+
+
+
+  Do I have to pay Google for ads placed by CSSs on my behalf?
+
+  
+    
+      No. CSSs (including Google Shopping) pay Google for clicks on the ads they place. CSSs can choose how to invoice their merchants. For example, Google Shopping generally charges its merchants based on a CPC model.
+
+      Note that clicks on the “By CSS” link at the bottom of the ads (which lead to the website of the CSS) are currently free for CSSs.
+    
+  
+
+
+
+  Will my products be shown several times next to each other?
+
+  
+    
+      We do our best not to show multiple instances of the same offer (that's the same product offered by the same merchant). If we identify that several CSSs have uploaded the same product from the same merchant, we will only show it once in the ad unit. In the rare cases when we cannot detect that two offers are the same, they may both show up in the same Shopping unit. The CPCs paid by the winning CSSs do not increase in such a scenario because a merchant is never second-priced against itself (refer to the next question).
+
+      Different products from the same merchant can appear via several CSSs in the same unit. For example, if a user searches for running shoes, one model of running shoe you sell may appear in an ad from CSS A while another model appears in an ad from CSS B. The CPCs paid by the winning CSSs also do not increase in such a scenario because a merchant is never second-priced against itself (refer to the next question).
+    
+  
+
+
+
+  Will I end up paying more for Shopping ads if more than one CSS advertises on my behalf?
+
+  
+    
+      A merchant will never be second-priced against itself in the auction for any offer, irrespective of the number, or identity, of the CSSs used by the merchant. Therefore, if two CSSs place bids on behalf of the same merchant, the winning offer and the price paid by the winning CSS will be the same as if those bids had been placed by the same CSS.
+
+      The fact that several CSSs place ads on your behalf won’t mean your offers are being repeated or that Google will charge more for a click on any of them.
+
+      Example: CSS A bids 30 cents per click to place your offer. For simplicity, we assume all ads have the same quality and relevance.
+
+      Scenario 1: The next highest CSS bid is 20 cents on behalf of a different merchant. Your offer will win the auction at a cost of 20 cents—only as much as necessary to maintain the position.
+
+      
+        
+          
+            
+              Offers uploaded through
+              Merchant
+              Bid placed by CSS
+              Price paid by winning CSS if their ad is clicked
+            
+            
+              CSS A
+              Merchant 1 (you)
+              30
+              20
+            
+            
+              CSS A
+              Merchant 2
+              20
+              --
+            
+            
+              CSS A
+              Merchant 3
+              15
+              --
+            
+            
+              CSS A
+              Merchant 4
+              12
+              --
+            
+          
+        
+      
+
+      Scenario 2: Now assume another CSS starts advertising on your behalf and bids 25 cents. You still win the auction with the 30 cent bid that CSS A made on your behalf, but the next closest competitor now bids 25 cents. Since this competitor is a CSS who’s also bidding on your behalf, we do not use that second bid to determine the price that CSS A pays. Instead we find the next highest bid that’s been placed for a different merchant, which is still 20 cents. The CPC paid for the winning bid does not change and remains at 20 cents.
+
+      
+        
+          
+            
+              Offers uploaded through
+              Merchant
+              Bid placed by CSS
+              Price paid by winning CSS if their ad is clicked
+            
+            
+              CSS A
+              Merchant 1 (you)
+              30
+              20
+            
+            
+              CSS B
+              Merchant 1 (you)
+              25
+              --
+            
+            
+              CSS A
+              Merchant 2
+              20
+              --
+            
+            
+              CSS A
+              Merchant 3
+              15
+              --
+            
+          
+        
+      
+
+      Scenario 3: Now assume, instead, that the bid placed on your behalf by CSS B is higher than the bid placed by CSS A on your behalf. In this case, CSS B will win the auction. The next highest bid is the 30 cent bid that CSS A placed, also on your behalf. Since both bids are for the same merchant, we do not use CSS A’s bid to determine the price of the click that CSS B pays. Instead we use the next highest bid for a different merchant, which is still 20 cents. The CPC paid by CSS B for your product will be 20 cents.
+
+      
+        
+          
+            
+              Offers uploaded through
+              Merchant
+              Bid placed by CSS
+              Price paid by winning CSS if their ad is clicked
+            
+            
+              CSS B
+              Merchant 1 (you)
+              40
+              20
+            
+            
+              CSS A
+              Merchant 1 (you)
+              30
+              --
+            
+            
+              CSS A
+              Merchant 2
+              20
+              --
+            
+            
+              CSS A
+              Merchant 3
+              15
+              --
+            
+          
+        
+      
+    
+  
+
+
+
+  How do I know how much CSSs bid in the auction on my behalf?
+
+  
+    CSSs typically report the number of clicks sent to a merchant and the cost charged per click. Depending on their pricing scheme, they may also report additional information or share detailed bidding data. Google Shopping also reports the number of clicks sent to a merchant and the cost charged per click, together with other metrics. The European Commission requires Google Shopping to be independently profitable in EEA countries where Shopping ads are available. Google Shopping currently ensures profitability by deducting a fixed percentage margin from each merchant bid before entering it into the auction. The margin is included in the CPC paid by the merchant and is charged only when a user clicks on one of the merchant's ads. In general, we recommend that merchants compare the costs and returns of different marketing channels to assess which ones work best for them.
+  
+
+
+
+  Where will my product ads be shown?
+
+  
+    Shopping ads placed by CSSs (including Google Shopping) show on Google general search results pages. To avoid user confusion, they also have to be shown on the website of the CSS that submitted them (in the case of Google Shopping the site at google.com/shopping).
+  
+
+
+
+  How can I find out which CSSs advertise on my behalf on Shopping ads?
+
+  
+    Sign in to your Merchant Center account. Go to Your business, then go to the Comparison Shopping Services tab. Click to expand the CSS section. You will find a list of all CSSs that have uploaded products from your website. You can also find contact information for each of them. If you don't have a Merchant Center account for the domain in question, you can create one for free.
+  
+
+
+
+  Is it better to advertise through a specific CSS?
+
+  
+    What works best for you depends on your business, your goals, and the services offered by CSSs. You can advertise with several CSSs at the same time to determine the best combination for you. All CSSs, including Google Shopping, have the same opportunities to place ads on your behalf on Google general search results pages. No ad space is reserved for any particular CSS.
+  
+
+
+
+  What if I don't want a specific CSS to advertise for my products?
+
+  
+    Different CSSs may provide different value-added services. However, we understand that you may want to control how your ads are appearing. We recommend that you reach out to the relevant CSS to discuss any concerns you might have (Your Merchant Center dashboard provides the customer service website, phone number, and email address for each CSS.) All CSSs can adjust the volume of traffic that they are sending you using bids and budgets, and they can also pause or activate campaigns. Some CSSs allow their merchants to control campaigns directly through an interface they provide. You can also use the dashboard in Merchant Center to opt in and out of a particular CSS channel.
+
+    
+      
+        Note: Opt-outs may take up to 24 hours to become effective.
+      
+    
+  
+
+             Was this helpful?How can we improve it?YesNoSubmit       

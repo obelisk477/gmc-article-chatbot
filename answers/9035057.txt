@@ -1,0 +1,114 @@
+ Set up return addresses for Buy on Google
+  Buy on Google for Search and Shopping will no longer be available starting September 26, 2023. Eligible merchants will be able to use Buy on Google for YouTube in the US. Learn more about Enabling Buy on Google for YouTube.
+
+
+
+
+
+When you submit products to Merchant Center, you must also provide at least one address to which products need to be returned. This ensures that customers are returning products to the correct location. The address that you specify should be a location to which most common carriers can deliver (P.O. box addresses, for example, aren't supported). Learn more about return settings required for selling on Google
+
+Google can’t generate return shipping labels to invalid addresses. To protect the customer experience, if an invalid address is specified, we may issue the customer a full refund on the retailer's behalf (for US). You'll be responsible for the cost to refund those products.
+
+How it works
+
+A return address can be associated with all products or with specific groups of products, the latter of which can be specified using the return address label [return_address_label] attribute. Return address configurations are verified through a third-party validator and are associated with all products.
+
+You'll be able to change the return address you listed after an order has been shipped or received. You can apply this change to any current or past return locations. This will allow you to tell customers to return orders to a different address than what was listed at the time of purchase. If you need to change your return address, you can do so in your Merchant Center account. After editing the address when you select “Save”, you'll be asked to choose if you'd like the change to be applied to “both new and past orders” or “new orders” only.
+
+
+  Important: When shipping internationally, Google isn’t the importer or exporter. Import and export are the responsibility of the merchant.
+
+  Your return location can be in a country that is supported for business incorporation on Buy on Google.
+
+
+Instructions
+
+Add a return address
+
+The first return address that you create will be your default return address. This policy will apply to all products with a return address attribute that is empty or for which a return address can't be found in the return settings. After setting up your default address, you can add additional return addresses for specific groups of products.
+
+Step 1: Set up your return address
+
+If you operate in the United States, your return address must be in the US or Canada. 
+
+
+  Sign in to your Merchant Center account.
+  Click the tools icon , then select Shipping and returns under “Tools”.
+  Click the Return Addresses tab.
+  Click Return locations (Buy on Google)
+  Under “Other return locations”, click the plus button  to add a return location.
+  Fill in the applicable details for your location, including the following: First and last name, address, city, state/province (US only), postal/zip code, country, and phone number.
+  Click Save.
+
+
+Step 2: Add address settings
+
+
+  Apply a label (not applicable to the default policy). Enter a label, such as “accessories”, that will match the  return address label [return_address_label] attribute in the feed.
+  Add address information. All fields are required, with the exception of "Address line 2".
+
+
+Step 3: Add the return address label [return_address_label] attribute to your products
+
+
+  If the default address applies, keep this column blank.
+  If only one non-default return address applies, add the label name for that address in the return address label [return_address_label] column.
+  If you want to apply multiple addresses to the product, use comma-separated return labels in the return address label [return_address_label] column. We’ll match the return reasons first, as you may have multiple return labels for different return addresses, but for the same return reason.
+  If multiple addresses fit for that return reason, we’ll use the return address closest to the customer. If the return address label [return_address_label] you provide for this column doesn’t match any return address setting, we’ll use your default return address.
+
+
+
+  
+    As an example, if you have 2 apparel return warehouses, one in California and another in New York, Google can help your product reach you faster when they're returned.
+
+    
+      You’ll need to add the 2 return addresses in your Merchant Center account (as explained in Step 1 above).
+      Next, as explained in Step 2, you’ll add labels to each warehouse, such as “apparel_returns_california” and “apparel_returns_new_york”. Add both these addresses to your apparel products via the return address label [return_address_label] attribute by providing the value “apparel_returns_california, apparel_returns_new_york”.
+      After this setup, if a customer in California returns this apparel item, Google would route it to the California return warehouse and if a customer in New York returns the same apparel item, Google would route it to the New York return warehouse.
+    
+  
+
+
+
+  If you only have one return address, the default address, you don't need to make any updates to your feed. The same applies for the return policy: You don't need to make any updates to your feed if you only have one return policy, the default policy.
+
+
+Edit a return address
+
+If you need to change your return address, you can do so in your Merchant Center account. After editing the address, you'll be asked whether to apply the change to both historical and future orders or to new orders only.
+
+To open the return address details, click "Edit" for the default return address or the return address label for additional return addresses.
+
+If you want the new return address to only apply to new orders that use the specified return address label [return_address_label] (or default return address):
+
+
+  Under "Apply return address", select New orders that use the return address label (or default return address).
+  Click Save.
+
+
+If you want the new return address to apply to both new and all past orders that use the specified return address label [return_address_label] (or default return address):
+
+
+  Under "Apply return address", select Both new and past orders that use the return address label (or default return address).
+  Click Save, then Confirm and save.
+
+
+
+Related links
+
+
+  Set up your return settings for Buy on Google
+  Set up return policies for Buy on Google
+  Return settings requirements for Buy on Google 
+  Switch how you manage your Buy on Google returns
+
+
+
+
+  Need help? Click here to contact Buy on Google support.
+
+Try our new chatbot for immediate assistance
+
+
+
+             Was this helpful?How can we improve it?YesNoSubmit       

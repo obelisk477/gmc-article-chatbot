@@ -1,0 +1,618 @@
+ Promotions on Buy on Google product data specification 
+
+
+  Buy on Google for Search and Shopping will no longer be available starting September 26, 2023. Eligible merchants will be able to use Buy on Google for YouTube in the US. Learn more about Enabling Buy on Google for YouTube.
+
+
+
+
+
+This article covers promotions details for Buy on Google only. Learn more about promotions in Shopping ads
+
+Submit a promotions feed
+
+File types supported: You can use either an XML file, tab-delimited file, or Google Sheets.
+
+To upload and register your feed, follow the steps below:
+
+
+  Sign in to your Merchant Center account.
+  Click Marketing from the navigation menu, then select Promotions.
+  Select “Promotion feeds” from the right-hand side of the page.
+  Click the plus button .
+  Provide the mode, target country, content language and name of your feed.
+    
+      Note: Buy on Google is currently supported only in the US.
+    
+  
+  Choose how to set up your feed and connect your data to Merchant Center:
+    
+      Google Sheets
+      Scheduled fetch
+      Upload
+    
+  
+
+
+
+  Note: After Google approves a promotion, you cannot revise or reuse the promotion ID [promotion_id].
+
+
+Basic promotions data
+
+Include the following attributes in your feed to define how your promotions will display on the Shopping tab:
+
+
+  
+    
+      Attribute
+      Format
+      Minimum requirements at a glance
+    
+  
+  
+    
+      Promotion ID [promotion_id]
+      
+      Required
+
+      Syntax
+
+      
+        Maximum length is 60 characters
+        Case sensitive
+        Should not contain spaces or symbols (such as % and !)
+      
+      
+      
+      
+        This attribute is the unique ID of a promotion.
+        The promotion ID is used to link promotions to specific products.
+      
+      
+    
+    
+      Products eligible for promotion [product_applicability]
+      
+      Required
+
+      Supported values
+
+      
+        all_product
+        specific_products
+      
+      
+      
+      
+        This attribute specifies if the promotion applies to all products or only to specific products.
+        If the value is specific_products, you must use product filter attributes or map a promotion ID to applicable products in your products feed. These specific products are continuously tested for the duration of the promotion.
+        If the value is all_products, you do not need to use product filter attributes or a promotion ID in the products feed. The promotion validity is tested against all of the items in your products feed.
+      
+      
+    
+    
+      Promotion title [long_title]
+      
+      Required
+
+      Syntax
+
+      
+        Maximum length is 60 characters
+      
+
+      Example
+
+      
+        Free mug with purchase
+      
+      
+      
+      This attribute specifies the full title of the promotion.
+
+      Editorial requirements outline title requirements and provide helpful examples of acceptable and unacceptable titles.
+
+      The title should describe the promotion completely and accurately.
+      
+    
+    
+      Promotion start date [promotion_effective_dates]
+      
+      Required
+
+      Syntax
+
+      
+        Start date and end date are separated by a forward slash (/).
+        The date format is (YYYY-MM-DD), followed by the letter ‘T’, the time of day when the sale starts or ends, and an expression of the time zone for the sale.
+      
+
+      Example
+
+      If your promotion was valid from 3:00 a.m. on July 19, 2009 to 9:00 p.m. on July 26, 2009 EST (Eastern Standard Time), you would submit:
+
+      2009-07-19T03:00:00-05:00/2009-07-26T21:00:00-05:00
+
+      If your promotion was valid from 3:00 a.m. on July 19, 2009 to 9:00 p.m. on July 26, 2009 GMT (Greenwich Mean Time), you would submit:
+
+      2009-07-19T03:00:00+00:00/2009-07-26T21:00:00+00:00
+      
+      
+      Important:
+
+      
+        GMT is Greenwich Mean Time. -5 hours represents EST while -8 hours represents PST.
+        Promotions have a 6-month limit (183 days).
+        Daylight Savings: -4 hours represents EDT while -7 hours represents PDT.
+      
+
+      If you use the promotion builder, it will only support the promotion start date attribute and the time will default to the time zone of your Merchant Center account setting. If you want the promotion to be in a different time zone, adjust the time zone manually.
+
+      Tip: You can validate your promotion before it starts by using the display dates for promotion [promotion_display_dates] attribute. Learn more about promotions feed formatting and attributes
+      
+    
+    
+      Online eligibility for promotion [redemption_channel]
+      
+      Required
+
+      Supported values
+
+      
+        Online
+      
+      
+      This attribute indicates the promotion is valid online.
+    
+    
+      Promotion destination [promotion_destination]
+      
+      Required
+
+      Supported values
+
+      
+        Shopping_ads
+        Buy_on_Google_listings
+        Free_listings
+      
+
+      Add a supported value to your feed. To submit your promotion to one or more destination, submit each destination value as a separate column:
+
+      
+        promotion_destination: Shopping ads
+        promotion_destination: Buy on Google listings
+        promotion_destination: Free listings
+      
+
+      Important:
+
+      If you use the promotion destination attribute, and don't specify a destination by including a supported value in your feed, your promotion will display in Shopping ads and free listings by default.
+      
+      
+      Important:
+
+      These are repeated fields and both values are supported simultaneously. Values indicated in this field will overwrite any product defaults.
+
+      For more details on repeated fields, see About attributes with repeated fields.
+
+      Note:
+
+      The value Free_listings is only available in the US, and requires an approved offer for free listings. In addition, we recommend offers submitted via promotions feed be in structured format to help ensure faster approval.
+      
+    
+    
+      Maximum number of promotion destinations [end_promo_max_applies]
+      
+      Optional
+
+      Must be an integer
+
+      Example
+
+      10
+      
+      The maximum number of orders a promotion can be applied to.
+    
+    
+      Maximum budget for promotion [end_promo_max_cost]
+      
+      Optional
+
+      Must be a number and include currency
+
+      Example
+
+      20.00 USD
+      
+      The maximum budget amount set for a promotion.
+    
+  
+
+
+
+  Note: Some of the names for product destinations have been updated. You may have previously submitted the following values as destinations for your products: Shopping Actions, Surfaces across Google, Local surfaces across Google. These values will still be accepted, but we recommend that you update your products to include the new values for these destinations: Buy_on_Google_listings, Free_listings, Free_local_listings.
+
+
+
+Create promotions for specific products
+
+You can create promotions for specific products to promote on Buy on Google in the following ways:
+
+
+  Apply product filter attributes in promotion feed: If a promotion applies to specific products in your product feed, you may use product filter attributes. See Product filters.
+  Map the promotion ID to your products: For Google to recognize the products included in your promotion, map a promotion ID [promotion_id] to the eligible products in your products feed.
+
+
+If you set product filters on the promotion feeds and explicit promotion IDs in the product feed, then the promotion applies to products selected by both applying product filter attributes and mapping the promotion ID to your products.
+
+Product filters
+
+If you create a promotion that only applies to specific products in your product feed for Buy on Google, use the product filter in your promotion feed. The product filter attributes only apply when the products eligible for promotion [product_applicability] attribute is set to specific_products. All the product filter attributes are repeated fields with a limit of up to 1,000 values in an XML/CSV file.
+
+The product filter attributes in the table below determine the products that a promotion will apply to. When the same attribute is used more than once, the product must match at least one of the attributes for the filter to apply. When there are multiple filters, only the products that pass all filters are selected for the promotion. If a filter excludes a product and another filter includes the same product, the product will be excluded from the promotion.
+
+For example, if you create a promotion for brand = “example1'” and product_type = “Tshirt”, the promotion will apply only to those products in the product feed that have brand =“example1” and product_type = “Tshirt”.
+
+Alternatively, you can also link a product to a specific promotion by setting the promotion ID [promotion_id] in the product feed.
+
+
+  
+    
+      Attribute
+      Format
+      Description
+    
+  
+  
+    
+      Product ID for promotion [item_id]
+      
+      Syntax
+
+      
+        String
+        Maximum length is 50 characters
+      
+      
+      The promotion only applies to products that match the product ID for promotion specified in this attribute.
+    
+    
+      Product type [product_type]
+      
+      Syntax
+
+      
+        Unicode characters. Recommended: ASCII only.
+        Maximum length is 750 characters
+      
+      
+      The promotion only applies to products that match the product type specified in this attribute.
+    
+    
+      Brand [brand]
+      
+      Syntax
+
+      
+        Unicode characters. Recommended: ASCII only.
+        Maximum length is 70 characters.
+      
+      
+      The promotion only applies to products that match the brand specified in this attribute.
+    
+    
+      Item group ID
+[item_group_id]
+      
+      Syntax
+
+      
+        String
+        Maximum length is 50 characters
+      
+      
+      This promotion applies to products that match the item_group in this attribute.
+    
+    
+      Excluded item ID [item_id_exclusion]
+      
+      Syntax
+
+      
+        String
+        One or more item IDs
+        Maximum length is 50 characters
+      
+      
+      Products with one of these item ids are excluded from the promotion.
+    
+    
+      Excluded product types [product_type_exclusion]
+      
+      Syntax
+
+      
+        Unicode characters. Recommended: ASCII only
+        Maximum length is 70 characters
+      
+
+      Example
+
+      Rings
+      
+      Products with one of these product types are excluded from the promotion.
+    
+    
+      Excluded brands [brand_exclusion]
+      
+      Syntax
+
+      
+        String
+        Maximum length is 50 characters
+      
+
+      Example
+
+      Nike
+      
+      Products with one of these brands are excluded from the promotion.
+    
+    
+      Excluded item group ID [item_group_id_exclusion]
+      Syntax
+      
+        String
+        Maximum length is 50 characters
+      
+      
+      Products with one of these item group IDs are excluded from the promotion.
+    
+  
+
+
+Promotion details
+
+The following sections describe the different attributes you can use to create structured promotions on Buy on Google, such as “Buy N, get M”.
+
+
+  Preconditions are used to set up the requirements that must be met for the user to redeem the promotion.
+  Promotion categories determine the type of promotion.
+  Limits determine the restrictions you can apply to your promotions, (for example, you can set a limit on the minimum price or quantity of eligible purchases required for a user to receive a promotion).
+
+
+Preconditions
+
+These attributes communicate the preconditions that a user needs to meet to redeem a promotion. Preconditions do not filter the products that are eligible for a promotion. To filter, use Product filters.
+
+For example, if you want to create:
+
+
+  A “Buy 2, get 1 free” promotion for jeans, set the minimum purchase quantity for promotion [minimum_purchase_quantity] attribute to 2.
+  A “$10 off on 3 or more jeans” promotion for jeans, set the minimum purchase quantity for promotion attribute to 3.
+
+
+
+  
+    
+      Attribute
+      Format
+      Description
+    
+  
+  
+    
+      Minimum purchase quantity for promotion [minimum_purchase_quantity]
+      
+      Optional
+
+      Syntax
+
+      The value for this attribute must be an integer.
+
+      Example
+
+      2
+      
+      
+      This attribute sets the minimum purchase quantity required for the promotion to be redeemed.
+
+      This attribute can be used in combination with the percentage discount amount [percent_off], quantity eligible for promotion [get_this_quantity_discounted], or monetary discount amount of a promotion [money_off_amount] attributes.
+
+      For example, for X number of purchases of the same product or a combination of products, the user will receive promotion Y.
+
+      For example, set this attribute to 2 for a “Buy 2, get 20% off” promotion.
+      
+    
+    
+      Minimum purchase amount [minimum_purchase_amount]
+      
+      Optional
+
+      Syntax
+
+      Promotions feeds support currencies only of the specified locales.
+
+      Example
+
+      20 USD
+      
+      
+      This attribute sets the minimum purchase amount for the promotion to be redeemed.
+
+      For example, for X amount of purchases of the same product or a combination of products, the user will receive promotion Y.
+      
+    
+  
+
+
+Promotion categories
+
+The table below shows the types of promotion categories. Specify a promotion category to create a structured promotion on Buy on Google, such as a “Buy 1, get 1 free” promotion.
+
+You can associate only one promotion category with a promotion ID [promotion_id]. You can further restrict a promotion category with limits.
+
+
+  
+    
+      Attribute
+      Format
+      Description
+    
+    
+      Percentage discount amount [percent_off]
+      
+      Optional
+
+      Syntax
+
+      Must be an integer
+
+      Example
+
+      10
+      
+      
+      This attribute specifies the percentage discount offered in the promotion.
+
+      For example, 10% off.
+      
+    
+    
+      Monetary discount amount of a promotion [money_off_amount]
+      
+      Optional
+
+      Syntax
+
+      Must be a number and the currency
+
+      Example
+
+      20.00 USD
+      
+      
+      This attribute specifies the discount amount.
+
+      For example, $20.00 off.
+      
+    
+    
+      Quantity eligible for promotion [get_this_quantity_ discounted]
+      
+      Optional
+
+      Syntax
+
+      Must be an integer
+
+      Example
+
+      2
+      
+      
+      This attribute specifies the number of products to which the promotion or discount applies
+
+      For example, set this attribute to 1 for a “Buy 2, get 1 free” (100% off) promotion.
+      
+    
+    
+      Free shipping [free_shipping]
+      
+      Optional
+
+      Supported values
+
+      
+        free_shipping_standard
+        free_shipping_overnight
+        free_shipping_two_day
+      
+      
+      
+      This attribute specifies the type of free shipping offered if the promotion destination includes Shopping ads or Free listings.
+      For promotions with the destination Buy on Google only, you would not need this attribute. Please see the shipping service name [shipping_service_name] attribute instead.
+    
+    
+      Shipping service name [shipping_service_name]
+      
+      Optional
+
+      Syntax
+
+      
+        String
+        Maximum length is 100 characters
+        Should be matching the name of a shipping service you configured in Merchant Center
+      
+      
+      This attribute specifies the type of free shipping offered in the promotion with the destination buy_on_Google. This attribute must be provided to indicate which shipping service is eligible for the shipping promotion.
+    
+  
+
+
+Additional attributes
+
+
+  
+    
+      Attribute
+      Format
+      Description
+    
+  
+  
+    
+      Description [description]
+      
+      
+
+      Optional
+
+      Syntax
+
+      
+        String
+        Maximum length is 2,500 characters
+      
+      
+      
+      This attribute specifies the promotion description.
+
+      The description is not shown to customers
+      
+    
+    
+      Fine print for promotion [fine_print]
+      
+      Optional
+
+      Syntax
+
+      
+        String
+        Maximum length is 500 characters.
+      
+      
+      
+      This attribute is the text of any terms and conditions that apply to the promotion, such as restrictions and exclusions.
+
+      The terms and conditions will be shown to the user along with the generic redemption code [generic_redemption_code] attribute.
+      
+    
+  
+
+
+
+  Need help? Click here to contact Buy on Google support.
+
+
+
+Related link
+
+
+  Best Practices: Setting up promotions 
+
+             Was this helpful?How can we improve it?YesNoSubmit       

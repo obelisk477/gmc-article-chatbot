@@ -1,0 +1,26 @@
+ Store pickup error messagesTo let customers buy this product online and pick it up in a store, submit compatible values for these attributes
+
+You must supply values for both the pickup method [pickup_method] attribute and the pickup SLA [pickup_sla] attribute. If you do not add both the pickup method [pickup_method] attribute and the pickup SLA [pickup_sla] attribute to your local products feed, you may receive the error messages below.
+
+
+  
+    Note: If an offer doesn't have either the pickup method [pickup_method] or the pickup SLA [pickup_sla] attribute, you won't receive any error messages because Google regards the offer as not eligible for store pickup.
+  
+
+
+Error messages
+
+
+
+  Pickup SLA is missing: Google cannot enable the store pickup feature for the item until it has the pickup SLA [pickup_sla] attribute.
+  Pickup method is missing: Google cannot enable the store pickup feature for the item until it has the pickup method [pickup_method] attribute.
+  Conflicting values for store pickup: Google cannot enable the store pickup feature for the item unless the combination of store pickup attributes (such as pickup method [pickup_method], pickup SLA [pickup_sla], or availability [availability]) is compatible.
+
+
+
+Fix store pickup errors
+
+To fix missing attribute errors, upload a local products feed with both the pickup method [pickup_method] and the pickup SLA [pickup_sla] attributes. In the case of conflicting values errors, submit compatible values for the store pickup attributes.
+
+
+             Was this helpful?How can we improve it?YesNoSubmit       

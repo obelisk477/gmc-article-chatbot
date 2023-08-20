@@ -1,0 +1,173 @@
+ View and manage products in Merchant Center
+
+
+  If you’re looking for information about how to view products in the classic Merchant Center experience, click here. 
+
+
+The "Products" page in Merchant Center is your personal dashboard for all your products. It contains detailed information about your submitted products. You can do things like check if your products are visible on Google, edit details about your products, refresh the list of products shown, and more.
+
+On this page
+
+
+  Quick answers
+  View your product data
+  Manage your product data 
+  Add, update and remove products
+
+
+
+
+  Quick answers
+
+  What information can I view on the “Products” page?
+
+  The "Products" page in Merchant Center lists detailed information about your products, including tools to help you understand the approval status, visibility, price, availability, tax rates, and shipping estimates. You can also use the “Products” page to find out which products need to be fixed, or make edits to products individually.
+
+  How can I find a specific product or category of products?
+
+  You can filter the “Products” page by product titles, product status, price, number of clicks, source and item IDs–just select the filter icon  above the table.
+
+  What’s the difference between the “Visibility” and “Status” columns?
+
+  The “Visibility” column shows if your products are showing on Google, while the “Status” column shows if your products have been approved or disapproved for showing on Google. Learn more about checking product visibility and status in Merchant Center.
+
+  How do I update information about my products?
+
+  You can edit specific details about your products by editing the data in your product file, spreadsheet, or online store and then clicking on View data sources and update the relevant source to add them to Merchant Center. Or, you can click the title of the product to go to the product editor, and then make your changes there. Learn more about updating information about products in Merchant Center.
+
+
+
+View your product data
+
+In Merchant Center, select Products in the left navigation menu, then the “All products” tab. Here are some things you can view on the “All products” tab:
+
+
+  
+    
+      Column
+      Description
+    
+  
+  
+    
+      Visibility
+      Shows if your product appears on Google or not
+    
+    
+      Status
+      Shows if Google has approved your product, disapproved your product, or other statuses
+    
+    
+      Image
+      An image of the product
+    
+    
+      Title
+      The title of the product
+    
+    
+      Product ID
+      The unique identifier assigned to your product
+    
+    
+      Price
+      The product's price
+    
+    
+      Source
+      The data source through which the product data is provided
+    
+    
+      Last update
+      When your product was last updated
+    
+    
+      Stores
+      The websites or online stores where your product is sold
+    
+    
+      Clicks
+      The number of clicks that your product has received on Google
+    
+  
+
+
+To filter the product list: Select the filter icon , then make your selections.
+
+To download the product list: Select the download icon  in the upper right corner of the table.
+
+
+Manage your product data
+
+Change the visibility of a product: Select the circle icon in the “Visibility” column. If the icon is green , your product is showing on Google. If the icon is gray  or red , the product isn’t showing on Google. Learn more about How visibility and status work.
+
+Fix product issues: Some of your products may have issues relating to policy or due to missing or inaccurate product details. The “Needs attention” tab provides an overview of all issues. Learn more about the Needs attention tab.
+
+
+Add, update and remove products
+
+Add another product source
+
+ In your Merchant center account, go to Products .
+
+ Under “All products” click Add Products.
+
+ Select Add another product source.
+
+ Then choose type of source that is being added and follow the in-product guidance.
+
+Learn more about the ways you can add your product data.
+
+Add products one-by-one
+
+ In your Merchant center account, go to Products .
+
+ Under “All products”, click Add Products.
+
+ Select Add products one-by-one.
+
+ Fill in all the details and click Save.
+
+Learn more about adding products one-by-one.
+
+Switch to add products another way
+
+ In your Merchant center account, go to Products .
+
+ Under “All products”, click Add Products.
+
+ Select Switch to add products another way.
+
+ Then choose the new method to add your products and follow the in-product guidance.
+
+Learn more about the ways you can add your product data.
+
+Add new products to or remove products from an existing source
+
+To update products using an existing source, you need to edit the data directly in the source (for example, your spreadsheet or file) that you originally used. To view a list of all your data sources, select the “Data sources” option in the settings menu that is available in the top right of Merchant under the account “Gear” icon .
+
+ Determine the source used to upload the product by checking one of the following:
+
+
+  “Source” column in the “All products” tab, which you can find by clicking Products in the left navigation menu.
+  The “Product details” page, which you can find by clicking on a product title in the “All products” list.
+
+
+ Add or remove products directly from the source (for example, your spreadsheet or file).
+
+ After you've updated your source, return to the “All products” page or "Data sources" list and click the Update button for the relevant source.
+
+The changes made to your source data will then be reflected in your products in Merchant Center.
+
+Remove products one-by-one
+
+ In your Merchant center account, go to Products.
+
+ Under “All products” and filter the list to the product you would like to remove.
+
+ Click on the product “Title” to navigate to the Product details page and click on “Delete product’ on the right of the page.
+
+
+  Note: If a deleted item remains in data source (for example a spreadsheet) it will be readded to Merchant Center the next time Merchant Center is synced with the source.
+
+             Was this helpful?How can we improve it?YesNoSubmit       

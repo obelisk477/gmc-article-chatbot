@@ -1,0 +1,53 @@
+ Use Google tag as a conversion source
+
+Linking your website to your Merchant Center account allows you to access specific reporting or insights in Merchant Center.
+
+To add a conversion source, you can either choose to use Google Analytics or create a new Google tag and use it on your website.
+
+Instructions
+
+How to add Google tag as a conversion source
+
+
+  Sign into your Merchant Center account.
+  Click on the tools and settings icon . Under "Settings", click Conversion settings.
+  If you haven’t already enabled the "Auto-tagging" option, you’ll have to do so. Learn more about auto-tagging
+  Select Add conversion source.
+  Select Website.
+  Add a destination name.
+  Select an attribution model from the drop-down menu.
+  Select the lookback window from the drop-down menu.
+  Click Next.
+  After creating the Conversion Source, click How to install Google tag and follow the instructions to install the tag.
+  To configure purchase events on your website, click How to configure purchase events and follow the instructions.
+
+
+The Website Conversion Source will now be listed in the conversion source table under “Conversion settings”.
+
+How to edit a conversion source
+
+
+  Sign into your Merchant Center account.
+  Click on the tools and settings icon . Under "Settings", click Conversion settings.
+  Click the conversion source that you wish to edit.
+  You can change the “Destination name”, “Attribution model” “Lookback window”.
+
+
+How to delete a conversion source
+
+
+  Sign into your Merchant Center account.
+  Click on the tools and settings icon . Under "Settings", click Conversion settings.
+  Click Delete next to the conversion source that you wish to delete.
+  In the confirmation dialog box, click Delete.
+
+
+After deletion, the status of the conversion source changes to “Archived” and it can be restored in 30 days. If not restored within 30 days, the status will be permanently deleted.
+
+Related links
+
+
+  Set up purchase events for Google tag
+  Link your Merchant Center with Google Analytics property
+
+             Was this helpful?How can we improve it?YesNoSubmit       

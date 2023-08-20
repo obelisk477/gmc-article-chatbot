@@ -1,0 +1,96 @@
+ Show products in multiple target countries
+
+You can show your products across multiple countries and languages.
+
+
+  Once you upload an offer, you can target any combination of countries within the same feed. Learn more about supported languages and currencies
+  You can select additional countries under your “Feed settings” tab in which to use your product data and/or use the shipping [shipping] attribute to indicate which countries you’d like to target for individual products.
+    
+      Note: If you set up a multi-country shipping service, it will allow you to use a single service in multiple countries, but it won’t automatically impact which countries you target or where your products show.
+    
+  
+
+
+If you use shipping attributes on an individual product level to target multiple countries, these products will be readily available to show in these countries.
+
+For example, let’s say you select Germany as a target country and submit your product data in German. When you configure multiple countries on your product data, this data is now also targeted to German speakers in those countries, provided you meet the country-specific policy guidelines and set up shipping and geographical targeting for these countries.
+
+
+  
+    Note: In addition to configuring additional countries in your feed, you can also opt-out products for Shopping ads in individual countries by using the excluded countries for Shopping ads [shopping_ads_excluded_country] attribute.
+  
+
+
+Add offers in additional languages
+
+Translate your product data and landing pages to multiple languages to reach more customers.
+
+To add offers in an additional language:
+
+
+  Sign into your Merchant Center account.
+  Click Products on the navigation menu, then click Feeds.
+  Click the  icon to add a new feed.
+  Click Add under ”Target countries” to add the countries you want your product data to be shown in.
+  Select the new “Language”.
+  Select which destinations you'd like to apply this feed to.
+  Click Continue.
+  Name and select your feed to upload.
+  Click Create feed.
+
+
+The offers provided in the new feed will take effect upon the next feed upload.
+
+Requirements
+
+
+  All uploaded offers must adhere to Google’s Shopping policies. If you target the same feed across multiple countries, country-specific policies are enforced separately for each country.
+  If you’re advertising with Shopping ads, your products will only show in countries you’ve selected as “target countries”. Additionally, the location targeting you set in Google Ads must match the “target countries” you select in Merchant Center in order for your product to show in these countries.
+
+
+For example, to allow your products to show in countries which require shipping, make sure you've correctly configured a shipping service to cover these countries or provided the shipping attributes on an offer level. Keep in mind that shipping services can cover multiple countries. Learn more about multi-country shipping
+
+If you don’t complete these steps, your products may not show in additional countries.
+
+Customized product data
+
+You may need to customize your product data under the following scenarios:
+
+
+  Same language and currency
+
+  
+    The new countries have the same language and currency requirements as the original target country for which you created your product data (for example, Germany and Austria). If this is the case, you don't need to take any additional steps to customize your data. You should see your products appear in the products list for any additional country you add.
+  
+
+
+
+  Same language, different currency
+
+  
+    The new countries have the same language but use different currencies than the country for which you originally created your product data (for example, Australia and the United States). Any currency conversions will take place automatically, so the customer sees the cost in their local currency.
+  
+
+
+
+  Different language and currency
+
+  
+    The new countries use a different primary language and a different currency than the country for which you originally created your product data. If a new country is added that uses a different primary language, you should create a separate feed with the product data translated into the new language. Any currency conversions will take place automatically, so the customer sees the cost in their local currency.
+  
+
+
+Related links
+
+
+  About feeds
+  Add your products
+  Create a feed
+  Show products in multiple target countries
+  Set up feed rules
+  Remove a feed or feed label
+  Test and preview your feed rules
+  How to set up data attributes Part 1 - Required attributes 
+
+
+             Was this helpful?How can we improve it?YesNoSubmit       

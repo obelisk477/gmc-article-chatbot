@@ -1,0 +1,152 @@
+ Language [language] (Collections)
+
+Use the language [language] attribute to specify the language of the featured products in your product feeds that are linked to your collection.
+
+
+When to use
+
+
+ Optional if you have featured products linked to your collection.
+
+
+Format
+
+Follow these formatting guidelines to make sure Google understands the data you're submitting.
+
+For details on when and how to submit values in English, learn more about submitting your product data
+
+
+
+  
+    
+      Type
+      String (Unicode characters. Recommended: ASCII only)
+    
+    
+      Limits
+      2-character ISO-639-1 language code
+    
+    
+      Repeated Field
+      No
+    
+  
+
+
+
+
+  
+    
+      File format
+      Example value
+    
+    
+      Text feeds
+      en
+    
+    
+      XML feeds
+      <g:language>en</g:language>
+    
+  
+
+
+
+Guidelines
+
+Follow these guidelines to make sure you submit high-quality data for your collections.
+
+
+Minimum requirements
+
+These are the requirements you need to meet to show your collection. If you don't follow these requirements, we'll disapprove your collection and let you know in the Diagnostics page of your Merchant Center account.
+
+
+
+  Use only one language for each collection. To include multiple languages, create multiple collections, each with a different language. 
+  Always specify a language for collections that have featured products. This will allow us to determine specific products associated with your collection.
+
+
+
+Best practices
+
+These best practices can help you go beyond the basic requirements to optimize your collection data for performance.
+
+
+
+  Only link products with the same language as the language for your collection if your collection has featured products.
+
+
+
+Examples
+
+
+
+  Sofa collection
+
+  
+    
+      
+        
+          For a sofa collection
+        
+        
+          
+          Attribute
+          
+          
+          Value
+          
+        
+        
+          
+          ID [id]
+          
+          Sofas2019Q1
+        
+        
+          
+          Language [language]
+          
+          EN
+        
+      
+    
+  
+
+
+
+  Refrigerator collection
+
+  
+    
+      
+        
+          For a stainless steel refrigerator
+        
+        
+          
+          Attribute
+          
+          
+          Value
+          
+        
+        
+          
+          ID [id]
+          
+          Fridges2019Q
+        
+        
+          
+          Language [language]
+          
+          FR
+        
+      
+    
+  
+
+
+             Was this helpful?How can we improve it?YesNoSubmit       

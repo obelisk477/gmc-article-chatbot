@@ -1,0 +1,473 @@
+ About unique product identifiers
+
+Unique product identifiers (UPIs) define the product you're selling in the global marketplace. They uniquely distinguish products you're selling and help match search queries with your products. Unique product identifiers are assigned to each product by the manufacturer, so if you sell the same product as another retailer, the UPIs will be identical.
+
+On this page
+
+
+  Guidance
+  Types of unique product identifiers
+  How to include unique product identifiers in your product data
+  Tips for specific products
+  Troubleshoot GTIN issues
+  Related links
+
+
+
+Common unique product identifiers include Global Trade Item Numbers (GTINs), Manufacturer Part Numbers (MPNs), and brand names. Not all products have unique product identifiers. However, if your product does have one, especially a GTIN, providing it can help make your ads and listings richer and easier for customers to find. If your product doesn’t have a UPI, you’ll tell us so in your product data.
+
+Guidance
+
+Provide correct product identifiers (GTIN, MPN, and brand) whenever possible. Don't make up, guess, or include values from similar products. If you provide incorrect identifiers, your product(s) may be disapproved. Follow this guidance to use unique product identifiers correctly and accurately:
+
+
+  If your products have assigned unique product identifiers and you have them available: Always include them to ensure best performance. If you have some identifiers available but not others, include what you have.
+  If your products have assigned unique product identifiers, but you don’t have them available: Leave the attribute blank - don’t include incorrect identifiers (for example, internal SKUs or other values specific to your store) or identifiers from similar products. If a product does have identifiers, don’t use the identifier exists [identifier_exists] attribute with a value of "false" (false) or the product may be disapproved.
+  If your products don’t have assigned unique product identifiers: Don’t include the GTIN [gtin], brand [brand], or MPN [mpn] attributes for the product. Also don't include internal SKUs or other values specific to your store in these attributes. Instead, include the identifier exists [identifier_exists] attribute with a value of "false" (false).
+  If you're the manufacturer of a product (for example, custom or homemade goods), and you have no official brand, use your store name as the brand [brand] along with an MPN [mpn] with a unique identifier number of your choice.
+
+
+The rest of this article explains the unique product identifiers you may have to provide, how to troubleshoot issues with your identifiers, and what to do if you don't have them.
+
+
+Types of unique product identifiers
+
+
+  
+    
+      Attribute
+      Name
+      Description
+    
+    
+      GTIN [gtin]
+      UPC
+      
+      
+        Used in primarily North America
+        Universal Product Code (UPC), also called GTIN-12 and UPC-A
+        12 numeric digits
+        A unique numerical identifier for commercial products that's usually associated with a barcode printed on retail merchandise
+      
+      
+    
+    
+      GTIN [gtin]
+      EAN
+      
+      
+        Used primarily outside of North America
+        European Article Number (EAN), also called GTIN-13
+        Typically 13 numeric digits (can occasionally be either eight or 14 numeric digits)
+        A unique numerical identifier for commercial products that's usually associated with a barcode printed on retail merchandise
+      
+      
+    
+    
+      GTIN [gtin]
+      JAN
+      
+      
+        Used only in Japan
+        Japanese Article Number (JAN), also called GTIN-13
+        8 or 13 numeric digits
+        A unique numerical identifier for commercial products that's usually associated with a barcode printed on retail merchandise
+      
+      
+    
+    
+      GTIN [gtin]
+      ISBN
+      
+      
+        Used globally
+        International Standard Book Number (ISBN)
+        ISBN-10: 10 numeric digits (last digit may be "X" which represents the number "10")
+        Note that this format was deprecated in 2007, and not all books can be represented using ISBN-10
+        ISBN-13 (recommended): 13 numeric digits and typically starts with either 978 or 979
+        A unique numerical identifier for commercial books published since 1970 that can be found on the back of the book along with the barcode
+      
+      
+    
+    
+      Brand [brand]
+      Brand
+      
+      
+        Used globally
+        The brand of the product
+        Should be clearly visible on the front of the product packaging or label
+      
+      
+    
+    
+      MPN [mpn]
+      MPN
+      
+      
+        Used globally
+        Manufacturer Part Number (MPN)
+        Alphanumeric digits (various lengths)
+        The number which uniquely identifies the product with its manufacturer
+        In case you are the manufacturer and the only seller of a product without an assigned MPN, include a unique identifier number of your choice in the MPN [mpn] field.
+      
+      
+    
+  
+
+
+
+How to include unique product identifiers in your product data
+
+Depending on the type of product you submit, you'll submit different identifiers. For all your items, we recommend submitting all three attributes (GTIN [gtin], brand [brand], and MPN [mpn]) to help boost the performance of your ads and listings and help customers find your products.
+
+
+  
+    
+      ID
+      [id]
+      Title
+      [title]
+      Identifier exists
+      [identifier_exists]
+      GTIN
+      [gtin]
+      MPN
+      [mpn]
+      Brand
+      [brand]
+    
+  
+  
+    
+      9876-S-GRN
+      Google T-shirt - Green - Small
+      -
+      9504000059422
+      00638HAY
+      Google
+    
+    
+      9876-S-YELLOW
+      Google T-shirt - Yellow - Small
+      -
+      9504000059446
+      00638ANG
+      Google
+    
+    
+      9877-M-Black
+      Black T-shirt - Customized with Your Design
+      no
+      -
+      -
+      -
+    
+  
+
+
+Use the following set of rules to provide the correct identifiers for each of your products.
+
+
+  
+    
+      Product identifier requirements
+    
+    
+      Regardless of category 
+      
+      The GTIN [gtin] attribute is required if the product is widely manufactured and has a GTIN.
+      
+    
+    
+       
+      Apparel
+      Media
+      Other categories
+    
+    
+      
+      Required product identifiers based on category
+      
+      Requires a value for the brand [brand] attribute
+      Requires a value for the GTIN [gtin] attribute (for example, ISBN)
+      
+      Requires a value for the brand [brand] attribute (if there is no brand, provide the manufacturer/supplier name)
+
+      If there is no GTIN, provide the MPN [mpn] attribute.
+      
+    
+    
+      Otherwise
+      
+      If product identifier requirements are not met, then your item’s performance may be limited.
+      
+    
+  
+
+
+Products with GTINs
+
+For all widely manufactured products (which are submitted with the condition [condition] attribute) that have a GTIN assigned, submit the following attributes:
+
+
+  GTIN [gtin]
+  Brand [brand]
+  MPN [mpn]
+
+
+Products without a GTIN
+
+If your products have a GTIN assigned, not submitting it can lead to limited performance. However, not all products have a GTIN assigned, in these cases, you don't need to submit one. You should provide the following attributes instead:
+
+
+  Brand [brand]
+  MPN [mpn]
+
+
+Examples of products that may not have an assigned GTIN include:
+
+
+  Store brand products
+  Replacement parts
+  Original equipment manufacturer (OEM) parts or replacements for OEM parts
+  Custom-made products (custom t-shirts, art, and handmade goods)
+  Books released before ISBN was approved as an ISO standard in 1970
+  Vintage or antique products
+  Pre-order products (using the availability [availability] attribute)
+
+
+
+  
+    Note: In case you are the manufacturer and the only seller of a product, include a unique identifier number of your choice in the MPN [mpn] field instead of submitting the identifier exists [identifier_exists] attribute with a value of "false”.
+  
+
+
+To help identify your products without a GTIN, you can use the MPN [mpn] and brand [brand] attributes. An MPN, or Manufacturer Part Number, is a UPI for specific parts assigned by the manufacturer. The brand [brand] attribute allows you to use the brand of your product as a UPI.
+
+
+  Note: The MPN [mpn] attribute is optional, but including it may improve your product's performance. Keep in mind that your products may be disapproved or their performance may be limited if you submit products without a UPI when one is available.
+
+
+Products without a brand
+
+If the product has a clearly associated brand or manufacturer, submit the brand [brand] attribute.
+
+However, you don’t need to submit the brand [brand] attribute if the product doesn’t have a clearly associated brand (for example, movies, books, and music). If your product is custom made, use your store name for the brand [brand] attribute.
+
+
+Tips for specific products
+
+
+  Books and media
+
+  
+    
+      
+        Use the ISBN-13 of a book as the value for the GTIN [gtin] attribute.
+        For a product that has a UPC and an ISBN-13, submit the GTIN [gtin] attribute twice, once for each value.
+        For a product with only an SBN (9 digits, used in Great Britain until 1974), convert it to an ISBN-10 by adding a 0 in front. For example, to convert 123456789, submit 0123456789.
+      
+    
+  
+
+  
+    Bundles
+
+    
+      
+        A bundle is a main product that you group with other accessory products and sell together as one package for a single price.
+
+        
+          If the manufacturer created the bundle: submit the GTIN [gtin], MPN [mpn], and brand [brand] of the bundle, and not the individual products, as the values for the corresponding attributes.
+          If you created the bundle: submit the GTIN [gtin], MPN [mpn], and brand [brand] of the main product as the values for the corresponding attributes. For example, if you bundle a camera with a lens and carrying bag, submit the brand of the camera, which is the main product. Learn more about submitting bundles
+        
+      
+    
+  
+
+  
+    Compatible third party products
+
+    
+      
+        Submit the correct GTIN [gtin] value for your product. Learn more about requirements for compatible or refurbished third party products
+      
+    
+  
+
+  
+    Customized products
+
+    
+      
+        If you offer customization, engraving, or other personalization of a product, explain that the product is customized in the title [title] and description [description] attributes.
+
+        
+          Submit the GTIN [gtin] attribute with the value assigned by the manufacturer if you offer customization, engraving, or other personalization of a product.
+          Use the bundle [is_bundle] attribute to let us know that the product includes customization.
+        
+      
+    
+
+    
+      Magazine subscriptions
+
+      
+        An International Standard Serial Number (ISSN) can be converted into a GTIN. Learn more about converting values from the ISSN Center's website
+      
+    
+  
+
+  
+    Medication
+
+    
+      
+        For the United States, a National Drug Code (NDC) can be converted into a GTIN. Learn more from the GS1 GTIN Validation Guide Appendix C
+        For European countries, similar conversion rules exist. Learn more from the Guideline on the packaging information of medicinal products for human use authorized by the Union
+      
+
+      Learn more about the Healthcare and medicines policy
+    
+  
+
+  
+    Multipacks
+
+    
+      
+        A multipack is a group of several identical products for sale as one product. This group can be created by you or by the manufacturer, and you’ll need to submit the brand differently depending on who created the group.
+
+        
+          If the manufacturer created the multipack: submit the GTIN [gtin], MPN [mpn], and brand [brand] of the multipack, and not the individual products, as the values for the corresponding attributes.
+          If you created the multipack: submit the GTIN [gtin], MPN [mpn], and brand [brand] of the individual products as the values for the corresponding attributes. Learn more about the multipack attribute
+        
+      
+    
+
+    
+      Printed music
+
+      
+        An International Standard Music Number (ISMN) can be converted into a GTIN [gtin]. Learn more about ISMN
+      
+    
+
+    
+      Printer cartridges
+
+      
+        
+          Submit the correct GTIN [gtin] value for your printer cartridge. Learn more about requirements for printer cartridges
+        
+      
+    
+  
+
+
+
+  Products available in variant colors or sizes
+
+  
+    If your product comes in multiple colors or sizes, you must have different unique product identifiers for each of these variants. For example, if you sell a shirt that comes in blue, red, and green, you’ll need to submit the color [color] attribute and a unique GTIN [gtin] for each variant.
+
+    
+      Learn more about the size [size] attribute
+      Learn more about the color [color] attribute
+    
+  
+
+
+
+  Products with several GTINs
+
+  
+    
+      Make sure to the submit the correct GTIN [gtin] value for each product:
+
+      
+        For variants (products that come in multiple colors, sizes, etc.), submit 1 GTIN [gtin] attribute for each product.
+        For products with more than 1 valid UPI (for example, products with a global GTIN and a GTIN specific to the distributor), submit additional unique product identifier (UPI) attributes with each value.
+      
+    
+  
+
+
+
+  Store brand and private-label products
+
+  
+    
+      Don’t submit a value for the GTIN [gtin] attribute for products without a GTIN. If you’re the only seller and manufacturer of a product or if your product is a store brand, it may not have a GTIN. If so you don’t need to submit one. Instead, submit the following attributes for these products:
+
+      
+        MPN [mpn]: Include a unique identifier number of your choice (for example, your product SKU) in the MPN [mpn] field instead of submitting the identifier exists [identifier_exists] attribute with a value of "false”.
+        Brand [brand]: Use your store brand for the brand [brand] attribute.
+      
+
+      Private-label products are products that are produced by one company, but relabeled by the company selling it to make it look like they produced it. For example, Company A makes a connected-TV device. Company B buys it to resell and rebrands it with their logo and name.
+    
+  
+
+
+
+  Used and vintage products
+
+  
+    
+      Used or vintage products may have a GTIN, and you should provide it if possible.
+
+      
+        Submit the GTIN [gtin] attribute with the value assigned by the manufacturer.
+        Set the value to "used" for the condition [condition] attribute.
+      
+    
+  
+
+
+
+Troubleshoot GTIN issues
+Find unique product identifiers for your products
+
+
+  When you're working with unique product identifiers, don't invent or approximate the values. Each product has a prescribed value assigned by the manufacturer, and any other value will cause your product to be disapproved. The most accurate source of GTINs is always from the product packaging or the product’s manufacturer.
+
+  Ways to find unique product identifiers:
+
+  
+    Check the packaging. Refer to the GTIN on your product's packaging. Learn how to find the GTIN
+    Ask the manufacturer. Contact your product's manufacturer or distributor to ask for it.
+    Search for the product on Google Shopping. For some countries, if you search for the product, the Shopping ad will have a link to compare prices. Click this link, and then look for the GTIN under the Details section.
+    Check ISBNdb.com or Google Books. You can find ISBN information on either of these sites.
+  
+
+Make sure your GTIN is correct
+
+
+  Quickly check if your GTIN is correct using the following tips:
+
+  
+    Use the right number of digits. Each GTIN should have a specific number of digits, so count the number of digits for each GTIN (for example, ISBN-13 should have 13 digits).
+    Use numbers only. If your GTIN has letters or symbols, then it’s not correct.
+    Look for the check digit (or letter for ISBN-10). The check digit is a digit within the GTIN that can be used as a mathematical check to make sure the product identifier is accurate. Use the GS1 check digit calculator
+    Look for numbers in the restricted range. Don’t include GTINs in the restricted ranges (prefixes "2", "02", "04") or the coupon range ("99", "981-984").
+    Use the right levels. For GTIN-14 codes, only use packaging levels (1–8) if you're selling packages containing multiple items. Do not use the bulk level indicator (9).
+    Make sure you don’t submit a reserved code GTIN. Some GTIN prefixes aren't yet assigned because they're reserved for future use. If you use a GTIN with such a prefix, we'll let you know in the Merchant Center so you can adjust it.
+  
+
+  For more detailed information about GTIN validation, download the GS1 GTIN validation guide.
+
+
+
+Related links
+
+
+  GTIN [gtin]
+  MPN [mpn]
+  Brand [brand]
+  Identifier exists [identifier_exists]
+
+
+
+             Was this helpful?How can we improve it?YesNoSubmit       

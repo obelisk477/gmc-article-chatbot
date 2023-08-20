@@ -1,0 +1,171 @@
+ Local inventory onboarding guideEnable local products in your campaigns
+
+
+   This is step 9b of the local inventory onboarding guide.
+
+
+
+  All existing vehicle ads Smart Shopping campaigns will be upgraded to Performance Max by September 2023, bringing you additional inventory and formats to reach new customers. Accounts in which all campaigns have been upgraded are no longer able to create new Smart Shopping campaigns. Learn how to create a Performance Max campaign.
+
+
+
+This article details how to set up and optimize a Performance Max campaign or Shopping campaign to run your local inventory ads and monitor the performance of your local inventory.
+
+
+  There are a number of ways to customize your local inventory ads setup and improve your performance. Learn more about local inventory ads optimization features
+
+
+Before you begin
+
+
+  You need to have an active Performance Max or Shopping campaign in your Google Ads account to run your local inventory ads. If you don’t have one, create one in your Google Ads account.
+  To set up your campaign to promote local inventory, you'll need to complete local inventory ads implementation. If you haven't done this yet, learn more about local inventory ads to get started.
+  Link your Google Ads account to Merchant Center account to run local inventory ads. Learn more about linking your Merchant Center and Google Ads accounts
+
+
+Instructions
+
+Enable local inventory ads in your campaigns
+
+Log in to your Google Ads account and choose one of the following options:
+
+Option 1: Performance Max campaign
+
+
+  Click on the name of your existing Performance Max campaign, or create a new Performance Max campaign if you don't already have one. Learn more about creating Performance Max campaign
+  If a local inventory feed is set up within the account, local inventory ads will serve by default. If you have a Merchant Center feed linked to the Google Ads account, then select the Merchant Center account and the country for your Performance Max campaign and click Save.
+
+
+Option 2: Shopping campaign
+
+
+  Click on the name of your existing Shopping campaign, or create a new Shopping campaign if you don't already have one.
+  Navigate to Settings > Shopping campaign settings > Additional settings > Local products, check the "Enable ads for products sold in local stores" box and click Save.
+
+
+Display your local inventory
+
+Your products may appear in ads in a few different ways based on the type of inventory you submit to Google. You can specify which ad format you want to use for eligible inventory in your Shopping campaign.
+
+
+  Choose your ad format
+
+  
+    
+      
+        
+           
+          Online only inventory
+          Multichannel inventory
+          Local only inventory
+        
+        
+          When the shopper is near your store location
+          Shopping ad
+          Local inventory ad
+          Local inventory ad
+        
+        
+          When the shopper is not near your store location
+          Shopping ad
+          Shopping ad
+           
+        
+      
+    
+  
+
+
+
+  Monitor local channel performance
+
+  If you promote products sold in physical store locations and a local products feed, you can view campaign or ad group level performance reports for your local shopping channel when you segment your reports by click type, channel, or channel exclusivity.
+
+  Segment by click type
+
+  When you segment your report by click type, we’ll show you data for the 5 different click types
+
+  
+    Click types
+
+    
+      
+        
+          
+            
+              Name of click type
+              What it means
+            
+            
+              Shopping - Product - Online
+              Click on an ad where an online product was shown
+            
+            
+              Shopping - Product - Local
+              Click on an ad where a local product was shown
+            
+            
+              Shopping - LIA Store Clicks - Local
+              Click on an ad where a local store was shown
+            
+            
+              Shopping - Product - Multichannel Local
+              Click on the local portion of an ad with two links - one to the local product and one to the online product
+            
+            
+              Shopping - Product - Multichannel Online*
+              Click on the online portion of an ad with two links - one to the local product and one to the online product
+            
+          
+        
+
+        *This click type is no longer displayed. However, you'll see it in your historical reporting.
+      
+    
+  
+
+  Here’s how to view your performance data:
+
+  
+    In Google Ads, select the campaign you’re interested in.
+    From either the campaign or ad group view, click the Segment icon .
+    From the drop-down menu, select Click Type.
+  
+
+  You may also download a report reflecting one or several segment options after you have added them to your campaign. To do this:
+
+  
+    Click Download on the top right of your screen.
+    Select More options.
+    Under Segments, type the names of the segments you’re interested in.
+    Check the boxes to include Titles and range and Summary rows.
+    Click Download.
+  
+  You can also use the “Reports” tab to build a custom report. Learn more about building custom reports
+
+Set up filters for channel and channel exclusivity
+
+Now that you've enabled local products in your Shopping campaign, you can set up filters or subdivide your inventory by channel and channel exclusivity.
+
+
+  "Channel" segments products by online or local availability
+  "Channel exclusivity" segments products by availability in one of the channels or both
+  If you set up an inventory filter for "Channel": "Local stores" and "Channel Exclusivity": "Single-channel," your campaign will include products sold exclusively in local stores, not online.
+
+
+
+  Tip: You can subdivide your product inventory and choose different bids for channel and channel exclusivity. For example, you can subdivide your product groups into products that are available across multiple channels (multi-channel) with an assigned bid. You can then assign separate bids for products that appear in a single channel only. Learn more about organizing your campaign with product groups
+
+
+Here’s how to segment your report by channel or channel exclusivity.
+
+
+  In Google Ads, select the campaign you’re interested in.
+  From either the campaign or ad group view, click Predefined reports (formerly Dimensions).
+  From the Shopping menu, select either Shopping - Channel or Shopping - Channel exclusivity.
+
+
+Or, you can use the “Reports” tab to build a custom report. Learn more about building custom reports
+
+
+             Was this helpful?How can we improve it?YesNoSubmit       

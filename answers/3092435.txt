@@ -1,0 +1,123 @@
+ Buy on Google policies
+  Buy on Google for Search and Shopping will no longer be available starting September 26, 2023. Eligible merchants will be able to use Buy on Google for YouTube in the US. Learn more about Enabling Buy on Google for YouTube.
+
+
+
+
+
+ 
+
+
+
+  To ensure a safe and positive experience for users, Google requires that merchants comply with all applicable laws and regulations in addition to Buy on Google and Shopping ads policies. It’s important that you familiarize yourself with and keep up to date on these requirements for the place where your business operates, as well as any other places Buy on Google offers are shown. When we find content that violates these requirements, we may block it from appearing, and in cases of repeated or egregious violations, we may ban you from promoting or selling your products on our platforms
+
+
+Unsupported Buy on Google content
+
+Certain products and services are not supported for promotion or sale in Buy on Google. All Shopping ads policies apply, as per Google Terms of Service. It’s important to review both the Shopping ads policies and the following list to ensure your products and services meet the outlined policies:
+
+
+  Custom or personalized products
+  Bundled service plans
+  Used or refurbished products
+  Final Sale Items
+  Preorder Items
+  Digital goods and subscriptions
+  Software (CDs and DVDs including downloadable software; video game DVDs allowed)
+  Items requiring in-store activation
+  Items sold by marketplace sellers
+  Items that require scheduled delivery, or delivery by freight
+  Parts necessary to the functioning of a vehicle (vehicle accessories are allowed)
+  Products with age and/or ID verification requirements
+  Gift cards
+  Rare, scarce or valuable metals or stones
+
+
+Additional Buy on Google-specific requirements
+
+Products in the categories below are supported on Buy on Google, but Buy on Google has different policies for displaying these products than Shopping ads does.
+
+
+  Hazardous materials
+
+  
+    Buy on Google allows promotion or sale of hazardous materials classified as Other Regulated Materials (ORM-D) by the US Department of Transportation. ORM-D goods present a limited hazard during shipping because of their quantity and form or packaging, and are sometimes referred to as “Consumer Commodities.” Consumer Commodities are hazardous materials packed in a form suitable for retail sale for consumption by individuals for personal care of household use, such as:
+
+    
+      Nail polish
+      Acetone nail polish remover
+      Perfumes
+      Aerosol hair spray
+      Diffusers
+      Medicines
+      Household cleaners
+      Paint
+      Fluorescent light bulbs
+    
+
+    Merchants are responsible for ensuring they promote only ORM-D goods in compliance with U.S. Department of Transportation definitions. For complying with marking requirements, merchants must either:
+
+    
+      Appropriately mark the packages with such ORM-D goods with the “ORM-D” or limited quantity marking. The "ORM-D" marking is only permissible until Dec.31, 2020.
+      Indicate in their feeds which items are ORM-D goods.
+    
+
+    Buy on Google doesn’t allow promotion or sale of non-ORM-D hazardous materials. Some examples of prohibited products include:
+
+    
+      Lithium metal or ion batteries (such as button cells), unless they are either of the following:
+        
+          (a) contained in equipment
+          (b) lithium metal batteries with a net weight of 11 lbs or less and packed with equipment
+        
+      
+      Flammable solids, like matches, sulfur or silicon powder
+      Flammable liquids, like lighter fluid, butane or propane
+      Toxic and infectious substances, like pesticides and arsenic
+      Radioactive materials
+      Corrosives, like sulfuric acid and mercury
+    
+  
+
+
+
+  Pricing and payments
+
+  
+    
+      For products sold in bulk quantities, the total price for the minimum number of items sold must be submitted.
+      Any pricing information contained must comply with local regulations. It is the merchant’s responsibility and also in their best interest to comply with such local requirements while participating in Buy on Google. 
+      Items with variable prices, such as in auctions, should not be submitted. All products must be sold at fixed prices.
+    
+  
+
+
+
+  Consumer traffic solicitation
+
+  
+    Buy on Google doesn’t allow product listing descriptions that redirect users to another website to complete their transaction or which otherwise suggest users navigate away from Buy on Google for additional product information.
+  
+
+
+
+  Images with promotional messages
+
+  
+    Buy on Google doesn't allow product images that contain promotional messages, including watermarks or promotional text. Image links pointing to logos or other generic images are also not allowed.
+  
+
+
+
+  Product availability
+
+  
+    Buy on Google doesn’t allow the promotion of products that provide incorrect availability information to users. Learn more about availability.
+  
+
+
+
+  Need help? Click here to contact Buy on Google support.
+
+
+             Was this helpful?How can we improve it?YesNoSubmit       

@@ -1,0 +1,39 @@
+ Set up your product data in Google Sheets
+
+This article includes instructions on how to create and upload your product data in Google Sheets. Merchant Center offers a template to help you build your product data.
+
+Before you get started with creating and uploading your product data, you will need to register your Google Sheet with Merchant Center.
+
+Add your data
+
+Fill out your feed according to the instructions below for the type of spreadsheet you're using. Do not import or open a .xlsx file in Google Sheets, as doing so may cause encoding issues.
+
+
+  Attribute names: As you’re typing in the header row of your sheet, select from the list of accepted attribute names. Learn more about product data specifications
+  Accepted values: Select from the list of accepted values for any attributes with standardized values. Learn more about feeds
+  Google product category: Select the correct category from the list of suggestions. Learn more about the Google product category [google_product_category]
+
+
+Submit your feed
+
+Once you've submitted your feed, you should check the "Processing" tab in your Merchant Center account for possible feed processing errors. To view a full list of errors and warnings, go to the "Diagnostics" page and troubleshoot your feed if necessary.
+
+Google Sheets format requirements
+
+
+  The first sheet of a Google Sheets file must contain the product data to be submitted. The first line of this page must be the header. The header must contain a single attribute per cell. Any values that are not supported attributes will cause errors during feed upload.
+  Each cell must comply with the value rules outlined in the product data specification.
+  For group attributes such as tax [tax], shipping [shipping], product type [product_type], product highlight [product_highlight], and product detail [product_detail], use colon-separated sub-attributes. If a colon is not used to separate sub-attributes, it should be submitted with a preceding backslash, for example, “\,“.
+  For repeated attributes such as tax [tax], shipping [shipping], product type [product_type], product highlight [product_highlight], and product detail [product_detail], you should provide each value separated by a comma, such as "blue, green, red" wherever applicable. For repeated attributes only, if a comma is part of the attribute value and is not used to separate values, it should be submitted with a preceding backslash, for example, “\,“.
+  For repeated group attributes, both the comma and the colon must be prefixed with a backslash if they are not used to separate values.
+  Refer to the product data specification to learn more. Note that only a few attributes support multiple values; for example, you may only provide one value for the ID [id] or description [description] attributes.
+
+
+Related links
+
+
+  Register a Google Sheet on Merchant Center
+  About structured data markup for Merchant Center
+  Set up structured data for Merchant Center
+
+             Was this helpful?How can we improve it?YesNoSubmit       

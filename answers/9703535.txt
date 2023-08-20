@@ -1,0 +1,55 @@
+ Manage your collections
+
+You can view, edit, and delete collections or collection feeds in your Merchant Center account.
+
+
+  Edit existing collections by altering attributes in the feed file and reuploading the file (or scheduling fetches)
+  Delete existing collections by removing them from the respective feed file and reuploading (or scheduling fetches)
+  Edit a collections feed by altering the respective file and reuploading (or scheduling fetches)
+  Delete existing collections feeds in your Merchant Center account
+
+
+Instructions
+
+
+  View your collection
+
+  
+    
+      You can see your collection data in-depth in your Merchant Center account. A top-level view shows details such as collection ID, number of linked products, language, and eligibility status.
+
+      
+        Sign in to your Merchant Center account.
+        Click Products.
+        Click All collections.
+        (Optional) Click the filter icon to adjust which information you’re viewing.
+        Click the ID of the collection you’d like to view.
+      
+    
+  
+
+
+
+  Delete a collection
+
+  
+    
+      There are multiple ways to remove a collection from your Merchant Center account. It’s also important to remember that collections do not expire from your Merchant Center account.
+
+      Remove the collection: If you're updating your collections via a data feed, simply delete the collection(s) from your file and submit the feed again. (This is the preferred way to permanently remove a collection).
+
+      Remove collections from the All collections page: Remove an individual collection from Merchant Center without submitting new product data by following these steps:
+
+      
+        Sign in to your Merchant Center account.
+        Click Products.
+        Click All collections.
+        Check the box next to the collection you’d like to remove, or use the box next to the Collection ID to select all collections on the page.
+        Click the delete icon  to remove the selected collection. You won’t be able to retrieve the collection once you remove it.
+      
+
+      Optional: If you want to permanently remove the collection, be sure to delete it from your base feed before the next upload. Any collections that you remove from the All collections list will appear after a new base feed upload unless you've deleted the data.
+    
+  
+
+             Was this helpful?How can we improve it?YesNoSubmit       

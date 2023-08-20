@@ -1,0 +1,119 @@
+ About ID verification for Buy on Google
+  Buy on Google for Search and Shopping will no longer be available starting September 26, 2023. Eligible merchants will be able to use Buy on Google for YouTube in the US. Learn more about Enabling Buy on Google for YouTube.
+
+
+
+
+
+To participate in Buy on Google, you may be asked to submit your government-issued ID to be verified. Google verifies your identity in order to deposit sales profits into your bank account.
+
+If you are asked to submit your ID, you’ll only need to do so once. You may do this on behalf of your business in accordance with the Google verification policy.
+
+How it works
+
+Google only uses this information to confirm that it's you. Your personal information and any documents you submit will be added to your payments profile. Your personal information and documents will be stored securely and treated in accordance with the Google Privacy Policy and the Google Payments Privacy Notice where applicable. The verification process won't affect your credit score or credit rating.
+
+ID requirements
+
+
+  You must submit a clear photo or scan of ID
+  You must use a US government-issued ID:
+    
+      Driver's license or state ID card
+      Global Entry card
+      National ID card
+      Passport or passport card
+      Permanent resident card
+    
+  
+
+
+
+  The name on your ID must match the contact listed within your payments profile in your Merchant Center account.
+
+
+
+  
+    
+      Income tax document
+      W-9
+    
+    
+      Business license or Incorporation Document
+      Business registration document. Accepted documents:
+      
+        W-9
+        CP 575
+        Articles of Incorporation
+      
+      Business registration number. Accepted registration numbers:
+
+      
+        EIN
+      
+      
+    
+    
+      Legal representative’s ID
+      Valid US ID
+    
+    
+      Permitted bank account country
+      US (disbursement in USD)
+    
+  
+
+
+Instructions to verify your ID
+
+
+  Sign in to your Merchant Center account.
+  Click Buy on Google.
+  Under "Product and business information", click ID verification. The ID verification is grayed-out if payments profile is not yet completed.
+  Enter your name, address, other information, and upload a photo or copy of government issued photo ID and proof of organization. The name and information you entered must match the payments contact in your payments profile.
+
+
+
+  
+    Note: The name and country on the proof of organization document should exactly match the information you have provided.
+
+    Examples of acceptable documents for proof of organization:
+
+    
+      Certificate of incorporation or registration
+      Partnership deed or agreement
+      Articles or Memorandum of incorporation or association
+      Trust deed
+    
+  
+
+
+
+  Confirm your information, then click Submit.
+
+
+
+  
+    Keep in mind
+
+    
+      This verification may take a few days.
+      Once completed, the ID verification status will be enabled with a green check mark under Payment and business information. An ongoing process status is reflected during the verification process. If the verification fails, and the user has to re-submit the document, the status will be pending.
+      If Google is unable to verify the identity, you may try again. There is a limited number of attempts. You may contact support if ID verification permanently failed and you think there’s been a mistake.
+    
+  
+
+
+Related link
+
+
+  
+    Set up your payments and billing for Buy on Google
+  
+
+
+
+  Need help? Click here to contact Buy on Google support.
+
+
+             Was this helpful?How can we improve it?YesNoSubmit       

@@ -1,0 +1,18 @@
+ Promotion approval process
+
+After your promotions feed and products feed are processed, Google reviews and approves your promotions before distributing them. This process is typically complete within 12 hours, but can take up to 24 hours. We recommend you submit your promotions as early as possible for a timely review.
+
+The approval process requires 2 steps:
+
+
+  Policy review: The policy review confirms the promotion follows all Editorial requirements and Promotions policies, and will occur shortly after a promotion is submitted during weekday business hours.
+  Validation review: When a promotion becomes active on your site, Google testers will verify that the promotion works and that it follows all Promotions policies. 
+
+
+About policy review and validation
+
+If your promotion passes policy review and validation review, Google approves the promotion, and sets it live. Promotions may go live a few hours after the start time because of testing. If your promotion doesn't pass review and testing, you may have the opportunity to modify the promotion and re-submit it for verification. 
+
+
+ 
+             Was this helpful?How can we improve it?YesNoSubmit       

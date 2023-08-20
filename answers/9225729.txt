@@ -1,0 +1,8 @@
+ CSS not eligible to advertise products in this target country
+
+The Comparison Shopping Service (CSS) that these products are associated with doesn’t currently meet the eligibility requirements to advertise in this target country. In particular, the CSS’s website does not show products from at least 50 distinct merchant domains in this country. Your products in this target country will not be able to serve unless the CSS meets the eligibility criteria.
+
+If you are a merchant: Reach out to the CSS you are working with to resolve this issue.
+
+If you are a CSS: Ensure that you have products from a sufficient number of merchants on your website for the country these products are targeted to.
+             Was this helpful?How can we improve it?YesNoSubmit       

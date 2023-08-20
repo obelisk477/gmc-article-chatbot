@@ -1,0 +1,178 @@
+ How to improve your Retailer Standards rating
+
+Your Retailer Standards rating helps you understand your performance and how to improve your customers’ experience.
+
+This article explains ways you might be able to improve your Retailer Standards rating.
+
+Best practices
+
+Item defect rate issues
+
+The item defect rate is the percentage of items that were canceled by you because the items were out of stock or have a negative seller rating (1 and 2 star reviews). An order receives a negative rating from the customer when the order was not received on-time or an incorrect item was received.
+
+You can improve your seller rating by reviewing your orders that have item defects and updating the relevant processes that led to the defects.
+
+The table below lists possible reasons for receiving an item defect rating and how to improve the rating.
+
+
+  
+    
+      Problem
+      Reason
+      Ways to improve
+    
+    
+      Item defects from cancellations
+      
+      An order is canceled due to out of stock item(s).
+
+      Google may cancel orders if they aren’t shipped within 3 days handling time.
+      
+      
+      Reserve inventory immediately upon order placement across your channels to avoid overselling. Use the quantity for Buy on Google [sell_on_google_quantity] feed attribute to share inventory on hand, and Google will reduce available inventory as items are sold accordingly.
+
+      If you’ve opted out of automatic item updates, send price and availability updates as soon as the price changes on your website.
+
+      Consider using a supplemental feed in addition to your product feed to update availability and pricing throughout the day.
+
+      Make sure to account for potential delays in feed or order transmissions, and honor the ordered price. When selling promotional items, plan for the increase in sales.
+
+      Ensure you’re enrolled in order notifications if missing shipments is a concern.
+
+      Make sure you update the order status in a timely manner either through API or Merchant Center.
+      
+    
+    
+      
+      Item defects from 1 star or 2 star Customer Reviews
+
+      *US Only
+      
+      Customers may leave negative reviews if the wrong item is sent, if items with the wrong size or color are sent, or if items are inappropriately packaged.
+      
+      
+        Send the correct item
+        Verify the correct size and color
+        Make sure items are packaged correctly
+        Ensure your items are accurately depicted.
+      
+      
+    
+  
+
+
+Shipping defect issues
+
+The shipping defect rate is the percentage of retailer items which were not shipped (confirmed via carrier scan) within the configured handling time. You can improve your seller rating by reviewing your orders that have shipping defects and updating the relevant processes that led to the defects. The table below lists possible reasons for receiving a shipping defect rating and how to improve.
+
+
+  
+    
+      Problem
+      Reason
+      Ways to improve
+    
+    
+      Items shipped late and delivered late
+      You may receive a shipping defect rating if you ship items late, resulting in the items being delivered late.
+      
+      
+        Configure your handling time correctly
+        Understand estimated delivery date
+        Plan ahead for set delivery times and holiday cutoffs
+        Enroll in order notifications
+      
+      
+    
+    
+      Items delivered with invalid tracking number
+      You may receive a shipping defect rating if you fail to supply a valid tracking number to the customer. This may include:
+      
+        A missing tracking number
+        An incorrect tracking number
+        A previously used tracking number
+        A duplicate tracking number
+        No carrier scan
+      
+      
+      Always update the order status with a valid tracking number. If you are experiencing a high volume of orders, and have no API integration or API is broken, take advantage of the order feeds to bulk upload both order statuses and tracking numbers. Tracking numbers must be accurately updated prior to the Original Promise Date to prevent a shipping defect.
+    
+  
+
+
+Delivery defect issues
+
+The delivery defect rate is the percentage of items which were not delivered within the configured transit time.
+
+You can improve your seller rating by reviewing your orders that have delivery defects and updating the relevant processes that led to the defects.
+
+The table below lists the possible reasons for receiving a shipping defect rating and ways you can improve it.
+
+
+  
+    
+      Problem
+      Reason
+      Ways to improve
+    
+    
+      Items shipped on-time and delivered late
+      You will receive a delivery defect when your selected carrier delays the delivery or corresponding delivery scan of an item.
+      
+      Ensure your configured transit time accurately represents your carrier’s current capabilities.
+
+      Ensure you’re selecting the appropriate level of service with your carrier to deliver by the “Original promised delivery date.”
+
+      Manage any issues related to late delivery directly with the carrier. (Google doesn’t own the relationship with the carrier on your behalf).
+      
+    
+  
+
+
+Return defect issues
+
+The return defect rate is the percentage of items for which a return was not processed within 2 business days of the carrier scan marking delivery at your return facility.
+
+You can improve your seller rating by reviewing your orders that have return defects and updating the relevant processes that led to the defects.
+
+The table below lists possible reasons for receiving a return defect rating and ways to improve it.
+
+
+  
+    
+      Problem
+      Reason
+      Ways to improve
+    
+    
+      Return items not processed on-time.
+      You will receive a return defect when items are not processed within 2 business days of the delivery scan at your return facility.
+      
+      Ensure returns are processed within 2 business days of receipt.
+
+      Consider enrolling some or all of your inventory in Returnless Refunds.
+
+      Enroll in return notifications
+      
+    
+  
+
+
+
+  To restore your account or to escalate a dispute, contact us. After you've submitted your appeal, a member of the Buy on Google team will be in touch.
+
+
+
+  Need help? Click here to contact Buy on Google support.
+
+
+
+Related links
+
+
+  Return settings requirements for Buy on Google (US only)
+  About shipping policies for Buy on Google
+  About Buy on Google Retailer Standards and policies
+  Use the Retailer Standards dashboard
+
+             Was this helpful?How can we improve it?YesNoSubmit       

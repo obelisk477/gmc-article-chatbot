@@ -1,0 +1,78 @@
+ How to fix: Matching variant but differing value: brand [brand]Submit a value that matches the other variants in this group
+
+Two or more of your products use the same item group ID [item_group_id], but do not appear to be variants of the same product, as they do not have the same value for other grouping attributes, such as brand [brand]. To ensure that each of your products shows correctly, only group products that are variants of the same product and make sure the attributes for those products are consistent. You can create additional item groups for different products.
+
+Instructions
+
+
+  Step 1: See the affected products
+
+  
+    
+  Sign in to your Merchant Center account.
+  Select Products on the navigation menu, then click Diagnostics.
+  Click the Item issues tab to see current issues affecting your products.
+
+
+To download a list (.csv) of all affected products for all issues:
+
+
+  Click the download button  next to the filter button , beneath the graph and above the list of issues.
+
+
+To download a list (.csv) of all affected products for a particular issue:
+
+
+  Find the issue under the “Issue” column, then click the download button  at the end of the row.
+
+
+To see a list of up to 50 products with this particular issue:
+
+
+  Find the issue under the “Issue” column, then click View examples in the “Affected items” column.
+
+
+  
+
+
+
+  Step 2: Add variant attributes
+
+  
+    
+      Filter the downloaded report so that you only see products with:
+        "Issue title" = Matching variant but differing value: brand [brand]
+      Search your product data for those products (using the ID). Make sure each product that uses this item group ID [item_group_id] is a variant of the product and that the values are consistent for the brand [brand] attribute.
+      Remove the item group ID [item_group_id] from any items that are not variants of the same product.
+    
+  
+
+
+
+  Step 3: Resubmit your product data
+
+  
+    
+  After you’ve updated your product data, resubmit it using one of these methods:
+    
+      Upload a feed
+      Submit through the Content API
+      Import content from an ecommerce platform
+    
+  
+  Next, check that you’ve fixed the issue by making sure it’s no longer listed on the Diagnostics page.
+    
+    Keep in mind: It may take some time for your change to be reflected on the Diagnostics page.
+
+
+  
+
+
+Related links
+
+
+  Item group ID [item_group_id]
+  Brand [brand]
+  Best practice for submitting unsupported variants
+
+             Was this helpful?How can we improve it?YesNoSubmit       

@@ -1,0 +1,84 @@
+ Local inventory onboarding guideRequest inventory verificationNext: Link your Merchant Center and Google Ads accounts (local inventory ads only)
+
+
+  This is step 8 of the local inventory onboarding guide.
+
+
+Once you’ve submitted your product data, you can initiate inventory verification checks. These checks help Google ensure that the inventory information you submit matches what’s actually in your stores.
+
+
+  Note: Inventory verification isn’t required if you’ve been approved for merchant-hosted local storefront. Learn more about the inventory verification process
+
+4.1 Submit inventory verification contact
+
+
+  Your inventory verification contact is your store’s representative (for example, someone who works in your store, a marketing team member, or an intern) whose role is to coordinate the verification process with Google. This person can be different from the main technical contact in your Merchant Center account settings.
+
+  
+    Your inventory verification contact is the only person who receives information about setting up and processing inventory verification. If you have multiple team members coordinating the inventory verification, we recommend that you set up an email group and use that email address as your verification contact.
+  
+
+  To submit your inventory verification contact, follow these steps:
+
+  
+    Sign in to your Merchant Center account.
+    Click Overview in the navigation window.
+    Click Continue next to “Local inventory ads” or “Free local product listings”.
+    Find the relevant country’s program bar.
+    Complete the inventory contact fields.
+    Click Save.
+  
+
+  
+    You aren't able to request inventory verification until your inventory contact verifies the Google confirmation email. Learn more about inventory verification contact validation
+  
+
+  
+    Note: It may take up to 24 hours after your inventory contact is validated before you can successfully submit a feed for verification.
+  
+
+4.2 Review your submitted data
+
+
+  Before requesting inventory verification, review your submitted inventory data to prevent delays in the approval process. The most common issues that will cause a delay:
+
+  
+    Local product inventory upload frequency: Ensure that you’re submitting your inventory feed at least once a day to guarantee that your inventory data is up to date.
+    Local product inventory feed error: Review any errors that might be present in your local product inventory feed. We’ll ask you to fix errors if they're affecting a high percentage of your inventory.
+    Missing inventory data: The products missing inventory in the "Diagnostics" page should be present in your local product inventory feed. If your website meets the pickup later requirements and the products missing inventory can be shipped to your stores, you can add them to the inventory feed to advertise them as local products on Google.
+      
+        If the products missing inventory aren't intended to be shown on Google, you can use the excluded destination [excluded_destination] attribute.
+      
+    
+  
+
+4.3 Request inventory verification
+
+
+  Inventory verification is the process Google uses to make sure that data you submit in your feed matches the inventory actually available in your stores.
+
+  To start the process, use the following steps:
+
+  
+    Sign in to your Merchant Center account.
+    Click Overview in the navigation window.
+    Click Continue next to “Local inventory ads” or “Free local product listings”.
+    Find the relevant country’s program bar.
+    Click on the Request verification button.
+  
+
+4.4 Complete inventory verification
+
+
+  Once you request inventory verification, Google kicks off the review process, which follows these general steps:
+
+  
+    Review feeds: Google reviews your submitted feeds. This takes up to 7 days. We'll email the inventory verification contact in your Merchant Center account settings with any issues we find that you need to address.
+    Schedule verification: Once Google approves your feeds, the Google Team coordinates with the inventory verification contact in your Merchant Center account settings to schedule verification and resolve any issues.
+  
+
+  You can check the status of your inventory verification in Merchant Center. Once your inventory verification is complete, your products are eligible to show in local inventory ads and free local listings. Learn more about the inventory verification process
+
+
+
+Next: Link your Merchant Center and Google Ads accounts (local inventory ads only)             Was this helpful?How can we improve it?YesNoSubmit       

@@ -1,0 +1,79 @@
+ How to fix: Invalid UTF-8 encodingUse proper UTF-8 encoding for text and avoid double encodingMerchant Center supports UTF-8, UTF-16, Latin-1, and ASCII. If you're unsure of your file's encoding, please select the Autodetect option.
+
+If you're using Notepad to save your file, please select Save As, and then select ANSI or UTF-8 in the Encoding options. If your file isn't encoded in either of these types, your feed won't be processed.
+
+Important: If you're submitting an XML file that uses either Latin-1 or UTF-16 encoding, please make sure you specify this information in your XML file. To do this, please change the first line of your data feed from <?xml version=" 1.0"?> to:
+
+
+  For Latin-1: <?xml version="1.0" encoding="ISO-8859-1"?>
+  For UTF-16: <?xml version="1.0" encoding="UTF-16"?>
+
+
+Instructions
+
+
+
+Step 1: See the affected products 
+
+  
+    
+  Sign in to your Merchant Center account.
+  Select Products on the navigation menu, then click Diagnostics.
+  Click the Item issues tab to see current issues affecting your products.
+
+
+To download a list (.csv) of all affected products for all issues:
+
+
+  Click the download button  next to the filter button , beneath the graph and above the list of issues.
+
+
+To download a list (.csv) of all affected products for a particular issue:
+
+
+  Find the issue under the “Issue” column, then click the download button  at the end of the row.
+
+
+To see a list of up to 50 products with this particular issue:
+
+
+  Find the issue under the “Issue” column, then click View examples in the “Affected items” column.
+
+
+
+     
+  
+
+
+
+
+Step 2: Use valid UTF-8 encoding
+
+  
+    
+      Filter the downloaded report so that you only see products with:
+        “Issue title” = Invalid UTF-8 encoding
+      Check your product data for those products (using the ID), and make sure that the essential attributes for each item match the UTF-8 encoding.
+    
+  
+
+
+Step 3. Resubmit your product data
+
+  
+    
+  After you’ve updated your product data, resubmit it using one of these methods:
+    
+      Upload a feed
+      Submit through the Content API
+      Import content from an ecommerce platform
+    
+  
+  Next, check that you’ve fixed the issue by making sure it’s no longer listed on the Diagnostics page.
+    
+    Keep in mind: It may take some time for your change to be reflected on the Diagnostics page.
+
+
+  
+
+             Was this helpful?How can we improve it?YesNoSubmit       

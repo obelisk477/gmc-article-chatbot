@@ -1,0 +1,45 @@
+ About automated VAT invoicing for Buy on Google 
+
+
+  Buy on Google for Search and Shopping will no longer be available starting September 26, 2023. Eligible merchants will be able to use Buy on Google for YouTube in the US. Learn more about Enabling Buy on Google for YouTube.
+
+
+
+
+
+If you sell products via Buy on Google, you’re responsible for issuing any required tax documents (for example, tax invoices) to the buyers. Instead of manually supplying these documents, automated VAT invoicing provides a streamlined way for you to provide invoice documents to customers who need them.
+
+Benefits
+
+There are several reasons why a customer might request an invoice document:
+
+
+  Business customers may need an invoice stating the paid VAT amount for their own tax or accounting process.
+  Customers may want to file a warranty request to a manufacturer and need an invoice to prove ownership, source and date of purchase.
+  Customers may want to participate in cashback promotions that require the invoice as proof of ownership.
+  Customers may want to resell their purchased products and need the invoice as proof of ownership.
+
+
+How it works
+
+In order to use Automated VAT invoicing you'll need to:
+
+
+  Obtain the order-specific email address via the Order API attribute customer.invoiceReceivingEmail or via the Orders page in your Merchant Center account.
+  Send an email to that email address with the invoice attached to it.
+
+
+For the email, it’s recommended that you send the invoice information in one of two ways:
+
+
+  In the invoice doc - attached as a .pdf attachment.
+  In the body of the email - in either a plain text or HTML format.
+
+
+The invoice will be processed and made available for the customer in their order history.
+
+
+  Need help? Click here to contact Buy on Google support.
+
+
+             Was this helpful?How can we improve it?YesNoSubmit       

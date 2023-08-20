@@ -1,0 +1,155 @@
+ Diagnostics
+
+  If you’re looking for information about the Needs Attention tab in Merchant Center Next, click here. 
+
+
+
+Diagnostics offers issue reporting across your account, feeds, and items grouped by the context in which your product data might show. It also displays product eligibility issues and product data warnings, as well as providing insight into account setup, data quality, and policy violations. With unified reporting in Diagnostics, you'll have insight into the health of your product data, making it easier to identify and resolve issues.
+
+This article explains the features in Diagnostics and how to use them.
+
+
+  Tip
+
+  Diagnostics reporting is also available for multi-client accounts (MCAs). Learn more about multi-client account reporting
+
+
+Benefits
+
+Diagnostics includes reporting tools such as:
+
+
+  A historic overview of the status of your products, allowing you to analyze the root cause of past changes in traffic.
+  A context filter that displays granular information about the status of your product data based on what it is being used for.
+  A downloadable report containing all affected items, or single issue item reports, and the reasons for disapprovals.
+  Impacted click metrics that identify the number of products affected by errors and issues.
+
+
+Main page
+
+To view Diagnostics:
+
+
+  Sign in to your Merchant Center account.
+  Click Products from the navigational menu, then click Diagnostics.
+
+
+Diagnostics features three tabs: Item issues, Feed issues, and Account issues. Under the Item issues tab, you can view the stacked graph of items and their status. All three pages include a list of issues.
+
+
+  Stacked graph: This graph displays online and local items in your account targeting the selected destination and their current and historical status. If you target multiple countries, the graph shows the status once for each country that you target.
+
+    
+      For example, if you have 5 active offers that target 3 countries, the graph will show the status of 15 items, once for every country where each offer appears. Above the graph, you’ll see the latest number of items that are disapproved, pending, expiring, or active when the page was loaded.
+      You can click or unclick the colored tiles above the graph to display the information that's most relevant to you. If you click on the chart and select a previous date, all data on the page will update to reflect this point in time.
+    
+  
+  List of issues: Below the graph you can find more granular information on issues sorted by severity. Hover over issues that you'd like to learn more about to reveal links to relevant articles.
+
+
+By default, Diagnostics displays information about your Shopping ads. If you submit product data for multiple uses, such as selling, listing, and advertising your products, or if you list or advertise products in multiple countries, you can use filters to view more specific diagnostics information.
+
+Detailed account, feed, and item issues
+
+To view more details about the issues in Diagnostics, you can click on the "Account issues", "Feed issues", and "Item issues" tabs.
+
+Account issues: This section contains issues that affect your entire account or an entire country. This includes issues such as "no linked Google Ads account" and "no verified/claimed homepage." It also includes policy and data quality account-level warnings and disapprovals. For the warnings, you’ll see a deadline by which you need to fix the issue.
+
+Feed issues: This section lists data feeds that have an overarching issue that prevents Google from processing an entire feed, such as upload issues, fetch errors, and expired feeds. For a full list of your feed processing issues, use the reporting available on Feeds.
+
+Item issues: This section contains issues that impact individual items, from feed processing to data quality and policy violations. If items are affected by multiple issues, they’ll be included in all of them. Click on the number of affected items to view an example of up to 50 items impacted by that issue. You can download a report that contains all of the affected items in your account and their issues across all of your target countries from the main page of the item issues section, or you can download a report for a single item issue.
+
+
+
+Fix suggestions: In addition to the information located on the Diagnostics page, you can also find step-by-step instructions for resolving item-level issues on the “All products” page, which is listed just below Diagnostics on the left-hand navigation menu. These guides, which are also accessible through notification cards on the Overview page, are called “Fix suggestions.” You can filter the product list to show only products with fix suggestions by using the “Has Fix Suggestion” filter. Then click View fix suggestions to get started.
+
+
+Note: After you’ve fixed any issues with your product data and uploaded a new feed, the Feeds page will be updated immediately, but there will be a delay until all of the data in Diagnostics is refreshed. Check the selected date and time in Diagnostics to see the last time the data was refreshed.
+
+Issue prioritization
+
+To help you prioritize and resolve your highest-impact issues immediately, the "Account issues" and "Feed issues" pages are organized by severity. Each page displays issues with icons indicating severity, such as a red icon for “error/disapproved” or a yellow icon for “warning”. You can also view the number of clicks received in the past 30 days on currently affected items, divided by the number of clicks received in the same period on all currently submitted items. This percentage highlights issues that might have caused a recent drop in traffic.
+
+Within each severity level, issues are ranked by the number of affected items.
+
+We recommend you fix account-level issues first since they could prevent any item in your account from serving in your Shopping ads and free listings.
+
+Errors and disapprovals: These are the most serious issues and usually indicate account suspensions or item disapprovals. These issues stop your products from showing to users. Please resolve all errors as soon as possible so that your products will be eligible to appear in results again.
+
+Warnings: These are issues that could negatively impact the performance of your ads and will likely lead to item or account suspensions in the future unless you resolve the issue.
+
+
+  Note: When investigating a particular item issue, you may find it helpful to see a example of affected products. You can view up to 50 examples of affected products in Diagnostics or download a CSV file that lists all affected products for an issue. If products have been submitted with Google product category [google_product_category], product type [product_type], or custom label 0-4 [custom_label_0-4] values, the CSV files include these attributes to help group products.
+
+
+Filters
+
+You can filter the data in Diagnostics by destination, country, or feed.
+
+Destination: Filter for specific contexts and programs such as local inventory ads. This is set to “Shopping Ads” by default.
+
+Country: Filter for items that target a specific country.
+
+Feeds: Filter for items submitted through a feed or the Content API.
+
+If filters have been set in Diagnostics, then downloadable reports will only include items that show with these filters. For example, if the feed filter is set to Content API, then all downloadable reports will only contain items submitted via the API.
+
+Item issues download
+
+If you want to download a report with details about affected items for an issue, you have two options:
+
+
+  Full download: This report contains all of the affected items for all issues. You can download the full report by clicking on the download button to the right of the timestamp, located directly under the stacked item graph.
+
+    
+      
+        You can also try exporting it directly to Google Cloud using Merchant Center export (beta).
+      
+    
+  
+  Single issue download: This report contains all of the affected items for one issue. You can download single issue reports by clicking on the download button to the right of each specific item issue.
+
+
+If products have been submitted to Merchant Center with custom labels, downloadable reports can help you find important items with issues. Once the reports are downloaded, you can filter the CSV file for custom label values, such as “important”, “best seller", or “seasonal”.
+
+
+  If products have been submitted with Google product category [google_product_category] or product type [product_type] values, the downloadable report will include these attributes, allowing you to filter for specific categories of relevant items.
+
+
+
+  Review feed processing results
+
+  
+    You’re able to review the results of all feed processing for file-based or Google Sheet-based feeds. To find the results:
+
+    
+      
+        Sign in to your Merchant Center account.
+        From the navigation panel, click Products, and then click Feeds.
+        Click the primary or supplemental feed name you’d like to review.
+        Review the results:
+          
+            Properties: Includes key feed properties, which vary depending on the input method of the feed. Here, you can find attributes such as input method, timezone, filesize, detected delimiter (if applicable), and more.
+            Attributes: Depending on which Merchant Center program your feed is opted into, we require attributes to adhere to the product data specification. In this section, you can review all of the attributes we found in your feed, including those attributes which are recognized and map to the feed specification, and also unrecognized attributes which do not match any of those listed in the product data specification. You may review the list and use tools such as Feed Rules to tell Merchant Center which unrecognized attribute you would like to use to populate a Google attribute. For example, you may want to use "product name" in the title [title] attribute.
+            Processing Data: In this section, you can review the number of items in your feed, as well as those with any detected item issues. Review the list of item issues to understand how many items in your feed are impacted, including examples and links to documentation to help you address the issue.
+          
+        
+      
+
+      
+        Note: Processing only checks for basic file and data issues. To see all issues, go to Diagnostics.
+      
+    
+  
+
+
+View historical data
+
+Clicking on a specific point in the item graph will refresh Diagnostics data and display historical information for the corresponding day. This historical view will show all item-level issues in effect at that time.
+
+
+  Note: If you choose to download information or view examples while viewing historical data in Diagnostics, your download will show data correlated to the exact time the download began.
+
+
+Use this historical data to identify recent changes to your items and possible causes for reduced landing page traffic.
+             Was this helpful?How can we improve it?YesNoSubmit       

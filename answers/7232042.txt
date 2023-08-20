@@ -1,0 +1,124 @@
+ Local inventory ads and free local product listings FAQs
+
+This page provides answers to common questions about showing your local products on Google.
+
+Feeds
+
+
+  What should I do if I don't have information about products available in each of my stores?
+
+  
+    You can submit the required inventory details for each store where you have product information. Add other stores to your inventory feed once you have their local product information.
+  
+
+
+
+  Are a description and image required for all of my local products?
+
+  
+    Yes. Google requires you to submit the description [description] and image link [image_link] attributes for each item in your primary feed. Google can use the descriptions and images you’ve already submitted in your primary feed for your local items. To use an existing primary feed that has not been enabled for local inventory ads or free local product listings, you will need to enable the local extension and select your destinations. Learn more
+  
+
+
+
+  Are exact inventory quantities required to participate?
+
+  
+    No. Instead of submitting exact quantities, you may submit placeholder quantities that match your approximate inventory levels (for example, 10 = in stock, 1 or 2 = limited availability, and 0 = out of stock).
+
+    Note: Google does not display exact inventory quantities for local inventory ads and free local product listings. Whether you submit exact quantities or placeholder quantities, ads and listings display "in stock" or "limited availability".
+  
+
+
+
+  Are there alternatives to providing daily inventory feed updates if my pricing and inventory don't change frequently?
+
+  
+    Yes. You can only submit products that you know are in stock. Before you upload your daily inventory feed, set a placeholder value for the quantity [quantity] attribute; a non-zero value makes sure your ads and free local product listings show an availability of "in stock".
+
+    Note: If you are unable to submit a daily inventory feed, or if you want to submit your inventory feed every hour, contact our support team through our Contact Us form.
+  
+
+
+
+  How do I automate feed uploads?
+
+  
+    Make sure that you register and upload your feed to Merchant Center at least once. Then, create a schedule for automatic feed uploads. Learn more about available upload options
+  
+
+
+
+  Can I have one inventory feed for each store instead of a single inventory feed for all stores?
+
+  
+    We recommend one single, local product inventory feed; however, you may upload multiple inventory feeds if multiple feeds are easier for you. If you have stores in several countries and want to show your local products in each, you will need to submit a local product inventory feed for each country and every language. Use our Contact Us form if you run into issues.
+  
+
+
+
+  Can I show products that I have on display and that customers can order?
+
+  
+    Yes. Use the on display to order (ODO) feature.
+  
+
+
+Tracking
+
+
+  What insights do I get when I use Google Analytics to track my local storefront?
+
+  
+    Google Analytics measures actions that customers take while on your Google-hosted local storefront, such as page views and clicks to get directions or call your store. It’s important to measure these online behaviors to get the full picture of your local storefront’s performance. Learn how to set up Google Analytics
+  
+
+
+General
+
+
+  Can I change the maximum radius for ads or free listings showing my local products?
+
+  
+    No. Google does not allow changes to the maximum radius for ads or free listings showing your local products.
+  
+
+
+
+  What if my store is too busy to participate in Google inventory checks?
+
+  
+    Google works with you to make sure the inventory verifications are scheduled during the best time for each store. Our goal is to minimize impact on your store operations. Learn more about inventory verification
+  
+
+
+
+  Can I direct customers from local inventory ads and free local product listings to my website instead of a Google-hosted local storefront page?
+
+  
+    Yes. If your website meets Google's requirements, you can use the merchant-hosted local storefront feature to direct customers to your website when they click on your local inventory ads. In order to direct customers to your website when they click on your free local product listings, you need to meet the requirements of the merchant-hosted local storefront (full) feature.
+  
+
+
+
+  How do I prevent outdated store information from showing up on my local storefront?
+
+  
+    Make sure you keep the details in your Business Profiles current for all of your stores. If you can’t regularly manually maintain your Business Profiles, you may want to use the API to manage your Business Profiles. Learn how to use the API
+  
+
+
+
+  How do I show the in-store pickup option on ads showing my local products?
+
+  
+    To get started, contact our support team through our Contact Us form to confirm your eligibility for the store pickup feature. Learn more about the store pickup feature
+  
+
+
+
+  If you're having issues with your local inventory ads or free local product listings, go to our Contact Us form.
+
+
+
+             Was this helpful?How can we improve it?YesNoSubmit       

@@ -1,0 +1,117 @@
+ Checkout requirements and best practices
+
+You can catch someone’s interest and get them to click on your product, but a sale isn’t final until after checkout. Complete your sales and increase your conversions by providing a high-quality checkout experience for your customers. This article explains Google’s checkout requirements and offers recommendations on how to make checkout as easy as possible.
+
+On this page
+
+
+  Allow everyone to check out
+  Provide accurate pricing
+  Be consistent with currency
+  Use language consistently
+  Provide relevant information
+  Collect user information responsibly and securely
+
+
+
+Allow everyone to check out
+
+Follow these requirements to meet the checkout needs of businesses and individuals:
+
+
+  Allow individuals to purchase products. Individuals who aren’t part of a business must still be able to purchase from your website. This means that business-related fields, such as “company name” or “company ID number,” need to be optional.
+  Ensure that the product availability in your product data matches the availability on your landing page and checkout pages. If a product is listed as “in stock” in an ad or listing, it should also be displayed as “in stock” on the landing page. Customers should be able to add in stock products to their cart and finalize their purchase.
+  Tell customers about minimum order values. If you require that a minimum value is met before a purchase is completed or shipped, set that value in your shipping settings. For example, if you require that a customer spends at least $30 USD on your website in order to make a purchase, add a corresponding minimum order value to your shipping settings. Learn more about adding a minimum order value.
+  You may require that customers create an account in order to complete a purchase, but the account signup must be straightforward. For example, the account must be free, and not require an app download or device change to finalize the purchase.
+  Customers on your website can checkout as guests or verify their information via a mobile or desktop one-time passcode.
+  Ensure security of sign up and checkout processes. To protect your customers, you'll need a secure checkout process that is protected with a valid SSL certificate. Specifically, you'll need to secure payment processing, transaction processing, and the processing of all personally identifiable information (such as name, email, physical address, and payment information).
+  Ensure that any third-party payment options are HTTPS-secure and don’t ask for unnecessary personally identifiable information, such as credit check information.
+  Ensure that all the products you advertise are available for door-to-door shipping to your targeted countries. All the advertisers who are active on local inventory ads, and who also offer the ability to pick-up in store on their product landing page, are eligible for store pick-up or collection points as long as they meet the technical requirements. Learn more about shipping
+    
+      Based on country, you may submit the shipping cost to a collection point for specific carriers:
+        
+          Norway and Sweden: PostNord, DHL, Bring, Schenke
+          Finland: Posti.fi, DHL, Bring, Schenke, Matkahuolto
+        
+      
+      You may submit the shipping cost to a collection point or store pick-up in Argentina and Chile.
+    
+  
+
+
+
+Provide accurate pricing
+
+People expect to pay the advertised price for your products. If the price of a product advertised in a Shopping ad or free product listing is different from the price shown in a customer’s shopping cart, that could create a negative experience for the customer and could result in the loss of a sale.
+
+To ensure that your product's price is clear, follow these requirements:
+
+
+  The price of your product should be consistent throughout the checkout process, not just between the product feed and your landing page. The price shouldn’t increase at checkout, but it may be reduced after the product is added to the cart if a promotion is added.
+  Any additional fees charged during checkout must be disclosed in Merchant Center by bundling them with the applicable shipping costs. For example, service fees, handling fees, carrier-related fees, and state fees must be included in the total value submitted in the shipping [shipping] attribute or using the Merchant Center shipping services.
+  Many countries, such as Argentina, Brazil, and Italy, require a value added tax (VAT) which must be included in your price [price] attribute.
+  For the US, sales tax must be clearly stated in the feed attributes or in your account-level settings. Overestimating sales tax in Merchant Center is allowed, but taxes can’t be higher at checkout than those listed in Merchant Center.
+  For the state of Colorado in the US, don’t include any retail delivery fee in your product feed.Therefore, a retail delivery fee shouldn’t be included in shipping [shipping], price [price], tax [tax], or any other attribute. Learn more about Colorado retail delivery fee.
+  Shipping costs are submitted separately, either in your feed or at the account level. Note that feed-level rates will override account-level settings. You can overestimate shipping rates in the Merchant Center as long as they're not higher on your website at checkout.
+  If you require a minimum basket amount in order for a customer to qualify for free shipping, make sure to set up your shipping settings on the account level and use the "free shipping over a certain amount" option.
+  If you charge a minimum basket amount surcharge on top of the shipping cost, make sure the surcharge is included in your shipping settings. It's recommended that you use the range-based shipping setup.
+
+
+
+  If you're selling products with minimum advertised pricing (MAP) agreements:
+
+  
+    
+      Submit the MAP value as the “price” in your product data if you sell the product for less than the price allowed by third-party agreements.
+      Show the MAP price on your product landing page. You can show that you charge a lower price at checkout by adding clarifying text to your product pages. For example, you could display a note, such as “Add to cart for final price”, and show the MAP value crossed out or grayed out. The MAP price in your product data must show on the landing page. Learn more About landing page requirements.
+      If you use microdata annotations on your website, also include the MAP price.
+    
+  
+
+
+
+Be consistent with currency
+
+Unless you have currency conversion enabled in your feed, your shopping pages should display the currency for the country you're targeting. All pages from the product page to the checkout page should consistently display the same currency. Learn more About currency conversions.
+
+
+  Remember, if you don’t use currency conversion, you must use the correct currency for your target country in your feed, on the landing page, and throughout the checkout process.
+
+
+
+Use language consistently
+
+Make sure the language of your site is the same as the approved language of your target country. You must use the same language in the product feed, on the landing page, and throughout the checkout process. For example, if you're targeting Canada you may use English or French, but whichever language is used to upload the feed needs to be the same as the language that is used on the landing page and throughout the checkout process.
+
+Relevant pages include (but aren't limited to):
+
+
+  Landing (product) pages
+  Shopping cart
+  Checkout
+  Terms and conditions
+  Refund and return policy
+  About (including your contact details)
+
+
+Learn more about Supported languages and currencies.
+
+
+Provide relevant information
+
+Make sure that relevant information is easy to access throughout the checkout process, and that customers can easily find refund and return policy information, terms and conditions, and how to contact you. You need to provide customers a way to contact you on your website – some examples include a contact us form, a link to your business profile on social media, an email address, or a phone number.
+
+Omission of relevant information is considered a misrepresentation. Failure to comply with Shopping ads policies can result in your ads and listings being disapproved or your account being suspended.
+
+Collect user information responsibly and securely
+
+During the checkout process, you should gather only the information that’s necessary to process the order. For example, a company name shouldn’t be required for customer sales. However, some countries may require the buyer to provide a national ID. These requirements vary by country. Learn more about Irresponsible data collection and use.
+
+Be careful with the information that you collect from your customers. Your site's primary purpose shouldn't be to collect customers' personal information. Make sure to follow these requirements:
+
+
+  Collect personal information such as credit card numbers, securely on an SSL-protected page.
+  Don't sell your customers' contact information.
+  Don't use customers’ personal information or images in ads without their consent
+
+             Was this helpful?How can we improve it?YesNoSubmit       

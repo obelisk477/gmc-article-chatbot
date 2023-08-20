@@ -1,0 +1,104 @@
+ About feeds
+
+
+  If you’re looking for information about how to add products in Merchant Center Next, click here. 
+
+
+
+
+
+A feed is a file that contains a list of products you want to advertise through Merchant Center. When you add your products, you’ll assign attributes to each one. Your product feeds will use these attributes to group your products together. Once you’ve created a feed, it can be used multiple times across as many Merchant Center features as you need.
+
+There are multiple types of feeds in Merchant Center. The types of feeds you use will depend on your needs as a retailer. The product attributes you use to describe your products to Merchant Center are the same across all types of feeds.
+
+Choose the right option for adding products to Merchant Center
+
+For subtitles in your language, turn on YouTube captions. Select the settings icon  at the bottom of the video player, then select "Subtitles/CC" and choose your language.
+
+
+
+
+Primary and supplemental feeds
+
+
+  Primary feeds are the main data sources for your Merchant Center inventory. If every product you add to your primary feed meets Merchant Center’s data and eligibility requirements, you won’t need to create any more feeds.
+
+    
+      Remember, Google recommends that you upload all of your inventory to one primary feed.
+    
+  
+  Supplemental feeds add data that’s missing from your primary feed. They are used only to update product data that already exists in one or more primary feeds. You can have multiple supplementary feeds, and each one can supplement data in any number of primary feeds.
+
+
+Learn how to create a new primary or supplementary feed
+
+
+  You may see an option to add products automatically from your website in your Merchant Center account. This means Google can generate feeds for you using schema.org markup on your website. Learn how to use automated feeds to build your product data
+
+
+
+  Multi-source feeds (advanced)
+
+  
+    Multi-source feeds allow you to build a feed based on raw product data from various sources, such as your website or existing spreadsheets. Merchant Center combines the different sources together and creates a unified feed from their data. Learn more about using advanced feeds
+  
+
+
+
+  Google Content API for Shopping (advanced)
+
+  
+    
+      The Content API for Shopping lets you programmatically manage the structured data items you upload to Google for use in Google properties, such as Shopping ads and Google Search. Use it to query for items and insert, update, and remove items in your Merchant Center account.
+
+      This tool is designed for developers who would like to integrate applications with Shopping ads. People using the Content API should have technical know-how and experience in programming applications -- this tool isn’t suitable for use without a technical background. Learn more about Google Content API for Shopping
+    
+  
+
+
+
+  Regional product inventory feeds (advanced)
+
+  
+    
+      Regional inventory feeds are a type of supplemental feed that can be used to override your existing product data in the primary feed in order to show regional pricing or availability for a selection of products in your predefined regions. Regional inventory feeds cannot add or remove products, or be used as standalone feeds; instead, they override existing product data.
+
+      Regional inventory feeds support the following required attributes:
+
+      
+        ID [id] (offer ID)
+        Region ID [region_id] (merchant-defined region name)
+      
+
+      Regional inventory feeds also support the following optional attributes:
+
+      
+        Price [price]
+        Sale price [sale_price]
+        Sale price effective date [sale_price_effective_date]
+        Availability [availability]
+      
+
+      Regional inventory feeds are available in the United States and are available for beta sign-up in Australia, France, and Germany. Learn more about regional availability and pricing
+    
+  
+
+
+Product attributes
+
+Attributes are the data points that describe a product. Some, such as condition [condition] and availability [availability], have standardized or accepted values. Others, including ID [id] or title [title], are left open for you to fill out for each of your products.
+
+When you use the required and suggested attributes to accurately describe your items, it helps people more easily search for and find your items.
+
+There are a number of policies in place around how to use each attribute, and how often to update your product data. Be sure to review our policies carefully to make sure you understand the requirements.
+
+When you’re ready, create your feed.
+
+Related links
+
+
+  Create a feed
+  Submit feeds to multiple countries
+  Product data specification
+
+             Was this helpful?How can we improve it?YesNoSubmit       

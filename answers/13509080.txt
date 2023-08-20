@@ -1,0 +1,58 @@
+ Confirm your promotion status
+
+This article explains each promotion status, how to fix rejected promotions, and how to end a promotion. You will also learn about Google’s promotion approval process.
+
+You can confirm the status of your promotions in the Promotions dashboard of your Merchant Center account. The Promotions dashboard shows promotions that have been approved, disapproved, have expired, are live, or are still under review.
+
+View the Promotions dashboard
+
+To view the Promotions dashboard, sign in to your Merchant Center account, then select "Promotions" in the left navigation menu.
+
+Note: If you do not see "Promotions" in the navigation menu, talk to your promotions contact or fill out the Help request to Promotions form.
+
+Promotions are eligible to appear once they are approved and live. Promotions that are still under review, expired, or disapproved are not eligible to appear.
+
+For prompt promotion display, review the following:
+
+
+  Approval process guide for troubleshooting
+  FAQ page to utilize the promotion effective dates and promotion display dates attributes
+
+
+Promotion statuses
+
+Statuses for promotions are defined as follows:
+
+Under review
+
+Your promotion is pending review. If your promotion is un-reviewed for more than 24 hours, it may be that the promotion start date [promotion_effective_date] is either incorrectly set or has not been reached.
+
+Approved
+
+A promotion must pass 2 types of checks to be approved and set live:
+
+
+  Policy: Your promotion complies with editorial requirements and Promotions policies.
+  SKU: Your promotion works as described on your website. It has been approved and is eligible for display.
+
+
+Disapproved
+
+Your promotion was not approved for one or more reasons. You will receive an email about the details of the disapproval. Please review the email as well as our editorial requirements and Promotions policies, then edit and resubmit your promotion. This article explains how to fix issues with disapproved promotions.
+
+Note: If your promotion was rejected during the SKU check for a website error, once the error has been resolved you can resubmit your promotion by clicking the speech bubble icon  under the SKU status and selecting "Request a retest".
+
+Ended
+
+Your promotion was ended permanently and will not be visible.
+
+Note: Promotions that have ended or expired are removed from your Promotions dashboard one year after the end or expiration date. Promotions that have ended can't be restarted.
+
+Expired
+
+Promotions will expire once they reach their end date. Expired promotions are not visible, and can't be reactivated.
+
+Live
+
+A promotion that is active and eligible to display. Promotions that are live may be ended or edited. This article explains how to Edit a promotion or change promotion status. Any edited promotions will undergo the review process again before returning to the "Live" state.
+             Was this helpful?How can we improve it?YesNoSubmit       

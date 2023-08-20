@@ -1,0 +1,272 @@
+ Set up estimated delivery time
+
+Estimated delivery time is important information for customers evaluating a possible purchase. The estimated delivery time may be displayed as an annotation in your free listings and Shopping ads. To calculate overall delivery time, you need to specify cut-off time, handling time, and transit time. (Keep in mind that Google can also calculate your delivery times based on your shipping carrier or partner data) Learn more about letting Google calculate your shipping speeds
+
+
+  Note: For Buy on Google, handling time and transit time are required in Merchant Center, even when the handling time has been included in the feed using the maximum handling time [max_handling_time] attribute.
+
+
+Buy on Google Best Practices Episode 1: Calculating the estimated delivery date
+
+For subtitles in your language, turn on YouTube captions. Select the settings icon  at the bottom of the video player, then select "Subtitles/CC" and choose your language.
+
+
+Understanding estimated delivery date
+
+Estimated delivery date is the “arrives by” date that customers are shown when checking out. This value is calculated as “maximum handling days + maximum transit days”. Estimated delivery date is calculated using days, and also takes order cutoff time into account.
+
+
+  Holiday effects on estimated delivery date
+
+  
+    Orders with handling or transit time that overlap with a holiday will have the estimated delivery date extended by a day. The following holidays are considered non-business days when calculating estimated delivery date:
+
+    
+      
+        
+          
+          US
+
+          
+            New Year's Day
+            Memorial Day
+            Independence Day
+            Labor Day
+            Thanksgiving Day
+            Christmas Day
+          
+          
+          
+          France
+
+          
+            New Year's Day
+            Easter Monday
+            Labor day
+            Victory in Europe Day
+            Ascension day
+            Pentecost Monday
+            Bastille Day
+            Assumption Day
+            All Saints Day
+            Armistice Day
+            Christmas Day
+          
+          
+        
+      
+    
+  
+
+
+Here is an example of what estimated delivery date might look like with the settings below in Merchant Center:
+
+
+  Order placed after the cut-off of 3 p.m. EST
+  0 - 1 handling days (fulfilled Monday - Friday)
+  3 - 5 transit days (fulfilled Monday - Saturday)
+
+
+
+  
+    
+      
+      Minimum estimated delivery date: 6 calendar days
+      
+      
+      Maximum estimated delivery date: 9 calendar day
+      
+    
+    
+      Day of order
+      Day of week
+      Status
+      Day of order
+      Day of week
+      Status
+    
+    
+      Day 1
+      Wednesday
+      Order placed after cutoff
+      Day 1
+      Wednesday
+      Order placed after cutoff
+    
+    
+      Day 2
+      Thursday
+      Handling time
+      Day 2
+      Thursday
+      Handling time begins (Day 0*)
+    
+    
+      Day 3
+      Friday
+      Transit time
+      Day 3
+      Friday
+      Handling time ends (Day 1)
+    
+    
+      Day 4
+      Saturday
+      Transit time
+      Day 4
+      Saturday
+      Transit time
+    
+    
+      Day 5
+      Sunday
+      No action
+      Day 5
+      Sunday
+      No action
+    
+    
+      Day 6
+      Monday
+      Transit time (including Delivery day)
+      Day 6
+      Monday
+      Transit time
+    
+    
+       
+       
+       
+      Day 7
+      Tuesday
+      Transit time
+    
+    
+       
+       
+       
+      Day 8
+      Wednesday
+      Transit time
+    
+    
+       
+       
+       
+      Day 9
+      Thursday
+      Transit time (including delivery day)
+    
+  
+
+
+
+  
+    * “Day 0” means “same day” for orders placed before the cut-off time. For orders placed after cut-off, “Day 0” is then the next business day. In other words, all handling time is counted starting with “Day 0,” regardless of when the order is placed in relation to the cut-off time.
+
+    If a customer places an order at 8 p.m. EST on Wednesday, at checkout, they’ll see “arrives by the following Thursday.” Since the customer missed the daily order cutoff, the delivery estimate doesn’t begin calculating until the following day. Then, Buy on Google uses the maximum handling and delivery range to calculate the arrival date (including holidays). Keep in mind that while Merchant Center will show you a range of delivery days, the customer will see the nine-day estimate to account for any potential issues that arise during processing and shipping.
+  
+
+
+
+Estimated delivery time set up
+
+
+  Note: To let Google automatically estimate delivery times based on your shipping carrier or partner data, learn more about letting Google calculate your shipping speeds.
+
+
+Step 1: Set up cut-off time
+
+Cut-off time is the time by which your customer needs to place their order for it to begin processing on the same day. Orders that miss the cut-off time don't begin processing until the following business day. Cut-off time is an optional value that you can set. If you leave it blank, then the default time will be 8:00 a.m. PST.
+
+
+  Note: Since orders placed after the cutoff won't begin processing until the next business day, customers who miss the cutoff will see an extra business day added to their delivery estimate.
+
+
+Step 2: Set up handling time
+
+Handling time refers to the number of business days needed to process an order before it ships. Handling time normally starts when an order is placed by a customer and ends when a carrier picks up the package for shipment.
+
+If all of your items require the same amount of time to process, handling time should be configured in Merchant Center within each shipping service. If the processing time varies by product, then handling time can be added to the product feed to each item using the maximum handling time [max_handling_time] and minimum handling time [min_handling_time] attributes. When handling time values exist in both Merchant Center and in the product feed, the item-level value will override the Merchant Center value for that specific item only. Learn more about the handling time attributes
+
+Keep in mind: The recommended transit time for all products submitted in Buy on Google is less than 10 calendar days.
+
+To add handling time to a shipping service:
+
+
+  Sign in to your Merchant Center account.
+  Click the tools icon , then select Shipping and returns. This will take you to the “Shipping services” tab.
+  Click the shipping service you’d like to edit, and scroll to “Delivery time".
+  For "Handling time", enter the minimum number of days required for processing an order, followed by the maximum number of days possible
+    
+      Note: If you process items the same day they are ordered, your minimum handling time is considered “0”.
+    
+  
+  Use the drop-down next to “fulfilled:” to set your fulfillment days
+
+
+
+  If your fulfillment days aren’t listed as an option in the drop-down, do the following:
+
+  
+    In the drop-down, click Custom days.
+    Select each box next to the day of the week you want.
+    Click Save.
+  
+
+
+Step 3: Set up transit time
+
+This is the number of business days it takes for a carrier to deliver a package once it is picked up from your facility. Transit time has to be configured in Merchant Center, either with a single range (for example, “3-5 days”), or with multiple ranges based on transit time labels. Learn more about transit time labels
+
+To add transit time to a shipping service:
+
+
+  Sign in to your Merchant Center account.
+  From the navigation menu, click Shipping, which will take you to your “Services” page.
+  Click the shipping service you’d like to edit, and scroll to “Delivery time".
+  For "Transit time", enter the minimum number of days required for delivering an order, followed by the maximum number of days possible.
+
+
+
+  If the transit days used for this Shipping service aren’t listed as an option in the drop-down, do the following:
+
+  
+    In the drop-down, click Custom days.
+    Select each box next to the day of the week you want.
+    Click Save.
+  
+
+
+If you want your transit time to apply to specific areas of the country or if you want to distinguish by certain product groups using transit time label [transit_time_label], do the following:
+
+
+  Select More transit times.
+  Use the "Add Destination" button to add destinations (US, France or Australia only).
+    Choose an entry from the available list of destinations (destinations can be configured on the delivery zones tab). A new row will appear at the top of the table and the "All locations" row will change to "All other locations". Learn more about setting up delivery zones
+    Enter values for min and max transit time for the new delivery zone.
+    To remove a row, click Remove next to the destination.
+  Use the "Add transit time label" button to add a transit time label [transit_time_label] value
+    Select or specify the transit time label [transit_time_label] attribute you used in your feed.
+    Enter the values for min and max transit time for this label.
+    To remove a row, click Remove next to the label.
+  Use the drop-down next to “shipped:” to specify the transit days used for this Shipping service.
+
+
+
+  If the transit days used for this Shipping service aren’t listed as an option in the drop-down, do the following:
+
+  
+    In the drop-down, click Custom days.
+    Select each box next to the day of the week you want.
+    Click Save.
+  
+
+
+Related links
+
+
+  Set up transit time label
+  Maximum handling time [max_handling_time], minimum handling time [min_handling_time]
+
+             Was this helpful?How can we improve it?YesNoSubmit       

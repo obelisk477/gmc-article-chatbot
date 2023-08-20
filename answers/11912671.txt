@@ -1,0 +1,110 @@
+ Multi-seller accounts
+
+A multi-seller account is an account type for marketplaces that can hold multiple sellers in the same sub-account. This account type differs from sub-accounts you can create in Merchant Center or by using Content API, where each account should only contain offers from a single seller.
+
+Multi-seller accounts are available only for marketplaces, which are online platforms that provide a place for multiple individual merchants to sell their products.
+
+If you manage your own website and store and it's not part of a marketplace, these guidelines don't apply to you.
+
+You need to convert your Google Merchant Center account to an advanced account to be able to create sub-accounts for each seller or leverage multi-seller sub-accounts.
+
+Benefits
+
+Multi-seller sub-accounts simplify account management by reducing the number of sub-accounts needed for marketplaces to manage their large number of sellers. Rather than having individual sub-accounts for each seller, these sub-accounts can be grouped into a multi-seller account.
+
+
+
+Multi-seller account structure
+
+You only need one feed per multi-seller account. Individual sellers within the multi-seller sub-account must be distinguished using the external seller ID [external_seller_id] attribute, which is an external identifier that the multi-seller accounts use to refer to an individual seller. This structure significantly simplifies the setup for marketplaces and mitigates the impact of individual seller violations.
+
+
+  Note: The external seller ID is used internally and isn’t shown in ads. Additionally, the seller sub-accounts that are auto-created by Google aren’t accessible in Merchant Center and are only used internally to group offers to the same seller.
+
+
+Additional benefits:
+
+
+  Simplified creation and management of multiple sellers in a single feed and sub-account, as opposed to management of each seller through single-seller sub-accounts and feeds.
+  Eliminates the need for ongoing reshuffling of accounts as new sellers are automatically created based on the external seller ID [external_seller_id] attribute in the multi-seller account.
+  A multi-seller sub-account can hold up to 40 million offers, without the need to request quota increases for that sub-account. Quota is still limited at the Marketplace multi-client account (MCA) level (defaults to 1 million for marketplaces). If you need additional quota, please contact Google.
+
+
+Considerations
+
+Multi-seller accounts simplify operational management but don’t provide all the features and functionality of single seller accounts. If you want to leverage any of the following, don’t use a multi-seller account; instead, separate your sellers into their own sub-account:
+
+
+  Display the seller name with the offers
+  Set a different return policy for each seller (different shipping policy can be set at the offer-level)
+  Run seller-specific ads campaigns
+  Display product ratings, return policy and badging with your products
+
+
+If you sell your own products in addition to other sellers’ products, use separate sub-accounts for your own products and let Google know via this form or directly from your Merchant Center account under Help  > Help center and support > Contact us.
+
+Set up a multi-seller account
+
+A multi-seller account is automatically provided when a marketplace converts their standalone Merchant Center account to an advanced account. The conversion process creates a new multi-client account (MCA), moves the original account under the MCA, and changes the account type to multi-seller.
+
+Set up your multi-seller account by following these 3 steps:
+
+
+  
+    
+      
+      
+      
+    
+    
+      
+      Step 1
+
+      Sign up for Google Merchant Center
+      
+      
+      Step 2
+
+      Request account conversion to an advanced account
+      
+      
+      Step 3
+
+      Upload offers with an external seller ID [external_seller_id] attribute
+      
+    
+  
+
+
+You can check the status of your request by visiting the “Account settings” page. Requests may take several days to process and you will receive an email once the conversion process is complete.
+
+If you already have a Marketplace MCA and need an additional multi-seller account, please create an account under your MCA and contact us with the Merchant Center ID to be converted.
+
+Instructions
+
+
+  In your Merchant Center, navigate to Accounts.
+  Click the Add button and fill out the required fields.
+  Contact us and include the Merchant Center ID to be converted.
+  An agent will respond within 3 business days.
+
+
+
+  .Note: We recommend that you are prepared to include the external seller ID [external_seller_id] attribute in your feed before requesting the account conversion as this is a mandatory field for multi-seller accounts. Any products submitted without the external seller ID [external_seller_id] attribute will be disapproved.
+
+
+Requirement
+
+If you have more than one multi-seller account, all of a seller’s offer must be in the same multi-seller account.
+
+If you plan to upload a significant number of new sellers to your multi-seller account (more than 100% increase, for example), let us know ahead of time.
+
+Related links
+
+
+  Convert to an advanced account setup
+  Shopping policies
+  Follow the Merchant Center guidelines
+  Content API in Merchant Center
+
+             Was this helpful?How can we improve it?YesNoSubmit       

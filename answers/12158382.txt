@@ -1,0 +1,92 @@
+ Make quick edits to product information in Merchant Center
+
+
+  If you’re looking for information about updating or adding your products in the classic Merchant Center experience, click here.
+
+
+
+The product editor allows you to update information like prices, images, availability at your stores, and descriptions directly in Merchant Center. This article provides instructions for updating product information using the product editor.
+
+On this page
+
+
+  Quick answers
+  Edit a single product
+  Edit products in bulk
+  Next steps
+  Fix an issue
+
+
+
+
+  Quick answers
+
+  Can I use the product editor if I used a file (or another method) to add my products?
+
+  You can use the editor for any product regardless of how you added the products originally. It's recommended to edit your products using the upload method that you originally used.
+
+  Google added my products to Merchant Center by automatic web crawling. Can I update specific details for specific products?
+
+  Yes, you can edit individual product details, such as adding a specific attribute, using the product editor.
+
+  My products were disapproved in Merchant Center. Can I use the product editor to update the information?
+
+  Yes. If your product is flagged due to missing or incorrect information, you can use the product editor to add or update the information.
+
+
+The product editor overrides any changes that you made using another method for adding products. For example, if you uploaded your products using a file, a change made in the product editor will override the change in the file.
+
+
+Edit a single product
+
+The options available in the product editor differ depending on the type of store you have. For example, you may need to enter more information if you have both a physical store and an online store compared to just having an online store only.
+
+ In Merchant Center, go to Products .
+
+ Click the title of the product you want to edit.
+
+ In the editor, update the fields for your product. Any updated fields are marked with an edit icon .
+
+
+  If you need to undo edits, click the edit icon , then select Undo edit. In the dialog box, choose one or more edits, then select Confirm.
+
+
+ When you finish, select Save.
+
+
+Edit products in bulk
+
+
+  
+    Note: Bulk operations may not be available to all merchants.
+  
+
+
+  In Merchant Center, go to Products .
+
+ On the “All products” tab, select all the products that you want to edit.
+
+ In the blue bar that appears at the top of the product list, click Edit. Then select the field that you would like to edit for the selected products.
+
+ In the pop-up box, enter the new information that should be applied to the selected products. Then click Apply.
+
+Delete products in bulk
+
+To delete multiple products from your product list, select the products and then click Remove from stores in the blue bar that appears.
+
+
+Next steps
+
+
+  If there are no issues with the information that you provided, your product is updated and published with the new details. This may take several minutes to process.
+  If your product is disapproved, review the reason for the disapproval in Merchant Center and then update the product details again based on the disapproval message.
+
+
+
+Fix an issue
+
+Issues with your products need to be fixed before customers can view them on Google. All issues with your product data can be found in the "Needs attention" tab of the “Products” section in Merchant Center.
+
+Each product-level issue also contains a “Learn more” link that directs you to specific instructions for fixing the issue. Learn more about Issues in Merchant Center.
+
+             Was this helpful?How can we improve it?YesNoSubmit       

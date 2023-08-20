@@ -1,0 +1,542 @@
+ About settlement reports
+  Buy on Google for Search and Shopping will no longer be available starting September 26, 2023. Eligible merchants will be able to use Buy on Google for YouTube in the US. Learn more about Enabling Buy on Google for YouTube.
+
+
+
+
+
+Settlement reports detail transaction-level credits and debits between you and Google. They may include refunds, appeasements, commissions, and more related to your activity on Buy on Google.
+
+This article explains what you can expect to find in settlement reports and how to use them.
+
+How it works
+
+All Merchant Center users with the payments analyst role can view and download settlement reports in the “Payments” section of your account.
+
+You can view the list of your settlement reports in the “Settlements” section of the "Payments" tab in your Merchant Center account.
+
+
+  Note: Settlement reports are only available for the past 18 months.
+
+
+To view and download a range of settlement reports for a specific date range in CSV format:
+
+
+  Above the list of settlements, click the filter  icon.
+  Select the date range you’d like to view a report for.
+    
+      All dates and times in the settlement report use PST.
+      Maximum time range for CSV download is one month.
+    
+  
+  Click Download.
+  To view and download a specific settlement report:
+    
+      Click on the settlement ID.
+      In the “Transactions” tab, click Download.
+    
+  
+
+
+
+  
+    Note: When viewing reports in your Merchant Center account, you’ll only find a subset of data. If you download a CSV report, you’ll find all the information detailed in the tables below.
+  
+
+
+
+  Fields in the settlement report
+
+  
+    Transfer details
+
+    The following fields give you a high-level view into transaction-level details. This is the primary financial reconciliation tool for you to compare what Google says it's paying with what you actually receive in your selected payment solution log for bank disbursements or payment solution provided settlement report.
+
+    
+      Note: To map your Merchant Center settlement report onto the one provided by your payment solution, link the google_order_id attribute to reporting_id (on the PSP generated settlement report). Transactions that have been processed through the payment service provider will show the transfer_ID value as empty.
+    
+
+    
+      
+        
+          item
+          description
+        
+      
+      
+        
+          id
+          The unique identifier for the payment (invoice ID).
+        
+        
+          
+          transfer_date
+          
+          The estimated date on which the transfers for this payment were initiated by Google, formatted as YYYY-MM-DD.
+        
+        
+          transfer_id
+          The bank identifiers used for the transfers, for example: Trace ID for Federal Automated Clearing House (ACH). This may also be known as the Wire ID. It's a legacy ID for Google Payments integrated merchants.
+        
+        
+          start_date
+          The first date on which all line items are included in the report (when combined with the end_date attribute this provides the date range for all line items in the report), formatted as YYYY-MM-DD.
+        
+        
+          end_date
+          The last date on which all line items are included in the report (when combined with the start_date attribute this provides the date range for all line items in the report), formatted as YYYY-MM-DD.
+        
+        
+          transfer_amount
+          The money due to you, represented as a number, rounded to 2 decimal places.
+        
+        
+          transfer_currency
+          The currency used for the amount paid.
+        
+        
+          settlement_id
+          The ID of the settlement report.
+        
+      
+    
+
+    
+      Keep in mind
+
+      If the id field is empty, the amount corresponding to that event hasn't yet been settled. This might happen when the amount due hasn't yet been disbursed or if the balance is negative (you owe Google).
+    
+
+    Transaction details
+
+    The following fields give detailed breakdowns into the amounts associated with payments. This is intended to be used if you need more details for reconciliation purposes or you want to understand how Google calculated the values in payments.
+
+    
+      
+        
+          
+            item
+            description
+          
+        
+        
+          
+            transaction_type
+            The type of transaction (event) that occurred. View this table for possible values.
+          
+          
+            adjustment_id
+            The ID for an adjustment issued by Google.
+          
+          
+            amount_type
+            Type for amount. View this table for possible values.
+          
+          
+            amount_description
+            The code describing the amount. View this table for possible values.
+          
+          
+            commission_category
+            The category of the product.
+          
+          
+            commission_category_rate
+            The commission rate for the category of the product.
+          
+          
+            amount
+            The value of the component that contributes to the line item price.
+          
+          
+            currency
+            The currency of the component that contributes to the line item price.
+          
+          
+            post_date
+            The date on which the item was marked as shipped, formatted as YYYY-MM-DD.
+          
+          
+            post_datetime
+            The time and date on which the item was marked as shipped, formatted as YYYY-MM-DD HH:mm.
+          
+          
+            
+            timezone
+            
+            
+            The timezone associated with dates and times in name format, for example America/Los_angeles.
+            
+          
+          
+            order_item_id
+            The item ID of a product line item for an order or return.
+          
+        
+      
+    
+
+    transaction_type possible values
+
+    
+      
+        
+          
+            transaction_type
+            description
+          
+        
+        
+          
+            Order
+            This transaction event is associated with an order charge.
+          
+          
+            Order refund
+            This transaction event is associated with a refund or partial refund originally associated with an order.
+          
+          
+            Reversal
+            This transaction event is associated with commission charges (usually associated with orders).
+          
+          
+            Reversal refund
+            This transaction event is associated with a reversal to commission charges previously charged (usually associated with returns).
+          
+          
+            Return shipping fee transaction
+            This transaction event is associated with the shipping fee charged by Google on behalf of merchants for facilitating the shipping for the customer to return products to the merchant.
+          
+          
+            Issue related refund and replacement
+            This transaction event is associated with the scenario in which Google's customer service issues a refund and a replacement on behalf of the merchant to the customer.
+          
+        
+      
+    
+
+    amount_type possible values
+
+    
+      
+        
+          
+            amount_type
+            description
+          
+        
+        
+          
+            Item price
+            The amount is associated with the price of an item in an order.
+          
+          
+            Order price
+            The amount is associated with the price of the order but not attributable to individual items.
+          
+          
+            Refund
+            The amount is associated with the amount returned for an item.
+          
+          
+            Return shipping fee amount
+            The amount is associated with the fee charged for the return shipping.
+          
+          
+            Early refund or Courtesy refund
+            The amount is associated with a refund issued by Google's customer service on behalf of the merchant to the customer. This may occur for one of the following reasons:
+            
+              The item is damaged (for example, shattered, chipped, broken, etc.).
+              The item is defective (for example, not working as intended without signs of external damage, quality is less than expected, etc.).
+              The item is expired (for example, food or beverage that’s past the expiration date upon receipt).
+              The item sent doesn't match what the customer ordered.
+              The customer was charged a fee for a service that wasn't met. For example, the customer paid for faster shipping, but the shipment was received late.
+              The customer was charged too much (for example, tax discrepancy).
+              The customer didn't receive the item in their order.
+              The shipment should've been delivered, but the merchant didn't inform Google that the order has been shipped and is missing the carrier and tracking identifier.
+              The shipment is undeliverable or has been flagged as return to sender.
+              The merchant didn't process a return per Google policy.
+              It's a replacement order for an order that was damaged/missing but originally had a sale or promotion.
+            
+            
+          
+          
+            Return refund
+            The amount is associated with the amount refunded to the customer due to a return being accepted.
+          
+        
+      
+    
+
+    amount_description possible values
+
+    
+      
+        
+          
+            amount_description
+            description
+          
+        
+        
+          
+            Tax withhold
+            This is an amount withheld for income tax purposes, used in rare situations.
+          
+          
+            Principal
+            The item price of a product for an order.
+          
+          
+            Principal adjustment
+            The correction to an item price.
+          
+          
+            Shipping fee
+            The fee for shipping the product to the customer.
+          
+          
+            Merchant remitted sales tax
+            The amount of sales tax the merchant is responsible for remitting.
+          
+          
+            Merchant promotion
+            The amount discounted for a promotion provided by the merchant.
+          
+          
+            Merchant promotion tax
+            The amount of tax corresponding to a discount due to a promotion.
+          
+          
+            Principal refund
+            The item price of a product that's refunded to a customer.
+          
+          
+            Item commission
+            The commission amount for the item based on the commission category.
+          
+          
+            Adjustment commission
+            The correction to a commission for a product being fulfilled.
+          
+          
+            Shipping fee commission
+            The commission corresponding to a shipping fee.
+          
+          
+            Commission refund
+            The amount of commission refunded to the merchant (commonly used when an item is refunded to the customer, then the commission is refunded to the merchant as well).
+          
+          
+            Item damaged or defective
+            Refund issued by Google Customer Service on behalf of the merchant to the customer when the item they ordered was damaged or defective.
+          
+          
+            Damaged
+            Refund issued by Google Customer Service on behalf of the merchant to the customer when the item they ordered was damaged, defective, or expired.
+          
+          
+            Item expired
+            Refund issued by Google Customer Service on behalf of the merchant when the customer received an item that has expired.
+          
+          
+            Item defective or missing parts
+            Refund issued by Google Customer Service on behalf of the merchant when the customer received an item that is defective or missing parts.
+          
+          
+            Incorrect item sent
+            Refund issued by Google Customer Service on behalf of the merchant when the customer received a different product than expected.
+          
+          
+            Package delivered late
+            Refund issued by Google Customer Service on behalf of the merchant when the package is delivered too late.
+          
+          
+            Item missing
+            Refund issued by Google Customer Service on behalf of the merchant when the customer didn't receive an item.
+          
+          
+            Item or Package missing
+            Refund issued by Google Customer Service on behalf of the merchant when the customer didn't receive a package or item.
+          
+          
+            Package missing
+            Refund issued by Google Customer Service on behalf of the merchant when the package is missing.
+          
+          
+            Delivery failure or return-to-sender
+            Refund issued by Google Customer Service on behalf of the merchant when the item isn't delivered to the customer or returned to the sender.
+          
+          
+            Issue related refund and replacement
+            The amount refunded to the customer by Customer Service due to order issue, or a refund to the merchant issued when Google reverses a Customer Service initiated refund (check "Transaction type" column for details).
+          
+          
+            Incorrect price charged
+            This indicates that the wrong price was charged in rare occurrences.
+          
+          
+            Return not processed in time
+            Refund issued by Google Customer Service on behalf of the merchant when the return is not processed on time.
+          
+          
+            Return shipping fee
+            The amount charged by Google on behalf of the merchant to facilitate the return.
+          
+          
+            Principal refund - Item does not fit
+            The amount refunded to the shopper for a return where the shopper specified the reason for return was “Item did not fit”.
+          
+          
+            Principal refund - Ordered wrong item
+            The amount refunded to the shopper for a return where the shopper specified the reason for return was “Ordered wrong item”.
+          
+          
+            Principal refund - Better price found
+            The amount refunded to the shopper for a return where the shopper specified the reason for return was “Better price found”.
+          
+          
+            Principal refund - No longer needed
+            The amount refunded to the shopper for a return where the shopper specified the reason for return was “No longer needed”.
+          
+          
+            Principal refund - Changed mind
+            The amount refunded to the shopper for a return where the shopper specified the reason for return was “Changed mind”.
+          
+          
+            Principal refund - Received late
+            The amount refunded to the shopper for a return where the shopper specified the reason for return was “Received late”.
+          
+          
+            Principal refund - Incorrect item received
+            The amount refunded to the shopper for a return where the shopper specified the reason for return was “Incorrect item received”.
+          
+          
+            Principal refund - Item damaged or defective
+            The amount refunded to the shopper for a return where the shopper specified the reason for return was “Item damaged or defective”.
+          
+          
+            Principal refund - Item did not match description
+            The amount refunded to the shopper for a return where the shopper specified the reason for return was “Item did not match description”.
+          
+          
+            Principal refund - Item expired
+            The amount refunded to the shopper for a return where the shopper specified the reason for return was “Item expired”.
+          
+          
+            Psp fee
+            A transaction fee that the payment service provider will charge the merchant.
+            Note: This fee is negotiated between you and the service provider directly.
+            
+          
+          
+            Google remitted sales tax*
+            This is a tax amount that Google will remit to state tax authorities on your behalf.
+          
+        
+      
+    
+
+    *If PayPal is your PSP, you may find marketplace facilitator tax labeled as “partner commission”. Google is the partner in question, but this isn't a commission charge. Rather it's the amount Google will remit to state tax authorities on your behalf.
+
+    Mapping identifiers
+
+    The following fields can be used to map orders to transfers. For instance, you can use the order_id attribute (the Google Order ID) to look closer into the data in your order management system or in Merchant Center.
+
+    
+      
+        
+          item
+          description
+        
+      
+      
+        
+          order_id
+          The externally formatted Google Order ID. (ID which will be passed to your payment solution and show up there as reporting_id).
+        
+        
+          merchant_order_id
+          The order ID optionally provided by you.
+        
+        
+          shipment_id
+          The pre-assigned identifier for the return shipment.
+        
+        
+          carrier (coming soon)
+          The carrier used for the shipment.
+        
+        
+          carrier_tracking_id (coming soon)
+          The tracking ID provided by the carrier for the shipment. Use in combination with carrier.
+        
+        
+          transaction_id
+          The externally formatted Google Order ID.
+        
+      
+    
+  
+
+
+
+  Keep in mind
+
+  
+    When you link your payment solution account to your Merchant Center account, you’ll need to check your payment service provider log for bank disbursements. Learn more about disbursements
+    You should work directly with your payment service provider to resolve responsibility for chargebacks.
+    You should only use the settlement report to validate charges and refunds included in each disbursement, and it shouldn't be interpreted as an indicator of overall sales. This is because:
+      
+        They include taxes, shipping, and other fees that you may not want to include in your sales metrics.
+        Google doesn’t withdraw funds from your bank account to pay for charges. Instead, these funds are withheld from future transfers. Under certain conditions, you may see a negative balance until enough orders are processed with positive money flows. When the negative balance is resolved, transfers will resume and be reflected in your settlement report.
+      
+    
+    Returns and refund updates are coordinated through Google. After Google transmits this information to the payment service provider, the payment service provider will be responsible for processing the refund and adjusting the balance.
+    The order_item_id won't populate for refunds unless you’re using the ChargeInvoice and RefundInvoice endpoints in the Content API.
+    You may also find charges related to Google Guarantee claims. Learn more about the Google Guarantee
+  
+
+  
+    
+      United States
+
+      In many states, Google is responsible for collecting and remitting taxes to state tax authorities. In states where marketplace facilitator tax applies, Google collects sales tax. Details on form 1099 should be obtained directly from the selected PSP.
+    
+  
+
+
+Need to appeal?
+
+If you’re experiencing an issue with the data disclosed in the settlement report, you may appeal the transaction in Merchant Center:
+
+
+  From the navigation menu, click Settlement report.
+  Select an entry in the list of settlements.
+  When hovering over a transaction, you can click the 3-dot icon  next to the amount, then select Report a dispute.
+  In the "Report a dispute" window, check all the boxes that apply to the dispute (principal, tax, and others).
+  Select the reason for the dispute from the dropdown:
+    
+      Incorrect commission amount
+      Incorrect issue-related refund amount
+      Incorrect return shipping amount
+      Incorrect tax amount
+      Incorrect transaction amount
+      Other
+    
+  
+  Though not required, filling the next custom field with a description of the problem will help our team work through your problem faster.
+  Click Report dispute.
+
+
+You may access the history of disputes by filtering a “Settlement report” by “Disputes”. When clicking on one of the transactions, the resolution status should appear.
+
+
+  Note: There can only be one dispute per transaction at a time.
+
+
+
+  Need help? Click here to contact Buy on Google support.
+
+
+             Was this helpful?How can we improve it?YesNoSubmit       

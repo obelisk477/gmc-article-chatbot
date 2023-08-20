@@ -1,0 +1,185 @@
+ Use the Retailer Standards dashboard
+  Buy on Google for Search and Shopping will no longer be available starting September 26, 2023. Eligible merchants will be able to use Buy on Google for YouTube in the US. Learn more about Enabling Buy on Google for YouTube.
+
+
+
+This article explains how to use the Retailer Standards dashboard to monitor and improve your Buy on Google Retailer Standards performance.
+
+How it works
+
+You’ll receive an email notification about your new score on the first day of each month, but regularly monitoring your performance may help you maintain a higher Retailer Standards score. The scorecard shows your current performance score, as well as real time statistics, score history, and trends. You can also review orders with defects.
+
+Instructions
+
+To access the Retailer Standards tab in Merchant Center:
+
+
+  Sign into your Merchant Center account.
+  Click Performance in the navigation menu.
+  Click Retailer Standards.
+
+
+The Retailer Standards tab, in the performance bar of Merchant Center, includes 2 sections:
+
+
+  The Overview section provides a general overview of the account performance during the last evaluation period. If you’re new to Buy on Google, the scorecard will not show current statistics.
+  The Details section provides detailed reporting on each of the defects discovered during evaluation cycle and real time defects.
+
+
+How to use the Overview section
+
+
+  In the Overview section, you’ll find the following information:
+
+  Action items
+
+  
+    
+      
+        Fix pending shipments
+        Shipments need to be marked as shipped with valid tracking information to prevent a defect.
+      
+      
+        Fix invalid tracking Information
+        Shipments need a valid tracking number entered before the "original promise date" to prevent a defect.
+      
+      
+        Fix missing tracking information
+        Shipments need a valid tracking number entered before the "original promise date" to prevent a defect.
+      
+    
+  
+
+  Performance scorecard
+
+  
+    
+      
+        Action items
+        Three tiles surface orders that need immediate action to prevent a Retailer Standards defect.
+      
+      
+        Scorecard
+        
+        Displays your Retailer Standards score for the last evaluation cycle, indicating the scoring timeframe.
+
+        Note: If the card is grayed out, this means that you’re yet not eligible for the Retailer Standards score.
+        
+      
+      
+        Score history
+        Gives you an overview of the Retailer Standards score month over month.
+      
+      
+        Metrics at a glance
+        Track your defects over time including current date.
+      
+      
+        How you compare to other retailers
+        
+        Displays your Item defect rate and shipping defect rate in comparison to all the other retailers and in relation to the performance scores.
+
+        When you hover over this card, you’ll see a description of your score and the percentile of merchants each defect rate refers to.
+        
+      
+    
+  
+
+  Performance breakdown
+
+  
+    
+      
+        Item defect rate
+        Item defects as a ratio of total items fulfilled.
+      
+      
+        Shipping defect rate
+        Shipping defects as a ratio of total items fulfilled.
+      
+      
+        Delivery defect rate
+        Delivery defects as a ratio of total items fulfilled.
+      
+      
+        Return defect rate
+        Return defects as a ratio of total items fulfilled.
+      
+    
+  
+
+
+How to use the Details section
+
+
+  In the Details section, you’ll find the following information:
+
+  
+    
+      
+        Item cancellations
+        
+        
+          Items canceled by the seller
+          Items canceled by Google due to not being shipped within 3 days of seller provided handling time
+          1 or 2 star customer reviews
+        
+        
+      
+      
+        Late delivery
+        
+        May happen if:
+
+        
+          Items are shipped late and delivered late
+          Items are shipped on-time and delivered late
+        
+        
+      
+      
+        Items delivered with invalid tracking number
+        
+        These include:
+
+        
+          Missing tracking information
+          Incorrect tracking numbers
+          Used tracking numbers
+          Duplicate tracking numbers
+          No carrier scan
+        
+        
+      
+      
+        Orders with 1 or 2 star customer reviews
+        
+        
+          Negative reviews due to poor customer service, late delivery, item cancellations, or item tracking issues
+        
+        
+      
+    
+  
+
+
+
+  Note: Merchants are responsible for maintaining relationships with their carriers. Google may not advise on carrier delays in the instances when the order met the handling time, but not the expected delivery time
+
+
+To restore your account or to escalate a dispute, contact us. After you've submitted your appeal, a member of the Buy on Google team will be in touch.
+
+
+  Need help? Click here to contact Buy on Google support.
+
+
+
+Related links
+
+
+  Return settings requirements for Buy on Google (US only)
+  About shipping policies for Buy on Google
+  About Buy on Google Retailer Standards and policies
+  How to improve your Retailer Standards rating
+
+             Was this helpful?How can we improve it?YesNoSubmit       

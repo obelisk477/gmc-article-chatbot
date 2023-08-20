@@ -1,0 +1,262 @@
+ Allow Merchant Center to update product information automatically
+
+
+  If you’re looking for information about automatic item updates in the classic Merchant Center experience, click here. 
+
+
+
+Automatic updates keep your product data accurate by automatically using your landing page data to update your product data. Automatic updates allow Google to update your products on Shopping ads, Buy on Google, and free listings using the structured data markup we find on your website and advanced data extractors. Automatic updates are offered for the price [price], availability [availability] and condition [condition] attributes.
+
+
+  Example
+
+  If your most recent product upload contains a product that costs $4 USD, but your product landing page lists it as $3 USD, we’ll update the product to $3 USD in your ads or product listings.
+
+
+On this page
+
+
+  Automatic update benefits
+  How automatic updates work
+  Get started
+  Best practices
+  Frequently asked questions
+
+
+
+Automatic update benefits
+
+Avoid price, availability, and condition mismatches. Automatic updates look at the information found on your landing page to eliminate any mismatches in your product pricing, availability, and condition.
+
+Improve the user experience, generate more traffic, and get higher conversions. Because customers see the correct price, availability, and condition for your products in your ads or free listings, they’re more likely to interact with and purchase your products.
+
+
+  Note: Automatic updates aren't a replacement for regular updates of your product data. They’re designed to fix temporary problems with your price, availability, and condition accuracy for a small percentage of your products. You should continue to provide accurate product data frequently (for example, updating your product data file) as we’re unable to cover all of your products with automatic updates. If you expect the pricing, availability, and condition of your products to update frequently, consider using the Content API to schedule product uploads.
+
+
+
+How automatic updates work
+
+ You set up structured data markup on your website for product prices, availability, and condition. This markup is added to the HTML on your website and helps us understand and process your content reliably.
+
+ In your Merchant Center, configure the settings for automatic updates. You can choose to update the product prices only, product availability only, product condition only, or update any combination of the three, price, availability, and condition. Automatic updates are enabled by default.
+
+ We automatically read the structured data markup on your website using our advanced data extractors and directly pull product data from your HTML into Merchant Center.
+
+
+Get started
+
+Step 1: Prepare your website
+
+Expand all
+
+If you haven’t done so, set up structured data on your website. Automatic updates only take into account the price, availability, and condition attributes, so make sure that these are correctly formatted on your website. Our price [price], availability [availability], and condition [condition] attributes map to the price, priceCurrency, availability and itemCondition properties listed on schema.org.
+
+Expand to view formatting instructions for structured data
+
+  
+    Condition
+
+    Google product data attribute: condition
+
+    Schema.org product data attributes: itemCondition
+
+    Formatting:
+
+    
+      
+        
+          Data spec attribute
+          Schema.org value
+        
+        
+          new
+          NewCondition
+        
+        
+          refurbished
+          RefurbishedCondition
+        
+        
+          used
+          UsedCondition
+        
+      
+    
+
+    Price
+
+    Google product data attribute: price
+
+    Schema.org product data attributes:
+
+    
+      price and priceCurrency
+      priceSpecification.price and priceSpecification.priceCurrency
+    
+
+    Formatting:
+
+    
+      price: Number. Submitted without currency symbols, thousands separators, or spaces (for example, '1498.99').
+      priceCurrency: Text. Submitted in a 3-letter ISO 4217 format (for example, USD, GBP, EUR), the currency should meet the language and currency requirements for your target country.
+      Note: price and priceCurrency can be provided directly under the Offer instance or indirectly via a priceSpecification property of type priceSpecification
+    
+
+    Availability
+
+    Google product data attribute: availability
+
+    Schema.org product data attributes: availability
+
+    Formatting:
+
+    Valid values are from the ItemAvailability type. They’re mapped to feed values as follows:
+
+    
+      
+        
+          
+            
+            Data spec
+            
+            
+            Schema.org value
+            
+          
+        
+        
+          
+            
+            in_stock
+            
+            
+            InStock
+
+            LimitedAvailability
+
+            OnlineOnly
+            
+          
+          
+            
+            out_of_stock
+            
+            
+            Discontinued
+
+            InStoreOnly
+
+            OutOfStock
+
+            SoldOut
+            
+          
+          
+            
+            preorder
+            
+            
+            PreOrder
+
+            PreSale
+            
+          
+        
+      
+    
+  
+
+
+Expand to view an example of structured data
+
+  
+    Here’s an example of a product with structured data:
+
+    <span itemscope itemtype="http://schema.org/Product" class="microdata">
+        <meta itemprop="image" content="pixel6image.png">
+        <meta itemprop="name" content="Pixel 6 Pro">
+        <meta itemprop="description" content="Google's smartest, fastest, and most secure phone ever">
+        <span itemprop="offers" itemscope itemtype="http://schema.org/Offer">
+          <meta itemprop="price" content="899.99">
+          <meta itemprop="priceCurrency" content="USD">
+      <link itemprop="availability" href="https://schema.org/InStock" />In stock
+      <link itemprop="itemCondition" href="https://schema.org/NewCondition" />New
+        </span>
+      </span>
+
+    You may need to add to your existing HTML on your website to ensure it meets structured data markup guidelines. Here’s an example of existing product data that’s been updated with structured data markup (the additions are marked in yellow):
+
+    <div class=”product-details” itemscope itemtype="http://schema.org/Product">
+         <div class=”product-image”>
+            <span class=”label”>Image:</span>
+            <img itemprop="image" src=”pixel6image.png”>
+         </div>
+         <div class=”product-info”>
+            <span class=”label”>Product Name:</span> 
+            <span class=”info” itemprop="name">Pixel 6 Pro</span>
+         </div>
+         <div class=”product-info”>
+            <span class=”label”>Description:</span> 
+            <span class=”info” itemprop="description">Google's smartest, fastest, and most secure phone ever</span>
+         </div>
+         <div class=”product-info” itemprop="offers" itemscope    
+                                   itemtype="http://schema.org/Offer">
+            <span class=”label”>Price:</span> 
+            <meta itemprop="priceCurrency" content="USD">$</span><span
+                itemprop="price" content="899.00">899.00</span>
+      <link itemprop="availability" href="https://schema.org/InStock" />In stock
+         </div>
+      </div>
+  
+
+
+Step 2: Update your settings for automatic updates
+
+Automatic updates should already be turned on in your Merchant Center account. If you have a multi-client account, each sub-account will have automatic updates enabled (sub-accounts can also specify their own settings).
+
+ In your Merchant Center account, select Products in the left navigation menu.
+
+ Select the Automatic improvements tab.
+
+ In the “Automatic updates” box, select Edit.
+
+ On the following page, you can enable automatic updates for price, availability, condition, or any combination of the three. You can also turn off automatic updates completely.
+
+
+Best practices
+
+
+  If the price, availability, or condition of the majority of the products on your website is updated multiple times per day, then automatic updates can help you avoid errors due to the time difference between updates on your website and updates to product details in Merchant Center.
+  If you’re using the sale price [sale_price] attribute, make sure that the time period in which the sale is active is specified correctly with the sale price effective date [sale_price_effective_date] attribute and that the timezone is correct. When a sale is active, the sale price is shown as the current price in Shopping search results.
+  For products sold in bulk quantities, you should submit the total price for the minimum number of products sold. Landing pages must list prices in the appropriate currency of the target country, and in the same currency as submitted in your product data.
+  To detect and update mismatches, Google crawls the landing pages listed in your data feed or provided in the Content API. You can increase Google's crawl rate to allow us to cover more products on your website. Learn more about how to change the Googlebot crawl rate
+  Ensure the info in your product feed is consistent with the actual condition of your product.
+  Include information regarding the condition of your products in your product data. Automatic item updates for condition checks the value you provide for the condition [condition] attribute against other values in your product data. Using terms like “new”, “used”, or “refurbished” in the title or description of your product allows us to cross-check for consistency. If you turn off automatic item updates, the product will be subject to item-level disapprovals.
+
+
+
+FAQs
+
+What is structured data markup?
+
+  
+    
+      Structured data markup is tiny pieces of product information on your website. It helps search engines read the information on your website and display it in a useful way.
+
+      Using schema.org structured annotations on your website allows us to reliably retrieve up-to-date information directly from your website. In Merchant Center, the structured annotations are used to update your product data and simplify the creation and maintenance of your product feed. For automatic updates, we rely on the price, availability, and condition annotations on your website to update the price, availability and condition attributes in Merchant Center.
+    
+  
+
+
+Do I need to set up structured data markup on my website?
+
+  
+    It’s recommended to set up structured data markup on your website. If your product landing pages don’t contain any structured data, or the structured data markup is incomplete or incorrect, we rely on advanced data extractors to update your products automatically.
+
+    Advanced extractors use a combination of statistical models and machine learning to detect and extract product data from your website independent of structured data markup. While we’ve designed various checks and safeguards for this feature to prevent incorrect updates, we may not have advanced data extractor coverage for every domain and schema.org annotations may be disabled if they aren’t accurate.
+
+    If the extractors are unable to determine price availability, or condition information, your products will be subject to item-level disapprovals.
+  
+
+             Was this helpful?How can we improve it?YesNoSubmit       

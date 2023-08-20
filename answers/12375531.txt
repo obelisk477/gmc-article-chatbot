@@ -1,0 +1,66 @@
+ About YouTube Shopping Feeds
+
+Who should onboard with YouTube Shopping:
+
+
+  Creators (i.e., merchants) who have a YouTube channel and want to sell their products on the channel
+  YouTube Shopping platforms that manage the products of creators who want to sell their products on their YouTube channel
+
+
+Onboard offers directly with your Google Merchant Center account as a creator
+
+If you are an eligible and invited creator, you can onboard your products to YouTube Shopping. You will need to upload your product feed into Merchant Center and connect your Google Analytics account. Then, you will need to link your feed with your YouTube channel, and manage your products on YouTube Studio.
+
+The YouTube Shopping [YouTube_Shopping] destination will be added to your product feed in Google’s Merchant Center once you have completed the following onboarding steps.
+
+If you have a Shopify or a Cafe24 store, visit the YouTube Help Center to learn how to connect your store with YouTube.
+
+
+  If you are not on either of those platforms, reach out to your YouTube representative to understand the eligibility requirements. Learn more about getting started with YouTube Shopping features on your channel.
+
+
+Onboard offers with YouTube Shopping platforms as a creator
+
+If your product offers are hosted on a partner YouTube Shopping platform, you should work directly with your partner to add your products, ask questions and receive troubleshooting support.
+
+Onboard offers as a YouTube Shopping platform
+
+If you want to onboard or are already onboarded as one of the participating YouTube Shopping platforms (aka, Shopping platforms or Shopping retailers), review the onboarding steps across Merchant Center and Google Analytics.
+
+Overview
+
+YouTube Shopping platforms (aka, Shopping platforms & Shopping retailers) support multiple creator stores and propose linking from their stores to their YouTube channels, which creators must accept in YouTube Studio. YouTube Shopping platforms may organize products as one feed per creator store, or use a single feed to provide products to multiple creators. In both cases, YouTube Shopping platforms must provide custom attributes on each product offer. These attributes must indicate to YouTube which creators’ channels the products should be made available to.
+
+
+  Note: Learn more about Connect, manage, & disconnect your store on YouTube to understand how to become a participating YouTube Shopping platform.
+
+
+Onboarding onto Merchant Center
+
+YouTube Shopping platforms must onboard onto Google Merchant Center through standard merchant onboarding, working together with your YouTube representative who manages additional onboarding processes in YouTube. You must adhere to all YouTube Shopping policies.
+
+Feeds
+
+When uploading feeds for creators, you must provide the following additional custom attributes in your primary feed for each product. This product data can be uploaded per standard Content API or file-based upload methods:
+
+
+  youtube store url: Link to the channel’s store
+  youtube store name: Readable name of the channel’s store
+  youtube channel id: YouTube channel ID
+  youtube group id: Unique id of the form <company_id/name>:<brand>
+
+
+Note: The youtube group id is a static attribute that is attached to a channel when it accepts your store linking proposal. If you need to make changes to the youtube group id of your creator store, please reach out to your YouTube Shopping technical partner. Do not update this attribute when a creator changes their readable store name, otherwise YouTube will be unable to locate the associated products.
+
+
+  Managing creators with multiple channels: If you need to make products available to multiple channels for a single creator, for instance, when a creator operates multiple channels and wants to link them all to their store, then submit repeated youtube channel id fields against those products.
+
+
+Onboarding completed
+
+When all of the above steps are completed, you’ll be able to find the YouTube Shopping [YouTube_Shopping] destination enabled in your Merchant Center feed for the new channel's products.
+
+Manage how you showcase your products
+
+Once you complete steps above to onboard on Merchant Center, visit the YouTube Help Center to learn how to connect, manage or disconnect your store on YouTube.
+             Was this helpful?How can we improve it?YesNoSubmit       

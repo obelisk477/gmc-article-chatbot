@@ -1,0 +1,313 @@
+ Collections data specification
+
+Collections offer a way to group your existing products and enrich them with creative data. A single collection can be used with multiple formats.
+
+
+  Note: At this time Collections are only used by promotion of local products within Performance Max for store goals.
+
+
+Use this product data specification to format your data for collections. Submit your data in the correct format, as this is important for successfully surfacing your collections on Google.
+
+Note: The attributes documented here are specific to collections and differ from those in the Shopping product data specification.
+
+
+  How to use
+
+  
+    You must submit collections data in Merchant Center (in addition to your existing product data). You can use Google Sheets, feed upload, or scheduled fetch to upload your collections product data. Content API is not yet supported for collections. You must provide your collections data using the required attributes, which are detailed in the table below. Before you upload your file to Merchant Center, you should convert it to a tab-delimited .txt file. Learn more about creating Tab-delimited data feeds
+
+    When you create a collections feed in your Merchant Center account, you can choose the destinations where the collections in your feed may surface, similar to your product feeds.
+
+    The Diagnostics page in your Merchant Center account provides collections issue reporting and includes an overview of issues to address. Learn more about Merchant Center diagnostics
+  
+
+
+
+Basic collections data
+
+
+
+  
+    
+      Attribute
+      Format
+      Minimum requirements at a glance
+    
+    
+      
+      Featured product [featured_product]
+      
+      
+       Required for promoting local products within Performance Max for store goals 
+
+      This identifies one or more products that are associated with the collection. It is used as a lookup to the corresponding product ID in your product feeds.
+
+      Example
+
+      A2B4:0.5:0.25
+
+      SKU15::
+
+      Syntax
+
+      The feature product [featured_product] attribute has 3 sub-attributes:
+
+      
+        ID [id] ( Required).
+          Identification for your linked product
+        X [x]: float [0-1] ( Required for or used in Performance Max for store goals).
+          X-coordinate of the product callout in consumer experiences
+        Y [y]: float [0-1] ( Required for or used in Performance Max for store goals).
+          Y-coordinate of the product callout in consumer experiences
+      
+
+      Note: For the "promoting local products within Performance Max for store goals" format, you can provide random coordinates but the coordinate must be different for each featured product. For example, you can increment the coordinates by 1 for each featured product as shown below:
+
+      
+        Featured Product 1:0.01:0.01
+        Featured Product 2:0.02:0.02
+        Featured Product 3:0.03:0.03
+      
+      
+      
+      
+        Use this attribute to list the featured products for this collection
+        If you add this attribute, then the feed label [feed_label] attribute is required and the language [language] attribute is recommended. These attributes are used to uniquely identify the featured product by matching on the country and language of the products that you submitted
+        Provide a maximum of 100 featured product [featured_product] attributes (for collections)
+      
+      
+    
+    
+      ID [id]
+      
+       Required
+
+      The unique identifier for a collection
+
+      Example
+
+      Sneakers2019Q4
+
+      Syntax
+
+      Max 50 characters
+      
+      
+      
+        Choose an ID that is descriptive and easily understandable, such as “Leather_Sofas_2019”
+        Use a unique value for each collection
+        Keep the ID the same when updating a collection
+        Use only valid unicode characters (recommended: ASCII alphanumeric, underscores, and dashes)
+        Avoid invalid characters like control, function, or private area characters
+      
+      
+    
+    
+      Language [language]
+      
+       Optional (strongly recommended if you have featured products linked to a collection)
+
+      The language of a collection and the language of any featured products linked to the collection.
+
+      Example
+
+      en
+
+      Syntax
+
+      2-character ISO- 639-1 code
+      
+      
+      
+        Use only one language for each collection. To include multiple languages, create multiple collections, each with a different language. If you don’t add a language, we will determine a language for you
+        Only products with the same feed language are eligible to be linked to a collection
+      
+      
+    
+    
+      Image link [image_link]
+      
+       Required for promoting local products within Performance Max for store goal
+
+      The URL of a collection’s image
+
+      Example
+
+      http://www.example.com/image1.jpg
+
+      Syntax
+
+      Max 250 characters
+      
+      
+      
+        For the image URL:
+          
+            Link to an image of the collection
+            Start with http or https
+            Use an encoded URL that complies with RFC 2396 or RFC 1738. For example, a comma would be represented as %2C
+            Make sure the URL can be crawled by Google (robots.txt configuration allowing Googlebot and Googlebot-image)
+          
+        
+        For the image:
+          
+            Use an accepted format: non-animated GIF (.gif), JPEG (.jpg/.jpeg), PNG (.png), BMP (.bmp), and TIFF (.tif/.tiff)
+            Don't submit an image larger than 64 megapixels or a file larger than 16MB
+            The preferred ratio is 1.91 for images
+            Don't scale up an image or submit a thumbnail
+            Don't include promotional text, watermarks, padding, or borders
+            Don't submit a placeholder or a generic image
+            Ensure that the image adheres to Google’s Shopping ads policies
+          
+        
+        For promotion of local products within Performance Max for store goals.
+          
+            The image provided by image link [image_link] will correspond to the hero image in promotions of local products.
+          
+        
+      
+      
+    
+    
+      Link [link]
+      
+       Required for promoting local products within Performance Max for store goal
+
+      A collection’s landing page
+
+      Example
+
+      http://www.example.com/asp/sp.asp?cat=12&id=1030
+
+      Syntax
+
+      Max 500 characters
+      
+      
+      
+        Ensure that this URL links to a product collection or category page and not to an individual product landing page
+        Use your verified domain name
+        Start with http or https
+        Use an encoded URL that complies with RFC 2396 or RFC 1738. For example, a comma would be represented as %2C
+        Don't link to an interstitial page unless legally required
+      
+      
+    
+    
+      Mobile link [mobile_link]
+      
+       Optional
+
+      A collection’s mobile-optimized landing page when you have different URLs for mobile and desktop traffic
+
+      Example
+
+      http://www.m-example.com/asp/sp.asp?cat=12&id=1030
+
+      Syntax
+
+      Max 500 characters
+      
+      
+      
+        Meet the same requirements as for the link [link] attribute
+        If no mobile link [mobile_link] attribute is provided, we will redirect users to the link [link] URL
+      
+      
+    
+    
+      Headline [headline]
+      
+       Optional (recommended for all collections)
+
+      Your collection’s name
+
+      Example
+
+      Shop our new collection of premium leather sofas.
+
+      Syntax
+
+      Max 150 characters
+      
+      
+      
+        Add a short, plain-text summary text describing the collection
+        Accurately describe the collection and match the headline from the landing page for the collection
+        Don’t include promotional text like "free shipping," all capital letters, or gimmicky foreign characters
+      
+      
+    
+    
+      Custom label 0-4 [custom_label_0-4]
+      
+       Optional
+
+      Labels that you can assign to a collection to help organize bidding and reporting in Shopping campaigns
+
+      Example
+
+      
+        sofas
+        sneakers
+        furniture
+        kitchen
+      
+
+      Syntax
+
+      Max 100 characters
+      
+      
+      
+        Use a value that you'll recognize in your Shopping campaign. The value won't be shown to users who see your collection.
+        Submit up to 5 custom labels per collection by including this attribute multiple times:
+          
+            Custom label 0 [custom_label_0]
+            Custom label 1 [custom_label_1]
+            Custom label 2 [custom_label_2]
+            Custom label 3 [custom_label_3]
+            Custom label 4 [custom_label_4]
+          
+        
+        Use only 1,000 unique values for each custom label across your Merchant Center account
+      
+      
+    
+    
+      
+      Feed label [feed_label]
+      
+      
+       Optional
+
+      Used to specify featured products for your collection
+
+      Example
+
+      US
+
+      Syntax
+
+      Max 20 characters
+      
+      
+      
+        Submit only one value for the feed label [feed_label] attribute for each collection. To link products from multiple feed labels, create multiple collections, each with a different feed label.
+        Ensure that the feed label submitted exactly matches a feed label associated with a product feed.
+      
+      
+    
+    
+      Product Channel [product_channel]
+       Required for promoting local products within Performance Max for store goal
+      
+      
+        For the promotion of local products within Performance Max for store goals: value must be "LOCAL"
+      
+      
+    
+  
+
+
+             Was this helpful?How can we improve it?YesNoSubmit       

@@ -1,0 +1,56 @@
+ Choose how to manage orders with Buy on Google 
+
+
+  Buy on Google for Search and Shopping will no longer be available starting September 26, 2023. Eligible merchants will be able to use Buy on Google for YouTube in the US. Learn more about Enabling Buy on Google for YouTube.
+
+
+
+
+
+This article provides an overview of different options on managing orders with Buy on Google.
+
+How it works
+
+Manage orders in Merchant Center
+
+Once orders are placed by customers on Buy on Google, you can view and update them on the Orders page under "All Orders" in Merchant Center. Here are things to consider if you choose to manage your orders this way:
+
+
+  Minimal technical resources required for set up
+  Typically requires less time to start on the feature
+  
+    More manual data entry required on an ongoing basis
+  
+
+
+
+  Note: To receive alerts when new orders are placed, turn on order notifications.
+
+
+Use order feeds
+
+Use Order Feeds to receive, process, and update orders without needing to use the Orders API or manually manage orders in Merchant Center. Here are things to consider if you choose to use the Order Feeds:
+
+
+  Scales well for large volumes of orders
+  May require technical work to automate receiving, processing, and updating orders
+
+
+Use the Orders API
+
+Google's Orders API helps you automatically ingest and update orders using your own Order Management System. Here are things to consider if you choose to use the Orders API:
+
+
+  More technical work required
+  Orders statuses and refunds are automatically updated to Google through your own Order Management System (OMS)
+
+
+
+  Need help? Click here to contact Buy on Google support.
+
+
+
+MANAGE IN MERCHANT CENTER MANAGE WITH ORDERS API USE A GOOGLE SHOPPING PARTNER
+
+
+             Was this helpful?How can we improve it?YesNoSubmit       

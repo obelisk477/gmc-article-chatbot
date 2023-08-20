@@ -1,0 +1,53 @@
+ Multiple destinations for your products
+
+Once your product data is uploaded to Merchant Center, it can be used in several destinations. Destinations are used in Merchant Center to allow you to determine which Google programs can use the items in your data feed.
+
+Add or remove a feed from a particular destination
+
+If you'd like to include your feed for a particular destination after configuring your account:
+
+
+  In your Merchant Center account, click Products in the navigation menu.
+  Click Feeds.
+  Select the name of the feed you wish to update.
+  On the page that loads, click the Settings tab.
+  In the "Destinations" section, select any destinations that you'd like to include.
+  Click Save.
+
+
+If you'd like to exclude your feed from a particular destination after configuring your account:
+
+
+  In your Merchant Center account, click Products in the navigation menu.
+  Click Feeds.
+  Select the name of the feed you wish to update.
+  On the page that loads, click the Settings tab.
+  In the "Destinations" section, deselect any destinations that you'd like to exclude.
+  Click Save.
+
+
+Include or exclude an item from a particular destination
+
+If you'd like to exclude an item from a particular destination after configuring your account, you can use the excluded destination [excluded_destination] attribute to hide it on an item level. You may also choose to specifically include certain items that would otherwise be excluded based on your feed settings by using the included destination [included_destination] attribute.
+
+View the status of feeds and products for different destinations
+
+To check the particular destination of a feed:
+
+
+  In your Merchant Center account, click Products in the navigation menu.
+  Click Feeds.
+  Select the feed name for the feed that you want to review.
+  Click the Settings tab.
+
+
+In the "Destinations" dialog box, you'll be able to view the programs for which your feed is enabled.
+
+To check the particular destination of a product:
+
+
+  In your Merchant Center account, click Products in the navigation menu.
+  Click All products.
+  You can check the destination status of each item in the item row. Learn more about product status definitions.
+
+             Was this helpful?How can we improve it?YesNoSubmit       

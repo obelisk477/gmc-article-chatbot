@@ -1,0 +1,31 @@
+ Landing pages and tracking with dynamic remarketing
+
+When creating dynamic remarketing ads in Display Ad Builder, we'll use the landing page URLs included in the link [link] attribute of your product data. If you need to use a different URL, or you need to track that URL in a different manner, you can use one of the options below.
+
+Use a different URL for the Dynamic ads campaign
+
+If you need to use a different URL in your dynamic remarketing campaign, use the link for display ads [display_ads_link] attribute. You can add this attribute by reviewing the technical specifications and then making the following changes to your product data:
+
+
+  If using a TXT feed - add a column with the heading display_ads_link and paste the new URLs you want to use under this column and next to each of the products. These URLs must be unencoded.
+  If using a XML feed - update it using <g:display_ads_link>insert new unencoded landing page url</g:display_ads_link>
+    
+      Also please check on the namespaces declared at the top of your XML file - it's possible it's currently set at:
+        <rss xmlns:g="http://base.google.com/ns/1.0" version="2.0">
+        Please update it to:
+        <rss xmlns:g="http://base.google.com/ns/1.0" xmlns:c="http://base.google.com/cns/1.0" version="2.0">
+    
+  
+  If using API requests - update it using <sc:attribute name="display_ads_link">insert new unencoded landing page url</sc:attribute>
+
+
+Important note: If you implement the link for display ads [display_ads_link] attribute, this will override all of your URLs for dynamic ads only, including an ads redirect [ads_redirect] attribute. Shopping ads links will not be affected and will continue using the original link [link] URL, or ads redirect [ads_redirect] if it exists.
+
+If you use ValueTrack parameters, the URL must be unencoded and read as a string for the ValueTrack parameters to work. Modify the above instructions to:
+
+
+  If using a TXT feed - add a column with the heading display_ads_link and paste the new URLs you want to use under this column and next to each of the products. These URLs must be unencoded.
+  If using a XML feed - update it using <g:display_ads_link>insert new unencoded landing page url</g:display_ads_link>
+  If using API requests - update it using <sc:attribute name="display_ads_link">insert new unencoded landing page url</sc:attribute>
+
+             Was this helpful?How can we improve it?YesNoSubmit       

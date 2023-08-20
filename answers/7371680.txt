@@ -1,0 +1,14 @@
+ Matched inventory: product
+
+Product information is required for every product in your local inventory. Each unique id in your local product inventory feed should match an id in your local products feed.
+
+Benefits
+
+We can serve local inventory ads and free listings for products in your local inventory that have product information. As a result, you get more opportunities to drive traffic to your store when a nearby customer is shopping for your products.
+
+How to check for matched inventory
+
+Verify that each unique id in your local product inventory feed is also present in your local product feed.
+
+
+             Was this helpful?How can we improve it?YesNoSubmit       

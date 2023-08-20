@@ -1,0 +1,375 @@
+ Use conversion tracking to validate your shipping data
+
+This feature is currently only available to merchants that target products to the United States.
+
+How it works
+
+Before you can show free and fast shipping annotations on eligible products, Merchant Center must validate your site’s data to ensure that the shipping information shown in your ads is accurate. After your data has initially been validated, Merchant Center will continue to validate it to make sure your free and fast annotation stays up to date.
+
+Currently, the default method Google uses to validate your shipping data for free and fast annotations is to crawl your website. For free and fast annotations on ads, you can also provide accurate and up-to-date validation data with Google Ads conversion tracking. If conversion tracking is connected to your store’s conversion data, Merchant Center can automatically validate your free and fast shipping data, potentially minimizing the need for it to crawl your store’s site.
+
+Requirements
+
+In order to use conversion tracking to validate your shipping data:
+
+
+  You need a Google Ads account with conversion tracking enabled. Learn how to create a Google Ads account and enable conversion tracking.
+  Your Google Ads and Merchant Center accounts must be connected. Learn how to connect your accounts
+  You must target products to one of the eligible countries—currently, only the United States.
+  You must set up conversions with cart data.
+
+
+Instructions
+
+
+  Note: These steps are technically complex. If you’re not very familiar with code, consider contacting a web developer or someone with similar skills before starting this process.
+
+
+There are 2 ways to use conversion tracking to validate your shipping data. You can either use Google Tag Manager or update your gtag.js.
+
+Install with Google Tag Manager
+
+
+  Step 1: Install Google Tag Manager
+
+  
+    Note: If you’re already using Google Tag Manager, move to Step 2.
+  
+
+  
+    Sign in to your Google Ads account.
+    In the upper right corner, click the tools icon .
+    From the “Measurement” drop-down menu, click Conversions.
+    Click the conversion action that you want to use, or create a new conversion action.
+    Install Google Tag Manager on your site. Learn how to set up your conversion tracking tag.
+  
+
+  Step 2: Add shipping data to your Google Ads conversion tracking tag
+
+  To add shipping data to your Google Ads conversion tracking tag, follow these steps:
+
+  
+    Select the conversion tag you would like to pass the cart information to in Google Tag Manager.
+      
+        Note: If you're setting up a Google Ads conversion tracking tag for the first time, there are some additional steps you may need to take. Learn more about adding a conversion tag to your website
+      
+    
+    Check the "Provide product-level sales data" box and select either "Data Layer" or "Custom Fields". If you select "Custom Fields", fill out the required fields.
+    Check the "Provide shipping data" box and fill out the required fields.
+    The variables below must be added on the checkout page to be referenced.
+  
+
+  
+    
+      
+        Required Parameters
+        Definition
+      
+    
+    
+      
+        Delivery date (per order) “estimated_delivery_date”
+        
+        The latest (or “max”) promised delivery date for an order in a customer’s cart data. For orders with products that are under consideration for free and fast (new or maintain status), Google uses this date to validate shipping speed.
+
+        
+          Note: This parameter uses the international date format (YYYY-MM-DD). The date you submit here should be based on the date and time zone of the location you submitted for the delivery_postal_code.
+        
+        
+      
+      
+        Delivery date (per item) “items[].estminated_delivery_date”
+        
+        The latest (or “max”) promised delivery date for an item. Use this parameter if you want to override the estimated delivery date for a particular item within an order. For products that are under consideration for free and fast (new or maintain status), Google uses this date to validate shipping speed.
+
+        
+          Note: This parameter uses the international date format (YYYY-MM-DD).
+        
+        
+      
+      
+        
+        Postal code (per order) “delivery_postal_code”
+        
+        
+        The regional prefix, or designation portion, of a postal code for an order’s shipping address. The regional prefix is used to determine the merchant’s on-time performance.
+
+        Currently, this attribute will only work with US zip codes. When submitting this data, we recommend only including the first 3 digits of a zip code.
+        
+      
+      
+        
+        Shipping “shipping”
+        
+        The shipping cost of an order.
+      
+      
+        
+        Delivery country “country”
+        
+        The country the items are delivered to. Use ISO 3166-1 alpha-2 format. (For example, “US” for “United States").
+      
+      
+        Merchant Center ID “aw_merchant_id”
+        The Merchant Center ID where your items are uploaded.
+      
+      
+        Feed target country “aw_country_id”
+        
+        The country associated with the feed where your items are uploaded.
+
+        
+          Note: This parameter uses CLDR territory codes.
+        
+        
+      
+      
+        Feed language “aw_language_id”
+        
+        The language associated with the feed where your items are uploaded.
+
+        
+          Note: This parameter uses ISO 639-1 language codes.
+        
+        
+      
+    
+  
+
+  The data layer
+
+  The data layer is used to temporarily hold data. It is a structured format that is understood by Tag Manager to make it easy for you to move that data from your web page or mobile app to tags, triggers, and other variables in Tag Manager.
+
+  You don't necessarily need to set up a data layer in order for variables to retrieve information. Tag Manager Variables can also be configured to retrieve values directly from JavaScript variables, first-party cookies, and from the DOM. However, the best practice is to have your variables retrieve information directly from a well-organized data layer object. A data layer implementation can minimize the likelihood of data loss from inadvertent code changes, encourage a well organized and accessible data model, and simplify troubleshooting.
+
+  Example implementation with Data Layer (new parameters highlighted)
+
+  
+    Note: If you’re using Google Tag Manager, the purchase-detail fields should be specified as elements in a JSON.
+  
+
+  <!-- Sample Code datalayer push -->
+
+  
+     dataLayer.push({   
+         "event": 'purchase',
+        "transaction_id": "1545c34e-691e-4726-aeda-b798df255e9c",
+        "affiliation": "Google online store",
+        "value": 23.07,
+        "currency": "USD",
+        "tax": 1.24,
+      "shipping": 0.00,
+      "discount": 1.50,
+           "delivery_postal_code": "94043",
+           "estimated_delivery_date": "2020-07-31",
+           "aw_merchant_id": 12345,
+           "aw_feed_country": "US",
+           "aw_feed_language": "EN",
+           "items": [
+               {
+                   "id": "P12345",
+    
+                   "quantity": 2,
+                   "price": 2,
+                   "estimated_delivery_date": "2020-07-31",
+    
+    
+             },
+             {
+                 "id": "P123456",
+    
+                 "quantity": 2,
+                 "price": 2,
+            "estimated_delivery_date": "2020-07-29",
+    
+             ...
+           ]
+         });
+    
+  
+
+  Example implementation with JavaScript variables (new parameters highlighted)
+
+  <!-- Sample Code JavaScript Variables→
+
+  
+    <script type="text/javascript">
+    "transaction_id": "1545c34e-691e-4726-aeda-b798df255e9c",
+    "affiliation": "Google online store",
+    "value": 23.07,
+    "currency": "USD",
+    "tax": 1.24,
+    "shipping": 0.00,
+    "discount": 1.50,
+    "delivery_postal_code": "94043",
+    "estimated_delivery_date": "2020-07-31",
+    "aw_merchant_id": 12345,
+    "aw_feed_country": "US",
+    "aw_feed_language": "EN",
+    "items": [
+        {
+          "id": "P12345",
+    
+          "quantity": 2,
+          "price": 2,
+          "estimated_delivery_date": "2020-07-31",
+    
+        
+       },
+         {
+            "id": "P123456",
+    
+             "quantity": 2,
+              "price": 2,
+              "estimated_delivery_date": "2020-07-29",
+    
+         ...
+       ]
+    });
+    
+    /* ]]> */
+    </script>
+  
+
+
+Install with global site tag
+
+
+  Step 1: Install global site tag
+
+  
+    Note: If you’re already using the global site tag conversion tracking code, move to Step 2.
+  
+
+  
+    Sign in to your Google Ads Account.
+    In the upper right corner, click the tools icon .
+    From the “Measurement” drop-down menu, click Conversions.
+    Click the conversion action that you want to use, or create a new conversion action.
+    Install the global site tag on your site. Learn how to set up your conversion tracking tag.
+  
+
+  Step 2: Install additional parameters into the code
+
+  To submit cart information, you will need to install these additional parameters into the code:
+
+  
+    
+      
+        Required parameters
+        Definition
+      
+    
+    
+      
+        Delivery date (per order) “estimated_delivery_date”
+        
+        The latest (or “max”) promised delivery date for an order in a customer’s cart data. For orders with products that are under consideration for free and fast (new or maintain status), Google uses this date to validate shipping speed.
+
+        
+          Note: This parameter uses the international date format (YYYY-MM-DD).
+        
+        
+      
+      
+        Delivery date (per item) “items[].estminated_delivery_date”
+        
+        The latest (or “max”) promised delivery date for an item. For products that are under consideration for free and fast (new or maintain status), Google uses this date to validate shipping speed.
+
+        
+          Note: This parameter uses the international date format (YYYY-MM-DD).
+        
+        
+      
+      
+        Postal code (per order) “delivery_postal_code”
+        
+        The regional prefix, or designation portion, of a postal code for an order’s shipping address. The regional prefix is used to determine the merchant’s on-time performance.
+
+        Currently, this attribute will only work with US zip codes. When submitting this data, we recommend only including the first 3 digits of a zip code.
+        
+      
+      
+        Shipping “shipping”
+        The shipping cost of an order.
+      
+      
+        Delivery country “country”
+        The country the items are delivered to.
+      
+      
+        Merchant Center ID “aw_merchant_id”
+        The Merchant Center ID where your items are uploaded.
+      
+      
+        Feed target country “aw_country_id”
+        
+        The country associated with the feed where your items are uploaded.
+
+        
+          Note: This parameter uses CLDR territory codes.
+        
+        
+      
+      
+        Feed language “aw_language_id”
+        
+        The language associated with the feed where your items are uploaded.
+
+        
+          Note: This parameter uses ISO 639-1 language codes.
+        
+        
+      
+    
+  
+
+  Example of a configured Global Site Tag (new parameters highlighted)
+
+  <!-- Sample Code Conversion -->
+
+  
+    <script type="text/javascript">
+    gtag('event', 'purchase', {
+      "transaction_id": "1545c34e-691e-4726-aeda-b798df255e9c",
+      "value": 23.07,
+      "currency": "USD",
+      "country": "US",
+      "tax": 1.24,
+      "shipping": 0.00,
+      "delivery_postal_code": "94043",
+      "estimated_delivery_date": "2020-07-31",
+      "aw_merchant_id": 12345,
+      "aw_feed_country": "US",
+      "aw_feed_language": "EN",
+      "items": [
+        {
+          "id": "P12345",
+          "name": "Android Warhol T-Shirt",
+    
+          "quantity": 2,
+          "price": 2,
+          "estimated_delivery_date": "2020-07-31",
+     
+     
+        },
+        {
+          "name": "Android New Artist T-Shirt",
+          "brand": "Google",
+          "category": "Apparel/T-Shirts",
+          "variant": "Black",
+          "list_name": "Search Results",
+          "list_position": 2,
+          "quantity": 2,
+          "price": 2,
+          "estimated_delivery_date": "2020-07-29",
+    
+        ...
+      ]
+    });
+    
+    /* ]]> */
+    </script>
+  
+
+             Was this helpful?How can we improve it?YesNoSubmit       

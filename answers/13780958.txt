@@ -1,0 +1,68 @@
+ How to fix: Missing store code [store_code] ValueTrack parameter in link template [link_template] and mobile link template [mobile_link_template]Add the store code [store_code] ValueTrack parameter to your link template [link_template] and mobile link template [mobile_link_template] if you're using it
+One or more of your products has a missing store code [store_code]. When using the merchant hosted local storefront (full), you must provide the store code [store_code] ValueTrack parameter to your link template [link_template] and mobile link template [mobile_link_template] if you're using it.
+
+Instructions
+
+
+  Step 1: See the affected products
+
+  
+    
+      Sign in to your Merchant Center account.
+      Select Products on the navigation menu, then click Diagnostics.
+      Click Item issues.
+      Filter the data by selecting Destination: Local inventory ads.
+    
+
+    To download a list (.csv) of all affected products for all issues:
+
+    
+      Click the download icon  next to the filter icon , beneath the graph and above the list of issues.
+    
+
+    To download a list (.csv) of all affected products for a particular issue:
+
+    
+      Find the issue under the “Issue” column, then click the download icon  at the end of the row.
+    
+
+    To see a list of up to 50 products with this particular issue:
+
+    
+      Find the issue under the “Issue” column, then click View examples in the “Affected items” column.
+    
+  
+
+
+
+  Step 2: Update your link template [link_template] and mobile link template [mobile_link_template] to include the store code [store_code] ValueTrack parameter
+
+  
+    
+      Filter the downloaded report so that you only see products with:
+        “Issue title” = Missing [store_code] ValueTrack parameter in link template [link_template] and mobile link template [mobile_link_template]
+      Update those products data to ensure link template [link_template] and mobile link template [mobile_link_template] have a store code [store_code] ValueTrack parameter.
+    
+  
+
+
+
+  Step 3: Resubmit your product data
+
+  
+    
+  After you’ve updated your product data, resubmit it using one of these methods:
+    
+      Upload a feed
+      Submit through the Content API
+      Import content from an ecommerce platform
+    
+  
+  Next, check that you’ve fixed the issue by making sure it’s no longer listed on the Diagnostics page.
+    
+    Keep in mind: It may take some time for your change to be reflected on the Diagnostics page.
+
+
+  
+
+             Was this helpful?How can we improve it?YesNoSubmit       

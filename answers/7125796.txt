@@ -1,0 +1,67 @@
+ Safety and security
+
+If you believe a Google Customer Reviews participant is in violation of one of the policies above, please let us know by filling out the Google Customer Reviews report violation form so we can investigate.
+
+User safety
+
+This policy is a comprehensive policy that was developed to help protect users from ads, free listings, websites, and businesses that appear to be generally deceptive or misleading, and/or violate our Google Customer Reviews program agreement.
+
+Google requires that Google Customer Reviews participants provide transparency into the business and product that's being promoted. Google also requires that retailers set realistic expectations about what their products can do for their users.
+
+Guidance for Google Customer Review participants includes not making misleading claims:
+
+
+  Promote offerings with realistic, credible, and reasonable claims. For example, don't promote "get rich quick" programs.
+  Provide users with accurate information about the risks associated with their product or service
+  Include relevant and easy to find disclaimers when testimonials and endorsements imply that results are typical
+  Provide users with accurate information about the risks associated with their product. For example, if a site promotes health care products, side effects and risks associated with the product, if any, should be clearly disclosed.
+  Promote acceptable business models
+  Make it clear to users what your business does and how it works
+  Make sure that your sites display any relevant disclaimers or announcements that may be required by local law. For example, certain types of financial service providers may need to include specific text per governmental regulations.
+  Promote transparency and accuracy
+  Provide users with accurate contact information
+  Include links to third-party accreditation/endorsement where affiliation is implied. For example, if a website claims to be affiliated with a governmental agency, a link to verification of this affiliation should be included. Use of "gov" or "government" in display URLs and/or use of government emblems may imply affiliation with a government agency and should be verified.
+
+
+As online advertising and local laws and regulations are constantly evolving, we can't provide an exhaustive list of the kinds of sites that might be in violation of this policy. Please keep in mind that the principles behind the policy are the promotion of transparency, accuracy, and honesty in advertising.
+
+Malware
+
+Google Customer Reviews doesn't allow the participation of sites infected with malware or the sale of malicious software.
+
+The term malware, derived from "malicious software," refers to any software specifically designed to harm a computer or the software it's running. Malware can steal sensitive information (like credit card numbers or passwords) or even send fake emails from a user's email account, often without the user's knowledge.
+
+Malware can be installed on a computer in a number of ways, with or without a user's knowledge, but most commonly occurs when someone visits a contaminated website or downloads seemingly innocent software from the Internet. Malware includes, but isn't limited to, viruses, worms, spyware, and Trojan horses.
+
+It's possible that you may not even be aware that your site is carrying or spreading malware to users accessing your site. This is because malware can be picked up by downloading templates for your site or in code installed for various applications on your site. Common symptoms of malware can include unwanted URL redirects, pop-up ads, altered Google search results, the addition of unwanted browser toolbars or side-search bars, and slow computer speeds.
+
+Recalled products
+
+Google Customer Reviews doesn’t allow the promotion of products which are subject to a recall by the manufacturer or any governmental agency, such as the US Consumer Product Safety Commission (CPSC).
+
+Hazardous materials
+
+Google Customer Reviews allows the promotion or sale of consumer commodities containing hazardous materials. A consumer commodity is defined as a packaged product intended for retail sale and for personal care or household use. Retailers are responsible for complying with all applicable laws and where appropriate must include a clear description of the hazardous nature of the product.
+
+Some examples of acceptable products include acetone nail polish remover, fluorescent light bulbs, automotive batteries, and aerosol hair spray. Household pesticides are acceptable if the pesticide is registered by the Environmental Protection Agency (EPA), or equivalent country-specific agency, and is labeled to meet agency requirements, including directions for use, ingredient statements, and safety precautions.
+
+Google doesn’t allow the promotion or sale of hazardous or dangerous materials. A hazardous material is defined as any product or substance capable of posing an unreasonable risk to health, safety, or property during transportation. Unacceptable products include:
+
+
+  Explosive, flammable, or combustible products such as black powder, gasoline, aerosol cans (compressed gases), and pressurize cryogenic liquids
+  Poisonous or toxic substances such as EPA-restricted pesticides, batteries containing mercury, and cyanide
+  Radioactive, corrosive, and miscellaneous dangerous products such as radiation contaminated material, hydrochloric acid, iodine monochloride, and potassium chlorate
+
+
+Spam techniques
+
+Google Customer Reviews doesn't allow spam techniques which negatively impact the user experience. These techniques may include the following:
+
+
+  Ad spam techniques – exploiting online advertising systems, like Google Ads, for financial gain
+  Bulk marketing techniques – distributing spam to large audiences
+  Web Developer Guidelines violations – promoting websites that violate our Web Developer Guidelines
+
+
+Examples of prohibited content include programs which compensate users for clicking ads or offers, performing searches, surfing websites, or reading emails and automated ad clicking software.
+             Was this helpful?How can we improve it?YesNoSubmit       

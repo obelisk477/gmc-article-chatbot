@@ -1,0 +1,141 @@
+ About same-day delivery for online product listings
+
+This feature allows retailers to indicate which online products are eligible for same-day delivery badging and annotations. Eligible free listings with online offers will display to customers, showcasing their availability for same-day delivery across Google.
+
+Learn how to submit shipping information to Google.
+
+
+On this page
+
+
+  Before you begin
+  Eligibility criteria
+  Instructions
+  Frequently Asked Questions
+
+
+
+Before you begin
+
+
+  Identify which products and stores in your Local Inventory Feed support same-day delivery.
+  Identify the cut-off times for the participating stores. You might need to set up a few same-day delivery services to accommodate for multiple time-zones. Time-zones are based on the Merchant Center settings you provide, not the user location/
+  Determine your fees structure, including the delivery fee. We currently don't support additional fees, hence the best practice is to sum up all the fees and pass it to Google as one delivery fee (Range based shipping fee is supported).
+  Define delivery distance per store. If the delivery radius varies, you may either set up a separate same-day shipping service or opt for a conservative radius.
+
+
+
+Eligibility criteria
+
+You can enable same-day delivery annotations and badging for your listings in the United States if you meet the following criteria:
+
+
+  Your business should provide same-day delivery fulfillment services for eligible products and the same-day delivery settings you submit to Merchant Center should match what is on your website.
+  The shipping cost for the same-day delivery should match the cost mentioned on your website.
+  Your listings should be available in the United States.
+
+
+
+Instructions
+
+Set up same day delivery for online product listings
+
+You can set up same-day delivery for online product listings using the standard shipping service with a few changes in handling and transit time. Additionally, within the same “Standard shipping” same-day delivery shipping service, you can use the transit time to include destinations eligible for same-day delivery while excluding other destinations.
+
+Create a new shipping service
+
+
+  In your Merchant Center account, click Tools and settings icon .
+  Select Shipping and returns under “Tools”.
+  Click Add shipping service.
+  Select Shipping for online products. Service coverage
+
+
+In the “Service coverage” page, name your shipping service, select United States as country, and select USD as currency.
+
+
+  Note: This feature is currently available in the United States only.
+
+
+Delivery times
+
+
+  Select “Set a range of delivery times” manually.
+  Select an order cut-off time. This is the specific time or the number of hours before which a customer can place an order that will be eligible for same-day delivery.
+    
+      Also, select the time zone in which this time is calculated (Merchant center settings based, not user location).
+    
+  
+  For "Order handling time", enter the minimum/maximum number of days required for processing an order as 0/0.
+  For "Transit time", enter the minimum/maximum number of days required for order transit as 0/0.
+
+
+
+  Note: If your transit times differ based on the destination, select “More transit times” and add specific destination these settings apply to. For more information, refer to Regional pricing and availability.
+
+
+Shipping cost
+
+
+  In the “Shipping cost” page, select the shipping cost you charge your customers for same-day delivery services. Options include:
+    
+      Free shipping over a certain amount.
+      Free shipping on all orders.
+      Range based pricing based on the total value of the order.
+      Flat fee for all orders.
+      In advanced settings, you may specify shipping cost based on the destination by zip code/state, item weight, item quantity, and order price.
+    
+  
+  Click Save.
+
+
+If only a subset of your products is available for the same-day delivery, use shipping label to tag available offers, and indicate the name of the shipping label in the advanced settings when creating a shipping rate table.
+
+
+  Note: The “Shipping Overview” page shows the delivery time of same-day delivery shipping services created via “Standard shipping” flow as “Same-day delivery”.
+
+
+Verification
+
+It is important to validate your shipping settings to ensure a positive customer experience. Google verifies same-day delivery services added by retailers, so make sure the details match what's mentioned on your site. Same-day delivery must be advertised and mentioned on both your website and in the checkout flow.
+
+It might take up to 72 hours for Google to review the settings. If there is an issue with the same-day delivery settings, the administrator of your Merchant Center account will receive an email with instructions on how to resolve the issue.
+
+
+  Note: There are various factors that affect how and when the annotation is displayed irrespective of the verification status.
+
+
+
+Frequently asked questions
+
+
+  How do I set up same-day based on the user-time-zone?
+
+  
+    It would require setting a separate shipping service for each time-zone you’re targeting.
+  
+
+
+
+  How to reflect additional service fees?
+
+  
+    We currently do not differentiate additional fees. So those fees should be included into the total shipping cost.
+  
+
+
+
+  How to reflect same-day availability for a certain state/zip-code range only?
+
+  
+    In transit time, indicate the specific state/zip range you’re targeting. Once you reach the Shipping cost page, click Advanced settings and create a shipping rate table. You can specify particular state/zip code ranges and set the pricing for it. Add another dimension and exclude the rest of the states/zip codes by setting cost value to “No shipping”.
+  
+
+
+Related links
+
+
+  About same-day delivery for local product listings
+  About shipping settings
+
+             Was this helpful?How can we improve it?YesNoSubmit       

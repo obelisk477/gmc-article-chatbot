@@ -1,0 +1,190 @@
+ Create and manage promotions with third-party partners
+
+
+
+  If you’re looking for information about creating and managing promotions with third-party partners in the classic Merchant Center experience, click here.
+
+
+
+Third-party platforms can easily help you set up and track your promotions. This article explains how to connect your promotions from supported third-party partners, currently Shopify, WooCommerce, and the FreshReach program from FMTC, to your Merchant Center account.
+
+
+  Note: Similar integrations may be expanded to other third-party partners in the future.
+
+
+Benefits
+
+
+  Simple integration: Your existing and new discounts (promotions) from supported third-party partners will have a seamless integration with your Merchant Center account to show your promotions on your products.
+  Improved Performance: Products with promotion annotations often have an increase in clicks and conversions. 
+
+
+
+  Manage promotions using Shopify
+
+  
+    Before connecting your Shopify promotions with your Merchant Center account, you’ll first need to ensure that you have downloaded the Google Channel on Shopify. This allows your promotions to automatically sync with your Merchant Center account.
+
+    Promotion types supported
+
+    The following promotion types can be connected with Merchant Center:
+
+    
+      Discount codes: Fixed value or percentage discounts code on products and variants.
+      Automatic discounts: Discounts that apply automatically at checkout and in the shopping cart. You can create automatic discounts for a percentage or a fixed amount.
+    
+
+    
+      Note: US, CA, UK, AU, IN, FR, DE, ES, IT, NL, and JP promotions are eligible to be connected to your Merchant Center account. Automatic discounts of Shopify are eligible for integration into Merchant Center in the US currently.
+    
+
+    Promotion types not supported
+
+    At this time, the following types of promotions and conditions can’t be connected to your Merchant Center account:
+
+    
+      Any free shipping promotions
+      Buy X get Y promotions
+      All types of discounts on collections in your store
+      Local in-store discounts
+        
+          Only online discounts will be connected with Merchant Center
+        
+      
+      Discounts targeted to specific users
+    
+
+    Opt out specific Shopify promotions from showing on Google
+
+    If you don’t want specific promotions to show on Google, you can opt out directly through your Shopify account. To manage your promotions, refer to the Shopify help center for next steps. Alternatively you can end those promotions in your Merchant Center account. Removing a specific promotion from your Merchant Center account won’t stop the promotion from appearing on your Shopify store. Once you have ended a promotion in Merchant Center, it can't be restarted.
+
+    
+      Note: It may take a few hours after you end a promotion before it's removed.
+    
+
+    To end your promotions in Merchant Center:
+
+    
+      In your Merchant Center account, select Promotions from the left navigation bar.
+      Check the box next to the promotion(s) you want to end.
+      Under the “Actions” column, click the  icon to End promotion.
+    
+
+    Opt out of all Shopify promotions
+
+    To opt out of the promotions program in Merchant Center:
+
+    
+      In your Merchant Center account, select “Add-ons” from the left navigation bar.
+      On the “Promotions” card, click Deactivate.
+    
+
+    For more information on the Shopify integration, visit the Shopify help center.
+  
+
+
+
+  Manage promotions using WooCommerce
+
+  
+    To show your coupons and promotions on Google, you’ll first need to ensure that you have the latest version of the Google Listings and Ads WooCommerce extension downloaded and linked to your Merchant Center account. Currently, versions 1.6.0 and above of the extension are supported.
+
+    Your WooCommerce promotions won’t sync with Google automatically after you’ve downloaded and linked the extension. In order for your promotions to sync with Google, follow the steps below in your WordPress dashboard:
+
+    
+      Navigate to the "Marketing" tab in the navigation menu on the left.
+      Click Coupons in the dropdown options.
+      If you’re editing an existing coupon, select the coupon you wish to edit.
+      If you’re creating a new coupon, click Add a coupon.
+      Navigate to the “Channel visibility” section, and select Show coupon on Google from the dropdown menu.
+    
+
+    Editing a promotion
+
+    If you edit a promotion in your WordPress account, the changes will automatically sync with your Merchant Center account.
+
+    Promotion types supported
+
+    The following promotion types can be connected with Merchant Center:
+
+    
+      Fixed product discount: A fixed total discount for selected products only. Customers receive a set amount of discount per item.
+      Percentage discount: A percentage discount for selected products only.
+      Free shipping with a code: Removes shipping cost when coupon is used.
+      New promotions or existing live promotions that are updated to have their channel visibility set to "Show on Google".
+    
+
+    
+      Note: Only Shopping ads and free listings promotions targeted to the US are eligible to be connected to your Merchant Center account.
+    
+
+    Promotion types not supported
+
+    At this point in time, the following types of promotions and conditions can’t be connected to your Merchant Center account:
+
+    
+      Promotions on Buy on Google
+      Existing expired promotions
+      Promotions that have email restrictions
+      Promotions that are set to exclude sales items
+      Free shipping without a code
+    
+
+    If you face any issues such as a code error, you can trigger a re-review by clicking on the update button in your WordPress account. You can find this option in the “Coupons” section within the “Marketing” tab.
+
+    For more information on the integration, visit the WooCommerce help center.
+  
+
+  
+    Manage promotions using FreshReachTM
+
+    
+      If you participate in FreshReachTM powered by FMTC, some of your promotions will automatically sync with your Merchant Center account and will be displayed on your products across Google. Once the promotions are synced with Merchant Center, you can make changes or updates to these promotions via your affiliate network or platform.
+
+      Google is not using affiliate links in this experience and will not be tracking conversions via the affiliate network or charging for the display of these promotions.
+
+      Promotion types supported
+
+      The following promotion types will be selected with Merchant Center:
+
+      
+        Fixed product discount with redeem code: A store wide fixed total discount. Customers receive a set amount of discount store wide, per order.
+        Percentage discount with redeem code: A store wide percentage discount per order.
+      
+
+      
+        Note: At this time, only US promotions are eligible to be connected to your Merchant Center account.
+      
+
+      Promotion types not supported
+
+      At this point in time, the following types of promotions and conditions will not be connected to your Merchant Center account:
+
+      
+        Category specific promotions
+        Any free shipping promotions
+        Buy X get Y promotions
+        Local in-store discounts
+        Promotions targeted to specific users,
+        Promotions for customers in non-US countries
+      
+
+      Opt out of promotions from showing on free product listings and Shopping ads
+
+      If you don’t want your FreshReachTM promotions to be shown in free product listings and Shopping ads, you can end those promotions in your Merchant Center account.
+
+      To end a promotion, follow these steps:
+
+      
+        In your Merchant Center account, select Promotions from the left navigation bar.
+        Check the box next to the promotion(s) you want to end.
+        Under the “Actions” column, click the  icon to End promotion.
+      
+
+      You can also end specific promotions from the “Edit promotion” page after clicking into the promotion. To end a promotion from this page, scroll to the bottom of the page and select End Promotion. It may take a few hours after you end a promotion before it's removed. After you’ve ended a promotion, it can't be restarted.
+
+      For more information on promotions reporting, policies, and FAQs, visit the Promotions help center page.
+    
+  
+
+             Was this helpful?How can we improve it?YesNoSubmit       

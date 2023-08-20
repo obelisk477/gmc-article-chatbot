@@ -1,0 +1,48 @@
+ Tips to help your products stay approved
+
+To help ensure that the ads and free listings that people see are accurate, we need to make sure the product data you submit matches what's shown on your landing page. This check will happen regularly to make sure the most up-to-date information is being shown.
+
+This article explains some tips for keeping your product data and your landing page in sync.
+
+Help us validate the data on your landing page
+
+Here are some ways to make it easy to validate the data on your landing page:
+
+
+  Use structured data markup. You can use structured data to indicate how elements on your landing page correspond with attributes in the product data specification. That way Google can correctly verify your product data based on the value of those elements. Having structured data is also recommended when using automatic item updates which help keep your site and Merchant Center product data in sync and avoid your products being disapproved. Learn more about microdata
+  Ensure your landing page is available. If your landing page is unavailable when Google checks it, then your product will be disapproved. If you know your landing page will be unavailable at a certain time, then follow the steps explained in best practices for landing page maintenance or a planned site outage
+  Allow Google crawlers to access your page. Google uses crawlers to read the data on your landing page. Make sure these crawlers can access your landing page by allowing them in your site's robots.txt file. Learn more about Google crawlers
+  Ensure that you're not restricting your crawl rate. In Google Search Console, you can limit the rate at which Google crawls your site. If you've limited this rate, Google may have trouble crawling your landing page and images. To help ensure that Google can crawl your site, set the Googlebot crawl rate to "Let Google optimize for my site". Learn more about how to change the Googlebot crawl rate
+
+
+Automatically update price and availability
+
+Enable automatic item updates to prevent product disapproval when the price or availability on your landing page doesn't match your product data. With this feature, if Google notices that your product data doesn't match your landing page, your product data will be updated automatically and your ads and free listings will show the correct information. Even with this feature enabled, you'll still need to continue to resubmit your product data regularly. Learn more about enabling automatic item updates
+
+Here are some tips to make sure that your landing page is set up correctly:
+
+
+  Use structured data. Structured data markup is recommended to set up automatic updates because it tells us how the data you submitted corresponds with your price [price] and availability [availability] attributes. Learn more about microdata
+  Use valid HTML. Google also detects the price that you're displaying based on the structure of your landing page. Using valid HTML helps ensure that we detect the correct price. Keep in mind that even with valid HTML, you must still use microdata to enable automatic item updates. Use the W3C validation service to check your HTML
+
+
+Keep ads and free listings live during big events
+
+If you're releasing a new product, you want to make sure that your product gets approved during or soon after the announcement. Also, during big sales, such as Black Friday in the US, the price and availability of your products might change frequently, sometimes multiple times per day. Make sure that your product data and landing page show the same information to prevent disapprovals.
+
+Here are some tips for managing your product data during these big events:
+
+
+  Enable automatic item updates. Automatic item updates will help you avoid disapproval when the price or availability on your landing page is different from the values you submitted in Merchant Center. However, don't use this feature as your main method of updating your product data. These updates only happen when Google crawls your landing page, and you still need to resubmit your product data regularly. Learn more about enabling automatic item updates
+  Ensure that your product identifiers are accurate. Unique product identifiers, especially GTINs, can make your ads and listings richer and easier for customers to find. If you use incorrect identifiers, your ads and listings may be disapproved or they may not show for the right searches. Learn more about unique product identifiers
+  Avoid sudden structural changes to your website. Google crawls your landing page to gather information such as price and availability. If you perform large scale changes to the structure of your page you might experience product disapprovals if certain product details can't be verified. Avoid changes such as:
+    
+      Moving the location of price information within the source code of your landing page
+      Using JavaScript or other animations to display prices or price reductions
+    
+  
+  Don't change the ID [id] attribute of a product. If you change the ID of a product, it will be treated like a new product. The product will need to be approved to show in ads and listings again, which could take up to 3 business days. Also, information about how the product performed in the past won't be associated with this new product. Learn more about the ID [id] attribute
+
+
+
+             Was this helpful?How can we improve it?YesNoSubmit       

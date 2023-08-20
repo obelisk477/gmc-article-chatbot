@@ -1,0 +1,57 @@
+ Building trust with your customers
+
+We want Google to be a safe and trustworthy place for both our customers and retailers. Customers should feel confident about the offers they are browsing and the businesses they are purchasing from. Sometimes it can take some time before a sufficient level of trust is established and before we consider it safe to display your offers to customers. This assessment is an ongoing process and since we know that customers are likely to do research about your products and business, we may review multiple signals from across the web. The more we know about your business, the better we are able to represent you.
+
+On this page
+
+
+  What customers value in building trust with your business
+  How you can help us learn more about your business
+
+
+
+What customers value in building trust with your business
+
+
+  Business Identity:
+    
+      Provide the official business name that you use across the web and avoid any mismatches in your registered business name and domain name.
+      Include an “about us” page on your website to show your authenticity and tell customers your unique story.
+      Let customers know that they can follow you on social media profiles and link to those pages from your website.
+    
+  
+  Transparency:
+    
+      Be clear and provide detailed information about your policies including shipping, returns and privacy policies.
+      Be transparent about your business model and how you operate.
+    
+  
+  Online reputation:
+    
+      Help potential customers understand how to use your products or how other customers have used them. Show reviews and testimonials about your products and business.
+      If you’ve received any badges or seals of approval from official third-party sources, make sure that you mention these.
+      Clearly communicate how customers can interact with you by making sure they know how to get in touch with you and how your customer support is set-up.
+      If you publish a blog post or if your business was mentioned in an article, make sure your customers know about this.
+    
+  
+  Professional design:
+    
+      Install an SSL certificate so customers know that their sensitive data is retrieved and stored securely without being intercepted by hackers.
+      Your website should be accessible for all customers, easy to navigate, and shouldn’t contain any unnecessary redirects or redirects to broken links.
+      Avoid placeholders for text and images; this gives the feeling that the website is unfinished.
+    
+  
+
+
+
+How you can help us learn more about your business
+
+
+  Provide information in the Business information settings in Merchant Center.
+  Link the relevant third-party platforms to Merchant Center.
+  Create and verify a Google Business Profile.
+  Follow our SEO guidelines to improve the visibility of your website on Google and to provide a good customer experience.
+  Improve your eligibility for seller ratings, by opting into Google Customer Reviews or other third-party review services.
+  Match your product data in your product feed with your website to ensure customers see the same information, such as prices, across both.
+
+             Was this helpful?How can we improve it?YesNoSubmit       

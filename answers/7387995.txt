@@ -1,0 +1,486 @@
+ Set up Shopping ads and free listings in multiple countries
+
+Shopping ads and free listings offer you several features to help support your global reach, such as targeting multiple countries from a single offer and automatic currency conversion in case you can’t provide product prices in a foreign currency. Learn more about using the right language and currency
+
+This article explains how to set up Shopping ads and free listings in multiple countries.
+
+
+  These export features are available only for Shopping ads, display remarketing for retail, and free listings. They should not be used for Buy on Google.
+
+
+Before you begin
+
+
+  Identify new countries where you want to list your products.
+
+
+Create a feed in Merchant Center to target multiple countries
+
+To begin listing your products in multiple countries, you can use either one of these methods:
+
+
+  Select additional countries in which to use your product data in the feed “Settings” tab and set up shipping services for these countries as required.
+  Provide shipping attribute information to indicate which countries you’d like to target for individual products in your feeds or via the Content API for Shopping.
+
+
+
+  Feed languages
+
+  
+    
+      
+        You can use your existing feed to target countries that share the same language. For example, if you have an existing Spanish feed, you can use this feed to target Spanish-speakers in Colombia and Ecuador, where Spanish is the local language. You can also use that feed to target Spanish speakers in Canada, Japan, or any other country in which Shopping ads and listings are available.
+        If you have translations of your product listings, you can add additional feeds for each language and target new countries with those languages.
+      
+    
+  
+
+
+
+  Going global within Merchant Center
+
+  
+    The easiest way to make your products discoverable in multiple countries is to add additional countries to your product feeds.
+
+    
+      
+        Log in to your Merchant Center account.
+        Click Feeds under “Products”.
+        Select the feed you want to be multi-country, and then click the Settings tab.
+        Add all the countries you want to be discoverable in as additional countries.
+        Your offers are now set up for free listings in the configured additional countries.
+      
+
+      Follow these steps to ensure your account has a shipping service configured for your chosen countries:
+
+      
+        Go to the “Shipping and Return settings” page.
+        Confirm that there are shipping services set up in the currency of your feed/offers for all the countries you choose on the feed. If not, set up shipping services for these countries. Ensure the shipping cost is specified in the same currency as the offers.
+      
+
+      
+      
+        For example, adding AU would require these steps:
+          
+            Name your shipping service and select the countries you want this service to cover. Note: The currency of the shipping service matches the offer currency, e.g, USD in this example—not AUD.
+            Set up delivery times.
+            Set up shipping cost.
+          
+        
+      
+      
+
+      
+        Your offers are now set up for free listings in all the additional countries you added.
+      
+
+      
+        
+          Note: Creating a feed in Merchant Center doesn’t automatically make your products part of an advertising campaign because you must also have a campaign configured in Google Ads to cover these products.
+
+          To set up your products to serve in multiple countries in Google Ads Shopping campaigns, log in to Google Ads, create a new campaign, and select the Country of Sale or feed label of your offers/feeds (the number of products per Country of Sale or feed label will be listed in the Google Ads UI while additional countries on your offers won’t be.)
+        
+      
+    
+  
+
+
+
+  Going global with Shopping via attributes in your feed files
+
+  
+    
+      To target multiple countries from a feed file only, add shipping attributes to each of your items, specifying the ship-to country and shipping cost, as a minimum. Learn more about the shipping [shipping] attribute
+    
+
+    The below example uploads 4 products sold in euros to an account, where there are no shipping services configured on the account.
+
+    
+      Item 122 is configured to be sold in both GB and IE.
+      Item 133 is configured to be only sold in IE.
+      Item 144 is configured to be sold in IE, GB, FR, and DE.
+      Item 155 is configured to be sold in IE, FR, NZ, and AU.
+    
+
+    
+      
+        
+          
+          ID
+            [id]
+          
+          
+          Title
+            [title]
+          
+          
+          Description
+            [description]
+          
+          
+          Link
+            [link]
+          
+          
+          Condition
+            [condition]
+          
+          
+          Price
+            [price]
+          
+          
+          Availability
+            [availability]
+          
+          
+          Image link
+            [image_link]
+          
+          
+          Shipping
+            [shipping]
+          
+        
+      
+      
+        
+          
+          122
+          
+          
+          Toy Bear
+          
+          
+          A yellow teddy bear
+          
+          
+          https://ww...
+          
+          new
+          
+          10.00 EUR
+          
+          in_stock
+          
+          https://ww...
+          
+          
+          IE::: 5 EUR, GB:::1.00 EUR
+          
+        
+        
+          
+          133
+          
+          
+          Blender
+          
+          
+          12-speed, black blender
+          
+          
+          https://ww...
+          
+          new
+          
+          10.00 EUR
+          
+          
+          in_stock
+          
+          
+          https://ww...
+          
+          
+          IE::: 5 EUR
+          
+        
+        
+          
+          144
+          
+          
+          Red Pen
+          
+          
+          Generous grip for comfortable writing. Red ink.
+          
+          
+          https://ww...
+          
+          new
+          
+          10.00 EUR
+          
+          in_stock
+          
+          https://ww...
+          
+          
+          IE::: 5.00 EUR, GB::: 1.00 EUR, FR::: 1.00 EUR, DE::: 5.00 EUR
+          
+        
+        
+          
+          155
+          
+          
+          Android Squishable
+          
+          
+          15" Android Squishable Organic Cotton
+          
+          
+          https://ww...
+          
+          new
+          
+          10.00 EUR
+          
+          in_stock
+          
+          https://ww...
+          
+          
+          IE::: 5.00 EUR, FR::: 10.00 EUR, AU::: 7.00 EUR, NZ::: 7.00 EUR
+          
+        
+      
+    
+
+    
+      To target multiple countries from a feed file where you’ve already configured shipping services on the account, add shipping attributes to each of your items and specify the ship-to 2 letter country code at a minimum. The shipping cost can be left blank as the shipping information will be taken from the shipping services on the account.
+    
+
+    The below example uploads 3 products sold in US dollars to an account, where there are shipping services already configured on this account for the US, CA, and AU.
+
+    
+      Item 123 is configured to be sold in both the US and CA.
+      Item 456 is configured to be only sold in CA.
+      Item 789 is configured to be sold in the US, CA, AU, NZ, and MX. Note: Shipping services aren’t mandatory for NZ and MX. Hence, they don’t need to have shipping price defined at an item level.
+    
+
+    
+      
+        
+          
+          ID
+            [id]
+          
+          
+          Title
+            [title]
+          
+          
+          Description
+            [description]
+          
+          
+          Link
+            [link]
+          
+          
+          Condition
+            [condition]
+          
+          
+          Price
+            [price]
+          
+          
+          Availability
+            [availability]
+          
+          
+          Image link
+            [image_link]
+          
+          
+          Shipping
+            [shipping]
+          
+        
+      
+      
+        
+          123
+          Shirt
+          T-Shirt, Red
+          https://ww...
+          new
+          10.00 USD
+          in_stock
+          https://ww...
+          US:::,
+          CA:::
+        
+        
+          456
+          Blue Pen
+          Generous grip for comfortable writing. Blue ink.
+          https://ww...
+          new
+          5.00 USD
+          in_stock
+          https://ww...
+          CA:::
+        
+        
+          789
+          Shoes
+          Original Men's Shoes, Blue/orange, 12
+          https://ww...
+          new
+          15.00 USD
+          in_stock
+          https://ww...
+          US:::,
+          CA:::,
+          AU:::,
+          NZ:::,
+          MX:::
+        
+      
+    
+  
+
+
+
+  Going global with Shopping APIs (Content API and Shipping API)
+
+  
+    
+      There are 2 options when using APIs to set up multi-country targeting on Global Offers.
+
+      Option A: Detailed steps
+
+      
+        Set up shipping services on your Merchant Center account, and provide the destination, currency, shipping cost, and estimated delivery times.
+        Add the shipping [shipping] attribute to all products, and specify in the attribute information all the countries you wish your product to be discoverable in and can be shipped to.
+      
+
+      
+        Note: Through the Content API, only specify the 2 letter country code, leaving the shipping price and shipping service attributes empty. They’re optional as you have shipping service configured at an account level and the shipping price will be populated from your shipping service settings defined in step one.
+      
+
+      Option B: Detailed steps
+
+      
+        Add product shipping attributes to all your offers/items, specifying the ship-to country, service level, and price for all the countries you wish products to be discoverable in. Learn more about the Shipping Settings API
+      
+    
+  
+
+
+Set up tax settings specific to your new country
+
+
+  Follow the correct tax policies for your target country. Tax for Shopping ads and free listings is restricted to two concepts: value-added tax (generally called VAT, IVA, TVA, MWST, or GST in different countries) and sales tax. Most countries use VAT, while the US has a sales tax system. Keep in mind that each country’s tax regulations and policies differ. When you set up specific tax and shipping settings for a new country, ensure that you provide correct information for your products. Learn more about tax settings
+
+
+
+  Included tax vs. excluded tax using currency of the target country
+
+  
+    Tax inclusion policies and audience needs can differ across countries. If you list your products in a country with tax inclusion policies that are different from those in your target country, you may need to adjust your tax practices. Since you're using the currency of the target country, you need to follow the price and tax requirements of the target country.
+
+    
+      
+        
+          Example
+
+          In Germany, tax is included in product prices. In Canada, tax isn’t included. A merchant based in Germany that exports to Canada in the currency of the target country must not include any tax in their product prices. In Canada, merchants must also not submit any tax in the tax [tax] attribute. If the merchant does charge tax in Canada, they can say so on their landing or checkout pages.
+        
+      
+    
+  
+
+
+
+  Included tax vs. excluded tax using currency conversion
+
+  
+    
+      If you use currency conversion, consumers can assume that you're not a local advertiser. As such, you have to follow the price and tax requirements for the country that matches your chosen currency.
+
+      
+        
+          Example
+
+          If a merchant exports to Australia in USD, Australian customers are able to identify the merchant’s location by the currency in the ad. The merchant must follow US sales tax rules in their product data and on their website. The tax [tax] attribute should be used in place of the price [price] attribute to submit tax information. Since Australian consumers expect taxes to be included in prices, ads show a “+tax” annotation to indicate to users that tax isn't included in the price.
+        
+      
+    
+  
+
+
+
+  Different levels of included tax
+
+  
+    If you sell from one country that includes tax in prices into another country, it’s likely that the VAT rates are different. You must include tax in your product prices. If you use the currency of the target country, you can choose to include the tax rate you use on your website. If you use currency conversion, you should use the VAT rate from the country of your chosen currency.
+
+    
+      
+        
+          Example
+
+          If a French retailer (VAT rate 20%) exports to Sweden (VAT rate 25%), they can choose to include either 20% or 25% in the product price as long as it matches both the landing page and the checkout pages on their website.
+        
+      
+    
+  
+
+
+
+  Identify import or export charges. These are charges that cover costs charged in direct connection with products crossing a border. Often this is referred to as duty, excise, or customs, but can also include storage cost, special handling fees, or other costs. Some countries also charge a luxury tax or product specific tax for certain imports. These types of charges don’t fall under the tax category, but are considered an import or export charge.
+
+
+To make sure that consumers can connect information they see on Google with the information that they see on your website, you must clearly label the relevant costs and submit information in your product data accordingly.
+
+Based on how you operate, you may display import and export charges on your checkout page separately, combine them into a single line item, or combine some of them with existing shipping costs. The import or export charges can be combined into the shipping [shipping] or price [price] attribute. If they are combined with the price [price] attribute, the product price on the landing page and checkout page must match the value submitted for the price [price] attribute, and the item can only be listed in the target country.
+
+
+  
+    Example
+
+    Your shipping provider handles customs clearance, but you still charge import duties yourself. On your checkout page, you should have a “shipping and customs” charge and an “import duty” charge. You should submit a shipping cost that includes customs clearance charges and matches the “shipping and customs” charge on your checkout page. The import duty charge needs to be displayed on the checkout page, but doesn’t need to be submitted to Google.
+  
+
+
+Requirements for your export country
+
+
+  Make sure your landing pages are up to date. Dynamically switching the content, such as language or currency, on your landing pages based on user location is against requirements. Learn more about landing page requirements
+  Follow policy requirements for your new country. Check on the requirements for your new target country. To avoid disapprovals, make sure your product data complies with policies. Learn more about Shopping ads policy and Shopping policies and requirements.
+  Comparison Shopping Services (CSSs) can place Shopping ads on Google on behalf of merchants in countries that are part of the European Economic Area (EEA), as well as in the United Kingdom and Switzerland. Learn more about advertising with Comparison Shopping Services
+
+
+Create a campaign for your new feed
+
+You can use campaigns to create ads on Google and around the web, where potential customers can view what you're selling. Campaigns help you promote your online and local inventory, boost traffic to your website or local store, and find better qualified leads. Learn more about Shopping ads
+
+
+  If you already have a standard Shopping or Performance Max campaign with a Merchant Center feed set up, review your location targeting and ensure it includes any additional countries you've added to your feed.
+  If you don't have a campaign yet, first review and then pick which campaign makes sense for your business.
+
+
+While setting up your campaign, you can pick a country of sale or feed label. If you do so, you should make sure your location targeting includes any additional countries you've added to your feed.
+
+
+  
+    Example
+
+    Your feed targets the US, the UK, and France. In your campaign settings, you'll need to ensure that the UK and France are not excluded in your location targeting settings so that the products show in those countries.
+  
+
+
+Related links
+
+
+  About landing page requirements for Shopping ads
+  About currency conversion
+  About Shopping ads
+
+             Was this helpful?How can we improve it?YesNoSubmit       

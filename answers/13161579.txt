@@ -1,0 +1,28 @@
+ How to fix: CSS not selected for this destination
+
+The Comparison Shopping Service (CSS) this account is associated with, has not been selected to represent the merchant for free product listings on Google in Europe. Each merchant domain can select only one CSS to represent them for free listings on Google in Europe. Products submitted to free listings in accounts associated with a different CSS will be disapproved with “CSS not selected for this destination.”
+
+Instructions
+
+
+  How to select a CSS to represent a merchant for free listings
+
+  
+    
+      If you are a merchant and wish to change the CSS that is representing you for free listings on Google in Europe, you can change your selection in the CSS dashboard. This dashboard is available in the Merchant Center account where you have claimed your website. To find it, open the Your business section, then click on the Comparison Shopping Services tab.
+
+      
+        Note: Not all CSSs offer the possibility to show products on free listings. Only CSSs that offer this service can be selected.
+      
+    
+  
+
+
+
+  How to handle accounts which are associated with a different CSS
+
+  
+    As a merchant, if you have selected another CSS to represent you for free listings on Google, you can work with the excluded destination [excluded_destination] attribute to exclude this destination for product offers in your other CSS account.
+  
+
+             Was this helpful?How can we improve it?YesNoSubmit       

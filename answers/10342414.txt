@@ -1,0 +1,107 @@
+ Share your business identity attributes (US only)
+
+If you’re looking for information about adding your business identity attributes in Merchant Center Next, click here. 
+
+
+Use the business identity attributes in Merchant Center to tell customers about the identity of your business on the "Search", "Maps", and "Shopping" tab.
+
+You can choose:
+
+
+  Asian-owned*
+  Black-owned
+  LGBTQ+ owned*
+  Latino-owned
+  Veteran-owned
+  Women-owned
+
+
+*Only available on the "Search" and "Maps" tab.
+
+
+  Note: Self-identification is optional, and is currently only available to retailers based in the United States.
+
+
+Add your business identity attributes
+
+For subtitles in your language, turn on YouTube captions. Select the settings icon  at the bottom of the video player, then select "Subtitles/CC" and choose your language.
+
+
+
+
+How it works
+
+If you select a business identity attribute, customers will notice a small icon signifying that your business identifies as such on your product description pages (PDP) on the "Shopping" tab. Customers are also able to filter for businesses using the identity attributes.
+
+
+
+In addition, if you opt into “Include my business in promotions for..." your selected identity attributes, your business and products may also be featured on Google pages that highlight businesses with specific identity attributes.
+
+
+  You need to be eligible to show free listings in order for the icon to show on your product description pages. There are a number of things you can do to be eligible for free listings, including following the policies for free listings as well as those for Shopping ads. Eligibility is also based on your account status and the quality of the data you provide. Learn more about how to fix your eligibility status for free listings
+
+
+Instructions
+
+ Sign in to your Merchant Center account.
+
+
+  If you’re new to Merchant Center, learn how to create an account.
+
+
+ Click the tools icon  in the top right corner of Merchant Center.
+
+ Navigate to the “Business information” page.
+
+
+
+ On the “About your business” tab, scroll down to the “Business identity attributes” section.
+
+
+  Note: Only "Admin" users are able to view the "Business identity attributes" section.
+
+
+ Click the toggle button next to the appropriate identity attribute to turn it on or off.
+
+
+  Remember: When you toggle this business attribute on, you're publicly stating that your business is owned by someone of the identity you've selected.
+
+
+
+
+ Check the box next to “Include my business in promotions for...” if you'd like your business and products to potentially appear on pages featuring the selected identity attributes.
+
+
+  Note: If you don’t select this option, your business will still be identified with the selected identity attributes on the product description pages on the "Shopping" tab.
+
+
+You can toggle your business identity attributes, and opt in and out of promotions involving a business identity attribute, at any time. Keep in mind that it can take some time for any changes you make to be reflected on your product description pages on the "Shopping" tab.
+
+Troubleshooting and availability
+
+Only US-based retailers who have a Merchant Center account with a business country are currently able to use this feature. You can confirm if your account has a business country set by navigating to “Business information” and checking the “Business country” field. The feature will become available to all US-based retailers in the coming months.
+
+To get help adding a business country in your account settings:
+
+ Open the Merchant Center contact form.
+
+ In the “Tell us what you need help with” field, write “Change business country to US”.
+
+ Click Next.
+
+ In the “Confirm issue” section, select “Other”.
+
+ Scroll down, and click Next step.
+
+ Choose your contact option, and fill out your details.
+
+ Click Submit.
+
+Reporting abuse
+
+Google doesn't tolerate abuse or harassment of our retailer partners. If we detect that a retailer who has selected one of the business identity attributes is receiving harassing user reviews or other mistreatment through Google’s platform as a result of their self-identification, our abuse teams will swiftly address the issue.
+
+You can report negative or abusive reviews that you believe you’ve received as a result of identifying your business as owned by someone of the identity you’ve selected. Google will investigate each report and strive to take appropriate action.
+
+To report a store or product review, click the 3-dot menu in the top right corner of the review, and then click "Report". Fill out the report and submit it.
+             Was this helpful?How can we improve it?YesNoSubmit       

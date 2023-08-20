@@ -1,0 +1,434 @@
+ Vehicle ads Content API guidelines
+
+Overview
+
+This article outlines Content API specifications and guidelines for vehicle ads.
+
+When you have set up your Merchant Center account, you can upload your feeds using the Google Content API.
+
+
+  Note: All vehicle ads campaigns will be upgraded to Performance Max by September 2023.
+
+
+
+API specifications
+
+Account management
+
+There are several Content API endpoints that can be used in conjunction with Merchant Center advanced accounts:
+
+
+  accounts.authinfo will return a list of accounts or sub-accounts of the current authenticated user.
+  accounts.claimwebsite can be used to claim websites of Merchant Center sub-accounts.
+
+
+For a full list of endpoints, refer to the Account REST Resource page.
+
+Uploading offers
+
+Important notes:
+
+
+  For a full list of vehicle ads fields, refer to the vehicle ads feed specifications. In addition, the Content API Reference contains more information on API usage.
+  Most standard fields are listed in the products.insert method (products.custombatch can be used for bulk updates).
+  The table below lists vehicle ads-specific attributes that need to be added using the customAttributes field.
+
+
+
+  
+    
+      
+        Attribute
+        Description
+        Content
+      
+      
+        VIN [VIN]
+        
+        Required
+
+        Vehicle Identification Number, unique identifier for each car
+        
+        String, 17 digits
+      
+      
+        Store code [store_code]
+        
+        Required
+
+        Unique alphanumeric identifier for each dealership
+
+        Note: The store code attribute is case-sensitive and must match the store codes submitted in your Business Profile.
+        
+        
+        String
+
+        This is a repeated field which can take multiple values.
+        
+      
+      
+        Certified pre-owned [certified_pre-owned]
+        
+        Optional
+
+        Car is OEM certified pre-owned
+        
+        Boolean (yes / no)
+      
+      
+        Model [model]
+        
+        Required
+
+        Model of the car, without trim specifics such as LX, EX, and others
+        
+        String
+      
+      
+        Trim [trim]
+        
+        Optional
+
+        Trim of the model (for example, S, SV, SL)
+        
+        String
+      
+      
+        Year [year]
+        
+        Required
+
+        Model year
+        
+        Integer (4 digit)
+      
+      
+        Mileage [mileage]
+        
+        Required
+
+        Number of miles on the vehicle.
+
+        Make sure to include the Unit (KM / Miles)
+        
+        
+        String of Integer + Unit (KM / Miles)
+
+        Example: 2333 Miles
+        
+      
+      
+        Body style [body_style]
+        
+        Optional
+
+        Examples: Sedan, SUV, Crossover
+        
+        
+        Supported values:
+
+        
+          convertible
+          coupe
+          crossover
+          full size van
+          hatchback
+          minivan
+          sedan
+          station wagon
+          suv
+          truck
+        
+        
+      
+      
+        Engine [engine]
+        
+        Optional
+
+        Examples: Gasoline, Diesel, Electric, Hybrid
+        
+        
+        Supported values:
+
+        
+          gasoline
+          diesel
+          electric
+          hybrid
+        
+        
+      
+      
+        
+        Vehicle MSRP [vehicle_msrp]
+        
+        
+        Required for new cars
+
+        Optional for used cars
+
+        MSRP (Manufacturer Suggested Retail Price) for the vehicle in its current configuration.
+
+        If the MSRP is not the same as the selling price (above), it should be displayed separately on your VDP landing page as well and labeled as MSRP.
+        
+        
+        Use the same formatting as the price attribute.
+        
+      
+      
+        
+        Vehicle all-in price [vehicle_all_in_price]
+        
+        
+        Required for new cars in some countries
+
+        Optional for used cars
+
+        The all-in advertised price includes costs for the following – any accessories attached to the vehicle, environmental levies, extra warranty, fuel, freight, pre-delivery inspection (PDI), dealer fees for handling licensing, provincial regulatory fees, miscellaneous dealer charges for security etching and nitrogen tire fill, and factory-to-customer or dealer-to-customer discounts or incentives.
+
+        This price must appear on the vehicle description page as well.
+
+        Note: The all-in advertised price doesn’t include sales tax, licensing (the cost of the plate and registration), any trade-in, or costs associated with vehicle financing.
+
+        Learn more about the applicability of the price attribute.
+        
+        Use the same formatting as the price attribute.
+      
+      
+        
+        Vehicle option [vehicle_option]
+        
+        
+        Optional
+
+        (Required for free vehicle ads)
+
+        List of installed options, using comma separators.
+
+        (e.g. Leatherette Seats, Rear View Camera, Navigation System, Front Seat Heaters, A/C, Sunroof, Bluetooth)
+        
+        
+        String
+
+        The maximum number of values supported is 200. Each value may contain up to 256 characters.
+
+        This is a repeated field which can take multiple values.
+        
+      
+      
+        
+        Vehicle fulfillment [vehicle_fulfillment]
+        
+        
+        Required
+
+        This group attribute is used with the store_code sub-attribute for in store and ship to store fulfillment. Store code is not required for online offers. Learn more.
+        
+        
+        Supported values:
+
+        
+          
+            in_store
+          
+          
+            ship_to_store
+          
+          
+            online
+          
+        
+
+        This attribute can be repeated up to 3 times for each offer, allowing dealers to specify an option for each fulfillment type.
+        
+      
+    
+  
+
+
+
+  Sample JSON
+
+  
+    For a full list of fields, refer to the vehicle ads feed specifications and Content API Reference.
+
+    
+      
+{ 
+    "id": string, 
+    "offerId": string, 
+    "googleProductCategory": string, 
+    "title": string, 
+    "description": string, 
+    "channel": "local", 
+    "excludedDestinations": [ 
+      "Free local listings", 
+      "Local inventory ads",
+    ],
+    "price": {
+      "value": string,
+      "currency": string
+    }, 
+    "brand": string, 
+    "color": string, 
+    "condition": string, 
+    "imageLink": string, 
+    "contentLanguage": string, 
+    "targetCountry": string, 
+    "customAttributes": [
+    { 
+      "name": "VIN",
+      "value": string
+    }, 
+    { 
+      "name": "store_code", 
+      "value": string 
+    }, 
+    { 
+      "name": "certified_pre-owned", 
+      "value": boolean 
+    }, 
+    { 
+      "name": "model", 
+      "value": string 
+    }, 
+    { 
+      "name": "trim",
+      "value": string
+    }, 
+    { 
+      "name": "year", 
+      "value": int 
+    }, 
+    { 
+      "name": "mileage", 
+      "value": string 
+    }, 
+    {
+      "name": "body_style", 
+      "value": string 
+    }, 
+    { 
+      "name": "engine", 
+      "value": string 
+    },
+    {
+      "name": "vehicle_all_in_price", 
+      "value": string
+    },
+    {
+      "name": "vehicle_MSRP",
+      "value": string
+    },
+    {
+      “name”: “vehicle_option”,
+      “value”: string
+    },
+    {
+      “name”: “vehicle_fulfillment”,
+      “groupValues”: [{
+        “name”: “option”,
+        “value”: string
+      }]
+    },
+    {
+      “name”: “vehicle_fulfillment”,
+      “groupValues”: [{
+        “name”: “option”,
+        “value”: string
+      },
+      {
+        “name”: “store_code”,
+        “value”: string
+      },
+      {
+        “name”: “store_code”,
+        “value”: string
+      }]
+    }
+],
+... 
+}
+
+
+    
+  
+
+  Creating a data feed
+
+  
+    
+      Note: This method is optional. You don’t have to create a data feed to submit your vehicle ads data. Vehicle ads data can also be submitted by uploading offers. If choosing to upload, refer to the “Uploading Offers” section in this article.
+    
+  
+
+  You can create and submit vehicle ads data through the Content API datafeeds. When creating a data feed for your vehicle ads, you’ll need to include certain fields or attributes. Some fields or attributes can only support certain values. For a full list of fields and supported values, refer to the Datafeeds REST Resource page.
+
+  The table below lists vehicle ads-specific fields and attributes that need to be added when creating a data feed:
+
+  
+    
+      
+        Fields
+        Description
+        Content
+      
+      
+        Included destinations [included_destinations]
+        
+        Optional
+
+        List of destinations to include for this target (corresponds to marked check boxes in Merchant Center).
+
+        Note: Default destinations are always included unless provided in excludedDestinations.
+        
+        Supported value:
+        
+          VehicleInventoryAds
+        
+        
+      
+      
+        Excluded destinations [excluded_destinations]
+        
+        Optional
+
+        List of destinations to exclude for this target (corresponds to unmarked check boxes in Merchant Center).
+        
+        Supported value:
+        
+          VehicleInventoryAds
+        
+        
+      
+      
+        Content type [contentType]
+        
+        Required
+
+        The type of data feed for local products (including vehicle ads data).
+        
+        Supported value:
+        
+          “local products”
+        
+        
+      
+    
+  
+
+  Related links
+
+
+  Vehicle ads overview
+  Vehicle ads policies
+  Implementation guide
+  Vehicle ads image guidelines
+  Vehicle ads Content API guidelines
+  Vehicle ads troubleshooting form
+  Enable vehicle ads in your Performance Max campaign
+
+
+
+             Was this helpful?How can we improve it?YesNoSubmit       

@@ -1,0 +1,45 @@
+ Best practices for submitting unsupported variants
+
+The most common types of product variations are supported by detailed product attributes for color [color], size, [size], pattern [pattern], material [material], age group [age_group], gender [gender], size type [size_type] and size system [size_system].
+
+You might not be able to use these attributes to thoroughly describe your variants if you sell build-to-order custom products or products that vary by other qualities. The best practices here provide tips for how to submit variants when your products don't fit the detailed product attributes Google provides.
+
+If you aren't familiar with the terms used here, learn more about detailed product attributes and variants.
+
+Best practices for submitting products that vary by unsupported variants
+
+
+  Don't submit multiple iterations of the same product for each compatible third-party product. For example windshield wipers that are compatible with a variety of cars or phone cases that are compatible with a variety of phones. Instead list all of the product’s compatibilities in its product description.
+  If you're selling different variants of a similar product, where each is considered a different product by design make sure to:
+    
+      Specify the difference in the title and description.
+      Ensure that each product has a corresponding GTINs or other unique product identifier, which confirms its uniqueness.
+    
+  
+
+
+
+  Example
+
+  You sell auto parts, and each component you sell differs based on the make and model of the car that would use it. Since the Products Feed Specification doesn't have attributes for make and model, you can't submit variants with an item group ID [item_group_id] attribute. Instead, you should submit each unique product only once in your product data and specify the compatibility information, like the auto part's target make and model, in the description [description] attribute for each product. Note that a unique product is identified by having its own manufacturer part number [mpn] and a manufacturer-assigned brand [brand] or a valid GTIN [gtin] obtained from the manufacturer.
+
+
+Learn more About submitting compatible or refurbished third-party products.
+
+Best practices for submitting custom products
+
+
+  In your product data, submit either the complete configured product or the components for a product.
+  If you submit a completely configured product, submit products that are readily available and best-sellers.
+  If you submit a component of a product, make sure that the image, description, and price reflect the component you're selling. Learn more about Best practices for customized products.
+  If your inventory and prices change frequently throughout the day, you might consider using automatic item updates.
+
+
+
+  Example
+
+  You're a custom jewelry manufacturer, and you allow customers on your website to select from setting and stone options to create the final product. You have so many possible combinations for your products that you don't want to set them all as variants with an item group ID [item_group_id] attribute in your product data. Instead, you decide to promote only your best selling configurations on Google. When a customer views an ad for your jewelry, they view the price and image for the completely configured product.
+
+
+
+             Was this helpful?How can we improve it?YesNoSubmit       

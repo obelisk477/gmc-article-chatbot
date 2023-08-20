@@ -1,0 +1,62 @@
+ I want to add products from my ecommerce platform to Merchant Center
+
+
+  If you’re looking for information about adding products from your ecommerce platform in the classic Merchant Center experience, click here.
+
+
+
+If you have an online store on platforms like Shopify, you may be able to link it to Google. All your product details (such as images, prices, and descriptions) will be automatically linked from your ecommerce platform. This eliminates the need to maintain a separate set of product data for use on Google.
+
+On this page
+
+
+  Quick answers
+  Get started
+  Next steps
+
+
+
+
+  Quick answers
+
+  How long does it take to add all products from my ecommerce platform to Merchant Center?
+
+  It may take up to 3 days for all products to show up in Merchant Center. You can check the status from the “Products” page in Merchant Center. However, it’s recommended to manage your product data using the ecommerce platform.
+
+  Do I need to use Merchant Center to manage my products, or can I continue to manage my products from my ecommerce platform?
+
+  It’s recommended that you continue to manage your products directly from your ecommerce platform. Any changes you make to your products in your ecommerce platform will automatically sync with Merchant Center.
+
+  What happens if there’s a problem adding my product to Merchant Center?
+
+  We’ll show you in Merchant Center if there’s a problem when adding your product. Follow the instructions in your account to fill in missing info about the product or other important details.
+
+
+
+Get started
+
+ In your Merchant center account, go to Products .
+
+ Under “All products” click Add Products (if there is a drop down list of options select ‘Add another product source’).
+
+ Select the option to connect your Merchant Center to your chosen ecommerce platform, click Continue.
+
+ Review the information on the page, then select the option to continue. This opens a new window to your chosen ecommerce platform. Follow the instructions to connect your Merchant Center account.
+
+
+Next steps
+
+
+  We review your products for completeness and compliance with our policies, and inform you of any issues with products that sync to your account.
+  If you want to update or fix issues with your products, make the changes in your ecommerce platform. Any changes that you make will automatically sync with Merchant Center.
+
+
+
+Related links
+
+
+  
+    Syncing your products (for users of the Google & YouTube app on Shopify) 
+  
+
+             Was this helpful?How can we improve it?YesNoSubmit       

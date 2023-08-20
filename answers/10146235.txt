@@ -1,0 +1,66 @@
+ Promotions best practices
+
+This article will help ensure your sales and promotions are as effective as possible by outlining recommended best practices.
+
+On this page
+
+
+  The basics
+  Ramp up your promotions strategy
+  Prepare for the holidays
+  Be ready to adjust in real-time
+
+
+The basics
+
+If you’re a US retailer participating in Shopping ads, Buy on Google, or free product listings, providing competitive pricing (with sales and discounts) or offering promotions will automatically make your products eligible for increased visibility. In addition, these best practices can help drive better performance and incremental conversions, plus help you make the most of holiday sales events.
+
+Ramp up your promotions strategy
+A little work can go a long way when it comes to the visibility and effectiveness of your promotions.
+
+
+  Familiarize yourself with promotions to ensure smooth promotional launches.
+  Provide structured data for your promotions through the Merchant Center promotion builder tool to facilitate faster reviews and approvals.
+  Ensure your promotions are viewable as quickly as possible by selecting promotional products in your product feed.
+  Ensure your titles are specific, accurate, and easy to understand. Your promotions will be displayed under the “Coupons from store'' section, so the more specific your promotion titles are, the easier it will be for your customers to find.
+  If a promotion applies to a certain type of product, ensure you include the name or type of that product in your title.
+    
+      Yes: “20% off on baby sneakers only.”
+        This title details the specific category that is eligible for coupons or discounts.
+      No: “20% off on select products.”
+        This title makes it difficult for customers to identify if the type of products they are interested in are included in your promotion.
+    
+  
+  Keep your historical promotions approval rate as high as possible, and make certain you’re following the latest promotion policies.
+  Tag your on sale and promotional products with a custom label attribute for better reporting and results analysis down the line.
+  Be sure you only tag products that are on sale or being promoted so your data is as accurate as possible. You can use a maximum of 5 custom labels for reporting and ads bidding.
+  Resolve any questions you might have by contacting the promotions support team.
+
+
+
+  Sitewide promotions can also help your offers surface more quickly.
+
+
+Prepare for the holidays
+The holiday season is a critical time of the year for many retailers. Be prepared and make the most of the opportunity.
+
+
+  Plan ahead and establish clear marketing objectives and targets.
+  Look at the best sellers report for trending categories and other insights to help inform your sales strategy.
+  Focus on product feed hygiene and utilize the sale price [sale_price] attribute.
+  Keep your inventory and prices fresh with automatic item updates.
+
+
+Be ready to adjust in real-time
+Continuously monitor your promotional performance to understand what’s working, and adapt accordingly.
+
+
+  Change sales and promotion end dates if you’re running low on inventory.
+  Adjust your promotional strategies if you see that certain parameters drive higher engagement or ROI.
+  During the holidays or other seasonal spikes, ensure your campaigns have uncapped budgets to capture the full demand.
+  Use the report editor to evaluate the performance of on sale and promoted products that you’ve tagged with a custom label attribute.
+
+
+RETURN TO PROMOTIONS HOME
+
+             Was this helpful?How can we improve it?YesNoSubmit       

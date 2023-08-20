@@ -1,0 +1,196 @@
+ About marketplace facilitator tax
+  Buy on Google for Search and Shopping will no longer be available starting September 26, 2023. Eligible merchants will be able to use Buy on Google for YouTube in the US. Learn more about Enabling Buy on Google for YouTube.
+
+
+
+
+
+ 
+
+Marketplace facilitator tax is a term for legislation passed in the United States by individual states. This legislation has shifted tax collection and remittance responsibilities from Buy on Google retailers to Google. In accordance with these laws, Google will collect and remit taxes for Buy on Google products sold in states with marketplace facilitator laws. These states currently include:
+
+
+  
+    
+      January 2019
+      
+      
+        Alabama
+        Connecticut
+        Iowa
+        Oklahoma
+        Minnesota
+        New Jersey
+        Pennsylvania
+        Washington
+      
+      
+    
+    
+      March 1, 2019
+      
+      
+        South Dakota
+      
+      
+    
+    
+      April 1, 2019
+      
+      
+        Washington, DC
+      
+      
+    
+    
+      June 1, 2019
+      
+      
+        Idaho
+        Nebraska
+        New York
+      
+      
+    
+    
+      June 27, 2019
+      
+      
+        Rhode Island
+      
+      
+    
+    
+      July 1, 2019
+      
+      
+        Arkansas
+        Indiana
+        Kentucky
+        New Mexico
+        South Carolina
+        Vermont
+        Virginia
+        West Virginia
+        Wyoming
+      
+      
+    
+    
+      September 1, 2019
+      
+      
+        Ohio
+      
+      
+    
+    
+      October 1, 2019
+      
+      
+        Arizona
+        California
+        Colorado
+        Maine
+        Maryland
+        Massachusetts
+        Nevada
+        North Dakota
+        Texas
+        Utah
+      
+      
+    
+    
+      January 1, 2020
+      
+      
+        Hawaii
+        Illinois
+        Michigan
+        Wisconsin
+      
+      
+    
+    
+      February 1, 2020
+      
+      
+        North Carolina
+      
+      
+    
+    
+      April 1, 2020
+      
+      
+        Georgia
+      
+      
+    
+    
+      July 1, 2020
+      
+      
+        Louisiana
+        Mississippi
+      
+      
+    
+    
+      October 1, 2020
+      
+      
+        Tennessee
+      
+      
+    
+    
+      
+      July 1, 2021
+      
+      
+      
+        Florida
+        Kansas
+      
+      
+    
+  
+
+
+
+  Note: This list may grow as additional states pass similar legislation over time.
+
+
+This article explains how marketplace facilitator tax is being applied to your Buy on Google products.
+
+How it works
+
+Google will determine the tax rate in applicable states by using any Google Product Categories that you supply in your feed. Learn more about Google Product Categories
+
+In states that have marketplace facilitator tax laws, your products are taxed in accordance with those laws. For orders in these states, Google remits the tax directly to state tax authorities. You're unable to refund or alter tax on orders in these states.
+
+In states that don't have marketplace facilitator tax laws, Google passes any taxes collected back to you, and you are responsible for remitting taxes as applicable. You're also able to refund or alter taxes at the time of order shipment.
+
+
+  For states that have marketplace facilitator tax laws, if you haven't provided Google Product Categories in your product data, tax rates will be automatically determined and applied by Google. Because Google cannot guarantee the categorization is correct in these circumstances, in order to provide the best experience to your customers, we suggest upgrading your feed to provide Google Product Categories. For states that don't have marketplace facilitator tax laws, the tax rate will continue to be calculated as it is today - using your Merchant Center tax settings or your tax overrides in the feed. Learn more about configuring tax in Merchant Center
+
+
+Google will make every effort to calculate tax as accurately as possible. However, because you have the most familiarity with your product assortment, it's strongly recommended that you supply Google Product Categories in order to help ensure that customers pay the tax amounts that they expect to see.
+
+
+  Related links
+
+  
+    google_product_category: Definition
+    About tax settings
+    Set up tax settings
+  
+
+
+
+  Need help? Click here to contact Buy on Google support.
+
+
+             Was this helpful?How can we improve it?YesNoSubmit       

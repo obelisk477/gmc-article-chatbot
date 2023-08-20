@@ -1,0 +1,80 @@
+ Local inventory onboarding guideCreate a local product inventory feedNext: Register and submit local feeds
+
+
+   This is step 5b of the local inventory onboarding guide.
+
+
+This article describes how you create a local products inventory feed for local inventory ads and free local product listings. For complete details on the feed itself, see the local product inventory feed specification.
+
+If you’re interested in submitting product data through API, learn more about the Google Content API.
+
+The local products inventory feed is a list of the products you sell in each store. Some attributes are required for all items, some are required for certain types of items, and others are recommended.
+
+
+  Note: Not providing a required attribute may prevent that particular product from showing up in results.
+
+
+
+
+  If you have any inventory where a sample is displayed in store, but customers must order to purchase (for example, large furniture items), follow the steps to verify your "On display to order policies" URL.
+
+
+Build your local products inventory feed
+
+Step 1: Create a delimited text file or use API
+
+
+  To start, create either a delimited text file (recommended), or use API.
+
+  
+    Note: XML files are now officially supported for the local products inventory feed.
+  
+
+
+Step 2: Tell us which products are sold in which stores
+
+
+  Include the ID [id], store code [store_code], availability [availability], and price [price] attributes for every product you sell in at least one store.
+
+  View an example of a local product inventory feed.
+
+  The price [price] attribute is required in either the primary feed for national default pricing or in this feed for any store-specific overrides.
+
+
+Step 3: Upload your local products inventory feed
+
+
+  To create a local product inventory feed, go to the Feeds section under "Products" in Merchant Center. At the top of the supplemental feeds table, click Add local product inventory feed. Follow the prompts and provide the following pieces of information about your data:
+
+  
+    Type: Local product inventory.
+    Language: The language of the content in your feed. Each target country has accepted languages. This language should match your primary feed language.
+  
+
+  
+    Important: In case your target country has several accepted languages, make sure to submit both a primary feed and a local product inventory feed for each individual language.
+  
+
+  
+    Feed label: Choose the feed label of the primary feed that this inventory feed applies to. If you have more than one primary feed with the same feed label, this inventory feed will be applied to both.
+    Feed name: Enter a descriptive name that helps you identify the feed. The inventory feed name doesn’t need to match the name of the file you’re submitting.
+    Upload method: Choose if you'd like to manually upload your feed or add a scheduled fetch. We recommend uploading your inventory feed at least once a day.
+  
+
+
+More frequent inventory updates
+
+Inventory price and availability can change frequently and on a store-by-store basis. You can increase the feed frequency to carry out more frequent updates of your inventory data. Contact our support team using the contact form if you encounter issues with your feed frequency. Also be aware that it can take up to 24 hours to sync your business locations into your Merchant Center account, so we recommend that you upload your inventory feed 24 hours after linking accounts, or after a store code is changed or updated in your Business Profiles.
+
+To submit product data through API, learn more about the Google Content API.
+
+
+Related links
+
+
+  Create a feed
+  About local products data
+
+
+
+Next: Register and submit local feeds             Was this helpful?How can we improve it?YesNoSubmit       

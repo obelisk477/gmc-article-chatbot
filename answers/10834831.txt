@@ -1,0 +1,75 @@
+ About shipping data verificationShipping data verification helps you validate whether you're showing the most accurate shipping times by pairing your recent historical shipping data with Google’s machine learning capabilities to calculate estimated shipping speeds for different delivery zones. Historical shipping data could include order tracking data or estimated delivery dates for specific products.
+
+If you use a partner who can provide this shipping data, you have the option to link your Merchant Center account directly to your partner to activate the verification. Alternatively, you can provide your historical order tracking data directly via manual upload or API.
+
+If our shipping models verify that your product could ship more quickly than what you've manually configured within Merchant Center or your feeds, we’ll show the improved shipping speed.
+
+Benefits
+
+Shipping speeds are a critical factor in customers' purchase decisions. By allowing Google to calculate shipping speeds customized to a customer’s location, based on your historical order tracking data and/or offer-level estimated delivery date data, you and your customers will benefit from:
+
+
+  Clarity and accuracy: Manually configured shipping speeds are often overly conservative because they typically take the most remote locations into account, resulting in a wide range of delivery times (for example: 3 to 10 days). In general, Google-calculated shipping speeds are determined by the customer's location (for example: postal code or state), often making them more precise (for example: 3 to 5 days).
+
+
+How it works
+
+You can provide your historical shipping data by either linking to a partner that manages orders and shipments or by manually uploading your order tracking history.
+
+Order tracking data could include:
+
+
+  Order information, including order ID, order creation time, delivery postal code, and region code
+  Shipping cost charged to the buyer
+  Shipping information, including the carrier, tracking number, origin, destination, and shipping times for each shipment associated with the order
+  Order line item information, including the products in the order
+
+
+To protect your customers’ personally identifiable information, we won't be retrieving customer names or exact addresses. You don't need to have all the order tracking data information listed above to participate in shipping verification and show improved shipping speeds. Historical order tracking data can cover all of your orders (for example, those made on your website), not just those through Buy on Google.
+
+This data will also be used to improve Google’s proprietary machine learning models for all merchants, including your business, but will never be shared with any other merchant or third party. If we predict a shorter delivery speed, we’ll show that to your customers instead of what you've configured in Merchant Center or your feeds. Learn more about Google’s privacy policy
+
+To verify your shipping data by linking your partner, you need:
+
+
+  To ship to US customers
+  To use one of our select partners (ShipStation, ShipHero, Sales & Orders, Simprosys, CedCommerce)
+    
+      If you’re using multiple partners, you can link to as many as you’d like.
+    
+  
+
+
+
+  Note: If you're a partner and would like to be added to our list, complete this interest form.
+
+
+To link to a partner, follow these steps when on the Shipping services overview page:
+
+
+  Click Shipping data verification.
+  Click + New verification.
+  Select your partner and follow the prompts to link your account.
+
+
+If you don't work with a partner and wish to manually upload your historical order tracking data for shipping data verification, follow these steps:
+
+
+  Click Switch to manual upload. Learn more about manual upload
+  Drag and drop or upload a TSV or XML file of your historical order tracking data into the tool.
+
+
+
+  
+    Example data files
+
+    You can reference our Tab delimited (.zip) or Tab delimited (.xls) example file as you're creating your historical order tracking data. Note that files in the .xls format can’t be processed. The .xls example file is only for illustration purposes in a spreadsheet program.
+  
+
+
+When you link to a partner or manually provide historical order tracking data for shipping data verification, you'll be opted into automatic shipping improvements on all of your offers across all listing types in the United States. By opting into automatic shipping improvements, you're allowing Google to improve the accuracy of your manually configured delivery times shown to customers. More accurate delivery times, especially when faster, typically lead to better conversion rates. You can turn off automatic shipping improvements at any time by disabling shipping data verification.
+
+Unlinking
+
+To manage your shipping data verification partners or to unlink an account, you can navigate to the “Platforms” page under "Linked accounts". Unlinking a partner removes Google’s authorization to retrieve any data from this partner. All prior data from this partner will be deleted within 120 days.
+             Was this helpful?How can we improve it?YesNoSubmit       

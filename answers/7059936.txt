@@ -1,0 +1,253 @@
+ Upload a logo
+
+
+  All existing vehicle ads Smart Shopping campaigns will be upgraded to Performance Max by September 2023, bringing you additional inventory and formats to reach new customers. Accounts in which all campaigns have been upgraded are no longer able to create new Smart Shopping campaigns. Learn how to create a Performance Max campaign.
+
+
+
+The Branding section of your Merchant Center account allows you to upload your store’s logos for use when advertising your products on Google.
+
+This article outlines the steps and requirements for uploading your logos to Merchant Center. If you don't use a feature that requires a logo, no action is needed.
+
+
+  For help with Buy on Google branding, visit the Buy on Google help center.
+
+
+How it works
+
+The logo you upload will be used for advertising your products on Google and viewed by users on screens of different sizes and resolutions.
+
+For square logos, we recommend using branding that has been designed to be viewed on a small scale, such as favicons or logos used on your social media accounts. Square images don’t need to include the brand name. For wide rectangular logos, your image should include a brand title or name that makes it easy for a user to identify your store name.
+
+Upload a new logo
+
+
+  Sign in to your Merchant Center account.
+  In your Merchant Center account, click Business information, then click Branding.
+  Find the requirements, max file size, and dimensions for the logo shape of your choice on the right side of the page (either square or rectangle). If your image doesn't fit into either set of these requirements, it won't upload and you'll receive an error message.
+  You can either drag and drop your image file from another window onto the logo shape of your choice, or hover your mouse over the box and click Upload to browse your computer for the file.
+
+
+Preview or remove a logo
+
+
+  Sign in to your Merchant Center account.
+  In your Merchant Center account, click the Tools and settings menu.
+  Under the “Tools” section, click Business information.
+  Select Branding.
+  Hover your mouse over the logo.
+    
+      To preview the logo, click Preview.
+      To remove the logo, click Remove.
+    
+  
+
+
+Change a logo
+
+
+  Sign in to your Merchant Center account.
+  In your Merchant Center account, click the Tools and settings menu.
+  Under the “Tools” section, click Business information.
+  Click on the Branding tab.
+  Find the requirements, max file size, and dimensions for the logo shape of your choice on the right side of the page (either square or rectangle). If your image doesn't fit into either set of requirements, it won't upload and you'll receive an error message.
+  You can either drag and drop your image file from another window, onto the logo shape of your choice, or hover your mouse over the box and click Upload to browse your computer for the file.
+
+
+Any newly uploaded or replaced logos undergo a manual review in Merchant Center. Priority will be given to retailers who participate in Merchant Center features that require a logo. After the logo has been approved, the new image will immediately replace the existing logo in your store branding in your Shopping ads.
+
+Logo requirements
+
+Logos that appear in your Shopping ads must meet the requirements outlined below. All uploaded images are reviewed and must be approved by the Merchant Center team before appearing on your ads. We recommend that you upload both a square logo and a rectangular logo to ensure the best representation of your brand in any given situation.
+
+
+  Note: There are different logo requirements for Buy on Google. Learn more about logo requirements for Buy on Google
+
+
+Square logos
+
+
+  Image type: Square logos must be viewable at a small scale, such as on mobile devices. We recommend using images designed for social media or as favicons. Note: Square logos don’t need to include your store name.
+  Aspect ratio: Square logos need to have an aspect ratio of exactly 1:1.
+  SVG (recommended), PNG, or JPG file type: Images must be either an SVG, PNG, or JPG file. We strongly recommend SVG as it is scalable across a large range of sizes without loss of quality. If a PNG or JPG image is submitted, it must be between 500x500 pixels and 2000x2000 pixels in size.
+  File size: Images files can’t be larger than 5MB.
+
+
+
+  Square logos example
+
+  
+    
+      
+        
+          Quality
+          Example
+          Context
+        
+      
+      
+        
+          
+          
+
+          Bad
+          
+          
+          
+          The image has an excessive amount of white space around the primary
+            part of the graphic (the "G"). This is also known as too much "padding".
+          
+        
+        
+          
+          
+
+          Good
+          
+          
+          The image makes good use of the space provided with the
+          "G" taking up most of the provided area.
+        
+        
+          
+          
+
+          Bad
+          
+          
+          The image is blurry and will appear illegible when viewed
+          from different screens.
+        
+        
+          
+          
+
+          Bad
+          
+          
+          The image contains information that isn't relevant to the
+          branding (the website and the company name). The small
+          text above and below the “G” graphic will be illegible when
+          the logo is resized to fit small screens.
+        
+        
+          
+          
+
+          Bad
+          
+          
+          The logo has too much white space around the primary part
+          of the graphic (the word “Google”). Square logos should match
+          the branding you already use for social media and favicons.
+          They don’t need to contain the full business name.
+        
+      
+    
+  
+
+
+
+  Rectangular logos
+
+  
+    Image type: Graphics and words used in rectangular logos must be viewable at a small scale, such as on mobile devices. Rectangular logos usually display the store name.
+    Aspect ratio: Rectangular logos need to be wider than 1:1, but must not be wider than 2:1.
+    SVG (recommended), PNG, or JPG file type: Images must be either an SVG, PNG, or JPG file. We strongly recommend SVG as it is scalable across a large range of sizes without loss of quality. If a PNG or JPG image is submitted, it must be least 128px high and cannot be more than 2000px wide.
+    File size: Images files can’t be larger than 5MB.
+  
+
+  
+    Rectangular logos example
+
+    
+      
+        
+          
+            
+              Quality
+              Example
+              Context
+            
+          
+          
+            
+              
+              
+
+              Bad
+              
+              
+              
+              This image has an excessive amount of white space around the
+                primary part of the graphic (the word "Google").
+                
+                This is also known as too much "padding"
+              
+            
+            
+              
+              
+
+              Good
+              
+              
+              This image makes good use of the space provided, with the
+              "Google" branding taking up most of the provided area.
+            
+            
+              
+              
+
+              Bad
+              
+              
+              
+              This image contains information that isn't relevant to the branding
+                (the website).
+                
+                The small text at the bottom will be illegible when the logo is resized
+                to fit small screens.
+              
+            
+          
+        
+
+        RETURN TO SET UP
+      
+    
+  
+
+  Logo quality issues
+
+
+If your logo is rejected or doesn’t successfully process, you may need to make some changes to the image to meet our requirements. Common quality issues that lead to logo rejection include:
+
+
+  The logo contains a watermarked image
+  The logo belongs to a different retailer or doesn’t match your current branding
+  The logo contains text that is illegible when the image is resized for smaller screens
+  The logo contains too much white space (also known as negative space). Negative space should not be added to an image to make it fit within the dimensions.
+  Any white space / background on logos should be made transparent. This doesn’t include images with colored backgrounds that are a set part of the logo.
+    
+      Note: Any variable transparency information (“alpha channel”) in your logo won’t be displayed on Google.
+    
+  
+  All uploaded logos must comply with Shopping ads policies. Any logos found to be in violation will be removed.
+
+
+If your logo has been rejected, review the error message sent to the notification center in your Merchant Center account. Resolve any outstanding issues and try again.
+
+Color controls (optional)
+
+For Smart Shopping campaigns, you can provide the main and accent colors of your brand to ensure that your Display ads appear more prominently against different colored backgrounds. Your main color is used primarily for backgrounds and large areas of color, and your accent color is used mostly for buttons and calls to action.
+
+To set up your colors:
+
+
+  In your Merchant Center account, click Business information, then click Branding.
+  Choose your main and accent colors.
+
+
+Either of your custom colors may be used. If you do not provide main and accent colors, your Display ads will serve with the default color rendering.
+             Was this helpful?How can we improve it?YesNoSubmit       

@@ -1,0 +1,1 @@
+ Store errors in local product inventory feedHow to fix: Duplicate Business ProfileHow to fix: Closed Business ProfileHow to fix: Deactivated Business ProfileHow to fix: Suspended Business ProfileHow to fix: Business Profile not verifiedHow to fix: Invalid store codeHow to fix: Store code found in not linked business groupsHow to fix: Missing store code      

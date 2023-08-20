@@ -1,0 +1,212 @@
+ Local inventory onboarding guideSelect a landing page experience for your local inventory adsNext: Upload a primary feed
+
+
+   This is step 6 of the local inventory onboarding guide.
+
+
+Local inventory ads can direct customers to either a Google-hosted local storefront or a merchant hosted local storefront depending on the the data provided in your primary and local product inventory feeds, and the information presented on your website product pages.
+
+
+  The Google-hosted local storefront (GHLSF) is a Google-hosted product page for your store where customers can view in-store inventory, get store hours, find directions, and more. Complete inventory verification to avail this feature.
+  The merchant hosted local storefront is a product page on your website.
+
+
+Instructions
+
+When you first enable local inventory ads, you'll be required to select a storefront option that best matches your website’s product page functionality. Depending on the storefront option you select, you will also be required to provide an example of a product page on your website for Google to review. Follow the steps below:
+
+Step 1: Tell us about your product landing pages
+
+
+  
+    In Merchant Center, click the tools icon  and then select Local inventory ads setup under “Tools.” After you’ve selected your country, in the “Website product pages” section select on one of the following storefront setups:
+
+    
+      Merchant hosted local storefront (full)
+
+        
+          Select this setup if your product page’s URL can be customized to display a product’s price and availability at a specific location using the Business Profile store code.
+          If you select this setup, your local inventory ads will direct users to your product page using the merchant hosted local storefront (full) feature.
+            
+              Ensure that you are submitting the [link_template] feed attribute for the merchant hosted local storefront (full) feature.
+            
+          
+        
+      
+      Merchant hosted local storefront (basic)
+        
+          Select this setup if your product pages allow customers to check a product’s availability at your retail stores.
+          If you select this setup, your local inventory ads will direct users to your product pages using the merchant hosted local storefront (basic) feature.
+            
+              Ensure that you are submitting the required feed attributes for the merchant hosted local storefront (basic) feature.
+            
+          
+        
+      
+      Google-hosted local storefront
+        
+          Select this setup if your product pages can’t show which stores carry your products.
+            
+              A Google-hosted local storefront page will be automatically built from your feed data.
+            
+          
+        
+      
+    
+  
+
+
+Step 2: Provide an example product landing page for review (required for merchant hosted local storefront full and basic)
+
+
+  
+    After you’ve selected your storefront setup, in the “Example product landing page” section provide a link to one of your product landing pages in the text box. If you have selected the merchant hosted local storefront (full) option, ensure the product link you are providing contains the store code and loads the landing page with product details for that store. Google will review this link to ensure that your website’s functionality meets the landing page requirements for the merchant hosted local storefront full or basic.
+
+    
+      Note: Your review will not be completed until you create, register, and submit feeds for local inventory ads.
+    
+
+    If you selected the Google-hosted local storefront option, you will not be required to submit an example page for review.
+  
+
+
+Step 3: Submit a link to your price policy (recommended for merchant hosted local storefront basic)
+
+
+  
+    If you allow shoppers to purchase products in-store for the price listed on your product pages, you may submit a link to your policy. Google will then review your policy to ensure it meets the requirements.
+
+    After you’ve selected your storefront setup, check the box labeled “Shoppers can purchase something in store for the price on my website and I have a price policy on my website.” Then enter the URL link to your policy in the text box.
+
+    If your policy is approved you'll be eligible for the following benefits:
+
+    
+      
+        Your Merchant Center account will be exempt from inventory verification if you use the merchant hosted local storefront (basic) feature.
+      
+      
+        A link to your price policy will be displayed on your Google-hosted local storefront.
+      
+    
+  
+
+
+Change your landing page experience
+
+If you’re already opted into local inventory ads, you can see which experience your account is using by logging into your Merchant Center account. Click the tools icon  and then select Local inventory ads setup under “Tools.” After you’ve selected your country, in the “Website product pages” section you will see the setup your account is using.
+
+
+  
+    Note: The current landing page experience must first be approved before you can change it. If the landing page experience needs to be changed before the approval, you should remove your country and add it again with the desired landing page experience.
+  
+
+
+Switch to a Merchant Hosted Local Storefront
+
+If you are currently using the Google-hosted local storefront setup and would like to change your landing page experience to use one of the merchant hosted local storefront options, you will need to make three key changes.
+
+Update your “Website product pages” selection
+
+
+  
+    
+      In your Merchant Center account, click the tools icon and then select Local inventory ads setup under “Tools.”
+      After you’ve selected your country, you will see the “Website product pages” section.
+      Select one of the options: “Merchant hosted local storefront (full)” or “Merchant hosted local storefront (Basic).”
+      Submit an example product landing page URL in the text box.
+      Note: Additional verification will be required before your ads will redirect to your merchant hosted landing pages.
+    
+  
+
+
+Update your primary feed and inventory feed to add additional attributes
+
+
+  
+    
+      If you’re changing to merchant hosted local storefront (full):
+        
+          Review the feed attribute requirements and ensure you include the following attributes:
+
+            
+              Primary Feed:
+                
+                  Link for your merchant hosted local storefront (full) [link_template]
+                
+              
+              Primary Feed or Product Inventory Feed:
+                
+                  Price [price]
+                
+              
+            
+          
+        
+      
+      If you’re changing to merchant hosted local storefront (basic):
+        
+          Review the feed attribute requirements and ensure you include the following attributes:
+            
+              Primary Feed:
+                
+                  Link [link]
+                  Price [price]
+                
+              
+              Product Inventory Feed:
+                
+                  Price [price]
+                
+              
+            
+          
+        
+      
+    
+  
+
+
+Contact Google Support
+
+
+  
+    
+      Use the contact us form to request assistance and fill in the following fields:
+
+        
+          “Type of issue”:
+            
+              I want to implement additional features (Merchant-hosted local storefront, Store pickup, On Display to order)
+            
+          
+          “Please select the feature that you are interested in implementing”:
+            
+              Select either “Merchant Hosted Local Storefront (Full)” or “Merchant Hosted Local Storefront (Basic)”
+            
+          
+          “Summary of issue”:
+            
+              Enter “I am changing my landing page experience from Google-hosted to merchant hosted.”
+            
+          
+        
+      
+      Google support will then conduct a review of your account in order to determine the following:
+        
+          Whether your example product page meets the participation requirements for your selected website experience.
+          Whether your feeds contain the required metadata to support your selected website experience.
+        
+      
+    
+  
+
+
+Related links
+
+
+  Local inventory onboarding guide
+  Local inventory ads overview
+  Merchant hosted local storefront (full)
+  Merchant hosted local storefront (basic)
+
+Next: Upload a primary feed             Was this helpful?How can we improve it?YesNoSubmit       

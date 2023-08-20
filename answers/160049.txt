@@ -1,0 +1,13 @@
+ Register your site's URL
+
+To register your site's URL:
+
+
+  Sign in to your Google Merchant Center account.
+  Go to the About your business page under Business information.
+  Enter your site's URL under the Website section. Make sure your URL begins with http:// (or https://) and includes your full domain name.
+  Click Save to confirm your site.
+
+
+
+             Was this helpful?How can we improve it?YesNoSubmit       

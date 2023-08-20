@@ -1,0 +1,21 @@
+ Implementation guideStep 1: Configure your accountsNext: Step 2: Create a promotion
+
+
+  If you’re looking for information about configuring your accounts in the classic Merchant Center experience, click here. 
+
+
+
+This article details how to set up your Merchant Center Next account to run promotions on your products. If you already have an active products feed in your Merchant Center account and promotions are enabled in your account, skip to Step 2: Create a promotion.
+
+Set up Merchant Center
+
+Your product information lives in Merchant Center. To set up your account, follow the steps below:
+
+
+  Create a Merchant Center account and provide details about your business.
+  To make sure your website meets all requirements, verify and claim your website URL.
+  To tell Google what products you sell online, create a products feed.
+
+
+RETURN TO PROMOTIONS HOME
+Next: Step 2: Create a promotion             Was this helpful?How can we improve it?YesNoSubmit       

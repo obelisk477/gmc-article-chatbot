@@ -1,0 +1,74 @@
+ Track your store's Business Profile performance in Merchant Center
+
+Merchant Center gives you the ability to monitor the performance of your store's Business Profile on Google Search & Maps, by tracking various metrics over a given time period. Learn how to connect your Google Business Profile to Merchant Center.
+
+On this page
+
+
+  How to see your store's Business Profile performance metrics in Merchant Center?
+  Which Business Profile metrics are available?
+  How to understand your Business Profile performance metrics?
+
+
+
+How to see your store’s Business Profile performance metrics in Merchant Center?
+
+
+  Sign in to Merchant Center and select Performance > Store(s)
+  Select a time period and the desired metrics
+
+
+You don’t have a physical store or you’re looking to track the performance of your online store products? Discover how to Track your product performance in Merchant Center.
+
+
+Which Business Profile metrics are available?
+
+What follows is a complete list of the Business Profile interaction metrics you can track. Interaction metrics are reported with daily granularity, but it can take 3-4 days for results to appear. Any dated events are reported according to the time zone of your Business Profile.
+
+
+  
+    All interactions
+
+    How many times people call, message, ask for directions, or click on your website from your store’s Business Profile on Google Search & Maps.
+
+    Website clicks
+
+    How many times people click on your website from your store’s Business Profile on Google Search & Maps.
+
+    Calls
+
+    How many times people call from your store’s Business Profile on Google Search & Maps.
+
+    Messages
+
+    How many times people message from your store’s Business Profile on Google Search & Maps.
+
+    Directions
+
+    How many times people ask for directions from your store’s Business Profile on Google Search & Maps.
+  
+
+
+
+How to understand your Business Profile performance metrics?
+
+Performance graph
+
+This allows you to view the evolution of your performance metrics over time.
+
+
+  Use the date selector to view the data for longer or shorter time periods.
+  A shorter time period can be used to focus on performance at a specific time, for example, during a holiday season.
+  A longer time frame can give you indication of cyclical trends among your potential customers.
+  By turning on the “Compare” toggle from the date picker, comparisons are shown for the time series graph as well. By default, the metric in the scorecard shows a comparison with the previous period selected, even if you don't turn on the comparison toggle.
+
+
+
+  Note: Make sure to verify all your stores for complete information.
+
+  
+    If multiple stores are added and some are unverified, an alert banner is shown and redirects to the Stores page to verify the store.
+    If only one store is linked and it's not verified, the tab will direct you to verify the store.
+  
+
+             Was this helpful?How can we improve it?YesNoSubmit       

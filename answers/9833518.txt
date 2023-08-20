@@ -1,0 +1,92 @@
+ How to fix: Missing printer cartridge requirementsSubmit a value that meets the requirements for printer cartridges, then contact Google to verify that this issue has been resolved
+
+Your offer for printer cartridges doesn’t meet Google’s requirements for compatible or refurbished third party products (non-OEM). These requirements are different based on the condition and the type of cartridge.
+
+For example, in an offer for third-party printer ink in a third party container, the title does not begin with “third party”, “generic” or “compatible”. As a result, the offer for printer cartridges will be disapproved. In order to resolve this issue, you will need to change the title, brand, or Unique Product Identifier to comply with Google requirements.
+
+Instructions
+
+
+  Step 1: See the affected products
+
+  
+    
+  Sign in to your Merchant Center account.
+  Select Products on the navigation menu, then click Diagnostics.
+  Click the Item issues tab to see current issues affecting your products.
+
+
+To download a list (.csv) of all affected products for all issues:
+
+
+  Click the download button  next to the filter button , beneath the graph and above the list of issues.
+
+
+To download a list (.csv) of all affected products for a particular issue:
+
+
+  Find the issue under the “Issue” column, then click the download button  at the end of the row.
+
+
+To see a list of up to 50 products with this particular issue:
+
+
+  Find the issue under the “Issue” column, then click View examples in the “Affected items” column.
+
+
+  
+
+
+
+  Step 2: Submit a value that meets the requirements for printer cartridges, then contact Google to verify that this issue has been resolved
+
+  
+    
+      Filter the downloaded report so that you only see products with:
+        "Issue title" = Missing printer cartridge requirements
+      Search your product data for those products (using the ID), and make sure each value for printer cartridges meets Google’s requirements for compatible or refurbished third party products.
+    
+  
+
+  
+    Step 3: Resubmit your product data
+
+    
+      
+  After you’ve updated your product data, resubmit it using one of these methods:
+    
+      Upload a feed
+      Submit through the Content API
+      Import content from an ecommerce platform
+    
+  
+  Next, check that you’ve fixed the issue by making sure it’s no longer listed on the Diagnostics page.
+    
+    Keep in mind: It may take some time for your change to be reflected on the Diagnostics page.
+
+
+    
+  
+
+  
+    Step 4: Request review
+
+    
+      In some instances, if your account or one of your product offers is disapproved and you’ve either fixed the issue or you disagree with the issue, you can request a review. If the review is successful, your issue will disappear. If the disapproval remains and you’re uncertain with how to proceed, contact us for support.
+
+
+  Note: If you use a third-party platform to list your products, you may also be able to go to your third-party application to request a review.
+
+
+    
+  
+
+  Related links
+
+  
+    About unique product identifiers
+    About compatible or refurbished third party products
+    Tips to help your product stay approved
+  
+
+             Was this helpful?How can we improve it?YesNoSubmit       

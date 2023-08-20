@@ -1,0 +1,56 @@
+ Promotion basics
+
+
+  If you’re looking for information about promotion basics in Merchant Center Next, click here.
+
+
+
+This article explains the benefits of promotions and how they work.
+
+Promotions allow you to distribute online offers across different Google properties, including Google Search, the Shopping tab, Chrome, and more. When you add promotions to products that you sell on Google, shoppers view a “special offer” link (for example: 15% off, free shipping, etc.). This link can increase the appeal of the products you show and encourage shoppers to buy. Learn more about how to Create a promotion.
+
+Google Ads Help: About promotions
+
+For subtitles in your language, turn on YouTube captions. Select the settings icon  at the bottom of the video player, then select "Subtitles/CC" and choose your language.
+
+
+
+
+
+  Note: Cost per click (CPC) rates are not affected by promotions.
+
+
+
+Benefits
+
+
+  Boost clickthrough rate: Use promotions to highlight the products you show on Google
+  Increase conversions: Give shoppers a reason to buy now
+  Capture multi-screen traffic: Google shows “special offer” links on desktop and mobile devices
+
+
+
+How it works
+
+Promotions are available if you have an active product feed in the Google Merchant Center. After you successfully activate promotions, you can create a variety of different types. After a promotion is created, Google reviews it.
+
+Google accepts the following types of promotions:
+
+
+  Discounts: Percent off, cash back, buy one get one free, or buy one get 2nd percent off
+  Free gifts: Free item or free gift card for a specified value
+  Shipping: Free or discounted shipping
+
+
+Note: Promotions do not affect rankings on Google.
+
+Google rejects promotions that can't be used by all or the majority of audiences who could view them, such as promotions offered to a specific group (For example: Military members or students.) Promotions offered only to first-time customers are allowed. Learn more about promotion types
+
+
+Create and manage promotions with third-party partners (US only)
+
+If you have a Shopify or WooCommerce account, you can connect your product discounts from these platforms with your Merchant Center account to show your promotions for your products on Google. You don’t have to create your promotions through your Merchant Center account if you use this feature.Learn more about managing your promotions through third-party partners
+
+RETURN TO PROMOTIONS HOME
+
+             Was this helpful?How can we improve it?YesNoSubmit       

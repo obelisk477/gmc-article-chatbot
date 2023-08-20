@@ -1,0 +1,83 @@
+ Tips to optimize your product data
+
+Your product data shapes the way your ads and free listings behave and perform on Google surfaces. To make ads, listings, and your campaigns as successful as possible, you need to provide and maintain high-quality product data.
+
+Use these tips to create a strong set of data and help you see results from your campaigns.
+
+On this page
+
+
+  Think strategically about your customers
+  Highlight important product details
+  Use high-quality images
+  Provide your most accurate product data
+  Match your product data to your landing pages
+
+
+
+Think strategically about your customers
+
+Use what you know about your products and your audience to plan ahead.
+
+
+  Map out your customer journey from search query to checkout. Identify opportunities that will create a better shopping experience, such as improvements to your product data, landing page, and checkout process. Customers are more likely to purchase if they can quickly find what they want to buy, if they can use rich content to help them make an informed decision, and if they can complete the transaction in just a few steps.
+  Prioritize your most valuable products when allocating resources. Focus on products that have the most impact on your performance. Make sure you provide complete product data and fix any critical issues for those products.
+  Run experiments to identify optimization techniques that are most effective for your products and target audience. For example, try adding color to your apparel product titles and measure the change in your key performance metrics. Test different tactics to determine what will drive results for your business.
+  Take advantage of opportunities to differentiate your ads and listings with promotions, Product Ratings, Customer Reviews, and local inventory ads. Highlight your unique offers and value propositions to set your products, ads, and listings ads apart from your competitors.
+
+
+
+Highlight important product details
+
+Use product titles to attract customers to your ads and listings.
+
+
+  Include important attributes in your title, such as strong brand names, age group, gender, size, color, size type, or personalization options. Provide customers with the most relevant information about your product to better match search queries and drive performance lift.
+  Put key details at the front of your product title, especially if they’re not visible in the image. Product titles are truncated in most ad formats, so show your most relevant and compelling content at the beginning of the title to inform customers before they click through to your site.
+
+
+
+Use high-quality images
+
+Use great images to make the best impression and improve product performance.
+
+
+  Provide the highest resolution image you have available. Products with high quality images are more likely to show for relevant search queries and will capture the attention of your customers, especially on high resolution devices.
+  Avoid placeholder images, or images that include promotional messages or logos. Deliver a professional image to capture the attention of your customers.
+
+
+
+Provide your most accurate product data
+
+Use the most up-to-date and complete information you have to build trust with your customers.
+
+
+  Maintain up-to-date price and availability, including tax and shipping, by using automated feed delivery (including intraday updates), the Content API, or structured data markup. Customers will leave your site if they don’t see the price or availability they expect. Mismatches will also cause disapprovals.
+  Provide the most detailed product type values you have, and values for the Google product category [google_product_category] attribute that are at least 2-3 levels deep. Arrange your product type to start with a broad group and end with a more specific group. Avoid adding synonyms, search query terms, or promotional text. Products should only be categorized by type. For example: Apparel & Accessories > Clothing > Outerwear > Coats & Jackets > Denim Jackets.
+  Use a unique value for the ID [id] and product title [title] attributes for every product in your product data. Using the same, consistent ID [id] with each product will preserve its historical data. In addition, a differentiated title [title] helps you showcase the details and attributes of each product so customers quickly find what they’re looking for.
+  
+    Provide a value for the GTIN [gtin] attributes whenever available for your products. GTINs help us understand exactly what product you're showing. When we understand what you're selling or listing, we can help boost your performance by adding valuable details about the product and serving your Shopping ads and free listings in more relevant ways. This also means that your ads and free listings can appear in more places on Google, YouTube, and our partner sites.
+  
+
+
+
+  
+    Tip
+
+    Retailers who've added correct GTINs to their product data have seen a 20% increase in clicks on average.
+  
+
+
+
+Match your product data to your landing pages
+
+Follow landing page requirements to make sure your customers’ expectations are met.
+
+
+  Use the same product title and description that you do on your landing page. Don’t use synonyms or search query terms that aren’t included in your product’s landing page. Customers expect the messaging of your product ads and listings to match your landing pages. Differences can create a poor shopping experience or cause customers to leave your page without buying anything.
+  Use product landing pages that show the same product variant that you use in your Shopping ad or listing. It can be a frustrating experience for customers, especially on mobile, to have to select a product variant, like color or size, on your landing page after clicking on that variant in your Shopping ad or listing.
+  Use the same color names in your product data that appears on your landing page. For example, don’t change a color like “Midnight Sky” into “Dark Blue”. Your account may be disapproved or you may confuse customers if you show a different name for the color in your Shopping ad or listing than the color's name on your product landing page.
+
+
+
+             Was this helpful?How can we improve it?YesNoSubmit       

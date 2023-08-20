@@ -1,0 +1,77 @@
+ View ad campaigns performance in Merchant Center
+
+
+  If you’re looking for information about viewing ad campaigns performance in Merchant Center Next, click here. 
+
+
+
+In your Merchant Center account, you can track the results of your Performance Max campaigns from the “Ad campaigns” page. You can view the overall performance of all your campaigns at the top of the page and the performance of individual campaigns below that.
+
+
+
+
+  Note: The performance graph isn't available if your Merchant Center account is linked to multiple Google Ads accounts.
+
+
+Understanding your metrics
+
+You may notice different results reported for your campaigns based on whether or not you’ve set up conversion tracking in your Google Ads account.
+
+Without conversion tracking
+
+These are the metrics available without conversion tracking:
+
+
+  Ad clicks: The number of times your ad was clicked on.
+  Ad impressions: How often your ad was shown to customers.
+  Click-through rate (CTR): A ratio showing how often your ad led to visits to your website after it appeared on Google channels. It is calculated by dividing the number of clicks on your ad by the number of impressions.
+  Cost: The combined total cost of your campaign.
+
+
+With conversion tracking
+
+These are the metrics available with conversion tracking (if your campaigns recorded at least one conversion):
+
+
+  Ad clicks: The number of times your ad was clicked on.
+  Ad conversions: The number of times clicks on your ad led to a valuable action for your business (such as an online purchase).
+    
+      You define the action that you want to track when you set up conversion tracking in Google Ads.
+    
+  
+  Cost: The combined total cost of your campaign.
+  Cost per conversion: The average cost of each conversion.
+    
+      The cost per conversion is calculated by dividing the total cost of your campaign by the number of conversions.
+    
+  
+
+
+Additional reporting functionalities
+
+You can view your ads performance in more detail by accessing the “Performance dashboard”.
+
+The dashboard allows you to segment your metrics by product, brand, category, or region. This information can help you make decisions on your ads campaigns and product portfolio.
+
+To access the “Performance dashboard”:
+
+
+  Click Performance and then click Dashboard in the left-hand navigation menu.
+  Click on the Shopping ads tab on the menu above the dashboard.
+  Segment each metric by clicking the segment’s name at the bottom of the dashboard.
+
+
+
+  Important: There may be differences between the metrics displayed on the “Ad campaigns” page and in the “Performance dashboard”. This is because the dashboard only includes Shopping ads, while the “Ad campaigns” page also includes other ad formats supported by Performance Max campaigns (for example, ads served in YouTube). Additionally, the “Ad campaigns” page relies on Google Ads tracking while the dashboard relies on Google Analytics. Google Ads calculates data differently than Google Analytics, so you’ll see some differences in metrics even when the underlying data is the same. Learn more about potential data discrepancies
+
+
+You can access even more advanced reporting functionalities in Google Ads. After linking your Merchant Center and Google Ads accounts, you’ll be able to view your campaign reporting in both accounts.
+
+Related links
+
+
+  Advertise your products using Merchant Center
+  Create a Performance Max campaign in Merchant Center
+  About performance reporting in Merchant Center
+
+             Was this helpful?How can we improve it?YesNoSubmit       

@@ -1,0 +1,173 @@
+ FAQs for Google Customer Reviews
+
+This page provides answers to common questions about Google Customer Reviews.
+
+
+  Can I participate in Google Customer Reviews in my country?
+
+  Google Customer Reviews is available in the following countries: Algeria, Argentina, Australia, Austria, Bahamas, Bahrain, Belgium, Belize, Bhutan, Brazil, Burkina Faso, Cameroon, Canada, Chad, Chile, China, Colombia, Costa Rica, Cote d'Ivoire, Czechia, Denmark, Dominican Republic, Ecuador, Egypt, El Salvador, Fiji, France, Gabon, Germany, Guatemala, Guyana, Honduras, Hong Kong, India, Indonesia, Ireland, Israel, Italy, Jamaica, Japan, Jordan, Kuwait, Libya, Liechtenstein, Luxembourg, Malaysia, Maldives, Mali, Mexico, Morocco, Namibia, the Netherlands, New Zealand, Nicaragua, Norway, Oman, Panama, Papua New Guinea, Paraguay, the Philippines, Poland, Portugal, Puerto Rico, Qatar, Russia, Saudi Arabia, Singapore, South Africa, South Korea, Spain, State of Palestine, Sweden, Switzerland, Taiwan, Thailand, Timor-Leste, Tunisia, Turkey, Ukraine, the United Arab Emirates, the United Kingdom, the United States, Uruguay, Venezuela, Vietnam
+
+
+
+
+  Does Google Customer Reviews work on mobile devices?
+
+  Yes. The survey opt-in can be displayed to users on mobile and desktop web browsers.
+    If you'd like to use the mobile opt-in feature on your mobile site, integrate the Google Customer Reviews opt-in code snippet on your mobile site’s order confirmation page, in addition to your desktop or tablet site. The survey experience works across devices without additional integration.
+  
+
+
+
+  Why should I sign up for Google Customer Reviews?
+
+  
+    When you participate in Google Customer Reviews, you can add a badge with the Google brand and your seller rating to your website. Additionally, the reviews collected by Google Customer Reviews help you become eligible for seller ratings. Signing up can take less than a few hours.
+  
+
+
+
+  What are the Google Customer Reviews eligibility requirements?
+
+  
+    To use Google Customer Reviews, your website checkout flow must include an order confirmation page. Google Customer Reviews also requires that its participants adhere to the product’s policies.
+  
+
+
+
+  Can I participate in Google Customer Reviews if I do not sell physical products?
+
+  Yes, GCR does not require participants to sell physical products. You must be able to provide an estimated delivery date (EDD) for the items you sell in the order confirmation module (i.e. the date you expect the good/service to be consumed).
+
+
+
+  Can Google Customer Reviews work with a third party review system I currently use on my site?
+
+  
+    Google Customer Reviews can work in conjunction with a third party review system that already provides Google data. Keep in mind that Google Customer Reviews is the only way to get the Google brand and seller ratings on your site.
+  
+
+
+
+  How do I sign up for a Google Merchant Center account?
+
+  
+    Follow the instructions to create a Merchant Center account.
+  
+
+
+
+  Do I need to verify ownership of my website URL / domain in Merchant Center?
+
+  
+    Yes, you must verify ownership of the website URL / domain associated with your Google Merchant Center account. Learn how to verify and claim your website URL.
+  
+
+
+
+  Do I need to link my Google Merchant Center account to my Google Ads account?
+
+  
+    No, you do not need to link your Merchant Center account to Google Ads for Google Customer Reviews to work.
+  
+
+
+
+  How do I integrate the Google Customer Reviews badge and survey?
+
+  
+    To integrate the badge and survey opt-in, follow the steps in the integration guide.
+  
+
+
+
+  Do I have to display the Google Customer Reviews badge on my website?
+
+  No, displaying the badge on your site is optional.
+
+
+
+  What is the "order confirmation module"?
+
+  
+    "Order confirmation module” refers to the JavaScript on the purchase confirmation page that launches the survey opt-in window.
+  
+
+
+
+  Can I display the “order confirmation module” code for Shopping ads visits only?
+
+  
+    No, Google Customer Reviews requires that you display the survey opt-in to all customers after they checkout on your website.
+  
+
+
+
+  Can I customize the text that appears on the survey opt-in window?
+
+  
+    No, the text that appears on the survey opt-in window is not customizable.
+  
+
+
+
+  Can I customize or remove any of the text that appears in the survey?
+
+  
+    
+      No, the text for the survey is currently not customizable. All text that appears in the survey, including the option for customers to leave comments, cannot be removed.
+
+      Note: The Google Customer Reviews survey may be customizable in the future, as Google continues to improve the feature.
+    
+  
+
+
+
+  Can I choose the date that my customers receive the survey opt-in email?
+
+  
+    No, Google manages the survey delivery date on your behalf. Customers who opt-in to the survey, receive an email that asks them to rate their experience on or around their expected delivery date. Learn more about the Google Customer Reviews opt-in and survey.
+  
+
+
+
+  How many questions does the survey have?
+
+  
+    The survey has one question.
+  
+
+
+
+  Can I show the survey question directly on my purchase confirmation page?
+
+  
+    No, you cannot show the survey question on your purchase confirmation page. To provide the most valuable feedback about purchases on your site, we want customers to respond only after they’ve received their goods or service.
+  
+
+
+
+  What happens if I don't want to prominently display the Google Customer Reviews survey opt-in?
+
+  You can display the survey opt-in at the bottom of your checkout page or in other less prominent locations on the page. Keep in mind that we recommend placing the opt-in at the center of the page. Placing the opt-in at the bottom of the page or on the right of the page usually leads to lower opt-in rates.
+
+
+
+  How do I view the ratings Google Customer Reviews has received about my site?
+
+  
+    
+      From your seller ratings page, click any link labelled Google Customer Reviews.
+    
+  
+
+
+
+  What happens if I don't have a seller rating?
+
+  
+    
+      Your Google Customer Reviews badge will state “Rating not available” in lieu of a rating (the numerical value and star rating). Your business needs enough unique reviews for a country within the last 12 months to establish a seller rating in that country. The number of reviews needed can vary from business to business, but most merchants are able to obtain a rating after collecting 100 or more eligible reviews.
+    
+  
+
+             Was this helpful?How can we improve it?YesNoSubmit       

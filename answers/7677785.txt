@@ -1,0 +1,90 @@
+ About the inventory feed specification
+
+
+  This feed is only used to implement the optional local feeds partnership program.
+
+
+
+The inventory feed provides a list of all products (identified by id) sold in each store (identified by store_code) for a given retailer (identified by target_customer_id). It's recommended that you update the inventory feed at least daily.
+
+Each time you upload the inventory feed, product information is updated incrementally. You only need to include products for which the availability or price has changed since the previous update.
+
+
+  Note: In order to implement the local feeds partnership program, you're required to upload either an inventory feed or a sales feed. You can also upload both feeds and use them in combination.
+
+
+
+
+  
+  
+  
+    
+      Required field
+      Description
+      Type
+      Example
+    
+    
+      target_customer_id
+      The merchant ID of this retailer.
+      Integer
+      112339909
+    
+    
+      store_code
+      
+      The unique store identifier. This value is case sensitive.
+
+      Use either the store code listed in the retailer's Business Profile or a point of sales (POS)/inventory data provider internal identifier.
+
+      Note: If using an internal store code, provide a mapping to the store address in the store feed.
+      
+      String
+      ‘465278’
+    
+    
+      id
+      
+      The unique identifier of the product. It's recommended that you use the product SKU.
+
+      Note: If the retailer sells the same product new and used, they should have different IDs.
+      
+      String
+      <= 50 characters
+      ‘1029384’
+    
+    
+      gtin
+      
+      The Global Trade Item Number of the product.
+        We accept a variety of standards for gtin (including UPC). Learn more About unique product identifiers
+      
+      String
+      ‘885787364684’
+    
+    
+      quantity
+      The quantity of the product.
+      Integer
+      >= 0
+      5
+    
+    
+      price
+      The price of the product in local currency.
+      String
+      ‘28.00 USD’
+    
+    
+      timestamp
+      
+      The timestamp of recording the inventory in a specific time zone, as defined by the ISO 8601 standard.
+
+      Format: yyyy-mm-ddThh:mm:ss+time zone
+      
+      String
+      ‘2016-05-09T14:08:45+00:00’
+    
+  
+
+             Was this helpful?How can we improve it?YesNoSubmit       

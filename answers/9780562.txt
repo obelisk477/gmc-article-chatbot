@@ -1,0 +1,294 @@
+ Show users that you offer free and fast shipping
+
+Free and fast shipping annotations allow you to showcase your products that you can ship quickly and with reliable fulfillment experiences for customers. To participate, you'll need to provide shipping that is:
+
+
+  Free: A product can be shipped free of charge to the customer (or free if product price meets minimum basket).
+  Fast: A product can be delivered to a customer in 3 business days or sooner, including both transit time and handling time.
+
+
+
+
+Requirements
+
+You can enable free and fast shipping annotations in your Shopping ads, Buy on Google listings, and free product listings. Before doing so, you need to have:
+
+ An active Merchant Center account with products opted into Shopping ads or free listings in the United States
+
+ Active products in your Merchant Center account which you can identify as free and fast
+
+ Shipping settings configured for free and fast
+
+
+
+  This can be done at the account level, or through shipping attributes in your product feed.
+
+
+
+ Product feed attributes shipping label [shipping_label] and transit time label [transit_time_label]
+
+
+
+  If only a subset of your products is eligible and you set it up at the account level
+
+
+
+ Product landing or detail pages and checkout pages to message free and fast shipping
+
+
+
+  The shipping speed you submit to Merchant Center must match what is on your website. If you can’t match the speed exactly, overestimate the figures you submit to Merchant Center.
+
+
+
+
+  
+    Note: If your ads and free listings, or shipping, are managed by a third party, you'll want to contact them for setup assistance.
+
+    
+      List of partners who have enabled free and fast shipping
+
+      
+        
+          Ads management partners:
+
+          
+            Logical Position
+            Sales & Orders
+          
+
+          Logistics providers:
+
+          
+            Deliverr
+            ShipBob
+            Flexe
+          
+
+          If you're a third-party channel, data feed, or logistics partner and want to set up integrations to provide free and fast shipping information on behalf of your partner retailers, fill out this interest form indicating that you're a third-party partner.
+        
+      
+    
+  
+
+
+Instructions
+
+Step 1: Determine your delivery coverage
+
+
+  You can choose to opt in your entire product inventory or a subset of products. You may also choose between nationwide coverage or a subset of zip codes.
+
+  In order to be eligible for free and fast shipping annotations, you must provide shipping information for those products either via account-level shipping settings in your Merchant Center account or via item-level shipping [shipping] attribute in the feed. Learn more about setting up shipping settings and the shipping [shipping] attribute.
+
+  Keep in mind that you can't combine “price in feed and delivery speed in account settings" or "delivery speed in feed and account level price settings" for the same product. Once you submit the price via attribute, the account shipping service settings, including delivery times, will be ignored for the matching location for that product. You must also submit a value for price in feed in order for delivery speed in feed to be considered valid.
+
+  Follow the instructions in step 2-A to set up shipping in your Merchant Center account. You may also make shipping setting changes using the Content API. Follow the instructions in step 2-B to set up shipping via your feed.
+
+
+Step 2-A: Configure your account-level shipping settings
+
+
+  Create a new or edit an existing shipping service
+
+  
+    From the navigation menu, click the tools icon  and then Shipping and returns.
+
+      
+        Add or edit an existing shipping service for items eligible for free and fast shipping annotations.
+      
+    
+    Enter your shipping service information:
+      
+        Provide a name for the shipping service.
+        Select United States as the service area.
+        Select either All scenarios except Buy on Google or All scenarios.
+      
+    
+  
+
+  
+    Note: Choosing only "Buy on Google” will cause your annotations not to appear in Shopping ads and free listings.
+  
+
+  Add order cut-off time, handling time, and transit time
+
+  
+    Under “Delivery time”, input the following:
+      
+        Enter order cutoff time and timezone.
+        Enter handling time and fulfillment days.
+          
+            To apply the same transit time nationwide and for all the products:
+              
+                Enter transit time and shipment days of the week.
+              
+            
+            If you want your transit time to apply to specific areas of the country:
+              
+                Enter shipment days of the week.
+                Click More transit times.
+                Click Add destination.
+                Click New destination.
+                  
+                    Enter name.
+                    Enter all eligible zip codes to apply the same transit time.
+                    Once complete, click Add Postal Codes.
+                    Click Select.
+                    Enter the transit time for the group of zip codes
+                      
+                        You can enter more than one group of zip codes if certain subsets of zip codes have different transit times (for instance, one subset of zip codes can have 1 day delivery, a second subset of zip codes can have 2 day delivery, etc.).
+                      
+                    
+                  
+                
+              
+            
+            (Optional) If transit times vary depending on the product, you can click Add Transit Time Label to create labels which can be assigned to sets of products using the transit time label [transit_time_label] attribute in your feed. Learn more about setting up transit time labels
+          
+        
+      
+    
+    Click Next.
+  
+
+  
+    Note: In order to be eligible for free and fast shipping annotations, the sum of your maximum handling time and maximum transit time must not exceed 3 business days.
+  
+
+  Add shipping rate
+
+  
+    Click New shipping service to add a new shipping rate.
+    Select All products to apply the shipping rate to all products or select Filter products by shipping label to apply it to a subset of products.
+    Provide a shipping label name if you have chosen “Filter products by shipping label”.
+    (Optional) Provide a shipping rate name.
+    Click Create a single rate for all orders or configure your table to create rules based on one or 2 dimensions: price, destination, weight, or number of items. Learn more about setting shipping rates
+    Click Continue.
+  
+
+  If only a subset of your products is eligible for free shipping: Update your shipping label
+
+  If only a subset of your products can be delivered free then the shipping label [shipping_label] attribute can be populated to match items with the newly-created shipping label. If all items in your catalog ship for free, then the shipping label [shipping_label] attribute is not required.
+
+  
+    Update the shipping label [shipping_label] attribute in your feed for items that are eligible for free shipping. The value in the attribute should match the shipping label [shipping_label] attribute set up in your account.
+
+      
+        Option 1: Update using your primary feed input source
+
+          
+            In your primary feed, modify the feed to include the shipping label [shipping_label] attribute.
+          
+        
+        Option 2: Using feed rules
+          
+            Using feed rules, create or edit a rule set on the shipping label [shipping_label] attribute.
+              
+                In order to tag only specific products in feed rules, you can set rule conditions to target specific brand or category combinations.
+              
+            
+          
+        
+        Option 3: Using supplemental feeds
+          
+            Using supplemental feeds, update the shipping label [shipping_label] attribute by populating a list of IDs and corresponding shipping label.
+          
+        
+      
+    
+  
+
+  If only a subset of your products is eligible for fast shipping: Update your time transit label
+
+  If transit times vary depending on the product, you can create transit time labels within your account shipping settings, which can then be assigned to sets of products using the transit time label [transit_time_label] attribute in your feed. If transit times don't vary depending on product, then the transit time label [transit_time_label] attribute isn't required. Learn more about setting up transit time labels
+
+  
+    
+      Update the transit time label [transit_time_label] attribute in your feed for a group of items to which the same transit time is applied. The value in the attribute should match the transit time label [transit_time_label] attribute created in your account in which they belong.
+
+      
+        Option 1: Update using your primary feed input source
+
+          
+            In your primary feed, modify the feed to include the transit time label [transit_time_label] attribute.
+          
+        
+        Option 2: Using feed rules
+          
+            Using feed rules, create or edit a rule set on the transit time label [transit_time_label] attribute.
+              
+                In order to tag only specific products in reed rules, you can set rule conditions to target specific brand or product category combinations.
+              
+            
+          
+        
+        Option 3: Using supplemental feeds
+          
+            Using supplemental feeds, update the transit time label [transit_time_label] attribute by populating a list of ids and corresponding transit time label.
+          
+        
+      
+    
+  
+
+  Confirm product coverage for your free and fast shipping annotations
+
+  After you've followed the above steps for setting up the appropriate shipping service for items eligible for free and fast shipping annotations, you can confirm coverage by doing the following:
+
+  
+    In your Merchant Center account, click the tools icon and then Shipping and returns.
+    Click on the newly created or edited shipping service for your free and fast shipping annotations.
+    Scroll down to the "Shipping Rates” card to view your pie chart.
+      
+        The chart will confirm the amount of products which are covered by free and fast shipping annotations, and will include any products which are populated with any newly created shipping labels.
+      
+    
+  
+
+  
+
+
+Step 2-B: Provide shipping information via feed
+
+
+  Instead of configuring account-level shipping settings in the Merchant Center, you can update the shipping [shipping] attribute in your feed for items that are eligible for free and fast shipping.
+
+  You need to include the following sub-attributes: price [price], maximum handling time [max_handling_time], and maximum transit time [max_transit_time].
+
+  Learn more about the shipping [shipping] attribute
+
+
+Step 3: Make sure your checkout and product landing pages meet requirements for free and fast shipping
+
+
+  For eligible products, the corresponding checkout page must have at least one shipping option consistent with free and fast criteria, and product landing pages must not have shipping information inconsistent with free and fast shipping. Learn more about checkout and product landing page requirements
+
+
+Step 4: Verification
+
+
+  Validating your shipping settings is an important part of assuring a positive customer experience. There are several options to do so.
+
+  Option 1
+
+  Once your shipping settings are configured for free and fast,Google automatically verifies your shipping settings by using crawlers to read the data on your landing and checkout page.
+
+  Option 2:
+
+  You can also validate your shipping settings by providing your historical shipping data, either by linking to a partner or by manually uploading a file.
+
+
+Shipping annotation
+
+After your eligibility has been verified, the free and fast shipping annotation will automatically be added to the corresponding Shopping ads, Buy on Google listings, and free listings for eligible inventory.
+
+Please note that there are various factors that affect how and when the annotation is displayed irrespective of the verification status.
+
+Related links
+
+
+  Set up shipping settings
+  Checkout and landing page requirements to show users free and fast annotation on your ads
+
+             Was this helpful?How can we improve it?YesNoSubmit       

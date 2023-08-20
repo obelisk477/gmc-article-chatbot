@@ -1,0 +1,58 @@
+ How to fix: Invalid storeRemove invalid stores from the offer
+
+The affected store codes in your vehicle inventory ads data (which are submitted using the vehicle fulfillment store code [vehicle_fulfillment_store_code] or store code [store_code] attributes) could not be successfully matched with the listings in the Business Profile location group linked to your Merchant Center account. Please review both your vehicle inventory ads data and your Business Profile account to identify why the store codes submitted in your vehicle listings feed do not match any values in your Business Profile account.
+
+If all store codes are rejected, verify if your Merchant Center account is correctly linked with your Business Profile account. Follow these instructions to link your Merchant Center account with your Business Profile account. Remember to add your Business Profile locations to your Merchant Center account.
+
+If your Merchant Center and Business Profile account are correctly linked, make sure that all of your locations are assigned their own unique store codes.
+
+Your vehicle inventory ads data cannot be matched if the store codes are missing in your Business Profile account.
+
+Add store codes
+
+In the "Manage locations" section of your Business Profile account, you can easily filter for missing store codes at the top by switching the view from “All locations” to “Missing store codes”.
+
+Please review the displayed listings to verify if any of the inventory data you are sending for the stores identified as “Invalid store” does not match any of the stores currently without a store code.
+
+You can add or change store codes at any time in your Business Profile dashboard. You can also add new store codes for new locations with a bulk spreadsheet upload.
+
+
+  Tip: Need help with adding store codes? Follow these steps.
+
+
+Keep in mind
+
+
+  Any unique identifier can be a store code. A store code can be anything from the name of a place to a random number, as long as it stays the same to refer to that location.
+  Include a unique name in your store code to avoid confusion between spreadsheets (for separate business or personal accounts). For example, if Google had 100 locations, they might be named "GOOG1", "GOOG2", "GOOG3", etc. Learn more about formatting store codes
+
+
+Review store codes
+
+If none of your store codes are missing or the dealerships with the missing store codes are not the dealerships for which you are currently submitting inventory data, verify that the store codes identified as “Invalid store code” in the “Processing” tab within your local inventory feed section are matching the relevant store codes in your Business Profile account.
+
+
+  Verify that your store codes do not contain any misspellings or incorrect numerations in either your vehicle inventory ads feed or your Business Profile account.
+  Verify if the store codes are part of another location group. Learn more about managing location groups
+
+
+Store listing not added
+
+If none of the store codes in your Business Profile location group are missing and all of the store codes are correctly spelled, make sure that all of your dealerships are added to your Business Profile account and are included in the location group that you have linked to your Merchant Center account. To add and verify a business listing, follow these steps.
+
+Store codes invalid despite being matched
+
+If none of your store codes are missing and all of the store codes are correctly spelled and the intended business listings have been added to the Business Profile location group, which is linked to your Merchant Center, check your dealership listings in Business Profile for any other issues. If you're having issues with your store codes, use our Contact Us form.
+
+In your Merchant Center account, you can also check when the relevant vehicle inventory ads feed was last uploaded by selecting "Products" in the navigation menu, then clicking "Feeds". You can then select the relevant vehicle inventory ads feed. If the timing on the linking of the Business Profile location group to your Merchant Center account is close to when the relevant feed was uploaded, it would temporarily generate an invalid store code error for the entire vehicle inventory ads feed. In this case, please re-upload the vehicle inventory ads feed. If the issue persists, wait 24 hours, then try re-uploading again.
+
+Store listing without an address in Business Profile
+
+Your dealerships must operate with a storefront that is physically accessible to customers. As a result, your listings in Business Profile need to include a physical street address. Learn how to add an address to your Business Profile listings
+
+Related links
+
+
+  Vehicle ads troubleshooting form
+
+             Was this helpful?How can we improve it?YesNoSubmit       

@@ -1,0 +1,50 @@
+ About merchant-managed customer support for Buy on Google 
+
+
+  Buy on Google for Search and Shopping will no longer be available starting September 26, 2023. Eligible merchants will be able to use Buy on Google for YouTube in the US. Learn more about Enabling Buy on Google for YouTube.
+
+
+
+
+
+If you sell products on Google, providing timely and courteous customer support is required. You’re expected to respond to customer requests within two business days - to ensure an excellent buying experience and promote customer loyalty.
+
+
+  Communicating with customers provides an opportunity to build a relationship and improve their experience with you. Learn more about best practices for customer support
+
+
+How it works
+
+After a customer places an order, they can request support for order status, updates, and other information. Google will attempt to resolve the issue with automated solutions and offer the ability for customers to contact you, the seller, directly to receive additional support. Here are the ways we support you and your customers:
+
+
+  Customer messages. When a customer needs to talk to you about their Buy on Google order, they can send you a message. You’ll receive the message via email at your customer service email address and in the Merchant Center Inbox as a message task. Google may monitor messages about Buy on Google orders between you and your customers to help resolve disputes, protect against policy violations, and improve this and other Google products, as explained in Google’s privacy policy.
+
+
+
+  Note: If you accidentally close a message, you still find it in the inbox using the "closed" filter.
+
+
+
+  Satisfaction tracking. We keep a close eye on customer satisfaction using surveys and automated monitoring of messages to maintain high levels of customer satisfaction.
+  Google Guarantee. If customer requests are not answered within 2 business days, or you are unable to resolve the issue, then customers can initiate a Google Guarantee claim which will be handled by Google customer support agents. Learn more about the Google Guarantee
+  Fraud and abuse detection. Google uses algorithmic and manual solutions to detect fraud and abuse on our platform. These processes include policy enforcement at both the order and account level. You can report suspected fraud on our platform by contacting our support team.
+
+
+
+  Third-party messaging platforms
+
+  
+    We do not currently offer integrations or support for third-party platforms used to manage customer contacts.
+    However, as long as these platforms accept incoming emails to a designated email address and threaded conversations, you may continue to use them.
+  
+
+
+Related links
+
+
+  About the Google Guarantee for Buy on Google
+  Use the Inbox to manage Buy on Google Orders
+  Best practices for Buy on Google customer support
+
+             Was this helpful?How can we improve it?YesNoSubmit       

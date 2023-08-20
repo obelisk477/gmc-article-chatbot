@@ -1,0 +1,84 @@
+ Upload a product reviews feed to Merchant Center
+
+A product reviews feed is needed to show aggregated reviews of your products to customers shopping on Google. Eligible accounts can upload a product reviews feed to Merchant Center.
+
+Before you begin
+
+Sign up for the Product Ratings program using the Product Ratings Interest Form. Before signing up, make sure you have at least 50 product reviews.
+
+Feed prerequisites
+
+
+  Use a validated product reviews XML file. Learn more about XML validation and creating your XML feed.
+  The file size of each feed must be under 4 GB. If your file is larger than 4 GB, split it into multiple smaller files before uploading.
+  You must update your feed regularly. Send your full reviews feed at least once a month, or more frequently if possible.
+  
+    For advanced users, multiple XML files can be compressed into a .zip file if needed. Each single file within the .zip file must be a fully-contained, valid XML file. To ensure reliable processing, no more than 5000 files should be compressed into one .zip file and the total file size should be under 4 GB.
+  
+
+
+Instructions
+
+Upload a new product reviews feed
+
+
+  Sign in to your Merchant Center account.
+  Click Marketing in the navigation menu.
+  Click Product reviews.
+  Click Product reviews feeds to open the “Feeds” page.
+  Click the plus button  on the “Feeds” page.
+  Give your feed a name.
+  Choose an upload method.
+    
+      We recommend the scheduled fetch input method. With scheduled fetch, you host your XML feed at a URL and specify when Google should fetch it. Your file location must begin with "http://", "https://" or "sftp://". You can also upload via SFTP. API isn’t currently supported for product reviews feeds.
+    
+  
+  Configure your feed options for the method you've chosen. If you’re using scheduled fetch:
+    
+      Enter the file name.
+      Select the fetch frequency from the drop-down menu.
+      Select the fetch time from the drop-down menu.
+      Select the time zone from the drop-down menu.
+      Enter the file URL.
+        
+          If your URL is password-protected, provide your login info.
+        
+      
+    
+  
+  Click Continue.
+
+
+Review feed processing results
+
+
+  Sign in to your Merchant Center account.
+  Click Marketing in the navigation menu.
+  Click Product reviews.
+  Click Product reviews feeds to open the “Feeds” page.
+  Click the product reviews feed name that you’d like to review.
+  Review the results:
+    
+      Properties: This includes key feed properties, which vary depending on the input method of the feed. Here, you can find attributes such as input method, time zone, file size, detected delimiter (if applicable), and more.
+      Attributes: Depending on which Merchant Center program your feed is opted into, we require attributes to adhere to the product data specification. In this section, you can review all of the attributes we found in your feed, including those attributes which are recognized and map to the feed specification, and also unrecognized attributes which don’t match any of those listed in the data specification.
+      Processing Data: In this section, you can review the amount of items found in your feed as well as those with any detected item issues. Review the list of item issues to understand how many items in your feed are impacted, including examples and links to documentation to address the issue.
+    
+  
+
+
+
+  Note: Whether you choose a scheduled fetch or a direct upload, you'll need to upload a feed at least once a month so that you'll remain eligible to participate. Make sure the file name you provide includes the appropriate extension (.zip for a ZIP file and .xml for a single XML file). Learn more about uploading data feeds
+
+
+After you've registered a new feed, it'll appear in your list of registered feeds in the "Feeds" screen. A feed can be in the following states:
+
+
+  Processing: Indicates that feed validation is in progress.
+  Processed: Indicates that Google has successfully received and validated the feed.
+  Failed: Indicates that feed validation wasn't successful and the feed content won't be processed further. You must correct the feed and upload the file again.
+
+
+
+  Note: To delete an existing review, simply exclude it from your uploaded feed. Previously submitted reviews that aren't included in new uploads will be removed.
+
+             Was this helpful?How can we improve it?YesNoSubmit       

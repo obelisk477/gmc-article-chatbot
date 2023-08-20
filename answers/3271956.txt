@@ -1,0 +1,49 @@
+ Local inventory ads policies
+
+The local inventory ads feature is designed to surface local product and store information to users when the item they're searching for is available nearby. It's available for retailers who have local brick and mortar business locations in Australia, Austria, Brazil, Canada, Denmark, France, Germany, Ireland, Japan, Netherlands, New Zealand, Norway, Poland, Sweden, Switzerland, the UK, and the US.
+
+To participate in local inventory ads, you must adhere to Shopping ads policies and the following exceptions and additions.
+
+
+  Supported languages: Currently, direct local inventory ads support is offered in English, French, German, and Portuguese. For all other languages, please refer to our Help Center content.
+
+
+
+Exceptions
+
+The following Shopping ads policies don't apply to local inventory ads:
+
+
+  Online payment and transaction requirements. Your site doesn't require an online checkout and payment option. If you offer online checkout and payment, you must adhere to website policies, including the posting of return and refund information. Learn more about quality standards for your ads and website
+  Shipping. Given that local inventory ads and free local product listings require an in-store purchase and pickup, no shipping information is required.
+
+
+Additional requirements
+
+The following additional restrictions apply to participate in local inventory ads (not Shopping ads):
+
+
+  You must have a local brick and mortar business location where customers can physically visit, view, and purchase the desired item.
+  If you require customers to be a club or store member to purchase products, you’re ineligible to participate in local inventory ads. However, if you allow non-members to purchase at different prices, you can participate as long as you use non-member pricing and ensure non-member pricing is displayed on your landing page. You can also display member pricing if desired.
+  You must include any additional fees charged at checkout in the total product price. Follow tax and pricing according to your online offers and add any other additional fees to the product price. For taxes and additional fees charged only in certain locations, we recommend using merchant hosted local storefront (full) so your products are eligible to serve for all locations.
+  You can't advertise via local inventory ads if your store's primary purpose is to promote products that violate Shopping ads' content policies.
+  You must be physically located in the country for which your ads are targeted.
+  You may be asked to participate in inventory verifications.
+
+
+Personally identifiable information (PII)
+
+Your customers' PII shouldn't be provided with any local inventory ads data. For example, don't include names, email addresses, phone numbers, customer identifiers, payment method information, credit card information, club card codes, or any other demographic information that would allow attribution of such information to a particular individual.
+
+If you breach this provision and provide PII to Google, you remain solely responsible for the disclosed PII.
+
+Google won't disclose timestamps, inventory numbers, quantities, or extended amounts that are identifiable to your company. However, Google may publicly disclose generalized availability data.
+
+
+  Tip
+
+  Retailers participating in local inventory ads must adhere to all standard data quality requirements, including accurate inventory and pricing data (for example, quantity and price are up-to-date). If you're having issues with your local inventory ads or free local product listings, go to our Contact Us form.
+
+
+
+             Was this helpful?How can we improve it?YesNoSubmit       

@@ -1,0 +1,256 @@
+ Editorial requirements
+
+This article outlines the guidelines for promotion formats and titles.
+
+Your content must provide a complete, accurate description of the promotion that is easy to understand and doesn't mislead customers. Approved promotions will appear in your ads and free product listings as a "special offer" link. After they click the link, customers will see the title and redemption code.
+
+Title guidelines
+State the value of the promotion
+
+
+  
+    Values in titles must reflect the specific promotion that is applied at checkout.
+    Monetary discount must be reflected in the specified area’s currency symbol or code (for example: 5,300 INR, 15 AUD, etc.).
+    Free shipping and discounted shipping promotions need to include a redemption code in the promotions feed, not in the title.
+    Titles must have specific promotion value and discount, and can not be generic promotional text (for example: “Spring shoe sale”).
+    Free items must be described in the title and include a dollar value when possible:
+      
+        No: Free item with purchase
+        Yes: Free memory card with purchase
+        No: Gift card/voucher with purchase
+        Yes: Free $25 gift card/voucher with purchase
+      
+    
+  
+
+State the applicability (the item or service that is valid for discount)
+
+
+  
+    If a promotion is for new customers, it must be stated in the title. For example: Sign up and get 10% off or 10% off for new customers.
+    If a promotion requires a minimum purchase, it must be stated in the title (for example: $5 off purchases over $20).
+    Ensure your titles are specific, accurate, and easy to understand. Your promotions will be displayed under the “Coupons from store'' section, so the more specific your promotion titles are, the easier it will be for your customers to find.
+    If a promotion applies to a certain type of product, ensure you include the name or type of that product in your title.
+      
+        Yes: “20% off on baby sneakers only.”
+          This title details the specific category that is eligible for coupons or discounts.
+        No: “20% off on select products.”
+          This title makes it difficult for customers to identify if the type of products they are interested in are included in your promotion.
+      
+    
+    If a promotion is good for certain products or types of products, don't create a misleading title that implies otherwise.
+    Titles should be consistent with the applicability set in your promotion attribute. For example, if the title says “$15 off all products” or “$15 off all orders” then the product applicability should be set to All Products.
+    
+      If the promotion is applicable for specific products (for example: "20% off on baby sneakers only") the product applicability should be set to Specific products.
+    
+  
+
+State the lowest possible value (the "floor")
+
+
+  If a promotion includes tiered discounts, promotions should never just show the highest possible value (the "ceiling").
+
+  
+    No: Up to $20 off
+    Yes: $10 - $20 off or $10+ off
+    Yes: $10+ off
+  
+
+  Tiered promotions can be submitted as one promotion or multiple. If you submit a tiered promotion as a single promotion, the title must be within the 60-character limit and state the “floor” promotion.
+
+  Example of a tiered promotion:
+
+  
+    $10 off $50+
+    $15 off $75+
+    $20 off $100+
+  
+
+State maximum discount available in the title (where space permits)
+
+
+  Example: 30% off organic household products (maximum discount $20).
+
+Promotion titles must not include any of the specific redemption details
+
+
+  
+    Codes: Redemption codes should only be entered in the fields designed specifically for them in the promotions feed, not in the title
+    Redemption dates: Include dates in any of these formats: "M/D/YYYY," "Ends in YYYY," "MM/DD," "January D, YYYY,"etc.
+  
+
+
+Title formatting
+
+Promotion text must use correct spelling, grammar, punctuation, and capitalization.
+Titles must not exceed character limits
+
+
+  The title [title] attribute has a limit of 60 characters.
+
+
+The currency value listed in title must match the country locale for where the promotion is targeted
+
+  
+    
+      US Dollars (USD): en-US
+      Australian Dollars (AUD): en-AU
+      Indian Rupees (INR): en-IN
+    
+  
+
+
+Promotions must be concise
+
+  
+    Promotions may not contain repetition of words and phrases, unnecessary or irrelevant text.
+
+    
+      
+        
+          Example Title
+          Allowed?
+        
+      
+      
+        
+          Extra extra savings
+          Not allowed: Gimmicky repetition of words
+        
+        
+          Buy more save more! 50% off all jeans
+          Not allowed: Unnecessary text (for example: Buy more, save more!)
+        
+        
+          Save today - $10 off orders of $75+
+          Not allowed: Unnecessary text (for example: Save today)
+        
+        
+          Happy holidays! Get 10% off your order
+          Not allowed: Irrelevant text (for example: Happy holidays!)
+        
+      
+    
+  
+
+Promotions must have proper grammar and spelling
+
+
+  All words must be spelled correctly with no typos, and text must be written in logical sentence form using correct grammar. Exceptions are allowed for common abbreviations that the majority of customers would understand.
+
+  
+    
+      
+        Example title
+        Allowed?
+      
+      
+        Free shipping on all ski product
+        Not allowed: Grammar mistake: "product" should be "products"
+      
+      
+        15% off, no min purchase requirement
+        Allowed: Most customers understand "min" stands for "minimum"
+      
+      
+        Save $5 + BOGO
+        Not allowed: Most customers don't understand what "BOGO" means
+      
+      
+        35% off (MSRP) all items from our site
+        Not allowed: Acronym MSRP is not allowed in title
+      
+    
+  
+
+Promotions must use proper spacing
+
+
+  Promotion titles must not have missing spaces or extra spaces between letters or words, or around punctuation.
+
+  
+    
+      
+        Example title
+        Allowed?
+      
+      
+        30% off skincare,hair products,and fragrance
+        Not allowed: Text does not leave proper spacing between words
+      
+      
+        $5 off men's shirt s with purchase
+        Not allowed: Text has an incorrect space within one word and an extra space between two words
+      
+      
+        F r e e shipping with $50+ purchase
+        Not allowed: Text has extra space with one word
+      
+    
+  
+
+Promotions must use appropriate punctuation and symbols
+
+
+  Promotions must have correct punctuation and must not use unnecessary, distracting, or gimmicky numbers, letters, or symbols, such as:
+
+  
+    Exclamation marks in the title
+    Repeated punctuation or symbols
+    Symbols, numbers, and letters that don't adhere to their true meaning
+  
+
+  
+    
+      
+        Example title
+        Allowed?
+      
+      
+        30% off wood furniture 4 kitchens
+        Not allowed: Text uses symbols that don't adhere to their true meaning
+      
+      
+        ***Free T-shirt with $50+ purchase***
+        Not allowed: Text uses gimmicky punctuation
+      
+      
+        Everything 20%!
+        Not allowed: Text has an exclamation mark
+      
+    
+  
+
+Promotions must use proper capitalization
+
+
+  Promotions must not contain excessive, gimmicky, or inconsistent capitalization.
+
+  
+    
+      
+        Example title
+        Allowed?
+      
+      
+        FREE MUG WITH PURCHASE
+        Not allowed: Text contains excessive capitalization
+      
+      
+        Free mug With purchase
+        Not allowed: Text contains inconsistent capitalization
+      
+      
+        Free mug with purchase
+        Allowed: Text uses sentence-style capitalization
+      
+      
+        Free Mug With Purchase
+        Allowed: It's okay to capitalize the first letter of every word in the offer title, as long as it's done consistently
+      
+    
+  
+
+
+Note: Google or its affiliates may modify title text to make non-material changes (for example: size, formatting, punctuation, capitalization, and spelling modifications) or as described in the Promotions policies. Google is not responsible for the accurate depiction of branded terms. When Google makes these changes, we do not shift your liability for the content.
+             Was this helpful?How can we improve it?YesNoSubmit       

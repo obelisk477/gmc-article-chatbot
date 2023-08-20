@@ -1,0 +1,298 @@
+ Product Reviews Diagnostics in Merchant CenterProduct Reviews Diagnostics is a section of Merchant Center that offers insight into your Product Ratings feed. When you upload a feed directly into Merchant Center, the Product Reviews Diagnostics feature displays information about your reviews, including:
+
+
+  If the feed was uploaded successfully.
+  Errors and warnings for missing or invalid data.
+  Indication if strong, unique identifiers are present in the feed.
+
+
+
+  Product Reviews Diagnostics in Merchant Center is currently available to merchants that upload Product Ratings feeds through Merchant Center. If you are participating in Product Ratings through Google Customer Reviews, find more about the Google Customer Reviews dashboard.
+
+
+Status of your reviews
+
+When a feed is uploaded, the reviews in the feed will fall into one of these categories:
+
+
+  Disapproved: These need to be corrected or removed. These reviews did not process successfully because of errors in the feed. Verify that the reviews are formatted appropriately and run them through an XML validation tool. Use the "Reviews" section in the Product Reviews Diagnostics feature to identify errors in the data feed and correct them.
+
+
+
+  Needs Review: These reviews have successfully processed but may be missing values or the recommended unique identifiers. Unique identifiers make it more likely for your reviews to appear in Shopping results. Improve the quality of your feed by correcting data issues with the help of the Product Reviews Diagnostics feature. Learn about unique identifiers
+  Ready to Serve: These reviews have processed successfully and contain all recommended identifiers. No action is needed from you.
+
+
+Errors, warnings and notifications
+
+The Product Reviews Diagnostics feature in Merchant Center will display issues in the feed you've uploaded. Use the "Learn More" links in the Diagnostics feature for guidance in correcting issues with the feed, then re-upload the feed. Consult the Product Reviews Feed Guide for an overview on how to correctly format your feed.
+
+Error: This refers to reviews that did not process successfully and cannot be used. Verify that the review is formatted correctly based on the Product Ratings feed specifications , and contains all recommended identifiers. 
+
+Warning: This refers to issues that may prevent a review from appearing. To improve the quality of a review, verify that the review is formatted correctly and contains all recommended identifiers.
+
+Notification: This refers to reviews that are not eligible to show. No action is required on your part and it is recommended that you take a look at our program policies when setting up your feed..
+
+Errors
+Document is empty
+
+
+  The feed does not contain any data! Refer to the feed guide for an example feed and a guide to formatting a Product Ratings feed.
+
+Extra content after end of document
+
+
+  There is data outside of the closing tag. Try using an XML schema validator to check your feed. More about XML schema validators can be found on our Help page.
+
+File extraction failed
+
+
+  The system was unable to extract a file from the feed. Try re-uploading your feed.
+
+
+Incorrect timestamp format
+
+  
+    The timestamp format is incorrect. Timestamps are required to indicate when the review was written and can include date, time and timezone information, for example,
+
+    2014-04-21T11:07:07-06:00
+
+    2014-04-21T18:00:00+01:00
+
+    2014-04-21T00:00:00Z
+
+    Refer to the feed guide to see how <review_timestamp> is implemented in an example feed. You may also want to refer to a standard such as the one on this page for more information on correctly formatting timestamps.
+  
+
+Incorrect XML Processing Instruction description
+
+
+  There is a Processing Instruction in your feed that is not using the correct syntax. Please address this and run the feed through an XML validator.
+
+Invalid XML character
+
+
+  There is an invalid XML character in your feed. Ensure that strings and characters in your feed are properly escaped.
+
+Invalid XML start tag
+
+
+  There is an invalid XML start tag in your feed. Refer to the feed guide for a list of correct start tags for your Product Ratings feed.
+
+Invalid XML value
+
+
+  An invalid XML value was found in the feed. Try verifying your feed with an XML schema validator, then re-upload your feed.
+
+Missing content
+
+
+  Review text is missing content. Reviews without associated review text are not used by Google. If this information has been left out, please add the review text to the feed. Refer to <review> in the feed guide for details on formatting this information.
+
+Missing rating
+
+
+  The review is missing the overall rating value. Refer to <ratings> in the feed guide for details on formatting this element.
+
+Missing semicolon after XML entity reference
+
+
+  Your feed is missing a semicolon (;), which often follows entity declarations such as "$"" and "&". Verify your feed with an XML schema validator before uploading it.
+
+
+Missing timestamp
+
+  
+    The timestamp is missing. Timestamps are required to indicate when the review was written and can include date, time and timezone information, for example,
+
+    2014-04-21T11:07:07-06:00
+
+    2014-04-21T18:00:00+01:00
+
+    2014-04-21T00:00:00Z
+
+    Refer to the feed guide to see how <review_timestamp> is implemented in an example feed. Also try verifying your feed with an XML schema validator, then re-uploading your feed. More about XML schema validation can be found on our Help page.
+  
+
+No closing '>' for XML tag
+
+
+  There is a closing angle bracket '>' missing from one of the tags in your feed. Run the feed through an XML schema validator before uploading it.
+
+No XML declaration at the start of the feed
+
+
+  The feed is missing the XML declaration, for example, '<?xml version="1.0" encoding="UTF-8"?>'. Please add this as the first line of your feed and re-upload the feed.
+
+Open and close XML tag mismatch
+
+
+  The feed contains a pair of opening and closing XML tags that do not match. Refer to the feed guidefor a list of correct opening and closing tags for your Product Ratings feed.
+
+Parsing failed
+
+
+  The feed failed to parse and no reviews were extracted. Try verifying your feed with an XML schema validator, then re-upload your feed. More about XML schema validators can be found on our Help page.
+
+Unknown XML entity reference
+
+
+  One or more entities in the feed are referencing an entity declaration that cannot be identified. Please correct this, run the feed through an XML schema validator and re-upload it.
+
+Unsupported collection method
+
+
+  The collection method is unsupported. The <collection_method>, an optional field, does not match with the valid values of "unsolicited" or "post_fulfillment". Refer to the feed guide for details on what these include.
+
+Unsupported rating
+
+
+  The rating value provided in the review is unsupported. It is highly likely that the provided value falls outside the inclusive range defined by the minimum and maximum values. The error message for this issue in Product Reviews Diagnostics should show you the minimum and maximum values currently in your feed, if they were included. The <ratings> element contains the element <overall> with values for "min" and "max". Be sure to refer to the feed guide  for instructions on formatting this element.
+
+Unsupported tags
+
+
+  The review has unsupported tags. Examples include the repetitive use of punctuation marks. Due to the persistent occurrence of the issue we were not able to successfully process this review. Please remove unnecessary symbols from the review and refer to the feed guide for an example feed.
+
+Unsupported title type
+
+
+  The title of the review is unsupported and you will need to revise the <title> element with a nonEmptyStringType. Refer to the feed guide to see how <title> and other <review> elements can be added to the feed.
+
+Wrong top-level XML tag
+
+
+  The top-level <feed> element should only contain the tags listed in the Product Ratings feed specifications.Verify that your feed contains the correct tags.
+
+XML error
+
+
+  An XML error occurred while parsing the feed, and it is possible that none of the reviews were extracted. You will need to refer to the context of the error to find where it is in the feed file. For help with finding and addressing the specific error, please use an XML schema validator. More information on XML schema validation can be found on our Help page.
+
+XML system or public URL missing
+
+
+  The system or URL is missing from the "XML DOCTYPE" declaration. Please address this before re-uploading your feed.
+
+XML tag not closed
+
+
+  There is an incorrect closing tag in your feed. Refer to the feed guide to understand how to properly close tags in your feed.
+
+
+Warnings
+Comment contains URL
+
+
+  The review contains a URL. Do not include links to other websites in the review content. For more information on this please refer to our Program Policies.
+
+Incorrect URL format
+
+
+  The URL provided is an incorrect format. The elements <review_url> and <product_url> are required in the feed. The <review_url> is an extension of the httpUrlType and contains the link to the landing page of the review. The <product_url> is the URL of the product and may have the same value as the <review_url> element if the review URL and the product URL are the same. For details on how to format these elements, look at <review_url> and <product_url> in the feed guide.
+
+Missing product_id
+
+
+  Google matches reviews to products based on globally unique product identifiers. Recommended global identifiers for review matching are GTINs The product id is missing. More information about unique identifiers may be found in our Help Center. At least one of the recommended identifiers should be added to the product data in each review for optimal review matching. Instructions for adding GTIN can be found in our feed guide. If it is impossible to provide these globally unique product identifiers, Google will attempt to match a review based on other metadata information such as SKU and product URLs; however, the matching issue may persist.
+
+Missing product_id content
+
+
+  The review is missing the <product_ids> element, which is essential for matching reviews to products. See our feed guide for details on elements that can be used with <product_ids>. The most valuable product ID is a unique identifier such as GTIN. More information about unique identifiers may be found in our Help Center.
+
+Missing product_id type
+
+
+  The <product_id> type is missing. See the sample feed in our feed guide to understand how this element should be implemented in the feed.
+
+Missing product_url
+
+
+  The <product_url> is missing. See the sample feed in our feed guide to understand how this element should be implemented in the feed.
+
+Missing reviewer name
+
+
+  The reviewer name is missing. The <name> element is an extension of the nonEmptyStringType and contains the name or alias of the reviewer. If the reviewer is anonymous, you can indicate this with the "is_anonymous" attribute. Guidance on formatting the <reviewer> <name> element can be found in our feed guide.
+
+Missing review_url
+
+
+  The <review_url>is missing. See the sample feed in our feed guide to understand how this element should be implemented in the feed.
+
+Unknown language
+
+
+  The language used in the feed is unknown. Refer to this page for the languages supported in Merchant Center.
+
+Unnecessary tags
+
+
+  This review has unnecessary tags. Examples include the repetitive use of punctuation marks. Please remove unnecessary tags from the review and refer to the feed guide for an example feed.
+
+Unsupported comment characters
+
+
+  The review has unsupported comment characters (" "). Replacement characters are used to replace an unknown, unrecognized or unrepresentable character. Please remove the replacement characters from the review and refer to the feed guide for an example feed.
+
+Unsupported product_id type
+
+
+  The <product_id> type is unsupported. Some of the values that can be implemented for this tag include unique identifiers such as GTIN. See our feed guide for details. More information about unique identifiers may be found in our Help Center.
+
+Unsupported reviewer name
+
+
+  
+    It appears there is an unsupported reviewer name. Unsupported name values include full names, email addresses, phone numbers, and other personal information.
+
+    
+      If your data contains full names or other personal information use pseudonyms or shorten the name. For example: shorten Jane Smith to Jane S.
+      If you’re unable to remove personal information, use the is_anonymous attribute. For example: <name is_anonymous="true">Anonymous</name>.
+    
+
+    
+      
+        
+          Not allowed
+          Examples
+          Recommendation
+        
+        
+          Full names
+          Jane Smith
+          Jane S., Jane, JS,
+        
+        
+          Email addresses
+          jane.smith@example.com
+          Mark as anonymous
+        
+        
+          Handles that contain full names or other personal information
+          janesmithshopper
+          Mark as anonymous
+        
+      
+    
+  
+
+Unsupported review_url type
+
+
+  The review URL type provided in the feed is unsupported. The value for <review_url> must be either "singleton" or "group". Refer to the feed guide for details on what these refer to.
+
+
+Notifications
+Low-quality review
+
+
+  A quality analysis of the review has indicated that it does not meet the quality threshold for being displayed and is of low quality.
+
+Spam (marked by the publisher)
+
+
+  The review has been marked as spam using the <is_spam> attribute and will not be displayed. Visit the feed guide to learn more about the <is_spam> attribute.
+
+             Was this helpful?How can we improve it?YesNoSubmit       

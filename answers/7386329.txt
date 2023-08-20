@@ -1,0 +1,53 @@
+ Submit stable landing pages
+
+A landing page is where a user is sent to after clicking your Shopping ad.  You submit your landing page URLs with the link [link], mobile link [mobile_link] (optional), and ads redirect [ads_redirect](optional) attributes. 
+  
+  People who click your ad should see landing page content that meets the requirements for Shopping ads, regardless of location, device, your ad targeting choices, or any other variable.
+  
+  This article explains how to submit landing pages to Google, and what to do if your website changes dynamically.
+
+Instructions 
+
+
+  Some retailers have URL structures that provide stable landing pages and do not adapt content based on a user's location, behavior, or device. For example, stable URLs might look something like:
+
+
+  http://example.fr/product.html
+    http://example.com/fr/product.html
+    http://example.ch/de/product.html
+
+
+In this case, submitting these stable URLs will ensure consistency.
+  
+  If you're not using this type of URL structure, you can use URL parameters to adjust web server behavior, indicate the source of traffic, and force the country and language. 
+
+
+  http://example.com/product.html?source=shoppingads&locale=en-US
+
+
+ 
+  Then, add a few lines of code on your web server that essentially say:
+
+IF: source_URL_parameter = shoppingads,
+  THEN: set country and language as per locale_URL_parameter,
+  ELSE: do what web server currently does (for example, determine the country from the IP address, the language from browser language preference, etc.)
+
+Check your new URLs
+
+Visit your website through the URL you submitted to check that your landing page content meets the requirements for Shopping ads.
+  To test your URLs for an international user, you can use tools that allow you to view a website from different locations, such as VPN tunneling services. 
+
+
+  Keep in mind
+
+   
+
+  Every website is set up differently. We can’t guarantee these solutions will work for you. They’re references to help you determine what will work best for your website.
+
+
+Related Links
+
+
+  About landing pages for Shopping ads
+
+             Was this helpful?How can we improve it?YesNoSubmit       

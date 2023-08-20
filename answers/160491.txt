@@ -1,0 +1,101 @@
+ Product status definitions
+
+
+  If you’re looking for information about product visibility and status in Merchant Center Next, click here. 
+
+
+
+
+  Need help with a specific product?
+
+  If a product has been disapproved, review the error message from the “Diagnostics” page (under the “Products” section) in Merchant Center. To get specific instructions for how to fix the error, hover over the “?” icon, then select the “Learn more” link.
+   
+
+  Go to Diagnostics
+
+
+After you've submitted product data to Merchant Center, a status will be assigned to each product. The status of your product lets you know if it's eligible to appear in the destination (for example, ads) you’ve opted into. You'll see the status when you check the "Overview" or "Products" pages in Merchant Center.
+
+To view the status of your products:
+
+
+  For a destination specific summary, look at the destination graphs located on your “Overview” page.
+  Select Products in the navigation menu, then select All products to view a list of all your products and their associated status.
+
+
+The sections below describe the product status definitions for these areas within Merchant Center.
+
+How to check the status of your products
+
+The "Overview" page
+
+To view the status of your products on different destinations (such as ads or free listings), go to the "Overview" page.
+
+
+
+The "All products" page
+
+To view the status for each product added to your account, go to the "All products" page.
+
+
+
+Product statuses
+
+"Active"
+
+Active products are fully approved and eligible to appear in search results and ad campaigns. For ads and free listings, only in-stock or pre-order products will be shown. To show your products in ads, you'll need to have an active campaign in Google Ads.
+
+
+  How do I set the availability for my products?
+
+  You can set the availability for products by editing product details directly in Merchant Center or adding the in_stock or preorder values to the availability [availability] attribute in your product file.
+
+
+"Pending"
+
+A product that's pending won't show in ads or free listings because it's being processed by Google. If you're new to Merchant Center and/or products are pending initial review, it can take up to 3 business days for ads and a few weeks for other features (such as free listings).
+
+
+  Why do my products need to be reviewed?
+
+  When you add a new feed or upload product data to your account for the first time, our specialists review your account to ensure it meets our Shopping policies and requirements, and that the information provided aligns with our product data specifications.
+
+
+You may also see “Pending” in Merchant Center if:
+
+
+  Your product has a pending image crawl. You don't need to do anything right now. Your image will automatically appear once we've fetched it. If we encounter any problems, we'll let you know. This processing is based on program requirements and can take from 3 business days up to a few weeks for ads and other features (such as free listings).
+
+
+Unless you're updating your product data, you should only upload your feed once. Re-uploading a feed that has already been uploaded can cause the process to start over again.
+
+"Disapproved"
+
+
+  Note: If you're on the "All products" page, disapproved products will be labeled as "Disapproved or invalid".
+
+
+Your product is disapproved for a destination and isn't active. There are a few common reasons why your product may be disapproved:
+
+
+  Your products require shipping information. Shipping costs are required if you're targeting a country that requires shipping costs. You can set up shipping costs for all products using Merchant Center shipping settings or for specific products using the shipping [shipping] attribute.
+  Processing: Your product was rejected during initial feed processing for issues such as missing required attributes. You can view the processing issues for a specific data feed by navigating to Feeds, clicking the feed name on the main page, then viewing issues specific to that feed via the Processing tab, or you can view all of the processing issues consolidated on Diagnostics.
+  Policy disapprovals: Your website or specific products that you've submitted don't comply with our policies. As a result, your account or those specific products have been disapproved by our specialists. Review the Shopping policies and requirements for additional information. Learn more about item disapprovals for policy violations
+  Data quality disapprovals: Your product doesn't comply with our product data specification. Go to Diagnostics for more information on which attributes are missing or what values are incorrect, or refer to email notifications if you've opted into receiving mandatory service announcements.
+
+
+To view reporting for issues across your entire account, visit "Diagnostics".
+
+"Expiring"
+
+Your product will expire in the next 3 days, and will no longer be eligible to appear in ads or free listings. Until it expires, the product is still eligible to appear in search results. This status only appears on the "Overview" page.
+
+There are 2 reasons why your product may be expiring:
+
+
+  You haven't updated your product data in the last 30 days. In order to keep the product information displayed in Shopping ads and free listings up-to-date, all products expire after 30 days. If you want your products to remain active, you'll need to update your product data. Google will also regularly check your website and refresh your products automatically if the product data can be validated, for example, by the crawling of schema.org structured data on your product landing pages.
+  You're using the expiration date [expiration_date] attribute in your product data and the expiration date is within 3 days of the current date. If you're updating your product data daily, it's okay to set short expiration dates. However, these products will be shown as "expiring" in your account. Learn more about the expiration date attribute
+
+
+
+             Was this helpful?How can we improve it?YesNoSubmit       

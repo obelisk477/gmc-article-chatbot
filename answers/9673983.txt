@@ -1,0 +1,123 @@
+ Link [link] (Collections)
+
+When customers click on your collection, they’re sent to a landing page for the collection on your website. Use the link [link] attribute to set the URL for this landing page.
+
+
+When to use
+
+
+ Required for promoting local products within Performance Max for store goals.
+If you submit only the link [link] attribute, all desktop and mobile device users will be directed to the landing page specified for that attribute. If you also supply the mobile link [mobile_link] attribute, then all mobile device users will instead be directed to the landing page specified for the mobile link attribute.
+
+Format
+
+Follow these formatting guidelines to make sure Google understands the data you're submitting.
+
+For details on when and how to submit values in English, learn more about submitting your product data
+
+
+
+  
+    
+      Type
+      URL (including http or https), ASCII characters only, and RFC 3986 compliant
+    
+    
+      Limits
+      1-500 characters
+    
+    
+      Repeated Field
+      No
+    
+  
+
+
+
+
+  
+    
+      File format
+      Example value
+    
+    
+      Text feeds
+      https://www.example.com/asp/sp.asp?cat=12&id=1030
+    
+    
+      XML feeds
+      <g:link>https://www.example.com/asp/sp.asp?cat=12&id=1030</g:link>
+    
+  
+
+
+
+Guidelines
+
+Follow these guidelines to make sure you submit high-quality data for your collections.
+
+
+Minimum requirements
+
+These are the requirements you need to meet to show your collection. If you don't follow these requirements, we'll disapprove your collection and let you know in the Diagnostics page of your Merchant Center account.
+
+
+
+  Submit only one link attribute per collection.
+  Ensure that this URL links to a landing page that clearly shows the collection and its associated featured products. For example, don’t link to a generic category page, your home page, or an individual product landing page. This landing page is where users are taken if they click on any part of the image that is not a product.
+  Ensure that your landing page is mobile friendly. Make sure that the landing page you submitted works on desktop and mobile devices. Your landing page must meet this requirement even if you also use the mobile link [mobile_link] attribute.
+  Don't link to an interstitial page unless legally required.
+  Start with http or https and comply with RFC 3986. For example: https://www.example.com/writing/fiji-pens.
+  Use your verified domain name. Make sure to use the domain name that you verified during account setup or through the Website Verification tab. Learn more about how to verify and claim your domain name
+  Make sure your URL can be crawled by Google. For example, ensure your robots.txt file is configured correctly. Learn more about robots.txt files
+  Replace any symbols or spaces with URL encoded entities. For example, if your URL contains an ampersand ( & ), then replace it with %26.
+  Don’t require users to register, sign in, or take any other actions to view information about your collection. Make sure users see your final landing page immediately after clicking your collection.
+
+
+
+Best practices
+
+These best practices can help you go beyond the basic requirements to optimize your collection data for performance.
+
+
+
+  Use a stable URL. The URL that you include should not change unless your landing page moves. For example, don’t use URLs with timestamps or parts that could change each time you submit your product data. Whenever you change your URL, your landing page will need to be evaluated and crawled. This process could cause unnecessary load on your servers.
+  If you have a separate landing page designed for mobile devices, use the mobile link [mobile_link] attribute along with the link attribute. Learn more about mobile link
+
+
+
+Additional guidelines
+
+Review each section closely to determine if the requirements apply to your country or product. If you don't follow requirements that apply to you, we'll disapprove your product and let you know in Diagnostics in your Merchant Center account.
+
+
+Examples
+
+
+
+  Submit the link attribute without the mobile link attribute
+
+  
+    
+      
+        
+          Product data for a leather sofa collection
+        
+        
+          Attribute
+          Value
+        
+        
+          Link [link]
+          https://www.example.com/asp/sp.asp?cat=12&id=1030
+        
+        
+          Mobile link [mobile_link]
+          (Leave blank)
+        
+      
+    
+  
+
+
+             Was this helpful?How can we improve it?YesNoSubmit       

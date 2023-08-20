@@ -1,0 +1,162 @@
+ Local inventory ads optimization FAQs
+
+This page provides answers to common questions about optimizing local inventory ads.
+
+Ad performance
+
+
+  Can I see how my local inventory ads and Shopping ads each perform for local-enabled campaigns?
+
+  
+    Yes. You can segment your campaigns by click type. Segmenting breaks out performance data for local inventory ads and Shopping ads. Learn more about segmenting by click type. 
+  
+
+  
+    How do I view the performance of my local inventory ads and Shopping ads by device?
+
+    
+      Follow the steps below:
+
+      
+      
+        In Google Ads, click the Dimensions tab 
+        Click on the download icon 
+        Segment by click type and device to get the desired report 
+      
+      
+    
+
+    
+      How do I view the performance of my local inventory ads and Shopping ads by device and store visits?
+
+      
+        Make sure you meet the requirements to view store visits data, and then follow the steps below: 
+
+        
+          Add the store visits data as a column in your Google Ads report 
+          From the Dimensions tab, click the download icon 
+          Segment the data by click type and device to get the desired report 
+        
+
+        Note: Click type supports store visits reporting. Learn how to use segments in your Google Ads tables.
+      
+
+      Shopping campaigns 
+
+      
+        Do I have to create Shopping campaigns specifically for local inventory ads?
+
+        
+          No. In fact, we recommend you enable local in your existing Shopping campaigns. 
+        
+
+        
+          How do I make sure my Shopping campaigns can show all of my local inventory?
+
+          
+            In your Shopping campaign, create an "All products" group with a low cost per click (CPC), such as USD 0.15. This product group helps to make sure you have full local inventory and local intent query coverage. Learn how to manage a Shopping campaign with product groups.
+          
+
+          
+            How do I keep the budgets for my local inventory ads and Shopping ads separate?
+
+            
+              
+                If you want to allocate a separate budget for local inventory ads, we recommend you do the following:
+
+                
+                
+                  Build a separate Shopping campaign
+                  Enable local inventory ads
+                  Add an inventory filter for channel = local
+                
+                
+
+                This new campaign will serve only local inventory ads and allow you to use your local-specific budget.
+              
+            
+
+            
+              How do I make local inventory ads more visible in areas near my store locations?
+
+              
+                Google Ads offers 2 ways to optimize visibility near your stores:
+
+                
+                  Enable location extensions: Enable these extensions in your campaign for specific locations. You can apply positive bid adjustment to the radius of all your Business Profiles.
+                  Set up location targeting: Select a location (e.g. designated market area (DMA), city, state, etc.). Then, select a radius to target.
+                
+              
+
+              
+                How do I maximize my mobile shopping visibility?
+
+                
+                  Apply a positive mobile bid adjustment (up to +900%) to your Shopping campaign.
+                
+
+                
+                  Do local inventory ads work with third-party bid management systems?
+
+                  
+                    
+                      Local inventory ads work with some third-party bidding provider systems. Talk to your provider for more information. 
+
+                      If the third-party provider does not support bidding for local inventory ads, do the following:
+
+                      
+                      
+                        Build a separate Shopping campaign
+                        Enable local inventory ads
+                        Add an inventory filter setting for channel = local
+                      
+                      
+
+                      This new campaign serves only local inventory ads and allows you to use manual bidding.
+                    
+                  
+
+                  
+                    How can I optimize my bids for local inventory ads campaigns?
+
+                    
+                      Follow these best practices:
+
+                      
+                      
+                        Target the entire country where you want your ads to show, and increase bids for a 15-20 mile radius around each of your store locations. Learn more about location extensions.
+                        Keep bids active 24 hours a day, 7 days a week
+                        Increase bids during store hours and days with heavier store traffic. Learn more about ad scheduling.
+                        Apply a positive mobile bid adjustment (up to +900%) to your Shopping campaign. Learn more about device bid adjustments.
+                      
+                      
+                    
+
+                    
+                      What's the best way to make sure my local inventory ads do not cannibalize clicks from my Shopping ads?
+
+                      
+                        Local inventory ads are designed to drive traffic to your store locations, while Shopping ads are designed to drive traffic and conversions to your online store. We recommend you enable local in your existing online Shopping campaigns. This action allows Google to serve the best ad format for a shopper based on their location, device, and product availability. 
+                      
+
+                      
+                        How do I prevent my online conversions from dropping when I enable local for my campaigns?
+
+                        
+                          Work with your Google contact to develop a strategy for your campaign.
+                        
+                      
+                    
+                  
+                
+              
+            
+          
+        
+      
+    
+  
+
+
+
+             Was this helpful?How can we improve it?YesNoSubmit       

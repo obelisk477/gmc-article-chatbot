@@ -1,0 +1,47 @@
+ Manage account links with partners
+  Buy on Google for Search and Shopping will no longer be available starting September 26, 2023. Eligible merchants will be able to use Buy on Google for YouTube in the US. Learn more about Enabling Buy on Google for YouTube.
+
+
+
+
+
+If you work with a partner to advertise your products on Shopping ads, list your products for free on Google, or sell them on Buy on Google, that partner may want to let Google know the services they manage on your behalf. They’ll do this by sending you a request to link your account to theirs. When you receive a request, confirm your business relationship with this partner by accepting the request, or decline it if you think it has been sent in error.
+
+Linking your account will associate your Merchant Center account with the partner. This allows us to provide better support services to you and your partner (for example, to assist with merchant integrations). Linking doesn't give the partner access to your Merchant Center account.
+
+This article explains how to accept and remove links between your Merchant Center account and a trusted partner.
+
+Instructions
+
+Follow these steps to manage your links with trusted partners:
+
+
+  In your Merchant Center account, click the tools and settings icon .
+  Click Linked accounts under "Settings".
+  Click the "Partners & platforms" tab.
+  To approve a link, click Accept in the “Action” column.
+
+
+Follow these steps to remove a link with a partner:
+
+
+  In your Merchant Center account, click the tools and settings icon .
+  Click Linked accounts under "Settings".
+  Click the "Partners & platforms" tab.
+  To remove the link, click Manage in the “Action” column.
+  Click Unlink.
+
+
+
+  Be sure to manage your account links carefully, and to remove any links if a partnership ends. If you don't remove the link, your data may still be available to that partner.
+
+
+
+Related links
+
+
+  About advertising with Comparison Shopping Services
+  Google Certified ads Partners
+  Link Merchant Center and Google Ads
+
+             Was this helpful?How can we improve it?YesNoSubmit       

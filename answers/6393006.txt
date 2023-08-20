@@ -1,0 +1,416 @@
+ Add structured data attributes
+
+This article lists all of the structured data attributes you can provide in your promotions feed.
+
+Optional structured data fields are attributes that provide additional information about your promotion type (for example, 10% off and buy one, get one free). Structured data allows Google to display more detailed information about your shopping ad promotions to customers on mobile devices.
+
+Note: All structured data attributes you submit must match information in your promotion's promotion title [long_title]. During the review process, Google validates your data. If information does not match the promotion title, Google will edit the structured fields to match the information in the promotion title. If you don't submit the structured data for your promotion, Google attempts to structure your promotion based on the promotion title.
+
+On this page
+
+
+  The coupon value type structured attribute
+  Attribute details
+
+
+The coupon value type structured attribute
+
+When included in your promotions feed, this optional attribute signals the type of promotion benefit you’re offering, allowing Google to perform a more automated review process, which can expedite your promotion’s approval. Structured data also allows Google to display more detailed information about your Shopping ad promotions to customers on mobile devices.
+
+When you use the optional coupon value type [coupon_value_type] attribute, this may require the use of additional attributes, depending on the value you submit. For example, if you want to submit the money off [money_off] attribute as the value for the coupon value type [coupon_value_type], you must also provide the monetary discount amount of a promotion [money_off_amount] attribute.
+
+This article and the following table show which attributes are required or optional to include in your promotions feed depending on the value you submit for the coupon value type [coupon_value_type].
+
+
+  Note: You can still submit structured data attributes without using the coupon value type attribute.
+
+
+
+  
+    
+      Value for the coupon value type
+      Attributes
+    
+    
+      
+      No structured data [no_structured_data]
+
+      
+        Indicates you are not submitting any of the promotion benefit types listed below.
+      
+      
+      
+      Optional
+
+      
+        Minimum purchase amount [minimum_purchase_amount]
+        Minimum purchase quantity for promotion [buy_this_quantity]
+        Maximum purchase quantity for promotion [limit_quantity]
+        Price for promotion [promotion_price]
+        Monetary discount amount of a promotion [money_off_amount]
+        Percentage discount amount [percent_off]
+        Quantity eligible for promotion [get_this_quantity_discounted]
+        Free gift monetary value [free_gift_value]
+        Free gift item ID [free_gift_item_id]
+        Free gift description [free_gift_description]
+      
+      
+    
+    
+      
+      Money off [money_off]
+
+      
+        Example promotion: 200.00 USD off
+      
+      
+      
+      Required
+
+      Monetary discount amount of a promotion [money_off_amount]
+
+      Optional
+
+      Minimum purchase amount [minimum_purchase_amount]
+      
+    
+    
+      
+      Percentage discount amount [percent_off]
+
+      
+        Example: 10% off
+      
+      
+      
+      Required
+
+      Percentage discount amount [percent_off]
+
+      Optional
+
+      Minimum purchase amount [minimum_purchase_amount]
+      
+    
+    
+      
+      Buy M get N money off [buy_m_get_n_money_off]
+
+      
+        Example: Buy 4 shirts, get 5th shirt 10 USD off
+      
+      
+      
+      Required
+
+      
+        Monetary discount amount of a promotion [money_off_amount]
+        Minimum purchase quantity for promotion [buy_this_quantity]
+        Quantity eligible for promotion [get_this_quantity_discounted]
+      
+      
+    
+    
+      
+      Buy M get N percent off [buy_m_get_n_percent_off]
+
+      
+        Example: Buy one, get one free; or buy 2 books, get 3rd 20% off
+      
+      
+      
+      Required
+
+      Percentage discount amount [percent_off], minimum purchase quantity for promotion [buy_this_quantity], quantity eligible for promotion [get_this_quantity_discounted]
+      
+    
+    
+      
+      Buy M get money off [buy_m_get_money_off]
+
+      
+        Example: 60 USD off purchase of 5+ summer tops
+      
+      
+      
+      Required
+
+      Monetary discount amount of a promotion [money_off_amount], minimum purchase quantity for promotion [buy_this_quantity]
+      
+    
+    
+      
+      Buy M get percent off [buy_m_get_percent_off]
+
+      
+        Example: Buy 2 beauty items, save 15%
+      
+      
+      
+      Required
+
+      Percentage discount amount [percent_off], minimum purchase quantity for promotion [buy_this_quantity]
+      
+    
+    
+      
+      Free gift [free_gift]
+
+      
+        Example: Free beach tote bag and blanket
+      
+      
+      
+      Required
+
+      Free gift description [free_gift_description]
+
+      Optional
+
+      Minimum purchase amount [minimum_purchase_amount], minimum purchase quantity for promotion [buy_this_quantity]
+      
+    
+    
+      
+      Free gift monetary value [free_gift_with_value]
+
+      
+        Example: Free gift ($30 value)
+      
+      
+      
+      Required
+
+      Free gift monetary value [free_gift_value]
+
+      Optional
+
+      Minimum purchase amount [minimum_purchase_amount], minimum purchase quantity for promotion [buy_this_quantity]
+      
+    
+    
+      
+      Free gift item ID [free_gift_with_item_id]
+
+      
+        Example: Free gift when you buy battery charger
+      
+      
+      
+      Required
+
+      Free gift item ID [free_gift_item_id]
+
+      Optional
+
+      Minimum purchase amount [minimum_purchase_amount], minimum purchase quantity for promotion [buy_this_quantity]
+      
+    
+    
+      
+      Free standard shipping [free_shipping_standard]
+      
+      
+      Optional
+
+      Free shipping type [free_shipping_type], minimum purchase amount [minimum_purchase_amount], minimum purchase quantity for promotion [buy_this_quantity]
+      
+    
+    
+      
+      Free overnight shipping [free_shipping_overnight]
+      
+      
+      Optional
+
+      Free shipping type [free_shipping_type], minimum purchase amount [minimum_purchase_amount], minimum purchase quantity for promotion [buy_this_quantity]
+      
+    
+    
+      
+      Free 2-day shipping
+        [free_shipping_two_day]
+      
+      
+      Optional
+
+      Free shipping type [free_shipping_type], minimum purchase amount [minimum_purchase_amount], minimum purchase quantity for promotion [buy_this_quantity]
+      
+    
+    
+      
+      Free shipping for shipping services defined in Merchant Center [free_shipping_with_shipping_config]
+      
+      
+      No required or optional attributes
+      
+    
+  
+
+
+Attribute details
+Minimum purchase quantity for promotion [buy_this_quantity]
+
+
+  The minimum purchase quantity required to redeem promotions offering "Buy M, get N." This field represents the "M" value for the offer.
+
+  
+    Example promotion: Buy 2, get one free
+      
+        Minimum purchase quantity for promotion [buy_this_quantity]: 2
+        Quantity eligible for promotion [get_this_quantity_discounted]: 1
+        Percentage discount amount [percent_off]: 100
+      
+    
+    Example promotion: Buy 4, get $100 off
+      
+        Minimum purchase quantity for promotion [buy_this_quantity]: 4
+        Monetary discount amount of a promotion [money_off_amount]: 100
+      
+    
+  
+
+
+Free shipping type [free_shipping_type]
+
+  
+    For promotions offering free shipping, this attribute indicates the type of free shipping offered.
+
+    
+      Valid values
+
+        
+          Free shipping standard [free_shipping_standard]
+          Free shipping overnight [free_shipping_overnight]
+          Free shipping two day [free_shipping_two_day]
+        
+      
+    
+  
+
+
+Free gift monetary value [free_gift_value]
+
+  
+    The monetary value of any free gift offered in the promotion.
+
+    
+      Example (US): 50 USD
+      Example (IN): 600 INR
+      Example (AU): 20 AUD
+      Example (FR/DE): 10 EUR
+      Example (GB): 25 GBP
+    
+
+    Important: include currency in this attribute. The price [price] attribute must be formatted correctly. Learn more about price attribute requirements
+  
+
+
+Free gift description [free_gift_description]
+
+  
+    The description of any free gift offered in the promotion.
+
+    Important: The description can not contain more than 100 characters.
+  
+
+
+Free gift item ID [free_gift_item_id]
+
+  
+    The product ID for promotion [item_id] of any free gift offered in the promotion.
+
+    Important: The product ID for promotion [item_id] will match to the targeting channel [targeting_channel] specified. The ID [id] attribute must be formatted correctly. Learn more about price attribute requirements
+  
+
+
+Quantity eligible for promotion [get_this_quantity_discounted]
+
+  
+    The quantity discounted once the minimum quantity required to purchase has been met in "Buy M, get N discounted" promotions. This field represents the "N" value of the offer.
+
+    
+      Example promotion: Buy 2, get 3rd one $5 off
+        
+          Quantity eligible for promotion [get_this_quantity_discounted]: 1
+          Minimum purchase quantity for promotion [buy_this_quantity]: 2
+          Percentage discount amount [percent_off]: 100
+        
+      
+    
+  
+
+
+Maximum purchase quantity for promotion [limit_quantity]
+
+  
+    The maximum number of items that can be bought using the promotion.
+
+    
+      Example: 5
+    
+
+    Important: Must be an integer.
+  
+
+
+Maximum product price for promotion [limit_value]
+
+  
+    The maximum item value allowed for the promotion.
+
+    
+      Example (US): 50.00 USD
+    
+
+    Important: Must be a number and specify currency.
+  
+
+
+Minimum purchase amount [minimum_purchase_amount]
+
+  
+    The minimum purchase amount for the promotion to be redeemed.
+
+    
+      Example (US): 20 USD
+    
+
+    Important: Promotion feeds only support currencies of the specified locales.
+  
+
+
+Monetary discount amount of a promotion [money_off_amount]
+
+  
+    The monetary value discounted for fixed discount promotions (for example: $200 off)
+
+    Important: Do not include the currency.
+  
+
+
+Percentage discount amount [percent_off]
+
+  
+    The percent discounted for percentage-based promotions (for example: 10 % off).
+
+    Important: Do not include the percent symbol.
+  
+
+
+Price for promotion [promotion_price]
+
+  
+    The promotional sales price of an item or category.
+
+    
+      Example (US): 75.00 USD
+    
+
+    Important: Must be a number and specify currency.
+  
+
+
+RETURN TO PROMOTIONS HOME
+
+             Was this helpful?How can we improve it?YesNoSubmit       

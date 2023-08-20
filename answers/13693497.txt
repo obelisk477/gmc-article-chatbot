@@ -1,0 +1,360 @@
+ Fixing Merchant Center disapprovals for product data quality violationsThis article is intended for users of the Google & YouTube app on Shopify
+
+
+  If you're looking for information about fixing disapprovals for product data quality violations in the classic Merchant Center experience, click here.
+
+
+
+To show your products on Google and to provide a good experience for people who are shopping, follow Google's product data specification guidelines when submitting your product data to Google. If your data doesn't meet the data quality requirements for a destination, your products and your entire Merchant Center account are subject to disapproval. Disapproved products won’t appear organically across Google nor in Google Shopping ads, so it’s important to identify the reason for disapproval and take the necessary steps to fix the issue.
+
+
+On this page
+
+
+  Product disapprovals
+  Data quality warnings
+  Common item-level issues
+  Apparel & Accessories product-specific issues
+  Account-level enforcement for data quality violations
+  How to resolve data quality issues
+  Instructions for requesting a re-review after a suspension
+
+
+
+Product disapprovals
+
+Individual products submitted via data feeds are regularly reviewed. If the data you provide doesn’t match the product information on your website or doesn’t comply with the product data specification, these products may be disapproved and stop showing organically on Google and on Shopping ads. Review the disapproved products, make corrections to the product data, and upload them again.
+
+
+  Note: Products submitted in feeds that have multiple countries or destinations may receive different disapprovals or warnings across multiple countries and destinations due to policy differences. Consider adjusting the selection of countries for your feed.
+
+
+Data quality warnings
+
+Warnings let you know about issues that are currently limiting the performance of your ads or that may lead to product or account suspensions in the future if you don’t resolve them. These products will continue to show organically on Google and in Shopping ads, but may appear with limited performance, such as lower impressions and clicks.
+
+Common item-level issues
+
+To ensure your products are approved and are shown to people across Google, review any data quality warnings and update the data for the affected products. Below is a list of common issues:
+
+
+  
+    Note: If you have a product warning from Google that isn't listed on this page, search for the specific error in the Google Merchant Help Center.
+  
+
+
+
+  Product identification issues
+
+  
+    
+      Most products have product identifiers, such as a Global Trade Item Number (GTIN), Manufacturer Part Number (MPN), or the product brand. Google checks any identifiers that are added to your products. If there is an issue with the product identifier you've provided, one of the following errors might display on your product:
+
+      
+        GTIN (Barcode) errors
+        Missing IDs (GTIN or MPN and brand)
+        Invalid value (GTIN)
+        Incorrect identifier (GTIN)
+        Invalid value (MPN)
+        Incorrect product identifier (GTIN)
+        Invalid [barcode]
+        GTIN not correct length
+      
+
+      Products that have product identification issues (such as missing a GTIN and/or MPN) have limited performance. Products with incorrect or missing GTIN won’t be synced to your Merchant Center Account and are disapproved. Therefore, assign valid unique product identifiers (UPI) to applicable products.
+
+      Custom-made products, such as art or handmade goods, don’t need a GTIN. To designate your product as a custom item:
+
+      
+        In your Shopify admin page, navigate to Sales Channels and click Google.
+        On the Overview page, go to the Product feed section.
+        Click Manage Products to view your synced products in a bulk editor.
+        In the "Custom product" column, click the drop down and select True for all custom products.
+        Click Save.
+      
+    
+  
+
+
+
+  Limited performance due to missing value: brand [brand]
+
+  
+    You need to add a value for all new products except for movies, books, and musical recording brands. Update the data for affected products:
+
+    
+      In your Shopify admin, add the brand to your product details within the Vendor field under Organization.
+      Don’t submit values such as N/A, Generic, No brand, or Does not exist.
+      If you manufacture the product yourself or the product falls into a generic brand category, then you can submit your store name as the value for the brand value.
+      If the product doesn’t have a brand, then use the manufacturer or supplier name.
+    
+
+    Learn more about the Brand [brand] attribute.
+  
+
+
+
+  Excessive capitalization
+
+  
+    
+      Some of your products have titles with excessively capitalized text. Remove excessive or gimmicky use of capitalization since it’s frequently used in spam emails or by fishy retailers, and may cause people who are shopping online to perceive your ads and listings as less trustworthy than others.
+
+      
+        Check the Settings tab of the Google & YouTube app on Shopify to determine which product title and description is sent to the Merchant Center account.
+        Update the titles in the Products section of your Shopify admin in the location that Google takes them from, either the main title and description or the SEO information, located at the bottom.
+      
+    
+  
+
+
+
+  Generic image
+
+  
+    For each product listed in your product data, you must provide a main image that clearly shows the principal product being advertised using the image link [image_link] attribute. The image must not be a generic or placeholder image, unless your product falls into certain product categories. Examples of generic images that are not allowed include images that are logos or use the text 'No image available'. Products with generic images will remain disapproved and won't be shown in Shopping ads until you've updated the images.
+
+    Learn more about fixing Generic images issues.
+  
+
+
+
+  Promotional overlay on image
+
+  
+    
+      Some of your products have images with promotional text (for example, retailer logos or calls to action) or obstructing elements (for example, watermarks). Since clear images of a product help to inform online shoppers, all products which show organically on Google or in Shopping ads require an image with an unobstructed view of the product that does not contain additional promotional elements. Items that don't meet this requirement will remain disapproved until you have updated their images. Turn on image improvements to automatically fix your images.
+
+      Learn more about fixing a Promotional overlay on image: image link [image_link].
+    
+  
+
+
+
+  Image too small
+
+  
+    
+      The image needs to meet these size requirements to be shown organically on Google or to be used in an ad:
+
+      
+        Non-apparel images: at least 100 x 100 pixels
+        Apparel images: at least 250 x 250 pixels
+        No image larger than 64 megapixels
+        No image file larger than 16MB
+      
+
+      Don’t scale up images or submit thumbnails. We recommend the product take up 75%–90% of the full image.
+    
+  
+
+
+
+  Invalid value (Google product category)
+
+  
+    
+      Products will have limited performance if the value you provided for the Google product category
+        [google_product_category] attribute (GPC) of the product doesn't match any of the categories in the Google product taxonomy. You may enter the correct numeric ID (for example, 1580) or the full path to the relevant Google category (for example, Apparel & Accessories > Clothing > Suits > Tuxedos) as the value for this attribute. Entering the last segment only (for example, Tuxedos), will not be accepted and will cause an error.
+
+      Learn more about Google product category [google_product_category].
+    
+  
+
+
+
+  Conflicting values (GTIN, brand)
+
+  
+    
+      Products will have limited performance if the value you submitted for the GTIN [gtin] attribute isn’t associated with the value you submitted for the brand [brand] attribute for this product. You need to provide a GTIN value that is associated with the brand of this product. To verify the ownership data of the GTINs that you provide for US brands, use the GS1 GEPIR tool provided by the GS1 organization.
+      Learn more about Unique product identifiers.
+  
+
+
+
+Apparel & Accessories product-specific issues
+
+Your product will generally have lower data quality if its required attributes are missing from your product data. This may lead to reduced performance of your offer in search results. To fix this issue, provide the missing required attributes for your product in your product data. You can add required attributes or only those that were specifically flagged for this error. Learn more about Product data specification.
+
+To ensure your products are approved and are shown to people across Google, review the below errors and update the data for the affected products.
+
+
+  Missing value: gender [gender]
+
+  
+    This is required for Apparel & Accessories products. Specify the gender to help ensure that users see the right size information. Choose from these supported values:
+
+    
+      male
+      female
+      unisex
+    
+  
+
+
+
+  Missing value: size [size]
+
+  
+    
+      This is required for Apparel & Accessories products and recommended for all inventory.
+
+      
+        Use a consistent format for size. For example, "S, M, L” or “small, medium, large,” but not “S, Medium, and Lrg”.
+        Condense multiple dimensions into one value, like “16/34 Tall”.
+        If your item is one-size-fits-all (or one-size-fits-most), then you can use one size, OS, one-size-fits-all, OSFA, one-size-fits-most, or OSFM.
+        Add the size of your item to the front of your title to give context to your image.
+      
+
+      
+        
+          Tip: Size can be omitted if it's already included in your product variants.
+        
+      
+    
+  
+
+  
+    Missing value: color [color]
+
+    
+      
+        This is required for Apparel & Accessories products. The color variant needs to be spelled color in American English in order for Google to sync it to your Google Merchant Center account.
+
+        
+          Use a recognizable color name that customers are likely to search for.
+          Don’t combine several colors into one word, such as RedPinkBlue. Instead, use slashes, such as Red/Pink/Blue.
+          Don’t use a value that isn’t a color, such as multicolor, various, women’s, or N/A.
+        
+
+        
+          
+            Tip: Color can be omitted if it's already included in your product variants.
+          
+        
+      
+    
+  
+
+  
+    Missing value: age group [age group]
+
+    
+      This is required for Apparel & Accessories products and adult products like alcohol.
+        Choose from these supported values:
+
+      
+        newborn
+        infant
+        toddler
+        kids
+        adult
+      
+    
+  
+
+
+
+Account-level enforcement for product data quality violations
+
+Merchant Center accounts are reviewed regularly. If it's found that your product data isn't in compliance with the product data specification requirements, you’ll receive a warning email with examples of the issues that you need to fix, and a timeframe in which to fix them. The warning period will also be displayed in your Merchant Center account on the “Diagnostics” page, under “Account issues”. You're eligible to request one courtesy review by using the "Request review" button. During the warning period, your items will continue to appear in Shopping ads and organically on Google.
+
+
+  Note: A warning for local products only affects local inventory ads and local products showing organically on Google. Similarly, a warning for your online store doesn’t affect your physical store.
+
+
+Account suspension
+
+If you don't request a review during the warning period, your data will be reviewed once more at the end of the warning period. If all of your issues are resolved, the warning will be lifted, and your products will continue to show organically on Google and in Shopping ads as normal. If any of the issues aren't resolved, your account will be suspended and all of your items will be disabled from appearing organically on Google and in Shopping ads for that feed. You’ll receive an email notification that your account has been suspended containing all of the relevant information about the data quality issues and the next steps. Your suspension status will be shown on the Home and the Diagnostics pages of your Merchant Center account.
+
+
+  Important: If your account is suspended, the Google account used to access Merchant Center won't be affected and you'll still be able to use it to access other Google products.
+
+
+
+  Note: Messages regarding data quality and account suspension are temporarily stored in the Merchant Center message archive of the impacted account.
+
+
+Preemptive item disapproval
+
+Warnings regarding price and availability mismatch between the feed and the landing pages result in preemptive item disapproval instead of an account suspension. Preemptive item disapproval (PID) is still considered account-level enforcement and an account review is required to fully resolve the issues. It's called "preemptive item disapproval" because Google errs on the side of caution and disapproves items that are likely to violate requirements (for example, items that have a different price on the landing page and throughout the checkout process compared to the feed). While you resolve your product data quality issues for items that don't meet requirements, you can still show other products from your account that meet the requirements.
+
+
+  Note: Only price and availability mismatch between the feed and the landing pages can result in preemptive item disapproval. Other data quality violations may still result in account suspension if issues aren't resolved within the 28-day warning period.
+
+
+
+How to resolve account warnings caused by data quality issues
+
+To fix product data-related warnings, you’ll need to update the Google fields for the affected products. Remove or fix any items that don’t meet the product data specification requirements. After you update your products, it can take 3-5 business days for Google to review them.
+
+You can update your product data from your Google & YouTube app by following the below steps:
+
+
+  In your Shopify admin page, navigate to Sales Channels and click Google.
+  On the Overview page, go to the Product status section.
+  Click Manage Products to view your synced products.
+  Update desired fields for one or more products and click Save.
+
+
+Next steps after you've fixed the issues related to:
+
+
+  Account warning: A review happens automatically at the end of the 28-day waiting period. If you'd like to request a review before then, you can do so by using the "Request review" button in Merchant Center. You are entitled to one courtesy review during the warning period.
+  Account suspended or in preemptive item disapproval: Request a review by using the "Request review" button in Merchant Center (if applicable).
+
+
+
+Instructions for requesting a re-review after a suspension notification
+
+From the Google & YouTube app on Shopify
+
+
+  In your Shopify admin page, navigate to Sales Channels and click Google.
+  Click the Settings tab.
+  Under Your Google Merchant Center account, click Request re-review.
+  On the Google Merchant Help page that loads, complete the form and write that you are requesting a re-review of your store.
+  Click Submit.
+
+
+From Merchant Center account
+
+In your Merchant Center account, account-level issues show in a banner at the top of the page. Account-level issues are also found in the summary cards at the top of the "Needs attention" page.
+
+You can follow one of the in-product flows below to resolve your account-level issue:
+
+
+  Click on Review and fix on the Home page
+  Click on Fix on the banner at top of your account, or
+  Click on Fix on a card on the "Needs attention tab"
+
+
+If you’ve already fixed issues with disapproved account or product offers, or if you disagree with the issue, then you may request a review.
+
+Your issue will disappear after the review. If the disapproval remains and you’re uncertain with how to proceed, contact us for support.
+
+
+  Note: Review requests can take up to 7 days to complete. You’ll receive an email notification when the review has been completed.
+
+
+
+  
+    Cool down period
+
+    If your account is already suspended, you’ll have 2 opportunities to request an account review before a cool down period is initiated for further reviews.
+
+    The process will then continue as follows:
+
+    
+      If your issues aren’t resolved by the second review attempt, a one-week cool down period will begin. During this time, the review button will be disabled.
+      With each unsuccessful review afterwards, a progressive one-week cool down period may be applied.
+      During this cool down period, your account will remain suspended. You won’t be able to request another review during this time.
+      Use the cool down period to review and fix your account, data and website issue(s) as support may be limited until your issues are addressed.
+      After the cool down period passes, the "Request review" button will be available again.
+      You can see the end date for any cool down period by navigating to the "Diagnostics" page in Merchant Center and clicking the “Account issues” tab.
+    
+  
+
+
+             Was this helpful?How can we improve it?YesNoSubmit       

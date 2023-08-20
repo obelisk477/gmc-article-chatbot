@@ -1,0 +1,234 @@
+ About shipping policies for Buy on Google
+  Buy on Google for Search and Shopping will no longer be available starting September 26, 2023. Eligible merchants will be able to use Buy on Google for YouTube in the US. Learn more about Enabling Buy on Google for YouTube.
+
+
+
+
+
+Using Buy on Google, you can ship directly from your warehouse or central shipping hub. Buy on Google shipping policies are intended to ensure timely updates and positive customer experiences. This article outlines the policies to be followed when shipping products to your customers. Learn more about Buy on Google
+
+For more information on how to set up shipping, skip to how to set up your shipping and taxes.
+
+
+  You may only participate in Buy on Google if the shipping services for your website are compatible with those of the feature. Your configured shipping settings must apply to all offers on your website, including those you offer through Buy on Google. If you don't have a website or any type of e-commerce, you may still be able to participate in Buy on Google. Learn more about Buy on Google integration
+
+
+Requirements
+
+Choose shipping services with short transit times
+
+10 days is the maximum transit time allowed in the settings.
+
+However, we strongly recommend aiming for a lower transit time in accordance with your carrier contract as this can be a decisive purchase factor for users. Learn more about estimated delivery time
+
+Handling time
+
+4 days is the maximum handling time allowed in the settings.
+
+We however strongly recommend having a shorter handling time. This time will be added to your overall shipping time and may represent a serious brake on your customers’ purchase decision.
+
+
+  Orders that aren't shipped within 3 days of your handling time may be canceled automatically. For example, if you have a handling time of 2 days, and you don’t ship your orders within 5 days from when they are placed, they will be cancelled. Note that you are responsible for the cost of a product when a canceled product has been shipped to the customer. To ensure a good customer experience, make sure your handling times are accurate.
+
+
+Tracking numbers
+
+When you mark your products as shipped, you must provide a valid tracking number to the customer within 1 day of shipment. This number must provide end-to-end tracking, from the original handoff to the carrier until delivery to the customer.
+
+
+  Supported carriers
+
+  
+    
+  cxt
+  deliv
+  dhl
+  dynamex
+  ecourier
+  efw
+  emsy
+  fedex
+  google
+  gsx
+  lasership
+  mpx
+  ont
+  ontrac
+  uds
+  ups
+  usps
+
+
+  
+
+
+Second line in shipping addresses
+
+Your shipping settings will need to support a second addressee line - for information such as company names, building names, or hotel names. This is to prevent order cancellation due to too many characters in the recipient field.
+
+Packaging recommendations
+
+Follow these recommendations when packaging your orders:
+
+
+  If the customer is not on your marketing list, don't provide marketing inserts in packages.
+
+
+Packing slips
+
+To ensure a positive customer experience, all packing slip information should include:
+
+
+  Google order ID
+  URL to access order details and initiate returns: shopping.google.com/orders
+  Google Customer Service contact: support.google.com/googleshopping/contactflow
+
+
+To avoid customer confusion or misinformation, less comprehensive packing slips should not include:
+
+
+  Price information
+  Return instructions that direct customers to contact the retailer
+  Retailer customer support information
+
+
+Note: If you are unable to update the above information on your packing slips, you can send shipments without including any packing slip at all, but this is not recommended.
+
+Unsupported shipping options
+
+The following shipping options are not supported with Buy on Google purchases:
+
+
+  Additional shipping information or freight deliveries: Google can't collect information from customers regarding the need for scheduled deliveries, liftgates, white glove service, or other recipient-specific differentiation. Products that need to be shipped by freight are not supported.
+  Dynamic shipping costs: Google can't support shipping costs that change dynamically based on the origin of the shipment, or costs that differ based on residential or commercial delivery addresses. Likewise, membership-based shipping pricing (for example, ShopRunner) is not supported.
+  Curbside delivery: Google does not currently support the curbside delivery of products purchased through Buy on Google.
+  Unsupported delivery destinations: Google does not currently support delivery to PO boxes, APO/FPO boxes, Alaska, Hawaii, or Puerto Rico.
+
+
+Understanding estimated delivery date
+
+Buy on Google Best Practices Episode 1: Calculating the estimated delivery date
+
+For subtitles in your language, turn on YouTube captions. Select the settings icon  at the bottom of the video player, then select "Subtitles/CC" and choose your language.
+
+
+
+
+Estimated delivery date is the “arrives by” date that customers are shown when checking out. This value is calculated as “maximum handling days + maximum transit days.” Estimated delivery date is calculated using days, and also takes order cutoff time into account.
+
+Here is an example of what estimated delivery date might look like with the settings below in Merchant Center:
+
+Order placed after the cut-off of 3 p.m. EST
+
+0 - 1 handling days
+
+3 - 5 transit days
+
+
+  
+    
+      
+      Minimum estimated delivery date: 7 calendar days
+      
+      Maximum estimated delivery date: 9 calendar days
+    
+    
+      Day of order
+      Day of week
+      Status
+      Day of order
+      Day of week
+      Status
+    
+    
+      Day 1
+      Wednesday
+      Order placed
+      Day 1
+      Wednesday
+      Order placed
+    
+    
+      Day 2
+      Thursday
+      Handing time
+      Day 2
+      Thursday
+      Handing time
+    
+    
+      Day 3
+      Friday
+      Transit time
+      Day 3
+      Friday
+      Transit time
+    
+    
+      Day 4
+      Saturday
+      No action
+      Day 4
+      Saturday
+      No action
+    
+    
+      Day 5
+      Sunday
+      No action
+      Day 5
+      Sunday
+      No action
+    
+    
+      Day 6
+      Monday
+      Transit time (including Delivery day)
+      Day 6
+      Monday
+      Transit time
+    
+    
+      Day 7
+      Tuesday
+      Transit time
+      Day 7
+      Tuesday
+      Transit time
+    
+    
+      Day 8
+      Wednesday
+      Delivery day
+      Day 8
+      Wednesday
+      Transit time
+    
+    
+       
+       
+       
+      Day 9
+      Thursday
+      Transit time
+    
+    
+       
+       
+       
+      Day 10
+      Friday
+      Delivery day
+    
+  
+
+
+
+  If a customer places an order at 8 p.m. EST on Wednesday, at checkout, they’ll see “arrives by the following Friday.” Since the customer missed the daily order cutoff, the delivery estimate doesn’t begin calculating until the following day. Then, Buy on Google uses the maximum handling and delivery range to calculate the arrival date (not including weekends or holidays). Keep in mind that while the Merchant Center will show you a range of delivery days, the customer will see the nine-day estimate to account for any potential issues that arise during processing and shipping.
+
+
+
+  Need help? Click here to contact Buy on Google support.
+
+
+             Was this helpful?How can we improve it?YesNoSubmit       

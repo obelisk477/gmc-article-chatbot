@@ -1,0 +1,205 @@
+ Integration guideOptional: Modify the survey opt-in to gather product reviewsNext: Optional: Integrate the badge code
+
+
+This section includes the following topics:
+
+
+  
+    Integration instruction
+  
+
+
+Integration instructions
+
+We’ll need to collect GTINs (Global Trade Item Numbers) for products included in orders placed on your site. In order to do this, you may need to add a few lines of code to the Google Customer Reviews opt-in module JavaScript snippet on your site.
+
+Note: If you are using the old Trusted Stores opt-in module, you must update to the new Google Customer Reviews module to collect product reviews. Unsure how to determine what module your site has? See details in the ‘Check if your site is using the Trusted Stores opt-in snippet’ section.
+
+Ensure your Google Customer Reviews opt-in snippet has the "products" line
+
+If you’re just beginning your integration, be sure to include the optional field “products” line. If you’ve integrated previously, locate the Google Customer Reviews opt-in module snippet in your site’s source code. Below the "// OPTIONAL FIELDS" or “// OPTIONAL” section, ensure your code has the "products" line. If not, you’ll need to add it, as seen below.
+
+<script src="https://apis.google.com/js/platform.js?onload=renderOptIn" async defer></script>
+
+<script>
+
+ window.renderOptIn = function() {
+
+   window.gapi.load('surveyoptin', function() {
+
+     window.gapi.surveyoptin.render(
+
+       {
+
+         // REQUIRED FIELDS
+
+         "merchant_id": 117246064,
+
+         "order_id": "ORDER_ID",
+
+         "email": "CUSTOMER_EMAIL",
+
+         "delivery_country": "COUNTRY_CODE",
+
+         "estimated_delivery_date": "YYYY-MM-DD",
+ 
+
+         // OPTIONAL FIELDS
+
+         "products": [{"gtin":"GTIN1"}, {"gtin":"GTIN2"}]
+
+       });
+
+   });
+
+ }
+
+</script>
+
+
+  Pass GTINs in the Google Customer Reviews opt-in snippet
+
+  
+    
+      // OPTIONAL
+
+      "opt_in_style": "OPT_IN_STYLE",
+
+      "products": [{"gtin":"GTIN1"}]
+
+      The line above specifies the products in a customer’s order as an array of JSON "gtin" objects inside a "products" array. This line has just one "gtin" object, so it will enable Google Customer Reviews to collect a single GTIN for an order, regardless of how many products are part of the order. To collect a GTIN for every product in an order, you’ll need to add code to your site to dynamically add a "gtin" object to the "products" array for every distinct product in the order.  
+
+      For example, an order that includes two distinct products should have a snippet that looks like this:
+
+      // OPTIONAL
+
+      "opt_in_style": "OPT_IN_STYLE",
+
+      "products": [{"gtin":"GTIN1"}, {"gtin":"GTIN2"}]
+
+      And an order that includes three distinct products should have a snippet that looks like this:
+
+      // OPTIONAL
+
+      "opt_in_style": "OPT_IN_STYLE",
+
+      "products": [{"gtin":"GTIN1"}, {"gtin":"GTIN2"}, {"gtin":"GTIN3"}]
+
+      
+        Replace "GTIN1", "GTIN2", "GTIN3" with actual numerical GTIN values.
+      
+
+      Once you have correctly implemented the new code on your site, we’ll start collecting GTINs from orders placed on your site and gathering product reviews from your shoppers.
+    
+  
+
+
+
+  Check if your site is using the Trusted Stores opt-in snippet
+
+  
+    
+      If you’re using the old Trusted Stores code, please remove both the Trusted Stores opt-in module code and badge code from your site, and follow the instructions in the Google Customer Reviews technical integration guide to add the new opt-in module snippet (and, optionally, the new badge snippet) to your site.
+
+      If you are using the old Trusted Stores opt-in module code snippet, you should see the following code on your site:
+
+      <!-- START Google Trusted Stores Order -->
+
+      <div id="gts-order" style="display:none;" translate="no">
+       
+
+       <!-- start order and merchant information -->
+
+       <span id="gts-o-id">MERCHANT_ORDER_ID</span>
+
+       <span id="gts-o-email">CUSTOMER_EMAIL</span>&gt;
+
+       <span id="gts-o-country">CUSTOMER_COUNTRY</span>
+
+       <span id="gts-o-currency">CURRENCY</span>
+
+       <span id="gts-o-total">ORDER_TOTAL</span>
+
+       <span id="gts-o-discounts">ORDER_DISCOUNTS</span>
+
+       <span id="gts-o-shipping-total">ORDER_SHIPPING</span>
+
+       <span id="gts-o-tax-total">ORDER_TAX</span>
+
+       <span id="gts-o-est-ship-date">ORDER_EST_SHIP_DATE</span>
+
+       <span id="gts-o-est-delivery-date">ORDER_EST_DELIVERY_DATE</span>
+
+       <span id="gts-o-has-preorder">HAS_BACKORDER_PREORDER</span>
+
+       <span id="gts-o-has-digital">HAS_DIGITAL_GOODS</span>
+
+       <!-- end order and merchant information -->
+
+      <!-- start repeated item specific information -->
+
+      <!-- item example: this area repeated for each item in the order -->
+
+      <span class="gts-item">
+
+         <span class="gts-i-name">ITEM_NAME</span>
+
+         <span class="gts-i-price">ITEM_PRICE</span>
+
+         <span class="gts-i-quantity">ITEM_QUANTITY</span>
+
+         <span class="gts-i-prodsearch-id">ITEM_GOOGLE_SHOPPING_ID</span>
+
+         <span class="gts-i-prodsearch-store-id"ITEM_GOOGLE_SHOPPING_ACCOUNT_ID/span>
+
+      </span>
+
+      <!-- end item 1 example -->
+
+      <!-- end repeated item specific information -->
+
+      </div>
+
+      <!-- END Google Trusted Stores Order
+
+      If you are using the old Trusted Stores opt-in module snippet, you are very likely also using the old Trusted Stores badge snippet shown below:
+
+      <!-- BEGIN: Google Trusted Stores -->
+
+      <script type="text/javascript">
+
+       var gts = gts || [];
+
+       gts.push(["id", "{some ID number}"]);
+
+       gts.push(["badge_position", "{some position}"]);
+
+       gts.push(["locale", "PAGE_LANGUAGE"]);
+
+      gts.push(["google_base_offer_id", "ITEM_GOOGLE_SHOPPING_ID"]);
+
+       gts.push(["google_base_subaccount_id", "ITEM_GOOGLE_SHOPPING_ACCOUNT_ID"]);
+
+       (function() {
+
+         var gts = document.createElement("script");
+
+         gts.type = "text/javascript";
+
+         gts.async = true;
+
+         gts.src = "https://www.googlecommerce.com/trustedstores/api/js";
+
+         var s = document.getElementsByTagName("script")[0];
+
+         s.parentNode.insertBefore(gts, s);
+
+       })();
+
+      </script>
+
+      <!-- END: Google Trusted Stores -->
+    
+  
+
+Next: Optional: Integrate the badge code             Was this helpful?How can we improve it?YesNoSubmit       

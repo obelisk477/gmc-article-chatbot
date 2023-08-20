@@ -1,0 +1,122 @@
+ Onboarding GuideSign up for Google Merchant CenterNext: Choose where your customers check out
+
+
+  If you’re looking for information about signing up for Merchant Center Next, click here. 
+
+
+
+
+
+
+
+  Google Merchant Center helps millions of people discover, explore, and buy your products. With its family of features and deep reporting tools, it brings you different ways to get the right products to the right customers.
+
+
+Before you begin   
+
+You’ll need a Google Account (like Gmail) to sign up for Merchant Center. If you don't have a Google Account, go to accounts.google.com and click Create account.
+
+When you’re ready, go to Merchant Center and sign in with your Google Account to get started.
+
+
+GO TO MERCHANT CENTER
+
+ 
+
+Get started
+
+Merchant Center intelligently builds a personalized onboarding experience. It will suggest next steps for you and show you tasks that have already been completed.
+  
+  You can access your remaining tasks at any time by navigating to the “Overview” tab. Learn more about navigating Merchant Center
+
+
+  You don't need to complete the onboarding process all at once. Return to the “Overview” tab and pick up where you left off at a time that suits you.
+
+
+Add your information
+
+ Enter your business information
+
+Tell us about your business.
+
+Your business information is applied across the different features and tools that you use in Merchant Center. You only have to enter this information once, and you can edit it later.
+
+
+  Add where your business is registered as the “Business address”.
+    
+      The time zone for Merchant Center is automatically filled based on the country or region you choose under “Business address”. After you create a Merchant Center, you can change the time zone in your Merchant Center settings.
+    
+  
+  Add your business name.
+    
+      Your business name can be your store's name, your website's name, or your business's name.
+      The name you enter as your business name is used as your Merchant Center name. Users see this name across Google. Review our business names policies
+    
+  
+  Add and verify a phone number.
+    
+      You must add and verify a phone number before you can complete your Merchant Center onboarding.
+    
+  
+  Add your social profile information.
+    
+      You can add up to 4 social profiles. Learn more about how to add social profiles
+    
+  
+
+
+
+  Tip: Changing the time zone will alter how we calculate and report your performance metrics. If you change your time zone, the change won’t apply to data added prior to you making the change.
+
+
+ Choose where your customers check out
+
+Tell us what your checkout should look like.
+
+Select the checkout options that apply to your business. You can choose more than one, and change them later in your Merchant Center if you need to.
+
+
+
+On your website
+
+Customers see your product listing on Google and go to your website to buy.
+
+
+
+On Google
+
+Customers see your product listing on Google and buy without leaving Google. They can still check out on your website even if checkout on Google is available for your product listings.
+
+
+
+At your local store
+
+Customers see your product listing on Google and visit your local store to buy.
+
+Learn more about Merchant Center’s checkout options
+
+ Choose your third-party platforms
+
+Tell us about the tools you work with.
+
+You might work with a third-party platform to show, promote, or sell your products across Google. Linking your account will associate your Merchant Center with an account you manage on a third-party platform. This allows us to provide better services to you and your linked platform. Remember, you can add more tools and integrations at any time.
+
+Learn more about linking to a third-party platform
+
+ Choose your email preferences
+
+Tell us how to reach you.
+
+Opt in to receive emails about updates, with tips and best practices, or invitations to test new features. You can opt out of receiving the emails at any time. Learn more about email preferences
+
+Once you’ve read and accepted the Terms of Service, your Merchant Center will be ready for the next step: Choosing your Merchant Center features.
+
+Related links
+
+
+  Troubleshoot your account
+  Choose where your customers check out
+
+
+
+Next: Choose where your customers check out             Was this helpful?How can we improve it?YesNoSubmit       

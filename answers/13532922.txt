@@ -1,0 +1,61 @@
+ Track your performance for non-product website results in Merchant Center
+
+Non-product website results refer to traffic from Google to pages on your website that are not product detail pages. These pages can be your website’s home page, shipping and return policies, product category pages, or others.
+
+Tracking the performance of your website’s non-product results allows you to find opportunities to improve your non-product website pages and increase your website’s overall performance.
+
+On this page
+
+
+  View your non-product website results performance
+  Metrics for non-product website results
+  Understanding the metrics of non-product website results
+
+
+
+View your performance of non-product website results
+
+
+  In your Merchant Center, go to Performance.
+  Go to the Non-product website results tab and view your performance in detail.
+
+
+
+Metrics for non-product website results
+
+Reporting on the performance of non-product website results allows you to view key metrics on how your website clicks, impressions, click-through rates, and more are trending over time.
+
+
+  Note: To see the performance of non-product website results, you need to directly verify and claim your website. If you have a parent account with multiple sub-accounts, each sub-account needs to be separately verified and claimed. Learn how to Verify and claim your store's website.
+
+
+
+  
+    Clicks
+
+    Total count of clicks on your images or website links that lead to your non-product website pages.
+
+    Impressions
+
+    Total count of how often your images or website links appeared on Google.
+
+    Click-through rate (CTR)
+
+    Total count of how often customers who saw your images and website links on Google ended up clicking on them and visiting your non-product website pages, divided by the number of times it’s shown: clicks ÷ impressions = CTR. This illustrates how often clicks on your products led to visits to your online store. For example, if you had 5 clicks and 100 impressions, then your CTR would be 5%.
+  
+
+
+
+Understanding the metrics of non-product website results
+
+Performance graph
+
+The performance graph allows you to view the evolution of your performance metrics over time.
+
+
+  Use the date selector to view the data for longer or shorter time periods.
+  Use a shorter time period to focus on performance at a specific time, for example, if you run a promotion or during a holiday season.
+  A longer time period can give you an indication of cyclical trends among your potential customers.
+  Click “Compare” from the date picker to view comparisons for the time series graph. By default, the metric in the scorecard shows a comparison with the previous period selected.
+
+             Was this helpful?How can we improve it?YesNoSubmit       

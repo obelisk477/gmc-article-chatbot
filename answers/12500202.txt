@@ -1,0 +1,83 @@
+ Advertise your products using Merchant Center
+
+
+  If you’re looking for information about how to advertise your products in the classic Merchant Center experience, click here. 
+
+
+Ad campaigns can help you boost sales by reaching customers from more places across Google. Your ads use the product information in your account (such as images, prices, and store names) and are shown to people searching for the products that you advertise (across Google Ads channels like YouTube, Search, and Discover).
+
+On this page
+
+
+  Before you begin
+  How Google Ads campaigns work in Merchant Center
+  Instructions
+  Frequently asked question
+
+
+
+Before you begin
+
+Before you can create campaigns in Merchant Center, there are a few steps you need to follow.
+
+When you sign up for Merchant Center, you can select that you want to run paid ads for your products. You can also set up ads after you’ve signed up by selecting “Ad campaigns” in the left navigation menu.
+
+You can stop and resume setup at any point. Once you’ve started setup, ad campaigns will automatically be added to your list of pending tasks on the "Home" page.
+
+Set up the required information in Merchant Center:
+
+
+  Add your business details.
+  Complete your tax information (US only).
+  Verify and claim your website to confirm it belongs to you.
+  Set up your shipping settings.
+  Add your product information to Merchant Center.
+
+
+
+  Recommended: While optional, you may want to add promotion information for your products. Promotions are special offers like “15% off” or “Free shipping” that can help increase engagement from your customers. You can highlight promotions in your ad campaigns.
+
+
+Link a Google Ads account to Merchant Center, or set up a new Google Ads account.
+
+
+  Note: If you don’t have access to the Google Ads account, someone with standard or admin access to the account will need to approve the link request.
+
+
+Set up a payment method in the Google Ads account to pay for your ads when you start running campaigns.
+
+When you’re ready, start creating campaigns in Merchant Center.
+
+After you successfully create a campaign, you can view performance data or edit your campaign by going to “Ad campaigns”.
+
+
+  Note: Ensure that your products and ads comply with the Shopping ads and Google Ads policies.
+
+
+How Google Ads campaigns work in Merchant Center
+
+
+  You link a Google Ads account to Merchant Center, and then create a campaign that runs ads for your products.
+  We use your existing Merchant Center product data to decide how and where to show your ads.
+  The product data you submit in Merchant Center contains details about the products you sell. We use these details when we match a user's search to your ads, making sure to show the most relevant products. All available products in Merchant Center will be advertised in your campaigns by default.
+  Potential customers will discover ads for your products on Google’s channels (for example, while they’re searching for a video on YouTube). Based on information in your feed, customers will view things like a photo of the product, title, price, store name, and other important information in the ad.
+  Customers click on your ads to learn more about your products before making a purchase. You only pay for performance (for example, when your ad receives clicks or engagements)..
+
+
+
+Frequently asked questions
+
+
+  Which Google Ads campaign type does Merchant Center use?
+
+  
+    
+      Any campaign you create in Merchant Center is a Performance Max campaign. Performance Max is a performance-based campaign type that helps you find more customers and meet your goals. To do this, Performance Max looks at campaign inputs like your budget and your product feed, and then optimizes performance based on those inputs.
+
+      When you create a Performance Max campaign in Merchant Center, you provide the budget and campaign name.
+
+      If you want even more control over the campaign (such as bidding options), you can use Google Ads to edit the ad. Learn more a About the features available for Performance Max in Google Ads.
+    
+  
+
+             Was this helpful?How can we improve it?YesNoSubmit       

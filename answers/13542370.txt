@@ -1,0 +1,55 @@
+ About Shopping trendsThis article is intended for users of the Google & YouTube app on Shopify
+
+Shopping trends provides recommendations and insights about your products based on search demand for topics related to your inventory.
+
+
+How it works
+
+Shopping trends may help you to make strategic decisions about when to use paid and organic Google tools to increase the likelihood of a user seeing your products when they are looking for it, or a product similar to it, online.
+
+How Google collects the data
+
+By reviewing the product data in your Merchant Center account along with the information provided on your website, Google is able to provide personalized recommendations and insights based on relevant search trends. For example, if there is a surge in search volume for products or topics similar to those offered by your business, Google may recommend that you run an advertising campaign highlighting those products. This strategy may help you capitalize on the increase in demand.
+
+
+Topic trends and product trends
+
+Topic trends
+
+A topic trend shows you a time series view of the popularity of a topic on Google Search, and its fluctuation over a timeframe. The fluctuation or the change is relative to the peak in popularity of a selected topic, or relative to the peak in popularity of any other topic shown with the selected topic.
+
+The value of 100 represents the peak popularity of a topic. If a topic shows a value of 100 in September and a value of 50 in December, it means the topic was only half as popular in December when compared to its popularity in September.
+
+
+
+Product trends
+
+Product trends represent data around specific products.
+
+There are 2 recommendation tables under product trends:
+
+
+  The first table shows the most popular products, meaning the products with the highest search volume.
+  The second table shows top trending products, which are those with the largest positive percentage change in search volume over a selected timeframe.
+
+
+
+
+
+  Note: For both topic trends and product trends, the default setting is to show relevant information based on what we know you sell.
+
+
+
+Recommendations [Beta]
+
+Using the data in your Merchant Center account and the data we have on topic and product trends, Google may recommend creating a collection of products to promote on your site by email or with other marketing channels such as advertising campaigns. These recommendations are based on an increase or decrease in consumer demand. Learn more about Shopping campaigns.
+
+
+Related links
+
+
+  Syncing your products (Google & YouTube app on Shopify)
+  List your products for free on Google (Google & YouTube app on Shopify)
+  Advertise your products using Shopping ads (Google & YouTube app on Shopify)
+
+             Was this helpful?How can we improve it?YesNoSubmit       

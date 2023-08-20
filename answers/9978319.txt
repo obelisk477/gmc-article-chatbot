@@ -1,0 +1,224 @@
+ Checkout and landing page requirements to show users free and fast annotation on your ads
+
+To be eligible to show the free and fast shipping annotation on your Shopping ads, Buy on Google listings, and free product listings, you'll need to meet certain checkout and landing page requirements. These are in place to ensure a consistent user experience.
+
+Requirements
+
+
+  
+    Checkout: You must provide users with at least one shipping option that explicitly shows delivery within 3 business days at no shipping cost. The delivery time shouldn’t exceed the figures you submit to Merchant Center.
+
+    Landing page: For eligible products, product landing pages must not have shipping information inconsistent with free and fast shipping.
+  
+
+
+Example checkout shipping scenarios
+
+
+  
+    
+      Note: The examples here aren't exhaustive. We've included some alternative phrasing possibilities, but they may not cover your shipping options exactly. The most important thing to remember is that your shipping configuration must offer delivery in 3 business days or fewer at no shipping cost - inclusive of processing and handling time.
+    
+
+    
+      
+        
+          Checkout shipping language on your ads and listings
+          Might also look like
+          Meets requirements?
+          Why?
+        
+      
+      
+        
+          “3 business days” + “same day processing”
+          “3-day delivery”
+          + "no additional processing time”
+          Y
+          Shipping + handling/processing is 3 days or less
+        
+        
+          “2 business days” + “allow for 24 hours processing time”
+          “ships tomorrow”
+          Y
+          Shipping + handling/processing is 3 days or less
+        
+        
+          “1-3 business days” + “same day processing”
+          (no additional processing time noted)
+          Y
+          Shipping + handling/processing is 3 days or less
+        
+        
+          “Next day shipping”
+          “Overnight shipping” +
+          “handling time is less than 2 days”
+          “processing time is less than 2 days”
+          Y
+          Shipping + handling/processing is 3 days or less
+        
+        
+          “Arrives by July 23” (date is 3 or fewer business days from today)
+          “Friday, July 23”
+          Y
+          
+          
+            Date is 3 or fewer business days from today
+            Shipping + handling/processing is 3 days or less
+          
+          
+        
+        
+          “Arrives in 1-3 days”
+           
+          Y
+          
+          
+            “Arrives” encompasses processing and shipping time
+            Shipping + handling/processing is 3 days or less
+          
+          
+        
+        
+          “2 day delivery to CA, NV, AZ. 3-6 days to other destinations.”
+          For example: a specific zone for fast delivery, but no dynamic delivery estimates based on user shipping address
+          Y
+          Shipping + handling/processing is 3 days or less
+        
+        
+          “Free and fast shipping”
+           
+          N
+          Phrasing doesn't explicitly indicate 3 day shipping
+        
+        
+          “FREE economy shipping”
+           
+          N
+          Phrasing doesn't explicitly indicate 3 day shipping
+        
+        
+          “1-3 business days” + cost (not free)
+           
+          N
+          Not free shipping
+        
+        
+          “2 business days” + “allow for 24-48 hours processing time”
+           
+          N
+          Max processing time + shipping time > 3 days
+        
+        
+          “3 business days” + “allow for 24 hours processing time” noted on checkout page
+           
+          N
+          Processing + shipping time together is greater than 3 days
+        
+        
+          "3-5 business days"
+           
+          N
+          Delivery may take longer than 3 days
+        
+        
+          “Arrives by July 30” (when date is more than 3 business days from today)
+           
+          N
+          Arrival date is greater than 3 business days from customer order date
+        
+      
+    
+  
+
+
+Example landing page shipping scenarios
+
+
+  
+    
+      Note: Your landing page shipping information must not contradict your checkout shipping speed and the information in your Shopping ad or free listing. In other words, if you've shown the free and fast shipping annotation on your ads or free listings, your landing page must not say anything about shipping that costs money or that takes longer than 3 days (but it can also say nothing).
+    
+
+    
+      
+        
+          Landing page shipping information
+          Meets requirements?
+          Why?
+        
+      
+      
+        
+          No shipping information at all
+          Y
+          Checkout must show a free 3 day (or less) delivery option
+        
+        
+          "Free shipping" (no information on speed)
+          Y
+          Checkout must show a free 3 day (or less) delivery option
+        
+        
+          "3 day shipping available" (no information on cost)
+          Y
+          Checkout must show a free 3 day (or less) delivery option
+        
+        
+          "Free and fast shipping"
+          Y
+          Checkout must show a free 3 day (or less) delivery option
+        
+        
+          "Free 3 day shipping"
+          Y
+          Checkout must show a free 3 day (or less) delivery option
+        
+        
+          "Free 3 day shipping available nationwide"
+          Y
+          Checkout must show a free 3 day (or less) delivery option
+        
+        
+          "Free 3 day shipping available to select areas"
+          Y
+          Checkout must dynamically show a free 3 day (or less) delivery option based on user destination
+        
+        
+          "Free 3 day shipping available to CA, AZ, NV"
+          Y
+          Checkout must dynamically show a free 3 day (or less) delivery option based on user destination
+        
+        
+          "Free 3 day shipping above $X basket"; item price is greater than the minimum basket requirement
+          Y
+          Checkout must show a free 3 day (or less) delivery option
+        
+        
+          "Free standard shipping; 2-5 day estimated delivery"
+          N
+          Delivery range exceeds 3 day shipping
+        
+        
+          "3 day shipping available for $X”
+          N
+          Shipping option not free
+        
+        
+          "Free 3 day shipping above $X basket" when the item price is below minimum basket requirement
+          N
+          Offer would not have free shipping, below min basket
+        
+      
+    
+  
+
+
+Related links
+
+
+  About landing page requirements
+  Checkout requirements and best practices
+  Show users that you offer free and fast shipping
+
+             Was this helpful?How can we improve it?YesNoSubmit       

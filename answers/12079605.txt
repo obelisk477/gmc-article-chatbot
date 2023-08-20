@@ -1,0 +1,2163 @@
+ Healthcare & medicines
+
+
+  This policy applies to free listings. Learn more about Shopping ads policies.
+
+
+
+Our policy
+
+
+  
+    
+      
+        
+        
+          Google restricts the listing of healthcare-related content such as the following:
+
+          
+            Over-the-counter medication
+            Prescription drugs
+            Unapproved pharmaceuticals and supplements
+            Pregnancy and fertility-related products
+          
+
+          The restrictions that apply to this content may vary depending on the product you're listing and the countries that you're targeting. Some content, such as unapproved supplements, may not be listed anywhere.
+
+          Depending on the content you’re listing and the countries where your ads appear, you may need to apply for preauthorization with Google before advertising healthcare-related content.
+        
+        
+      
+    
+  
+
+
+Examples of what's allowed in some circumstances
+
+Here are some of the kinds of content that we restrict under this policy:
+
+
+  
+    
+      
+        
+        Prescription and behind-the-counter drugs
+        
+      
+    
+  
+
+
+
+  
+  
+    Google allows the listing of prescription and behind-the-counter drugs in the United States. In Canada, retailers are allowed to list prescription drugs. Online pharmacies listing prescription drugs must be accredited by the LegitScript Healthcare Merchant Certification and Monitoring Program or the National Association of Boards of Pharmacy’s (NABP) VIPPS program or .pharmacy Verified Websites Program, and certified by Google. If you have already been certified by LegitScript or the NABP, apply for certification with Google by filling out our online pharmacy application form. See a non-exhaustive list of prescription drugs or active ingredients that are monitored under this policy. The promotion of prescription opioid painkillers is not allowed, per the policy below.
+  
+  
+
+
+
+  
+    
+      
+        
+        Over-the-counter medication
+        
+      
+    
+  
+
+
+
+  
+  In some countries listed below, only online pharmacies may list over-the-counter medication products, provided that certification is available for the country involved and they meet the associated certification requirements. In the United States, no certification is required for the listing of over-the-counter medication. In other countries, if no certification process is available for a country, these products can’t be listed.
+
+  For variations of this policy, see How does this policy differ from country to country.
+  
+
+
+
+  
+    
+      
+        
+        Unapproved pharmaceuticals and supplements
+        
+      
+    
+  
+
+
+
+  
+  Google doesn't allow the listing of the following pharmaceuticals and supplements, regardless of any claims of legality:
+    
+      Anything identified on the non-exhaustive list of prohibited pharmaceuticals and supplements.
+      Products that contain ephedra.
+      DHEA and melatonin products, unless specifically mentioned as allowed in an individual country. Please see the How does this policy differ from country to country section for more information.
+      Human chorionic gonadotropin (hCG) in relation to weight loss/weight control, or when promoted in conjunction with anabolic steroids.
+      Herbal and dietary supplements with active pharmaceutical or dangerous ingredients.
+      Products that make false or misleading health claims or sites whose primary purpose is to sell products that claim to be as effective as anabolic steroids, prescription weight-loss drugs, controlled substances and prescription erectile dysfunction drugs.
+      Non-government approved or non-prescription products that are marketed in a way that implies that they're safe or effective for use in preventing, curing, or treating a particular disease or ailment.
+    
+  
+
+  For additional information on the products we monitor under this policy, visit www.legitscript.com.
+
+  Google may disallow the listing of any dietary supplement, drug, or other product that's been the subject of any government or regulatory action or warning.
+
+  We also don't allow the listing of products with names that are or may be confusingly similar to anabolic steroids, weight-loss drugs, prescription drugs, controlled substances, or other products that are banned under this policy, irrespective of any claims of legality. Examples include, but aren't limited to, the following:
+    
+      Phentrimine, phenermine, or phentramine (which are similar to the prescription drug "phentermine")
+      Calis, cealis or "herbal cialis" (which are similar to the prescription drug "Cialis")
+      D-Bol, Dinabol, or dianibol (which are similar to the anabolic steroid "Dianabol")
+    
+  
+
+  See the How does this policy differ from country to country section below for variations of this policy.
+  
+
+
+
+  
+    
+      
+        
+        Prescription opioid painkillers
+        
+      
+    
+  
+
+
+
+  
+  Google doesn’t allow the listing of prescription opioid painkillers except for those that are intended for use as medication-assisted treatment (MAT) for opioid use disorder and meet all other requirements pertaining to prescription drugs listed on this page.
+  
+
+
+
+  
+    
+      
+        
+        Abortion
+        
+      
+    
+  
+
+
+
+  
+  Google restricts the listing of abortion-related content, including abortion-inducing drugs. We have different requirements for listing these products based on the country you’re targeting. See below for details about these country requirements. Unless specifically mentioned in the country requirements below, Google allows the listing of abortion-related content.
+
+  Google doesn't allow abortion-related content that uses violent language or gruesome imagery.
+
+  See the How does this policy differ from country to country section below for variations of this policy.
+  
+
+
+
+  
+    
+      
+        
+        Pet prescriptions and pharmacies
+        
+      
+    
+  
+
+
+
+  
+  Google allows the listing of pet pharmacies and pet pharmaceuticals in the United States and Canada only. Merchants listing pet pharmacies and pet pharmaceuticals to the United States and Canada must be accredited by the LegitScript Healthcare Merchant Certification and Monitoring Program or the NABP's .pharmacy Verified Websites Program and certified by Google.
+  
+
+
+
+  
+    
+      
+        
+        Medical devices
+        
+      
+    
+  
+
+
+
+  
+  Google allows the listing of medical devices. Merchants have to adhere to country-specific legal requirements regarding the sale of medical devices.
+  
+
+
+
+  
+    
+      
+        
+        HIV home tests
+        
+      
+    
+  
+
+
+
+  
+  Google allows the listing of HIV home tests in the Netherlands, the United Kingdom, and the United States. All HIV home tests must follow local regulations.
+  
+
+
+
+  
+    
+      
+        
+        Secret paternity tests
+        
+      
+    
+  
+
+
+
+  
+  Google doesn’t allow the listing of paternity tests that are advertised as secret.
+  
+
+
+
+  
+    
+      
+      DNA testing kits
+      
+    
+  
+
+
+
+Google allows the listing of direct-to-consumer DNA testing kits (and their associated reporting services). Merchants have to adhere to country-specific legal requirements regarding the sale of DNA testing kits.
+
+
+
+  
+    
+      
+      Medical test kits
+      
+    
+  
+
+
+
+Free listings allow the listing of at-home medical test kits (including diagnosis of COVID-19) with at-home or lab results. Test kits must adhere to country-specific regulations. Merchants are responsible for ensuring compliance with country-specific requirements.
+
+
+
+How does this policy differ from country to country?
+
+In addition to the requirements above, there may be further restrictions based on your target country. Click a country below to see additional requirements that you must meet in order for your listings to target that country.
+
+
+  
+    
+      Algeria
+      Hungary
+      Philippines
+    
+    
+      Argentina
+      India
+      Poland
+    
+    
+      Australia
+      Indonesia
+      Portugal
+    
+    
+      Austria
+      Italy
+      Russia
+    
+    
+      Bahrain
+      Japan
+      Saudi Arabia
+    
+    
+      Belarus
+      Jordan
+      Singapore
+    
+    
+      Belgium
+      Kazakhstan
+      Slovakia
+    
+    
+      Brazil
+      Kuwait
+      South Korea
+    
+    
+      Canada
+      Lebanon
+      Spain
+    
+    
+      Chile
+      Malaysia
+      Sri Lanka
+    
+    
+      Colombia
+      Mexico
+      Sweden
+    
+    
+      Costa Rica
+      Morocco
+      Switzerland
+    
+    
+      Czechia
+      Myanmar (Burma)
+      Taiwan
+    
+    
+      Dominican Republic
+      Netherlands
+      Thailand
+    
+    
+      Ecuador
+      New Zealand
+      Tunisia
+    
+    
+      Egypt
+      Nicaragua
+      Turkey
+    
+    
+      El Salvador
+      Norway
+      Ukraine
+    
+    
+      France
+      Oman
+      United Arab Emirates
+    
+    
+      Georgia
+      Pakistan
+      United Kingdom
+    
+    
+      Germany
+      Panama
+      United States
+    
+    
+      Greece
+      Paraguay
+      Uzbekistan
+    
+    
+      Hong Kong
+      Peru
+      Venezuela
+    
+  
+
+
+Algeria
+
+
+  
+    
+      Product type
+      Details
+    
+    
+      Abortion, abortion-related products, and the "morning after" pill
+      
+       Not allowed
+
+      Google doesn't allow the promotion of abortion, abortion-related products, and the "morning after" pill in Algeria.
+      
+    
+    
+      Birth control
+      
+      
+         Not allowed
+
+        Google doesn't allow the listing of condoms, other contraception products, and fertility products in Algeria.
+      
+      
+    
+  
+
+
+Argentina
+
+
+  
+    
+      Product type
+      Details
+    
+    
+      Abortion, abortion-related products, and the "morning after" pill
+      
+       Not allowed
+
+      Google doesn't allow the promotion of abortion, listing of abortion-related products, or the listing of the "morning after" pill in Argentina.
+      
+    
+  
+
+
+Australia
+
+
+  
+    
+      Product type
+      Details
+    
+    
+      Online pharmacies listing over-the-counter drugs
+      
+       Allowed
+
+      Google allows over-the-counter drug listings from online pharmacies if they're registered in the Pharmacy Guild of Australia or Medicare Australia. Merchants must also be certified by Google.
+      
+    
+    
+      Abortion, abortion-inducing drugs, and the “morning after” pill
+      
+       Not allowed
+
+      Google doesn't allow the promotion of abortion, listing of abortion-inducing drugs, or the listing of the "morning after" pill in Australia.
+      
+    
+  
+
+
+Austria
+
+
+  
+    
+      Product type
+      Details
+    
+    
+      Online pharmacies listing over-the-counter drugs
+      
+      
+         Allowed
+
+        Google allows over-the-counter drug listings from online pharmacies if they're registered in the Bundesamt für Sicherheit im Gesundheitswesen (Federal Agency for Safety and Health Care). Merchants must also be certified by Google.
+
+        Additionally, non-Austrian online pharmacies established within the EU/EEA who are registered as law requires in their home countries and are certified by Google (see country specifics) can target cross-border over-the-counter drug sale listings at Austria.
+      
+      
+    
+  
+
+
+Bahrain
+
+
+  
+    
+      Product type
+      Details
+    
+    
+      Abortion, abortion-related products, and the "morning after" pill
+      
+       Not allowed
+
+      Google doesn't allow the promotion of abortion, listing of abortion-related products, or the listing of the "morning after" pill in Bahrain.
+      
+    
+    
+      Birth control
+      
+       Not allowed
+
+      Google doesn't allow the listing of condoms, other contraception products, and fertility products in Bahrain.
+      
+    
+  
+
+
+Belarus
+
+
+  
+    
+      Product type
+      Details
+    
+    
+      Abortion, abortion-related products, and the "morning after" pill
+      
+       Not allowed
+
+      Google doesn't allow the promotion of abortion, listing of abortion-related products, or the listing of the "morning after" pill in Belarus.
+      
+    
+    
+      Birth control
+      
+       Not allowed
+
+      Google doesn't allow the listing of condoms, other contraception products, and fertility products in Belarus.
+      
+    
+  
+
+
+Belgium
+
+
+  
+    
+      Product type
+      Details
+    
+    
+      Abortion and abortion-related products
+      
+       Not allowed
+
+      Google doesn’t allow the promotion of abortion or listing of abortion-related products in Belgium.
+      
+    
+  
+
+
+Brazil
+
+
+  
+    
+      Product type
+      Details
+    
+    
+      Online pharmacies listing non-prescription drug products
+      
+       Allowed
+
+      Google allows non-prescription drug listings from online pharmacies if they're registered with the National Health Inspection Agency (Agência Nacional de Vigilância Sanitária - ANVISA). Merchants must also be certified by Google.
+      
+    
+    
+      Abortion and abortion-related products
+      
+       Not allowed
+
+      Google doesn’t allow the promotion of abortion or listing of abortion-related products in Brazil.
+      
+    
+    
+      Creatine, L-Carnitine or Carnitine, Polifenol de Alcachofra
+      
+       Not allowed
+
+      Google doesn't allow the listing of Creatine, L-Carnitine or Carnitine, and Polifenol de Alcachofra in Brazil.
+      
+    
+  
+
+
+Canada
+
+
+  
+    
+      Product type
+      Details
+    
+    
+      Online pharmacies listing non-prescription drug products
+      
+       Allowed
+
+      Google allows non-prescription drug listings from online pharmacies and pet pharmacies if they are accredited by the LegitScript Healthcare Merchant Certification and Monitoring Program or the National Association of Boards of Pharmacy VIPPS program or .pharmacy Verified Websites Program. Merchants must also be certified by Google.
+      
+    
+    
+      Prescription drugs
+      
+       Allowed
+
+      Google allows the listing of prescription drugs (including by pet pharmacies, but excluding opioid painkillers) in Canada by online pharmacies who are accredited by the LegitScript Healthcare Merchant Certification and Monitoring Program or the National Association of Boards of Pharmacy VIPPS program or .pharmacy Verified Websites Program and certified by Google.
+      
+    
+    
+      Melatonin
+      
+       Allowed
+
+      Google allows the listing of melatonin in Canada.
+      
+    
+    
+      Pet prescriptions and pharmacies
+      
+       Allowed
+
+      Google allows the listing of pet pharmacies and pet pharmaceuticals in Canada by online veterinary pharmacies who are accredited by the LegitScript Healthcare Merchant Certification and Monitoring Program or the .pharmacy Verified Websites Program and certified by Google.
+      
+    
+  
+
+
+Chile
+
+
+  
+    
+      Product type
+      Details
+    
+    
+      Abortion, abortion-related products, and the "morning after" pill
+      
+       Not allowed
+
+      Google doesn't allow the promotion of abortion, listing of abortion-related products, or listing of the "morning after" pill in Chile.
+      
+    
+  
+
+
+Colombia
+
+
+  
+    
+      Product type
+      Details
+    
+    
+      Abortion, abortion-related products, and the "morning after" pill
+      
+       Not allowed
+
+      Google doesn't allow the promotion of abortion, listing of abortion-related products, or listing of the "morning after" pill in Colombia.
+      
+    
+  
+
+
+Costa Rica
+
+
+  
+    
+      Product type
+      Details
+    
+    
+      Abortion, abortion-related products, and the "morning after" pill
+      
+       Not allowed
+
+      Google doesn't allow the promotion of abortion, listing of abortion-related products, or the listing of the "morning after" pill in Costa Rica.
+      
+    
+  
+
+
+Czechia
+
+
+  
+    
+      Product type
+      Details
+    
+    
+      Online pharmacies listing over-the-counter drugs
+      
+       Allowed
+
+      Google allows over-the-counter drug listings from online pharmacies if they're registered in the the Státní ústav pro kontrolu léčiv (State Institute for Drug Control). Merchants must also be certified by Google.
+      
+    
+  
+
+
+Dominican Republic
+
+
+  
+    
+      Product type
+      Details
+    
+    
+      Abortion, abortion-related products, and the "morning after" pill
+      
+       Not allowed
+
+      Google doesn't allow the promotion of abortion, listing of abortion-related products, or the listing of the "morning after" pill in the Dominican Republic.
+      
+    
+  
+
+
+Ecuador
+
+
+  
+    
+      Product type
+      Details
+    
+    
+      Abortion, abortion-related products, and the "morning after" pill
+      
+       Not allowed
+
+      Google doesn't allow the promotion of abortion, listing of abortion-related products, or the listing of the "morning after" pill in Ecuador.
+      
+    
+  
+
+
+Egypt
+
+
+  
+    
+      Product type
+      Details
+    
+    
+      Abortion, abortion-related products, and the "morning after" pill
+      
+       Not allowed
+
+      Google doesn't allow the promotion of abortion, listing of abortion-related products, or the listing of the "morning after" pill in Egypt.
+      
+    
+    
+      Birth control
+      
+       Not allowed
+
+      Google doesn't allow the listing of condoms, other contraception products, and fertility products in Egypt.
+      
+    
+  
+
+
+El Salvador
+
+
+  
+    
+      Product type
+      Details
+    
+    
+      Abortion, abortion-related products, and the "morning after" pill
+      
+       Not allowed
+
+      Google doesn't allow the promotion of abortion, listing of abortion-related products, or the listing of the "morning after" pill in El Salvador.
+      
+    
+  
+
+
+France
+
+
+  
+    
+      Product type
+      Details
+    
+    
+      Online pharmacies listing over-the-counter drugs
+      
+      
+         Allowed
+
+        Google allows non-prescription drug listings from online pharmacies if they're certified and listed as approved by the Pharmacists Guild. Merchants must also be certified by Google.
+
+        Eligible online pharmacies in the EU and the EEA, if they meet local requirements and are certified by Google, may target cross-border over-the-counter drug sale listings in France.
+      
+      
+    
+    
+      Abortion and abortion-related products
+      
+       Not allowed
+
+      Google doesn’t allow the promotion of abortion or listing of abortion-related products in France.
+      
+    
+    
+      Paternity tests
+      
+       Not allowed
+
+      Google doesn't allow the listing of paternity testing services in France. This restriction includes both clinic-based paternity testing services and at-home paternity test kits.
+      
+    
+  
+
+
+Georgia
+
+
+  
+    
+      Product type
+      Details
+    
+    
+      Abortion, abortion-related products, and the "morning after" pill
+      
+       Not allowed
+
+      Google doesn't allow the promotion of abortion, listing of abortion-related products, or the listing of the "morning after" pill in Georgia.
+      
+    
+    
+      Birth control
+      
+       Not allowed
+
+      Google doesn't allow the promotion of condoms, other contraception products, and fertility products in Georgia.
+      
+    
+  
+
+
+Germany
+
+
+  
+    
+      Product type
+      Details
+    
+    
+      Online pharmacies listing over-the-counter drugs
+      
+      
+         Allowed
+
+        Google allows non-prescription drug listings from online pharmacies if they're registered in the DIMDI register. Merchants must also be certified by Google.
+
+        Online pharmacies established in the Netherlands and Great Britain, if they meet local requirements and are certified by Google, may target cross-border over-the-counter drug sale listings in Germany.
+      
+      
+    
+    
+      Abortion and abortion-related products
+      
+       Not allowed
+
+      Google doesn’t allow the promotion of abortion or listing of abortion-related products in Germany.
+      
+    
+  
+
+
+Greece
+
+
+  
+    
+      Product type
+      Details
+    
+    
+      Abortion, abortion-related products, and the "morning after" pill
+      
+       Not allowed
+
+      Google doesn't allow the promotion of abortion or listing of abortion-related products, and the "morning after" pill in Greece.
+      
+    
+  
+
+
+Hong Kong
+
+
+  
+    
+      Product type
+      Details
+    
+    
+      Abortion, abortion-related products, and the "morning after" pill
+      
+       Not allowed
+
+      Google doesn't allow the promotion of abortion or listing of abortion-related products, and the "morning after" pill in Hong Kong.
+      
+    
+  
+
+
+Hungary
+
+
+  
+    
+      Product type
+      Details
+    
+    
+      Abortion, abortion-related products, and the "morning after" pill
+      
+       Not allowed
+
+      Google doesn't allow the promotion of abortion, listing of abortion-related products, or the listing of the "morning after" pill in Hungary.
+      
+    
+  
+
+
+India
+
+
+  
+    
+      Product type
+      Details
+    
+    
+      Abortion, abortion-inducing drugs, and the “morning after” pill
+      
+       Not allowed
+
+      Google doesn't allow the promotion of abortion, listing of abortion-related products, or the listing of the "morning after" pill in India.
+      
+    
+    
+      Products that promote or enable gender or sex selection
+      
+       Not allowed
+
+      Google doesn't allow products that promote or enable the pre-natal determination of the gender of a child, or pre-conception selection, or influence of a child’s sex in India.
+      
+    
+  
+
+
+Indonesia
+
+
+  
+    
+      Product type
+      Details
+    
+    
+      Abortion, abortion-related products, and the "morning after" pill
+      
+       Not allowed
+
+      Google doesn't allow the promotion of abortion, listing of abortion-related products, or the listing of the "morning after" pill in Indonesia.
+      
+    
+  
+
+
+Italy
+
+
+  
+    
+      Product type
+      Details
+    
+    
+      Abortion, abortion-inducing drugs, and the “morning after” pill
+      
+       Not allowed
+
+      Google doesn't allow the promotion of abortion, listing of abortion-related products, or the listing of the "morning after" pill in Italy.
+      
+    
+  
+
+
+Japan
+
+
+  
+    
+      Product type
+      Details
+    
+    
+      Online pharmacies promoting over-the-counter drugs
+      
+       Allowed
+
+      Google allows over-the-counter drug listings from online pharmacies as long as they provide a valid license number for their "License for marketing authorization holder." Merchants must also be certified by Google.
+      
+    
+  
+
+
+Jordan
+
+
+  
+    
+      Product type
+      Details
+    
+    
+      Abortion, abortion-related products, and the "morning after" pill
+      
+       Not allowed
+
+      Google doesn't allow the promotion of abortion, listing of abortion-related products, or the listing of the "morning after" pill in Jordan.
+      
+    
+    
+      Birth control
+      
+       Not allowed
+
+      Google doesn't allow the listing of condoms, other contraception products, and fertility products in Jordan.
+      
+    
+  
+
+
+Kazakhstan
+
+
+  
+    
+      Product type
+      Details
+    
+    
+      Abortion, abortion-related products, and the "morning after" pill
+      
+       Not allowed
+
+      Google doesn't allow the promotion of abortion, listing of abortion-related products, or the listing of the "morning after" pill in Kazakhstan.
+      
+    
+    
+      Birth control
+      
+       Not allowed
+
+      Google doesn't allow the listing of condoms, other contraception products, and fertility products in Kazakhstan.
+      
+    
+  
+
+
+Kuwait
+
+
+  
+    
+      Product type
+      Details
+    
+    
+      Abortion, abortion-related products, and the "morning after" pill
+      
+       Not allowed
+
+      Google doesn't allow the promotion of abortion, listing of abortion-related products, or the listing of the "morning after" pill in Kuwait.
+      
+    
+    
+      Birth control
+      
+       Not allowed
+
+      Google doesn't allow the listing of condoms, other contraception products, and fertility products in Kuwait.
+      
+    
+  
+
+
+Lebanon
+
+
+  
+    
+      Product type
+      Details
+    
+    
+      Abortion, abortion-related products, and the "morning after" pill
+      
+       Not allowed
+
+      Google doesn't allow the promotion of abortion, listing of abortion-related products, or the listing of the "morning after" pill in Lebanon.
+      
+    
+    
+      Birth control
+      
+       Not allowed
+
+      Google doesn't allow the promotion of condoms, other contraception products, and fertility products in Lebanon.
+      
+    
+  
+
+
+Malaysia
+
+
+  
+    
+      Product type
+      Details
+    
+    
+      Abortion, abortion-inducing drugs, and the "morning after" pill
+      
+       Not allowed
+
+      Google doesn't allow the promotion of abortion, listing of abortion-related products, or the listings of the "morning after" pill in Malaysia.
+      
+    
+    
+      Birth control
+      
+       Not allowed
+
+      Google doesn't allow the listing of condoms, other contraception products, and fertility products in Malaysia.
+      
+    
+  
+
+
+Mexico
+
+
+  
+    
+      Product type
+      Details
+    
+    
+      Abortion and abortion-related products
+      
+       Not allowed
+
+      Google doesn’t allow the listing of abortion and abortion-related products in Mexico.
+      
+    
+    
+      Dietetic products
+      
+       Not allowed
+
+      Google doesn't allow the listing of dietetic products or supplements in Mexico.
+      
+    
+  
+
+
+Morocco
+
+
+  
+    
+      Product type
+      Details
+    
+    
+      Abortion, abortion-related products, and the "morning after" pill
+      
+       Not allowed
+
+      Google doesn't allow the promotion of abortion, listing of abortion-related products, or the listing of the "morning after" pill in Morocco.
+      
+    
+    
+      Birth control
+      
+       Not allowed
+
+      Google doesn't allow the listing of condoms, other contraception products, and fertility products in Morocco.
+      
+    
+  
+
+
+Myanmar (Burma)
+
+
+  
+    
+      Product type
+      Details
+    
+    
+      Abortion, abortion-related products, and the "morning after" pill
+      
+       Not allowed
+
+      Google doesn't allow the promotion of abortion, listing of abortion-related products, or the listing of the "morning after" pill in Myanmar (Burma).
+      
+    
+  
+
+
+Netherlands
+
+
+  
+    
+      Product type
+      Details
+    
+    
+      HIV home tests
+      
+       Allowed
+
+      Google allows the listing of HIV home tests in the Netherlands.
+      
+    
+    
+      Online pharmacies listing over-the-counter drugs
+      
+       Allowed
+
+      In the Netherlands, Google allows over-the-counter drug listings from online pharmacies if they're registered with the Ministerie van Volksgezondheid, Welzijn en Sport and appear on this dedicated online repository www.aanbiedersmedicijnen.nl. Merchants must also be certified by Google.
+      
+    
+  
+
+
+New Zealand
+
+
+  
+    
+      Product type
+      Details
+    
+    
+      Online pharmacies promoting over-the-counter drugs
+      
+       Allowed
+
+      Google allows non-prescription drug listings from online pharmacies if they're certified and listed as approved by the Ministry of Health. Merchants must also be certified by Google.
+
+      The non-prescription drugs being offered must themselves be certified by the Ministry of Health.
+      
+    
+    
+      Abortion and abortion-related products
+      
+       Not allowed
+
+      Google doesn’t allow the promotion of abortion and abortion-related products in New Zealand.
+      
+    
+    
+      Paternity tests
+      
+       Not allowed
+
+      Google doesn't allow the promotion of paternity testing services in New Zealand. This restriction includes both clinic-based paternity testing services and at-home paternity test kits.
+      
+    
+  
+
+
+Nicaragua
+
+
+  
+    
+      Product type
+      Details
+    
+    
+      Abortion, abortion-related products, and the "morning after" pill
+      
+       Not allowed
+
+      Google doesn't allow the promotion of abortion, listing of abortion-related products, or the listing of the "morning after" pill in Nicaragua.
+      
+    
+  
+
+
+Norway
+
+
+  
+    
+      Product type
+      Details
+    
+    
+      Online pharmacies listing over-the-counter drugs
+      
+      
+         Allowed
+
+        Google allows over-the-counter drug listings from online pharmacies if they're registered in the Statens legemiddelverk (Norwegian Medicine Agency). Merchants must also be certified by Google.
+      
+      
+    
+  
+
+
+Oman
+
+
+  
+    
+      Product type
+      Details
+    
+    
+      Abortion, abortion-related products, and the "morning after" pill
+      
+       Not allowed
+
+      Google doesn't allow the promotion of abortion, listing of abortion-related products, or the listing of the "morning after" pill in Oman.
+      
+    
+    
+      Birth control
+      
+       Not allowed
+
+      Google doesn't allow the listing of condoms, other contraception products, and fertility products in Oman.
+      
+    
+  
+
+
+Pakistan
+
+
+  
+    
+      Product type
+      Details
+    
+    
+      Abortion, abortion-related products, and the "morning after" pill
+      
+       Not allowed
+
+      Google doesn't allow the promotion of abortion, listing of abortion-related products, or the listing of the "morning after" pill in Pakistan.
+      
+    
+  
+
+
+Panama
+
+
+  
+    
+      Product type
+      Details
+    
+    
+      Abortion, abortion-related products, and the "morning after" pill
+      
+       Not allowed
+
+      Google doesn't allow the promotion of abortion, listing of abortion-related products, or the listing of the "morning after" pill in Panama.
+      
+    
+  
+
+
+Paraguay
+
+
+  
+    
+      Product type
+      Details
+    
+    
+      Abortion, abortion-related products, and the "morning after" pill
+      
+       Not allowed
+
+      Google doesn't allow the promotion of abortion, listing of abortion-related products, or the listing of the "morning after" pill in Paraguay.
+      
+    
+  
+
+
+Peru
+
+
+  
+    
+      Product type
+      Details
+    
+    
+      Abortion, abortion-related products, and the "morning after" pill
+      
+       Not allowed
+
+      Google doesn't allow the promotion of abortion, listing of abortion-related products, or the listing of the "morning after" pill in Peru.
+      
+    
+  
+
+
+Philippines
+
+
+  
+    
+      Product type
+      Details
+    
+    
+      Abortion, abortion-related products, and the "morning after" pill
+      
+       Not allowed
+
+      Google doesn't allow the promotion of abortion, listing of abortion-related products, or the listing of the "morning after" pill in Philippines.
+      
+    
+  
+
+
+Poland
+
+
+  
+    
+      Product type
+      Details
+    
+    
+      Abortion and abortion-related products
+      
+       Not allowed
+
+      Google doesn’t allow the promotion of abortion or listing of abortion-related products in Poland.
+      
+    
+  
+
+
+Portugal
+
+
+  
+    
+      Product type
+      Details
+    
+    
+      Online pharmacies listing over-the-counter drugs
+      
+      
+         Allowed
+        Google allows over-the-counter drug listings from online pharmacies if they're registered with INFARMED (The Portuguese Authority). Merchants must also be certified by Google.
+      
+    
+  
+
+
+Russia
+
+
+  
+    
+      Product type
+      Details
+    
+    
+      Abortion and abortion-related products
+      
+       Not allowed
+
+      Google doesn’t allow the promotion of abortion or listing of abortion-related products in Russia.
+      
+    
+    
+      Dietary supplements
+      
+       Not allowed
+
+      Google doesn't allow the online sale of dietary supplements in Russia.
+      
+    
+    
+      Biologically active additives (BAAs)
+      
+       Allowed with limitations
+
+      Google allows the listing of Biologically active additives (BAAs) in Russia but only if the offer includes the following disclaimer: "Не является лекарством".
+      
+    
+    
+      Baby food for children under one year of age, breast milk supplements
+      
+       Allowed with limitations
+
+      Listings for baby food for children under one year of age, as well as listings for breast milk supplements, must include the following mandatory text: "Проконсультируйтесь со специалистом. Для детей с [укажите число] месяцев".
+      
+    
+    
+      Medical devices
+      
+       Not allowed
+
+      Google doesn't allow the listing in Russia of medical devices and other medical tools and products that require special training.
+      
+    
+    
+      
+      Online pharmacies promoting over-the-counter drugs
+      
+      
+      
+         Allowed with limitations
+
+        Google allows the promotion of online pharmacies if they’re licensed by the Federal Service for Surveillance in Healthcare (Roszdravnadzor) and have a permit for distant trade. All pharmacies must be licensed, regardless of whether they offer only non-prescription products.
+
+        Merchants must also be certified with Google.
+      
+      
+    
+  
+
+
+Saudi Arabia
+
+
+  
+    
+      Product type
+      Details
+    
+    
+      Abortion, abortion-inducing drugs, and the "morning after" pill
+      
+      Not allowed
+
+      Google doesn't allow the promotion of abortion, listing of abortion-inducing drugs, or the listing of the "morning after" pill in Saudi Arabia.
+      
+    
+    
+      Birth control
+      
+       Not allowed
+
+      Google doesn't allow the listing of condoms, other contraception products, and fertility products in Saudi Arabia.
+      
+    
+  
+
+
+Singapore
+
+
+  
+    
+      Product type
+      Details
+    
+    
+      Abortion, abortion-inducing drugs, and the "morning after" pill
+      
+       Not allowed
+
+      Google doesn't allow the promotion of abortion, listing of abortion-related products, or the listing of the "morning after" pill in Singapore.
+      
+    
+  
+
+
+Slovakia
+
+
+  
+    
+      Product type
+      Details
+    
+    
+      Online pharmacies listing over-the-counter drugs
+      
+      
+         Allowed
+        Google allows over-the-counter drug listings from online pharmacies if they're registered in the Štátny ústav pre kontrolu liečiv (State Institute of Drugs). Merchants must also be certified by Google.
+      
+    
+  
+
+
+South Korea
+
+
+  
+    
+      Product type
+      Details
+    
+    
+      Abortion, abortion-inducing drugs, and the "morning after" pill
+      
+       Not allowed
+
+      Google doesn't allow the promotion of abortion, listing of abortion-related products, or the listing of the "morning after" pill in South Korea.
+      
+    
+    
+      Birth control
+      
+      
+         Not allowed
+
+        Google doesn't allow the listing of condoms, other contraception products, and fertility products in South Korea.
+      
+      
+    
+    
+      Contact lenses
+      
+      
+         Not allowed
+
+        Google doesn't allow the listing of contact lenses in South Korea.
+      
+      
+    
+    
+      Online pharmacies listing over-the-counter drugs
+      
+       Not allowed
+
+      Google doesn't allow the listing of over-the-counter drugs in South Korea.
+      
+    
+  
+
+
+Spain
+
+
+  
+    
+      Product type
+      Details
+    
+    
+      Abortion, abortion-inducing drugs, and the “morning after” pill
+      
+       Not allowed
+
+      Google doesn't allow the promotion of abortion, listing of abortion-related products, or the listing of the "morning after" pill in Spain.
+      
+    
+    
+      Dietetic products
+      
+      
+         Not allowed
+
+        Google doesn't allow listings or websites that promote weight-loss medical procedures in Spain. Google doesn't allow listings or websites that promote weight-loss-related products if they meet any of the following criteria:
+
+        
+          Claim medicinal properties
+          Promise specific results
+          Use endorsements by individuals, celebrities, or organizations
+        
+      
+      
+    
+  
+
+
+Sri Lanka
+
+
+  
+    
+      Product type
+      Details
+    
+    
+      Abortion, abortion-related products, and the "morning after" pill
+      
+       Not allowed
+
+      Google doesn't allow the promotion of abortion, listing of abortion-related products, or the listing of the "morning after" pill in Sri Lanka.
+      
+    
+  
+
+
+Sweden
+
+
+  
+    
+      Product type
+      Details
+    
+    
+      Online pharmacies listing over-the-counter drugs
+      
+       Allowed
+
+      Google allows over-the-counter drug listings from online pharmacies if they're registered with the Swedish Medical Product Agency. Merchants must also be certified by Google.
+      
+    
+  
+
+
+Switzerland
+
+
+  
+    
+      Product type
+      Details
+    
+    
+      Abortion and abortion-related products
+      
+       Not allowed
+
+      Google doesn’t allow the promotion of abortion or the listing of abortion-related products in Switzerland.
+      
+    
+  
+
+
+Taiwan
+
+
+  
+    
+      Product type
+      Details
+    
+    
+      Abortion, abortion-related products, and the "morning after" pill
+      
+       Not allowed
+
+      Google doesn't allow the promotion of abortion, listing of abortion-related products, or the listing of the "morning after" pill in Taiwan.
+      
+    
+  
+
+
+Thailand
+
+
+  
+    
+      Product type
+      Details
+    
+    
+      Abortion, abortion-inducing drugs, and the "morning after" pill
+      
+       Not allowed
+
+      Google doesn't allow the promotion of abortion, listing of abortion-related products, or the listing of the "morning after" pill in Thailand.
+      
+    
+    
+      Birth control
+      
+       Not allowed
+
+      Google doesn't allow the listing of condoms, other contraception products, and fertility products in Thailand.
+      
+    
+  
+
+
+Tunisia
+
+
+  
+    
+      Product type
+      Details
+    
+    
+      Abortion, abortion-related products, and the "morning after" pill
+      
+       Not allowed
+
+      Google doesn't allow the promotion of abortion, listing of abortion-related products, or the listing of the "morning after" pill in Tunisia.
+      
+    
+    
+      Birth control
+      
+       Not allowed
+
+      Google doesn't allow the listing of condoms, other contraception products, and fertility products in Tunisia.
+      
+    
+  
+
+
+Turkey
+
+
+  
+    
+      Product type
+      Details
+    
+    
+      Dietary supplements
+      
+       Not allowed
+
+      Google doesn’t allow the listing of dietary supplements in Turkey.
+      
+    
+  
+
+
+Ukraine
+
+
+  
+    
+      Product type
+      Details
+    
+    
+      Abortion, abortion-inducing drugs, and the "morning after" pill
+      
+       Not allowed
+
+      Google doesn't allow the promotion of abortion, listing of abortion-related products, or the listing of the "morning after" pill in Ukraine.
+      
+    
+    
+      Birth control
+      
+       Not allowed
+
+      Google doesn't allow the listing of condoms, other contraception products, and fertility products in Ukraine.
+      
+    
+  
+
+
+United Arab Emirates
+
+
+  
+    
+      Product type
+      Details
+    
+    
+      Abortion, abortion related products, and the "morning after" pill
+      
+       Not allowed
+
+      Google doesn't allow the promotion of abortion, listing of abortion-related products, or the listing of the "morning after" pill in the United Arab Emirates.
+      
+    
+    
+      Birth control
+      
+       Not allowed
+
+      Google doesn't allow the listing of condoms, other contraception products, and fertility products in the United Arab Emirates.
+      
+    
+  
+
+
+United Kingdom
+
+
+  
+    
+      Product type
+      Details
+    
+    
+      HIV home tests
+      
+       Allowed
+
+      Google allows the listing of HIV home tests in the United Kingdom.
+      
+    
+    
+      Online pharmacies promoting over-the-counter drugs
+      
+       Allowed
+
+      Google allows over-the-counter drug listings from online pharmacies if they're registered with the General Pharmaceutical Council (GPhC). Merchants must also be certified by Google.
+      
+    
+    
+      Abortion-inducing drugs
+      
+       Not allowed
+
+      Google doesn't allow the listing of abortion-inducing drugs in the United Kingdom.
+      
+    
+    
+      Teeth whitening products
+      
+       Not allowed
+
+      Google doesn't allow teeth whitening products that contain more than 0.1% hydrogen peroxide or chemicals that emit hydrogen peroxide in the United Kingdom.
+      
+    
+    
+      Clay drinks
+      
+      
+         Not allowed
+
+        Google doesn't allow the following ingestible clay drinks:
+
+        
+          Fangocur mineral drink
+          Naturally Green 100% bentonite clay
+          Chloe's Beauty Room 100% bentonite clay
+          The Superfood Co. 100% bentonite clay powder
+          Health Leads bentonite clay
+          Scent by Nature Argiletz superfine green clay
+          Seventh wave supplements green clay (French)
+        
+      
+      
+    
+  
+
+
+United States
+
+
+  
+    
+      Product type
+      Details
+    
+    
+      Prescription drugs
+      
+       Allowed
+
+      Google allows the listing of prescription drugs (including by pet pharmacies, but excluding opioid painkillers) in the United States by online pharmacies who are accredited by the LegitScript Healthcare Merchant Certification and Monitoring Program or the National Association of Boards of Pharmacy (NABP) program VIPPS or .pharmacy Verified Websites Program and certified by Google.
+      
+    
+    
+      Over-the-counter medication
+      
+       Allowed
+
+      Google allows the listing of approved over-the-counter medication in the United States.
+      
+    
+    
+      Behind-the-counter medication
+      
+       Allowed
+
+      Behind-the-counter medications are allowed on free listings.
+      
+    
+    
+      DHEA and melatonin
+      
+       Allowed with limitations
+
+      Google allows the promotion of DHEA and melatonin in the United States. Google does not allow the promotion of conventional foods containing melatonin as an unapproved food additive.
+      
+    
+    
+      Pet prescriptions and pharmacies
+      
+       Allowed
+
+      Google allows the listing of pet pharmacies and pet pharmaceuticals in the United States by online pharmacies who are accredited by the LegitScript Healthcare Merchant Certification and Monitoring Program or the .pharmacy Verified Websites Program and certified by Google.
+      
+    
+    
+      HIV home tests
+      
+       Allowed with limitations
+
+      Google only allows certain HIV home tests that are approved by the FDA in the United States.
+      
+    
+  
+
+
+Uzbekistan
+
+
+  
+    
+      Product type
+      Details
+    
+    
+      Birth control
+      
+       Not allowed
+
+      Google doesn't allow the listing of condoms, other contraception products, and fertility products in Uzbekistan.
+      
+    
+  
+
+
+Venezuela
+
+
+  
+    
+      Product type
+      Details
+    
+    
+      Abortion, abortion-related products, and the "morning after" pill
+      
+       Not allowed
+
+      Google doesn't allow the promotion of abortion, listing of abortion-related products, or the listing of the "morning after" pill in Venezuela.
+      
+    
+  
+
+
+
+What you can do
+
+Here's what you can do if your product is disapproved or if your Merchant Center account is impacted:
+
+
+Product disapproval
+
+  Products that don't comply with our policies may be disapproved. When a product is disapproved, it won't be eligible to serve. 
+
+  
+    Read our policies to learn what we don't allow.
+    Update your website. If your ad or listing leads to content that violates a policy, update your website to meet the requirements and be in compliance with our policies.
+    Remove the violating products from your product data. You’ll receive an email with details about the violation. 
+      
+        If you have products in your product data that violate the policy (or policies), you'll need to remove the offers from your feed.
+      
+    
+    Update your product data in Merchant Center. If you created a schedule for automatic uploads, update your product data manually or wait for your product data to be automatically updated before requesting any reviews.
+    Request a review of your products or appeal the decision taken on this issue.
+      
+        If the violating products are removed, you won't need to request a review or take any additional action.
+        If you fix your product-level issues by editing your product data via your chosen upload method (such as a file) or directly in Merchant Center, your products will be re-reviewed.
+        For certain issues, you can disagree with the issue but you may need to complete additional steps such as provide an appeal reason and/or upload required documentation.
+        If you use a third-party platform to list your products, you can refer to your third-party if you want to request a review. You won’t be able to do this in Merchant Center.
+        If a review or appeal is successful, the issue will disappear from Merchant Center.
+      
+    
+  
+
+
+
+Account disapproval
+
+  For most violations, we'll send you a warning email detailing the policy violation and give you 7 or 28 calendar days to fix your issue.
+
+  
+    Read our policies to learn what we don't allow.
+    Update your website. If your ad or listing leads to content that violates a policy, update your website to meet the requirements and be in compliance with our policies.
+    Remove any violating products from your product data. You’ll receive an email with details about the violation. If you have products in your product data that violate the policy (or policies) you'll need to remove the offers from your feed.
+    Update your data in Merchant Center. 
+      
+        Review your account and submit any missing information or complete any unfinished steps. 
+        If you created a schedule for automatic uploads, update your product data manually or wait for your product data to be automatically updated before requesting any reviews.
+      
+    
+    Request a review of your account or appeal the decision taken on this issue.
+      
+        If your account is still within the warning period, it will automatically be reviewed again at the end of the warning period. If the violating products are removed, you won't need to request an account review or take any additional action.
+        If your account is suspended and you've taken actions to resolve the issue, request an account review.
+        For certain issues, you can disagree with the issue but you may need to complete additional steps such as provide an appeal reason and/or upload required documentation.
+        If you use a third-party platform to list your products, you can refer to your third-party if you want to request a review. You won’t be able to do this in Merchant Center.
+      
+    
+  
+
+  Most accounts are reviewed within 3 business days, but it can take longer if a more complex review is needed. If we find that you've removed the violating products from your product data, we’ll remove the warning. If a review or appeal is successful, the issue will disappear from Merchant Center. In the case of account suspension, we'll then also approve your account so your products can start displaying again.
+
+
+
+Account issue that limits product visibility
+
+  Your account has an issue and is operating with reserved functionality, therefore your products have limited visibility. An email was sent with a notice on what to do and the steps needed to resolve your account issue.
+
+  
+    Read our policies to learn more about our requirements.
+    Update your website. If your ad or listing leads to content that violates a policy, update your website to meet the requirements and be in compliance with our policies.
+    Fix any other open policy violation in your account. Review your products and your account details. 
+      
+        If products aren’t supported, remove them from your feed.
+        If account details are missing, complete them in Merchant Center. 
+      
+    
+    Request a review of your account or appeal the decision taken on this issue.
+      
+        If your Merchant Center account is still within the warning period for certain policies, it will automatically be reviewed again at the end of the warning period. 
+        If your account is affected and you've resolved the issue, request a Merchant Center account review.
+        For certain issues, you can disagree with the issue but you may need to complete additional steps such as provide an appeal reason and/or upload required documentation.
+        If you use a third-party platform to list your products, you can refer to your third-party if you want to request a review. You won’t be able to do this in Merchant Center.
+      
+    
+  
+
+  Most accounts are reviewed within 3 business days, but it can take longer if a more complex review is needed. If we find that you've removed the violating products from your product data, we’ll remove the warning. If a review or appeal is successful, the issue will disappear from Merchant Center. In the case of accounts with limited visibility, we'll then also approve your account so your products can start displaying again without any restrictions.
+
+
+
+To ensure a safe and positive experience for customers, Google requires that retailers comply with all applicable laws and regulations in addition to our policies. It's important that you familiarize yourself with and keep up to date on these requirements for the place where your business operates, as well as for any other places your listings are shown. When we find content that violates these requirements, we may block it from appearing. In cases of repeated or egregious violations, we may ban you from listing content with us.
+             Was this helpful?How can we improve it?YesNoSubmit       

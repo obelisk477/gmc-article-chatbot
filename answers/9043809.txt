@@ -1,0 +1,84 @@
+ Data quality best practices for Buy on Google
+  Buy on Google for Search and Shopping will no longer be available starting September 26, 2023. Eligible merchants will be able to use Buy on Google for YouTube in the US. Learn more about Enabling Buy on Google for YouTube.
+
+
+
+
+
+Buy on Google allows customers to see and buy goods directly from your store or warehouse, and in order to ensure that orders are correctly fulfilled, it’s important to be consistent in how you organize the data associated with your products and purchases.
+
+Group product variants with the item group ID attribute
+
+Setting up item groups in your feed
+
+For subtitles in your language, turn on YouTube captions. Select the settings icon  at the bottom of the video player, then select "Subtitles/CC" and choose your language.
+
+
+
+
+Buy on Google requires your product data to be comprehensive and correct. Ensure that when your product has variants (examples include size or color alternatives for apparel, size or material variants for furniture, and capacity variants for electronics) that you group products with these variants by the item group ID [item_group_id] attribute, and ensure the variant value is submitted in the appropriate variant attribute.
+
+Common attributes include: color [color], size [size], pattern [pattern], material [material], capacity [capacity], count [count], flavor [flavor], scent [scent], format [format], and theme [theme]. Learn more about how to group comprehensive, unique variants
+
+Include all critical purchase information
+
+You should include as much descriptive information as possible with regard to product attributes. For example, if you are advertising furniture, include the product dimensions in the description so the user knows how big it is. Apparel should include size and color in the size [size] and color [color] attributes. For products being sold in multiple quantities, include count or multipack information. If this information is not present, there is greater risk that the product could be inaccurately fulfilled or the order could be cancelled.
+
+Use the correct GTIN
+
+The Global Trade Item Number (GTIN) is a common unique identifier that, if your product has one, can help make your ads and free listings richer and easier to find. Having the wrong GTIN for your product can lead to orders that are unfulfilled, or to shipping problems. Additionally, Buy on Google can take down offers that have the wrong GTIN, and if you have mistakenly applied the same GTIN to 2 different products, the products will automatically be disapproved.
+
+Avoid merchant-specific information, customized goods
+
+Because customers can make their purchases, as well as returns, through Google, it can be confusing to include merchant-specific information in product titles, descriptions, and other areas. Avoid using the following:
+
+
+  Store name and addresses
+  Contact info, such as your website or URL
+
+
+If you use this information in titles and descriptions, it may result in products being taken down.
+
+Lastly, Buy on Google does not support products that can be customized, such as by adding a monogram or customer name. Do not include these products in your feed, or they will be taken down.
+
+Manage multiple destinations for your product data
+
+Once uploaded to Google Merchant Center, your product data can be used in a number of destinations. You can choose to exclude your feed from particular destinations through your feed settings. Learn more about handling multiple destinations for your products
+
+You can also manage the campaigns your products participate in using the excluded destination [excluded_destination] and included destination [included_destination] attributes. Learn more about the product data specification
+
+Limit availability for purchasing and selling
+
+To avoid the risk of running out of stock, you can set a limit to the number of products available for purchase using these attributes:
+
+
+  Maximum purchase quantity [purchase_quantity_limit]: Specifies the limit on the number of products your customers can buy in a single order.
+  Quantity for Buy on Google [sell_on_google_quantity]: Specifies the total number of products available to sell on Google. The value will decrement with each order.
+
+
+A list of required and optional attributes for product data compliance can be found here.
+
+Input accurate shipping configurations for each product
+
+When customers purchase products through Buy on Google, Google will collect any related shipping fees based on your shipping configurations in Merchant Center. You can provide shipping configurations for your products using these attributes:
+
+
+  Shipping label [shipping_label]: Set different shipping costs for specific groups of products (e.g. oversized or perishable).
+  Shipping weight [shipping_weight]: Specifies the weight for each product.
+  Shipping length [shipping_length], shipping width [shipping_width], shipping height[shipping_height]: Specifies the dimensions for each product.
+
+
+Learn more about setting up your shipping for Buy on Google
+
+Related links
+
+
+   How to fix duplicate item group issues
+   How to fix inconsistent and missing item group issues
+
+
+
+  Need help? Click here to contact Buy on Google support.
+
+
+             Was this helpful?How can we improve it?YesNoSubmit       

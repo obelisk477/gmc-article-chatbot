@@ -1,0 +1,80 @@
+ How to fix: Same value for differing variants: image link [image_link]Submit a unique value for each variant that has a different physical appearance
+
+You submitted two or more values for the color [color] attribute in your product data. This indicates that one of your products varies by color, but you have not submitted unique URL values for the image link [image_link] attribute for each of these variants. As a result, the same image (submitted through the image link [image_link] attribute) is showing for both of these variants, regardless of their color. This could be confusing or misleading for customers who want to get a closer look at your products. To ensure that each of your products shows with an accurate image in the correct color, submit unique images for each product using the image link [image_link] attribute.
+
+
+  Note: You need to submit a unique image URL for each variant, even if variants of the same product appear cosmetically the same, but differ in another way (for example, if they are different sizes).
+
+
+Instructions
+
+
+  Step 1: See the affected products
+
+  
+  Sign in to your Merchant Center account.
+  Select Products on the navigation menu, then click Diagnostics.
+  Click the Item issues tab to see current issues affecting your products.
+
+
+To download a list (.csv) of all affected products for all issues:
+
+
+  Click the download button  next to the filter button , beneath the graph and above the list of issues.
+
+
+To download a list (.csv) of all affected products for a particular issue:
+
+
+  Find the issue under the “Issue” column, then click the download button  at the end of the row.
+
+
+To see a list of up to 50 products with this particular issue:
+
+
+  Find the issue under the “Issue” column, then click View examples in the “Affected items” column.
+
+
+
+
+
+  Step 2: Add variant attributes
+
+  
+    
+      Filter the downloaded report so that you only see products with:
+        "Issue title" = Same value for differing variants: image link [image_link]
+      
+      Search your product data for those products (using the ID). Ensure that each color variant of your product includes a unique image. Use the image link [image_link] attribute to submit new images.
+    
+  
+
+
+
+  Step 3: Resubmit your product data
+
+  
+    
+  After you’ve updated your product data, resubmit it using one of these methods:
+    
+      Upload a feed
+      Submit through the Content API
+      Import content from an ecommerce platform
+    
+  
+  Next, check that you’ve fixed the issue by making sure it’s no longer listed on the Diagnostics page.
+    
+    Keep in mind: It may take some time for your change to be reflected on the Diagnostics page.
+
+
+  
+
+
+Related links
+
+
+  Color [color]
+  Image link [image_link]
+  Best practice for submitting unsupported variants
+
+             Was this helpful?How can we improve it?YesNoSubmit       

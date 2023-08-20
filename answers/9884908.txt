@@ -1,0 +1,80 @@
+ How to fix: Missing value: sale price for Buy on Google [sell_on_google_sale_price]Submit this value for each product that has a value for this attribute: sale price for Buy on Google [sell_on_google_sale_price] 
+
+
+  Buy on Google for Search and Shopping will no longer be available starting September 26, 2023. Eligible merchants will be able to use Buy on Google for YouTube in the US. Learn more about Enabling Buy on Google for YouTube.
+
+
+
+
+
+You have submitted a value for the sale price for Buy on Google [sell_on_google_sale_price] attribute but have not submitted a value for the price for Buy on Google [sell_on_google_price] attribute.
+
+For example, your sale price for Buy on Google [sell_on_google_sale_price] attribute may be set to $15.00 USD, but your price for Buy on Google [sell_on_google_price]attribute is N/A or has not been set. Both values must be submitted for Buy on Google.
+
+To fix this issue, add a valid value for the price for Buy on Google [sell_on_google_price] attribute.
+
+Instructions
+
+Step 1: See the affected products
+
+
+  
+  Sign in to your Merchant Center account.
+  Select Products from the navigation panel.
+  On the Diagnostics page, click the Item Issues tab to see the current issues affecting your products.
+  Click the filter icon  to filter by destination and select Buy on Google.
+
+To download a list (.csv) of all affected products for all issues:
+
+
+  Click the download button  to the right of the filter button  , beneath the graph and above the list of issues.
+
+To download a list (.csv) of all affected products for a particular issue:
+
+
+  Find the issue under the “Issue” column, then click the download button  in the right-hand column.
+
+To see a list of up to 50 products with this particular issue:
+
+
+  Find the issue under the “Issue” column, then click View examples in the “Affected items” column.
+
+
+
+
+Step 2: Add a valid price
+
+
+  
+    Filter the download report so that you can only see products with:
+      “Issue title” = Missing value: sale price for Buy on Google [sell_on_google_sale_price]
+    Add a valid price for Buy on Google.
+  
+
+
+Step 3: Resubmit your product data
+
+
+  
+  After you’ve updated your product data, resubmit it using one of these methods:
+    
+      Upload a feed
+      Submit through the Content API
+      Import content from an ecommerce platform
+    
+  
+  Next, check that you’ve fixed the issue by making sure it’s no longer listed on the Diagnostics page.
+    
+    Keep in mind: It may take some time for your change to be reflected on the Diagnostics page.
+
+
+
+
+Related links
+
+
+  Price [price]
+  Sale price [sale_price]
+  Product data specification
+
+             Was this helpful?How can we improve it?YesNoSubmit       

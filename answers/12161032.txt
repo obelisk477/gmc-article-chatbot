@@ -1,0 +1,75 @@
+ How to fix: Duplicate offer with same VINEnsure that only one offer exists for each VIN value within a language and country
+
+When multiple offers with the same value for the VIN [vin] attribute for a country and language are uploaded in your product feed, a duplicate offer is created. A duplicate offer may cause serving issues and impression loss in your Merchant Center account. For example, if offers “us/en/123” and “us/en/124” use the same value for the VIN [vin] attribute, this will result in a duplicate offer.
+
+To fix this issue, make sure that only one offer exists for each VIN [vin] attribute within a specific language and country by modifying or deleting the duplicate offers.
+
+Creating multiple offers for the same car (using the same VIN) that serve in different local stores may also cause duplicate offers. If this happens, remove the duplicate offers and use the vehicle fulfillment [vehicle_fulfillment] attribute to enter multiple store codes for the same offer.
+
+Instructions
+
+
+  Step 1: See the affected products
+
+  
+    
+  Sign in to your Merchant Center account.
+  Select Products on the navigation menu, then click Diagnostics.
+  Click the Item issues tab to see current issues affecting your products.
+  Click the filter icon  to filter by destination and select Vehicle ads.
+
+
+To download a list (.csv) of all affected products for all issues:
+
+
+  Click the download button  next to the filter button , beneath the graph and above the list of issues.
+
+
+To download a list (.csv) of all affected products for a particular issue:
+
+
+  Find the issue under the “Issue” column, then click the download button  at the end of the row.
+
+
+To see a list of up to 50 products with this particular issue:
+
+
+  Find the issue under the “Issue” column, then click View examples in the “Affected items” column.
+
+
+  
+
+
+
+  Step 2: Delete duplicate offers
+
+  
+    
+      Filter the downloaded report so that you only see products with:
+        "Issue title" = Duplicate offer with the same VIN
+      Search your product data for those products (using the ID). Make sure that the offers are using different values for the VIN [vin] attribute.
+      Remove any duplicate offers with the same values for the VIN [vin] attribute within a specific language and country.
+    
+  
+
+
+
+  Step 3: Resubmit your product data
+
+  
+    
+  After you’ve updated your product data, resubmit it using one of these methods:
+    
+      Upload a feed
+      Submit through the Content API
+      Import content from an ecommerce platform
+    
+  
+  Next, check that you’ve fixed the issue by making sure it’s no longer listed on the Diagnostics page.
+    
+    Keep in mind: It may take some time for your change to be reflected on the Diagnostics page.
+
+
+  
+
+             Was this helpful?How can we improve it?YesNoSubmit       

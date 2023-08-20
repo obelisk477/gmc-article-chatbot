@@ -1,0 +1,64 @@
+ Set up your payments and billing for Buy on Google 
+
+
+  Buy on Google for Search and Shopping will no longer be available starting September 26, 2023. Eligible merchants will be able to use Buy on Google for YouTube in the US. Learn more about Enabling Buy on Google for YouTube.
+
+
+
+ 
+
+
+
+ 
+
+This article provides details on setting up your payments and billing through Buy on Google.
+
+Available payment service providers
+
+
+  
+    
+      Payment service provider
+      Website
+      Available for merchants based in these markets
+    
+  
+  
+    
+      PayPal
+      PayPal.com
+      US
+    
+  
+
+
+
+  Note: Payment analysts user roles or payment manager can access the payment settings. Learn more about user roles
+
+
+How to set up payments
+
+To participate in Buy on Google in the United States, you’ll need to integrate with a payment service provider.
+
+
+  Sign in to your Merchant Center account.
+  From the left page menu, click Growth.
+  From the drop-down menu, click Manage Programs.
+  In the “Buy on Google program” tab, click Get started.
+  You may be prompted to link your payment service provider account (if you haven’t done so already).
+  Follow your payment service provider’s steps to complete account linking.
+  Click Save and continue.
+
+
+Once your account is successfully linked and authorized, you’ll be able to continue setting up your account. Reach out to your payment service provider with any initial questions or concerns with payments and billing.
+
+
+  Note: You’ll need to set up a local phone number in your payment service provider account settings.
+
+
+
+
+  Need help? Click here to contact Buy on Google support.
+
+
+             Was this helpful?How can we improve it?YesNoSubmit       

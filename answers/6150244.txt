@@ -1,0 +1,303 @@
+ Editorial & professional requirements
+
+
+  This policy applies to Shopping ads and local inventory ads with merchant hosted local store front
+
+
+
+Our policy
+
+
+  
+    
+      
+        
+        In order to provide a quality customer experience, Google requires that all Shopping ads meet high professional and editorial standards. We only allow promotions that are clear and professional in appearance. These ads should lead customers to products and landing pages that are relevant, useful, and easy to interact with.
+        
+      
+    
+  
+
+
+
+Technical requirements
+
+The product data specification defines the structure and format for providing data about your products so that attractive and professional ads can be created. Your promotions will need to comply with the product data specification in order to appear in Shopping ads, so make sure to review the attributes and their requirements carefully.
+
+Examples of what's not allowed
+
+
+  
+    
+      
+      Website needs improvement
+      
+    
+  
+
+
+ Websites that aren’t fully-functional, don’t have business specific content, have information that is difficult to understand, or display product content that is incomplete
+
+  Examples: Your website has broken links, templated content, placeholders of text or placeholders for images.
+
+
+
+
+  
+    
+      
+      Insufficient contact information
+      
+    
+  
+
+
+ Websites that are missing required contact information, have unverified business information in Merchant Center, or both
+
+  Examples: Website is missing contact information (e.g. no social media link, contact email address, or phone number); Merchant Center account has missing contact information, such as a physical business address or a verified phone number; contact information is missing from both the store website and Merchant Center account.
+
+
+
+
+  
+    
+      
+      Missing return and refund policy
+      
+    
+  
+
+
+ Websites that are missing return and refund information
+
+  Examples: Store return policy pages that are empty or don't state all the requirements for return; refund policies that aren't clear or easy to find; no return or refund policy is clearly stated.
+
+
+
+
+  
+    
+      
+      Usefulness
+      
+    
+  
+
+
+ Login is required or content is unnecessarily difficult or frustrating to navigate
+
+
+  Examples: Websites with pop-ups or interstitial ads that interfere with the customer’s ability to see the content requested; sites that require a visitor to enter a username or password to see the content requested; sites that disable or interfere with the browser’s back button; websites that don’t load quickly on most popular browsers and devices, are under construction, not functioning, require download of an additional application to view the landing page (aside from common browser plug-ins), or lead to a file, email address, or error messages. For specific guidelines on how to comply with this policy, refer to the 'link' attributes in the product data specification
+
+
+ Website that is not fully functional
+
+
+  Examples: Links for Contact Us information, social media business profiles, blogs, etc. on landing pages that don’t work and/or lead to an unrelated page. Ensure all links on the website are working and point to relevant pages.
+
+
+ Website that has incomplete or difficult to understand business information
+
+
+  Examples: Contact information, shipping information, or a frequently asked questions section on the website is incomplete or unclear for customers to take action on. Ensure that business information on your website is complete and easy to understand.
+
+
+ Not all customers are able to complete their purchase
+
+
+  Examples: Business information fields in your checkout process are required. Customers from certain internet locations (IP addresses) can not complete the checkout process.
+
+
+
+
+  
+    
+      
+      Spelling and grammar
+      
+    
+  
+
+
+ Promotions that do not use commonly accepted spelling and grammar
+
+  Examples: "Flowers here buy" or "Buy flwres here"
+
+
+ Punctuation, symbols, capitalization, spacing, or repetition that are not used correctly or for their intended purpose
+
+
+  Examples: Excessive or gimmicky use of numbers, letters, symbols, punctuation, emoticons, emoji, repetition, or spacing, including: f1owers, fllllowers, fl@wers, Flowers!!!, f*l*o*w*e*r*s, FLOWERS, FlOwErS, F.L.O.W.E.R.S, flowers-flowers-flowers!, f l o w e r s, buyflowershere. For specific guidelines on how to comply with this policy, refer to the title [title] and the description [description] attributes in the product data specification.
+
+
+
+
+  
+    
+      
+      Unclear relevance
+      
+    
+  
+
+
+ Promotions that are not relevant to the landing page
+
+  Examples: Product title or description that is not relevant to the product promoted, generic landing pages or different product landing pages. For specific guidelines on how to comply with this policy, refer to the title [title] and description [description] attributes in the Product data specification.
+
+
+
+
+  
+    
+      
+      Style requirements
+      
+    
+  
+
+
+ Promotions that do not use the features of the Shopping ad for their intended purpose
+
+  Examples: Listings that use the title field as an additional description field; listings that display irrelevant or obtrusive information in images. For specific guidelines on how to comply with this policy, refer to the title [title] and description [description] attributes in the Product data specification.
+
+
+ Website that is using generic placeholders or templated content
+
+
+  Examples: Generic text on the website that says “Add customer reviews and testimonials here” or an empty box that says “lorem ipsum.” Ensure text and images on the website are tailored to your business.
+
+
+
+
+  
+    
+      
+      Domain safety
+      
+    
+  
+
+
+ Retailer landing pages or associated site domains that Google deems unsafe
+
+
+  Examples: Domain page deemed unsafe as a result of hacking or other activity causing the site to become compromised. If Google detects suspicious signals, it may block customers from visiting your site from some browsers and from Google Search.
+
+
+
+
+  
+    
+      
+      Product details
+      
+    
+  
+
+
+ Website that has inaccurate, missing, or duplicate product details
+
+
+  Examples: Product descriptions and specifications that are unrelated to the product image or listing. The same product details being used for multiple products without differentiation. Ensure the product details on the website are accurate and unique for each product.
+
+
+
+
+What you can do
+
+Here's what you can do if your product is disapproved or if your Merchant Center account is impacted:
+
+
+Product disapproval
+
+  Products that don't comply with our policies may be disapproved. When a product is disapproved, it won't be eligible to serve. 
+
+  
+    Read our policies to learn what we don't allow.
+    Update your website. If your ad or listing leads to content that violates a policy, update your website to meet the requirements and be in compliance with our policies.
+    Remove the violating products from your product data. You’ll receive an email with details about the violation. 
+      
+        If you have products in your product data that violate the policy (or policies), you'll need to remove the offers from your feed.
+      
+    
+    Update your product data in Merchant Center. If you created a schedule for automatic uploads, update your product data manually or wait for your product data to be automatically updated before requesting any reviews.
+    Request a review of your products or appeal the decision taken on this issue.
+      
+        If the violating products are removed, you won't need to request a review or take any additional action.
+        If you fix your product-level issues by editing your product data via your chosen upload method (such as a file) or directly in Merchant Center, your products will be re-reviewed.
+        For certain issues, you can disagree with the issue but you may need to complete additional steps such as provide an appeal reason and/or upload required documentation.
+        If you use a third-party platform to list your products, you can refer to your third-party if you want to request a review. You won’t be able to do this in Merchant Center.
+        If a review or appeal is successful, the issue will disappear from Merchant Center.
+      
+    
+  
+
+
+
+Account disapproval
+
+  For most violations, we'll send you a warning email detailing the policy violation and give you 7 or 28 calendar days to fix your issue.
+
+  
+    Read our policies to learn what we don't allow.
+    Update your website. If your ad or listing leads to content that violates a policy, update your website to meet the requirements and be in compliance with our policies.
+    Remove any violating products from your product data. You’ll receive an email with details about the violation. If you have products in your product data that violate the policy (or policies) you'll need to remove the offers from your feed.
+    Update your data in Merchant Center. 
+      
+        Review your account and submit any missing information or complete any unfinished steps. 
+        If you created a schedule for automatic uploads, update your product data manually or wait for your product data to be automatically updated before requesting any reviews.
+      
+    
+    Request a review of your account or appeal the decision taken on this issue.
+      
+        If your account is still within the warning period, it will automatically be reviewed again at the end of the warning period. If the violating products are removed, you won't need to request an account review or take any additional action.
+        If your account is suspended and you've taken actions to resolve the issue, request an account review.
+        For certain issues, you can disagree with the issue but you may need to complete additional steps such as provide an appeal reason and/or upload required documentation.
+        If you use a third-party platform to list your products, you can refer to your third-party if you want to request a review. You won’t be able to do this in Merchant Center.
+      
+    
+  
+
+  Most accounts are reviewed within 3 business days, but it can take longer if a more complex review is needed. If we find that you've removed the violating products from your product data, we’ll remove the warning. If a review or appeal is successful, the issue will disappear from Merchant Center. In the case of account suspension, we'll then also approve your account so your products can start displaying again.
+
+
+
+Account issue that limits product visibility
+
+  Your account has an issue and is operating with reserved functionality, therefore your products have limited visibility. An email was sent with a notice on what to do and the steps needed to resolve your account issue.
+
+  
+    Read our policies to learn more about our requirements.
+    Update your website. If your ad or listing leads to content that violates a policy, update your website to meet the requirements and be in compliance with our policies.
+    Fix any other open policy violation in your account. Review your products and your account details. 
+      
+        If products aren’t supported, remove them from your feed.
+        If account details are missing, complete them in Merchant Center. 
+      
+    
+    Request a review of your account or appeal the decision taken on this issue.
+      
+        If your Merchant Center account is still within the warning period for certain policies, it will automatically be reviewed again at the end of the warning period. 
+        If your account is affected and you've resolved the issue, request a Merchant Center account review.
+        For certain issues, you can disagree with the issue but you may need to complete additional steps such as provide an appeal reason and/or upload required documentation.
+        If you use a third-party platform to list your products, you can refer to your third-party if you want to request a review. You won’t be able to do this in Merchant Center.
+      
+    
+  
+
+  Most accounts are reviewed within 3 business days, but it can take longer if a more complex review is needed. If we find that you've removed the violating products from your product data, we’ll remove the warning. If a review or appeal is successful, the issue will disappear from Merchant Center. In the case of accounts with limited visibility, we'll then also approve your account so your products can start displaying again without any restrictions.
+
+
+
+To ensure a safe and positive experience for customers, Google requires that retailers comply with all applicable laws and regulations in addition to our policies. It's important that you familiarize yourself with and keep up to date on these requirements for the place where your business operates, as well as any other places your ads are shown. When we find content that violates these requirements, we may block it from appearing. In cases of repeated or egregious violations, we may ban you from advertising content with us.
+
+
+
+
+
+ 
+
+
+
+             Was this helpful?How can we improve it?YesNoSubmit       

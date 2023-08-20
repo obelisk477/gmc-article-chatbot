@@ -1,0 +1,99 @@
+ Create a Performance Max campaign in Merchant Center
+
+
+  If you’re looking for information about creating a Performance Max campaign in the classic Merchant Center experience, click here. 
+
+
+
+In this article, you’ll learn how to create a Performance Max campaign in Merchant Center.
+
+Creating a Performance Max campaign in Merchant Center will advertise your products across Google Ads channels like YouTube, Search, and Discover. Ads will show relevant information about your products (such as images, prices, and store names) to potential customers. Customers who click on your ads can learn more about your products before making a purchase.
+
+
+  Important: Make sure that you’ve added your product and business information to Merchant Center and that you’ve linked a Google Ads account to your Merchant Center account before creating a campaign. Learn more about setting up your Merchant Center account for ad campaigns
+
+
+On this page
+
+
+  Quick answers
+  Get started
+  View ad campaigns performance
+
+
+
+
+  Quick answers
+
+  What happens after I create a campaign?
+
+  Your campaign will start showing eligible products from your Merchant Center account. It may take up to 48 hours to promote your products, so you should expect an initial delay before your ads start showing to customers. We recommend that you allow at least 14 days to perform before you make changes to campaign settings, as the campaign learns and starts optimizing. If your campaign is still performing lower than expected after 2 weeks, contact support to troubleshoot further.
+
+  How much do Performance Max campaigns cost?
+
+  Your campaigns will cost you a maximum of 30.4 times the daily budget you've specified (the average number of days per month).
+
+  You'll pay only for performance of your campaigns (for example, clicks or engagements). We charge the payment method listed in your Google Ads account for your campaigns.
+
+  The amount you pay depends on many factors, including:
+
+  
+    How much competing advertisers in your area are spending
+    How relevant your ad is to a person's Google search
+    How likely a person's search will result in a conversion
+  
+
+  How do daily budgets work?
+
+  When you create a campaign, you set a daily budget (how much you pay for your ads, on average, per day). The daily budget can be changed at any time.
+
+  You should choose a daily budget based on your advertising goals and the amount that you’re comfortable spending each day. If you’re new to advertising, start small (for example, $15 USD).
+
+  If you have a monthly advertising budget, find the daily budget by dividing your monthly budget by 30.4 (the average number of days per month).
+
+  Will you charge more than the daily budget?
+
+  Because traffic fluctuates from day to day, Google may allow your campaign to spend up to 2 times more in one day than your average daily budget specifies. However, our system makes sure that in a given monthly billing period, you're never charged more than 30.4 multiplied by your average daily budget amount. For example, if you budget $15 USD per day, and you are charged for a monthly billing period, the maximum you would pay is $456 USD. Learn more about why you’ve been charged.
+
+  How does bidding work?
+
+  Your campaigns use the “Maximize conversion value” bidding strategy, which attempts to generate the most conversion value for a given budget. After the campaign is created, you can modify your campaign bidding settings in Google Ads.
+
+  To get the most out of this bidding strategy, consider setting up conversion tracking in your Google Ads account. When you set up conversion tracking, the “Maximize conversion value” bidding strategy will optimize and set bids towards conversion goals that you choose in Google Ads.
+
+
+
+Get started
+
+Step 1 of 2: Create a campaign
+
+ In your Merchant Center account, Select Ad campaigns  in the left navigation menu.
+
+ Select New campaign.
+
+ Add to your campaign settings:
+
+
+  A daily budget: A daily budget is a limit for how much you want to pay for your ads, on average, per day. You can change the budget later.
+  A campaign name: You can change the name later.
+
+
+ Select Create.
+
+Step 2 of 2: Manage an existing campaign
+
+ In your Merchant Center account, select Ad campaigns  in the left navigation menu.
+
+ Make changes to your campaign:
+
+
+  To pause a campaign, select the drop-down menu and choose Pause. To reactivate the campaign, use the same drop-down menu and select Enable.
+  To make changes to the daily budget or campaign name, select Edit campaign.
+  To remove a campaign, select the 3-dot menu icon  and select Remove campaign.
+
+
+
+View ads campaign performance
+
+You can check the performance of your campaigns on the "Campaign management" tab under "Ad campaigns". Learn more about how to View ad campaigns performance in Merchant Center.
+             Was this helpful?How can we improve it?YesNoSubmit       

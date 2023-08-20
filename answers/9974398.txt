@@ -1,0 +1,60 @@
+ How to fix: Unrecognized attributeLook for a similar attribute in the Google product data specification and add this value to the similar attribute.Merchant Center attempts to automatically map attributes from Amazon feed files. However, sometimes one or more of the Amazon attributes are not recognised during the mapping, leading to this error.
+
+Instructions
+
+
+  Step 1: See the affected products
+
+  
+    
+  Sign in to your Merchant Center account.
+  Select Products on the navigation menu, then click Diagnostics.
+  Click the Item issues tab to see current issues affecting your products.
+
+
+To download a list (.csv) of all affected products for all issues:
+
+
+  Click the download button  next to the filter button , beneath the graph and above the list of issues.
+
+
+To download a list (.csv) of all affected products for a particular issue:
+
+
+  Find the issue under the “Issue” column, then click the download button  at the end of the row.
+
+
+To see a list of up to 50 products with this particular issue:
+
+
+  Find the issue under the “Issue” column, then click View examples in the “Affected items” column.
+
+
+  
+
+
+
+  Step 2: Find the most similar Google attribute and fill it in
+
+  
+    
+      In order to solve unrecognised attribute issues, you should browse the product data specification to find the most similar Google product attribute. Then, you can use manual UI edits to fill in this attribute.
+        
+        We’re closely monitoring these errors and constantly improving our mapping to best process the submitted feeds.
+    
+  
+
+  Related links
+
+  
+  About using formats for Amazon feeds in your Merchant Center account (beta)
+  How to fix: Unable to extract value from attribute
+  How to fix: Unsupported destination for Google catalog product
+  How to fix: Unable to map provided attribute
+  How to fix: Missing parent product attributes
+
+
+
+   
+
+             Was this helpful?How can we improve it?YesNoSubmit       

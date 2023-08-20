@@ -1,0 +1,95 @@
+ Setup a websiteless store account for Buy on Google
+  Buy on Google for Search and Shopping will no longer be available starting September 26, 2023. Eligible merchants will be able to use Buy on Google for YouTube in the US. Learn more about Enabling Buy on Google for YouTube.
+
+
+
+This article details how to create and set up a websiteless store account to participate in Buy on Google.
+
+How to set up your Merchant Center account
+
+Your product and business information live in Merchant Center. To set up your Merchant Center account, follow these steps:
+
+
+  Create a Merchant Center account. Provide basic information, such as contact information and location, then agree to the Terms of Service.
+
+    
+      Note: You need a Google account before you can register for a Merchant Center account. If you don't already have a Google account, create one here.
+    
+  
+  Set up your user roles.
+  Set up your Merchant Center account. Click the tools icon  then click Business information.
+  In the "About your business" tab, enter the appropriate information.
+  To onboard as a websiteless store, you will need to:
+    
+      Leave the website field blank under the “Business information” of your Merchant Center account.
+      Leave the link [link] attribute blank in your feeds or in the content API.
+    
+  
+  Make sure your business follows the Merchant Center guidelines.
+
+
+The image link [image_link] attribute is still required for Buy on Google. If you don’t have a website, you may choose to host images on third-party cloud providers and use those links. You don’t need to own the image, but the image link must be publicly accessible.
+
+
+  Note: If you’ve claimed your website in Merchant Center before, you won't be able to remove the website. You can still participate as a websiteless store by not providing the link [link] attribute.
+
+
+How it works
+
+Anyone participating in Buy on Google is eligible to do so without a website. However, if you’re participating in Shopping Ads, Local Inventory Ads, or any other Merchant Center program, you’ll still need to have a website.
+
+
+  
+    
+      Shopping program destination for item
+      Merchant Center website URL provided
+      Link [link] attribute provided
+      Item status
+    
+  
+  
+    
+      Buy on Google
+      N
+      N
+      Approved
+    
+    
+      N
+      Y
+      Disapproved
+    
+    
+      Y
+      N
+      Approved
+    
+    
+      Y
+      Y
+      Approved
+    
+    
+      Other Shopping programs
+      N
+      N
+      Disapproved
+    
+    
+      N
+      Y
+      Disapproved
+    
+    
+      Y
+      N
+      Disapproved
+    
+    
+      Y
+      Y
+      Approved
+    
+  
+
+             Was this helpful?How can we improve it?YesNoSubmit       

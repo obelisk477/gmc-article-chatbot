@@ -1,0 +1,50 @@
+ About shipping signals partners
+
+If you’re a retailer who uses a partner to manage orders and shipments, you can choose to link your Merchant Center account to your partner to:
+
+
+  Let Google calculate the shipping speed on your behalf
+  Provide your historical shipping data for verification
+
+
+Here’s the list of shipping signals partners that you can connect your Merchant Center account to. If you can't find your partner yet, check back later, since we’re adding partners all the time.
+
+In the interim, you can manually upload your order history.
+
+
+  Note: If you're a partner and would like to be added to our list, complete this interest form.
+
+
+
+  
+    
+      Partner
+    
+    
+      CEDCommerce
+    
+    
+      Sales & Orders
+    
+    
+      ShipHero
+    
+    
+      ShipStation
+    
+    
+      Simprosys
+    
+  
+
+
+If you’re using FedEx, USPS, or UPS, you can still let Google calculate the shipping speed on your behalf by specifying a carrier service level and your ship from location instead of linking your account. No account linking is required when you specify your carrier service level and ship from location for Google to calculate custom shipping speeds on your behalf. Learn more about how to set up product delivery time
+
+Related links
+
+
+  Set product delivery time
+  About letting Google calculate your shipping speeds
+  About shipping data verification
+
+             Was this helpful?How can we improve it?YesNoSubmit       

@@ -1,0 +1,51 @@
+ Get started with the local feeds partnership program as a retailer
+
+This article explains how to get started as a retailer with the local feeds partnership program.
+
+The local feeds partnership program helps retailers use local inventory ads or free product listings through point of sale (POS) or inventory data providers. These providers help manage your data to allow you to show your local products on Google.
+
+
+  Note: You can only use (POS)/Inventory providers that are listed here to submit data on your behalf.
+
+
+Retailer eligibility requirements
+
+To participate in the local feeds partnership program, make sure you meet the following eligibility requirements:
+
+
+  Store: You need at least one physical store with at least 50 identifiable products. Learn more about unique product identifiers
+  POS/inventory data providers: Authorize your POS/inventory data provider to provide your store sales and inventory data to Google.
+
+
+How to set up your accounts
+
+To show your local products on Google through a POS provider you need a Google Merchant Center account as well as at least one claimed and verified Business Profile. For local inventory ads, you will also need a Google Ads account. If you need help setting up your accounts, you can reach out to your eligible POS provider for assistance. Learn more on how to set up your accounts
+
+How to select and share your POS/inventory data provider
+
+
+  Log into your Merchant Center account.
+  Click on the tools and settings icon 
+  Click Local inventory ads setup or Free local listings setup.
+  Follow the on-screen instructions to add your business information, link a Business Profile owner or manager, and select a business group.
+  Click the plus button  to add the country where the ads and free listings that show your local products will display.
+  Select “Local Feeds Partnership integration” and select your POS/inventory data provider from the drop-down list.
+  Click Save.
+
+
+If you don't see your POS/inventory data provider listed, submit your interest to have them added here.
+
+We'll send an email to your POS/inventory data provider that includes your business name, Merchant Center ID, and POS data provider account ID that you've submitted.
+
+
+  Note: If your POS/inventory data provider doesn't send data to Google within 14 days, we conclude that the POS/inventory data provider has rejected your request.
+
+
+How to launch a Google Ads campaign for local inventory ads
+
+Once your POS/inventory data provider has sent data on your behalf and you have enabled local inventory ads, you can advertise your local products on Google. To show local inventory ads on Google you will need to link your Merchant Center and Google Ads accounts, as well as enable local products in your Shopping campaigns.
+
+
+  Google may conduct an inventory verification to ensure quality in-store data.
+
+             Was this helpful?How can we improve it?YesNoSubmit       

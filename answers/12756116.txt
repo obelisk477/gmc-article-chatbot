@@ -1,0 +1,101 @@
+ Follow Merchant Center guidelines to keep your account approved
+
+If you’re looking for information about Merchant Center guidelines in the classic Merchant Center experience, click here. 
+
+
+On this page
+
+
+  Follow the Shopping ads policies
+  Promote only products available for direct purchase
+  Use a supported language
+  Tell customers about your return and refund policy
+  Collect user information responsibly and securely
+  Follow website-level requirements
+  Make sure your data meets the product data specification
+  Sign in to your Merchant Center account regularly
+
+
+
+Follow the Shopping ads policies
+
+Make sure that the products you plan on listing comply with the relevant Shopping policies.
+
+
+Promote only products available for direct purchase
+
+The products that you promote in Shopping ads and free product listings need to be available for purchase through your online store.
+
+You're not allowed to use Shopping ads and free listings to promote affiliate or pay-per-click links to products, except when participating as a Comparison Shopping Service (CSS) in a CSS program country.
+
+
+Use a supported language
+
+When listing your products, use a language that is supported in Merchant Center. Make sure you submit different product data for each language and that the product data links to landing pages in the same language.
+
+Specifically, use the same language for:
+
+
+  Your website
+  The product data that you submit
+  The language you select when registering your product data
+
+
+
+Tell customers about your return and refund policy
+
+Add your return policy information to your Shopping ads and free listings in your product data. It should also be easy to find in your own website.
+
+Your policy should explain exactly how you handle returns and refunds, including:
+
+
+  What the user is required to do
+  Under what circumstances you offer returns and refunds
+  Timeframe in which you accept returns
+  When your user can expect a refund
+
+
+Even if you don't offer returns or refunds, still state your policy explicitly.
+
+Keep in mind: You'll need to process returns and refunds on your own. Google doesn't approve or handle returns or refunds.
+
+
+Collect user information responsibly and securely
+
+Be careful with the information that you collect from users:
+
+
+  Collect personal information, such as credit card numbers, securely on an SSL-protected page
+  Don't sell your users' contact info
+  Don't use users' personal information or images in ads without their consent
+  Your site's primary purpose shouldn't be to collect users' personal information
+  Don't offer free items or incentives except in certain circumstances:
+    
+      With purchase of a product
+      As part of a marketing campaign
+      When the primary purpose is not to collect personal information from users
+    
+  
+
+
+
+Follow website-level requirements
+
+Make your contact information clearly available on your website. Examples: a contact us form, a link to your business profile on social media, an email address or phone number.
+
+Make sure at least one conventional method of payment is available to users during checkout. Example, credit card, debit card, invoicing, or payment on delivery.
+
+Your site must clearly and conspicuously disclose all related conditions before and after purchase as well as disclose the payment model and full expense that a user will bear before and after purchase.
+
+Make sure users can successfully add products to the cart and fully complete the checkout process.
+
+
+Make sure your data meets the product data specification
+
+When you're ready to submit your products through Merchant Center, you'll need to format your product data to meet the product data specification, otherwise product may result in being disapproved
+
+
+Sign in to your Merchant Center account regularly
+
+Sign in to your Merchant Center account at least once every 14 months so that your account stays active.
+             Was this helpful?How can we improve it?YesNoSubmit       

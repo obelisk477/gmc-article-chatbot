@@ -1,0 +1,259 @@
+ About Buy on Google Retailer Standards and policies
+  Buy on Google for Search and Shopping will no longer be available starting September 26, 2023. Eligible merchants will be able to use Buy on Google for YouTube in the US. Learn more about Enabling Buy on Google for YouTube.
+
+
+
+
+
+Retailer Standards are benchmarks that help to measure your performance success and identify areas for improvement. Each month, you'll receive a score that reflects how closely you're meeting Google’s customer service standards.
+
+This article explains how the Retailer Standards rating is determined.
+
+How it works
+
+You'll receive a score on the first day of each month. You can view your rating on the Retailer Standards dashboard in your Merchant Center account.
+
+Your monthly score is based on data from the previous 3 months. This lookback window ensures that there’s enough data to show trends and provide a fair evaluation, even if your order volume is relatively low. In the event your score falls “Below Standards”, the lookback window will shrink from 3 months to 1 month to aid in a quicker bounce back. The lookback window will incrementally increase back to 3 months once you bring your score back up to "Meeting Standards".
+
+
+  Tip
+
+  Resolve item and shipping defects before they affect your Retailer Standards score by leveraging the "Due Today" filter in the Orders page.
+
+
+
+  
+
+Evaluation criteria
+
+You're evaluated based on your item defect rate, shipping defect rate,delivery defect rate, and return defect rate. These evaluation criteria aim to promote reliable shopping, fulfillment, and return experiences for all shoppers transacting on Google.
+
+
+
+ 
+  
+
+  
+    
+      
+        Performance goals
+
+        
+          Item defect rate: 1% - 5%
+          Shipping defect rate: 2% - 4%
+          Delivery defect rate: 4% - 12%
+          Return defect rate: 10% - 15%
+        
+
+        Tips
+
+        
+          Reducing rejections or providing correct shipping information can help you lower your defect rate.
+        
+      
+    
+  
+
+
+
+  
+
+  
+    
+      
+        Performance goals
+
+        
+          Item defect rate: Above 5%
+          Shipping defect rate: Above 4%
+          Delivery defect rate: Above 12%
+          Return defect rate: Above 15%
+        
+
+        Tips
+
+        
+          Keep popular items in stock to avoid rejections. Be sure to always ship packages on time and provide valid tracking information.
+        
+      
+    
+  
+
+
+Metrics definitions and score calculations
+
+
+  Item defect rate
+
+  The percentage of items that were canceled by you and by Google because they were not shipped within the provided handling time, or have a negative seller rating (all fulfilled items in orders 1 and 2 star reviews for the order). A product receives a negative rating from a customer when the order was not shipped on time or an incorrect item was received. An item defect will be applied in the following cases:
+
+  
+    Items with merchant-initiated cancellations
+    Items canceled by Google because they were not shipped within the provided handling time
+    Fulfilled items in orders with 1 star ratings
+    Fulfilled items in orders with 2 star ratings
+  
+
+  
+    Note: Any negative ratings or merchant initiated cancellations in an order will lead all items to be counted as defects.
+  
+
+  
+    Examples:
+
+    
+      If an order has 5 items and 2 are canceled by the merchant, and the remaining 3 are delivered to the customer, and the customer doesn’t submit a rating, the order will have 2 item defects (item defect rate will be 40%).
+      If an order has 5 items and 2 are canceled by the customer before they’re fulfilled, and the remaining 3 are delivered to the customer, and the customer hasn’t submitted a rating, the order will have 0 item defects (item defect rate will be 0%).
+      If an order has 5 items and 2 are canceled by the merchant before they’re fulfilled, and the remaining 3 are delivered to the customer, and the customer rates the order 1-star or 2-stars, the order will have 5 defects (item defect rate will be 100%).
+      If an order has 5 items and all of them are delivered to the customer, and the customer rates the order as 1-star or 2-star, then that order will have 5 item defects (item defect rate will be 100%).
+      If an order has 5 items and all of them are delivered to the customer, and the customer rates the order as 3-star, 4-star, or 5-star, then that order will have 0 item defects (item defect rate will be 0%).
+    
+  
+
+  
+  Shipping defect rate
+
+  The percentage of retailer items for which the shipment didn’t receive a carrier scan within your configured handling time or for which tracking information was missing/invalid. A shipping defect will be applied in the following cases:
+
+  
+    Late delivery:
+
+      
+        Shipped late and delivered late
+      
+    
+    Tracking number issues:
+      
+        Missing tracking information
+        Incorrect tracking numbers
+        Used tracking numbers
+        Duplicate tracking numbers
+        No carrier scan
+      
+    
+  
+
+  
+    
+      Examples:
+
+      
+        If an order has 5 items and all of them are shipped on-time with valid tracking numbers, then that order will have 0 shipment defects (the shipping defect rate will be 0%).
+        If an order has 5 items and:
+          
+            Item 1 was shipped late and delivered late (this is a defect)
+            Item 2 was shipped late and delivered on-time (this is not a defect)
+            Item 3 was shipped on-time and delivered on-time (this is not a defect)
+            Item 4 was marked shipped by the ship-by date, but a valid tracking number was not entered before the original promised delivery date (this is a defect)
+            Item 5 was marked shipped on-time, but an invalid or duplicate tracking number was entered (this is a defect)
+          
+        
+        
+          The shipping defect rate will be 60%.
+        
+      
+    
+  
+
+  
+  Sales value and sales count
+
+  Top Retailer badge eligibility requires a minimum of $15K in sales value and minimum of 300 items fulfilled (excluding items that were canceled by the customer or by Google) within 90 days. Retailer Standards scoring is item level based, therefore orders with multiples of the same item are taken into consideration. No sales requirements are applied to Meeting Standards merchants.
+
+  Delivery defect rate: The percentage of items in which the shipment was shipped within your configured handling time, but was not delivered on-time. A delivery defect will be applied in the following cases:
+
+  
+    Late delivery:
+
+      
+        Shipped on-time via appropriate service, but delayed by carrier.
+        Shipped on-time using an inappropriate service to deliver by original promised delivery date.
+      
+    
+  
+
+  We will not defect an item delayed due to weather conditions if noted in the carrier tracking details.
+
+  
+    Examples:
+
+    
+      If an order has 5 items and all of them are delivered to the customer before the original promised delivery date, then that order will have 0 delivery defects (the delivery defect rate will be 0%).
+      If an order has 5 items and:
+        
+          Item 1 was shipped on-time, but an inappropriate level of service was utilized to deliver on-time (this is a defect)
+          Item 2 was shipped late and delivered on-time (this is not a defect)
+          Item 3 was shipped on-time and delivered on-time (this is not a defect)
+          Item 4 was shipped on-time but delayed by carrier (this is a defect)
+          Item 5 was shipped on-time but delayed by weather per carrier (this is not a defect)
+        
+      
+      The shipping defect rate will be 40%.
+    
+  
+
+
+
+Return defect rate
+
+The percentage of total return items in which a return is not processed within 2 business days of arriving at your facility or in which valid return tracking details are not uploaded in Merchant Center. A return defect will be applied in the following cases:
+
+
+  Late processing:
+
+    
+      A return is not processed in Merchant Center within 2 business days of receipt.
+    
+  
+  Tracking number issues:
+    
+      Missing tracking information
+      Incorrect tracking numbers
+      Used tracking numbers
+      Duplicate tracking numbers
+    
+  
+
+
+Items refunded via Returnless Refunds will be counted towards your total returned items and will never receive a defect.
+
+
+  
+    Examples:
+
+    
+      If you receive return requests for 5 items and all requests are processed in Merchant Center with valid tracking details and processed within 2 days of delivery scan, none of the items will receive return defects (the return defect rate will be 0%).
+      If you receive return requests for 5 items and:
+        
+          Item 1 was not processed in Merchant Center within 2 days of receipt (defect)
+          Item 2 did not have a valid tracking number entered for the return request (defect)
+          Item 3 had valid tracking detail & was processed within 2 days of receipt (no defect)
+          Item 4 was refunded via returnless refund (no defect)
+          Item 5 was requested, but never returned by the customer (no defect)
+        
+      
+      The return defect rate will be 50%.*
+    
+
+    *Item 5 will be counted in the total return items, therefore, your total defects are 2 out of 4.
+  
+
+
+
+  
+  Need help? Click here to contact Buy on Google support.
+
+
+
+  Related Links
+
+  
+    
+      Return settings requirements for Buy on Google
+      About shipping policies for Buy on Google
+      How to improve your Retailer Standards rating
+      Use the Retailer Standards dashboard
+    
+  
+
+             Was this helpful?How can we improve it?YesNoSubmit       

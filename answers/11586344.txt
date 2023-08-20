@@ -1,0 +1,78 @@
+ I need help understanding online store URL verification
+
+
+  If you’re looking for information about online store URL verification in the classic Merchant Center experience, click here.
+
+
+
+On this page
+
+
+  Key terms
+  How do I know which method is right for me?
+  About automatic online store verification
+  FAQs
+
+
+Verifying and claiming your store’s website are essential steps in setting up your Merchant Center account. There are several ways to verify, and you can choose which verification method is right for you. Usually, once verification is done, you won’t have to do it again.
+
+
+
+  Key terms
+
+  Verify
+  When you verify your website, you let Google know that you're the owner of the website. You're the website owner if you can make edits to your website content. If you’re not the website owner, you’ll need to work together with your website owner or administrator to verify the website.
+
+  Claim
+
+  When you claim your website address, you associate your verified website address with your Merchant Center account, creating a link between them. Linking your website address and your Merchant Center account reserves the website address for use with your account exclusively.
+
+
+
+How do I know which method is right for me?
+
+Use your ecommerce platform if:
+
+Your website is hosted by a third-party ecommerce platform. There may be suggested options for verifying your website provided by the platform. Check with your platform for more information.
+
+Add an HTML tag or file if: 
+
+You can add HTML code to the index page on the site you want to verify, or you can add new files to the server behind the site you want to verify.
+
+Use email verification if:
+
+You can receive a code to an email address that’s associated with your site.
+
+
+  Note: Email verification is offered only if it's available.
+
+
+Use Google Tag Manager if: 
+
+You’re an account-level administrator for Google Tag Manager.
+
+Use Google Analytics if: 
+
+You have administrator access to a Google Analytics account that's already linked to the site you want to verify. This method might not work if you use a third-party platform (such as Shopify). For those accounts, we recommend using an HTML tag to verify your site.
+
+
+About automatic online store verification
+
+When Google already has the information that it needs to verify your online store (for example, if you use other Google products such as Google Analytics on your website), the verification is done automatically. If this is the case, you’ll get a notification in your Merchant Center that your online store has been automatically verified during the account setup process after you enter your online store address.
+
+You may also receive an email from Search Console, a Google tool, letting you know that Merchant Center has created an account for you. Merchant Center verifies your site through Search Console.
+
+
+
+
+FAQs
+
+What if I need someone else in my business to complete this step for me?
+  During the verification process, you can invite someone to help out with this step. You can add them as a user in Merchant Center, or send them the instructions for website verification.
+
+If a user on my account has previously verified your website for use with other Google products, such as Search Console, do I have to do this step again?
+  No, you only need to complete this process once. Your website will be recognized as verified if any of your users are a verified owner of the website in Search Console. In this case, you can skip to the claiming step.
+
+I wasn't asked to verify or claim my website. What happened?
+  Sometimes, Google already has the information that it needs to verify your site (for example, if you use Google Analytics on your site). In this case, the process happens automatically after you enter your website’s address in the “Business information” screen and select Continue.
+             Was this helpful?How can we improve it?YesNoSubmit       

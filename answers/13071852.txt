@@ -1,0 +1,170 @@
+ Set up purchase events for Google tag
+
+You can track all your conversions by setting up purchase events on your website and linking them to Merchant Center. This article explains how to set up purchase events on your website.
+
+How it works
+
+To collect conversion data, you need to track purchase events on your website. You can track these events by defining them on your website.
+
+Below are 2 examples of how a purchase event can be sent from your website.
+
+Example 1: Send purchase event when the page opens
+
+You should place the purchase event on the page of your website where someone makes a purchase. For example, you could add the event on the confirmation page that appears when someone makes a purchase. This tutorial shows you how to add the event to a page where someone clicks a "Purchase" button.
+
+Place the event in a <script> tag at the end of the <body> tag. Placing the event directly in the <script> tag triggers the event when the page loads.
+
+
+  Sample code
+
+  
+    
+      <!--
+          Note: In the following code sample, make sure to
+          replace "TAG_ID" with your tag ID.
+          Learn more: https://support.google.com/tagmanager/answer/12326985
+        -->
+        <!DOCTYPE html>
+        <html lang="en">
+        <head>
+            <!-- Google tag (gtag.js) -->
+            <script async src="https://www.googletagmanager.com/gtag/js?id=TAG_ID"></script>
+            <script>
+                window.dataLayer = window.dataLayer || [];
+                function gtag(){dataLayer.push(arguments);}
+                gtag('js', new Date());
+
+      
+                gtag('config', 'TAG_ID');
+            </script>
+        </head>
+        <body>
+            <div>This is where the purchase form would go</div>
+            <button>Submit</button>
+            <script>
+            gtag("event", "purchase", {
+                transaction_id: "T_12345_1",
+                affiliation: "Google Merchandise Store",
+                value: 25.42,
+                tax: 4.90,
+                shipping: 5.99,
+                currency: "USD",
+                coupon: "SUMMER_SALE",
+                items: [
+                // If someone purchases more than one item,
+                // you can add those items to the items array
+                 {
+                  item_id: "SKU_12345",
+                  item_name: "Stan and Friends Tee",
+                  affiliation: "Google Merchandise Store",
+                  coupon: "SUMMER_FUN",
+                  discount: 2.22,
+                  index: 0,
+                  item_brand: "Google",
+                  item_category: "Apparel",
+                  item_category2: "Adult",
+                  item_category3: "Shirts",
+                  item_category4: "Crew",
+                  item_category5: "Short sleeve",
+                  item_list_id: "related_products",
+                  item_list_name: "Related Products",
+                  item_variant: "green",
+                  location_id: "ChIJIQBpAG2ahYAR_6128GcTUEo",
+                  price: 9.99,
+                  quantity: 1
+                }]
+            });
+            </script>
+        </body>
+        </html>
+    
+  
+
+
+Example 2: Send purchase event when a button is clicked
+
+You can set up the purchase event in a few ways so it triggers when someone clicks a "Purchase" button. One way is to add an ID to the "Purchase" button and then place the event code in an event listener. In the below example, the event is only sent when someone clicks a button with the ID purchase.
+
+
+  Sample code
+
+  
+    <!--
+        Note: In the following code sample, make sure to
+        replace "TAG_ID" with your tag ID.
+        Learn more: https://support.google.com/tagmanager/answer/12326985
+      -->
+      <!DOCTYPE html>
+      <html lang="en">
+      <head>
+          <!-- Google tag (gtag.js) -->
+          <script async src="https://www.googletagmanager.com/gtag/js?id=TAG_ID"></script>
+          <script>
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+
+    
+              gtag('config', 'TAG_ID');
+          </script>
+      </head>
+      <body>
+          <div>This is where the purchase form would go</div>
+          <button id="purchase">Purchase</button>
+          <script>
+          document.getElementById("purchase").addEventListener("click", function () {
+              gtag("event", "purchase", {
+                      // This purchase event uses a different transaction ID
+                      // from the previous purchase event so Analytics
+                      // doesn't deduplicate the events.
+                      // Learn more: https://support.google.com/analytics/answer/12313109
+                      transaction_id: "T_12345_2",
+                      affiliation: "Google Merchandise Store",
+                      value: 25.42,
+                      tax: 4.90,
+                      shipping: 5.99,
+                      currency: "USD",
+                      coupon: "SUMMER_SALE",
+                      items: [
+                      {
+                        item_id: "SKU_12345",
+                        item_name: "Stan and Friends Tee",
+                        affiliation: "Google Merchandise Store",
+                        coupon: "SUMMER_FUN",
+                        discount: 2.22,
+                        index: 0,
+                        item_brand: "Google",
+                        item_category: "Apparel",
+                        item_category2: "Adult",
+                        item_category3: "Shirts",
+                        item_category4: "Crew",
+                        item_category5: "Short sleeve",
+                        item_list_id: "related_products",
+                        item_list_name: "Related Products",
+                        item_variant: "green",
+                        location_id: "ChIJIQBpAG2ahYAR_6128GcTUEo",
+                        price: 9.99,
+                        quantity: 1
+                      }]
+                });
+            });
+          </script>
+      </body>
+      </html>
+  
+
+
+Link your purchase events to Merchant Center
+
+You can link purchase events to Merchant Center using conversion sources.
+
+Learn how to add conversion sources in Merchant Center.
+
+Related links
+
+
+  About attribution models
+  Link your Merchant Center with Google Analytics property
+  Use Google tag as a conversion source
+
+             Was this helpful?How can we improve it?YesNoSubmit       

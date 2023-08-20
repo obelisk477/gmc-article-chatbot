@@ -1,0 +1,56 @@
+ Local inventory onboarding guideSet up your accountsNext: Enable local inventory ads or free local product listings
+
+
+  This is step 1 of the local inventory onboarding guide.
+
+
+This article describes how to create and set up the accounts you need to show your local products in ads and free local listings.
+
+Create your accounts
+
+You need: a Merchant Center account and Business Profiles to show your local products in ads and free local listings. For local inventory ads, you will also need a Google Ads account.
+
+
+  For ease of use and linking, we recommend adding the same email as an administrator user in your Merchant Center account and as a manager or owner in your Business Profiles.
+
+
+Merchant Center
+
+Your product information is located in Merchant Center. Follow these steps to set up your account:
+
+
+  Create a Merchant Center account to house your local products and local product inventory feeds, if you don’t already have one.
+  Set up your Merchant Center account.
+  Upload a rectangular logo to brand your local storefront. This is optional, but highly recommended.
+
+
+
+  If you're showing products sold online, then be sure to verify and claim your website. If you only plan to show your products sold in store, then no website is necessary.
+
+
+Business Profiles
+
+Your store information is located in your Business Profiles. If you don't already have Business Profiles, follow these steps (or follow the steps in “Link your accounts” if you already have Business Profiles):
+
+
+  Add or claim a Business Profile
+  Create a business group to organize multiple Business Profiles together.
+
+
+Tip: If you have several stores, you can upload your store information in bulk.
+
+Google Ads account (required for local inventory ads)
+
+You can use Google Ads to manage your ads, including local inventory ads. Create a Google Ads account if you don’t already have one.
+
+Link your accounts
+
+Link your Business Profiles and Google Ads accounts to your Merchant Center account to connect information across these sources.
+
+
+  Link Business Profiles and Merchant Center.
+  Link Merchant Center and Google Ads accounts (required for local inventory ads).
+
+
+
+Next: Enable local inventory ads or free local product listings             Was this helpful?How can we improve it?YesNoSubmit       

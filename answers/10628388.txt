@@ -1,0 +1,91 @@
+ Use the Inbox to manage Buy on Google orders
+  Buy on Google for Search and Shopping will no longer be available starting September 26, 2023. Eligible merchants will be able to use Buy on Google for YouTube in the US. Learn more about Enabling Buy on Google for YouTube.
+
+
+
+
+
+Use the Inbox to manage, review, and act on the most high-priority tasks for your Buy on Google orders. This Merchant Center feature can be found in the side navigation of the Order Details page, under the "Orders" section.
+
+How it works
+
+The Inbox allows users with admin and order management access to see the most important tasks for processing orders and act on them as quickly as possible.
+
+Select a task in the table to act on it. Information about the task and actions available to complete it will be presented in a panel to the right. There will be a link to the Order Details page in the side panel if you need more information or if the preferred action is not available. Once a task is completed, it's removed from the table.
+
+Task types
+
+There are four types of tasks: Order, Refund, Return, and Tracking info. This information will be presented in the table and the context panel. The type of task also determines what order information and actions are present in the context panel.
+
+Order
+
+Tasks of this type can include: new orders that need to be shipped, partially shipped orders, partially delivered orders, and cancellation requests. Cancellation requests can also include information from the customer about why they're canceling.
+
+Refund
+
+Refund tasks include returns that have arrived at your business and are ready to be refunded, and returns that are undeliverable.
+
+Return
+
+Return tasks will only show if your account is set up for merchant managed returns (MMR). These requests are for creating return shipping labels. Additional information from the customer about why they're returning some or all order items can also be present in the context panel.
+
+Tracking info
+
+This task includes orders that have missing or invalid tracking information and orders that are undeliverable.
+
+Message
+
+
+  If you’re using merchant-managed customer support for Buy on Google, these message tasks will be created when a customer contacts you about an order. When you click on this task, the context panel will show with a chat window at the bottom. This chat window will display the type of request the user has submitted, and all messages between you and the customer for this request. To reply to the customer, click on the empty field at the bottom, type your message, and then hit enter on your keyboard. Your message will then be displayed in the conversation window and sent to the customer.
+
+  Images and PDF files can be sent by first clicking the upload button found next to the empty field, and then selecting the file from the presented dialog. Uploaded images will show an image preview and PDF files will display a link with the name of the file in the conversation window. Clicking on either an image or a PDF file link after it has been uploaded will open a new browser tab to view it.
+
+  All communication with the customer for this request will show in the email thread and in the Inbox conversation window. If multiple consecutive messages are sent through the Inbox, they will be bundled as one email in the thread.
+
+  These tasks can be marked complete by clicking the blue checkmark on the top right of your screen or by responding to the customer using the email thread (which will automatically mark the task complete). Marking as complete will set the task status as closed. The task will be reopened If the customer responds after you have marked it complete. Messages will continue to be sent in the same email and chat thread when reopened.
+
+
+Organizing tasks
+
+To better organize tasks, there are two filtering tiles: “Due today” and “Open requests.” Clicking on a tile will filter the results in the table below it. Further filtering can be applied by clicking on the filter icon in the table header. Tasks can be filtered by "Request type," "Task status," or "Respond by (date)".
+
+Request type
+
+Requests or tasks are categorized into five types: Order, Refund, Return, Tracking info and Message. Any number of request types can be selected in this filter. If none are selected, then all request types will be shown. Setting this filter will only show open tasks unless you also apply the task status filter to be closed.
+
+Task status
+
+Tasks can either be open or closed. All tasks in “Due today” and “Open requests” are open. Once a task is completed, it is considered closed. Closed tasks can only be viewed by applying the task status filter to “Closed”. The task status filter can be set to either “Open” or “Closed” but not both.
+
+Respond by (date)
+
+
+  The "Respond by (date)" filter allows you to set a date range. The dates can be in the past, present, or future. Setting this filter will only show open tasks unless you also apply the task status filter to “Closed”.
+
+
+Context panel
+
+This panel contains information about the task and ways to complete it. By default, the context panel is not shown until a task is selected in the table. When a task is selected, the panel will show to the right of the table.
+
+Information related to the selected task and request type will be shown to help determine the action needed. Quick action buttons that are specific to each request type will be available to complete the task. All actions provided in this panel will work similarly to the Orders page. If the panel doesn’t provide enough information or the required action is not available, you can click the View complete order link to go to the Orders page and complete the task there.
+
+
+Related links
+
+
+  Manage Buy on Google orders in Merchant Center
+  Manage Buy on Google returns in Merchant Center
+  Manage orders in bulk using order feeds
+  About merchant-managed customer support for Buy on Google
+
+
+
+  Need help? Click here to contact Buy on Google support.
+
+
+
+Try our new chatbot for immediate assistance
+
+
+
+             Was this helpful?How can we improve it?YesNoSubmit       

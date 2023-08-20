@@ -1,0 +1,57 @@
+ Tips for promoting your products with YouTube live shopping
+
+
+If you're a merchant with your own YouTube channel, you can showcase your branded products through multiple experiences on your YouTube channel, including live streams. To prepare you for hosting a live stream to talk about your shoppable products, read on to learn some best practices for your product feeds.
+
+Before we get started, make sure you have completed the onboarding steps for YouTube Shopping feeds and familiarize yourself with hosting YouTube live streams.
+
+
+  Note: If you want to launch a new product on YouTube, review these product drops best practices.
+
+
+Onboard onto the YouTube Shopping program 4 weeks before
+
+
+  If you've not yet completed YouTube Shopping onboarding, do this 4 weeks before your livestream. This onboarding requires you to upload your live stream products into Merchant Center through a feed or through a Shopping platform or retailer.
+
+
+
+Choose how customers should check out
+
+Customers can check out directly on your store’s website on desktop or mobile.
+  If you have successfully set up Buy on Google, mobile customers can check out directly in the YouTube app. You can turn this off at any time by removing any existing Buy on Google destinations in your feeds. If you’re using the Shopify platform, view steps to pause or remove Buy on Google.
+
+
+  Note: Currently, Buy on Google check out using the YouTube app is available only for the US customers, and through mobile devices.
+
+
+
+Fix account and product feed issues at least 2 weeks before
+
+For the products that you want you to tag in your live stream, be sure to fix any account issues or product issues that may be violating any of our Shopping policies or YouTube policies at least 2 weeks before your livestream.
+
+If you experience problems, learn how to troubleshoot your issues.
+
+Product drops for launching a new product
+
+
+  
+    If you want to launch a new product during a live stream, ensure to follow the disclosure_date [disclosure_date] attribute guidelines.
+  
+  Review the additional product drops on YouTube best practices to ensure your YouTube Studio settings are correct.
+
+
+
+Don't make any feed changes 72 hours before the livestream
+
+To ensure your products are shoppable for your live stream, don't make any changes to your feed or account 72 hours before your live stream, including the landing page and image. Making changes may cause products to get disapproved, and therefore not be taggable in your live stream.
+
+
+Run a dress rehearsal
+
+Whether or not you're comfortable with hosting live streams, it’s a good idea to run a test with an unlisted live stream 1 week prior to get familiar with the new product tagging experiences. If you’re launching a new product using the disclosure date [disclosure_date] attribute, run a test live stream with an existing product. We recommend a low-selling SKU.
+
+Visit the YouTube Help Center to learn about tagging products in your live streams.
+
+For any YouTube Studio questions for live streaming, contact YouTube support.
+             Was this helpful?How can we improve it?YesNoSubmit       

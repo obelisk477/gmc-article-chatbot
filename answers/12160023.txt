@@ -1,0 +1,137 @@
+ I need help adding stores to Merchant Center
+
+On this page
+
+
+  Get started
+  What to expect
+  Frequently asked questions
+
+
+
+Get started
+
+Manage your stores
+
+Adding your store links your Merchant Center and Business Profile accounts. After that, you can remove a store at any time. 
+
+
+  Add a store (connect your accounts)
+
+  
+    
+      Click the business icon on the left menu, then click Stores
+      Click Add Store
+      Under “Add your store,” find the stores you want to add to your Merchant Center account 
+      Click Add
+    
+  
+
+
+
+  Remove a store
+
+  
+    
+      In Merchant Center, click the business icon , then click the Stores tab.
+      Find the store you want to remove, and select the checkbox on the left.
+      At the top, select Remove and then confirm Remove selected store by clicking Remove.
+    
+  
+
+
+
+Edit store information
+
+Once you've linked Merchant Center and Google Ads accounts, you can edit information about your local stores from Merchant Center.
+
+
+  Edit business information
+
+  
+    
+      In your Merchant Center account, click the business icon, then click the Stores tab.
+      Find the store you want to edit, and click the Edit business information icon.
+      Edit any of the information about your business, including phone number, hours, and so on.
+    
+  
+
+  
+    Add photos
+
+    
+      
+        
+          In Merchant Center, click the business icon, then click the Stores tab.
+          Find the store you want to edit, and click the Add photo icon
+          Upload photos or videos to add
+          When prompted, click Select.
+        
+      
+    
+  
+
+
+
+  Add an update
+
+  
+    
+      
+        In Merchant Center, click the business icon, then click the Stores tab.
+        Find the store you want to add an update to, and click the Add update icon
+        Add an update by filling in the description and any relevant photos
+        When prompted, click Publish.
+      
+    
+  
+
+  
+  What to expect 
+
+
+When you connect your Business Profile to Merchant Center, some of your data will be shared between the two.
+
+Data shared from Merchant Center
+
+
+  Details about your Merchant Center account, such as name and account ID
+  Data about your products, including titles, descriptions, images, and others shown on Google Search and Maps 
+
+
+Data shared from Business Profile
+
+
+  Details related to your store’s Business Profile, such as your store name, address and performance
+
+
+
+
+Frequently asked questions
+
+
+  Can multiple stores be added to a Merchant Center?
+
+  
+    Yes, you can add multiple stores to a Merchant Center account.
+  
+
+
+
+  Can a store be added to multiple Merchant Center accounts?
+
+  
+    No. A store can be added to one Merchant Center account. If you want to change which Merchant Center account a store is connected to, you'll need to remove it from the existing Merchant Center account first, and then you'll be able to add it to the other one.
+  
+
+  
+    Who can edit store information?
+
+    
+      
+        You have to be an owner or a manager on the store’s Business Profile to be able to edit store information.
+      
+    
+  
+
+             Was this helpful?How can we improve it?YesNoSubmit       

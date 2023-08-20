@@ -1,0 +1,300 @@
+ Discovery and Demand Gen product ads format requirements
+
+
+  
+    Note: Google provides translated versions of our Help Center. They are not meant to change the content of our policies. The English version is the official language we use to enforce our policies. To view this article in a different language, use the language dropdown at the bottom of the page.
+  
+
+
+All Discovery and Demand Gen product ads must comply with our advertising policies and our Shopping ads policies. This article outlines the additional requirements your products must meet to serve as a Discovery or Demand Gen product ad.
+
+Discovery and Demand Gen Shopping campaigns combine audience targeting features and visually engaging formats to help you better personalize your ads within Google's feeds to inspire customer action. This article outlines the requirements Discovery and Demand Gen product ad assets (headline, description, or image) must meet for your Discovery and Demand Gen Shopping campaigns to serve.
+
+Customers visit the YouTube Home and Watch Next feeds, Discover, and the Gmail Promotions and Social tabs to browse and explore new content that aligns with their interests. To ensure that we provide a high-quality consumer ad experience on Google’s personalized feeds, Discovery and Demand Gen product ads must comply with all Google Ads and personalization policies.
+
+In addition, we'll review each Discovery and Demand Gen product ad asset for compliance with the Discovery and Demand Gen product ads requirements listed below, which will take priority in the event there's conflict with the Google Ads and personalization policies. Discovery and Demand Gen product ads requirements may be more restrictive than the ads requirements for other platforms and surfaces, meaning disapproved Discovery and Demand Gen product ad assets may continue to run on Google’s other properties.
+
+Automated content policy decision
+
+To ensure a good experience for the customer, we may conduct automated reviews of your campaign content. This preliminary review may trigger restriction or suspension of the assets. If necessary, Google may further analyze the assets for a final decision.
+
+Quality checks
+
+ Assets that do not meet Discovery and Demand Gen product ads quality requirements
+
+Examples:
+
+
+  Clarity, correct spelling, and use of capitalization and symbols
+  Blurred, distorted, or poorly cropped images
+
+
+Discovery and Demand Gen product ads must meet the Google Ads editorial standards.
+
+Discovery and Demand Gen product ads requirements
+
+To assess any asset-level disapprovals in your account:
+
+
+  In your Merchant Center account, click Products from the navigation menu on the left.
+  Click All products.
+  Locate your product on the page, and check the "Status" section of the table to view that product's current approval status.
+
+
+Prohibited categories
+
+
+  
+    
+      
+        
+        Regulated goods
+        
+      
+    
+  
+
+
+ Assets that depict or reference regulated goods or substances, including (but not limited to) recreational drugs, tobacco, and alcohol
+ 
+
+
+  
+    
+      
+        
+        Weapons or criminality
+        
+      
+    
+  
+
+
+ Assets that depict or reference images of weapons or criminality, including (but not limited to) guns, firearms, ammunition, explosives, the sale of fireworks, knives, prison, criminals, or arrests
+ 
+
+ Allowed with limitations:
+
+
+  Assets that depict or reference the above prohibited categories in a scene from a fictional work of entertainment (video game, TV-show, movie, and more)
+  Assets that depict or reference the above prohibited categories but not in a violent or criminal context, including (but not limited to) kitchen and utility knives, historical artifacts, or halloween costumes
+
+
+
+
+  
+    
+      
+        
+        Cash giveaways content
+        
+      
+    
+  
+
+
+ Assets that depict cash sweepstakes or cash giveaways, including (but not limited to):
+
+
+  Cash rewards without legitimate customer action
+  Paid surveys and questionnaires
+  Cash sweepstakes or cash giveaways
+
+
+
+
+  
+    
+      
+        
+        Improper content
+        
+      
+    
+  
+
+
+ Assets that depict or reference racy or adult content, including (but not limited to):
+
+
+  Sexually suggestive content
+  Unnecessary focus on body parts
+  Sexual merchandise and entertainment
+
+
+
+ Assets that depict invasive medical procedures
+ 
+
+ Assets that depict content that could cause discomfort, including (but not limited to) bodily fluids and waste
+ 
+
+
+  
+    
+      
+        
+        Negative events
+        
+      
+    
+  
+
+
+ Assets that depict negative life events including (but not limited to):
+
+
+  Divorce
+  Breakups or family separation
+  Home foreclosures
+  Financial difficulties
+  Accidents and personal injuries (non-exhaustive examples include sport, professional/work, medical, and general accidents and injuries)
+  Damage to objects or properties (non-exhaustive examples include vandalism or destroyed personal property)
+
+
+
+ Assets that depict or reference natural or man-made crises
+ 
+
+ Assets that depict or reference behavioral addiction recovery including, rehabilitation facilities and products that aid in addiction recovery
+ 
+
+ Assets that depict death or death-related content including but not limited to:
+
+
+  A dead person or animal
+  A funeral home, mortuary, cemetery, mausoleum
+
+
+
+ Assets that depict trauma or pain including (but not limited to) a person grieving or crying
+ 
+
+ Assets that depict content that is presented in a way that is likely to trigger a negative reaction
+ 
+
+ Assets that depict discrimination, or encouragement of discrimination, against people based on their personal attributes
+ 
+
+ Assets that promote actions that violate other platforms’ Terms and Conditions
+ 
+
+ Allowed with limitations:
+
+
+  Assets that reference services, including (but not limited to) funeral home, mortuary, cemetery, mausoleum, and memorial services companies, family and divorce services (attorney/law offices/counseling), insurance, or event support services as long as they are neutrally and positively framed
+  Assets that depict or reference the negative events listed above in a scene from a fictional work of entertainment (video game, TV-show, movie, and others)
+
+
+
+
+  
+    
+      
+        
+        Dating-related prohibitions: users’ personal attributes
+        
+      
+    
+  
+
+
+ Assets that depict or reference dating services or matchmakers by asserting or implying user’s personal attributes, including (but not limited to) race, ethnic origin, nationality, religion, age or sexual orientation
+ 
+
+
+  
+    
+      
+        
+        Implied interactivity
+        
+      
+    
+  
+
+
+ Assets that feature visual elements that depict nonexistent functionality (such as a “play” button that cannot be clicked)
+ 
+
+ Assets that tease the customer into clicking the advertisement with sensational language, misleading claims or intentionally withholding necessary information
+ 
+
+ Assets that illustrate that someone is trying to contact or has matched with the customer while advertising a dating site
+ 
+
+
+  
+    
+      
+        
+        Selfie images
+        
+      
+    
+  
+
+
+ Assets that contain selfie images for dating related content
+ 
+
+
+  
+    
+      
+        
+        Unclear images
+        
+      
+    
+  
+
+
+ Blurry: Images that are blurry or unclear
+ 
+
+ Distorted: Images that are visually oddly skewed or shaped, morphed, upside-down, distastefully out of focus, color-inverted, excessively filtered, distorted, or contain watermarks
+ 
+
+ Poorly cropped: Images that are critically cropped or contain even minimally cropped text overlay
+ 
+
+
+  
+    
+      
+        
+        Offensive Language
+        
+      
+    
+  
+
+
+ Assets containing obscene or offensive language, including (but not limited to) profanity and sexual innuendos
+ 
+
+
+  
+    
+      
+        
+        Confusing text
+        
+      
+    
+  
+
+
+ Assets that use placeholder text, distasteful formatting such as nonsensical punctuation or capitalization, incomplete sentences, or don’t use commonly accepted spelling or grammar in a way that makes the subject of the asset difficult to understand
+ 
+
+ Assets that are longer than 10 words before a delimiter, such as (but not limited to) period, colon, pipe, parenthesis, “or”, “in”, “and”, “for”, or “by”
+
+
+  Example: “Straight leg 90s jeans blue denim side pockets high-waist ripped women size S” 
+
+
+
+ Assets that contain excessive details like product codes, SKU, or part numbers that aren’t part of the product name
+             Was this helpful?How can we improve it?YesNoSubmit       

@@ -1,0 +1,46 @@
+ Encoding settings for garbled text
+
+If you open the .txt Google product taxonomy and find that the text is garbled, you can update your browser's encoding settings to allow the taxonomy to render properly.
+
+To adjust your browser's encoding settings, just follow the browser-specific steps below.
+
+Chrome
+
+You can't adjust Chrome's encoding settings, but you can try using an extension to fix issues with garbled text.
+
+
+  Visit the Chrome Web Store.
+  At the top left, click Extensions.
+  Enter "Garbled text" in the search bar.
+  Choose an extension.
+
+
+Learn how to install and manage extensions
+
+Firefox
+
+
+  Select "View" from the top of your browser window.
+  Select "Text Encoding."
+  Select "Unicode (UTF-8)" from the dropdown menu.
+
+
+Safari
+
+
+  Select "View" from the top of your browser window.
+  Select "Text Encoding."
+  Select "Unicode (UTF-8)" from the dropdown menu.
+
+
+Internet Explorer
+
+
+  Navigate to the page you're having trouble viewing.
+  Right-click on the page.
+  Mouse over "Encoding."
+  In the expanded menu, select "Unicode (UTF-8)."
+
+
+
+             Was this helpful?How can we improve it?YesNoSubmit       

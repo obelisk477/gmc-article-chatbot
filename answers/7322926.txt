@@ -1,0 +1,23 @@
+ Troubleshoot offer already reviewed error
+
+If you try to upload a feed with a promotion that has previously been reviewed, you will likely get an error message stating, “Can't update an offer which has already been reviewed.” This error occurs when you try to update an approved promotion. To address this issue, do the following:
+
+Review your promotion status
+
+
+  In your Merchant Center account, click Marketing in the navigation menu, then click Promotions.
+  Note whether the Policy Status column shows “Approved” or "Disapproved”.
+  If the status of a promotion is “Approved”, it is still possible to edit most of that promotion's information using promotion builder. If the status is “Disapproved”, click the speech bubble icon in the Policy Status column for more details. A pop-up window will appear with information about the review status.
+
+
+
+  Learn how to edit a promotion or change promotion status
+
+
+Create a new promotion
+
+Duplicate the information from your original promotion, and then make your desired edits. Make sure you use a new promotion_id. The promotion will upload into our system as a new promotion and will go through the 2-step review process again.
+
+RETURN TO PROMOTIONS HOME
+
+             Was this helpful?How can we improve it?YesNoSubmit       

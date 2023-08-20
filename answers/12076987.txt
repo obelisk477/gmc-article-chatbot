@@ -1,0 +1,329 @@
+ Adult-oriented content
+
+
+  This policy applies to free listings. Learn more about Shopping ads policies.
+
+
+
+Our policy
+
+
+  
+    
+      
+        
+        
+          Google restricts free listings of the following types of adult-oriented content:
+
+          
+            Adult merchandise
+            Sexually suggestive content
+            Images containing exposed skin and nudity
+          
+
+          When listing adult content you may not do any of the following:
+
+          
+            Violate applicable laws or regulations for any location that you target
+            Target minors
+            List sexually explicit content
+            List content with underage or non-consensual sexual themes, including child sexual abuse content
+            List services that may be interpreted as providing sexual acts in exchange for compensation
+          
+        
+        
+      
+    
+  
+
+
+Refer to the product data specification for specific requirements on how to submit these products using the adult [adult] attribute, or by adjusting account level settings to ensure these products are shown to an appropriate audience.
+
+Prohibited Adult Content
+
+
+  
+    
+      
+        
+        Sexually explicit content
+        
+      
+    
+  
+
+
+
+  
+   Text, image, audio, or video of graphic sexual acts intended to arouse
+    
+      Examples: Graphic depictions of sexual acts in progress, including hardcore pornography, any type of genital, anal, or oral sexual activity; graphic depictions of masturbation or genital arousal and language explicitly referencing arousal, masturbation, cartoon porn, or hentai
+    
+  
+  
+
+
+
+  
+    
+      
+        
+        Non-consensual sexual content
+        
+      
+    
+  
+
+
+
+  
+   Content promoting underage, non-consensual or other illegal sexual themes, whether simulated or real
+    
+      Examples: Rape, incest, bestiality, necrophilia; lolita or teen-themed pornography
+    
+  
+  
+
+
+
+  
+    
+      
+        
+        Child sexual abuse imagery
+        
+      
+    
+  
+
+
+
+  
+   Content promoting the sexual exploitation of minors
+    
+      Examples: Child sexual abuse imagery or other content
+    
+  
+  
+
+
+Restricted adult content
+
+
+  
+    
+      
+        
+        Adult merchandise
+        
+      
+    
+  
+
+
+
+  
+   Promotion or sale of merchandise intended to enhance sexual activity
+
+    
+      Examples: Sex toys
+    
+  
+  
+
+
+
+  
+    
+      
+        
+        Sexually suggestive content
+        
+      
+    
+  
+
+
+
+  
+   Content containing sexually suggestive text, images, audio, or video
+
+    
+      Examples: Sexually suggestive language; non-sexually explicit erotic magazines, erotic DVDs, sexually suggestive lingerie promotions
+    
+  
+  
+
+
+
+  
+    
+      
+        
+        Nudity
+        
+      
+    
+  
+
+
+
+  
+   People or representations of people that display sexual body parts
+
+    
+      Examples: Visible genitalia, nipples, or bare buttocks
+    
+  
+  
+
+
+ 
+
+Country-specific requirements
+
+In addition to the requirements above, there may be further restrictions based on your target country. See additional country-specific requirements you must meet below.
+
+
+  
+    
+      Countries
+      Details
+    
+  
+  
+    
+      
+      Algeria
+  Bahrain
+  Belarus
+  Ecuador
+  Egypt
+  Georgia
+  Hong Kong
+  India
+  Indonesia
+  Jordan
+  Kazakhstan
+  Kuwait
+  Lebanon
+  Malaysia
+  Morocco
+  Myanmar (Burma)
+  Oman
+  Peru
+  Philippines
+  Russia
+  Saudi Arabia
+  Singapore
+  South Korea
+  Thailand
+  Tunisia
+  Turkey
+  Ukraine
+  United Arab Emirates
+  Vietnam
+   
+
+      
+       Not allowed
+      In these countries, Google doesn't allow the listing of adult-oriented content, including nudity.
+    
+    
+      Germany
+       Allowed with limitations
+In Germany, Google doesn’t allow adult-oriented content that displays sexualized nudity of human, digital, or otherwise artificially generated models (this includes cartoons, drawings, paintings, sculptures and anime). Sex toys must not be promoted in sexualized use by such models. Content must not show the genitals or the buttocks, or have exclusive focus on these body parts, even if those body parts are censored. 
+    
+  
+
+
+
+What you can do
+
+Here's what you can do if your product is disapproved or if your Merchant Center account is impacted:
+
+
+Product disapproval
+
+  Products that don't comply with our policies may be disapproved. When a product is disapproved, it won't be eligible to serve. 
+
+  
+    Read our policies to learn what we don't allow.
+    Update your website. If your ad or listing leads to content that violates a policy, update your website to meet the requirements and be in compliance with our policies.
+    Remove the violating products from your product data. You’ll receive an email with details about the violation. 
+      
+        If you have products in your product data that violate the policy (or policies), you'll need to remove the offers from your feed.
+      
+    
+    Update your product data in Merchant Center. If you created a schedule for automatic uploads, update your product data manually or wait for your product data to be automatically updated before requesting any reviews.
+    Request a review of your products or appeal the decision taken on this issue.
+      
+        If the violating products are removed, you won't need to request a review or take any additional action.
+        If you fix your product-level issues by editing your product data via your chosen upload method (such as a file) or directly in Merchant Center, your products will be re-reviewed.
+        For certain issues, you can disagree with the issue but you may need to complete additional steps such as provide an appeal reason and/or upload required documentation.
+        If you use a third-party platform to list your products, you can refer to your third-party if you want to request a review. You won’t be able to do this in Merchant Center.
+        If a review or appeal is successful, the issue will disappear from Merchant Center.
+      
+    
+  
+
+
+
+Account disapproval
+
+  For most violations, we'll send you a warning email detailing the policy violation and give you 7 or 28 calendar days to fix your issue.
+
+  
+    Read our policies to learn what we don't allow.
+    Update your website. If your ad or listing leads to content that violates a policy, update your website to meet the requirements and be in compliance with our policies.
+    Remove any violating products from your product data. You’ll receive an email with details about the violation. If you have products in your product data that violate the policy (or policies) you'll need to remove the offers from your feed.
+    Update your data in Merchant Center. 
+      
+        Review your account and submit any missing information or complete any unfinished steps. 
+        If you created a schedule for automatic uploads, update your product data manually or wait for your product data to be automatically updated before requesting any reviews.
+      
+    
+    Request a review of your account or appeal the decision taken on this issue.
+      
+        If your account is still within the warning period, it will automatically be reviewed again at the end of the warning period. If the violating products are removed, you won't need to request an account review or take any additional action.
+        If your account is suspended and you've taken actions to resolve the issue, request an account review.
+        For certain issues, you can disagree with the issue but you may need to complete additional steps such as provide an appeal reason and/or upload required documentation.
+        If you use a third-party platform to list your products, you can refer to your third-party if you want to request a review. You won’t be able to do this in Merchant Center.
+      
+    
+  
+
+  Most accounts are reviewed within 3 business days, but it can take longer if a more complex review is needed. If we find that you've removed the violating products from your product data, we’ll remove the warning. If a review or appeal is successful, the issue will disappear from Merchant Center. In the case of account suspension, we'll then also approve your account so your products can start displaying again.
+
+
+
+Account issue that limits product visibility
+
+  Your account has an issue and is operating with reserved functionality, therefore your products have limited visibility. An email was sent with a notice on what to do and the steps needed to resolve your account issue.
+
+  
+    Read our policies to learn more about our requirements.
+    Update your website. If your ad or listing leads to content that violates a policy, update your website to meet the requirements and be in compliance with our policies.
+    Fix any other open policy violation in your account. Review your products and your account details. 
+      
+        If products aren’t supported, remove them from your feed.
+        If account details are missing, complete them in Merchant Center. 
+      
+    
+    Request a review of your account or appeal the decision taken on this issue.
+      
+        If your Merchant Center account is still within the warning period for certain policies, it will automatically be reviewed again at the end of the warning period. 
+        If your account is affected and you've resolved the issue, request a Merchant Center account review.
+        For certain issues, you can disagree with the issue but you may need to complete additional steps such as provide an appeal reason and/or upload required documentation.
+        If you use a third-party platform to list your products, you can refer to your third-party if you want to request a review. You won’t be able to do this in Merchant Center.
+      
+    
+  
+
+  Most accounts are reviewed within 3 business days, but it can take longer if a more complex review is needed. If we find that you've removed the violating products from your product data, we’ll remove the warning. If a review or appeal is successful, the issue will disappear from Merchant Center. In the case of accounts with limited visibility, we'll then also approve your account so your products can start displaying again without any restrictions.
+
+
+ 
+
+To ensure a safe and positive experience for customers, Google requires that retailers comply with all applicable laws and regulations in addition to our policies. It's important that you familiarize yourself with and keep up to date on these requirements for the place where your business operates, as well as for any other places your listings are shown. When we find content that violates these requirements, we may block it from appearing. In cases of repeated or egregious violations, we may ban you from listing content with us.
+             Was this helpful?How can we improve it?YesNoSubmit       
