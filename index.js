@@ -26,3 +26,10 @@ async function scrapeAllArticles() {
 }
 
 scrapeAllArticles();
+
+async function getTopics() {
+    let topics = []
+    articleList.forEach(article => {
+        if !topics.includes(article.match(//))
+    })
+}
